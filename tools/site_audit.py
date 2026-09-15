@@ -56,14 +56,24 @@ def audit(domain):
                 checks["load_s"] = round(total, 2)
                 checks["weight_kb"] = round(len(html) / 1024)
                 break
+            except urllib.error.HTTPError as err:
+                # 403/503 from a bot wall is a live site that refused us, not a
+                # dead one; say so instead of scoring it as a rebuild candidate.
+                checks["reachable"] = True
+                checks["blocked_status"] = err.code
+                continue
             except (urllib.error.URLError, ssl.SSLError, TimeoutError, OSError):
                 continue
         if html:
             break
     if not html:
+        if checks.get("blocked_status"):
+            result["notes"].append(f'site answered HTTP {checks["blocked_status"]} to the scanner (bot wall); audit it in a browser')
+            result["score"] = 0
+            return result
         checks["reachable"] = False
         result["notes"].append("site did not respond over https or http")
-        result["score"] = 5
+        result["score"] = 0
         return result
 
     text = html.decode("utf-8", errors="ignore")
@@ -112,7 +122,7 @@ def main(argv):
         for note in r["notes"]:
             print(f"  - {note}")
         c = r["checks"]
-        if c.get("reachable"):
+        if "load_s" in c:
             print(f'  load {c["load_s"]}s, {c["weight_kb"]} KB, builder: {c.get("builder") or "unknown"}, title: {c.get("title")!r}')
     return 0
 
