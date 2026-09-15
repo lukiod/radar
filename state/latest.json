@@ -1,6 +1,367 @@
 {
- "generated_at": "2026-09-15T11:00:08Z",
+ "generated_at": "2026-09-15T15:38:03Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14116",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: Proposed  docs bounty: Latin (la) Python CLI quickstart",
+   "url": "https://github.com/BasedHardware/omi/issues/14116",
+   "at": "2026-09-15T15:34:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "liutingqiu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56664",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56664 GLM 5.3 prefill weights and traces",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56664",
+   "at": "2026-09-15T15:09:18Z",
+   "extra": {
+    "author": "pavlepopovic",
+    "labels": [
+     "shield_prefill"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56663",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56663 [Quasar] Expand SFPU typecast LLK Test Infra coverage to hit both Dest register banks",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56663",
+   "at": "2026-09-15T15:05:21Z",
+   "extra": {
+    "author": "amokanTT",
+    "labels": [
+     "llk:quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14112",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(slack-app): voice-dictated messages can be sent to the wrong channel on an ambiguous fuzzy match",
+   "url": "https://github.com/BasedHardware/omi/issues/14112",
+   "at": "2026-09-15T15:00:02Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "Abhist17",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14112",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14112 [Bounty proposal] fix(slack-app): voice-dictated messages can be sent to the wrong channel on an ambiguous fuzzy match",
+   "url": "https://github.com/BasedHardware/omi/issues/14112",
+   "at": "2026-09-15T15:00:02Z",
+   "extra": {
+    "state": "open",
+    "author": "Abhist17"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/50522",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#50522 [Bounty $1500] ModernBERT bring up using TTNN APIs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/50522",
+   "at": "2026-09-15T14:48:39Z",
+   "extra": {
+    "state": "CLOSED",
+    "author": "sreeshanth-soma",
+    "assignees": [
+     "sreeshanth-soma"
+    ],
+    "created": "2026-07-21T02:23:38Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56661",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56661 [gpt_oss_d_p] Prefill trace capture: two stages",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56661",
+   "at": "2026-09-15T14:48:22Z",
+   "extra": {
+    "author": "mdragulaTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56660",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56660 [gpt_oss_d_p] Capture and replay one prefill chunk (bounded SWA off)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56660",
+   "at": "2026-09-15T14:48:20Z",
+   "extra": {
+    "author": "mdragulaTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56659",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56659 [SFPI] vFloat ==/!= is bitwise, not IEEE: NaN == NaN is true and x != x is false (changed in 7.75.0)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56659",
+   "at": "2026-09-15T14:47:58Z",
+   "extra": {
+    "author": "ldjurovicTT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14110",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: Proposed  docs bounty: Afrikaans (af) Python CLI quickstart",
+   "url": "https://github.com/BasedHardware/omi/issues/14110",
+   "at": "2026-09-15T14:42:37Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "liutingqiu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56657",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56657 Remove in-the-middle compute_kernel_hw_startups from mm/fused/reduce kernels",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56657",
+   "at": "2026-09-15T14:41:35Z",
+   "extra": {
+    "author": "iwroszTT",
+    "labels": [
+     "op_cat: fused",
+     "ign-ops"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56655",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56655 [BH] mul_reduce_scalar_chunked_tile under-reduces once num_tiles > capacity; copy_dest_value fails to stage DST[1] in one program",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56655",
+   "at": "2026-09-15T14:30:05Z",
+   "extra": {
+    "author": "ronnie00TT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14108",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: Proposed  docs bounty: Esperanto (eo) Python CLI quickstart",
+   "url": "https://github.com/BasedHardware/omi/issues/14108",
+   "at": "2026-09-15T14:25:55Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "liutingqiu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56654",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56654 Try making in0_block_w_gu model dependent",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56654",
+   "at": "2026-09-15T14:22:54Z",
+   "extra": {
+    "author": "pmilojevicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56652",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56652 [aw] Failed jobs: Matt Pocock Skills Reviewer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56652",
+   "at": "2026-09-15T14:13:29Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] Cantonese (\u7cb5\u8a9e / yue) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14106",
+   "at": "2026-09-15T14:12:53Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": 25,
+    "author": "liutingqiu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14106",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14106 [Bounty proposal] Cantonese (\u7cb5\u8a9e / yue) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14106",
+   "at": "2026-09-15T14:12:53Z",
+   "extra": {
+    "state": "open",
+    "author": "liutingqiu"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/da966befb9c76732dd58fe9d3d888823af12bc4a",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] tests: score MxInt blocks the way they were actually scaled (#56570)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/da966befb9c76732dd58fe9d3d888823af12bc4a",
+   "at": "2026-09-15T14:03:31Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/helpers/utils.py"
+    ],
+    "added": [],
+    "author": "mcraigheadTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/0564db573c06b3e68952f9847d3ee5d8a03e451f",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] tests: underflow on the Src exponents, not the product (#56553)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/0564db573c06b3e68952f9847d3ee5d8a03e451f",
+   "at": "2026-09-15T14:03:06Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_reuse_dest_quasar.py"
+    ],
+    "added": [],
+    "author": "mcraigheadTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56650",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56650 [Bug] test_unary_tanh_approx_ttnn aborts every worker on ttsim SKUs after #56076 (main red)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56650",
+   "at": "2026-09-15T14:02:16Z",
+   "extra": {
+    "author": "Aswinmcw",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/88b365fcc8876b6840527c5b6f687673d8b530de",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] tests: mask reuse-dest operands in the Src registers' format (#56590)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/88b365fcc8876b6840527c5b6f687673d8b530de",
+   "at": "2026-09-15T14:00:54Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_reuse_dest_quasar.py"
+    ],
+    "added": [],
+    "author": "mcraigheadTT"
+   }
+  },
+  {
+   "id": "https://github.com/Lilly-Protocol/lily-sdk/issues/576",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Lilly-Protocol/lily-sdk: Settlement request for 3 merged bounty contributions from aEMPTYCUP",
+   "url": "https://github.com/Lilly-Protocol/lily-sdk/issues/576",
+   "at": "2026-09-15T13:35:32Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "aEMPTYCUP",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56644",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56644 [Fast dispatch]: Fast dispatch broken on Horizon",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56644",
+   "at": "2026-09-15T12:50:59Z",
+   "extra": {
+    "author": "etomuskTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56641",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56641 Verify v_if control flow is legit",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56641",
+   "at": "2026-09-15T12:34:14Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/0ad53e6080e51e94ff758d9ebc5d6c93af49e911",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "#55060: Add sfpi::lreg_pressure markers (#56472)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/0ad53e6080e51e94ff758d9ebc5d6c93af49e911",
+   "at": "2026-09-15T12:26:20Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_trigonometry.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_remainder.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32_floor.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_remainder.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_trigonometry.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_unary_power.h"
+    ],
+    "added": [],
+    "author": "nathan-TT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56635",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56635 [aw] Failed jobs: `/test` \u2014 CI pipeline selector for tt-metal",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56635",
+   "at": "2026-09-15T11:53:24Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56628",
    "source": "tenstorrent",
@@ -35,6 +396,7 @@
    "extra": {
     "author": "heroxcreed",
     "labels": [
+     "bug",
      "op_cat: reduces",
      "community"
     ]
@@ -282,7 +644,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13980",
    "at": "2026-09-15T08:41:40Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "t3ratech",
     "labels": []
@@ -355,7 +717,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13978",
    "at": "2026-09-15T07:47:27Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "shitobu",
     "labels": []
@@ -381,7 +743,7 @@
    "url": "https://github.com/attogram/THE-ERROR-IS-THE-MESSAGE/issues/79",
    "at": "2026-09-15T07:39:13Z",
    "extra": {
-    "comments": 5,
+    "comments": 6,
     "amount_usd": null,
     "author": "attogram",
     "labels": []
@@ -418,17 +780,15 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13974",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app-tools): omitted optional tool parameters are sent to apps and MCP servers as JSON null",
-   "url": "https://github.com/BasedHardware/omi/issues/13974",
-   "at": "2026-09-15T07:04:19Z",
+   "id": "https://github.com/BasedHardware/omi/issues/13976",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#13976 [Bounty proposal] fix(hive-app): update_task_status changes the first search hit when the name does not match exactly",
+   "url": "https://github.com/BasedHardware/omi/issues/13976",
+   "at": "2026-09-15T07:08:20Z",
    "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "lukiod",
-    "labels": []
+    "state": "open",
+    "author": "lukiod"
    }
   },
   {
@@ -457,20 +817,6 @@
     "labels": [
      "agentic-workflows"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13972",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(coingecko-app): optional parameters sent as null by the backend fail validation on every ordinary call",
-   "url": "https://github.com/BasedHardware/omi/issues/13972",
-   "at": "2026-09-15T06:50:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "lukiod",
-    "labels": []
    }
   },
   {
@@ -799,12 +1145,12 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13950",
+   "id": "https://github.com/BasedHardware/omi/issues/13946",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(cli): conversation list --limit above 100 (25 with --include-transcript) silently returns a truncated page",
-   "url": "https://github.com/BasedHardware/omi/issues/13950",
-   "at": "2026-09-14T21:40:24Z",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(shopify-app): get_orders and get_customers crash with TypeError on the JSON null the backend sends for omitted limit",
+   "url": "https://github.com/BasedHardware/omi/issues/13946",
+   "at": "2026-09-14T21:37:43Z",
    "extra": {
     "comments": 2,
     "amount_usd": null,
@@ -813,29 +1159,15 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13950",
+   "id": "https://github.com/BasedHardware/omi/issues/13946",
    "source": "omi",
    "kind": "omi_proposal",
-   "title": "omi#13950 [Bounty proposal] fix(cli): conversation list --limit above 100 (25 with --include-transcript) silently returns a truncated page",
-   "url": "https://github.com/BasedHardware/omi/issues/13950",
-   "at": "2026-09-14T21:40:24Z",
-   "extra": {
-    "state": "open",
-    "author": "goldnbones"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13946",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(shopify-app): get_orders and get_customers crash with TypeError on the JSON null the backend sends for omitted limit",
+   "title": "omi#13946 [Bounty proposal] fix(shopify-app): get_orders and get_customers crash with TypeError on the JSON null the backend sends for omitted limit",
    "url": "https://github.com/BasedHardware/omi/issues/13946",
    "at": "2026-09-14T21:37:43Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "goldnbones",
-    "labels": []
+    "state": "open",
+    "author": "goldnbones"
    }
   },
   {
@@ -846,36 +1178,10 @@
    "url": "https://github.com/BasedHardware/omi/issues/13944",
    "at": "2026-09-14T21:34:12Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "goldnbones",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13941",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(mcp): get_conversations silently drops an unparseable date filter and returns the unfiltered list",
-   "url": "https://github.com/BasedHardware/omi/issues/13941",
-   "at": "2026-09-14T21:30:53Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "goldnbones",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13941",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13941 [Bounty proposal] fix(mcp): get_conversations silently drops an unparseable date filter and returns the unfiltered list",
-   "url": "https://github.com/BasedHardware/omi/issues/13941",
-   "at": "2026-09-14T21:30:53Z",
-   "extra": {
-    "state": "open",
-    "author": "goldnbones"
    }
   },
   {
@@ -907,32 +1213,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13933",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): Developer API PATCH persists a blank action-item description / conversation title",
-   "url": "https://github.com/BasedHardware/omi/issues/13933",
-   "at": "2026-09-14T21:21:33Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "goldnbones",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13933",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13933 [Bounty proposal] fix(backend): Developer API PATCH persists a blank action-item description / conversation title",
-   "url": "https://github.com/BasedHardware/omi/issues/13933",
-   "at": "2026-09-14T21:21:33Z",
-   "extra": {
-    "state": "open",
-    "author": "goldnbones"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/13931",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -944,6 +1224,18 @@
     "amount_usd": null,
     "author": "goldnbones",
     "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/13931",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#13931 [Bounty proposal] fix(whoop-app): get_workouts crashes with TypeError on the JSON null the backend sends for omitted days/max_results",
+   "url": "https://github.com/BasedHardware/omi/issues/13931",
+   "at": "2026-09-14T21:20:47Z",
+   "extra": {
+    "state": "open",
+    "author": "goldnbones"
    }
   },
   {
@@ -971,20 +1263,6 @@
     "comments": 1,
     "amount_usd": null,
     "author": "jzhou1402",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13925",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty] Fix Semantic Scholar null payload TypeErrors, author paper sort crash, and missing identifier normalization ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13925",
-   "at": "2026-09-14T21:07:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ivansky1",
     "labels": []
    }
   },
@@ -1056,32 +1334,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13920",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(linear-app): parameterize GraphQL queries and coerce limit inputs",
-   "url": "https://github.com/BasedHardware/omi/issues/13920",
-   "at": "2026-09-14T20:24:31Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ivansky1",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13920",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13920 [Bounty proposal] fix(linear-app): parameterize GraphQL queries and coerce limit inputs",
-   "url": "https://github.com/BasedHardware/omi/issues/13920",
-   "at": "2026-09-14T20:24:31Z",
-   "extra": {
-    "state": "open",
-    "author": "Ivansky1"
-   }
-  },
-  {
    "id": "https://github.com/ZecHub/zec-bounties/issues/235",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1089,7 +1341,7 @@
    "url": "https://github.com/ZecHub/zec-bounties/issues/235",
    "at": "2026-09-14T19:41:26Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "wiaikit",
     "labels": []
@@ -1126,32 +1378,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13915",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(notion-app): get_page reads only the first 50 blocks and never follows next_cursor",
-   "url": "https://github.com/BasedHardware/omi/issues/13915",
-   "at": "2026-09-14T18:58:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Abhist17",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13915",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13915 [Bounty proposal] fix(notion-app): get_page reads only the first 50 blocks and never follows next_cursor",
-   "url": "https://github.com/BasedHardware/omi/issues/13915",
-   "at": "2026-09-14T18:58:45Z",
-   "extra": {
-    "state": "open",
-    "author": "Abhist17"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/13913",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1159,7 +1385,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13913",
    "at": "2026-09-14T18:52:41Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "Abhist17",
     "labels": []
@@ -1178,32 +1404,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13911",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(github-app): coerce issue inputs and propagate API errors",
-   "url": "https://github.com/BasedHardware/omi/issues/13911",
-   "at": "2026-09-14T18:48:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "TheRWX",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13911",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13911 [Bounty proposal] fix(github-app): coerce issue inputs and propagate API errors",
-   "url": "https://github.com/BasedHardware/omi/issues/13911",
-   "at": "2026-09-14T18:48:50Z",
-   "extra": {
-    "state": "open",
-    "author": "TheRWX"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/13909",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1211,7 +1411,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13909",
    "at": "2026-09-14T18:48:38Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1237,7 +1437,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13907",
    "at": "2026-09-14T18:48:06Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1263,7 +1463,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13905",
    "at": "2026-09-14T18:47:34Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1289,7 +1489,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13903",
    "at": "2026-09-14T18:47:08Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1315,7 +1515,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13901",
    "at": "2026-09-14T18:46:36Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1341,7 +1541,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13899",
    "at": "2026-09-14T18:45:54Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1367,7 +1567,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13897",
    "at": "2026-09-14T18:44:30Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1393,7 +1593,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13895",
    "at": "2026-09-14T18:44:02Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1419,7 +1619,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13893",
    "at": "2026-09-14T18:43:33Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1445,7 +1645,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13891",
    "at": "2026-09-14T18:43:02Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1471,7 +1671,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13889",
    "at": "2026-09-14T18:42:21Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -1571,7 +1771,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13883",
    "at": "2026-09-14T17:43:45Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 25,
     "author": "t3ratech",
     "labels": []
@@ -1623,7 +1823,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13881",
    "at": "2026-09-14T17:43:42Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "t3ratech",
     "labels": []
@@ -1649,7 +1849,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13879",
    "at": "2026-09-14T17:38:18Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "t3ratech",
     "labels": []
@@ -1701,7 +1901,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13877",
    "at": "2026-09-14T17:38:16Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "t3ratech",
     "labels": []
@@ -1714,32 +1914,6 @@
    "title": "omi#13877 [Bounty proposal] Croatian (hrvatski) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/13877",
    "at": "2026-09-14T17:38:16Z",
-   "extra": {
-    "state": "open",
-    "author": "t3ratech"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13876",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Catalan (catal\u00e0) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13876",
-   "at": "2026-09-14T17:38:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "t3ratech",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13876",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13876 [Bounty proposal] Catalan (catal\u00e0) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13876",
-   "at": "2026-09-14T17:38:15Z",
    "extra": {
     "state": "open",
     "author": "t3ratech"
@@ -1822,7 +1996,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13873",
    "at": "2026-09-14T17:28:38Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "t3ratech",
     "labels": []
@@ -1848,7 +2022,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13871",
    "at": "2026-09-14T17:28:37Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "t3ratech",
     "labels": []
@@ -1954,6 +2128,18 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/issues/13866",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#13866 [Bounty proposal] fix(twitter-chat-tools): requests for fewer posts than the X endpoint floor are rejected with HTTP 400",
+   "url": "https://github.com/BasedHardware/omi/issues/13866",
+   "at": "2026-09-14T16:31:46Z",
+   "extra": {
+    "state": "open",
+    "author": "lukiod"
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56513",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1979,6 +2165,18 @@
     "amount_usd": null,
     "author": "lukiod",
     "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/13864",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#13864 [Bounty proposal] fix(ms365): tool dispatcher reads body.args, which Omi never sends, so every tool with a required parameter returns 400",
+   "url": "https://github.com/BasedHardware/omi/issues/13864",
+   "at": "2026-09-14T16:22:52Z",
+   "extra": {
+    "state": "open",
+    "author": "lukiod"
    }
   },
   {
@@ -2030,32 +2228,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/13862",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(notion): search and list_pages print truncated page ids that get/update/append cannot use",
-   "url": "https://github.com/BasedHardware/omi/issues/13862",
-   "at": "2026-09-14T16:15:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "lukiod",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13862",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13862 [Bounty proposal] fix(notion): search and list_pages print truncated page ids that get/update/append cannot use",
-   "url": "https://github.com/BasedHardware/omi/issues/13862",
-   "at": "2026-09-14T16:15:12Z",
-   "extra": {
-    "state": "open",
-    "author": "lukiod"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/54016",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2083,6 +2255,18 @@
     "amount_usd": null,
     "author": "lukiod",
     "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/13860",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#13860 [Bounty proposal] fix(google-calendar): list_events prints truncated event ids that get/update/delete_event cannot use",
+   "url": "https://github.com/BasedHardware/omi/issues/13860",
+   "at": "2026-09-14T16:12:28Z",
+   "extra": {
+    "state": "open",
+    "author": "lukiod"
    }
   },
   {
@@ -2150,20 +2334,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56503",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56503 [aw] Failed jobs: Tenstorrent Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56503",
-   "at": "2026-09-14T15:21:54Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/flaukowski/0xSCADA/issues/94",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2180,35 +2350,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56501",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56501 [aw] Failed jobs: Matt Pocock Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56501",
-   "at": "2026-09-14T15:14:13Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56500",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56500 [test infra] tt-llk `topk_test.cpp`: pack\u2192unpack race between merge-ladder iterations makes every W \u2265 256 result wrong; the harness only runs W = 128 and skips 32\u00d71024 as \"observed discrepancies\"",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56500",
-   "at": "2026-09-14T15:10:03Z",
-   "extra": {
-    "author": "beyondpremiere",
-    "labels": [
-     "community",
-     "llk:test-infra"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/13852",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -2216,7 +2357,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13852",
    "at": "2026-09-14T15:05:47Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "Abhist17",
     "labels": []
@@ -2235,44 +2376,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56498",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56498 [aw] Failed jobs: Matt Pocock Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56498",
-   "at": "2026-09-14T14:58:30Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/656f87fcdb43da90067db8d01c9ea881fd84eaa6",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#31247: support a scalar left operand for eltwise add/subtract/multiply/div (#54438)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/656f87fcdb43da90067db8d01c9ea881fd84eaa6",
-   "at": "2026-09-14T13:58:50Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary_composite.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary_nanobind.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/device/binary_composite_op.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_scalar.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu_scalar.cpp"
-    ],
-    "added": [],
-    "author": "iklemenskiTT"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/49307",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2286,21 +2389,6 @@
      "morhimanshu"
     ],
     "created": "2026-07-07T21:46:56Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56492",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56492 [test infra] tt-llk Float32 sweeps never define `INP_FLOAT32`, so erf / i1 / digamma / softplus fp32 results measure the bf16 algorithm",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56492",
-   "at": "2026-09-14T13:49:30Z",
-   "extra": {
-    "author": "beyondpremiere",
-    "labels": [
-     "community",
-     "llk:test-infra"
-    ]
    }
   },
   {
@@ -2327,64 +2415,6 @@
    "extra": {
     "state": "open",
     "author": "Aj2280"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56490",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56490 ttnn.gelu (accurate variant, float32): the rewritten FP32 branch still loses the negative tail to `1 + erf` cancellation \u2014 non-monotonic output, up to 19.6M representable floats from torch and 700 % from float64 for x < \u22124.75 (simulator measurement)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56490",
-   "at": "2026-09-14T13:42:21Z",
-   "extra": {
-    "author": "beyondpremiere",
-    "labels": [
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56488",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56488 Dflash - e2e",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56488",
-   "at": "2026-09-14T13:30:50Z",
-   "extra": {
-    "author": "pavlepopovic",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56487",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56487 Dflash prefill - memory usage loss due to full kv cache for drafter model",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56487",
-   "at": "2026-09-14T13:23:09Z",
-   "extra": {
-    "author": "pavlepopovic",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/b509b62573a954ccaeb469b8dfce0356daf7fbd3",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][Quasar] Name the SFPSTORE format field in the SFPU relu kernel (#56211)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/b509b62573a954ccaeb469b8dfce0356daf7fbd3",
-   "at": "2026-09-14T12:55:07Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_relu.h"
-    ],
-    "added": [],
-    "author": "amahmudTT"
    }
   },
   {
@@ -2437,149 +2467,6 @@
    "extra": {
     "state": "open",
     "author": "Aj2280"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56480",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56480 Week 9/14 - 9/18",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56480",
-   "at": "2026-09-14T12:30:35Z",
-   "extra": {
-    "author": "pmilojevicTT",
-    "labels": [
-     "shield_prefill",
-     "CI"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56479",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56479 Perf increase for GLM 5.2 chunked prefill E2E traced",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56479",
-   "at": "2026-09-14T12:29:43Z",
-   "extra": {
-    "author": "pmilojevicTT",
-    "labels": [
-     "shield_prefill",
-     "CI"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56478",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56478 Small perf drop for Kimi K2.7 E2E prefill chunked 55K perf no-trace and traced test",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56478",
-   "at": "2026-09-14T12:28:05Z",
-   "extra": {
-    "author": "pmilojevicTT",
-    "labels": [
-     "shield_prefill",
-     "CI"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56477",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56477 PCC drop for test_kimi_prefill_transformer_chunked_padded[blackhole-kimi_k2_7-torus-xy-8x4-L61-mid15k-notrace",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56477",
-   "at": "2026-09-14T12:25:34Z",
-   "extra": {
-    "author": "pmilojevicTT",
-    "labels": [
-     "shield_prefill",
-     "CI"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56476",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56476 PCC drop for test_producer_runner_e2e.py::test_producer_runner_pcc[single_user_full_depth]",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56476",
-   "at": "2026-09-14T12:22:45Z",
-   "extra": {
-    "author": "pmilojevicTT",
-    "labels": [
-     "shield_prefill",
-     "CI"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56474",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56474 [Qwen3.6] Prepare persistent prefill state and every decode bucket before trace capture",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56474",
-   "at": "2026-09-14T12:16:29Z",
-   "extra": {
-    "author": "viktorpusTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/fdfad84bffc22ea9bf82f0b89e1f1c66748baa59",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [SAN] Model Unpack AB (#55057)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/fdfad84bffc22ea9bf82f0b89e1f1c66748baa59",
-   "at": "2026-09-14T12:08:28Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_unpack_AB_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_AB_api.h",
-     "tt_metal/tt-llk/tools/include/sanitizer/operation.h"
-    ],
-    "added": [],
-    "author": "sstanisicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/bd5b7a7a7aaaea4da82cfa52067150d91c412e5f",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [SAN] Model Wormhole Fast Tilize (#55094)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/bd5b7a7a7aaaea4da82cfa52067150d91c412e5f",
-   "at": "2026-09-14T12:08:27Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_math_unary_datacopy_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_pack_fast_tilize_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_tilize_api.h",
-     "tt_metal/tt-llk/tools/include/sanitizer/operation.h"
-    ],
-    "added": [],
-    "author": "sstanisicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/a8fe40d943912fd805842e603a8df9682e2d92db",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [SAN] Model Pack Untilize (#55093)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/a8fe40d943912fd805842e603a8df9682e2d92db",
-   "at": "2026-09-14T12:08:26Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/2_0/llk_pack_untilize.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_pack_untilize_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_pack_untilize_api.h",
-     "tt_metal/hw/inc/api/compute/pack_untilize.h",
-     "tt_metal/tt-llk/tools/include/sanitizer/operation.h"
-    ],
-    "added": [],
-    "author": "sstanisicTT"
    }
   },
   {
@@ -2792,20 +2679,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/13788",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] Marathi (\u092e\u0930\u093e\u0920\u0940) quickstart for omi-cli ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13788",
-   "at": "2026-09-14T06:56:37Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "Aj2280",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13788",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#13788 [Bounty proposal] Marathi (\u092e\u0930\u093e\u0920\u0940) quickstart for omi-cli ( proposed)",
@@ -2814,22 +2687,6 @@
    "extra": {
     "state": "open",
     "author": "Aj2280"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/50522",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#50522 [Bounty $1500] ModernBERT bring up using TTNN APIs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/50522",
-   "at": "2026-09-13T23:34:35Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "sreeshanth-soma",
-    "assignees": [
-     "sreeshanth-soma"
-    ],
-    "created": "2026-07-21T02:23:38Z"
    }
   },
   {
@@ -3106,18 +2963,6 @@
    "extra": {
     "state": "OPEN",
     "author": "LubuSeb"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/920",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#920 [Bug bounty] Kivaloo: 9-byte B+Tree page crashes kvlds via size_t underflow in deserialize()",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/920",
-   "at": "2026-09-12T12:54:09Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "rudrasatani13"
    }
   }
  ],

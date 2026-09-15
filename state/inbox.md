@@ -47,4 +47,3 @@ Each line: expected value ÷ your minutes, highest first.
 
 Paid to date: $0. Expected value in flight: $1,098.
 States: accepted 3, paid 1, produced 25, rejected 3, submitted 18
-
