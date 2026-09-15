@@ -11,9 +11,6 @@ Each line: expected value ÷ your minutes, highest first.
 - **GEM Family Law, Denver (managing partner egebhardt@, Clay): intake + scheduling pitch** (agency, produced)
   $4,000 × 5% = $200 expected, 2 min. Send the draft from your mailbox; name only signature and the Reply stop line.
   https://familylawco.com
-- **Snake n Rooter Plumbing, Kansas City (rbarefoot@): after hours intake pitch** (agency, produced)
-  $3,000 × 3% = $90 expected, 0 min. Send the draft from your mailbox; name only signature and the Reply stop line.
-  https://snakenrooterplumbing.com
 - **Hulse Law Firm, Littleton CO (via administrator): 6.2s homepage pitch** (agency, produced)
   $3,500 × 3% = $105 expected, 2 min. Send the draft from your mailbox; name only signature and the Reply stop line.
   https://hulselawfirm.com
@@ -37,5 +34,5 @@ Each line: expected value ÷ your minutes, highest first.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
 Paid to date: $0. Expected value in flight: $948.
-States: paid 1, produced 11, rejected 2, submitted 17
+States: paid 1, produced 10, rejected 3, submitted 17
 

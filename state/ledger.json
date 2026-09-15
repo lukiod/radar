@@ -507,13 +507,17 @@
     {
      "at": "2026-09-15T10:28:53Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-15T10:56:45Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-kc-03",
    "lane": "agency",
-   "note": "draft in internal-docs/comms/outbound-queue-agency-2026-09-16.md; sends from prodev on 09 16 within cap",
+   "note": "dropped 2026-09-15: homepage links Schedule online to a contact form, claim was false",
    "probability": 0.03,
-   "state": "produced",
+   "state": "rejected",
    "title": "Snake n Rooter Plumbing, Kansas City (rbarefoot@): after hours intake pitch",
    "url": "https://snakenrooterplumbing.com"
   },
