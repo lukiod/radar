@@ -833,6 +833,23 @@
    "state": "submitted",
    "title": "Advocate Shailesh Joshi, Pune (verified gmail): consult booking + WhatsApp reminders",
    "url": "https://advocateshaileshjoshi.com"
+  },
+  {
+   "amount_usd": 215,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T15:27:48Z",
+     "state": "produced"
+    }
+   ],
+   "id": "pune-0003",
+   "lane": "agency",
+   "note": "Pune local lane, INR 18,000 via UPI; draft in comms/outbound-queue-pune-2026-09-16.md; agent sends 09 16",
+   "probability": 0.05,
+   "state": "produced",
+   "title": "Itakshii Architecture & Design, Pune (verified gmail): site visit booking + WhatsApp reminders",
+   "url": "https://itakshidesigns.co.in"
   }
  ]
 }
