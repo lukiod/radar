@@ -116,7 +116,8 @@ def inbox(data):
         if not rec.get("founder_minutes"):
             continue
         items.append((rec, step))
-    items.sort(key=lambda pair: -(expected_value(pair[0]) / max(pair[0]["founder_minutes"], 1)))
+    # Money already won (accepted, waiting on a claim) outranks everything.
+    items.sort(key=lambda pair: (pair[0]["state"] != "accepted", -(expected_value(pair[0]) / max(pair[0]["founder_minutes"], 1))))
     return items
 
 
