@@ -410,6 +410,23 @@
    "state": "produced",
    "title": "Hulse Law Firm, Littleton CO (via administrator): 6.2s homepage pitch",
    "url": "https://hulselawfirm.com"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T06:50:53Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0005",
+   "lane": "omi",
+   "note": "proposal #13972; all four CoinGecko tools failed on null optionals",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 13973 CoinGecko null optional parameters",
+   "url": "https://github.com/BasedHardware/omi/pull/13973"
   }
  ]
 }
