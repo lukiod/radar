@@ -698,6 +698,23 @@
    "state": "produced",
    "title": "Lawrence Law Office, Columbus (llawrence@, Clay): consult scheduling pitch",
    "url": "https://ohio-family-law.com"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T11:16:06Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0008",
+   "lane": "omi",
+   "note": "proposal #13997; create_wro received inventory for the first substring match",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 13998 ShipBob product name resolution",
+   "url": "https://github.com/BasedHardware/omi/pull/13998"
   }
  ]
 }
