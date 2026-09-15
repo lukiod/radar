@@ -20,14 +20,50 @@ import urllib.request
 from datetime import date
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
-BOOKING = ("calendly", "acuity", "book now", "book online", "schedule online", "book an appointment",
-           "schedule an appointment", "request appointment", "zocdoc", "housecall", "jobber", "servicetitan",
-           "mindbody", "vagaro", "square appointments", "setmore", "booksy", "free estimate", "schedule your estimate",
-           "schedule an estimate", "request an estimate", "request a quote", "get a quote", "schedule service")
+JS_FORMS = ("nf_tp_module", "ninja-forms", "nf-form", "gform_wrapper", "wpforms-form", "wpcf7-form",
+            "hbspt.forms", "hs-form", "jotform", "typeform", "formstack", "cognitoforms", "elementor-form",
+            "fluentform", "forminator", "formidable", "frm_forms", "data-form_id", "wufoo", "123formbuilder")
+BOOKING = ("calendly", "acuity", "zocdoc", "housecall", "jobber", "servicetitan", "mindbody", "vagaro",
+           "square appointments", "setmore", "booksy", "book now", "book online", "schedule online",
+           "book an appointment", "schedule an appointment", "book a consultation", "schedule a consultation online",
+           "book your appointment", "schedule your appointment", "online scheduling", "online booking")
+# "free estimate", "schedule service" and "request a quote" were removed: on most
+# homepages they caption a phone number, and a form is detected separately.
 BUILDERS = {
     "wix.com": "Wix", "squarespace": "Squarespace", "godaddy": "GoDaddy Website Builder", "weebly": "Weebly",
     "wp-content": "WordPress", "shopify": "Shopify", "duda": "Duda", "webflow": "Webflow", "jimdo": "Jimdo",
 }
+
+
+BOOKING_TOOLS = ("calendly", "acuity", "zocdoc", "housecall", "jobber", "servicetitan", "mindbody", "vagaro",
+                 "square appointments", "setmore", "booksy", "webscheduler", "schedulicity", "simplybook", "getjobber",
+                 "nexhealth", "localmed", "dentrix", "flexbook", "opendental", "weave", "solutionreach", "clio", "lawmatics")
+BOOKING_WORDS = {"book", "schedule", "appointment", "booking", "scheduling"}
+ANCHOR_RE = re.compile(r"<(?:a|button)\b([^>]*)>(.*?)</(?:a|button)>", re.S)
+
+
+def has_online_booking(lower):
+    """Online self scheduling means a known scheduler is embedded, or a link or
+    button whose text is about booking points somewhere other than a phone
+    number. Plain prose like "call us to schedule an appointment" does not count."""
+    if any(tool in lower for tool in BOOKING_TOOLS):
+        return True
+    for attrs, inner in ANCHOR_RE.findall(lower):
+        text = re.sub(r"<[^>]+>", " ", inner)
+        words = set(re.findall(r"[a-z]+", text))
+        if not words & BOOKING_WORDS:
+            continue
+        href = re.search(r'href\s*=\s*["\']([^"\']*)', attrs)
+        target = href.group(1) if href else ""
+        if target.startswith("tel:") or target.startswith("mailto:"):
+            continue
+        if "call" in words and "online" not in words:
+            continue
+        # The link has to lead to a scheduler, not to a generic contact page.
+        if not any(k in target for k in ("book", "schedul", "appoint", "reserv", "widget")):
+            continue
+        return True
+    return False
 
 
 def fetch(url, timeout=15):
@@ -87,9 +123,11 @@ def audit(domain):
         result["score"] = 0
         return result
     checks["viewport"] = 'name="viewport"' in lower
-    checks["booking"] = any(k in lower for k in BOOKING)
+    checks["booking"] = has_online_booking(lower)
     checks["click_to_call"] = 'href="tel:' in lower
-    checks["form"] = "<form" in lower
+    # JavaScript rendered form builders leave no <form> in the HTML but the
+    # page has a working form (GEM Family Law's FindLaw site: Ninja Forms).
+    checks["form"] = "<form" in lower or any(k in lower for k in JS_FORMS)
     checks["title"] = re.search(r"<title[^>]*>(.*?)</title>", text, re.S | re.I)
     checks["title"] = checks["title"].group(1).strip()[:120] if checks["title"] else ""
     years = [int(y) for y in re.findall(r"(?:©|&copy;|copyright)\s*(?:\d{4}\s*[-–]\s*)?(20\d\d)", lower)]
