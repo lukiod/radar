@@ -34,5 +34,5 @@ Each line: expected value ÷ your minutes, highest first.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
 Paid to date: $0. Expected value in flight: $948.
-States: paid 1, produced 16, rejected 3, submitted 17
+States: paid 1, produced 17, rejected 3, submitted 17
 
