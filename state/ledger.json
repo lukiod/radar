@@ -715,6 +715,23 @@
    "state": "submitted",
    "title": "omi PR 13998 ShipBob product name resolution",
    "url": "https://github.com/BasedHardware/omi/pull/13998"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T11:20:32Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0009",
+   "lane": "omi",
+   "note": "proposal #13999; create_order sold the first word match and variants[0]",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 14000 Shopify create_order product and variant resolution",
+   "url": "https://github.com/BasedHardware/omi/pull/14000"
   }
  ]
 }
