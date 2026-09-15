@@ -180,7 +180,7 @@
   },
   {
    "amount_usd": 3500.0,
-   "founder_minutes": 5,
+   "founder_minutes": 0,
    "history": [
     {
      "at": "2026-09-15T01:46:23Z",
@@ -189,7 +189,7 @@
    ],
    "id": "agency-0011",
    "lane": "agency",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "note": "seeded 2026-09-15 from internal-docs/earn; agent sends from prodev",
    "probability": 0.03,
    "state": "produced",
    "title": "North Austin Dentistry: 19s homepage rebuild pitch (contact form)",
@@ -197,7 +197,7 @@
   },
   {
    "amount_usd": 3500.0,
-   "founder_minutes": 5,
+   "founder_minutes": 0,
    "history": [
     {
      "at": "2026-09-15T01:46:23Z",
@@ -206,7 +206,7 @@
    ],
    "id": "agency-0012",
    "lane": "agency",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "note": "seeded 2026-09-15 from internal-docs/earn; agent sends from prodev",
    "probability": 0.03,
    "state": "produced",
    "title": "Peak Dental Austin: 5s homepage pitch (contact form)",
@@ -383,7 +383,7 @@
   },
   {
    "amount_usd": 4000.0,
-   "founder_minutes": 2,
+   "founder_minutes": 0,
    "history": [
     {
      "at": "2026-09-15T06:38:18Z",
@@ -392,7 +392,7 @@
    ],
    "id": "agency-0022",
    "lane": "agency",
-   "note": "queued for 2026-09-16 send from prodev",
+   "note": "queued for 2026-09-16 send from prodev; agent sends from prodev",
    "probability": 0.05,
    "state": "produced",
    "title": "GEM Family Law, Denver (managing partner egebhardt@, Clay): intake + scheduling pitch",
@@ -400,7 +400,7 @@
   },
   {
    "amount_usd": 3500.0,
-   "founder_minutes": 2,
+   "founder_minutes": 0,
    "history": [
     {
      "at": "2026-09-15T06:38:18Z",
@@ -409,10 +409,10 @@
    ],
    "id": "agency-0023",
    "lane": "agency",
-   "note": "queued for 2026-09-16 send",
+   "note": "queued for 2026-09-16 send; agent sends from prodev",
    "probability": 0.03,
    "state": "produced",
-   "title": "Hulse Law Firm, Littleton CO (via administrator): 6.2s homepage pitch",
+   "title": "Hulse Law Firm, Littleton CO (via administrator): consult booking pitch",
    "url": "https://hulselawfirm.com"
   },
   {
