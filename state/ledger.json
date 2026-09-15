@@ -766,6 +766,23 @@
    "state": "produced",
    "title": "Local Contractors Marketing (info@ for Paul Leary): lead sample",
    "url": "https://localcontractorsmarketing.com"
+  },
+  {
+   "amount_usd": 2800,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T11:29:52Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-ind-01",
+   "lane": "agency",
+   "note": "draft in comms/outbound-queue-agency-2026-09-17.md; agent sends from prodev",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "Howald HVAC, Indianapolis (larry@, verified mailbox): mobile + after hours intake pitch",
+   "url": "https://howaldheatingandair.com"
   }
  ]
 }
