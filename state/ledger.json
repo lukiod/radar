@@ -630,6 +630,40 @@
    "state": "produced",
    "title": "AfterQuery Expert Network: pick a live project from Slack (already onboarded, Stripe connected)",
    "url": "https://experts.afterquery.com/home"
+  },
+  {
+   "amount_usd": 800,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T11:03:53Z",
+     "state": "produced"
+    }
+   ],
+   "id": "network-0001",
+   "lane": "network",
+   "note": "draft in internal-docs/comms/warm-network-2026-09-15.md, send from the personal account",
+   "probability": 0.1,
+   "state": "produced",
+   "title": "Boardy: ask for three intros (agency founder, SMB owner, tasking platform PM)",
+   "url": "https://boardy.ai"
+  },
+  {
+   "amount_usd": 400,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T11:03:53Z",
+     "state": "produced"
+    }
+   ],
+   "id": "network-0002",
+   "lane": "network",
+   "note": "draft in internal-docs/comms/warm-network-2026-09-15.md, send from the personal account",
+   "probability": 0.15,
+   "state": "produced",
+   "title": "MCPfy (Alok Yadav, met via Boardy 10 Aug): two week paid outbound pilot for $400",
+   "url": "https://boardy.ai"
   }
  ]
 }

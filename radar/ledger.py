@@ -41,6 +41,7 @@ FOUNDER_STEP = {
     ("grant", "produced"): "Submit the application from the draft.",
     ("gig", "produced"): "Post the proposal from your freelance account.",
     ("gigwork", "produced"): "Log in and do the platform's own step (pick a project, finish the identity check, or apply); details and a paste ready blurb in internal-docs/earn/gigwork.md.",
+    ("network", "produced"): "Send the drafted message from your personal account; draft in internal-docs/comms/warm-network-2026-09-15.md.",
     ("gigwork", "submitted"): "Do the tasks; log hours and the first payout here.",
     ("gig", "accepted"): "Accept the contract; the deliverable is ready.",
     ("tenstorrent", "accepted"): "Accept the bounty terms on the issue; approve card time if validation needs it.",
