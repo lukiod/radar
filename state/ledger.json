@@ -681,6 +681,23 @@
    "state": "produced",
    "title": "Buck & Fish, Columbus (jfish@ published): consult scheduling pitch",
    "url": "https://centralohioattorneys.com"
+  },
+  {
+   "amount_usd": 4000,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T11:08:17Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-col-02",
+   "lane": "agency",
+   "note": "draft in comms/outbound-queue-agency-2026-09-17.md; agent sends from prodev",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "Lawrence Law Office, Columbus (llawrence@, Clay): consult scheduling pitch",
+   "url": "https://ohio-family-law.com"
   }
  ]
 }
