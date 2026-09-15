@@ -22,7 +22,8 @@ from datetime import date
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 BOOKING = ("calendly", "acuity", "book now", "book online", "schedule online", "book an appointment",
            "schedule an appointment", "request appointment", "zocdoc", "housecall", "jobber", "servicetitan",
-           "mindbody", "vagaro", "square appointments", "setmore", "booksy")
+           "mindbody", "vagaro", "square appointments", "setmore", "booksy", "free estimate", "schedule your estimate",
+           "schedule an estimate", "request an estimate", "request a quote", "get a quote", "schedule service")
 BUILDERS = {
     "wix.com": "Wix", "squarespace": "Squarespace", "godaddy": "GoDaddy Website Builder", "weebly": "Weebly",
     "wp-content": "WordPress", "shopify": "Shopify", "duda": "Duda", "webflow": "Webflow", "jimdo": "Jimdo",
