@@ -565,13 +565,17 @@
     {
      "at": "2026-09-15T10:36:23Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-15T20:22:15Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-d-02",
    "lane": "agency",
-   "note": "sent 2026-09-15 from prodev, msg 1a0a4a38ab5f1e46",
+   "note": "bounce 2026-09-15 03:36 PDT: info@builtrightdigital.com does not exist (Google Workspace accepted at RCPT, bounced after)",
    "probability": 0.03,
-   "state": "submitted",
+   "state": "rejected",
    "title": "Built Right Digital (info@): 25 row lead sample",
    "url": "https://builtrightdigital.com"
   },
