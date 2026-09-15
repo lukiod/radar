@@ -613,6 +613,23 @@
    "state": "produced",
    "title": "Populii: New Ratings gig when it resumes (small, no onboarding left)",
    "url": "https://populii.ai"
+  },
+  {
+   "amount_usd": 400,
+   "founder_minutes": 15,
+   "history": [
+    {
+     "at": "2026-09-15T11:02:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "gig-0004",
+   "lane": "gigwork",
+   "note": "fully onboarded since 2026-03 (Stripe, Slack); projects posted in #all-afterquery-experts, $100 per task seen; see earn/gigwork.md",
+   "probability": 0.45,
+   "state": "produced",
+   "title": "AfterQuery Expert Network: pick a live project from Slack (already onboarded, Stripe connected)",
+   "url": "https://experts.afterquery.com/home"
   }
  ]
 }
