@@ -1,30 +1,94 @@
 {
- "generated_at": "2026-09-15T01:47:28Z",
+ "generated_at": "2026-09-15T05:45:53Z",
  "events": [
   {
-   "id": "https://github.com/BasedHardware/omi/pull/13865",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13865 fix(ms365): read tool parameters from the flat body the Omi backend sends",
-   "url": "https://github.com/BasedHardware/omi/pull/13865",
-   "at": "2026-09-15T00:52:27Z",
+   "id": "https://github.com/paritytech/individuality-community/issues/114",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "paritytech/individuality-community: Backport: Bounty asset recovery",
+   "url": "https://github.com/paritytech/individuality-community/issues/114",
+   "at": "2026-09-15T05:23:06Z",
    "extra": {
-    "state": "OPEN",
-    "merged_at": null,
-    "review": "REVIEW_REQUIRED"
+    "comments": 0,
+    "author": "andrzejSulkowski",
+    "labels": [
+     "D2-no audit",
+     "C0-non-breaking"
+    ]
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/pull/13867",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13867 fix(twitter-chat-tools): keep max_results inside each X endpoint's range",
-   "url": "https://github.com/BasedHardware/omi/pull/13867",
-   "at": "2026-09-15T00:52:20Z",
+   "id": "https://github.com/tenstorrent/tt-metal/commit/947be3c61b899351c69867a3a2195b69dee4d3b2",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Import TestConfig in the Quasar parallel-matmul exp test (#56591)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/947be3c61b899351c69867a3a2195b69dee4d3b2",
+   "at": "2026-09-15T05:22:37Z",
    "extra": {
-    "state": "OPEN",
-    "merged_at": null,
-    "review": "REVIEW_REQUIRED"
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_exp_parallel_matmul_quasar.py"
+    ],
+    "added": [],
+    "author": "mcraigheadTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/4f0821badbf80a8e244cfd4b3bb25599fc81d521",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Add DISABLE_SFPLOADMACRO Quasar exp kernel (#56589)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/4f0821badbf80a8e244cfd4b3bb25599fc81d521",
+   "at": "2026-09-15T05:21:54Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_exp.h"
+    ],
+    "added": [],
+    "author": "mcraigheadTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/12e3db22224885c86a37a6fdbfd79a191a7425d2",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Write LOADMACRO CONTROL from SFPCONFIG's own immediate (#56546)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/12e3db22224885c86a37a6fdbfd79a191a7425d2",
+   "at": "2026-09-15T05:13:05Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_exp.h"
+    ],
+    "added": [],
+    "author": "mcraigheadTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56592",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56592 [2026-09-15] Test Escalation Assignment",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56592",
+   "at": "2026-09-15T04:01:51Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "test-escalation"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SoSo-Infinite/AlbanyAiGuy/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SoSo-Infinite/AlbanyAiGuy: [feat] Bounty Engine \u2014 scout codes, referrals, Stripe Connect payouts",
+   "url": "https://github.com/SoSo-Infinite/AlbanyAiGuy/issues/11",
+   "at": "2026-09-15T03:46:16Z",
+   "extra": {
+    "comments": 0,
+    "author": "SoSo-Infinite",
+    "labels": [
+     "enhancement"
+    ]
    }
   },
   {
@@ -388,7 +452,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13931",
    "at": "2026-09-14T21:20:47Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "author": "goldnbones",
     "labels": []
    }
@@ -426,7 +490,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13927",
    "at": "2026-09-14T21:12:13Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "author": "jzhou1402",
     "labels": []
    }
@@ -550,32 +614,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/pull/13861",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13861 fix(google-calendar): emit usable event ids from list_events and create_event",
-   "url": "https://github.com/BasedHardware/omi/pull/13861",
-   "at": "2026-09-14T20:11:50Z",
-   "extra": {
-    "state": "OPEN",
-    "merged_at": null,
-    "review": "REVIEW_REQUIRED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13863",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13863 fix(notion): emit usable page, database and entry ids from the listing tools",
-   "url": "https://github.com/BasedHardware/omi/pull/13863",
-   "at": "2026-09-14T19:57:42Z",
-   "extra": {
-    "state": "OPEN",
-    "merged_at": null,
-    "review": "REVIEW_REQUIRED"
-   }
-  },
-  {
    "id": "https://github.com/ZecHub/zec-bounties/issues/235",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -583,7 +621,7 @@
    "url": "https://github.com/ZecHub/zec-bounties/issues/235",
    "at": "2026-09-14T19:41:26Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "author": "wiaikit",
     "labels": []
    }
@@ -1020,7 +1058,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13884",
    "at": "2026-09-14T17:43:46Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "author": "t3ratech",
     "labels": []
    }
@@ -1045,7 +1083,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13883",
    "at": "2026-09-14T17:43:45Z",
    "extra": {
-    "comments": 0,
+    "comments": 3,
     "author": "t3ratech",
     "labels": []
    }
@@ -1070,7 +1108,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13882",
    "at": "2026-09-14T17:43:43Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "author": "t3ratech",
     "labels": []
    }
@@ -1378,6 +1416,7 @@
    "extra": {
     "author": "beyondpremiere",
     "labels": [
+     "MCW",
      "community"
     ]
    }
@@ -2420,18 +2459,6 @@
    "extra": {
     "state": "OPEN",
     "author": "LubuSeb"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56441",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56441 webby-box-capability-probe-please-close",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56441",
-   "at": "2026-09-14T02:05:26Z",
-   "extra": {
-    "author": "app/cursor",
-    "labels": []
    }
   },
   {
