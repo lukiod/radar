@@ -79,6 +79,13 @@ def audit(domain):
     text = html.decode("utf-8", errors="ignore")
     lower = text.lower()
     checks["final_url"] = final_url
+    if "just a moment..." in lower or "__cf_chl" in lower or "cf-browser-verification" in lower:
+        # A Cloudflare challenge page is not the site; scoring it would
+        # report "no form, no booking" about a page that is not theirs.
+        checks["blocked_status"] = "cloudflare-challenge"
+        result["notes"].append("Cloudflare challenge page returned to the scanner; audit it in a browser")
+        result["score"] = 0
+        return result
     checks["viewport"] = 'name="viewport"' in lower
     checks["booking"] = any(k in lower for k in BOOKING)
     checks["click_to_call"] = 'href="tel:' in lower
