@@ -33,7 +33,7 @@ NEXT_ACTOR = {
 
 # What the founder does at each founder state, per lane.
 FOUNDER_STEP = {
-    ("omi", "accepted"): "Send the claim email (template in internal-docs/earn/ledger.md) with the PR link and PayPal address.",
+    ("omi", "accepted"): "Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.",
     ("agency", "produced"): "Send the draft from your mailbox; add physical address and the stop line.",
     ("agency", "accepted"): "Reply to the prospect and book the call; the preview site is ready.",
     ("review_first_repo", "produced"): "Read the staged patch, submit the PR under your name with the AI disclosure.",
