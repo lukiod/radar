@@ -1,0 +1,19 @@
+{
+  "name": "Evans Roofing",
+  "tagline": "Residential and commercial roofing in Oklahoma City since 1998",
+  "headline": "Storm damage? We will be on your roof this week.",
+  "area": "Oklahoma City and the metro",
+  "phone": "405-740-0697",
+  "hours": "Monday to Saturday, 7am to 6pm",
+  "brand_color": "#b91c1c",
+  "form_action": "#",
+  "services": [
+    {"name": "Roof replacement", "blurb": "Full tear off and replacement, asphalt, metal and tile."},
+    {"name": "Storm and hail repair", "blurb": "Insurance claim support and fast repairs after Oklahoma weather."},
+    {"name": "Leak repair", "blurb": "Find it, fix it, and show you photos of what we did."},
+    {"name": "Commercial roofing", "blurb": "Flat and low slope systems for offices, shops and warehouses."}
+  ],
+  "reviews": [
+    {"text": "Placeholder: real review quotes from Google are dropped in here before the preview is sent.", "who": "Customer, Google"}
+  ]
+}

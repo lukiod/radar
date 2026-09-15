@@ -25,3 +25,11 @@ records from evidence (a merged PR moves `submitted` to `accepted`, which
 creates the claim step) and rewrites `state/inbox.md`, the list of steps
 only the founder can take, ranked by expected value per minute. The page
 shows it first.
+
+## Preview site generator
+
+`tools/preview/build.py brief.json out/` renders a one page, phone first
+site for a small business from a short JSON brief (name, phone, area,
+services, review quotes, form endpoint). It is the deliverable the agency
+outreach promises: under a second to load, request service form, click to
+call everywhere. `tools/preview/example-brief.json` is the shape.
