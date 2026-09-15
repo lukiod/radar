@@ -43,6 +43,7 @@ FOUNDER_STEP = {
     ("gig", "accepted"): "Accept the contract; the deliverable is ready.",
     ("tenstorrent", "accepted"): "Accept the bounty terms on the issue; approve card time if validation needs it.",
     ("product", "produced"): "Approve the listing and connect PayPal on the storefront.",
+    ("hackathon", "produced"): "Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.",
 }
 
 

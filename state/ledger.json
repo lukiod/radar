@@ -325,6 +325,23 @@
    "state": "submitted",
    "title": "Sooner HVAC, OKC: request service form pitch",
    "url": "https://soonerhvacinc.com"
+  },
+  {
+   "amount_usd": 5000.0,
+   "founder_minutes": 45,
+   "history": [
+    {
+     "at": "2026-09-15T06:18:26Z",
+     "state": "produced"
+    }
+   ],
+   "id": "hackathon-0019",
+   "lane": "hackathon",
+   "note": "repo lukiod/dispatch-voice; deadline 2026-09-30; founder registers, adds ASSEMBLYAI_API_KEY, records 3 min demo",
+   "probability": 0.08,
+   "state": "produced",
+   "title": "lablab.ai AssemblyAI Voice Agent Hackathon: Dispatch (built, needs registration + key + demo video)",
+   "url": "https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon"
   }
  ]
 }
