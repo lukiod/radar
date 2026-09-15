@@ -444,6 +444,23 @@
    "state": "submitted",
    "title": "omi PR 13975 app_tools drops omitted optionals",
    "url": "https://github.com/BasedHardware/omi/pull/13975"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T07:08:39Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0007",
+   "lane": "omi",
+   "note": "proposal #13976; update_task_status mutated the first search hit",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 13977 Hive ambiguous task status match",
+   "url": "https://github.com/BasedHardware/omi/pull/13977"
   }
  ]
 }
