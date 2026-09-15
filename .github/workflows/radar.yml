@@ -24,8 +24,8 @@ jobs:
         run: python3 -m radar.run | tee /tmp/digest.md
       - name: Commit state
         run: |
-          git config user.name "radar"
-          git config user.email "radar@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state digest
           git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
