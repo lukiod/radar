@@ -232,6 +232,57 @@
    "state": "paid",
    "title": "TRTMC PR 1233 (t5) merged 2026-09-14",
    "url": "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1233"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T05:45:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0014",
+   "lane": "agency",
+   "note": "sent from prodev 2026-09-15, label outreach",
+   "probability": 0.04,
+   "state": "submitted",
+   "title": "Steward's Plumbing, Albuquerque: 7.5s homepage rebuild pitch",
+   "url": "https://stewardsplumbing.com"
+  },
+  {
+   "amount_usd": 1500.0,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T05:45:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0015",
+   "lane": "agency",
+   "note": "sent from prodev 2026-09-15, label outreach",
+   "probability": 0.04,
+   "state": "submitted",
+   "title": "Beacon Plumbing, Boise: request service form pitch",
+   "url": "https://beaconplumbing.net"
+  },
+  {
+   "amount_usd": 2000.0,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T05:45:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0016",
+   "lane": "agency",
+   "note": "sent from prodev 2026-09-15, label outreach",
+   "probability": 0.04,
+   "state": "submitted",
+   "title": "Viking Plumbing, Boise: booking and speed pitch",
+   "url": "https://vikingplumbingboise.com"
   }
  ]
 }
