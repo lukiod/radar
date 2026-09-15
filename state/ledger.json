@@ -328,19 +328,23 @@
   },
   {
    "amount_usd": 5000.0,
-   "founder_minutes": 45,
+   "founder_minutes": 30,
    "history": [
     {
      "at": "2026-09-15T06:18:26Z",
+     "state": "produced"
+    },
+    {
+     "at": "2026-09-15T10:50:05Z",
      "state": "produced"
     }
    ],
    "id": "hackathon-0019",
    "lane": "hackathon",
-   "note": "repo lukiod/dispatch-voice; deadline 2026-09-30; founder registers, adds ASSEMBLYAI_API_KEY, records 3 min demo",
+   "note": "dispatch/hackathon/SUBMISSION.md; BLOCKED on MershTrust visibility decision, then register + key + 3 min video",
    "probability": 0.08,
    "state": "produced",
-   "title": "lablab.ai AssemblyAI Voice Agent Hackathon: Dispatch (built, needs registration + key + demo video)",
+   "title": "lablab AssemblyAI hackathon: Dispatch entry (submission copy, slides, video script ready)",
    "url": "https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon"
   },
   {

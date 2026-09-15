@@ -32,8 +32,8 @@ Each line: expected value ÷ your minutes, highest first.
 - **AWS Activate Founders ($1,000 credits on Bedrock)** (grant, produced)
   $1,000 × 60% = $600 expected, 30 min. Submit the application from the draft.
   https://aws.amazon.com/startups/credits/
-- **lablab.ai AssemblyAI Voice Agent Hackathon: Dispatch (built, needs registration + key + demo video)** (hackathon, produced)
-  $5,000 × 8% = $400 expected, 45 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
+- **lablab AssemblyAI hackathon: Dispatch entry (submission copy, slides, video script ready)** (hackathon, produced)
+  $5,000 × 8% = $400 expected, 30 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
 Paid to date: $0. Expected value in flight: $948.
