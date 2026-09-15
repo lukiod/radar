@@ -34,7 +34,7 @@ NEXT_ACTOR = {
 # What the founder does at each founder state, per lane.
 FOUNDER_STEP = {
     ("omi", "accepted"): "Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.",
-    ("agency", "produced"): "Send the draft from your mailbox; add physical address and the stop line.",
+    ("agency", "produced"): "Send the draft from your mailbox; name only signature and the Reply stop line.",
     ("agency", "accepted"): "Reply to the prospect and book the call; the preview site is ready.",
     ("review_first_repo", "produced"): "Read the staged patch, submit the PR under your name with the AI disclosure.",
     ("review_first_repo", "accepted"): "Reply to the reviewer yourself (repo policy); drafts on request.",
