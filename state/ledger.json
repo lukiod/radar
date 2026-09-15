@@ -11,8 +11,8 @@
    ],
    "id": "omi-0001",
    "lane": "omi",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
-   "probability": 0.5,
+   "note": "seeded 2026-09-15 from internal-docs/earn; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5",
+   "probability": 0.85,
    "state": "submitted",
    "title": "omi PR 13861 Google Calendar usable event ids",
    "url": "https://github.com/BasedHardware/omi/pull/13861"
@@ -24,13 +24,17 @@
     {
      "at": "2026-09-15T01:46:23Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-15T15:21:04Z",
+     "state": "accepted"
     }
    ],
    "id": "omi-0002",
    "lane": "omi",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
    "probability": 0.5,
-   "state": "submitted",
+   "state": "accepted",
    "title": "omi PR 13863 Notion usable ids",
    "url": "https://github.com/BasedHardware/omi/pull/13863"
   },
@@ -45,8 +49,8 @@
    ],
    "id": "omi-0003",
    "lane": "omi",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
-   "probability": 0.5,
+   "note": "seeded 2026-09-15 from internal-docs/earn; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5",
+   "probability": 0.85,
    "state": "submitted",
    "title": "omi PR 13865 MS365 flat tool body",
    "url": "https://github.com/BasedHardware/omi/pull/13865"
@@ -62,8 +66,8 @@
    ],
    "id": "omi-0004",
    "lane": "omi",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
-   "probability": 0.5,
+   "note": "seeded 2026-09-15 from internal-docs/earn; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5",
+   "probability": 0.85,
    "state": "submitted",
    "title": "omi PR 13867 Twitter max_results floor",
    "url": "https://github.com/BasedHardware/omi/pull/13867"
@@ -422,13 +426,17 @@
     {
      "at": "2026-09-15T06:50:53Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-15T15:21:04Z",
+     "state": "accepted"
     }
    ],
    "id": "omi-0005",
    "lane": "omi",
-   "note": "proposal #13972; all four CoinGecko tools failed on null optionals",
+   "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
    "probability": 0.5,
-   "state": "submitted",
+   "state": "accepted",
    "title": "omi PR 13973 CoinGecko null optional parameters",
    "url": "https://github.com/BasedHardware/omi/pull/13973"
   },
@@ -439,13 +447,17 @@
     {
      "at": "2026-09-15T07:04:43Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-15T15:21:04Z",
+     "state": "accepted"
     }
    ],
    "id": "omi-0006",
    "lane": "omi",
-   "note": "proposal #13974; backend boundary fix for the null optionals class (covers coingecko, public-holidays, semantic-scholar, open-meteo, MCP)",
+   "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
    "probability": 0.55,
-   "state": "submitted",
+   "state": "accepted",
    "title": "omi PR 13975 app_tools drops omitted optionals",
    "url": "https://github.com/BasedHardware/omi/pull/13975"
   },
@@ -460,8 +472,8 @@
    ],
    "id": "omi-0007",
    "lane": "omi",
-   "note": "proposal #13976; update_task_status mutated the first search hit",
-   "probability": 0.5,
+   "note": "proposal #13976; update_task_status mutated the first search hit; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5",
+   "probability": 0.85,
    "state": "submitted",
    "title": "omi PR 13977 Hive ambiguous task status match",
    "url": "https://github.com/BasedHardware/omi/pull/13977"
@@ -710,8 +722,8 @@
    ],
    "id": "omi-0008",
    "lane": "omi",
-   "note": "proposal #13997; create_wro received inventory for the first substring match",
-   "probability": 0.5,
+   "note": "proposal #13997; create_wro received inventory for the first substring match; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5",
+   "probability": 0.85,
    "state": "submitted",
    "title": "omi PR 13998 ShipBob product name resolution",
    "url": "https://github.com/BasedHardware/omi/pull/13998"
@@ -727,8 +739,8 @@
    ],
    "id": "omi-0009",
    "lane": "omi",
-   "note": "proposal #13999; create_order sold the first word match and variants[0]",
-   "probability": 0.5,
+   "note": "proposal #13999; create_order sold the first word match and variants[0]; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5",
+   "probability": 0.85,
    "state": "submitted",
    "title": "omi PR 14000 Shopify create_order product and variant resolution",
    "url": "https://github.com/BasedHardware/omi/pull/14000"
