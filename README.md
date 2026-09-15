@@ -15,3 +15,13 @@ Run locally: `python3 -m radar.run --dry-run` (needs an authenticated `gh`).
 
 `index.html` renders `state/latest.json`; the repo is served with GitHub Pages
 so the page is live at https://lukiod.github.io/radar/ after every run.
+
+## Ledger and founder inbox
+
+`state/ledger.json` holds every opportunity with a state machine
+(found, qualified, produced, submitted, accepted, claimed, paid; rejected,
+expired). `radar/ledger.py` adds and moves records; each run advances
+records from evidence (a merged PR moves `submitted` to `accepted`, which
+creates the claim step) and rewrites `state/inbox.md`, the list of steps
+only the founder can take, ranked by expected value per minute. The page
+shows it first.

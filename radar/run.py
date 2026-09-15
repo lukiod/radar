@@ -10,7 +10,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import sources
+from . import ledger, sources
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "state" / "latest.json"
@@ -99,6 +99,13 @@ def main(argv):
     STATE.parent.mkdir(exist_ok=True)
     DIGESTS.mkdir(exist_ok=True)
     STATE.write_text(json.dumps({"generated_at": now, "events": events, "errors": errors}, indent=1))
+    book = ledger.load()
+    advanced = ledger.sync_from_events(book, events)
+    ledger.save(book)
+    (ROOT / "state" / "inbox.md").write_text(ledger.render_inbox(book))
+    if advanced:
+        digest += "\n## Ledger advanced\n\n" + "\n".join(f"- {rid}" for rid in advanced) + "\n"
+        print(digest.split("## Ledger advanced")[1])
     SEEN.write_text(json.dumps(sorted(seen | {e["id"] for e in events})[-5000:]))
     if new_events or pr_changes:
         path = DIGESTS / f"{now[:10]}.md"

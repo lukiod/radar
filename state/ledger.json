@@ -1,0 +1,208 @@
+{
+ "records": [
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0001",
+   "lane": "omi",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 13861 Google Calendar usable event ids",
+   "url": "https://github.com/BasedHardware/omi/pull/13861"
+  },
+  {
+   "amount_usd": 25.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0002",
+   "lane": "omi",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 13863 Notion usable ids",
+   "url": "https://github.com/BasedHardware/omi/pull/13863"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0003",
+   "lane": "omi",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 13865 MS365 flat tool body",
+   "url": "https://github.com/BasedHardware/omi/pull/13865"
+  },
+  {
+   "amount_usd": 25.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0004",
+   "lane": "omi",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 13867 Twitter max_results floor",
+   "url": "https://github.com/BasedHardware/omi/pull/13867"
+  },
+  {
+   "amount_usd": 12.0,
+   "founder_minutes": 10,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "review_first_repo-0005",
+   "lane": "review_first_repo",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.7,
+   "state": "submitted",
+   "title": "TypeScript PR 64268 ZonedDateTime.toLocaleString timeZone",
+   "url": "https://github.com/microsoft/TypeScript/pull/64268"
+  },
+  {
+   "amount_usd": 1200.0,
+   "founder_minutes": 15,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "grant-0006",
+   "lane": "grant",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.3,
+   "state": "produced",
+   "title": "Claude for Open Source application (6 months Max 20x)",
+   "url": "https://claude.com/contact-sales/claude-for-oss"
+  },
+  {
+   "amount_usd": 1000.0,
+   "founder_minutes": 30,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "grant-0007",
+   "lane": "grant",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.6,
+   "state": "produced",
+   "title": "AWS Activate Founders ($1,000 credits on Bedrock)",
+   "url": "https://aws.amazon.com/startups/credits/"
+  },
+  {
+   "amount_usd": 2000.0,
+   "founder_minutes": 30,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "grant-0008",
+   "lane": "grant",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.4,
+   "state": "produced",
+   "title": "Google for Startups Cloud Start tier (up to $2,000)",
+   "url": "https://cloud.google.com/startup/benefits"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 2,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-0009",
+   "lane": "agency",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "A-Best Air & Heat, Tulsa: rebuild pitch (draft ready, info@ address)",
+   "url": "https://abestairtulsa.com"
+  },
+  {
+   "amount_usd": 1500.0,
+   "founder_minutes": 2,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-0010",
+   "lane": "agency",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "Air Masters Inc, Tulsa: booking form pitch (draft ready, contact@ address)",
+   "url": "https://airmastersinc.net"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-0011",
+   "lane": "agency",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.03,
+   "state": "produced",
+   "title": "North Austin Dentistry: 19s homepage rebuild pitch (contact form)",
+   "url": "https://northaustindentist.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T01:46:23Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-0012",
+   "lane": "agency",
+   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "probability": 0.03,
+   "state": "produced",
+   "title": "Peak Dental Austin: 5s homepage pitch (contact form)",
+   "url": "https://peakdentaltexas.com"
+  }
+ ]
+}

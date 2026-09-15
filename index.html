@@ -25,6 +25,8 @@
   <h1>Radar</h1>
   <div class="sub" id="generated">loading</div>
   <div class="totals" id="totals"></div>
+  <h2>Founder inbox</h2>
+  <pre id="inbox" style="white-space:pre-wrap;color:var(--fg);background:#12151a;padding:12px;border-radius:6px;font:13px/1.5 ui-monospace,monospace"></pre>
   <h2>Act on these</h2>
   <ul id="loud"></ul>
   <h2>Context</h2>
@@ -32,6 +34,7 @@
 </main>
 <script>
 const LOUD = new Set(["tt_bounty", "tt_kernel_commit", "bounty_issue", "tarsnap_release", "our_pr"]);
+fetch("state/inbox.md", {cache: "no-store"}).then(r => r.text()).then(md => { document.getElementById("inbox").textContent = md; }).catch(() => {});
 fetch("state/latest.json", {cache: "no-store"}).then(r => r.json()).then(state => {
   document.getElementById("generated").textContent = "generated " + state.generated_at.replace("T", " ").replace("Z", " UTC");
   const totals = {};
