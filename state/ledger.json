@@ -512,6 +512,40 @@
    "state": "produced",
    "title": "Snake n Rooter Plumbing, Kansas City (rbarefoot@): after hours intake pitch",
    "url": "https://snakenrooterplumbing.com"
+  },
+  {
+   "amount_usd": 800,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T10:34:19Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-d-01",
+   "lane": "agency",
+   "note": "segment D; draft in comms/outbound-queue-agency-2026-09-16.md with earn/data/lead-sample.csv attached",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "On Purpose Media (thaddeus@): 25 row lead sample, 500 rows for $400",
+   "url": "https://onpurposemedia.ca"
+  },
+  {
+   "amount_usd": 800,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T10:34:19Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-d-02",
+   "lane": "agency",
+   "note": "segment D; draft in comms/outbound-queue-agency-2026-09-16.md with earn/data/lead-sample.csv attached",
+   "probability": 0.03,
+   "state": "produced",
+   "title": "Built Right Digital (info@): 25 row lead sample",
+   "url": "https://builtrightdigital.com"
   }
  ]
 }
