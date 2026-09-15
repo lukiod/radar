@@ -804,6 +804,23 @@
    "state": "submitted",
    "title": "Acme Dental Lounge, Aundh Pune (Dr. Ashish Gupta, verified gmail): online booking + WhatsApp reminders",
    "url": "https://acmedental.in"
+  },
+  {
+   "amount_usd": 215,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T11:36:19Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "pune-0002",
+   "lane": "agency",
+   "note": "Pune local lane, INR 18,000 via UPI; sent 2026-09-15 from prodev, msg 1a0a4da56b3570ea, preview attached",
+   "probability": 0.06,
+   "state": "submitted",
+   "title": "Advocate Shailesh Joshi, Pune (verified gmail): consult booking + WhatsApp reminders",
+   "url": "https://advocateshaileshjoshi.com"
   }
  ]
 }
