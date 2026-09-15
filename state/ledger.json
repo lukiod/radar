@@ -203,6 +203,27 @@
    "state": "produced",
    "title": "Peak Dental Austin: 5s homepage pitch (contact form)",
    "url": "https://peakdentaltexas.com"
+  },
+  {
+   "amount_usd": 12.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T05:38:13Z",
+     "state": "accepted"
+    },
+    {
+     "at": "2026-09-15T05:38:13Z",
+     "state": "paid"
+    }
+   ],
+   "id": "review_first_repo-0013",
+   "lane": "review_first_repo",
+   "note": "no cash lane; value is the grant clock",
+   "probability": 1.0,
+   "state": "paid",
+   "title": "TRTMC PR 1233 (t5) merged 2026-09-14",
+   "url": "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1233"
   }
  ]
 }
