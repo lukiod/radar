@@ -11,21 +11,21 @@ Each line: expected value ÷ your minutes, highest first.
 - **AWS Activate Founders ($1,000 credits on Bedrock)** (grant, produced)
   $1,000 × 60% = $600 expected, 30 min. Submit the application from the draft.
   https://aws.amazon.com/startups/credits/
-- **lablab AssemblyAI hackathon: Dispatch entry (submission copy, slides, video script ready)** (hackathon, produced)
-  $5,000 × 8% = $400 expected, 30 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
-  https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 - **AfterQuery Expert Network: pick a live project from Slack (already onboarded, Stripe connected)** (gigwork, produced)
-  $400 × 45% = $180 expected, 15 min. Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.
+  $400 × 45% = $180 expected, 15 min. Log in and do the platform's own step (pick a project, finish the identity check, or apply); details and a paste ready blurb in internal-docs/earn/gigwork.md.
   https://experts.afterquery.com/home
 - **Outlier: finish the identity check, OpenClaw coding projects (metered, weekly payout)** (gigwork, produced)
-  $300 × 50% = $150 expected, 30 min. Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.
+  $300 × 50% = $150 expected, 30 min. Log in and do the platform's own step (pick a project, finish the identity check, or apply); details and a paste ready blurb in internal-docs/earn/gigwork.md.
   https://outlier.ai
 - **Populii: New Ratings gig when it resumes (small, no onboarding left)** (gigwork, produced)
-  $40 × 50% = $20 expected, 5 min. Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.
+  $40 × 50% = $20 expected, 5 min. Log in and do the platform's own step (pick a project, finish the identity check, or apply); details and a paste ready blurb in internal-docs/earn/gigwork.md.
   https://populii.ai
 - **Mercor: apply to Quality Analyst and an Indian language annotation listing** (gigwork, produced)
-  $200 × 35% = $70 expected, 20 min. Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.
+  $200 × 35% = $70 expected, 20 min. Log in and do the platform's own step (pick a project, finish the identity check, or apply); details and a paste ready blurb in internal-docs/earn/gigwork.md.
   https://work.mercor.com/explore
+- **lablab AssemblyAI hackathon: Dispatch entry (submission copy, slides, video script ready)** (hackathon, produced)
+  $1,000 × 10% = $100 expected, 30 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
+  https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
 Paid to date: $0. Expected value in flight: $948.
 States: paid 1, produced 14, rejected 3, submitted 17

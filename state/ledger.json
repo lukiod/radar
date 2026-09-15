@@ -327,7 +327,7 @@
    "url": "https://soonerhvacinc.com"
   },
   {
-   "amount_usd": 5000.0,
+   "amount_usd": 1000,
    "founder_minutes": 30,
    "history": [
     {
@@ -342,7 +342,7 @@
    "id": "hackathon-0019",
    "lane": "hackathon",
    "note": "dispatch/hackathon/SUBMISSION.md; BLOCKED on MershTrust visibility decision, then register + key + 3 min video",
-   "probability": 0.08,
+   "probability": 0.1,
    "state": "produced",
    "title": "lablab AssemblyAI hackathon: Dispatch entry (submission copy, slides, video script ready)",
    "url": "https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon"
@@ -625,7 +625,7 @@
    ],
    "id": "gig-0004",
    "lane": "gigwork",
-   "note": "fully onboarded since 2026-03 (Stripe, Slack); projects posted in #all-afterquery-experts, $100 per task seen; see earn/gigwork.md",
+   "note": "fully onboarded since 2026-03 (Stripe, Slack); open #all-afterquery-experts in the afterqueryexperts Slack and answer a coding or ML project post; $100 per task seen in March",
    "probability": 0.45,
    "state": "produced",
    "title": "AfterQuery Expert Network: pick a live project from Slack (already onboarded, Stripe connected)",
