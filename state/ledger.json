@@ -732,6 +732,40 @@
    "state": "submitted",
    "title": "omi PR 14000 Shopify create_order product and variant resolution",
    "url": "https://github.com/BasedHardware/omi/pull/14000"
+  },
+  {
+   "amount_usd": 800,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T11:25:12Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-d-03",
+   "lane": "agency",
+   "note": "segment D; agent sends from prodev 09 16 with lead-sample-free.csv",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "6th Man Marketing (sam@): 11 row lead sample, 500 rows for $400",
+   "url": "https://6thman-marketing.com"
+  },
+  {
+   "amount_usd": 800,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T11:25:12Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-d-04",
+   "lane": "agency",
+   "note": "segment D; agent sends from prodev 09 16 with lead-sample-free.csv",
+   "probability": 0.03,
+   "state": "produced",
+   "title": "Local Contractors Marketing (info@ for Paul Leary): lead sample",
+   "url": "https://localcontractorsmarketing.com"
   }
  ]
 }
