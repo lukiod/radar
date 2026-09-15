@@ -884,6 +884,23 @@
    "state": "produced",
    "title": "Kansas Dental Center, Overland Park (office@): online booking + reminders pitch",
    "url": "https://overlandparkksdentist.com"
+  },
+  {
+   "amount_usd": 430,
+   "founder_minutes": 2,
+   "history": [
+    {
+     "at": "2026-09-15T15:32:48Z",
+     "state": "produced"
+    }
+   ],
+   "id": "pune-fu-0918",
+   "lane": "network",
+   "note": "on 2026-09-18 if no email reply: one WhatsApp each to Acme Dental and Advocate Joshi offering a 15 minute in person preview; text in comms/outbound-queue-agency-2026-09-18.md",
+   "probability": 0.1,
+   "state": "produced",
+   "title": "Pune day 3 follow up by WhatsApp (Acme Dental, Advocate Joshi), 09 18",
+   "url": "https://acmedental.in"
   }
  ]
 }

@@ -20,6 +20,9 @@ Each line: expected value ÷ your minutes, highest first.
 - **Claude for Open Source application (6 months Max 20x)** (grant, produced)
   $1,200 × 30% = $360 expected, 15 min. Submit the application from the draft.
   https://claude.com/contact-sales/claude-for-oss
+- **Pune day 3 follow up by WhatsApp (Acme Dental, Advocate Joshi), 09 18** (network, produced)
+  $430 × 10% = $43 expected, 2 min. Send the drafted message from your personal account; draft in internal-docs/comms/warm-network-2026-09-15.md.
+  https://acmedental.in
 - **AWS Activate Founders ($1,000 credits on Bedrock)** (grant, produced)
   $1,000 × 60% = $600 expected, 30 min. Submit the application from the draft.
   https://aws.amazon.com/startups/credits/
@@ -43,5 +46,5 @@ Each line: expected value ÷ your minutes, highest first.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
 Paid to date: $0. Expected value in flight: $1,098.
-States: accepted 3, paid 1, produced 24, rejected 3, submitted 18
+States: accepted 3, paid 1, produced 25, rejected 3, submitted 18
 
