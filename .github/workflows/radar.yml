@@ -33,7 +33,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if grep -q "^## Act on these" /tmp/digest.md || grep -q "^## Our PRs changed" /tmp/digest.md; then
+          if grep -qE "^## (Act on these|Our PRs changed|Ledger advanced)" /tmp/digest.md; then
             n=$(gh issue list --label radar --state open --limit 1 --json number -q '.[0].number')
             if [ -z "$n" ]; then
               n=$(gh issue create --title "Radar" --label radar --body-file /tmp/digest.md | grep -oE '[0-9]+$')
