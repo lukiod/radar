@@ -17,18 +17,12 @@ Each line: expected value ÷ your minutes, highest first.
 - **Hulse Law Firm, Littleton CO (via administrator): 6.2s homepage pitch** (agency, produced)
   $3,500 × 3% = $105 expected, 2 min. Send the draft from your mailbox; name only signature and the Reply stop line.
   https://hulselawfirm.com
-- **On Purpose Media (thaddeus@): 25 row lead sample, 500 rows for $400** (agency, produced)
-  $800 × 4% = $32 expected, 0 min. Send the draft from your mailbox; name only signature and the Reply stop line.
-  https://onpurposemedia.ca
 - **Google for Startups Cloud Start tier (up to $2,000)** (grant, produced)
   $2,000 × 40% = $800 expected, 30 min. Submit the application from the draft.
   https://cloud.google.com/startup/benefits
 - **Claude for Open Source application (6 months Max 20x)** (grant, produced)
   $1,200 × 30% = $360 expected, 15 min. Submit the application from the draft.
   https://claude.com/contact-sales/claude-for-oss
-- **Built Right Digital (info@): 25 row lead sample** (agency, produced)
-  $800 × 3% = $24 expected, 0 min. Send the draft from your mailbox; name only signature and the Reply stop line.
-  https://builtrightdigital.com
 - **North Austin Dentistry: 19s homepage rebuild pitch (contact form)** (agency, produced)
   $3,500 × 3% = $105 expected, 5 min. Send the draft from your mailbox; name only signature and the Reply stop line.
   https://northaustindentist.com
@@ -42,6 +36,6 @@ Each line: expected value ÷ your minutes, highest first.
   $5,000 × 8% = $400 expected, 45 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
-Paid to date: $0. Expected value in flight: $892.
-States: paid 1, produced 13, rejected 2, submitted 15
+Paid to date: $0. Expected value in flight: $948.
+States: paid 1, produced 11, rejected 2, submitted 17
 
