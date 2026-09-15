@@ -783,6 +783,23 @@
    "state": "produced",
    "title": "Howald HVAC, Indianapolis (larry@, verified mailbox): mobile + after hours intake pitch",
    "url": "https://howaldheatingandair.com"
+  },
+  {
+   "amount_usd": 215,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T11:34:00Z",
+     "state": "produced"
+    }
+   ],
+   "id": "pune-0001",
+   "lane": "agency",
+   "note": "Pune local lane, INR 18,000 via UPI; draft in comms/outbound-queue-pune-2026-09-16.md; agent sends from prodev",
+   "probability": 0.06,
+   "state": "produced",
+   "title": "Acme Dental Lounge, Aundh Pune (Dr. Ashish Gupta, verified gmail): online booking + WhatsApp reminders",
+   "url": "https://acmedental.in"
   }
  ]
 }
