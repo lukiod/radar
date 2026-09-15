@@ -342,6 +342,40 @@
    "state": "produced",
    "title": "lablab.ai AssemblyAI Voice Agent Hackathon: Dispatch (built, needs registration + key + demo video)",
    "url": "https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T06:33:55Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0020",
+   "lane": "agency",
+   "note": "sent from prodev 2026-09-16 to deshon@, Clay verified",
+   "probability": 0.05,
+   "state": "submitted",
+   "title": "DeShon Laraye Pullen PLC, Phoenix family law (founder, via Clay): intake + consult booking pitch",
+   "url": "https://deshonpullenlaw.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T06:33:55Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0021",
+   "lane": "agency",
+   "note": "sent from prodev 2026-09-16 to sriggers@, Clay verified",
+   "probability": 0.04,
+   "state": "submitted",
+   "title": "Arizona Family Law Attorneys, Phoenix (attorney, via Clay): intake + booking pitch",
+   "url": "https://azfamilylawattorneys.com"
   }
  ]
 }
