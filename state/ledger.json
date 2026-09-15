@@ -143,13 +143,17 @@
     {
      "at": "2026-09-15T01:46:23Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-15T05:40:06Z",
+     "state": "submitted"
     }
    ],
    "id": "agency-0009",
    "lane": "agency",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "note": "sent from mohaktheprodev@gmail.com 2026-09-15, label outreach",
    "probability": 0.04,
-   "state": "produced",
+   "state": "submitted",
    "title": "A-Best Air & Heat, Tulsa: rebuild pitch (draft ready, info@ address)",
    "url": "https://abestairtulsa.com"
   },
@@ -160,13 +164,17 @@
     {
      "at": "2026-09-15T01:46:23Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-15T05:40:06Z",
+     "state": "submitted"
     }
    ],
    "id": "agency-0010",
    "lane": "agency",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "note": "sent from mohaktheprodev@gmail.com 2026-09-15, label outreach",
    "probability": 0.04,
-   "state": "produced",
+   "state": "submitted",
    "title": "Air Masters Inc, Tulsa: booking form pitch (draft ready, contact@ address)",
    "url": "https://airmastersinc.net"
   },
