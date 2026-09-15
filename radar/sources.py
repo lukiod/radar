@@ -6,6 +6,7 @@ handling of its own; GITHUB_TOKEN from Actions is enough.
 """
 
 import json
+import re
 import subprocess
 from datetime import datetime, timedelta, timezone
 
@@ -15,8 +16,22 @@ SPAM_OWNERS = {
     "scottcjn", "rustchain", "misakanet", "ikalus1988", "auscaster", "relayhop",
     "unsafelabs", "securebananalabs", "kodaksax", "vansh-09", "freedom-winds",
     "2510034127qq-wq", "dev-kp-eloper", "fufufu1116", "nspg13", "ldavis2700",
-    "alstonburbach", "xsovad06", "ahavahdev1",
+    "alstonburbach", "xsovad06", "ahavahdev1", "srm-test-dev", "woahwhattheheck",
+    "ninjastevexer0", "soso-infinite", "chicostate", "prins1bap-ui", "eras256",
+    "johnchampaign", "sourav-ojha", "paraloom-labs",
 }
+
+# Repos whose bounty issues pay in cash to outside contributors on a
+# documented route, so they are worth acting on even without a $ in the title.
+KNOWN_PAYING = {"tenstorrent/tt-metal"}
+
+AMOUNT_RE = re.compile(r"(?:\$|usd\s?)\s?(\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?\b", re.I)
+
+
+def amount_usd(text):
+    """Largest dollar figure named in the text, or None."""
+    figures = [int(m.replace(",", "")) for m in AMOUNT_RE.findall(text or "")]
+    return max(figures) if figures else None
 
 TT_REPOS = [
     "tenstorrent/tt-metal", "tenstorrent/tt-mlir", "tenstorrent/tt-forge",
@@ -78,15 +93,21 @@ def new_bounty_issues(hours=24):
             if owner in SPAM_OWNERS or row["url"] in seen:
                 continue
             seen.add(row["url"])
+            repo = row["repository"]["nameWithOwner"].lower()
+            amount = amount_usd(row["title"])
+            # A bounty issue is loud only when it names money or lives in a
+            # repo known to pay; the rest is aggregator and label noise.
+            kind = "bounty_issue" if (amount and amount >= 25) or repo in KNOWN_PAYING else "bounty_issue_unpriced"
             events.append({
                 "id": row["url"],
                 "source": "github_search",
-                "kind": "bounty_issue",
+                "kind": kind,
                 "title": f'{row["repository"]["nameWithOwner"]}: {row["title"]}',
                 "url": row["url"],
                 "at": row["createdAt"],
                 "extra": {
                     "comments": row["commentsCount"],
+                    "amount_usd": amount,
                     "author": row["author"]["login"],
                     "labels": [label["name"] for label in row.get("labels", [])],
                 },

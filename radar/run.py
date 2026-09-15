@@ -68,7 +68,8 @@ def render(now, new_events, pr_changes, errors, totals):
             elif e["kind"] == "tt_kernel_commit":
                 note = f' (files: {len(extra.get("files", []))}, added: {len(extra.get("added", []))})'
             elif e["kind"] == "bounty_issue":
-                note = f' (comments: {extra.get("comments")})'
+                amount = extra.get("amount_usd")
+                note = f' (${amount}, comments: {extra.get("comments")})' if amount else f' (comments: {extra.get("comments")})'
             lines.append(f'- [{e["kind"]}] {e["title"]}{note}\n  {e["url"]}')
         lines.append("")
     if quiet:
