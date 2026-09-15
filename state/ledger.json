@@ -240,13 +240,17 @@
     {
      "at": "2026-09-15T05:45:10Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-15T06:05:09Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-0014",
    "lane": "agency",
-   "note": "sent from prodev 2026-09-15, label outreach",
+   "note": "published address bounced 550 5.1.1; hold for contact form",
    "probability": 0.04,
-   "state": "submitted",
+   "state": "rejected",
    "title": "Steward's Plumbing, Albuquerque: 7.5s homepage rebuild pitch",
    "url": "https://stewardsplumbing.com"
   },
@@ -291,13 +295,17 @@
     {
      "at": "2026-09-15T06:02:07Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-15T06:05:09Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-0017",
    "lane": "agency",
-   "note": "sent from prodev 2026-09-15 to a named owner",
+   "note": "published address bounced 550 5.1.1; hold for contact form",
    "probability": 0.06,
-   "state": "submitted",
+   "state": "rejected",
    "title": "Evans Roofing, OKC (Marcus): mobile first rebuild pitch",
    "url": "https://evansroofingokc.com"
   },
