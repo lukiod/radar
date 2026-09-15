@@ -11,6 +11,12 @@ Each line: expected value ÷ your minutes, highest first.
 - **Claude for Open Source application (6 months Max 20x)** (grant, produced)
   $1,200 × 30% = $360 expected, 15 min. Submit the application from the draft.
   https://claude.com/contact-sales/claude-for-oss
+- **omi PR 13973 CoinGecko null optional parameters** (omi, accepted)
+  $50 × 90% = $45 expected, 2 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
+  https://github.com/BasedHardware/omi/pull/13973
+- **omi PR 13975 app_tools drops omitted optionals** (omi, accepted)
+  $50 × 90% = $45 expected, 2 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
+  https://github.com/BasedHardware/omi/pull/13975
 - **AWS Activate Founders ($1,000 credits on Bedrock)** (grant, produced)
   $1,000 × 60% = $600 expected, 30 min. Submit the application from the draft.
   https://aws.amazon.com/startups/credits/
@@ -20,18 +26,12 @@ Each line: expected value ÷ your minutes, highest first.
 - **MCPfy (Alok Yadav, met via Boardy 10 Aug): two week paid outbound pilot for $400** (network, produced)
   $400 × 15% = $60 expected, 5 min. Send the drafted message from your personal account; draft in internal-docs/comms/warm-network-2026-09-15.md.
   https://boardy.ai
-- **omi PR 13975 app_tools drops omitted optionals** (omi, accepted)
-  $50 × 55% = $28 expected, 3 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
-  https://github.com/BasedHardware/omi/pull/13975
-- **omi PR 13973 CoinGecko null optional parameters** (omi, accepted)
-  $50 × 50% = $25 expected, 3 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
-  https://github.com/BasedHardware/omi/pull/13973
+- **omi PR 13863 Notion usable ids** (omi, accepted)
+  $25 × 90% = $22 expected, 2 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
+  https://github.com/BasedHardware/omi/pull/13863
 - **Outlier: finish the identity check, OpenClaw coding projects (metered, weekly payout)** (gigwork, produced)
   $300 × 50% = $150 expected, 30 min. Log in and do the platform's own step (pick a project, finish the identity check, or apply); details and a paste ready blurb in internal-docs/earn/gigwork.md.
   https://outlier.ai
-- **omi PR 13863 Notion usable ids** (omi, accepted)
-  $25 × 50% = $12 expected, 3 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
-  https://github.com/BasedHardware/omi/pull/13863
 - **Populii: New Ratings gig when it resumes (small, no onboarding left)** (gigwork, produced)
   $40 × 50% = $20 expected, 5 min. Log in and do the platform's own step (pick a project, finish the identity check, or apply); details and a paste ready blurb in internal-docs/earn/gigwork.md.
   https://populii.ai
@@ -42,6 +42,6 @@ Each line: expected value ÷ your minutes, highest first.
   $1,000 × 10% = $100 expected, 30 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
-Paid to date: $0. Expected value in flight: $1,121.
+Paid to date: $0. Expected value in flight: $1,168.
 States: accepted 3, paid 1, produced 21, rejected 3, submitted 18
 

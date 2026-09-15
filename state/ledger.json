@@ -19,7 +19,7 @@
   },
   {
    "amount_usd": 25.0,
-   "founder_minutes": 3,
+   "founder_minutes": 2,
    "history": [
     {
      "at": "2026-09-15T01:46:23Z",
@@ -33,7 +33,7 @@
    "id": "omi-0002",
    "lane": "omi",
    "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
-   "probability": 0.5,
+   "probability": 0.9,
    "state": "accepted",
    "title": "omi PR 13863 Notion usable ids",
    "url": "https://github.com/BasedHardware/omi/pull/13863"
@@ -421,7 +421,7 @@
   },
   {
    "amount_usd": 50.0,
-   "founder_minutes": 3,
+   "founder_minutes": 2,
    "history": [
     {
      "at": "2026-09-15T06:50:53Z",
@@ -435,14 +435,14 @@
    "id": "omi-0005",
    "lane": "omi",
    "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
-   "probability": 0.5,
+   "probability": 0.9,
    "state": "accepted",
    "title": "omi PR 13973 CoinGecko null optional parameters",
    "url": "https://github.com/BasedHardware/omi/pull/13973"
   },
   {
    "amount_usd": 50.0,
-   "founder_minutes": 3,
+   "founder_minutes": 2,
    "history": [
     {
      "at": "2026-09-15T07:04:43Z",
@@ -456,7 +456,7 @@
    "id": "omi-0006",
    "lane": "omi",
    "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
-   "probability": 0.55,
+   "probability": 0.9,
    "state": "accepted",
    "title": "omi PR 13975 app_tools drops omitted optionals",
    "url": "https://github.com/BasedHardware/omi/pull/13975"
