@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar</title>
+<style>
+  :root { --bg:#0b0d10; --fg:#e6e8eb; --muted:#8a919a; --line:#1f242b; --loud:#ffd166; --link:#7cc4ff; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui, sans-serif; }
+  main { max-width:960px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--muted); margin-bottom:24px; }
+  h2 { font-size:15px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:28px 0 8px; }
+  ul { list-style:none; padding:0; margin:0; }
+  li { padding:10px 0; border-top:1px solid var(--line); }
+  li.loud { border-left:3px solid var(--loud); padding-left:10px; }
+  .kind { font-size:12px; color:var(--muted); margin-right:8px; }
+  a { color:var(--link); text-decoration:none; }
+  .meta { color:var(--muted); font-size:13px; }
+  .totals span { display:inline-block; margin:0 12px 8px 0; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Radar</h1>
+  <div class="sub" id="generated">loading</div>
+  <div class="totals" id="totals"></div>
+  <h2>Act on these</h2>
+  <ul id="loud"></ul>
+  <h2>Context</h2>
+  <ul id="quiet"></ul>
+</main>
+<script>
+const LOUD = new Set(["tt_bounty", "tt_kernel_commit", "bounty_issue", "tarsnap_release", "our_pr"]);
+fetch("state/latest.json", {cache: "no-store"}).then(r => r.json()).then(state => {
+  document.getElementById("generated").textContent = "generated " + state.generated_at.replace("T", " ").replace("Z", " UTC");
+  const totals = {};
+  for (const e of state.events) totals[e.kind] = (totals[e.kind] || 0) + 1;
+  document.getElementById("totals").innerHTML = Object.entries(totals).sort().map(([k, v]) => `<span>${k}: ${v}</span>`).join("");
+  const render = (e) => {
+    const x = e.extra || {};
+    let meta = new Date(e.at).toISOString().slice(0, 16).replace("T", " ");
+    if (e.kind === "tt_bounty") meta += ` · ${x.state} · assigned: ${(x.assignees && x.assignees.length) ? x.assignees.join(", ") : "nobody"}`;
+    if (e.kind === "our_pr") meta += ` · ${x.state}${x.merged_at ? " · merged " + x.merged_at.slice(0, 10) : ""}${x.review ? " · " + x.review : ""}`;
+    if (e.kind === "bounty_issue") meta += ` · ${x.comments} comments`;
+    if (e.kind === "tt_kernel_commit") meta += ` · ${(x.files || []).length} kernel files, ${(x.added || []).length} added`;
+    const li = document.createElement("li");
+    if (LOUD.has(e.kind)) li.className = "loud";
+    li.innerHTML = `<span class="kind">${e.kind}</span><a href="${e.url}" target="_blank" rel="noopener"></a><div class="meta">${meta}</div>`;
+    li.querySelector("a").textContent = e.title;
+    return li;
+  };
+  for (const e of state.events) document.getElementById(LOUD.has(e.kind) ? "loud" : "quiet").appendChild(render(e));
+}).catch(err => { document.getElementById("generated").textContent = "no state yet: " + err; });
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+name: radar
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan
+        env:
+          GH_TOKEN: ${{ secrets.RADAR_TOKEN || github.token }}
+        run: python3 -m radar.run | tee /tmp/digest.md
+      - name: Commit state
+        run: |
+          git config user.name "radar"
+          git config user.email "radar@users.noreply.github.com"
+          git add state digest
+          git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+      - name: Update the Radar issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q "^## Act on these" /tmp/digest.md || grep -q "^## Our PRs changed" /tmp/digest.md; then
+            n=$(gh issue list --label radar --state open --limit 1 --json number -q '.[0].number')
+            if [ -z "$n" ]; then
+              n=$(gh issue create --title "Radar" --label radar --body-file /tmp/digest.md | grep -oE '[0-9]+$')
+            else
+              gh issue comment "$n" --body-file /tmp/digest.md
+            fi
+          fi

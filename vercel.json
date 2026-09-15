@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/state/:path*", "destination": "/state/:path*" }],
+  "headers": [{ "source": "/state/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-store" }] }]
+}
