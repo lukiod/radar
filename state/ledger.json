@@ -850,6 +850,40 @@
    "state": "produced",
    "title": "Itakshii Architecture & Design, Pune (verified gmail): site visit booking + WhatsApp reminders",
    "url": "https://itakshidesigns.co.in"
+  },
+  {
+   "amount_usd": 3500,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T15:31:34Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-kc-04",
+   "lane": "agency",
+   "note": "draft in comms/outbound-queue-agency-2026-09-17.md; agent sends from prodev",
+   "probability": 0.03,
+   "state": "produced",
+   "title": "Family Dental Pros, Overland Park (office@): online booking + reminders pitch",
+   "url": "https://familydentalpros.com"
+  },
+  {
+   "amount_usd": 3500,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T15:31:34Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-kc-05",
+   "lane": "agency",
+   "note": "draft in comms/outbound-queue-agency-2026-09-17.md; agent sends from prodev",
+   "probability": 0.03,
+   "state": "produced",
+   "title": "Kansas Dental Center, Overland Park (office@): online booking + reminders pitch",
+   "url": "https://overlandparkksdentist.com"
   }
  ]
 }
