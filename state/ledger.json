@@ -791,13 +791,17 @@
     {
      "at": "2026-09-15T11:34:00Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-15T11:34:33Z",
+     "state": "submitted"
     }
    ],
    "id": "pune-0001",
    "lane": "agency",
-   "note": "Pune local lane, INR 18,000 via UPI; draft in comms/outbound-queue-pune-2026-09-16.md; agent sends from prodev",
+   "note": "sent 2026-09-15 from prodev, msg 1a0a4d8d0f89a396, preview attached",
    "probability": 0.06,
-   "state": "produced",
+   "state": "submitted",
    "title": "Acme Dental Lounge, Aundh Pune (Dr. Ashish Gupta, verified gmail): online booking + WhatsApp reminders",
    "url": "https://acmedental.in"
   }
