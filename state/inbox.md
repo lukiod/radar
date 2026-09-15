@@ -32,6 +32,16 @@ Each line: expected value ÷ your minutes, highest first.
 - **lablab AssemblyAI hackathon: Dispatch entry (submission copy, slides, video script ready)** (hackathon, produced)
   $5,000 × 8% = $400 expected, 30 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
+- **Outlier: finish the identity check, OpenClaw coding projects (metered, weekly payout)** (gigwork, produced)
+  $300 × 50% = $150 expected, 30 min. Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.
+  https://outlier.ai
+- **Populii: New Ratings gig when it resumes (small, no onboarding left)** (gigwork, produced)
+  $40 × 50% = $20 expected, 5 min. Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.
+  https://populii.ai
+- **Mercor: apply to Quality Analyst and an Indian language annotation listing** (gigwork, produced)
+  $200 × 35% = $70 expected, 20 min. Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.
+  https://work.mercor.com/explore
 
 Paid to date: $0. Expected value in flight: $948.
-States: paid 1, produced 10, rejected 3, submitted 17
+States: paid 1, produced 13, rejected 3, submitted 17
+

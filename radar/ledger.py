@@ -40,6 +40,8 @@ FOUNDER_STEP = {
     ("review_first_repo", "accepted"): "Reply to the reviewer yourself (repo policy); drafts on request.",
     ("grant", "produced"): "Submit the application from the draft.",
     ("gig", "produced"): "Post the proposal from your freelance account.",
+    ("gigwork", "produced"): "Log in and finish the platform's own step (identity check or application); the blurb is in earn/gigwork.md.",
+    ("gigwork", "submitted"): "Do the tasks; log hours and the first payout here.",
     ("gig", "accepted"): "Accept the contract; the deliverable is ready.",
     ("tenstorrent", "accepted"): "Accept the bounty terms on the issue; approve card time if validation needs it.",
     ("product", "produced"): "Approve the listing and connect PayPal on the storefront.",

@@ -562,6 +562,57 @@
    "state": "submitted",
    "title": "Built Right Digital (info@): 25 row lead sample",
    "url": "https://builtrightdigital.com"
+  },
+  {
+   "amount_usd": 300,
+   "founder_minutes": 30,
+   "history": [
+    {
+     "at": "2026-09-15T11:00:55Z",
+     "state": "produced"
+    }
+   ],
+   "id": "gig-0001",
+   "lane": "gigwork",
+   "note": "found in personal inbox 2026-09-15; see internal-docs/earn/gigwork.md",
+   "probability": 0.5,
+   "state": "produced",
+   "title": "Outlier: finish the identity check, OpenClaw coding projects (metered, weekly payout)",
+   "url": "https://outlier.ai"
+  },
+  {
+   "amount_usd": 200,
+   "founder_minutes": 20,
+   "history": [
+    {
+     "at": "2026-09-15T11:00:55Z",
+     "state": "produced"
+    }
+   ],
+   "id": "gig-0002",
+   "lane": "gigwork",
+   "note": "found in personal inbox 2026-09-15; see internal-docs/earn/gigwork.md",
+   "probability": 0.35,
+   "state": "produced",
+   "title": "Mercor: apply to Quality Analyst and an Indian language annotation listing",
+   "url": "https://work.mercor.com/explore"
+  },
+  {
+   "amount_usd": 40,
+   "founder_minutes": 5,
+   "history": [
+    {
+     "at": "2026-09-15T11:00:55Z",
+     "state": "produced"
+    }
+   ],
+   "id": "gig-0003",
+   "lane": "gigwork",
+   "note": "found in personal inbox 2026-09-15; see internal-docs/earn/gigwork.md",
+   "probability": 0.5,
+   "state": "produced",
+   "title": "Populii: New Ratings gig when it resumes (small, no onboarding left)",
+   "url": "https://populii.ai"
   }
  ]
 }
