@@ -1,6 +1,310 @@
 {
- "generated_at": "2026-09-15T19:29:54Z",
+ "generated_at": "2026-09-15T22:24:51Z",
  "events": [
+  {
+   "id": "https://github.com/OmniBlocks/monorepo/issues/795",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OmniBlocks/monorepo: Reverse bounty",
+   "url": "https://github.com/OmniBlocks/monorepo/issues/795",
+   "at": "2026-09-15T22:11:34Z",
+   "extra": {
+    "comments": 6,
+    "amount_usd": null,
+    "author": "PPPDUD",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/monorepo/issues/794",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/monorepo: $100 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/monorepo/issues/794",
+   "at": "2026-09-15T21:46:38Z",
+   "extra": {
+    "comments": 32,
+    "amount_usd": 100,
+    "author": "someCatInTheWorld",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56702",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56702 [Quasar] Cached-program re-enqueue does not refresh DFB configs in fast dispatch",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56702",
+   "at": "2026-09-15T21:22:31Z",
+   "extra": {
+    "author": "jbaumanTT",
+    "labels": [
+     "bug",
+     "fast-dispatch",
+     "runtime",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56701",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56701 [Quasar] Trace capture drops DFB configs, replay reads the missing snapshot",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56701",
+   "at": "2026-09-15T21:22:20Z",
+   "extra": {
+    "author": "jbaumanTT",
+    "labels": [
+     "bug",
+     "fast-dispatch",
+     "runtime",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56697",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56697 blackhole tensix perf counters cannot see a cb_wait_front poll on the unpack RISC: a memory wait read from them is zero while the thread waits 38 percent of the wall",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56697",
+   "at": "2026-09-15T20:54:55Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "profiler",
+     "blackhole",
+     "infra/tools - internal"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56696",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56696 ttnn.topk with k not a multiple of 32 appends two slice ops (values and indices) of 0.5 to 2.2 us each",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56696",
+   "at": "2026-09-15T20:54:55Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "op_cat: reduces",
+     "perf"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56695",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56695 ttnn.topk composite route on blackhole: TopkRouteFinish costs a flat 21 to 25 us for every k up to 512 because it runs on k/16 cores",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56695",
+   "at": "2026-09-15T20:54:54Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "op_cat: reduces",
+     "perf"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56693",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56693 fp32_dest_acc_en selects the non streaming SDPA prefill kernel, whose FPU and SFPU never overlap: 24 percent slower at the llama 3.1 8B prefill point",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56693",
+   "at": "2026-09-15T20:54:53Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56694",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56694 tt_transformers SDPA program configs pin an (8, 8) grid on blackhole: prefill 24 percent faster on the full grid; decode runs 64 active cores on either grid and is still 9 to 10 percent faster on the wide one",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56694",
+   "at": "2026-09-15T20:54:53Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "models",
+     "blackhole",
+     "SDPA",
+     "op_cat: SDPA",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56692",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56692 SDPA streaming kernel compute front end: about 3,300 cycles per k128 step with a free reader, 12 data format reconfig sites per step, pack thread bound in the compute bound regimes",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56692",
+   "at": "2026-09-15T20:54:52Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56691",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56691 causal, chunked, windowed, MLA prefill and joint SDPA stream K and V from DRAM on every core: the K/V forwarding chains are built only for plain non causal ops",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56691",
+   "at": "2026-09-15T20:54:51Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/pierreneuville/DevmobileClaude/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "pierreneuville/DevmobileClaude: Quick Crypt bounty report for @bschick \u2014 WebAuthn Signal API targets wrong user handle",
+   "url": "https://github.com/pierreneuville/DevmobileClaude/issues/1",
+   "at": "2026-09-15T20:43:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "pierreneuville",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56689",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56689 [Quasar] Bring up experimental sdpa (prefill) on Quasar (functional on craq-sim + emulator + WH)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56689",
+   "at": "2026-09-15T20:39:02Z",
+   "extra": {
+    "author": "gajanan-choudhary",
+    "labels": [
+     "op_cat: mm",
+     "SDPA",
+     "op_cat: SDPA",
+     "refactor"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/3a016b74847928674b566d41efc90ce3912e55b8",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "feat: add compute api for quasar relu_min, relu_max (#56489)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/3a016b74847928674b566d41efc90ce3912e55b8",
+   "at": "2026-09-15T20:25:37Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_relu.h",
+     "tt_metal/hw/inc/api/compute/eltwise_unary/relu.h",
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_unary_sfpu_quasar.py",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_instr_params.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_sfpu.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_relu.h"
+    ],
+    "added": [],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56688",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56688 [Quasar] Bring up experimental sdpa_decode on Quasar (functional on craq-sim + emulator + WH)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56688",
+   "at": "2026-09-15T20:07:45Z",
+   "extra": {
+    "author": "gajanan-choudhary",
+    "labels": [
+     "op_cat: mm",
+     "SDPA",
+     "op_cat: SDPA",
+     "refactor"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ceaf66a1e38c61b833f791f8fabf20d8073703a3",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] [SAN] llk_pack_init num_tiles !== llk_matmul_pack ntiles :facepalm: (#56483)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ceaf66a1e38c61b833f791f8fabf20d8073703a3",
+   "at": "2026-09-15T19:41:11Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_pack_tile_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_pack_tile_api.h"
+    ],
+    "added": [],
+    "author": "sstanisicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/1528192c4e6834bb54a9c9f30dd3ea3f003a1d8b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] [SAN] Build the sanitizer's own functions for size (#56511)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/1528192c4e6834bb54a9c9f30dd3ea3f003a1d8b",
+   "at": "2026-09-15T19:41:10Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tools/include/sanitizer/api.h",
+     "tt_metal/tt-llk/tools/include/sanitizer/impl.h",
+     "tt_metal/tt-llk/tools/include/sanitizer/output.h",
+     "tt_metal/tt-llk/tools/include/sanitizer/settings.h"
+    ],
+    "added": [],
+    "author": "sstanisicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/85632bb78fd89d363a09f316edc3a54a8f56756b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] [SAN] Keep the sanitizer headers out of disabled builds (#56510)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/85632bb78fd89d363a09f316edc3a54a8f56756b",
+   "at": "2026-09-15T19:41:09Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tools/include/sanitizer/api.h",
+     "tt_metal/tt-llk/tools/tests/unit/lit/functional/test_disabled_functional.cpp"
+    ],
+    "added": [],
+    "author": "sstanisicTT"
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56684",
    "source": "tenstorrent",
@@ -209,20 +513,6 @@
     "amount_usd": null,
     "author": "ceyirelehe47",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56673",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56673 [BH] copy_dest_value leaves the destination DST slot unchanged when a preceding op occupies it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56673",
-   "at": "2026-09-15T16:24:38Z",
-   "extra": {
-    "author": "ronnie00TT",
-    "labels": [
-     "bug"
-    ]
    }
   },
   {
@@ -499,20 +789,6 @@
     "labels": [
      "op_cat: fused",
      "ign-ops"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56655",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56655 [BH] mul_reduce_scalar_chunked_tile is wrong for every multi-chunk configuration (reproduced by a metal gtest)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56655",
-   "at": "2026-09-15T14:30:05Z",
-   "extra": {
-    "author": "ronnie00TT",
-    "labels": [
-     "bug"
     ]
    }
   },
@@ -1336,21 +1612,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56571",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56571 [Bug] verify-changed-tests cannot scope any PR touching a tests yaml with duplicate leg names",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56571",
-   "at": "2026-09-14T23:06:31Z",
-   "extra": {
-    "author": "alinakhanTT",
-    "labels": [
-     "bug",
-     "ci-bug"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56569",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1437,8 +1698,7 @@
     "author": "Riddy21",
     "labels": [
      "Fabric",
-     "control-plane",
-     "pipeline-builder"
+     "control-plane"
     ]
    }
   },
@@ -1454,20 +1714,6 @@
     "labels": [
      "runtime",
      "Quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56551",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56551 [aw] Failed jobs: `/test` \u2014 CI pipeline selector for tt-metal",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56551",
-   "at": "2026-09-14T21:44:40Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
     ]
    }
   },
@@ -1509,20 +1755,6 @@
     "amount_usd": null,
     "author": "goldnbones",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56547",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56547 [fabric] router leaves NOC_PACKET_TAG set at teardown; trips the kernel-handoff assert on Blackhole with the watcher and eth asserts enabled",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56547",
-   "at": "2026-09-14T21:28:21Z",
-   "extra": {
-    "author": "sjettTT",
-    "labels": [
-     "bug"
-    ]
    }
   },
   {
@@ -1594,21 +1826,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56544",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56544 [silencer] Repeated critical-severity TT_FATAL log spam: \"Only TILE layout is supported for BFLOAT8_B dtype!\" during model e2e p\n[Content truncated due to length]",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56544",
-   "at": "2026-09-14T21:03:22Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "automation",
-     "silencer"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/13924",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1616,7 +1833,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13924",
    "at": "2026-09-14T20:53:36Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "Ivansky1",
     "labels": []
@@ -2577,20 +2794,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/13838",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Maithili (\u092e\u0948\u0925\u093f\u0932\u0940) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13838",
-   "at": "2026-09-14T12:41:36Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "Aj2280",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13838",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#13838 [Bounty proposal] Maithili (\u092e\u0948\u0925\u093f\u0932\u0940) quickstart for omi-cli ($25 proposed)",
@@ -2599,20 +2802,6 @@
    "extra": {
     "state": "open",
     "author": "Aj2280"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13836",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Assamese (\u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13836",
-   "at": "2026-09-14T12:39:35Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 25,
-    "author": "Aj2280",
-    "labels": []
    }
   },
   {
@@ -2973,30 +3162,6 @@
    "extra": {
     "state": "CLOSED",
     "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/914",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#914 Bug bounty: malformed .Z maxbits=17 reads beyond mask table and crashes Tarsnap",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/914",
-   "at": "2026-09-12T19:59:05Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "bulatovicluka1989-rgb"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/919",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#919 [Bug bounty] 49,153-byte MZ input crashes Tarsnap in ZIP SFX bidder",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/919",
-   "at": "2026-09-12T19:58:09Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "bulatovicluka1989-rgb"
    }
   }
  ],
