@@ -110,6 +110,10 @@ def inbox(data):
         step = FOUNDER_STEP.get((rec["lane"], rec["state"]))
         if not step:
             continue
+        # Zero founder minutes means the agent does this one (for example a
+        # send from the prodev mailbox); it is not a founder item.
+        if not rec.get("founder_minutes"):
+            continue
         items.append((rec, step))
     items.sort(key=lambda pair: -(expected_value(pair[0]) / max(pair[0]["founder_minutes"], 1)))
     return items

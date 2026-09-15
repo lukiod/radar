@@ -2,12 +2,6 @@
 
 Each line: expected value ÷ your minutes, highest first.
 
-- **Lyle Law, Overland Park (kristopher@, site scrape): mobile + intake + consult booking pitch** (agency, produced)
-  $3,500 × 4% = $140 expected, 0 min. Send the draft from your mailbox; name only signature and the Reply stop line.
-  https://lylelawllc.com
-- **Moreno Law, Kansas City (anthony@, site scrape): consult scheduling pitch** (agency, produced)
-  $3,500 × 4% = $140 expected, 0 min. Send the draft from your mailbox; name only signature and the Reply stop line.
-  https://morenolawkc.com
 - **GEM Family Law, Denver (managing partner egebhardt@, Clay): intake + scheduling pitch** (agency, produced)
   $4,000 × 5% = $200 expected, 2 min. Send the draft from your mailbox; name only signature and the Reply stop line.
   https://familylawco.com
