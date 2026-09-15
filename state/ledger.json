@@ -69,7 +69,7 @@
    "url": "https://github.com/BasedHardware/omi/pull/13867"
   },
   {
-   "amount_usd": 12.0,
+   "amount_usd": 0.0,
    "founder_minutes": 10,
    "history": [
     {
@@ -79,7 +79,7 @@
    ],
    "id": "review_first_repo-0005",
    "lane": "review_first_repo",
-   "note": "seeded 2026-09-15 from internal-docs/earn",
+   "note": "no cash; grant threshold",
    "probability": 0.7,
    "state": "submitted",
    "title": "TypeScript PR 64268 ZonedDateTime.toLocaleString timeZone",
@@ -213,7 +213,7 @@
    "url": "https://peakdentaltexas.com"
   },
   {
-   "amount_usd": 12.0,
+   "amount_usd": 0.0,
    "founder_minutes": 0,
    "history": [
     {
@@ -227,7 +227,7 @@
    ],
    "id": "review_first_repo-0013",
    "lane": "review_first_repo",
-   "note": "no cash lane; value is the grant clock",
+   "note": "no cash; counts toward the 100 PR grant threshold",
    "probability": 1.0,
    "state": "paid",
    "title": "TRTMC PR 1233 (t5) merged 2026-09-14",
