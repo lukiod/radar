@@ -461,6 +461,57 @@
    "state": "submitted",
    "title": "omi PR 13977 Hive ambiguous task status match",
    "url": "https://github.com/BasedHardware/omi/pull/13977"
+  },
+  {
+   "amount_usd": 3500,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T10:28:53Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-kc-01",
+   "lane": "agency",
+   "note": "draft in internal-docs/comms/outbound-queue-agency-2026-09-16.md; sends from prodev on 09 16 within cap",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "Lyle Law, Overland Park (kristopher@, site scrape): mobile + intake + consult booking pitch",
+   "url": "https://lylelawllc.com"
+  },
+  {
+   "amount_usd": 3500,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T10:28:53Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-kc-02",
+   "lane": "agency",
+   "note": "draft in internal-docs/comms/outbound-queue-agency-2026-09-16.md; sends from prodev on 09 16 within cap",
+   "probability": 0.04,
+   "state": "produced",
+   "title": "Moreno Law, Kansas City (anthony@, site scrape): consult scheduling pitch",
+   "url": "https://morenolawkc.com"
+  },
+  {
+   "amount_usd": 3000,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-15T10:28:53Z",
+     "state": "produced"
+    }
+   ],
+   "id": "agency-kc-03",
+   "lane": "agency",
+   "note": "draft in internal-docs/comms/outbound-queue-agency-2026-09-16.md; sends from prodev on 09 16 within cap",
+   "probability": 0.03,
+   "state": "produced",
+   "title": "Snake n Rooter Plumbing, Kansas City (rbarefoot@): after hours intake pitch",
+   "url": "https://snakenrooterplumbing.com"
   }
  ]
 }
