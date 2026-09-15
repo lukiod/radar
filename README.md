@@ -13,5 +13,5 @@ and releases.
 
 Run locally: `python3 -m radar.run --dry-run` (needs an authenticated `gh`).
 
-`web/index.html` renders `state/latest.json` and is meant to be served as a
-static page.
+`index.html` renders `state/latest.json`; the repo is served with GitHub Pages
+so the page is live at https://lukiod.github.io/radar/ after every run.
