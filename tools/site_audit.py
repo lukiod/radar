@@ -19,7 +19,7 @@ import urllib.error
 import urllib.request
 from datetime import date
 
-UA = "Mozilla/5.0 (compatible; site-audit/1.0; +https://codeconclave.com)"
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 BOOKING = ("calendly", "acuity", "book now", "book online", "schedule online", "book an appointment",
            "schedule an appointment", "request appointment", "zocdoc", "housecall", "jobber", "servicetitan",
            "mindbody", "vagaro", "square appointments", "setmore", "booksy")
