@@ -427,6 +427,23 @@
    "state": "submitted",
    "title": "omi PR 13973 CoinGecko null optional parameters",
    "url": "https://github.com/BasedHardware/omi/pull/13973"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 3,
+   "history": [
+    {
+     "at": "2026-09-15T07:04:43Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0006",
+   "lane": "omi",
+   "note": "proposal #13974; backend boundary fix for the null optionals class (covers coingecko, public-holidays, semantic-scholar, open-meteo, MCP)",
+   "probability": 0.55,
+   "state": "submitted",
+   "title": "omi PR 13975 app_tools drops omitted optionals",
+   "url": "https://github.com/BasedHardware/omi/pull/13975"
   }
  ]
 }
