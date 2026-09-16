@@ -1,6 +1,300 @@
 {
- "generated_at": "2026-09-16T15:19:07Z",
+ "generated_at": "2026-09-16T18:59:47Z",
  "events": [
+  {
+   "id": "https://github.com/MergeFi/backend/issues/267",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/backend: Milestone has no equivalent of bounty-state-machine.ts \u2014 status transitions are validated ad hoc per-method instead of centrally",
+   "url": "https://github.com/MergeFi/backend/issues/267",
+   "at": "2026-09-16T18:57:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/backend/issues/265",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/backend: No existence pre-checks on FK-referencing ids across bounty/milestone/team create and claim paths \u2014 unknown UUIDs crash with an unhandled Postgres FK-violation 500",
+   "url": "https://github.com/MergeFi/backend/issues/265",
+   "at": "2026-09-16T18:57:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/backend/issues/262",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/backend: Role-gated mutation endpoints across bounties/milestones never bind the authenticated caller's identity to the resource they're acting on",
+   "url": "https://github.com/MergeFi/backend/issues/262",
+   "at": "2026-09-16T18:57:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/backend/issues/259",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/backend: A bounty that fails escrow release after MERGED is still permanently stuck \u2014 retrying is actively blocked by the state machine's own guard (#46 remains unaddressed)",
+   "url": "https://github.com/MergeFi/backend/issues/259",
+   "at": "2026-09-16T18:57:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/backend/issues/256",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/backend: TeamsService.assignToBounty still has no bounty-status or ownership guard \u2014 the codebase's own test suite documents this as unfixed",
+   "url": "https://github.com/MergeFi/backend/issues/256",
+   "at": "2026-09-16T18:57:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/backend/issues/255",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/backend: CreateMilestoneDto still lacks future-deadline validation \u2014 the #108/#171 fix only covered bounties",
+   "url": "https://github.com/MergeFi/backend/issues/255",
+   "at": "2026-09-16T18:57:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/frontend/issues/355",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/frontend: mockBounties never includes a funded, merged, refunded, or expired bounty \u2014 half the BountyStatus state machine is unreachable in demo mode",
+   "url": "https://github.com/MergeFi/frontend/issues/355",
+   "at": "2026-09-16T18:54:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/54551",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#54551 [Bounty $1,000] ttnn.prod_bw returns non-finite gradients for zero inputs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/54551",
+   "at": "2026-09-16T18:37:36Z",
+   "extra": {
+    "state": "CLOSED",
+    "author": "kanapitsas",
+    "assignees": [
+     "kanapitsas"
+    ],
+    "created": "2026-08-27T09:34:17Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56788",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56788 indexer_score_dsa: the math thread issues an FPU instruction on an eighth of the cycles it has one ready",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56788",
+   "at": "2026-09-16T17:56:45Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e4e037486b426ae56b0c5b7c506c880bb466e444",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Restore the unary SFPU coverage lane (#56744)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e4e037486b426ae56b0c5b7c506c880bb466e444",
+   "at": "2026-09-16T17:38:28Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_unary_sfpu.py",
+     "tt_metal/tt-llk/tests/python_tests/test_matmul_and_unary_sfpu.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_plot.py"
+    ],
+    "added": [],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56785",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56785 paged MLA decode: more cores per head group is not better, the default split is 29 percent off at the DeepSeek geometry",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56785",
+   "at": "2026-09-16T17:13:06Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56783",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56783 tt-train CI: no tests on PR pushes, no multi-device SKU, no Wormhole coverage",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56783",
+   "at": "2026-09-16T17:05:23Z",
+   "extra": {
+    "author": "mdragulaTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14237",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: Proposed $25 docs bounty: Tajik (tg) Python CLI quickstart",
+   "url": "https://github.com/BasedHardware/omi/issues/14237",
+   "at": "2026-09-16T16:55:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "TheRWX",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14235",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: Proposed $25 docs bounty: Belarusian (be) Python CLI quickstart",
+   "url": "https://github.com/BasedHardware/omi/issues/14235",
+   "at": "2026-09-16T16:51:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "TheRWX",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/verdikta/verdikta-applications/issues/34",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "verdikta/verdikta-applications: Bounty API: shape-check hunter-supplied submission CIDs at submit/prepare and document the archive shape for agents",
+   "url": "https://github.com/verdikta/verdikta-applications/issues/34",
+   "at": "2026-09-16T16:50:35Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "nigelon11",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56781",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56781 DFB on borrowed mem validation does not account for Subdevice",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56781",
+   "at": "2026-09-16T16:47:11Z",
+   "extra": {
+    "author": "abhullar-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/15",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $999999999999999999 BOUNTY FOR IMPLEMENTING THE UNIVERSE INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/15",
+   "at": "2026-09-16T16:21:08Z",
+   "extra": {
+    "comments": 7,
+    "amount_usd": 999999999999999999,
+    "author": "ampelc",
+    "labels": [
+     "enhancement",
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56777",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56777 Add resnet e2e to CI",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56777",
+   "at": "2026-09-16T16:13:57Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56776",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56776 Quasar V2: burst of posted inline multicast dword writes loses all but the first 6 (emu 9x4)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56776",
+   "at": "2026-09-16T15:57:51Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1573",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] Bounty",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1573",
+   "at": "2026-09-16T15:35:15Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56771",
    "source": "tenstorrent",
@@ -232,7 +526,7 @@
    "url": "https://github.com/OmniBlocks/Boxy-gh/issues/143",
    "at": "2026-09-16T12:58:44Z",
    "extra": {
-    "comments": 13,
+    "comments": 28,
     "amount_usd": null,
     "author": "PPPDUD",
     "labels": [
@@ -357,7 +651,7 @@
    "id": "https://github.com/tenstorrent/tt-metal/issues/56751",
    "source": "tenstorrent",
    "kind": "tt_issue",
-   "title": "tt-metal#56751 [llk]: SFPLOADMACRO produces wrong results under coverage instrumentation (Reciprocal fails 46/153 on Blackhole)",
+   "title": "tt-metal#56751 [sfpi] SFPLOADMACRO produces wrong results under coverage instrumentation (Reciprocal fails 46/153 on Blackhole)",
    "url": "https://github.com/tenstorrent/tt-metal/issues/56751",
    "at": "2026-09-16T12:22:28Z",
    "extra": {
@@ -685,7 +979,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1560",
    "at": "2026-09-16T01:18:46Z",
    "extra": {
-    "comments": 2,
+    "comments": 6,
     "amount_usd": 100,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -835,7 +1129,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/4",
    "at": "2026-09-15T23:37:03Z",
    "extra": {
-    "comments": 17,
+    "comments": 16,
     "amount_usd": 9740486,
     "author": "playforge-coding",
     "labels": [
@@ -1288,64 +1582,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/73595043f0e403f5740f0b438670b27920e01dc1",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "TTNOP Injector for LLK tests (CI + Focus tool)  (#56297)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/73595043f0e403f5740f0b438670b27920e01dc1",
-   "at": "2026-09-15T18:46:45Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/.claude/skills/perturb/SKILL.md",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/.gitignore",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/FOCUS.md",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/Makefile",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/README.md",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/_pytest_runner.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/cave.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/changed_tests.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/ci.sh",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/elf32.h",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/env.sh",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/focus.sh",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/heartbeat.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/junit.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/report.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/scan.cpp",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/scanner.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/supervise.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/sweep.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/tensix_isa.h",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/tests/ttnop_check.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/ttnop_plugin.py"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/ttnop/.gitignore",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/FOCUS.md",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/Makefile",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/README.md",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/_pytest_runner.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/cave.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/changed_tests.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/ci.sh",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/elf32.h",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/env.sh",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/focus.sh",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/heartbeat.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/junit.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/report.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/scan.cpp",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/scanner.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/supervise.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/sweep.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/tensix_isa.h",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/tests/ttnop_check.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/ttnop_plugin.py"
-    ],
-    "author": "nmohammedTT"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/50522",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -1375,80 +1611,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-11T18:45:31Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/d36d2b357ff723c6d5c8b002daa50137fb6c9ed8",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][BH] Name the SFPU EMA load/store mod0 after the field it encodes (#56207)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/d36d2b357ff723c6d5c8b002daa50137fb6c9ed8",
-   "at": "2026-09-15T17:38:19Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_ema.py",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/ckernel_sfpu_ema.h"
-    ],
-    "added": [],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/f0b4cdfe644cbb49ce928ee963a429117b2d2c5f",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][WH] Name the SFPU EMA load/store mod0 after the field it encodes (#56209)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/f0b4cdfe644cbb49ce928ee963a429117b2d2c5f",
-   "at": "2026-09-15T17:31:03Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_ema.h"
-    ],
-    "added": [],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56680",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56680 [Gemma4/Blackhole] dFlash spec path answers a previous request's prompt after a batched burst",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56680",
-   "at": "2026-09-15T17:27:08Z",
-   "extra": {
-    "author": "arginugaTT",
-    "labels": [
-     "bug",
-     "blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56679",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56679 [Gemma4] dFlash: raise conc-1 code decode rate to 80 tok/s/user at 4k-32k (currently ~47)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56679",
-   "at": "2026-09-15T17:26:40Z",
-   "extra": {
-    "author": "arginugaTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56678",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56678 [aw] Failed jobs: `/test` \u2014 CI pipeline selector for tt-metal",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56678",
-   "at": "2026-09-15T17:13:20Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
    }
   },
   {
@@ -1483,42 +1645,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/6a569bac700d165666e1d68ac6308d520eb74111",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[DeepSeek-V4] Add clamped SiLU-GLU expert activation (#55905)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/6a569bac700d165666e1d68ac6308d520eb74111",
-   "at": "2026-09-15T16:06:29Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_clamped_silu_glu.h",
-     "tt_metal/hw/inc/api/compute/clamped_silu_glu.h",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary_composite.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary_nanobind.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/device/binary_composite_op.cpp"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_clamped_silu_glu.h",
-     "tt_metal/hw/inc/api/compute/clamped_silu_glu.h"
-    ],
-    "author": "njovanovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56670",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56670 Regenerate weights for models",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56670",
-   "at": "2026-09-15T16:02:54Z",
-   "extra": {
-    "author": "pavlepopovic",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/OmniBlocks/Boxy-gh/issues/140",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1526,63 +1652,12 @@
    "url": "https://github.com/OmniBlocks/Boxy-gh/issues/140",
    "at": "2026-09-15T15:59:50Z",
    "extra": {
-    "comments": 6,
+    "comments": 9,
     "amount_usd": null,
     "author": "ampelc",
     "labels": [
      "bounty"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/6621935b0bb1f94533588cd256d697de45a81008",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Feature Quasar - Implemented F32 <-> Uint16 Typecast (#56152)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/6621935b0bb1f94533588cd256d697de45a81008",
-   "at": "2026-09-15T15:47:08Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_unary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_instr_params.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_sfpu.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_typecast_fp32_to_uint16.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_typecast_fp32_to_uint16.h"
-    ],
-    "author": "vkhullarTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/9563eeff86b7ae41dff2b53b8abe9aff65dd877c",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Quasar] Make Float16_b to Float_32 typecast an SFPU no-op (#56662)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/9563eeff86b7ae41dff2b53b8abe9aff65dd877c",
-   "at": "2026-09-15T15:43:15Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/eltwise_unary/typecast.h"
-    ],
-    "added": [],
-    "author": "amokanTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/273aabff7feda4b7a9223f33129696e48343c3c6",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Fix the x/x shortcut in the SFPU divide (#56579)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/273aabff7feda4b7a9223f33129696e48343c3c6",
-   "at": "2026-09-15T15:34:01Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary.h"
-    ],
-    "added": [],
-    "author": "mcraigheadTT"
    }
   },
   {
@@ -1699,22 +1774,6 @@
    "extra": {
     "state": "open",
     "author": "t3ratech"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/54551",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#54551 [Bounty $1,000] ttnn.prod_bw returns non-finite gradients for zero inputs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/54551",
-   "at": "2026-09-15T08:07:25Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "kanapitsas",
-    "assignees": [
-     "kanapitsas"
-    ],
-    "created": "2026-08-27T09:34:17Z"
    }
   },
   {
@@ -1873,262 +1932,6 @@
    "extra": {
     "state": "OPEN",
     "author": "Arnavquartz"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56277",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56277 [Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
-   "at": "2026-09-14T16:20:28Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "jasondavies"
-    ],
-    "created": "2026-09-11T17:26:07Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/53787",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#53787 [Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
-   "at": "2026-09-14T16:17:51Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "kanapitsas",
-    "assignees": [
-     "kanapitsas"
-    ],
-    "created": "2026-08-20T12:34:59Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/55130",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#55130 [Bounty $5,000] ttnn.bias_gelu silently computes the approximate GELU while ttnn.gelu defaults to exact",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/55130",
-   "at": "2026-09-14T16:17:19Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "AJ0070",
-    "assignees": [
-     "AJ0070"
-    ],
-    "created": "2026-09-02T06:58:32Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/54016",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#54016 [Bounty $35000] Welford Two-Pass Statistics Optimisation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
-   "at": "2026-09-14T16:13:56Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jasondavies",
-    "assignees": [
-     "jasondavies"
-    ],
-    "created": "2026-08-21T22:56:24Z"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/kivaloo/issues/383",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/kivaloo#383 [bug bounty] kvlds: zero-length copies pass NULL to memcpy()",
-   "url": "https://github.com/Tarsnap/kivaloo/issues/383",
-   "at": "2026-09-13T18:30:38Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "rudrasatani13"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/918",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#918 [Bug bounty] GNU AR filename-table size triggers unbounded allocation/read-ahead from a tiny archive",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/918",
-   "at": "2026-09-13T15:46:23Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/913",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#913 [Bug bounty] Positive GNU base-256 TAR size makes Tarsnap hash a 1 EiB virtual file",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/913",
-   "at": "2026-09-13T15:46:20Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/910",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#910 [Bug bounty] ZIP64 32-bit size confusion makes Tarsnap hash a 4 GiB virtual file",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/910",
-   "at": "2026-09-13T15:46:18Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/909",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#909 [Bug bounty] Truncated newc CPIO filesize makes Tarsnap hash a 4 GiB virtual file",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/909",
-   "at": "2026-09-13T15:46:16Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/908",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#908 [Bug bounty] Truncated ODC CPIO filesize makes Tarsnap hash a 4 GiB virtual file",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/908",
-   "at": "2026-09-13T15:46:14Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/907",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#907 [Bug bounty] ISO9660 directory boundary causes an out-of-bounds read",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/907",
-   "at": "2026-09-13T15:46:11Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/906",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#906 [Bug bounty] Truncated ISO9660 size makes Tarsnap hash a 4 GiB virtual file",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/906",
-   "at": "2026-09-13T15:46:09Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/905",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#905 [Bug bounty] GNU sparse offset overflow makes Tarsnap spin while importing TAR",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/905",
-   "at": "2026-09-13T15:46:07Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/904",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#904 [Bug bounty] Self-referential gzip makes Tarsnap loop forever while building filters",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/904",
-   "at": "2026-09-13T15:46:04Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/903",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#903 [Bug bounty] GNU AR long-name offset at string-table end crashes Tarsnap",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/903",
-   "at": "2026-09-13T15:46:02Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/902",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#902 [Bug bounty] Negative GNU old-format sparse length causes heap-buffer-over-read",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/902",
-   "at": "2026-09-13T15:45:59Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/900",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#900 [Bug bounty] Little-endian binary CPIO size overflow causes CPU exhaustion",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/900",
-   "at": "2026-09-13T15:45:57Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/899",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#899 [Bug bounty] Big-endian binary CPIO size field causes resource exhaustion",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/899",
-   "at": "2026-09-13T15:45:54Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/898",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#898 [Bug bounty] Negative GNU sparse length causes heap-buffer-over-read in Tarsnap",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/898",
-   "at": "2026-09-13T15:45:52Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/895",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#895 [Bug bounty] Truncated AR size makes Tarsnap hash an unbounded virtual file",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/895",
-   "at": "2026-09-13T15:45:42Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "iliasabk"
    }
   }
  ],
