@@ -36,7 +36,7 @@ BUILDERS = {
 }
 
 
-BOOKING_TOOLS = ("calendly", "acuity", "zocdoc", "housecall", "jobber", "servicetitan", "mindbody", "vagaro",
+BOOKING_TOOLS = ("calendly", "acuity", "as.me/", "zocdoc", "housecall", "jobber", "servicetitan", "mindbody", "vagaro",
                  "square appointments", "setmore", "booksy", "webscheduler", "schedulicity", "simplybook", "getjobber",
                  "nexhealth", "localmed", "dentrix", "flexbook", "opendental", "weave", "solutionreach", "clio", "lawmatics")
 BOOKING_WORDS = {"book", "schedule", "appointment", "booking", "scheduling"}
