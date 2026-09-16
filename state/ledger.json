@@ -971,6 +971,23 @@
    "state": "submitted",
    "title": "hrrlawyers.com: for the managing partner: consult booking on hrrlawyers.com",
    "url": "https://hrrlawyers.com"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T06:55:16Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0053",
+   "lane": "omi",
+   "note": "proposal #14176, PR #14177 opened 2026-09-16 07:50 UTC; same defect class as hive/shipbob/shopify",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 14177 Slack: post only to an unambiguous channel",
+   "url": "https://github.com/BasedHardware/omi/pull/14177"
   }
  ]
 }
