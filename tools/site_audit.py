@@ -58,13 +58,21 @@ def strip_script_style(lower):
     return SCRIPT_STYLE_RE.sub(" ", lower)
 
 
-def has_online_booking(lower):
-    """Online self scheduling means a known scheduler is embedded, or a link or
-    button whose text is about booking points somewhere other than a phone
-    number. Plain prose like "call us to schedule an appointment" does not count."""
+IFRAME_SRC_RE = re.compile(r"<iframe\b[^>]*\bsrc\s*=\s*[\"\']([^\"\']+)", re.I)
+SOCIAL_HOSTS = ("facebook.com", "instagram.com", "twitter.com", "x.com", "linkedin.com", "yelp.com",
+                "google.com", "goo.gl", "youtube.com", "tiktok.com", "pinterest.com", "apple.com")
+
+
+def has_online_booking(lower, domain=None):
+    """Online self scheduling means a known scheduler is embedded, an iframe
+    loads one, or a link or button whose text is about booking leads
+    somewhere real. Plain prose like "call us to schedule an appointment"
+    does not count."""
     if any(tool in lower for tool in BOOKING_TOOLS):
         return True
-    for attrs, inner in ANCHOR_RE.findall(strip_script_style(lower)):
+    clean = strip_script_style(lower)
+    own = (domain or "").replace("www.", "")
+    for attrs, inner in ANCHOR_RE.findall(clean):
         text = re.sub(r"<[^>]+>", " ", inner)
         words = set(re.findall(r"[a-z]+", text))
         if not words & BOOKING_WORDS:
@@ -75,10 +83,21 @@ def has_online_booking(lower):
             continue
         if "call" in words and "online" not in words:
             continue
-        # The link has to lead to a scheduler, not to a generic contact page.
-        if not any(k in target for k in ("book", "schedul", "appoint", "reserv", "widget")):
-            continue
-        return True
+        host = re.sub(r"^https?://", "", target).split("/", 1)[0].lower()
+        if any(s in host for s in SOCIAL_HOSTS):
+            continue  # "facebook.com" contains "book"; a social link is never a scheduler
+        if any(k in target for k in ("book", "schedul", "appoint", "reserv", "widget")):
+            return True
+        # A booking-worded link that jumps to a completely different domain
+        # (not the small business's own site) is a scheduling vendor even
+        # when its URL is opaque, e.g. a short link like dental4.me/practice/1
+        # that carries no keyword in the path.
+        if own and host and own not in host and host not in own and "." in host:
+            return True
+    # An iframe embedding a third party scheduler leaves no matching anchor at all.
+    for src in IFRAME_SRC_RE.findall(clean):
+        if any(tool in src for tool in BOOKING_TOOLS):
+            return True
     return False
 
 
@@ -179,7 +198,7 @@ def audit(domain):
         result["score"] = 0
         return result
     checks["viewport"] = 'name="viewport"' in lower
-    checks["booking"] = has_online_booking(lower)
+    checks["booking"] = has_online_booking(lower, domain)
     checks["click_to_call"] = 'href="tel:' in lower
     # JavaScript rendered form builders leave no <form> in the HTML but the
     # page has a working form (GEM Family Law's FindLaw site: Ninja Forms).
@@ -202,7 +221,7 @@ def audit(domain):
         sub_lower = sub.decode("utf-8", errors="ignore").lower()
         pages.append(link)
         emails.update(find_emails(sub_lower, domain))
-        if has_online_booking(sub_lower):
+        if has_online_booking(sub_lower, domain):
             checks["booking"] = True
             checks["booking_page"] = link
         if "<form" in sub_lower or any(k in sub_lower for k in JS_FORMS):

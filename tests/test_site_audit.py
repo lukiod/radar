@@ -22,6 +22,32 @@ class AcuityShortLinkTests(unittest.TestCase):
         self.assertTrue(has_online_booking(html.lower()))
 
 
+class OpaqueVendorLinkTests(unittest.TestCase):
+    """A booking-worded link to a completely different domain is a
+    scheduling vendor even when the URL carries no book/schedule keyword,
+    e.g. a short link like dental4.me/practice/1."""
+
+    def test_opaque_external_scheduler_link_counts(self):
+        html = '<a href="https://dental4.me/oasisdental/1">Schedule Adults</a>'
+        self.assertTrue(has_online_booking(html.lower(), domain="oasisdentalhealth.com"))
+
+    def test_link_to_own_domain_does_not_count_without_a_keyword(self):
+        html = '<a href="https://oasisdentalhealth.com/contact/">Book an appointment</a>'
+        self.assertFalse(has_online_booking(html.lower(), domain="oasisdentalhealth.com"))
+
+    def test_social_link_with_booking_word_does_not_count(self):
+        html = '<a href="https://www.facebook.com/oasisdental/">Book now on Facebook</a>'
+        self.assertFalse(has_online_booking(html.lower(), domain="oasisdentalhealth.com"))
+
+    def test_iframe_embedded_scheduler_counts(self):
+        html = '<iframe src="https://app.acuityscheduling.com/schedule.php?owner=1"></iframe>'
+        self.assertTrue(has_online_booking(html.lower(), domain="example.com"))
+
+    def test_unrelated_iframe_does_not_count(self):
+        html = '<iframe src="https://www.youtube.com/embed/abc123"></iframe>'
+        self.assertFalse(has_online_booking(html.lower(), domain="example.com"))
+
+
 class ScriptSwallowedAnchorTests(unittest.TestCase):
     """A JS comparator like `x<a` inside an inline <script> reads to the
     regex as an unclosed <a> tag; without stripping script/style content
