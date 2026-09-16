@@ -7,13 +7,17 @@
     {
      "at": "2026-09-15T01:46:23Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T16:39:42Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0001",
    "lane": "omi",
-   "note": "seeded 2026-09-15 from internal-docs/earn; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5; rebased onto main 15:40 UTC after manifest conflicts, MERGEABLE again",
+   "note": "claim email sent 2026-09-16, merged by kodjima33",
    "probability": 0.85,
-   "state": "submitted",
+   "state": "claimed",
    "title": "omi PR 13861 Google Calendar usable event ids",
    "url": "https://github.com/BasedHardware/omi/pull/13861"
   },
@@ -49,13 +53,17 @@
     {
      "at": "2026-09-15T01:46:23Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T16:39:42Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0003",
    "lane": "omi",
-   "note": "seeded 2026-09-15 from internal-docs/earn; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5; rebased onto main 15:40 UTC after manifest conflicts, MERGEABLE again",
+   "note": "claim email sent 2026-09-16, merged by kodjima33",
    "probability": 0.85,
-   "state": "submitted",
+   "state": "claimed",
    "title": "omi PR 13865 MS365 flat tool body",
    "url": "https://github.com/BasedHardware/omi/pull/13865"
   },
@@ -66,13 +74,17 @@
     {
      "at": "2026-09-15T01:46:23Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T16:39:42Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0004",
    "lane": "omi",
-   "note": "seeded 2026-09-15 from internal-docs/earn; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5; rebased onto main 15:40 UTC after manifest conflicts, MERGEABLE again",
+   "note": "claim email sent 2026-09-16, merged by kodjima33",
    "probability": 0.85,
-   "state": "submitted",
+   "state": "claimed",
    "title": "omi PR 13867 Twitter max_results floor",
    "url": "https://github.com/BasedHardware/omi/pull/13867"
   },
@@ -983,13 +995,17 @@
     {
      "at": "2026-09-16T06:55:16Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T16:39:42Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0053",
    "lane": "omi",
-   "note": "proposal #14176, PR #14177 opened 2026-09-16 07:50 UTC; same defect class as hive/shipbob/shopify",
+   "note": "claim email sent 2026-09-16, merged by kodjima33",
    "probability": 0.5,
-   "state": "submitted",
+   "state": "claimed",
    "title": "omi PR 14177 Slack: post only to an unambiguous channel",
    "url": "https://github.com/BasedHardware/omi/pull/14177"
   },
@@ -1238,13 +1254,17 @@
     {
      "at": "2026-09-16T07:51:02Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T16:39:42Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0068",
    "lane": "omi",
-   "note": "proposal #14185, PR #14186 opened 2026-09-16; same defect class as hive/shipbob/shopify/slack",
+   "note": "claim email sent 2026-09-16, merged by kodjima33",
    "probability": 0.5,
-   "state": "submitted",
+   "state": "claimed",
    "title": "omi PR 14186 Linear: refuse an ambiguous status name",
    "url": "https://github.com/BasedHardware/omi/pull/14186"
   },
