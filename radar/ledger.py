@@ -47,6 +47,7 @@ FOUNDER_STEP = {
     ("tenstorrent", "accepted"): "Accept the bounty terms on the issue; approve card time if validation needs it.",
     ("product", "produced"): "Approve the listing and connect PayPal on the storefront.",
     ("hackathon", "produced"): "Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.",
+    ("recurring", "accepted"): "A retainer or subscription yes landed with no Stripe payment link yet; create one (dashboard.stripe.com/payment-links, recurring) and send it, or invoice manually this once.",
 }
 
 

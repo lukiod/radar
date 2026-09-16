@@ -55,8 +55,8 @@ AGENCY_BODY = (
     "no way to book or request service, no contact form, not built for phones, a phone number that is not tappable. "
     "Every row is a measured fact from the homepage and the contact page, not a scrape, so the first email your team "
     "sends is about the owner's business, not about you.\n\n"
-    "They are yours, no strings. If the quality is right, I build 500 rows to your target list (trade, metro, size) "
-    "with owner emails found on the sites for $400, delivered in a week."
+    "They are yours, no strings. If the quality is right, 500 rows to your target list (trade, metro, size) is $400 "
+    "once, or I keep it current: 100 fresh rows delivered on the 1st of every month for $150/month, no re-ask."
 )
 
 
