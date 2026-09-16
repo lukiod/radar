@@ -33,7 +33,7 @@ NEXT_ACTOR = {
 
 # What the founder does at each founder state, per lane.
 FOUNDER_STEP = {
-    ("omi", "accepted"): "Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.",
+    ("omi", "accepted"): "Claim email goes out from prodev the hour the PR merges, one per PR, PayPal included; nothing for you to do.",
     ("agency", "produced"): "Send the draft from your mailbox; name only signature and the Reply stop line.",
     ("agency", "accepted"): "Reply to the prospect and book the call; the preview site is ready.",
     ("review_first_repo", "produced"): "Read the staged patch, submit the PR under your name with the AI disclosure.",
@@ -176,6 +176,26 @@ def main(argv):
         rec = add(data, kw["lane"], kw["title"], kw["url"], kw.get("amount", 0), kw.get("prob", 0), kw.get("minutes", 0), kw.get("state", "found"), kw.get("note", ""))
         save(data)
         print(rec["id"])
+        return 0
+    if argv[0] == "sync-queue":
+        # Every sent row in a send queue becomes a submitted ledger record,
+        # keyed by the prospect's domain so re running is idempotent.
+        n = 0
+        for line in open(argv[1], encoding="utf-8"):
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if not row.get("message_id"):
+                continue
+            url = "https://" + (row.get("domain") or row["to"].split("@")[-1])
+            if find_by_url(data, url):
+                continue
+            add(data, row.get("lane", "agency"), f'{row.get("company") or row["to"].split("@")[-1]}: {row["subject"]}', url,
+                row.get("amount", 0), row.get("prob", 0.03), 0, "submitted",
+                f'sent {row.get("sent_at", "")} msg {row["message_id"]} to {row["to"]}')
+            n += 1
+        save(data)
+        print(f"{n} added")
         return 0
     if argv[0] == "set":
         rec = set_state(data, argv[1], argv[2], argv[3] if len(argv) > 3 else None)

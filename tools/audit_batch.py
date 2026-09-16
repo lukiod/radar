@@ -31,7 +31,7 @@ def save(rows):
     STATE.write_text("".join(json.dumps(r, sort_keys=True) + "\n" for r in rows))
 
 
-def run(domains, workers=6):
+def run(domains, workers=12):
     today = datetime.date.today().isoformat()
     rows = [r for r in load() if not (r["date"] == today and r["domain"] in domains)]
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
