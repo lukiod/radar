@@ -97,6 +97,50 @@ def build(sender, row):
     return base64.urlsafe_b64encode(msg.as_bytes()).decode()
 
 
+MX_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "state", "mx-cache.json")
+
+
+def _doh(name, rtype):
+    """Resolve through DNS over HTTPS so no local resolver or dnspython is needed."""
+    url = "https://dns.google/resolve?name=" + urllib.parse.quote(name) + "&type=" + rtype
+    req = urllib.request.Request(url, headers={"accept": "application/dns-json"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.load(resp)
+
+
+def domain_accepts_mail(domain):
+    """False only when the domain provably cannot receive mail.
+
+    A published Null MX (".") means the domain refuses all mail (the
+    myflowermounddentist.com bounce). No MX at all is fine when an A record
+    exists: RFC 5321 falls back to the address record. A resolution failure
+    is treated as unknown and sent; an outage must not silently drop a
+    prospect.
+    """
+    try:
+        cache = json.load(open(MX_CACHE))
+    except Exception:
+        cache = {}
+    if domain in cache:
+        return cache[domain]
+    try:
+        ans = _doh(domain, "MX").get("Answer", [])
+        records = [a["data"].split()[-1].rstrip(".") for a in ans if a.get("type") == 15]
+        if records:
+            ok = any(r not in ("", ".") for r in records)
+        else:
+            ok = _doh(domain, "A").get("Status") == 0
+    except Exception:
+        return True
+    cache[domain] = ok
+    try:
+        os.makedirs(os.path.dirname(MX_CACHE), exist_ok=True)
+        json.dump(cache, open(MX_CACHE, "w"))
+    except Exception:
+        pass
+    return ok
+
+
 def send(token, sender, row):
     payload = json.dumps({"raw": build(sender, row)}).encode()
     req = urllib.request.Request("https://gmail.googleapis.com/gmail/v1/users/me/messages/send", data=payload,
@@ -117,6 +161,11 @@ def run_queue(path, pace, limit, dry_run):
         if suppressed(row["to"], table):
             row["suppressed"] = True
             print(f'skip {row["to"]}: suppressed')
+            continue
+        if not domain_accepts_mail(row["to"].split("@")[-1].lower()):
+            row["undeliverable"] = True
+            print(f'skip {row["to"]}: domain publishes no mail route (Null MX)')
+            rewrite(path, rows)
             continue
         for att in row.get("attachments") or []:
             if not os.path.exists(att):

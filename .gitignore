@@ -4,3 +4,4 @@ state/audits.jsonl
 state/lead-sample.csv
 state/prospects.jsonl
 state/queue-*.jsonl
+state/mx-cache.json
