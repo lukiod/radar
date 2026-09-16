@@ -16,6 +16,7 @@ import ssl
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import date
 
@@ -40,6 +41,10 @@ BOOKING_TOOLS = ("calendly", "acuity", "zocdoc", "housecall", "jobber", "service
                  "nexhealth", "localmed", "dentrix", "flexbook", "opendental", "weave", "solutionreach", "clio", "lawmatics")
 BOOKING_WORDS = {"book", "schedule", "appointment", "booking", "scheduling"}
 ANCHOR_RE = re.compile(r"<(?:a|button)\b([^>]*)>(.*?)</(?:a|button)>", re.S)
+HREF_RE = re.compile(r'href\s*=\s*["\']([^"\']+)', re.I)
+EMAIL_RE = re.compile(r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", re.I)
+CONTACT_WORDS = ("contact", "consult", "schedule", "book", "appoint", "request")
+JUNK_EMAIL = ("example.com", "sentry", "wixpress", "domain.com", "email.com", ".png", ".jpg", ".gif", ".svg", "godaddy", "wordpress", "noreply", "no-reply")
 
 
 def has_online_booking(lower):
@@ -64,6 +69,46 @@ def has_online_booking(lower):
             continue
         return True
     return False
+
+
+def contact_links(lower, base):
+    """Internal links whose href or text says contact, book, schedule, consult;
+    the pages a visitor would open to reach the business. At most four."""
+    seen, out = set(), []
+    parsed = urllib.parse.urlsplit(base)
+    for attrs, inner in ANCHOR_RE.findall(lower):
+        m = HREF_RE.search(attrs)
+        if not m:
+            continue
+        href = m.group(1).strip()
+        text = re.sub(r"<[^>]+>", " ", inner)
+        if not any(w in href or w in text for w in CONTACT_WORDS):
+            continue
+        if href.startswith(("tel:", "mailto:", "#", "javascript:")):
+            continue
+        full = urllib.parse.urljoin(base, href)
+        host = urllib.parse.urlsplit(full).netloc
+        if host.replace("www.", "") != parsed.netloc.replace("www.", ""):
+            continue
+        full = full.split("#", 1)[0]
+        if full in seen or full.rstrip("/") == base.rstrip("/"):
+            continue
+        seen.add(full)
+        out.append(full)
+        if len(out) == 4:
+            break
+    return out
+
+
+def find_emails(lower, domain):
+    found = set()
+    for m in EMAIL_RE.findall(lower):
+        m = m.strip(".").lower()
+        if any(j in m for j in JUNK_EMAIL):
+            continue
+        found.add(m)
+    own = {e for e in found if e.endswith("@" + domain.replace("www.", "")) or e.endswith("." + domain.replace("www.", ""))}
+    return sorted(own) or sorted(found)[:3]
 
 
 def fetch(url, timeout=15):
@@ -133,6 +178,27 @@ def audit(domain):
     years = [int(y) for y in re.findall(r"(?:©|&copy;|copyright)\s*(?:\d{4}\s*[-–]\s*)?(20\d\d)", lower)]
     checks["copyright_year"] = max(years) if years else None
     checks["builder"] = next((name for key, name in BUILDERS.items() if key in lower), None)
+    emails = set(find_emails(lower, domain))
+    # A homepage without booking or a form is not a site without them: the
+    # contact page is where most small sites keep both, so it is checked
+    # before either leak is claimed.
+    pages = []
+    for link in contact_links(lower, final_url):
+        try:
+            _, _, _, _, sub = fetch(link, timeout=10)
+        except Exception:
+            continue
+        sub_lower = sub.decode("utf-8", errors="ignore").lower()
+        pages.append(link)
+        emails.update(find_emails(sub_lower, domain))
+        if has_online_booking(sub_lower):
+            checks["booking"] = True
+            checks["booking_page"] = link
+        if "<form" in sub_lower or any(k in sub_lower for k in JS_FORMS):
+            checks["form"] = True
+            checks["form_page"] = link
+    checks["pages_checked"] = [final_url] + pages
+    checks["emails"] = sorted(emails)
 
     score = 0
     if not checks["https"]:
@@ -144,11 +210,11 @@ def audit(domain):
     if not checks["viewport"]:
         score += 1; result["notes"].append("no mobile viewport, the site is not built for phones")
     if not checks["booking"]:
-        score += 1; result["notes"].append("no online booking or scheduling anywhere on the homepage")
+        score += 1; result["notes"].append("no online booking or scheduling on the homepage or the contact page")
     if not checks["click_to_call"]:
         score += 1; result["notes"].append("phone number is not tappable on mobile")
     if not checks["form"]:
-        score += 1; result["notes"].append("no contact or lead form on the homepage")
+        score += 1; result["notes"].append("no contact or lead form on the homepage or the contact page")
     if checks["copyright_year"] and checks["copyright_year"] < date.today().year - 1:
         score += 1; result["notes"].append(f'footer still says {checks["copyright_year"]}')
     result["score"] = min(score, 5)
