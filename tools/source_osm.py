@@ -70,7 +70,7 @@ KINDS = {
 CHAINS = ("aspendental", "brightnow", "smilebrands", "pacificdentalservices", "heartland", "westerndental", "affordabledentures",
           "monarchdental", "castledental", "gentledental", "midwestdental", "familia", "greatexpressions", "dentalone", "kooldsmiles",
           "mydentist", "comfortdental", "perfectteeth", "smiledirect", "rotorooter", "mrrooter", "benjaminfranklinplumbing",
-          "onehourair", "aireserv", "mrelectric", "arsrescue", "servicechampions", "legalzoom", "lawyers.findlaw", "avvo", "yelp",
+          "onehourair", "aireserv", "mrelectric", "arsrescue", "servicechampions", "legalzoom", "forthepeople", "morganandmorgan", "lawyers.findlaw", "avvo", "yelp",
           "facebook.com", "google.com", "linkedin.com", "instagram.com", "yellowpages", "healthgrades", "zocdoc", "wixsite", "business.site")
 
 
@@ -79,19 +79,21 @@ def query(bbox, kinds):
     return f"[out:json][timeout:120][bbox:{bbox}];\n(\n{body}\n);\nout tags center;"
 
 
-def overpass(q):
+def overpass(q, log=lambda msg: None):
     data = urllib.parse.urlencode({"data": q}).encode()
     last = None
     for host in ENDPOINTS:
         for attempt in range(2):
             try:
+                log(f"  querying {host} (attempt {attempt + 1})")
                 req = urllib.request.Request(host, data=data, headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=180) as resp:
+                with urllib.request.urlopen(req, timeout=90) as resp:
                     return json.load(resp)["elements"]
             except Exception as err:  # 504 and rate limits are ordinary here
                 last = err
+                log(f"  {host} failed: {err}")
                 time.sleep(5)
-    raise SystemExit(f"overpass failed: {last}")
+    raise RuntimeError(f"overpass failed for both endpoints: {last}")
 
 
 def kind_of(tags):
@@ -144,7 +146,12 @@ def main(argv):
         if metro not in METROS:
             print(f"unknown metro {metro}; known: {', '.join(sorted(METROS))}")
             continue
-        elements = overpass(query(METROS[metro], kinds))
+        print(f"{metro}: querying overpass...", flush=True)
+        try:
+            elements = overpass(query(METROS[metro], kinds), log=lambda m: print(m, flush=True))
+        except RuntimeError as err:
+            print(f"{metro}: SKIPPED, {err}", flush=True)
+            continue
         kept = 0
         for el in elements:
             tags = el.get("tags", {})
