@@ -60,6 +60,36 @@ AGENCY_BODY = (
 )
 
 
+# OSM website tags go stale: a domain a small business used to own can
+# expire and get resold or hijacked. Requiring the OSM name's words to
+# appear in the page's own title was tried and rejected: 163 of ~180
+# candidates failed it purely because their SEO title is generic ("Dentist",
+# "Best Roofing Company in Denver") and never repeats the brand name, which
+# would have thrown out real leads at a much higher rate than it catches
+# stale domains. The two failure modes actually seen are both narrow and
+# high precision to detect directly: the domain got resold to an unrelated
+# business (title reads as a totally different trade), or it is parked,
+# expired or hijacked into spam.
+OFF_TOPIC_TITLE_WORDS = ("coffee", "cafe", "café", "restaurant", "bar & grill", "hotel", "motel",
+                         "casino", "slot", "judi", "toto", "sbobet", "poker", "gacor",
+                         "taruhan", "situs", "domain for sale", "buy this domain", "domain not valid",
+                         "parked domain", "future home of", "this domain may be for sale")
+# "real estate" and "realty" were tried and dropped: they false-flagged
+# real estate law firms (honelegal.com, orangewoodlaw.com, raylawaz.com),
+# a legitimate law specialty, at a much higher rate than they caught an
+# actual real estate agency mistagged as a different kind.
+
+
+def site_looks_unrelated(title):
+    """True when the page's own title says this is not a small business
+    homepage at all: a resold domain now selling coffee instead of dental
+    work, a gambling spam hijack, or a parked/expired registrar page."""
+    if not title:
+        return False  # nothing to go on either way; other checks (reachable) already gate this
+    low = title.lower()
+    return any(w in low for w in OFF_TOPIC_TITLE_WORDS)
+
+
 def leaks(checks):
     out = []
     if not checks.get("booking"):
@@ -185,6 +215,9 @@ def main(argv):
             skipped["no audit or blocked"] = skipped.get("no audit or blocked", 0) + 1
             continue
         c = a["checks"]
+        if site_looks_unrelated(c.get("title")):
+            skipped["domain resold, hijacked or parked"] = skipped.get("domain resold, hijacked or parked", 0) + 1
+            continue
         lk = leaks(c)
         if p["kind"] == "agency":
             email = pick_email(c.get("emails") or [], p["domain"])
