@@ -47,13 +47,24 @@ CONTACT_WORDS = ("contact", "consult", "schedule", "book", "appoint", "request")
 JUNK_EMAIL = ("example.com", "sentry", "wixpress", "domain.com", "email.com", ".png", ".jpg", ".gif", ".svg", "godaddy", "wordpress", "noreply", "no-reply")
 
 
+SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1>", re.S)
+
+
+def strip_script_style(lower):
+    """A stray '<' inside inline JS (a comparator like x<a, a template string)
+    is read by ANCHOR_RE as an unclosed tag and swallows everything up to the
+    next '</a>' or '</button>' on the page, tens of KB of script counted as one
+    anchor's text. Anchor based checks run on this instead of the raw HTML."""
+    return SCRIPT_STYLE_RE.sub(" ", lower)
+
+
 def has_online_booking(lower):
     """Online self scheduling means a known scheduler is embedded, or a link or
     button whose text is about booking points somewhere other than a phone
     number. Plain prose like "call us to schedule an appointment" does not count."""
     if any(tool in lower for tool in BOOKING_TOOLS):
         return True
-    for attrs, inner in ANCHOR_RE.findall(lower):
+    for attrs, inner in ANCHOR_RE.findall(strip_script_style(lower)):
         text = re.sub(r"<[^>]+>", " ", inner)
         words = set(re.findall(r"[a-z]+", text))
         if not words & BOOKING_WORDS:
