@@ -492,13 +492,17 @@
     {
      "at": "2026-09-15T07:08:39Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T16:44:27Z",
+     "state": "rejected"
     }
    ],
    "id": "omi-0007",
    "lane": "omi",
-   "note": "proposal #13976; update_task_status mutated the first search hit; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5; rebased onto main 15:40 UTC after manifest conflicts, MERGEABLE again",
+   "note": "superseded 2026-09-16: PR #14179 (arawnslab-hash) merged the same fix first (update_task_status ambiguity, exact/single-partial-match contract); confirmed functionally equivalent by diff. Left open on GitHub per ShipBob/Shopify precedent, attribution left to maintainer.",
    "probability": 0.85,
-   "state": "submitted",
+   "state": "rejected",
    "title": "omi PR 13977 Hive ambiguous task status match",
    "url": "https://github.com/BasedHardware/omi/pull/13977"
   },
