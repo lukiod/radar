@@ -1230,6 +1230,23 @@
    "state": "submitted",
    "title": "Lamber Goodnow Injury Lawyers Denver: the consults lambergoodnow.com is not getting at 10pm",
    "url": "https://lambergoodnow.com"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:51:02Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0068",
+   "lane": "omi",
+   "note": "proposal #14185, PR #14186 opened 2026-09-16; same defect class as hive/shipbob/shopify/slack",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 14186 Linear: refuse an ambiguous status name",
+   "url": "https://github.com/BasedHardware/omi/pull/14186"
   }
  ]
 }
