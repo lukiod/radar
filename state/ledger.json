@@ -1094,6 +1094,142 @@
    "state": "submitted",
    "title": "Schilling Law: the consults schillinglawkc.com is not getting at 10pm",
    "url": "https://schillinglawkc.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0060",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:27:06Z msg 1a0a91cb39d8a932 to russell@3phasekc.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "3 Phase Electrical Services: the jobs 3phasekc.com cannot book after hours",
+   "url": "https://3phasekc.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0061",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:28:46Z msg 1a0a91e3d4c585f5 to sam@trustfallplumbing.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Trustfall Plumbing And Heating Services: the jobs trustfallplumbing.com cannot book after hours",
+   "url": "https://trustfallplumbing.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0062",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:30:27Z msg 1a0a91fc734685d9 to matt.galvano@flynncompanies.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Flynn Kansas City: the jobs flynncompanies.com cannot book after hours",
+   "url": "https://flynncompanies.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0063",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:32:08Z msg 1a0a9214e2fa2e95 to greg@abellalaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Abella Law Office: the consults abellalaw.com is not getting at 10pm",
+   "url": "https://abellalaw.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0064",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:33:48Z msg 1a0a922d98cca3ca to team@denvertrafficlawyer.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Denver Traffic Lawyer, LLC: the consults denvertrafficlawyer.com is not getting at 10pm",
+   "url": "https://denvertrafficlawyer.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0065",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:35:29Z msg 1a0a92463e8e1317 to legalhelp@mcdivittlaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "McDivitt Law Firm: the consults mcdivittlaw.com is not getting at 10pm",
+   "url": "https://mcdivittlaw.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0066",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:37:10Z msg 1a0a925eb0512fe6 to lawyers@sloatlaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Sloat, Nicholson & Hoover, P.C.- Personal Injury Attorneys: the consults sloatlaw.com is not getting at 10pm",
+   "url": "https://sloatlaw.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:42:10Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0067",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:38:50Z msg 1a0a92775c775458 to info@lambergoodnow.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Lamber Goodnow Injury Lawyers Denver: the consults lambergoodnow.com is not getting at 10pm",
+   "url": "https://lambergoodnow.com"
   }
  ]
 }
