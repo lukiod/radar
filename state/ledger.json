@@ -1247,6 +1247,23 @@
    "state": "submitted",
    "title": "omi PR 14186 Linear: refuse an ambiguous status name",
    "url": "https://github.com/BasedHardware/omi/pull/14186"
+  },
+  {
+   "amount_usd": 50.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:55:57Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "omi-0069",
+   "lane": "omi",
+   "note": "proposal #14187, PR #14188 opened 2026-09-16; same defect class as hive/shipbob/shopify/slack/linear",
+   "probability": 0.5,
+   "state": "submitted",
+   "title": "omi PR 14188 Hive: refuse ambiguous project/parent task on create",
+   "url": "https://github.com/BasedHardware/omi/pull/14188"
   }
  ]
 }
