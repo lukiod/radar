@@ -157,6 +157,7 @@ def rewrite(path, rows):
 
 
 def main(argv):
+    sys.stdout.reconfigure(line_buffering=True) if hasattr(sys.stdout, "reconfigure") else None
     ap = argparse.ArgumentParser()
     ap.add_argument("--queue")
     ap.add_argument("--one", nargs=3, metavar=("TO", "SUBJECT", "BODYFILE"))
