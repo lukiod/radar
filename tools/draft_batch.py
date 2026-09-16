@@ -19,6 +19,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from site_audit import mail_route  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 PROSPECTS = ROOT / "state" / "prospects.jsonl"
 AUDITS = ROOT / "state" / "audits.jsonl"
@@ -215,6 +218,11 @@ def main(argv):
             skipped["no audit or blocked"] = skipped.get("no audit or blocked", 0) + 1
             continue
         c = a["checks"]
+        if c.get("mail_route") is False or (c.get("mail_route") is None and mail_route(p["domain"]) is False):
+            # Reachable site, no mail route: a Null MX domain (or one that no
+            # longer resolves) bounces every send and burns sender reputation.
+            skipped["no mail route (Null MX)"] = skipped.get("no mail route (Null MX)", 0) + 1
+            continue
         if site_looks_unrelated(c.get("title")):
             skipped["domain resold, hijacked or parked"] = skipped.get("domain resold, hijacked or parked", 0) + 1
             continue

@@ -18,6 +18,7 @@ sends so a batch looks like a person at a keyboard, not a blast.
 
 import argparse
 import base64
+import fcntl
 import json
 import mimetypes
 import os
@@ -135,7 +136,17 @@ def domain_accepts_mail(domain):
     cache[domain] = ok
     try:
         os.makedirs(os.path.dirname(MX_CACHE), exist_ok=True)
-        json.dump(cache, open(MX_CACHE, "w"))
+        # Merge before writing: another tool (the auditor, the queue builder)
+        # may have resolved domains since this process loaded the file, and a
+        # blind dump would throw those answers away.
+        on_disk = {}
+        try:
+            with open(MX_CACHE) as fh:
+                on_disk = json.load(fh)
+        except Exception:
+            on_disk = {}
+        on_disk.update(cache)
+        json.dump(on_disk, open(MX_CACHE, "w"))
     except Exception:
         pass
     return ok
@@ -149,7 +160,31 @@ def send(token, sender, row):
         return json.load(resp)
 
 
+def take_queue_lock(path):
+    """One sender per queue, enforced.
+
+    Two processes on the same queue each hold their own copy of the rows, so
+    they both send the same prospects and each rewrite clobbers the other's
+    "message_id": on 09 17 that put the same cold email in ten inboxes twice
+    and left nine sends unrecorded. The lock file makes that impossible.
+    """
+    lock_path = os.path.join(os.path.dirname(os.path.abspath(path)) or ".", "." + os.path.basename(path) + ".lock")
+    fh = open(lock_path, "a+")
+    try:
+        fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        fh.seek(0)
+        holder = fh.read().strip() or "another process"
+        sys.exit(f"queue {path} is already being sent by {holder}; refusing to run a second sender")
+    fh.seek(0)
+    fh.truncate()
+    fh.write(f"pid {os.getpid()} since {datetime.now(timezone.utc).isoformat(timespec='seconds')}")
+    fh.flush()
+    return fh
+
+
 def run_queue(path, pace, limit, dry_run):
+    lock = None if dry_run else take_queue_lock(path)
     rows = [json.loads(l) for l in open(path, encoding="utf-8") if l.strip()]
     table = load_suppression(os.path.abspath(SUPPRESSION))
     token = None if dry_run else access_token()

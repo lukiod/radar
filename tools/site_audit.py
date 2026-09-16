@@ -19,6 +19,58 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date
+from pathlib import Path
+
+# --- mail route --------------------------------------------------------------
+# A domain can be perfectly reachable and still refuse all mail: it publishes a
+# Null MX (".") or has no address record at all. Two of the first 30 prospects
+# bounced that way, so the audit records the route and the queue builder drops
+# rows without one. Resolved over DNS over HTTPS because the host has no local
+# resolver and no dnspython.
+
+MX_CACHE = Path(__file__).resolve().parents[1] / "state" / "mx-cache.json"
+
+
+def _doh(name, rtype):
+    url = "https://dns.google/resolve?name=" + urllib.parse.quote(name) + "&type=" + rtype
+    req = urllib.request.Request(url, headers={"accept": "application/dns-json"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.load(resp)
+
+
+def mail_route(domain):
+    """None when unknown, True when the domain can receive mail, False when it
+    provably cannot (Null MX, or no MX and no address record)."""
+    try:
+        cache = json.loads(MX_CACHE.read_text())
+    except Exception:
+        cache = {}
+    if domain in cache:
+        return cache[domain]
+    try:
+        ans = _doh(domain, "MX").get("Answer", [])
+        records = [a["data"].split()[-1].rstrip(".") for a in ans if a.get("type") == 15]
+        if records:
+            ok = any(r not in ("", ".") for r in records)
+        else:
+            status = _doh(domain, "A").get("Status")
+            ok = None if status != 0 and status != 3 else (status == 0)
+    except Exception:
+        return None
+    cache[domain] = ok
+    try:
+        MX_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        # Merge with what is on disk; the sender writes this file too.
+        try:
+            on_disk = json.loads(MX_CACHE.read_text())
+        except Exception:
+            on_disk = {}
+        on_disk.update(cache)
+        MX_CACHE.write_text(json.dumps(on_disk, sort_keys=True))
+    except Exception:
+        pass
+    return ok
+
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 JS_FORMS = ("nf_tp_module", "ninja-forms", "nf-form", "gform_wrapper", "wpforms-form", "wpcf7-form",
@@ -155,6 +207,9 @@ def fetch(url, timeout=15):
 def audit(domain):
     result = {"domain": domain, "checks": {}, "notes": [], "score": 0}
     checks = result["checks"]
+    checks["mail_route"] = mail_route(domain)
+    if checks["mail_route"] is False:
+        result["notes"].append("the domain accepts no mail at all (Null MX); no email can reach it")
     html = b""
     final_url = None
     for scheme in ("https://", "http://"):

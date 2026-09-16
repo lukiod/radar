@@ -1288,6 +1288,278 @@
    "state": "submitted",
    "title": "omi PR 14188 Hive: refuse ambiguous project/parent task on create",
    "url": "https://github.com/BasedHardware/omi/pull/14188"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0070",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:35:10Z msg 1a0abb74657cd134 to contact@shamrockroofer.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Shamrock Roofing and Construction: the jobs shamrockroofer.com cannot book after hours",
+   "url": "https://shamrockroofer.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0071",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:36:27Z msg 1a0abb8701f3ccb9 to office@myflowermounddentist.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Flower Mound Dental Associates: the appointments myflowermounddentist.com is not booking at night",
+   "url": "https://myflowermounddentist.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0072",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:37:42Z msg 1a0abb9986351e33 to coakley@coakleylaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Coakley Law: the consults coakleylaw.com is not getting at 10pm",
+   "url": "https://coakleylaw.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0073",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:38:58Z msg 1a0abbac18d382b7 to office@exceedec.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Exceed Electrical Contracting: the jobs exceedec.com cannot book after hours",
+   "url": "https://exceedec.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0074",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:39:33Z msg 1a0abbbe864ae4d8 to admin@mytoothhq.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "ToothHQ: the appointments mytoothhq.com is not booking at night",
+   "url": "https://mytoothhq.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0075",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:41:04Z msg 1a0abbd10f78d152 to teamcs@scorebusinesscredit.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "First Texas Corporate Services: the consults scorebusinesscredit.com is not getting at 10pm",
+   "url": "https://scorebusinesscredit.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0076",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:42:35Z msg 1a0abbe3be4bae09 to info@evproscolorado.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "EV Pros: evproscolorado.com after the phone goes to voicemail",
+   "url": "https://evproscolorado.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0077",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:44:10Z msg 1a0abbf755e40636 to admin@penndentaldfw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Penn Dental and Implant Center: the appointments penndentaldfw.com is not booking at night",
+   "url": "https://penndentaldfw.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0078",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:45:41Z msg 1a0abc0e4c70400b to info@arizonalawgroup.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Stewart Law Group: the consults arizonalawgroup.com is not getting at 10pm",
+   "url": "https://arizonalawgroup.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0079",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:47:13Z msg 1a0abc2464f49bb0 to info@crowntownrestoration.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Crown Town Restoration, Inc.: the jobs crowntownrestoration.com cannot book after hours",
+   "url": "https://crowntownrestoration.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0080",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:48:44Z msg 1a0abc3aefe6ae3e to care@lynndentalcare.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Lynn Dental Care: the appointments lynndentalcare.com is not booking at night",
+   "url": "https://lynndentalcare.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0081",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:50:14Z msg 1a0abc512e0e3b98 to pr@fellerwendt.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Feller & Wendt, LLC - Personal Injury & Car Accident Lawyers: the consults fellerwendt.com is not getting at 10pm",
+   "url": "https://fellerwendt.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0082",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:51:45Z msg 1a0abc6749693ac7 to info@arizonaroofrescue.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Arizona Roof Rescue: the jobs arizonaroofrescue.com cannot book after hours",
+   "url": "https://arizonaroofrescue.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0083",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:53:17Z msg 1a0abc7d911c9baf to info@mystorydental.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Story Dental: the appointments mystorydental.com is not booking at night",
+   "url": "https://mystorydental.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0084",
+   "lane": "agency",
+   "note": "sent  msg 1a0abc792399a04a to intake@chmlaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Colburn Hintze Maletta, PLLC: the consults chmlaw.com is not getting at 10pm",
+   "url": "https://chmlaw.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T19:56:41Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0085",
+   "lane": "agency",
+   "note": "sent 2026-09-16T19:56:21Z msg 1a0abcaaa0f41df0 to info@rooterproplumbingga.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Rooter Pro Plumbing: rooterproplumbingga.com after the phone goes to voicemail",
+   "url": "https://rooterproplumbingga.com"
   }
  ]
 }
