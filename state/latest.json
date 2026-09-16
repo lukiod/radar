@@ -1,6 +1,193 @@
 {
- "generated_at": "2026-09-16T18:59:47Z",
+ "generated_at": "2026-09-16T22:02:59Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56805",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56805 MLA prefill is not monotonic in the query head count: 48 heads run 24 percent faster than 32 at S 2048",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56805",
+   "at": "2026-09-16T21:56:36Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "op_cat: SDPA"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/maschina-labs/maschina/issues/321",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "maschina-labs/maschina: Start a bug bounty",
+   "url": "https://github.com/maschina-labs/maschina/issues/321",
+   "at": "2026-09-16T21:48:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "asherwilson",
+    "labels": [
+     "security",
+     "task",
+     "size: m",
+     "p1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56803",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56803 Migrate `selective_reduce_combine` to Mux V2",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56803",
+   "at": "2026-09-16T21:44:37Z",
+   "extra": {
+    "author": "amorrisonTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56802",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56802 Initial Investigation",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56802",
+   "at": "2026-09-16T21:43:56Z",
+   "extra": {
+    "author": "amorrisonTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56801",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56801 `moe_compute` BH Perf Push",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56801",
+   "at": "2026-09-16T21:40:47Z",
+   "extra": {
+    "author": "amorrisonTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/pakompom/SpaceRangersHD_decomp/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "pakompom/SpaceRangersHD_decomp: Kings Bounty Recompilation?",
+   "url": "https://github.com/pakompom/SpaceRangersHD_decomp/issues/1",
+   "at": "2026-09-16T21:15:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "klevez06",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56798",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56798 TTMoEGate wrapper: 13.7 us of layout ops around a 1.8 us gate kernel at 32 tokens",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56798",
+   "at": "2026-09-16T20:46:49Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56797",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56797 ttnn.topk multi core factory: the final merge is serial and grows with the local core count, so the local cores idle for most of the op",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56797",
+   "at": "2026-09-16T20:41:34Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Merit-Systems/x402scan/issues/1207",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Merit-Systems/x402scan: Listing request: BountyVerifier \u2014 GitHub bounty preflight x402 v2 on Base",
+   "url": "https://github.com/Merit-Systems/x402scan/issues/1207",
+   "at": "2026-09-16T20:39:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "do2006",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/x402-index/x402-discovery-index/issues/50",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "x402-index/x402-discovery-index: List: BountyVerifier \u2014 GitHub bounty preflight on Base, $0.005 USDC/call",
+   "url": "https://github.com/x402-index/x402-discovery-index/issues/50",
+   "at": "2026-09-16T20:39:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 0,
+    "author": "do2006",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56792",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56792 Move kernel compile-time argument provisioning out of firmware_common.h",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56792",
+   "at": "2026-09-16T20:17:22Z",
+   "extra": {
+    "author": "blozano-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56791",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56791 perf counters: ref cnt measures the gap since the last readout on a core when the op runs no compute kernel there",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56791",
+   "at": "2026-09-16T19:46:38Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "profiler",
+     "blackhole"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1575",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $999999999999999999 BOUNTY FOR IMPLEMENTING THE UNIVERSE INTO OMNIBLOCKS",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1575",
+   "at": "2026-09-16T19:04:35Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 999999999999999999,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
   {
    "id": "https://github.com/MergeFi/backend/issues/267",
    "source": "github_search",
@@ -9,7 +196,7 @@
    "url": "https://github.com/MergeFi/backend/issues/267",
    "at": "2026-09-16T18:57:32Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": []
@@ -23,7 +210,7 @@
    "url": "https://github.com/MergeFi/backend/issues/265",
    "at": "2026-09-16T18:57:26Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": []
@@ -37,7 +224,7 @@
    "url": "https://github.com/MergeFi/backend/issues/262",
    "at": "2026-09-16T18:57:18Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": []
@@ -51,7 +238,7 @@
    "url": "https://github.com/MergeFi/backend/issues/259",
    "at": "2026-09-16T18:57:12Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": []
@@ -65,7 +252,7 @@
    "url": "https://github.com/MergeFi/backend/issues/256",
    "at": "2026-09-16T18:57:05Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": []
@@ -79,7 +266,7 @@
    "url": "https://github.com/MergeFi/backend/issues/255",
    "at": "2026-09-16T18:57:02Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": []
@@ -93,7 +280,7 @@
    "url": "https://github.com/MergeFi/frontend/issues/355",
    "at": "2026-09-16T18:54:44Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": []
@@ -423,7 +610,7 @@
    "url": "https://github.com/NilaVinti095284/chi/issues/1",
    "at": "2026-09-16T14:26:45Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "NilaVinti095284",
     "labels": [
@@ -979,7 +1166,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1560",
    "at": "2026-09-16T01:18:46Z",
    "extra": {
-    "comments": 6,
+    "comments": 12,
     "amount_usd": 100,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -1295,159 +1482,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56702",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56702 [Quasar] Cached-program re-enqueue does not refresh DFB configs in fast dispatch",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56702",
-   "at": "2026-09-15T21:22:31Z",
-   "extra": {
-    "author": "jbaumanTT",
-    "labels": [
-     "bug",
-     "fast-dispatch",
-     "runtime",
-     "Quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56701",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56701 [Quasar] Trace capture drops DFB configs, replay reads the missing snapshot",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56701",
-   "at": "2026-09-15T21:22:20Z",
-   "extra": {
-    "author": "jbaumanTT",
-    "labels": [
-     "bug",
-     "fast-dispatch",
-     "runtime",
-     "Quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56697",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56697 blackhole tensix perf counters cannot see a cb_wait_front poll on the unpack RISC: a memory wait read from them is zero while the thread waits 38 percent of the wall",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56697",
-   "at": "2026-09-15T20:54:55Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "profiler",
-     "blackhole",
-     "infra/tools - internal"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56696",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56696 ttnn.topk with k not a multiple of 32 appends two slice ops (values and indices) of 0.5 to 2.2 us each",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56696",
-   "at": "2026-09-15T20:54:55Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "op_cat: reduces",
-     "perf"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56695",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56695 ttnn.topk composite route on blackhole: TopkRouteFinish costs a flat 21 to 25 us for every k up to 512 because it runs on k/16 cores",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56695",
-   "at": "2026-09-15T20:54:54Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "op_cat: reduces",
-     "perf"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56693",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56693 fp32_dest_acc_en selects the non streaming SDPA prefill kernel, whose FPU and SFPU never overlap: 24 percent slower at the llama 3.1 8B prefill point",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56693",
-   "at": "2026-09-15T20:54:53Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "perf",
-     "SDPA",
-     "op_cat: SDPA",
-     "model performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56694",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56694 tt_transformers SDPA program configs pin an (8, 8) grid on blackhole: prefill 24 percent faster on the full grid; decode runs 64 active cores on either grid and is still 9 to 10 percent faster on the wide one",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56694",
-   "at": "2026-09-15T20:54:53Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "models",
-     "blackhole",
-     "SDPA",
-     "op_cat: SDPA",
-     "model performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56692",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56692 SDPA streaming kernel compute front end: about 3,300 cycles per k128 step with a free reader, 12 data format reconfig sites per step, pack thread bound in the compute bound regimes",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56692",
-   "at": "2026-09-15T20:54:52Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "SDPA",
-     "op_cat: SDPA"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56691",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56691 causal, chunked, windowed, MLA prefill and joint SDPA stream K and V from DRAM on every core: the K/V forwarding chains are built only for plain non causal ops",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56691",
-   "at": "2026-09-15T20:54:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "perf",
-     "SDPA",
-     "op_cat: SDPA"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/pierreneuville/DevmobileClaude/issues/1",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1459,126 +1493,6 @@
     "amount_usd": null,
     "author": "pierreneuville",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56689",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56689 [Quasar] Bring up experimental sdpa (prefill) on Quasar (functional on craq-sim + emulator + WH)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56689",
-   "at": "2026-09-15T20:39:02Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "op_cat: mm",
-     "SDPA",
-     "op_cat: SDPA",
-     "refactor"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/3a016b74847928674b566d41efc90ce3912e55b8",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "feat: add compute api for quasar relu_min, relu_max (#56489)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/3a016b74847928674b566d41efc90ce3912e55b8",
-   "at": "2026-09-15T20:25:37Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_relu.h",
-     "tt_metal/hw/inc/api/compute/eltwise_unary/relu.h",
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_unary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_instr_params.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_sfpu.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_relu.h"
-    ],
-    "added": [],
-    "author": "fvranicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56688",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56688 [Quasar] Bring up experimental sdpa_decode on Quasar (functional on craq-sim + emulator + WH)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56688",
-   "at": "2026-09-15T20:07:45Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "op_cat: mm",
-     "SDPA",
-     "op_cat: SDPA",
-     "refactor"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/ceaf66a1e38c61b833f791f8fabf20d8073703a3",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [SAN] llk_pack_init num_tiles !== llk_matmul_pack ntiles :facepalm: (#56483)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/ceaf66a1e38c61b833f791f8fabf20d8073703a3",
-   "at": "2026-09-15T19:41:11Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_pack_tile_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_pack_tile_api.h"
-    ],
-    "added": [],
-    "author": "sstanisicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/1528192c4e6834bb54a9c9f30dd3ea3f003a1d8b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [SAN] Build the sanitizer's own functions for size (#56511)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/1528192c4e6834bb54a9c9f30dd3ea3f003a1d8b",
-   "at": "2026-09-15T19:41:10Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tools/include/sanitizer/api.h",
-     "tt_metal/tt-llk/tools/include/sanitizer/impl.h",
-     "tt_metal/tt-llk/tools/include/sanitizer/output.h",
-     "tt_metal/tt-llk/tools/include/sanitizer/settings.h"
-    ],
-    "added": [],
-    "author": "sstanisicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/85632bb78fd89d363a09f316edc3a54a8f56756b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [SAN] Keep the sanitizer headers out of disabled builds (#56510)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/85632bb78fd89d363a09f316edc3a54a8f56756b",
-   "at": "2026-09-15T19:41:09Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tools/include/sanitizer/api.h",
-     "tt_metal/tt-llk/tools/tests/unit/lit/functional/test_disabled_functional.cpp"
-    ],
-    "added": [],
-    "author": "sstanisicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56684",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56684 tt_dit: fuse the shared constructor body of Linear / ColParallelLinear / RowParallelLinear",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56684",
-   "at": "2026-09-15T19:26:20Z",
-   "extra": {
-    "author": "jamesleeTT",
-    "labels": [
-     "models",
-     "cleanup"
-    ]
    }
   },
   {
@@ -1744,7 +1658,7 @@
    "url": "https://github.com/leijnsejulian07-alt/Workflow-OS/issues/201",
    "at": "2026-09-15T09:59:39Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "leijnsejulian07-alt",
     "labels": []
@@ -1870,20 +1784,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/13970",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Sindhi (\u0633\u0646\u068c\u064a) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13970",
-   "at": "2026-09-15T06:26:22Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Aj2280",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13970",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#13970 [Bounty proposal] Sindhi (\u0633\u0646\u068c\u064a) quickstart for omi-cli ($25 proposed)",
@@ -1904,22 +1804,6 @@
    "extra": {
     "state": "closed",
     "author": "Aj2280"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/55443",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#55443 [Bounty $8,000] DRAM-sharded decode matmul: the in0 multicast is one hop per activation shard",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/55443",
-   "at": "2026-09-14T19:39:52Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "kinginu",
-    "assignees": [
-     "kinginu"
-    ],
-    "created": "2026-09-04T09:20:55Z"
    }
   },
   {
