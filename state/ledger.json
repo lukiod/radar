@@ -805,13 +805,17 @@
     {
      "at": "2026-09-15T11:25:12Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-16T06:56:27Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-d-04",
    "lane": "agency",
-   "note": "segment D; agent sends from prodev 09 16 with lead-sample-free.csv",
+   "note": "bounce 2026-09-16: no mailbox info@",
    "probability": 0.03,
-   "state": "produced",
+   "state": "rejected",
    "title": "Local Contractors Marketing (info@ for Paul Leary): lead sample",
    "url": "https://localcontractorsmarketing.com"
   },
@@ -988,6 +992,108 @@
    "state": "submitted",
    "title": "omi PR 14177 Slack: post only to an unambiguous channel",
    "url": "https://github.com/BasedHardware/omi/pull/14177"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:26:40Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0054",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:17:01Z msg 1a0a9137a4757f08 to colleen@wolflawcolorado.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Wolf Law, LLC: the consults wolflawcolorado.com is not getting at 10pm",
+   "url": "https://wolflawcolorado.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:26:40Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0055",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:18:42Z msg 1a0a91505f8917d8 to bill@boyleinjurylaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "The Boyle Law Firm: the consults boyleinjurylaw.com is not getting at 10pm",
+   "url": "https://boyleinjurylaw.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:26:40Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0056",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:20:23Z msg 1a0a9168e0d2202d to julie@berniesplumbing.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Bernie's Plumbing & Heating Company: the jobs berniesplumbing.com cannot book after hours",
+   "url": "https://berniesplumbing.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:26:40Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0057",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:22:03Z msg 1a0a91816ec5634f to bill@williamhorourke.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "William H. O'Rourke, P.C.: the consults williamhorourke.com is not getting at 10pm",
+   "url": "https://williamhorourke.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:26:40Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0058",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:23:44Z msg 1a0a919a12e76932 to steve@sjelectricllc.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "SJ Electric LLC: the jobs sjelectricllc.com cannot book after hours",
+   "url": "https://sjelectricllc.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T07:26:40Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0059",
+   "lane": "agency",
+   "note": "sent 2026-09-16T07:25:25Z msg 1a0a91b2ab7091f3 to mike@schillinglawkc.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Schilling Law: the consults schillinglawkc.com is not getting at 10pm",
+   "url": "https://schillinglawkc.com"
   }
  ]
 }
