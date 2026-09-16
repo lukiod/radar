@@ -28,13 +28,17 @@
     {
      "at": "2026-09-15T15:21:04Z",
      "state": "accepted"
+    },
+    {
+     "at": "2026-09-16T06:36:13Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0002",
    "lane": "omi",
-   "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
+   "note": "claim email sent 2026-09-16 from prodev, msg 1a0a8edd10e13124, PayPal to follow",
    "probability": 0.9,
-   "state": "accepted",
+   "state": "claimed",
    "title": "omi PR 13863 Notion usable ids",
    "url": "https://github.com/BasedHardware/omi/pull/13863"
   },
@@ -430,13 +434,17 @@
     {
      "at": "2026-09-15T15:21:04Z",
      "state": "accepted"
+    },
+    {
+     "at": "2026-09-16T06:36:13Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0005",
    "lane": "omi",
-   "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
+   "note": "claim email sent 2026-09-16 from prodev, msg 1a0a8edd10e13124, PayPal to follow",
    "probability": 0.9,
-   "state": "accepted",
+   "state": "claimed",
    "title": "omi PR 13973 CoinGecko null optional parameters",
    "url": "https://github.com/BasedHardware/omi/pull/13973"
   },
@@ -451,13 +459,17 @@
     {
      "at": "2026-09-15T15:21:04Z",
      "state": "accepted"
+    },
+    {
+     "at": "2026-09-16T06:36:13Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0006",
    "lane": "omi",
-   "note": "merged 2026-09-15 ~15:00 UTC by kodjima33; claim draft r-230700713534739184 in prodev, PayPal line blank",
+   "note": "claim email sent 2026-09-16 from prodev, msg 1a0a8edd10e13124, PayPal to follow",
    "probability": 0.9,
-   "state": "accepted",
+   "state": "claimed",
    "title": "omi PR 13975 app_tools drops omitted optionals",
    "url": "https://github.com/BasedHardware/omi/pull/13975"
   },
@@ -485,13 +497,17 @@
     {
      "at": "2026-09-15T10:28:53Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-16T06:47:36Z",
+     "state": "submitted"
     }
    ],
    "id": "agency-kc-01",
    "lane": "agency",
-   "note": "draft in internal-docs/comms/outbound-queue-agency-2026-09-16.md; sends from prodev on 09 16 within cap",
+   "note": "sent 2026-09-16T06:42:07Z msg 1a0a8f3852a33926 to kristopher@lylelawllc.com",
    "probability": 0.04,
-   "state": "produced",
+   "state": "submitted",
    "title": "Lyle Law, Overland Park (kristopher@, site scrape): mobile + intake + consult booking pitch",
    "url": "https://lylelawllc.com"
   },
@@ -502,13 +518,17 @@
     {
      "at": "2026-09-15T10:28:53Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-16T06:47:36Z",
+     "state": "submitted"
     }
    ],
    "id": "agency-kc-02",
    "lane": "agency",
-   "note": "draft in internal-docs/comms/outbound-queue-agency-2026-09-16.md; sends from prodev on 09 16 within cap",
+   "note": "sent 2026-09-16T06:43:49Z msg 1a0a8f513b49343e to anthony@morenolawkc.com",
    "probability": 0.04,
-   "state": "produced",
+   "state": "submitted",
    "title": "Moreno Law, Kansas City (anthony@, site scrape): consult scheduling pitch",
    "url": "https://morenolawkc.com"
   },
@@ -722,11 +742,15 @@
     {
      "at": "2026-09-15T11:16:06Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T06:36:13Z",
+     "state": "submitted"
     }
    ],
    "id": "omi-0008",
    "lane": "omi",
-   "note": "proposal #13997; create_wro received inventory for the first substring match; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5; superseded by vectiscode #14070/#14069 (copied proposal, merged 14:54 before mine); timeline posted on the PR, bounty is the maintainer call",
+   "note": "superseded by #14070 (copied fix merged first); attribution left to maintainer",
    "probability": 0.15,
    "state": "submitted",
    "title": "omi PR 13998 ShipBob product name resolution",
@@ -739,11 +763,15 @@
     {
      "at": "2026-09-15T11:20:32Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-16T06:36:13Z",
+     "state": "submitted"
     }
    ],
    "id": "omi-0009",
    "lane": "omi",
-   "note": "proposal #13999; create_order sold the first word match and variants[0]; APPROVED by kodjima33 2026-09-15 15:00 UTC, confidence 5/5; superseded by vectiscode #14070/#14069 (copied proposal, merged 14:54 before mine); timeline posted on the PR, bounty is the maintainer call",
+   "note": "superseded by #14069 (copied fix merged first)",
    "probability": 0.15,
    "state": "submitted",
    "title": "omi PR 14000 Shopify create_order product and variant resolution",
@@ -756,13 +784,17 @@
     {
      "at": "2026-09-15T11:25:12Z",
      "state": "produced"
+    },
+    {
+     "at": "2026-09-16T06:47:36Z",
+     "state": "submitted"
     }
    ],
    "id": "agency-d-03",
    "lane": "agency",
-   "note": "segment D; agent sends from prodev 09 16 with lead-sample-free.csv",
+   "note": "sent 2026-09-16T06:47:11Z msg 1a0a8f8293755e00 to sam@6thman-marketing.com",
    "probability": 0.04,
-   "state": "produced",
+   "state": "submitted",
    "title": "6th Man Marketing (sam@): 11 row lead sample, 500 rows for $400",
    "url": "https://6thman-marketing.com"
   },
@@ -905,6 +937,40 @@
    "state": "produced",
    "title": "Pune day 3 follow up by WhatsApp (Acme Dental, Advocate Joshi), 09 18",
    "url": "https://acmedental.in"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T06:47:29Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0051",
+   "lane": "agency",
+   "note": "sent 2026-09-16T06:40:25Z msg 1a0a8f1f9452041c to egebhardt@gemfamlaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "gemfamlaw.com: the consults GEM is not getting at 10pm",
+   "url": "https://gemfamlaw.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-16T06:47:29Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0052",
+   "lane": "agency",
+   "note": "sent 2026-09-16T06:45:29Z msg 1a0a8f69c45c1083 to info@hrrlawyers.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "hrrlawyers.com: for the managing partner: consult booking on hrrlawyers.com",
+   "url": "https://hrrlawyers.com"
   }
  ]
 }
