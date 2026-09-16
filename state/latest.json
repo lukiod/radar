@@ -1,6 +1,185 @@
 {
- "generated_at": "2026-09-16T00:38:10Z",
+ "generated_at": "2026-09-16T05:36:31Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56719",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56719 [aw] Tenstorrent Skills Reviewer hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56719",
+   "at": "2026-09-16T05:31:56Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56718",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56718 [aw] Matt Pocock Skills Reviewer hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56718",
+   "at": "2026-09-16T05:27:43Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56717",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56717 [aw] Matt Pocock Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56717",
+   "at": "2026-09-16T05:03:59Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AgoraIO/docs-portal/issues/1102",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AgoraIO/docs-portal: [Docs]: Update Agora Bug Bounty Policy",
+   "url": "https://github.com/AgoraIO/docs-portal/issues/1102",
+   "at": "2026-09-16T03:28:04Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "EEEEAZY",
+    "labels": [
+     "documentation"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/openai/codex/issues/45836",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "openai/codex: False positives flags in bug bounty programs",
+   "url": "https://github.com/openai/codex/issues/45836",
+   "at": "2026-09-16T02:05:21Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "kriptosec",
+    "labels": [
+     "bug",
+     "CLI",
+     "safety-check"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1561",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $9740486 BOUNTY FOR IMPLEMENTING A LINUX EMULATOR INTO OMNIBLOCKS",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1561",
+   "at": "2026-09-16T01:18:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 9740486,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1562",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $9828150 BOUNTY FOR IMPLEMENTING A SASS MODE INTO OMNIBLOCKS",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1562",
+   "at": "2026-09-16T01:18:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 9828150,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1560",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $100 DOLLAR BOUNTY FOR IMPLEMENTING A HELLO WORLD INTO THIS REPO",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1560",
+   "at": "2026-09-16T01:18:46Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 100,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56712",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56712 tracy multipass perf counter capture produces no ops report, so counters cannot be paired with device durations",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56712",
+   "at": "2026-09-16T00:55:09Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "profiler",
+     "blackhole",
+     "infra/tools - internal"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56711",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56711 paged MLA decode streams the latent cache once per query head slice when the sharded query is not replicated",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56711",
+   "at": "2026-09-16T00:54:51Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56710",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56710 SDPA exp_approx_mode does not reach the softmax exp of the streaming prefill kernel (the call site is pinned to the approximate form)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56710",
+   "at": "2026-09-16T00:54:33Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA"
+    ]
+   }
+  },
   {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/5",
    "source": "github_search",
@@ -9,7 +188,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/5",
    "at": "2026-09-16T00:18:29Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 100,
     "author": "someCatInTheWorld",
     "labels": [
@@ -104,7 +283,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/4",
    "at": "2026-09-15T23:37:03Z",
    "extra": {
-    "comments": 4,
+    "comments": 14,
     "amount_usd": 9740486,
     "author": "playforge-coding",
     "labels": [
@@ -248,7 +427,8 @@
    "extra": {
     "author": "dchenTT",
     "labels": [
-     "bug"
+     "bug",
+     "op_cat: eltwise"
     ]
    }
   },
@@ -1619,7 +1799,7 @@
    "url": "https://github.com/attogram/THE-ERROR-IS-THE-MESSAGE/issues/79",
    "at": "2026-09-15T07:39:13Z",
    "extra": {
-    "comments": 6,
+    "comments": 7,
     "amount_usd": null,
     "author": "attogram",
     "labels": []
@@ -1784,65 +1964,6 @@
     ],
     "added": [],
     "author": "Aswinmcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/947be3c61b899351c69867a3a2195b69dee4d3b2",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Import TestConfig in the Quasar parallel-matmul exp test (#56591)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/947be3c61b899351c69867a3a2195b69dee4d3b2",
-   "at": "2026-09-15T05:22:37Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_exp_parallel_matmul_quasar.py"
-    ],
-    "added": [],
-    "author": "mcraigheadTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/4f0821badbf80a8e244cfd4b3bb25599fc81d521",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Add DISABLE_SFPLOADMACRO Quasar exp kernel (#56589)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/4f0821badbf80a8e244cfd4b3bb25599fc81d521",
-   "at": "2026-09-15T05:21:54Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_exp.h"
-    ],
-    "added": [],
-    "author": "mcraigheadTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/12e3db22224885c86a37a6fdbfd79a191a7425d2",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Write LOADMACRO CONTROL from SFPCONFIG's own immediate (#56546)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/12e3db22224885c86a37a6fdbfd79a191a7425d2",
-   "at": "2026-09-15T05:13:05Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_exp.h"
-    ],
-    "added": [],
-    "author": "mcraigheadTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56592",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56592 [2026-09-15] Test Escalation Assignment",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56592",
-   "at": "2026-09-15T04:01:51Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "test-escalation"
-    ]
    }
   },
   {
