@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 state/audits.jsonl
 state/lead-sample.csv
+state/prospects.jsonl
+state/queue-*.jsonl
