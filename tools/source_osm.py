@@ -63,6 +63,7 @@ KINDS = {
     "home": ['nwr["craft"~"plumber|hvac|roofer|electrician"]["website"];', 'nwr["shop"="hvac"]["website"];',
              'nwr["office"~"plumber|hvac|roofer|electrician"]["website"];'],
     "medspa": ['nwr["shop"="beauty"]["beauty"~"spa|aesthetic|laser"]["website"];', 'nwr["amenity"="clinic"]["healthcare:speciality"~"dermatology|aesthetic"]["website"];'],
+    "agency": ['nwr["office"~"advertising_agency|marketing|web_design"]["website"];'],
     "physio": ['nwr["healthcare"="physiotherapist"]["website"];', 'nwr["amenity"="clinic"]["healthcare:speciality"="physiotherapy"]["website"];'],
 }
 
@@ -98,6 +99,8 @@ def kind_of(tags):
         return "dental"
     if tags.get("office") == "lawyer":
         return "law"
+    if tags.get("office") in ("advertising_agency", "marketing", "web_design"):
+        return "agency"
     if tags.get("healthcare") == "physiotherapist" or tags.get("healthcare:speciality") == "physiotherapy":
         return "physio"
     if tags.get("shop") == "beauty" or tags.get("healthcare:speciality") in ("dermatology", "aesthetic"):

@@ -34,10 +34,20 @@ def save(rows):
 def run(domains, workers=12):
     today = datetime.date.today().isoformat()
     rows = [r for r in load() if not (r["date"] == today and r["domain"] in domains)]
+    done = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
-        for result in pool.map(audit, domains):
+        futures = [pool.submit(audit, d) for d in domains]
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
             result["date"] = today
             rows.append(result)
+            done += 1
+            if done % 25 == 0 or done == len(domains):
+                # Partial saves so a long batch can be read while it runs
+                # and nothing is lost if it is killed.
+                rows.sort(key=lambda r: (r["domain"], r["date"]))
+                save(rows)
+                print(f"{done}/{len(domains)} audited", file=sys.stderr, flush=True)
     rows.sort(key=lambda r: (r["domain"], r["date"]))
     save(rows)
     return rows

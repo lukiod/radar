@@ -27,7 +27,18 @@ QUEUES = [ROOT / "state", ROOT.parent / "internal-docs" / "comms" / "queues"]
 
 SIGNATURE = '\n\nMohak Gupta\nCode Conclave\n\nReply "stop" and I will not write again.\n'
 GENERIC_LOCAL = ("info", "office", "contact", "hello", "admin", "frontdesk", "reception", "appointments", "billing", "mail", "team", "support")
-AMOUNTS = {"dental": 3500, "law": 4000, "home": 3000, "medspa": 3500, "physio": 3000}
+AMOUNTS = {"dental": 3500, "law": 4000, "home": 3000, "medspa": 3500, "physio": 3000, "agency": 800}
+SAMPLE_CSV = ROOT.parent / "internal-docs" / "earn" / "data" / "lead-sample-free.csv"
+
+
+AGENCY_BODY = (
+    "Attached are dental, law and home service sites I audited this week, with what is actually broken on each: "
+    "no way to book or request service, no contact form, not built for phones, a phone number that is not tappable. "
+    "Every row is a measured fact from the homepage and the contact page, not a scrape, so the first email your team "
+    "sends is about the owner's business, not about you.\n\n"
+    "They are yours, no strings. If the quality is right, I build 500 rows to your target list (trade, metro, size) "
+    "with owner emails found on the sites for $400, delivered in a week."
+)
 
 
 def leaks(checks):
@@ -151,6 +162,24 @@ def main(argv):
             continue
         c = a["checks"]
         lk = leaks(c)
+        if p["kind"] == "agency":
+            email = pick_email(c.get("emails") or [], p["domain"])
+            if not email:
+                skipped["no own domain email"] = skipped.get("no own domain email", 0) + 1
+                continue
+            if email in seen or p["domain"] in seen_domains:
+                skipped["already contacted"] = skipped.get("already contacted", 0) + 1
+                continue
+            rows.append({
+                "slug": p["domain"].split(".")[0], "lane": "agency", "kind": "agency", "metro": p["metro"], "domain": p["domain"],
+                "company": p["name"], "to": email, "subject": "25 local business sites with the leak named, free",
+                "body": greeting(email, p["name"]) + "\n\n" + AGENCY_BODY + SIGNATURE,
+                "attachments": [str(SAMPLE_CSV)], "amount": AMOUNTS["agency"], "evidence": {"pages_checked": c.get("pages_checked"), "audit_date": a["date"]},
+            })
+            seen.add(email)
+            if len(rows) >= args.limit:
+                break
+            continue
         if a["score"] < args.min_score or not (set(lk) & {"booking", "form"}):
             skipped["no leak"] = skipped.get("no leak", 0) + 1
             continue
