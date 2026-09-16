@@ -2,15 +2,6 @@
 
 Each line: expected value ÷ your minutes, highest first.
 
-- **omi PR 13973 CoinGecko null optional parameters** (omi, accepted)
-  $50 × 90% = $45 expected, 2 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
-  https://github.com/BasedHardware/omi/pull/13973
-- **omi PR 13975 app_tools drops omitted optionals** (omi, accepted)
-  $50 × 90% = $45 expected, 2 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
-  https://github.com/BasedHardware/omi/pull/13975
-- **omi PR 13863 Notion usable ids** (omi, accepted)
-  $25 × 90% = $22 expected, 2 min. Claim email is drafted in prodev with the PayPal line blank; add your PayPal address and send.
-  https://github.com/BasedHardware/omi/pull/13863
 - **Google for Startups Cloud Start tier (up to $2,000)** (grant, produced)
   $2,000 × 40% = $800 expected, 30 min. Submit the application from the draft.
   https://cloud.google.com/startup/benefits
@@ -45,5 +36,5 @@ Each line: expected value ÷ your minutes, highest first.
   $1,000 × 10% = $100 expected, 30 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
-Paid to date: $0. Expected value in flight: $1,074.
-States: accepted 3, paid 1, produced 25, rejected 4, submitted 17
+Paid to date: $0. Expected value in flight: $3,231.
+States: claimed 3, paid 1, produced 21, rejected 5, submitted 39

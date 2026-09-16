@@ -1,6 +1,227 @@
 {
- "generated_at": "2026-09-16T05:36:31Z",
+ "generated_at": "2026-09-16T10:47:49Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56738",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56738 binary_ng fused activations corrupt results when the two operand dtypes differ",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56738",
+   "at": "2026-09-16T10:36:26Z",
+   "extra": {
+    "author": "iwroszTT",
+    "labels": [
+     "bug",
+     "op_cat: eltwise"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56737",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56737 [aw] Tenstorrent Skills Reviewer hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56737",
+   "at": "2026-09-16T10:35:44Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tscircuit/docs/issues/886",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "tscircuit/docs: Migrate schematic-only ESP32 module circuit example bounty from archived docs-old#47",
+   "url": "https://github.com/tscircuit/docs/issues/886",
+   "at": "2026-09-16T10:17:19Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "Furox-Art",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56728",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56728 [aw] Silencer (tt-metal) hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56728",
+   "at": "2026-09-16T09:22:18Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/atlanhq/atlan-python/issues/1041",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "atlanhq/atlan-python: Bug Bounty PoC \u2014 charon.bughunter@gmail.com",
+   "url": "https://github.com/atlanhq/atlan-python/issues/1041",
+   "at": "2026-09-16T09:22:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "vinayfiinny",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56727",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56727 [aw] CI Failure Triage (pilot) hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56727",
+   "at": "2026-09-16T09:16:17Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14187",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(hive-app): hive_create_task can write to the wrong project or attach to the wrong parent task",
+   "url": "https://github.com/BasedHardware/omi/issues/14187",
+   "at": "2026-09-16T07:55:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "lukiod",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14187",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14187 [Bounty proposal] fix(hive-app): hive_create_task can write to the wrong project or attach to the wrong parent task",
+   "url": "https://github.com/BasedHardware/omi/issues/14187",
+   "at": "2026-09-16T07:55:06Z",
+   "extra": {
+    "state": "open",
+    "author": "lukiod"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14185",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(linear-app): update_issue_status can move an issue to the wrong state when the status name is ambiguous",
+   "url": "https://github.com/BasedHardware/omi/issues/14185",
+   "at": "2026-09-16T07:50:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "lukiod",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14185",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14185 [Bounty proposal] fix(linear-app): update_issue_status can move an issue to the wrong state when the status name is ambiguous",
+   "url": "https://github.com/BasedHardware/omi/issues/14185",
+   "at": "2026-09-16T07:50:01Z",
+   "extra": {
+    "state": "open",
+    "author": "lukiod"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56722",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56722 [aw] Repo Assist (tt-metal) hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56722",
+   "at": "2026-09-16T07:14:35Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56721",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56721 [aw] `/test` \u2014 CI pipeline selector for tt-metal hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56721",
+   "at": "2026-09-16T07:09:32Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56720",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56720 [aw] Matt Pocock Skills Reviewer hit engine rate limit (HTTP 429)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56720",
+   "at": "2026-09-16T06:56:31Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14176",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(slack-app): voice messages post to the first fuzzy channel match or to the default channel when the named channel does not resolve",
+   "url": "https://github.com/BasedHardware/omi/issues/14176",
+   "at": "2026-09-16T06:53:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "lukiod",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14176",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14176 [Bounty proposal] fix(slack-app): voice messages post to the first fuzzy channel match or to the default channel when the named channel does not resolve",
+   "url": "https://github.com/BasedHardware/omi/issues/14176",
+   "at": "2026-09-16T06:53:58Z",
+   "extra": {
+    "state": "open",
+    "author": "lukiod"
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OmniBlocks/bountyfarmer: bitcoin bounty",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/6",
+   "at": "2026-09-16T06:50:58Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "ampelc",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56719",
    "source": "tenstorrent",
@@ -78,23 +299,6 @@
    }
   },
   {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1561",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $9740486 BOUNTY FOR IMPLEMENTING A LINUX EMULATOR INTO OMNIBLOCKS",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1561",
-   "at": "2026-09-16T01:18:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 9740486,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1562",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -112,6 +316,23 @@
    }
   },
   {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1561",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $9740486 BOUNTY FOR IMPLEMENTING A LINUX EMULATOR INTO OMNIBLOCKS",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1561",
+   "at": "2026-09-16T01:18:47Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 9740486,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1560",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -119,7 +340,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1560",
    "at": "2026-09-16T01:18:46Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 100,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -188,7 +409,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/5",
    "at": "2026-09-16T00:18:29Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 100,
     "author": "someCatInTheWorld",
     "labels": [
@@ -283,7 +504,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/4",
    "at": "2026-09-15T23:37:03Z",
    "extra": {
-    "comments": 14,
+    "comments": 16,
     "amount_usd": 9740486,
     "author": "playforge-coding",
     "labels": [
@@ -342,7 +563,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/3",
    "at": "2026-09-15T23:28:53Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 9807060,
     "author": "playforge-coding",
     "labels": [
@@ -1097,7 +1318,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14112",
    "at": "2026-09-15T15:00:02Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "Abhist17",
     "labels": []
@@ -1474,91 +1695,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56625",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56625 Analyze metal 2.0 ported gpt-oss ops on emulator/simulator",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56625",
-   "at": "2026-09-15T10:34:54Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56623",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56623 Analyze metal 2.0 ported qwen3_v1 ops on emulator/simulator",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56623",
-   "at": "2026-09-15T10:34:05Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56622",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56622 Analyze metal 2.0 ported yolo8 ops on emulator/simulator",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56622",
-   "at": "2026-09-15T10:33:03Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56621",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56621 tanh_bw returns garbage when grad_output and input dtypes differ",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56621",
-   "at": "2026-09-15T10:32:09Z",
-   "extra": {
-    "author": "Aswinmcw",
-    "labels": [
-     "op_cat: eltwise",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/8a7ca5a0db4d60dc62b102ece1f8187af45fc0c7",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] Fit approximate tanh on a 6-entry SFPLUT; 37.0 -> 10.0 bfloat16 ULP, 0.1447 -> 0.0184 max abs (#56076)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/8a7ca5a0db4d60dc62b102ece1f8187af45fc0c7",
-   "at": "2026-09-15T10:07:54Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_tanh.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_tanh_derivative.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_tanh.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_tanh_derivative.h",
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations.h",
-     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_unary_sfpu.py",
-     "tt_metal/tt-llk/tests/python_tests/test_tanh_lut_consistency.py",
-     "tt_metal/tt-llk/tests/python_tests/test_tanh_specials.py",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/ckernel_sfpu_tanh_derivative.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/sfpu/ckernel_sfpu_tanh_derivative.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/test_tanh_lut_consistency.py",
-     "tt_metal/tt-llk/tests/python_tests/test_tanh_specials.py"
-    ],
-    "author": "ldjurovicTT"
-   }
-  },
-  {
    "id": "https://github.com/leijnsejulian07-alt/Workflow-OS/issues/201",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1570,126 +1706,6 @@
     "amount_usd": null,
     "author": "leijnsejulian07-alt",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56619",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56619 [aw] Tenstorrent Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56619",
-   "at": "2026-09-15T09:53:59Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56617",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56617 Get GPU trace 55k for ds v4 pro/flash",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56617",
-   "at": "2026-09-15T09:37:32Z",
-   "extra": {
-    "author": "ddjekicTT",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56616",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56616 ttnn.gelu (accurate mode) evaluates CDF factor as ~1.0 instead of ~0.5 for tiny |x|, causing 2x error",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56616",
-   "at": "2026-09-15T09:34:25Z",
-   "extra": {
-    "author": "abdulla-TT",
-    "labels": [
-     "bug",
-     "op_cat: eltwise"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56615",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56615 [aw] Failed jobs: Tenstorrent Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56615",
-   "at": "2026-09-15T09:27:57Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56613",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56613 [runtime]: Blackhole hangs on >512 MiB host\u2192device write from file-backed (mmap) memory via pinned zero-copy path",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56613",
-   "at": "2026-09-15T09:16:23Z",
-   "extra": {
-    "author": "tstepanovicTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/37a064e5a8e6b0c5583f74191cc05a7a34ff9d2e",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Feature] - Generic reduce: H-axis split for TILE inputs on sum/mean (#54349)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/37a064e5a8e6b0c5583f74191cc05a7a34ff9d2e",
-   "at": "2026-09-15T09:10:27Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/common.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_transpose_wh_universal_input_cols_partitioned.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_multi_core_h_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/welford_reduce_program_factory.cpp"
-    ],
-    "added": [],
-    "author": "ign-msati"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56608",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56608 GLM prefill - remove SP only kv cache paths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56608",
-   "at": "2026-09-15T08:56:33Z",
-   "extra": {
-    "author": "pavlepopovic",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56607",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56607 AgentX data analysis",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56607",
-   "at": "2026-09-15T08:54:58Z",
-   "extra": {
-    "author": "ipotkonjak-tt",
-    "labels": [
-     "shield_prefill"
-    ]
    }
   },
   {
@@ -1716,21 +1732,6 @@
    "extra": {
     "state": "open",
     "author": "t3ratech"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/61e0a505ffffa6993eb2e8b20f0ca1aee98cab2e",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[silencer] Silence unused dfb_x_id warning in RMSNORM layernorm kernel (#55335)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/61e0a505ffffa6993eb2e8b20f0ca1aee98cab2e",
-   "at": "2026-09-15T08:38:44Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm.cpp"
-    ],
-    "added": [],
-    "author": "github-actions[bot]"
    }
   },
   {
@@ -1773,7 +1774,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13978",
    "at": "2026-09-15T07:47:27Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "shitobu",
     "labels": []
@@ -1806,22 +1807,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56601",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56601 Binary Backward operations - Device op",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56601",
-   "at": "2026-09-15T07:12:42Z",
-   "extra": {
-    "author": "KalaivaniMCW",
-    "labels": [
-     "op_cat: eltwise",
-     "MCW",
-     "pr-priority:p2"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/13976",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1829,7 +1814,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/13976",
    "at": "2026-09-15T07:08:20Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "lukiod",
     "labels": []
@@ -1857,34 +1842,6 @@
    "extra": {
     "state": "closed",
     "author": "lukiod"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56600",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56600 [aw] Failed jobs: Repo Assist (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56600",
-   "at": "2026-09-15T07:04:08Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56599",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56599 [aw] Repo Assist (tt-metal) failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56599",
-   "at": "2026-09-15T07:04:06Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
    }
   },
   {
@@ -1949,21 +1906,6 @@
    "extra": {
     "state": "open",
     "author": "Aj2280"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/2ae844e81a7ab6fea0e7c9659b8d12bd9ee71edc",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Size the pre-all-gather x^2 buffer at Wt, not Wt*2 (#54698)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/2ae844e81a7ab6fea0e7c9659b8d12bd9ee71edc",
-   "at": "2026-09-15T06:02:53Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_pre_all_gather_program_factory.cpp"
-    ],
-    "added": [],
-    "author": "Aswinmcw"
    }
   },
   {
