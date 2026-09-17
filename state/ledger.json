@@ -1372,13 +1372,17 @@
     {
      "at": "2026-09-16T19:56:41Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-17T19:10:05Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-0074",
    "lane": "agency",
-   "note": "sent 2026-09-16T19:39:33Z msg 1a0abbbe864ae4d8 to admin@mytoothhq.com",
+   "note": "bounce 5.7.1 message rejected admin@mytoothhq.com",
    "probability": 0.03,
-   "state": "submitted",
+   "state": "rejected",
    "title": "ToothHQ: the appointments mytoothhq.com is not booking at night",
    "url": "https://mytoothhq.com"
   },
@@ -1389,13 +1393,17 @@
     {
      "at": "2026-09-16T19:56:41Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-17T19:10:05Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-0075",
    "lane": "agency",
-   "note": "sent 2026-09-16T19:41:04Z msg 1a0abbd10f78d152 to teamcs@scorebusinesscredit.com",
+   "note": "bounce 5.1.1 no such user teamcs@scorebusinesscredit.com",
    "probability": 0.03,
-   "state": "submitted",
+   "state": "rejected",
    "title": "First Texas Corporate Services: the consults scorebusinesscredit.com is not getting at 10pm",
    "url": "https://scorebusinesscredit.com"
   },
@@ -1508,13 +1516,17 @@
     {
      "at": "2026-09-16T19:56:41Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-17T19:10:05Z",
+     "state": "rejected"
     }
    ],
    "id": "agency-0082",
    "lane": "agency",
-   "note": "sent 2026-09-16T19:51:45Z msg 1a0abc6749693ac7 to info@arizonaroofrescue.com",
+   "note": "bounce 521 upstream error, Cloudflare Email Routing, twice",
    "probability": 0.03,
-   "state": "submitted",
+   "state": "rejected",
    "title": "Arizona Roof Rescue: the jobs arizonaroofrescue.com cannot book after hours",
    "url": "https://arizonaroofrescue.com"
   },
