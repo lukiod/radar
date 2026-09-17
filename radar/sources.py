@@ -51,9 +51,25 @@ TT_KERNEL_PREFIXES = (
 
 TARSNAP_REPOS = ["Tarsnap/tarsnap", "Tarsnap/kivaloo", "Tarsnap/spiped", "Tarsnap/scrypt"]
 
+# A scheduled scan must eventually finish even when GitHub or the local gh
+# credential helper stops responding. The runner isolates source failures, so
+# a timed-out query becomes a visible source error instead of wedging the
+# whole 30-minute radar cycle.
+GH_TIMEOUT_SECONDS = 30
+
 
 def gh(*args):
-    out = subprocess.run(["gh", *args], capture_output=True, text=True, check=False)
+    try:
+        out = subprocess.run(
+            ["gh", *args],
+            capture_output=True,
+            text=True,
+            check=False,
+            timeout=GH_TIMEOUT_SECONDS,
+        )
+    except subprocess.TimeoutExpired as exc:
+        command = "gh " + " ".join(args[:3])
+        raise RuntimeError(f"{command}: timed out after {GH_TIMEOUT_SECONDS}s") from exc
     if out.returncode != 0:
         raise RuntimeError(f"gh {' '.join(args[:3])}: {out.stderr.strip()[:300]}")
     return out.stdout

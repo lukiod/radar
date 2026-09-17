@@ -1279,13 +1279,17 @@
     {
      "at": "2026-09-16T07:55:57Z",
      "state": "submitted"
+    },
+    {
+     "at": "2026-09-17T05:13:03Z",
+     "state": "accepted"
     }
    ],
    "id": "omi-0069",
    "lane": "omi",
-   "note": "proposal #14187, PR #14188 opened 2026-09-16; same defect class as hive/shipbob/shopify/slack/linear",
+   "note": "merged 2026-09-17",
    "probability": 0.5,
-   "state": "submitted",
+   "state": "accepted",
    "title": "omi PR 14188 Hive: refuse ambiguous project/parent task on create",
    "url": "https://github.com/BasedHardware/omi/pull/14188"
   },

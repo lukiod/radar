@@ -1,6 +1,177 @@
 {
- "generated_at": "2026-09-17T00:45:17Z",
+ "generated_at": "2026-09-17T05:09:09Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56824",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56824 concat: sharded concat above 16 inputs asserts instead of batching, and batching cannot work with a shared output_mem_config",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56824",
+   "at": "2026-09-17T05:08:57Z",
+   "extra": {
+    "author": "VirdhatchaniKN",
+    "labels": [
+     "op_cat: TM"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Zimb/zimb/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Zimb/zimb: test issue",
+   "url": "https://github.com/Zimb/zimb/issues/1",
+   "at": "2026-09-17T05:07:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Zimb",
+    "labels": [
+     "zimb",
+     "from-vscode",
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/14188",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #14188 fix(hive-app): refuse an ambiguous target when creating a task",
+   "url": "https://github.com/BasedHardware/omi/pull/14188",
+   "at": "2026-09-17T05:06:21Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-17T05:06:21Z",
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/sharmiaalono/goose/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "sharmiaalono/goose: \ud83c\udfaf Fix silent failure when applying SQLite PRAGMA statements during migrations",
+   "url": "https://github.com/sharmiaalono/goose/issues/2",
+   "at": "2026-09-17T04:48:16Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "sharmiaalono",
+    "labels": [
+     "bounty",
+     "bountymin",
+     "$5"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56823",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56823 #53613: Category 4 \u2014 Exhaustive BF16 coverage for unary ops with a float/scalar parameter",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56823",
+   "at": "2026-09-17T04:39:19Z",
+   "extra": {
+    "author": "abdulla-TT",
+    "labels": [
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14303",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14303 [Bounty proposal] fix(basic/mentor): harden unbounded session memory leak and add unit test suite ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14303",
+   "at": "2026-09-17T04:31:08Z",
+   "extra": {
+    "state": "closed",
+    "author": "PINYOPATTANAWASANPORN"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/0c607b722214e76edec9a0e49a69e65bd1420aaa",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[silencer] Silence unused dfb_x_id warning in layernorm_large_tensor kernel (#56610)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/0c607b722214e76edec9a0e49a69e65bd1420aaa",
+   "at": "2026-09-17T03:33:08Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_large_tensor.cpp"
+    ],
+    "added": [],
+    "author": "github-actions[bot]"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14295",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] Haitian Creole (Krey\u00f2l Ayisyen) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14295",
+   "at": "2026-09-17T01:39:17Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "shitobu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14295",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14295 [Bounty proposal] Haitian Creole (Krey\u00f2l Ayisyen) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14295",
+   "at": "2026-09-17T01:39:17Z",
+   "extra": {
+    "state": "open",
+    "author": "shitobu"
+   }
+  },
+  {
+   "id": "https://github.com/Smartdevs17/stellarlend/issues/983",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Smartdevs17/stellarlend: Clarify private security reporting channel and current bounty eligibility",
+   "url": "https://github.com/Smartdevs17/stellarlend/issues/983",
+   "at": "2026-09-17T01:08:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "0monish",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14286",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(omi-plugin-sdk): add Geolocation bounds and comprehensive test suite ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14286",
+   "at": "2026-09-17T00:57:23Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 50,
+    "author": "PINYOPATTANAWASANPORN",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14286",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14286 [Bounty proposal] feat(omi-plugin-sdk): add Geolocation bounds and comprehensive test suite ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14286",
+   "at": "2026-09-17T00:57:23Z",
+   "extra": {
+    "state": "open",
+    "author": "PINYOPATTANAWASANPORN"
+   }
+  },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14280",
    "source": "github_search",
@@ -54,7 +225,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14274",
    "at": "2026-09-16T23:37:52Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "PINYOPATTANAWASANPORN",
     "labels": []
@@ -106,7 +277,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14265",
    "at": "2026-09-16T22:53:40Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "PINYOPATTANAWASANPORN",
     "labels": []
@@ -223,20 +394,6 @@
    "at": "2026-09-16T21:40:47Z",
    "extra": {
     "author": "amorrisonTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/pakompom/SpaceRangersHD_decomp/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "pakompom/SpaceRangersHD_decomp: Kings Bounty Recompilation?",
-   "url": "https://github.com/pakompom/SpaceRangersHD_decomp/issues/1",
-   "at": "2026-09-16T21:15:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "klevez06",
     "labels": []
    }
   },
@@ -528,7 +685,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14237",
    "at": "2026-09-16T16:55:19Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "TheRWX",
     "labels": []
@@ -707,6 +864,45 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/pull/13865",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13865 fix(ms365): read tool parameters from the flat body the Omi backend sends",
+   "url": "https://github.com/BasedHardware/omi/pull/13865",
+   "at": "2026-09-16T14:48:25Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-16T14:48:25Z",
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/13867",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13867 fix(twitter-chat-tools): keep max_results inside each X endpoint's range",
+   "url": "https://github.com/BasedHardware/omi/pull/13867",
+   "at": "2026-09-16T14:47:55Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-16T14:47:54Z",
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/13861",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13861 fix(google-calendar): emit usable event ids from list_events and create_event",
+   "url": "https://github.com/BasedHardware/omi/pull/13861",
+   "at": "2026-09-16T14:47:17Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-16T14:47:17Z",
+    "review": "APPROVED"
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/3e0ed477f89dafe911de85a03a7f797cc1e3af35",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -721,6 +917,32 @@
     ],
     "added": [],
     "author": "ndivnicTT"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/14177",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #14177 fix(slack-app): post only to an unambiguous channel",
+   "url": "https://github.com/BasedHardware/omi/pull/14177",
+   "at": "2026-09-16T14:41:34Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-16T14:41:34Z",
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/14186",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #14186 fix(linear-app): refuse an ambiguous status name instead of picking the first match",
+   "url": "https://github.com/BasedHardware/omi/pull/14186",
+   "at": "2026-09-16T14:39:55Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-16T14:39:55Z",
+    "review": "APPROVED"
    }
   },
   {
@@ -1007,6 +1229,19 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/pull/13977",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13977 fix(hive-app): refuse ambiguous task names when updating a status",
+   "url": "https://github.com/BasedHardware/omi/pull/13977",
+   "at": "2026-09-16T11:58:03Z",
+   "extra": {
+    "state": "OPEN",
+    "merged_at": null,
+    "review": "APPROVED"
+   }
+  },
+  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1570",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1096,27 +1331,13 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14187",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(hive-app): hive_create_task can write to the wrong project or attach to the wrong parent task",
-   "url": "https://github.com/BasedHardware/omi/issues/14187",
-   "at": "2026-09-16T07:55:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "lukiod",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14187",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#14187 [Bounty proposal] fix(hive-app): hive_create_task can write to the wrong project or attach to the wrong parent task",
    "url": "https://github.com/BasedHardware/omi/issues/14187",
    "at": "2026-09-16T07:55:06Z",
    "extra": {
-    "state": "open",
+    "state": "closed",
     "author": "lukiod"
    }
   },
@@ -1231,20 +1452,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56717",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56717 [aw] Matt Pocock Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56717",
-   "at": "2026-09-16T05:03:59Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/AgoraIO/docs-portal/issues/1102",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1330,58 +1537,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56712",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56712 tracy multipass perf counter capture produces no ops report, so counters cannot be paired with device durations",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56712",
-   "at": "2026-09-16T00:55:09Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "profiler",
-     "blackhole",
-     "infra/tools - internal"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56711",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56711 paged MLA decode streams the latent cache once per query head slice when the sharded query is not replicated",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56711",
-   "at": "2026-09-16T00:54:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "perf",
-     "SDPA",
-     "op_cat: SDPA",
-     "model performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56710",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56710 SDPA exp_approx_mode does not reach the softmax exp of the streaming prefill kernel (the call site is pinned to the approximate form)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56710",
-   "at": "2026-09-16T00:54:33Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "SDPA",
-     "op_cat: SDPA"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/5",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1440,6 +1595,71 @@
      "singhharsh1708"
     ],
     "created": "2026-09-11T18:45:31Z"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/14000",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #14000 fix(shopify-app): create_order sells only an unambiguous product and variant",
+   "url": "https://github.com/BasedHardware/omi/pull/14000",
+   "at": "2026-09-15T15:24:49Z",
+   "extra": {
+    "state": "OPEN",
+    "merged_at": null,
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/13998",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13998 fix(shipbob-app): resolve a product name to exactly one product before acting",
+   "url": "https://github.com/BasedHardware/omi/pull/13998",
+   "at": "2026-09-15T15:24:47Z",
+   "extra": {
+    "state": "OPEN",
+    "merged_at": null,
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/13863",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13863 fix(notion): emit usable page, database and entry ids from the listing tools",
+   "url": "https://github.com/BasedHardware/omi/pull/13863",
+   "at": "2026-09-15T15:02:35Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-15T15:02:35Z",
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/13973",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13973 fix(coingecko-app): accept null optional tool parameters as defaults",
+   "url": "https://github.com/BasedHardware/omi/pull/13973",
+   "at": "2026-09-15T14:59:59Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-15T14:59:59Z",
+    "review": "APPROVED"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/pull/13975",
+   "source": "omi",
+   "kind": "our_pr",
+   "title": "omi PR #13975 fix(app-tools): send only the arguments the model supplied to app tools",
+   "url": "https://github.com/BasedHardware/omi/pull/13975",
+   "at": "2026-09-15T14:59:48Z",
+   "extra": {
+    "state": "MERGED",
+    "merged_at": "2026-09-15T14:59:48Z",
+    "review": "APPROVED"
    }
   },
   {
