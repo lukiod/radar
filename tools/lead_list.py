@@ -1,11 +1,16 @@
 """Turn state/audits.jsonl into a lead list CSV, one row per domain, latest audit.
 
-Usage: python3 tools/lead_list.py [--min-score N] [--out state/lead-sample.csv]
+Usage: python3 tools/lead_list.py [--min-score N] [--out FILE]
+                                  [--metro NAME] [--kind dental] [--limit N]
 
 Columns are the facts an outreach email can quote: the leaks found on the
 homepage (no booking, no form, not built for phones, phone not tappable),
 load time, page weight, site builder, footer year. Sites behind a bot wall
 or unreachable are left out; nothing here is a guess.
+
+--metro and --kind are what the agency lane sells: the same list narrowed to
+one buyer's target, which is the difference between a sample they read and a
+sample they file.
 """
 
 import csv
@@ -13,7 +18,9 @@ import json
 import sys
 from pathlib import Path
 
-STATE = Path(__file__).resolve().parents[1] / "state" / "audits.jsonl"
+ROOT = Path(__file__).resolve().parents[1]
+STATE = ROOT / "state" / "audits.jsonl"
+PROSPECTS = ROOT / "state" / "prospects.jsonl"
 
 LEAK_COLUMNS = [
     ("no_booking", "booking", "no online booking or scheduling on the homepage or the contact page"),
@@ -50,8 +57,20 @@ def to_row(r):
     }
 
 
+def prospect_index():
+    if not PROSPECTS.exists():
+        return {}
+    out = {}
+    for line in PROSPECTS.read_text().splitlines():
+        if line.strip():
+            p = json.loads(line)
+            out[p["domain"]] = p
+    return out
+
+
 def main(argv):
-    min_score = 1
+    min_score, limit = 1, None
+    metro, kind = None, None
     out = STATE.parent / "lead-sample.csv"
     it = iter(argv)
     for flag in it:
@@ -59,7 +78,25 @@ def main(argv):
             min_score = int(next(it))
         elif flag == "--out":
             out = Path(next(it))
-    rows = [to_row(r) for r in latest_audits() if r["checks"].get("load_s") is not None and r["score"] >= min_score]
+        elif flag == "--metro":
+            metro = next(it).lower()
+        elif flag == "--kind":
+            kind = next(it).lower()
+        elif flag == "--limit":
+            limit = int(next(it))
+    index = prospect_index() if (metro or kind) else {}
+    rows = []
+    for r in latest_audits():
+        if r["checks"].get("load_s") is None or r["score"] < min_score:
+            continue
+        p = index.get(r["domain"], {})
+        if metro and p.get("metro") != metro:
+            continue
+        if kind and p.get("kind") != kind:
+            continue
+        rows.append(to_row(r))
+        if limit and len(rows) >= limit:
+            break
     with out.open("w", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=list(rows[0].keys()) if rows else ["domain"])
         writer.writeheader()
