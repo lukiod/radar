@@ -1,20 +1,174 @@
 {
- "generated_at": "2026-09-16T22:02:59Z",
+ "generated_at": "2026-09-17T00:45:17Z",
  "events": [
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56805",
+   "id": "https://github.com/BasedHardware/omi/issues/14280",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(github-app): create_issue silently disables AI auto-labelling when the backend sends a null `auto_labels` ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14280",
+   "at": "2026-09-17T00:01:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "boai-maker",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14280",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14280 [Bounty proposal] fix(github-app): create_issue silently disables AI auto-labelling when the backend sends a null `auto_labels` ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14280",
+   "at": "2026-09-17T00:01:44Z",
+   "extra": {
+    "state": "open",
+    "author": "boai-maker"
+   }
+  },
+  {
+   "id": "https://github.com/killerboyyy777/Machine-Learning-mmo/issues/194",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "killerboyyy777/Machine-Learning-mmo: Env action expressiveness: prices, bounties, gates, blind spots",
+   "url": "https://github.com/killerboyyy777/Machine-Learning-mmo/issues/194",
+   "at": "2026-09-17T00:01:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "killerboyyy777",
+    "labels": [
+     "enhancement",
+     "P1",
+     "M",
+     "area:ml-env"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14274",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: docs(cli): Javanese (jv) quickstart - US$25 bounty proposal",
+   "url": "https://github.com/BasedHardware/omi/issues/14274",
+   "at": "2026-09-16T23:37:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "PINYOPATTANAWASANPORN",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14274",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14274 docs(cli): Javanese (jv) quickstart - US$25 bounty proposal",
+   "url": "https://github.com/BasedHardware/omi/issues/14274",
+   "at": "2026-09-16T23:37:52Z",
+   "extra": {
+    "state": "open",
+    "author": "PINYOPATTANAWASANPORN"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14270",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(linear-app): search_issues sends null `first` against a non-nullable `$first: Int!` when the backend omits `limit` ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14270",
+   "at": "2026-09-16T23:13:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "boai-maker",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14270",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14270 [Bounty proposal] fix(linear-app): search_issues sends null `first` against a non-nullable `$first: Int!` when the backend omits `limit` ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14270",
+   "at": "2026-09-16T23:13:53Z",
+   "extra": {
+    "state": "open",
+    "author": "boai-maker"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14265",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: docs(cli): Lao (lo) quickstart - US$25 bounty proposal",
+   "url": "https://github.com/BasedHardware/omi/issues/14265",
+   "at": "2026-09-16T22:53:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "PINYOPATTANAWASANPORN",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14265",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14265 docs(cli): Lao (lo) quickstart - US$25 bounty proposal",
+   "url": "https://github.com/BasedHardware/omi/issues/14265",
+   "at": "2026-09-16T22:53:40Z",
+   "extra": {
+    "state": "open",
+    "author": "PINYOPATTANAWASANPORN"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56808",
    "source": "tenstorrent",
    "kind": "tt_issue",
-   "title": "tt-metal#56805 MLA prefill is not monotonic in the query head count: 48 heads run 24 percent faster than 32 at S 2048",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56805",
-   "at": "2026-09-16T21:56:36Z",
+   "title": "tt-metal#56808 [LLK] Typecast tests encode negative Int32 inputs as sign-magnitude instead of two\u2019s complement",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56808",
+   "at": "2026-09-16T22:51:06Z",
    "extra": {
-    "author": "mvlahovicTT",
+    "author": "jasondavies",
     "labels": [
-     "blackhole",
-     "perf",
-     "op_cat: SDPA"
+     "community"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56806",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56806 Stabilize LLK perf measurements by completing asynchronous pack work per block",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56806",
+   "at": "2026-09-16T22:23:29Z",
+   "extra": {
+    "author": "ndivnicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ef82086141d914e93f2995cd473a49d5a799a9c9",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Feature Quasar] SrcA transpose support for Matmul  (#56285)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ef82086141d914e93f2995cd473a49d5a799a9c9",
+   "at": "2026-09-16T22:21:32Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/experimental/llk_math_matmul_custom_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_AB_matmul_api.h",
+     "tt_metal/hw/inc/api/compute/matmul.h",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_matmul_quasar.py",
+     "tt_metal/tt-llk/tests/sources/quasar/matmul_quasar_test.cpp",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_matmul.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_matmul.h"
+    ],
+    "added": [],
+    "author": "gdsinghTT"
    }
   },
   {
@@ -1257,245 +1411,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14151",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(public-holidays-app): client fallback, null/non-list payload guards, and hermetic test suite",
-   "url": "https://github.com/BasedHardware/omi/issues/14151",
-   "at": "2026-09-15T23:55:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "shitobu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14151",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14151 [Bounty proposal] fix(public-holidays-app): client fallback, null/non-list payload guards, and hermetic test suite",
-   "url": "https://github.com/BasedHardware/omi/issues/14151",
-   "at": "2026-09-15T23:55:48Z",
-   "extra": {
-    "state": "open",
-    "author": "shitobu"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14146",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(wikipedia-app): connection pooling, null/non-dict payload guards, and hermetic test suite",
-   "url": "https://github.com/BasedHardware/omi/issues/14146",
-   "at": "2026-09-15T23:53:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "shitobu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14146",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14146 [Bounty proposal] fix(wikipedia-app): connection pooling, null/non-dict payload guards, and hermetic test suite",
-   "url": "https://github.com/BasedHardware/omi/issues/14146",
-   "at": "2026-09-15T23:53:10Z",
-   "extra": {
-    "state": "open",
-    "author": "shitobu"
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9740486 BOUNTY FOR IMPLEMENTING A LINUX EMULATOR INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/4",
-   "at": "2026-09-15T23:37:03Z",
-   "extra": {
-    "comments": 16,
-    "amount_usd": 9740486,
-    "author": "playforge-coding",
-    "labels": [
-     "enhancement",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/982",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Per-user lending rate limits are bypassable by spoofing the unverified userAddress field",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/982",
-   "at": "2026-09-15T23:32:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "pierreneuville",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/981",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Unauthenticated rate-limit admin endpoints allow global throttle manipulation and counter resets",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/981",
-   "at": "2026-09-15T23:30:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "pierreneuville",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/980",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Unauthenticated emergency API allows arbitrary pause/resume of lending and bridge operations",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/980",
-   "at": "2026-09-15T23:29:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "pierreneuville",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9807060 BOUNTY FOR IMPLEMENTING A LINUX EMULATOR INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/3",
-   "at": "2026-09-15T23:28:53Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 9807060,
-    "author": "playforge-coding",
-    "labels": [
-     "enhancement"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9572697 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/2",
-   "at": "2026-09-15T23:26:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 9572697,
-    "author": "playforge-coding",
-    "labels": [
-     "enhancement"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9828150 BOUNTY FOR IMPLEMENTING A SASS MODE INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/1",
-   "at": "2026-09-15T23:25:17Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 9828150,
-    "author": "playforge-coding",
-    "labels": [
-     "enhancement",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1559",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $100 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1559",
-   "at": "2026-09-15T22:57:40Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 100,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] Reverse bounty",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558",
-   "at": "2026-09-15T22:57:39Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56707",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56707 [ops/eltwise]: binary_ng reads a width-over-padded operand's padding as data (silent wrong answer, first call)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56707",
-   "at": "2026-09-15T22:50:22Z",
-   "extra": {
-    "author": "dchenTT",
-    "labels": [
-     "bug",
-     "op_cat: eltwise"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/monorepo/issues/795",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OmniBlocks/monorepo: Reverse bounty",
-   "url": "https://github.com/OmniBlocks/monorepo/issues/795",
-   "at": "2026-09-15T22:11:34Z",
-   "extra": {
-    "comments": 9,
-    "amount_usd": null,
-    "author": "PPPDUD",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/pierreneuville/DevmobileClaude/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "pierreneuville/DevmobileClaude: Quick Crypt bounty report for @bschick \u2014 WebAuthn Signal API targets wrong user handle",
-   "url": "https://github.com/pierreneuville/DevmobileClaude/issues/1",
-   "at": "2026-09-15T20:43:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "pierreneuville",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/50522",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -1528,169 +1443,6 @@
    }
   },
   {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1556",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] bounty",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1556",
-   "at": "2026-09-15T17:07:57Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ceyirelehe47/rustchain-bounties/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ceyirelehe47/rustchain-bounties: [claim #16238] Star bounty \u2014 ceyirelehe47 starred Rustchain + rustchain-bounties + ram-coffers",
-   "url": "https://github.com/ceyirelehe47/rustchain-bounties/issues/3",
-   "at": "2026-09-15T16:38:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ceyirelehe47",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/Boxy-gh/issues/140",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OmniBlocks/Boxy-gh: bounty",
-   "url": "https://github.com/OmniBlocks/Boxy-gh/issues/140",
-   "at": "2026-09-15T15:59:50Z",
-   "extra": {
-    "comments": 9,
-    "amount_usd": null,
-    "author": "ampelc",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14112",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(slack-app): voice-dictated messages can be sent to the wrong channel on an ambiguous fuzzy match",
-   "url": "https://github.com/BasedHardware/omi/issues/14112",
-   "at": "2026-09-15T15:00:02Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "Abhist17",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14112",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14112 [Bounty proposal] fix(slack-app): voice-dictated messages can be sent to the wrong channel on an ambiguous fuzzy match",
-   "url": "https://github.com/BasedHardware/omi/issues/14112",
-   "at": "2026-09-15T15:00:02Z",
-   "extra": {
-    "state": "open",
-    "author": "Abhist17"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14106",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14106 [Bounty proposal] Cantonese (\u7cb5\u8a9e / yue) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14106",
-   "at": "2026-09-15T14:12:53Z",
-   "extra": {
-    "state": "closed",
-    "author": "liutingqiu"
-   }
-  },
-  {
-   "id": "https://github.com/Lilly-Protocol/lily-sdk/issues/576",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Lilly-Protocol/lily-sdk: Settlement request for 3 merged bounty contributions from aEMPTYCUP",
-   "url": "https://github.com/Lilly-Protocol/lily-sdk/issues/576",
-   "at": "2026-09-15T13:35:32Z",
-   "extra": {
-    "comments": 7,
-    "amount_usd": null,
-    "author": "aEMPTYCUP",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13999",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13999 [Bounty proposal] fix(shopify-app): create_order sells the first product sharing a word with the line item and always variants[0]",
-   "url": "https://github.com/BasedHardware/omi/issues/13999",
-   "at": "2026-09-15T11:20:13Z",
-   "extra": {
-    "state": "closed",
-    "author": "lukiod"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13997",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13997 [Bounty proposal] fix(shipbob-app): create_wro receives inventory for the first substring match, not the product named",
-   "url": "https://github.com/BasedHardware/omi/issues/13997",
-   "at": "2026-09-15T11:15:47Z",
-   "extra": {
-    "state": "closed",
-    "author": "lukiod"
-   }
-  },
-  {
-   "id": "https://github.com/leijnsejulian07-alt/Workflow-OS/issues/201",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "leijnsejulian07-alt/Workflow-OS: Automate Whop bounty payout receipt evidence for zero-touch settlement",
-   "url": "https://github.com/leijnsejulian07-alt/Workflow-OS/issues/201",
-   "at": "2026-09-15T09:59:39Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "leijnsejulian07-alt",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13980",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(iq_rating): unguarded OpenAI choices indexing and context_snippets coercion ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13980",
-   "at": "2026-09-15T08:41:40Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "t3ratech",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13980",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13980 [Bounty proposal] fix(iq_rating): unguarded OpenAI choices indexing and context_snippets coercion ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13980",
-   "at": "2026-09-15T08:41:40Z",
-   "extra": {
-    "state": "open",
-    "author": "t3ratech"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/51655",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -1704,106 +1456,6 @@
      "kinginu"
     ],
     "created": "2026-07-31T03:59:46Z"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13978",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(crossref-app): connection pooling, null/non-dict payload guards, and hermetic test suite",
-   "url": "https://github.com/BasedHardware/omi/issues/13978",
-   "at": "2026-09-15T07:47:27Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "shitobu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13978",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13978 [Bounty proposal] fix(crossref-app): connection pooling, null/non-dict payload guards, and hermetic test suite",
-   "url": "https://github.com/BasedHardware/omi/issues/13978",
-   "at": "2026-09-15T07:47:27Z",
-   "extra": {
-    "state": "open",
-    "author": "shitobu"
-   }
-  },
-  {
-   "id": "https://github.com/attogram/THE-ERROR-IS-THE-MESSAGE/issues/79",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "attogram/THE-ERROR-IS-THE-MESSAGE: Bounty review",
-   "url": "https://github.com/attogram/THE-ERROR-IS-THE-MESSAGE/issues/79",
-   "at": "2026-09-15T07:39:13Z",
-   "extra": {
-    "comments": 8,
-    "amount_usd": null,
-    "author": "attogram",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13976",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13976 [Bounty proposal] fix(hive-app): update_task_status changes the first search hit when the name does not match exactly",
-   "url": "https://github.com/BasedHardware/omi/issues/13976",
-   "at": "2026-09-15T07:08:20Z",
-   "extra": {
-    "state": "closed",
-    "author": "lukiod"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13974",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13974 [Bounty proposal] fix(app-tools): omitted optional tool parameters are sent to apps and MCP servers as JSON null",
-   "url": "https://github.com/BasedHardware/omi/issues/13974",
-   "at": "2026-09-15T07:04:19Z",
-   "extra": {
-    "state": "closed",
-    "author": "lukiod"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13972",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13972 [Bounty proposal] fix(coingecko-app): optional parameters sent as null by the backend fail validation on every ordinary call",
-   "url": "https://github.com/BasedHardware/omi/issues/13972",
-   "at": "2026-09-15T06:50:36Z",
-   "extra": {
-    "state": "closed",
-    "author": "lukiod"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13970",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13970 [Bounty proposal] Sindhi (\u0633\u0646\u068c\u064a) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13970",
-   "at": "2026-09-15T06:26:22Z",
-   "extra": {
-    "state": "open",
-    "author": "Aj2280"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/13967",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#13967 [Bounty proposal] Dogri (\u0921\u094b\u0917\u0930\u0940) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/13967",
-   "at": "2026-09-15T06:16:31Z",
-   "extra": {
-    "state": "closed",
-    "author": "Aj2280"
    }
   },
   {
