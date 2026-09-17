@@ -7,6 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+from site_audit import has_form  # noqa: E402
 from site_audit import has_online_booking  # noqa: E402
 
 
@@ -65,6 +66,39 @@ class ScriptSwallowedAnchorTests(unittest.TestCase):
     def test_js_comparator_alone_is_not_booking(self):
         html = '<script>function f(a,n){if(n<a){return "book now"}}</script><a href="/about">About</a>'
         self.assertFalse(has_online_booking(html.lower()))
+
+
+
+class EmbeddedFormWidgetTests(unittest.TestCase):
+    """A widget-rendered form leaves no <form> tag, so it read as absent."""
+
+    def test_leadconnector_form_widget_is_a_form(self):
+        html = '<html><body><iframe src="https://api.leadconnectorhq.com/widget/form/2cxlcvlqidiusuaagpf8"></iframe></body></html>'
+        self.assertTrue(has_form(html.lower()))
+
+    def test_msgsndr_survey_widget_is_a_form(self):
+        html = '<html><body><iframe src="https://msgsndr.com/widget/survey/bii4npzhr2y1t9e9w4fa"></iframe></body></html>'
+        self.assertTrue(has_form(html.lower()))
+
+    def test_review_widget_is_not_a_form(self):
+        # Review widgets collect nothing; counting them would hide real leaks.
+        for src in ("https://services.leadconnectorhq.com/reputation/widgets/review_widget/yapexotbeuz5qvlqeyi0",
+                    "https://reviews.solutionreach.com/vs/reviews/north_haven_family_dentistry"):
+            self.assertFalse(has_form(f'<html><body><iframe src="{src}"></iframe></body></html>'.lower()), src)
+
+    def test_plain_form_and_js_builder_still_count(self):
+        self.assertTrue(has_form('<html><form action="/x">'.lower()))
+        self.assertTrue(has_form('<html><div class="wpforms-form">'.lower()))
+        self.assertFalse(has_form('<html><body><p>call us</p></body></html>'.lower()))
+
+    def test_squarespace_form_block_is_a_form(self):
+        # rooterproplumbingga.com ships 12 sqs-form-block classes, no <form>.
+        html = '<html><body><div class="sqs-block form-block sqs-block-form"><div class="sqs-form-block-context"></div></div></body></html>'
+        self.assertTrue(has_form(html.lower()))
+
+    def test_generic_form_wrapper_alone_is_not_a_form(self):
+        # "form-wrapper" appears on pages with no form at all.
+        self.assertFalse(has_form('<html><body><div class="form-wrapper"></div></body></html>'.lower()))
 
 
 if __name__ == "__main__":

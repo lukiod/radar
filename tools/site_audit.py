@@ -99,6 +99,20 @@ CONTACT_WORDS = ("contact", "consult", "schedule", "book", "appoint", "request")
 JUNK_EMAIL = ("example.com", "sentry", "wixpress", "domain.com", "email.com", ".png", ".jpg", ".gif", ".svg", "godaddy", "wordpress", "noreply", "no-reply")
 
 
+# Widget paths, not hostnames: leadconnector also serves review widgets.
+FORM_WIDGET_PATHS = ("leadconnectorhq.com/widget/form", "leadconnectorhq.com/widget/survey",
+                     "leadconnectorhq.com/widget/booking", "msgsndr.com/widget/form",
+                     "msgsndr.com/widget/survey", "msgsndr.com/widget/booking")
+# Squarespace's own classes; a generic "form-wrapper" appears without a form.
+JS_FORMS = JS_FORMS + ("sqs-block-form", "sqs-form-block")
+
+
+def has_form(lower):
+    """A <form> tag, a known JS form builder, or an embedded form widget."""
+    return ("<form" in lower or any(k in lower for k in JS_FORMS)
+            or any(k in lower for k in FORM_WIDGET_PATHS))
+
+
 SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1>", re.S)
 
 
@@ -257,7 +271,7 @@ def audit(domain):
     checks["click_to_call"] = 'href="tel:' in lower
     # JavaScript rendered form builders leave no <form> in the HTML but the
     # page has a working form (GEM Family Law's FindLaw site: Ninja Forms).
-    checks["form"] = "<form" in lower or any(k in lower for k in JS_FORMS)
+    checks["form"] = has_form(lower)
     checks["title"] = re.search(r"<title[^>]*>(.*?)</title>", text, re.S | re.I)
     checks["title"] = checks["title"].group(1).strip()[:120] if checks["title"] else ""
     years = [int(y) for y in re.findall(r"(?:©|&copy;|copyright)\s*(?:\d{4}\s*[-–]\s*)?(20\d\d)", lower)]
@@ -279,7 +293,7 @@ def audit(domain):
         if has_online_booking(sub_lower, domain):
             checks["booking"] = True
             checks["booking_page"] = link
-        if "<form" in sub_lower or any(k in sub_lower for k in JS_FORMS):
+        if has_form(sub_lower):
             checks["form"] = True
             checks["form_page"] = link
     checks["pages_checked"] = [final_url] + pages
