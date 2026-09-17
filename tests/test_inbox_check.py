@@ -2,12 +2,17 @@
 
 Run: PYTHONPATH=. python3 tests/test_inbox_check.py
 """
+import base64
+import contextlib
+import io
 import sys
+import tempfile
 import unittest
 from email.message import EmailMessage
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+import inbox_check  # noqa: E402
 from inbox_check import (address_of, bounce_recipient, is_bounce,  # noqa: E402
                          is_ours, is_system)
 
@@ -97,6 +102,54 @@ class SystemSenderTests(unittest.TestCase):
     def test_a_person_is_not_a_system_sender(self):
         self.assertFalse(is_system("Overlandpark@sweettoothpdo.com"))
         self.assertFalse(is_system("omi from Omi <email@omi.me>"))
+
+
+class BounceStaysUnseenUntilSuppressedTests(unittest.TestCase):
+    """A bounce is only dealt with once it is in suppression.txt. Marking it
+    seen on a plain run lost it for good: the address was mailed again on every
+    later day and nothing said so, on the one list that protects the domain."""
+
+    def setUp(self):
+        self.mod = inbox_check
+        self.tmp = Path(tempfile.mkdtemp())
+        self.supp = self.tmp / "suppression.txt"
+        self.supp.write_text("# nothing suppressed yet\n")
+        self.saved = []
+        self.mod.SUPPRESSION = str(self.supp)
+        self.mod.access_token = lambda: "t"
+        self.mod.profile_address = lambda t: "mohaktheprodev@gmail.com"
+        self.mod.load_seen = lambda: set()
+        self.mod.save_seen = lambda s: self.saved.append(set(s))
+        self.mod.message_ids = lambda t, q: ["m1"]
+        raw = base64.urlsafe_b64encode(dsn("info@dead.com")).decode()
+        full = {"payload": {"headers": [
+            {"name": "From", "value": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>"},
+            {"name": "Subject", "value": "Delivery Status Notification (Failure)"}]},
+            "snippet": ""}
+        self.mod.api = lambda t, path, **kw: {"raw": raw} if kw.get("format") == "raw" else full
+
+    def scan(self, apply_bounces):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.mod.scan(14, apply_bounces)
+        return buf.getvalue()
+
+    def test_a_plain_run_does_not_mark_an_unwritten_bounce_seen(self):
+        out = self.scan(apply_bounces=False)
+        self.assertIn("rerun with --apply-bounces", out)
+        self.assertEqual(self.saved[-1], set())
+        self.assertNotIn("info@dead.com", self.supp.read_text())
+
+    def test_applying_writes_the_line_and_only_then_marks_it_seen(self):
+        out = self.scan(apply_bounces=True)
+        self.assertIn("wrote 1 line(s)", out)
+        self.assertIn("info@dead.com", self.supp.read_text())
+        self.assertEqual(self.saved[-1], {"m1"})
+
+    def test_a_bounce_already_suppressed_is_marked_seen(self):
+        self.supp.write_text("info@dead.com  # bounced earlier\n")
+        self.scan(apply_bounces=False)
+        self.assertEqual(self.saved[-1], {"m1"})
 
 
 if __name__ == "__main__":

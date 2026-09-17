@@ -166,7 +166,7 @@ def scan(days, apply_bounces):
         if is_bounce(from_addr, subject):
             raw = api(token, f"messages/{mid}", format="raw")["raw"]
             addr, status = bounce_recipient(base64.urlsafe_b64decode(raw + "==="))
-            bounces.append((addr, status, subject))
+            bounces.append((addr, status, subject, mid))
         elif is_ours(from_addr, me) or is_system(from_addr):
             other.append((from_addr, subject))
         else:
@@ -185,11 +185,16 @@ def scan(days, apply_bounces):
                 pass
             print(f"  {when}  {from_addr}\n    {subject}\n    {snippet[:220]}")
         print()
+    # A bounce that is not yet in suppression.txt has not been dealt with, so
+    # it is held out of `seen` and reported again next run. Otherwise a look at
+    # the mailbox without --apply-bounces marks it read and the address is
+    # mailed again forever, which is the one mistake that burns the domain.
+    held = set()
     if bounces:
         table = load_suppression()
         print(f"BOUNCES ({len(bounces)})")
         lines = []
-        for addr, status, subject in bounces:
+        for addr, status, subject, mid in bounces:
             if not addr:
                 print(f"  unparsed bounce: {subject}")
                 continue
@@ -197,10 +202,12 @@ def scan(days, apply_bounces):
             print(f"  {addr}  status {status or '?'}{'  (already suppressed)' if already else ''}")
             if not already:
                 lines.append(f"{addr}  # bounced {datetime.now(timezone.utc):%Y-%m-%d} {status or 'unknown'}")
+                held.add(mid)
         if lines and apply_bounces:
             with open(SUPPRESSION, "a", encoding="utf-8") as fh:
                 for line in lines:
                     fh.write(line + "\n")
+            held.clear()
             print(f"  wrote {len(lines)} line(s) to suppression.txt")
         elif lines:
             print("  rerun with --apply-bounces to write these to suppression.txt")
@@ -209,7 +216,7 @@ def scan(days, apply_bounces):
         print(f"OTHER ({len(other)}), not replies")
         for from_addr, subject in other[:10]:
             print(f"  {from_addr}: {subject[:80]}")
-    save_seen(seen | fresh)
+    save_seen((seen | fresh) - held)
     return len(replies), len(bounces)
 
 
