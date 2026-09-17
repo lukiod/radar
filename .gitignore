@@ -5,3 +5,4 @@ state/lead-sample.csv
 state/prospects.jsonl
 state/queue-*.jsonl
 state/mx-cache.json
+state/inbox-seen.json
