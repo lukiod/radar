@@ -13,6 +13,7 @@ are skipped.
 """
 
 import argparse
+import datetime
 import glob
 import json
 import re
@@ -20,11 +21,13 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from site_audit import mail_route  # noqa: E402
+from site_audit import audit, mail_route  # noqa: E402
+from verify_email import rcpt_check  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 PROSPECTS = ROOT / "state" / "prospects.jsonl"
 AUDITS = ROOT / "state" / "audits.jsonl"
+EMAIL_CACHE = ROOT / "state" / "email-check.json"
 SUPPRESSION = ROOT.parent / "internal-docs" / "comms" / "suppression.txt"
 QUEUES = [ROOT / "state", ROOT.parent / "internal-docs" / "comms" / "queues"]
 
@@ -235,6 +238,46 @@ def already_contacted():
     return seen
 
 
+def unusable(a, domain):
+    """Why this audit cannot support a draft, or None. The same test runs on
+    the stored record as a cheap pre-filter and again on a fresh one when
+    --fresh is set, so the copy is written from a measurement taken seconds
+    before the row is built rather than from whatever the last sweep left."""
+    if not a or not a["checks"].get("reachable") or a["checks"].get("blocked_status"):
+        return "no audit or blocked"
+    c = a["checks"]
+    if c.get("mail_route") is False or (c.get("mail_route") is None and mail_route(domain) is False):
+        # A Null MX domain (or one that no longer resolves) bounces every
+        # send and burns sender reputation.
+        return "no mail route (Null MX)"
+    if site_looks_unrelated(c.get("title")):
+        return "domain resold, hijacked or parked"
+    if redirected_elsewhere(c.get("final_url"), domain):
+        return "domain now serves another business"
+    return None
+
+
+def address_live(address):
+    """False only when the mail server says the mailbox is not there. A probe
+    the host refuses on a Spamhaus listing (probe_blocked) or a timeout says
+    nothing about the address, so those pass; 6 of the first 50 sends to
+    scraped addresses bounced and every one of them was avoidable this way."""
+    try:
+        cache = json.loads(EMAIL_CACHE.read_text())
+    except Exception:
+        cache = {}
+    if address in cache:
+        return cache[address] != "dead"
+    status, _ = rcpt_check(address)
+    cache[address] = "dead" if status in ("rejected", "no_mx") else status
+    try:
+        EMAIL_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        EMAIL_CACHE.write_text(json.dumps(cache, sort_keys=True))
+    except Exception:
+        pass
+    return cache[address] != "dead"
+
+
 def main(argv):
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", required=True)
@@ -242,6 +285,7 @@ def main(argv):
     ap.add_argument("--kinds", default="dental,law,home")
     ap.add_argument("--metros", default="")
     ap.add_argument("--min-score", type=int, default=1)
+    ap.add_argument("--fresh", action="store_true")
     args = ap.parse_args(argv)
     kinds = set(args.kinds.split(","))
     metros = set(args.metros.split(",")) if args.metros else None
@@ -251,26 +295,24 @@ def main(argv):
             latest[r["domain"]] = r
     seen = already_contacted()
     seen_domains = {e.split("@")[-1] for e in seen if "@" in e}
-    rows, skipped = [], {}
+    rows, skipped, fresh = [], {}, []
     for p in load_jsonl(PROSPECTS):
         if p["kind"] not in kinds or (metros and p["metro"] not in metros):
             continue
         a = latest.get(p["domain"])
-        if not a or not a["checks"].get("reachable") or a["checks"].get("blocked_status"):
-            skipped["no audit or blocked"] = skipped.get("no audit or blocked", 0) + 1
+        reason = unusable(a, p["domain"])
+        if reason:
+            skipped[reason] = skipped.get(reason, 0) + 1
             continue
+        if args.fresh:
+            a = audit(p["domain"])
+            a["date"] = datetime.date.today().isoformat()
+            reason = unusable(a, p["domain"])
+            if reason:
+                skipped[reason] = skipped.get(reason, 0) + 1
+                continue
+            fresh.append(a)
         c = a["checks"]
-        if c.get("mail_route") is False or (c.get("mail_route") is None and mail_route(p["domain"]) is False):
-            # Reachable site, no mail route: a Null MX domain (or one that no
-            # longer resolves) bounces every send and burns sender reputation.
-            skipped["no mail route (Null MX)"] = skipped.get("no mail route (Null MX)", 0) + 1
-            continue
-        if site_looks_unrelated(c.get("title")):
-            skipped["domain resold, hijacked or parked"] = skipped.get("domain resold, hijacked or parked", 0) + 1
-            continue
-        if redirected_elsewhere(c.get("final_url"), p["domain"]):
-            skipped["domain now serves another business"] = skipped.get("domain now serves another business", 0) + 1
-            continue
         lk = leaks(c)
         if p["kind"] == "agency":
             email = pick_email(c.get("emails") or [], p["domain"])
@@ -279,6 +321,9 @@ def main(argv):
                 continue
             if email in seen or p["domain"] in seen_domains:
                 skipped["already contacted"] = skipped.get("already contacted", 0) + 1
+                continue
+            if not address_live(email):
+                skipped["mailbox does not exist"] = skipped.get("mailbox does not exist", 0) + 1
                 continue
             rows.append({
                 "slug": p["domain"].split(".")[0], "lane": "agency", "kind": "agency", "metro": p["metro"], "domain": p["domain"],
@@ -300,6 +345,9 @@ def main(argv):
         if email in seen or p["domain"] in seen_domains:
             skipped["already contacted"] = skipped.get("already contacted", 0) + 1
             continue
+        if not address_live(email):
+            skipped["mailbox does not exist"] = skipped.get("mailbox does not exist", 0) + 1
+            continue
         facts = facts_sentence(p["kind"], p["domain"], lk)
         if not facts:
             # Only the mobile and tel leaks are left, so there is no honest opening.
@@ -316,6 +364,10 @@ def main(argv):
         seen.add(email)
         if len(rows) >= args.limit:
             break
+    if fresh:
+        with AUDITS.open("a", encoding="utf-8") as fh:
+            for r in fresh:
+                fh.write(json.dumps(r, sort_keys=True) + "\n")
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open("a", encoding="utf-8") as fh:

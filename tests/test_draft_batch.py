@@ -7,7 +7,9 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from draft_batch import facts_sentence, offer, redirected_elsewhere, site_looks_unrelated, subject_for  # noqa: E402
+import draft_batch  # noqa: E402
+from draft_batch import (address_live, facts_sentence, offer, redirected_elsewhere,  # noqa: E402
+                         site_looks_unrelated, subject_for)
 
 
 class RedirectedElsewhereTests(unittest.TestCase):
@@ -108,6 +110,42 @@ class SiteLooksUnrelatedTests(unittest.TestCase):
         # flagged real estate law firms, a legitimate law specialty.
         self.assertFalse(site_looks_unrelated("Real Estate Attorney, Business Law & Family Law Attorney"))
         self.assertFalse(site_looks_unrelated("Arizona Real Estate Lawyer You Can Rely On"))
+
+
+class AddressLiveTests(unittest.TestCase):
+    """6 of the first 50 scraped addresses bounced. Only a hard rejection from
+    the mail server may drop a row: a probe the host refuses says nothing."""
+
+    def setUp(self):
+        self.real = draft_batch.rcpt_check
+        self.cache = draft_batch.EMAIL_CACHE
+        draft_batch.EMAIL_CACHE = Path("/tmp/email-check-test.json")
+        draft_batch.EMAIL_CACHE.unlink(missing_ok=True)
+
+    def tearDown(self):
+        draft_batch.rcpt_check = self.real
+        draft_batch.EMAIL_CACHE.unlink(missing_ok=True)
+        draft_batch.EMAIL_CACHE = self.cache
+
+    def test_rejection_and_no_mx_drop_the_row(self):
+        for status in ("rejected", "no_mx"):
+            draft_batch.EMAIL_CACHE.unlink(missing_ok=True)
+            draft_batch.rcpt_check = lambda a, s=status: (s, "detail")
+            self.assertFalse(address_live("info@example.com"), status)
+
+    def test_a_passive_probe_failure_does_not_drop_the_row(self):
+        for status in ("accepted", "probe_blocked", "unreachable", "unknown"):
+            draft_batch.EMAIL_CACHE.unlink(missing_ok=True)
+            draft_batch.rcpt_check = lambda a, s=status: (s, "detail")
+            self.assertTrue(address_live("info@example.com"), status)
+
+    def test_the_verdict_is_cached(self):
+        calls = []
+        draft_batch.rcpt_check = lambda a: (calls.append(a), ("accepted", "ok"))[1]
+        self.assertTrue(address_live("info@example.com"))
+        self.assertTrue(address_live("info@example.com"))
+        self.assertEqual(len(calls), 1)
+
 
 
 if __name__ == "__main__":
