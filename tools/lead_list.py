@@ -16,10 +16,10 @@ from pathlib import Path
 STATE = Path(__file__).resolve().parents[1] / "state" / "audits.jsonl"
 
 LEAK_COLUMNS = [
-    ("no_booking", "booking", "no online booking or scheduling on the homepage"),
-    ("no_form", "form", "no contact or lead form on the homepage"),
+    ("no_booking", "booking", "no online booking or scheduling on the homepage or the contact page"),
+    ("no_form", "form", "no contact or lead form on the homepage or the contact page"),
     ("not_mobile", "viewport", "no mobile viewport"),
-    ("phone_not_tappable", "click_to_call", "phone number not tappable on mobile"),
+    ("phone_not_tappable", "click_to_call", "no tappable phone number on the homepage"),
 ]
 
 

@@ -302,8 +302,7 @@ def main(argv):
             continue
         facts = facts_sentence(p["kind"], p["domain"], lk)
         if not facts:
-            # Booking and form both present, so the only leaks left are the
-            # mobile and tel ones; there is no honest opening sentence here.
+            # Only the mobile and tel leaks are left, so there is no honest opening.
             skipped["no bookable gap"] = skipped.get("no bookable gap", 0) + 1
             continue
         body = (greeting(email, p["name"]) + "\n\n" + facts[0] + ("; " + "; ".join(facts[1:]) if len(facts) > 1 else "") + ".\n\n"
