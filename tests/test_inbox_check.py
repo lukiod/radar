@@ -8,7 +8,8 @@ from email.message import EmailMessage
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from inbox_check import bounce_recipient, is_bounce  # noqa: E402
+from inbox_check import (address_of, bounce_recipient, is_bounce,  # noqa: E402
+                         is_ours, is_system)
 
 
 def dsn(final_recipient, status="5.1.1"):
@@ -62,6 +63,40 @@ class IsBounceTests(unittest.TestCase):
 
     def test_a_human_reply_is_not_a_bounce(self):
         self.assertFalse(is_bounce("Overlandpark@sweettoothpdo.com", "Re: correction to my email"))
+
+
+class AddressOfTests(unittest.TestCase):
+    def test_the_bracketed_address_wins_over_the_display_name(self):
+        self.assertEqual(address_of("omi from Omi <email@omi.me>"), "email@omi.me")
+        self.assertEqual(address_of("Mohak Gupta <mohaktheprodev@gmail.com>"), "mohaktheprodev@gmail.com")
+
+    def test_a_bare_address_is_itself(self):
+        self.assertEqual(address_of("Overlandpark@sweettoothpdo.com"), "overlandpark@sweettoothpdo.com")
+        self.assertEqual(address_of(""), "")
+
+
+class OursTests(unittest.TestCase):
+    """Gmail's from:me matched the omi support desk, so a -from:me filter in
+    the query deleted the ten bounty replies it was meant to keep. The
+    comparison has to be ours."""
+
+    def test_our_own_mail_is_ours(self):
+        self.assertTrue(is_ours("Mohak <mohaktheprodev@gmail.com>", "mohaktheprodev@gmail.com"))
+
+    def test_the_omi_desk_is_not_ours(self):
+        self.assertFalse(is_ours("omi from Omi <email@omi.me>", "mohaktheprodev@gmail.com"))
+
+
+class SystemSenderTests(unittest.TestCase):
+    def test_alerts_and_confirmations_are_not_replies(self):
+        for from_addr in ("Google <no-reply@google.com>",
+                          "Gmail Team <forwarding-noreply@google.com>",
+                          "notifications@github.com"):
+            self.assertTrue(is_system(from_addr), from_addr)
+
+    def test_a_person_is_not_a_system_sender(self):
+        self.assertFalse(is_system("Overlandpark@sweettoothpdo.com"))
+        self.assertFalse(is_system("omi from Omi <email@omi.me>"))
 
 
 if __name__ == "__main__":

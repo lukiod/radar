@@ -89,6 +89,26 @@ def is_bounce(from_addr, subject):
     return any(b in from_addr.lower() for b in BOUNCE_FROM) or "delivery status notification" in subject.lower()
 
 
+def address_of(from_addr):
+    m = re.search(r"<([^>]+)>", from_addr or "")
+    return (m.group(1) if m else (from_addr or "")).strip().lower()
+
+
+def is_ours(from_addr, me):
+    return address_of(from_addr) == me
+
+
+# Product notices, security alerts, confirmations. Not replies, and listing
+# them under REPLIES makes a mailbox look answered when nobody wrote back.
+SYSTEM_LOCAL = ("no-reply", "noreply", "do-not-reply", "donotreply", "notifications", "forwarding-noreply")
+
+
+def is_system(from_addr):
+    addr = address_of(from_addr)
+    local = addr.split("@", 1)[0]
+    return local in SYSTEM_LOCAL or local.startswith(("no-reply", "noreply"))
+
+
 def load_seen():
     try:
         return set(json.load(open(STATE)))
@@ -127,7 +147,13 @@ def scan(days, apply_bounces):
     token = access_token()
     me = profile_address(token).lower()
     seen = load_seen()
-    ids = message_ids(token, f"in:inbox newer_than:{days}d -from:me")
+    # Two things this query must not do, both learned the hard way. It must
+    # not say in:inbox: nine bounty claim replies from omi's support desk sit
+    # outside the inbox, and an inbox only search read the whole desk as
+    # silence. And it must not say -from:me: Gmail's from:me matches the omi
+    # desk's own address, so that filter deleted exactly the replies being
+    # looked for. Ours are dropped in code below, where the comparison is ours.
+    ids = message_ids(token, f"in:anywhere newer_than:{days}d -in:spam -in:trash")
     replies, bounces, other = [], [], []
     fresh = set()
     for mid in ids:
@@ -141,7 +167,7 @@ def scan(days, apply_bounces):
             raw = api(token, f"messages/{mid}", format="raw")["raw"]
             addr, status = bounce_recipient(base64.urlsafe_b64decode(raw + "==="))
             bounces.append((addr, status, subject))
-        elif me in from_addr.lower():
+        elif is_ours(from_addr, me) or is_system(from_addr):
             other.append((from_addr, subject))
         else:
             snippet = full.get("snippet", "")
