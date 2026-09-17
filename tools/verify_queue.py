@@ -1,11 +1,15 @@
 """Re-measure every claim in a queue against the live site before it is sent.
 
-    python3 tools/verify_queue.py <queue.jsonl> [--limit N]
+    python3 tools/verify_queue.py <queue.jsonl> [--limit N] [--write]
 
 Each row carries the leaks its copy names in evidence.leaks. A leak means
 "this is missing", so the row only stands if the check still says missing
 on the live page right now. Rows that no longer hold are printed and the
 exit code is 1, so a send can be gated on this.
+
+With --write the verdict is stored on the row (`rejected` with its reason,
+or `verified`), and the sender refuses a row marked rejected. The gate is
+then a fact about the queue rather than a step someone has to remember.
 
 The audit is a snapshot and the copy is a claim about the present tense.
 The two drift apart whenever a check improves or a site changes, and the
@@ -15,6 +19,7 @@ check runs again here rather than trusting the stored record.
 
 import json
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -55,34 +60,55 @@ def live_leaks(domain):
     return sorted(k for k, present in found.items() if not present)
 
 
+def write_queue(queue, rows):
+    tmp = queue.with_suffix(queue.suffix + ".tmp")
+    with open(tmp, "w", encoding="utf-8") as fh:
+        for row in rows:
+            fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+    tmp.replace(queue)
+
+
 def main(argv):
     queue = Path(argv[0])
+    write = "--write" in argv
     limit = None
     if "--limit" in argv:
         limit = int(argv[argv.index("--limit") + 1])
     rows = [json.loads(line) for line in queue.read_text().splitlines() if line.strip()]
     if limit:
         rows = rows[:limit]
+    todo = [r for r in rows if (r.get("evidence") or {}).get("leaks")
+            and not r.get("message_id") and not r.get("rejected")]
+    # Six at a time: one row is four page fetches, and a queue of 200 took
+    # twenty minutes single threaded, long enough that the gate got skipped.
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        observed_by_id = {id(r): o for r, o in zip(todo, pool.map(lambda r: live_leaks(r["domain"]), todo))}
     bad, unverifiable, ok = [], [], 0
-    for row in rows:
+    for row in todo:
         claimed = sorted((row.get("evidence") or {}).get("leaks") or [])
-        if not claimed:
-            continue
-        observed = live_leaks(row["domain"])
+        observed = observed_by_id[id(row)]
         if observed is None:
             unverifiable.append(row["domain"])
+            row["rejected"] = "site could not be read, so the claim cannot stand"
             continue
         # Anything claimed missing has to still be missing.
         present = [k for k in claimed if k not in observed]
         if present:
+            row["rejected"] = f"copy claims {present} missing, the live site has it"
             bad.append((row["domain"], claimed, observed, present))
         else:
+            row.pop("rejected", None)
+            row["verified"] = True
             ok += 1
+    if write:
+        write_queue(queue, rows)
     for domain, claimed, observed, present in bad:
         print(f"WRONG {domain}: copy claims {present} missing, the site has it (live missing: {observed})")
     for domain in unverifiable:
         print(f"UNVERIFIABLE {domain}: site could not be read, so the claim cannot stand")
     print(f"\n{len(rows)} rows: {ok} hold, {len(bad)} wrong, {len(unverifiable)} unverifiable")
+    if write:
+        print(f"verdicts written to {queue}")
     return 1 if bad or unverifiable else 0
 
 

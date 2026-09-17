@@ -193,6 +193,11 @@ def run_queue(path, pace, limit, dry_run):
     for i, row in enumerate(rows):
         if row.get("message_id") or row.get("suppressed"):
             continue
+        if row.get("rejected"):
+            # verify_queue measured the claim against the live site and it did
+            # not hold; sending it would repeat the false claim class.
+            print(f'skip {row["to"]}: {row["rejected"]}')
+            continue
         if suppressed(row["to"], table):
             row["suppressed"] = True
             print(f'skip {row["to"]}: suppressed')
