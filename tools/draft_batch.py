@@ -357,7 +357,9 @@ def main(argv):
                 + offer(p["kind"], lk) + " I build a working preview of your own site first, before any decision.\n\n"
                 + 'Worth a look? Reply "yes" and the preview is yours within a week.' + SIGNATURE)
         rows.append({
-            "slug": p["domain"].split(".")[0], "lane": "agency", "kind": p["kind"], "metro": p["metro"], "domain": p["domain"],
+            # The lane names the channel, and this row is a local business, so
+            # stamping it agency made every per channel rate impossible to read.
+            "slug": p["domain"].split(".")[0], "lane": "local", "kind": p["kind"], "metro": p["metro"], "domain": p["domain"],
             "company": p["name"], "to": email, "subject": subject_for(p["kind"], p["domain"], lk), "body": body,
             "attachments": [], "amount": AMOUNTS.get(p["kind"], 3000), "evidence": {"leaks": lk, "pages_checked": c.get("pages_checked"), "audit_date": a["date"]},
         })
