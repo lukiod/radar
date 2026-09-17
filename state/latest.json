@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T05:09:09Z",
+ "generated_at": "2026-09-17T05:16:10Z",
  "events": [
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56824",
@@ -23,7 +23,7 @@
    "url": "https://github.com/Zimb/zimb/issues/1",
    "at": "2026-09-17T05:07:41Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "Zimb",
     "labels": [
@@ -31,19 +31,6 @@
      "from-vscode",
      "bounty"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/14188",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #14188 fix(hive-app): refuse an ambiguous target when creating a task",
-   "url": "https://github.com/BasedHardware/omi/pull/14188",
-   "at": "2026-09-17T05:06:21Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-17T05:06:21Z",
-    "review": "APPROVED"
    }
   },
   {
@@ -864,45 +851,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/pull/13865",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13865 fix(ms365): read tool parameters from the flat body the Omi backend sends",
-   "url": "https://github.com/BasedHardware/omi/pull/13865",
-   "at": "2026-09-16T14:48:25Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-16T14:48:25Z",
-    "review": "APPROVED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13867",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13867 fix(twitter-chat-tools): keep max_results inside each X endpoint's range",
-   "url": "https://github.com/BasedHardware/omi/pull/13867",
-   "at": "2026-09-16T14:47:55Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-16T14:47:54Z",
-    "review": "APPROVED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13861",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13861 fix(google-calendar): emit usable event ids from list_events and create_event",
-   "url": "https://github.com/BasedHardware/omi/pull/13861",
-   "at": "2026-09-16T14:47:17Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-16T14:47:17Z",
-    "review": "APPROVED"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/3e0ed477f89dafe911de85a03a7f797cc1e3af35",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -917,32 +865,6 @@
     ],
     "added": [],
     "author": "ndivnicTT"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/14177",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #14177 fix(slack-app): post only to an unambiguous channel",
-   "url": "https://github.com/BasedHardware/omi/pull/14177",
-   "at": "2026-09-16T14:41:34Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-16T14:41:34Z",
-    "review": "APPROVED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/14186",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #14186 fix(linear-app): refuse an ambiguous status name instead of picking the first match",
-   "url": "https://github.com/BasedHardware/omi/pull/14186",
-   "at": "2026-09-16T14:39:55Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-16T14:39:55Z",
-    "review": "APPROVED"
    }
   },
   {
@@ -1226,19 +1148,6 @@
      "sfpi",
      "llk:test-infra"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13977",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13977 fix(hive-app): refuse ambiguous task names when updating a status",
-   "url": "https://github.com/BasedHardware/omi/pull/13977",
-   "at": "2026-09-16T11:58:03Z",
-   "extra": {
-    "state": "OPEN",
-    "merged_at": null,
-    "review": "APPROVED"
    }
   },
   {
@@ -1595,71 +1504,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-11T18:45:31Z"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/14000",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #14000 fix(shopify-app): create_order sells only an unambiguous product and variant",
-   "url": "https://github.com/BasedHardware/omi/pull/14000",
-   "at": "2026-09-15T15:24:49Z",
-   "extra": {
-    "state": "OPEN",
-    "merged_at": null,
-    "review": "APPROVED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13998",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13998 fix(shipbob-app): resolve a product name to exactly one product before acting",
-   "url": "https://github.com/BasedHardware/omi/pull/13998",
-   "at": "2026-09-15T15:24:47Z",
-   "extra": {
-    "state": "OPEN",
-    "merged_at": null,
-    "review": "APPROVED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13863",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13863 fix(notion): emit usable page, database and entry ids from the listing tools",
-   "url": "https://github.com/BasedHardware/omi/pull/13863",
-   "at": "2026-09-15T15:02:35Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-15T15:02:35Z",
-    "review": "APPROVED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13973",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13973 fix(coingecko-app): accept null optional tool parameters as defaults",
-   "url": "https://github.com/BasedHardware/omi/pull/13973",
-   "at": "2026-09-15T14:59:59Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-15T14:59:59Z",
-    "review": "APPROVED"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/pull/13975",
-   "source": "omi",
-   "kind": "our_pr",
-   "title": "omi PR #13975 fix(app-tools): send only the arguments the model supplied to app tools",
-   "url": "https://github.com/BasedHardware/omi/pull/13975",
-   "at": "2026-09-15T14:59:48Z",
-   "extra": {
-    "state": "MERGED",
-    "merged_at": "2026-09-15T14:59:48Z",
-    "review": "APPROVED"
    }
   },
   {
