@@ -1283,13 +1283,17 @@
     {
      "at": "2026-09-17T05:13:03Z",
      "state": "accepted"
+    },
+    {
+     "at": "2026-09-17T19:05:24Z",
+     "state": "claimed"
     }
    ],
    "id": "omi-0069",
    "lane": "omi",
-   "note": "merged 2026-09-17",
+   "note": "claim email sent 2026-09-17, msg 1a0b0c253bfc6ad0",
    "probability": 0.5,
-   "state": "accepted",
+   "state": "claimed",
    "title": "omi PR 14188 Hive: refuse ambiguous project/parent task on create",
    "url": "https://github.com/BasedHardware/omi/pull/14188"
   },
