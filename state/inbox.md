@@ -36,5 +36,5 @@ Each line: expected value ÷ your minutes, highest first.
   $1,000 × 10% = $100 expected, 30 min. Register on lablab.ai with the prodev address, get an AssemblyAI key, record the 3 minute demo from the README script, submit.
   https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
 
-Paid to date: $0. Expected value in flight: $4,854.
-States: accepted 1, claimed 8, paid 1, produced 21, rejected 6, submitted 48
+Paid to date: $0. Expected value in flight: $4,539.
+States: claimed 9, paid 1, produced 21, rejected 9, submitted 45
