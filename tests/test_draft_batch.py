@@ -7,7 +7,74 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from draft_batch import site_looks_unrelated  # noqa: E402
+from draft_batch import facts_sentence, offer, redirected_elsewhere, site_looks_unrelated, subject_for  # noqa: E402
+
+
+class RedirectedElsewhereTests(unittest.TestCase):
+    """pharrroaddentistry.com now resolves to brightworksdentistry.com."""
+
+    def test_different_business_is_flagged(self):
+        self.assertTrue(redirected_elsewhere("https://www.brightworksdentistry.com/", "pharrroaddentistry.com"))
+
+    def test_same_domain_www_and_scheme_and_path_are_not(self):
+        self.assertFalse(redirected_elsewhere("https://www.example.com/contact", "example.com"))
+        self.assertFalse(redirected_elsewhere("http://example.com", "example.com"))
+        self.assertFalse(redirected_elsewhere("https://clinic.example.com/", "example.com"))
+
+    def test_missing_final_url_is_not_flagged(self):
+        self.assertFalse(redirected_elsewhere(None, "example.com"))
+        self.assertFalse(redirected_elsewhere("", "example.com"))
+
+
+class FactsSentenceTests(unittest.TestCase):
+    """Branching on the form alone told 41 rows' worth of practices with a
+    working scheduler that they cannot book."""
+
+    def test_booking_present_form_missing_never_says_cannot_book(self):
+        for kind, lk in (("dental", ["form"]), ("law", ["form"]), ("home", ["form"])):
+            sent = " ".join(facts_sentence(kind, "example.com", lk)).lower()
+            self.assertNotIn("cannot book", sent, kind)
+            self.assertNotIn("cannot pick", sent, kind)
+            self.assertNotIn("cannot request service", sent, kind)
+            # The true fact still has to be there: the gap is the question.
+            self.assertIn("nowhere to", sent, kind)
+
+    def test_booking_present_form_missing_subject_does_not_claim_no_booking(self):
+        for kind in ("dental", "law", "home"):
+            subj = subject_for(kind, "example.com", ["form"]).lower()
+            self.assertNotIn("not booking at night", subj, kind)
+            self.assertNotIn("not getting at 10pm", subj, kind)
+            self.assertNotIn("cannot book", subj, kind)
+
+    def test_booking_present_form_missing_offer_does_not_sell_booking(self):
+        for kind in ("dental", "law", "home"):
+            body = offer(kind, ["form"]).lower()
+            self.assertNotIn("i set up online booking", body, kind)
+            self.assertNotIn("i set up consult scheduling", body, kind)
+            self.assertIn("already have", body, kind)
+
+    def test_booking_missing_still_claims_no_booking(self):
+        # The branch that was already right must not regress.
+        sent = " ".join(facts_sentence("dental", "example.com", ["booking", "form"])).lower()
+        self.assertIn("cannot book an appointment", sent)
+        self.assertIn("not booking at night", subject_for("dental", "example.com", ["booking", "form"]).lower())
+
+    def test_no_gap_returns_nothing_to_say(self):
+        # Neither missing: no honest opening sentence, so drop the row.
+        for kind in ("dental", "law", "home"):
+            self.assertEqual(facts_sentence(kind, "example.com", ["mobile", "tel"]), [], kind)
+
+    def test_mobile_and_tel_are_still_appended(self):
+        parts = facts_sentence("dental", "example.com", ["booking", "form", "mobile", "tel"])
+        self.assertEqual(len(parts), 3)
+        self.assertIn("shrunk down", parts[1])
+        self.assertIn("cannot be tapped", parts[2])
+
+    def test_tel_claim_is_scoped_to_the_page_that_was_read(self):
+        # sweettoothpdo.com has no tel: link on the homepage, eight on /locations.
+        parts = facts_sentence("dental", "example.com", ["booking", "form", "tel"])
+        self.assertIn("on the homepage", parts[1])
+        self.assertNotIn("not tappable on a phone", parts[1])
 
 
 class SiteLooksUnrelatedTests(unittest.TestCase):

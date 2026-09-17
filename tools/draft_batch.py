@@ -83,6 +83,16 @@ OFF_TOPIC_TITLE_WORDS = ("coffee", "cafe", "café", "restaurant", "bar & grill",
 # actual real estate agency mistagged as a different kind.
 
 
+def redirected_elsewhere(final_url, domain):
+    """True when the domain now serves a different business's site."""
+    host = re.sub(r"^https?://", "", (final_url or "")).split("/", 1)[0].lower()
+    if not host:
+        return False  # no final url recorded; other checks already gate this
+    host = host.removeprefix("www.")
+    dom = domain.removeprefix("www.")
+    return host != dom and not host.endswith("." + dom)
+
+
 def site_looks_unrelated(title):
     """True when the page's own title says this is not a small business
     homepage at all: a resold domain now selling coffee instead of dental
@@ -106,35 +116,64 @@ def leaks(checks):
     return out
 
 
+# Branching on the form alone told practices with a working scheduler that
+# they cannot book. Both facts are read; see internal-docs/earn/outreach-scale.md
+SUBJECT_ASK = {
+    "dental": "{domain}: no way to ask before booking",
+    "law": "{domain}: no way to ask before the consult",
+    "home": "{domain}: no way to describe the job before booking",
+}
+
+
 def facts_sentence(kind, domain, lk):
-    """The leak in the owner's terms, built only from verified checks: the
-    homepage and its contact pages were fetched and neither had a scheduler
-    or a booking link (booking) or any form (form)."""
+    """The leak in the owner's terms from verified checks only; [] when there
+    is none to name."""
+    no_booking, no_form = "booking" in lk, "form" in lk
     parts = []
-    form_missing = "form" in lk
     if kind == "dental":
-        if form_missing:
+        if no_booking and no_form:
             parts.append(f"On {domain} a patient cannot book an appointment or even leave a request, so the only way in is a phone call during office hours, and the ones reading at night book with the practice that let them choose a slot")
-        else:
+        elif no_booking:
             parts.append(f"On {domain} a patient can leave a request but cannot pick an appointment time, so the ones reading at night wait for a call back the next morning and the ones who wanted it done book with the practice that let them choose a slot")
+        elif no_form:
+            parts.append(f"On {domain} a patient can pick a slot but has nowhere to ask a question first, so anyone who wants to check on insurance or a nervous child before committing has to call during office hours, and the ones who will not call never book")
+        else:
+            return []
     elif kind == "law":
-        if form_missing:
+        if no_booking and no_form:
             parts.append(f"On {domain} a potential client cannot book a consultation or leave a message, so nothing reaches you until they call, and the ones reading at 10pm book with the firm that let them choose a time")
-        else:
+        elif no_booking:
             parts.append(f"On {domain} a potential client can leave a message but cannot book a consultation, so they wait for a call back the next day, and the ones reading at 10pm book with the firm that let them choose a time")
-    else:  # home services
-        if form_missing:
-            parts.append(f"On {domain} a homeowner cannot request service, so one who gets voicemail after hours has nothing to fill in and the next company's request button gets the job")
+        elif no_form:
+            parts.append(f"On {domain} a potential client can book a consult but has nowhere to describe the matter first, so anyone who will not put a case into a booking without asking a question first never reaches the calendar")
         else:
+            return []
+    else:  # home services
+        if no_booking and no_form:
+            parts.append(f"On {domain} a homeowner cannot request service, so one who gets voicemail after hours has nothing to fill in and the next company's request button gets the job")
+        elif no_booking:
             parts.append(f"On {domain} a homeowner can leave a message but cannot book a job, so every after hours request waits for a call back and the urgent ones go to the company that could schedule them on the spot")
+        elif no_form:
+            parts.append(f"On {domain} a homeowner can pick a slot but has nowhere to describe the job or send a photo first, so anyone with a question before committing calls during office hours instead, and the after hours ones go to the company that takes the details on the spot")
+        else:
+            return []
     if "mobile" in lk:
         parts.append("on a phone the site is the desktop page shrunk down")
     if "tel" in lk:
-        parts.append("the phone number is not tappable on a phone")
+        # Scoped to the pages read: /locations often has tel: links.
+        parts.append("the phone number on the homepage is plain text, so on a phone it cannot be tapped to call")
     return parts
 
 
-def offer(kind):
+def offer(kind, lk=None):
+    lk = lk or []
+    if "booking" not in lk:
+        # A scheduler exists already; offer the intake in front of it.
+        if kind == "dental":
+            return "I put a short intake in front of the booking you already have, insurance and the reason for the visit and a place to ask a question, so a patient can go from question to a booked slot without calling, with automatic reminders and a review request after each visit, in a week, one go, and give the site a clean new design while I am at it."
+        if kind == "law":
+            return "I put a confidential intake in front of the consult booking you already have, the matter and a conflict check and a place to ask a question, so a client can go from question to a booked consult without calling, in a week, one go, and give the site a design that looks like the firm you are while I am at it."
+        return "I put a short intake in front of the booking you already have that collects the address, the problem and a photo, so an after hours request arrives with the details instead of a call back, and texts your on call tech, in a week, one go, and give the site a clean new design while I am at it."
     if kind == "dental":
         return "I set up online booking that lands on your schedule, with automatic reminders and a review request after each visit, in a week, one go, and give the site a clean new design while I am at it."
     if kind == "law":
@@ -143,6 +182,9 @@ def offer(kind):
 
 
 def subject_for(kind, domain, lk):
+    """A subject line is a claim too."""
+    if "booking" not in lk:
+        return SUBJECT_ASK[kind].format(domain=domain)
     if kind == "dental":
         return f"the appointments {domain} is not booking at night"
     if kind == "law":
@@ -226,6 +268,9 @@ def main(argv):
         if site_looks_unrelated(c.get("title")):
             skipped["domain resold, hijacked or parked"] = skipped.get("domain resold, hijacked or parked", 0) + 1
             continue
+        if redirected_elsewhere(c.get("final_url"), p["domain"]):
+            skipped["domain now serves another business"] = skipped.get("domain now serves another business", 0) + 1
+            continue
         lk = leaks(c)
         if p["kind"] == "agency":
             email = pick_email(c.get("emails") or [], p["domain"])
@@ -256,8 +301,13 @@ def main(argv):
             skipped["already contacted"] = skipped.get("already contacted", 0) + 1
             continue
         facts = facts_sentence(p["kind"], p["domain"], lk)
+        if not facts:
+            # Booking and form both present, so the only leaks left are the
+            # mobile and tel ones; there is no honest opening sentence here.
+            skipped["no bookable gap"] = skipped.get("no bookable gap", 0) + 1
+            continue
         body = (greeting(email, p["name"]) + "\n\n" + facts[0] + ("; " + "; ".join(facts[1:]) if len(facts) > 1 else "") + ".\n\n"
-                + offer(p["kind"]) + " I build a working preview of your own site first, before any decision.\n\n"
+                + offer(p["kind"], lk) + " I build a working preview of your own site first, before any decision.\n\n"
                 + 'Worth a look? Reply "yes" and the preview is yours within a week.' + SIGNATURE)
         rows.append({
             "slug": p["domain"].split(".")[0], "lane": "agency", "kind": p["kind"], "metro": p["metro"], "domain": p["domain"],
