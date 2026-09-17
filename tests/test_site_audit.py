@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from site_audit import has_form  # noqa: E402
+from site_audit import has_form, is_parked, redirect_target  # noqa: E402
 from site_audit import has_online_booking  # noqa: E402
 
 
@@ -99,6 +99,48 @@ class EmbeddedFormWidgetTests(unittest.TestCase):
     def test_generic_form_wrapper_alone_is_not_a_form(self):
         # "form-wrapper" appears on pages with no form at all.
         self.assertFalse(has_form('<html><body><div class="form-wrapper"></div></body></html>'.lower()))
+
+
+class RedirectStubTests(unittest.TestCase):
+    """dental911.com answers with 114 bytes that set window.location and
+    scored 4/5 on leaks, a report about a stub rather than a practice."""
+
+    def test_js_location_stub_is_followed(self):
+        self.assertEqual(redirect_target('<!doctype html><html><head><script>window.onload=function(){window.location.href="/lander"}</script></head></html>',
+                                         "https://dental911.com"), "https://dental911.com/lander")
+
+    def test_meta_refresh_stub_is_followed(self):
+        self.assertEqual(redirect_target('<html><head><meta http-equiv="refresh" content="0; url=/home"></head></html>',
+                                         "https://example.com"), "https://example.com/home")
+
+    def test_a_real_page_with_a_redirect_in_it_is_not_a_stub(self):
+        real = '<html><body><a href="/contact">Contact</a>' + "<p>filler</p>" * 300 + '<script>location="x"</script></body></html>'
+        self.assertIsNone(redirect_target(real, "https://example.com"))
+
+    def test_relative_and_absolute_targets_both_resolve(self):
+        self.assertEqual(redirect_target('<script>location.href="/a"</script>', "https://e.com/x/"), "https://e.com/a")
+        self.assertEqual(redirect_target('<script>location.href="https://o.com/b"</script>', "https://e.com/"), "https://o.com/b")
+
+
+
+class ParkedDomainTests(unittest.TestCase):
+    """A parked page renders its title in the browser, so the title based
+    check never sees it and the leaks scored belong to a parking page."""
+
+    def test_godaddy_parking_lander_is_flagged(self):
+        page = '<script>window.LANDER_SYSTEM="PW"</script><script>window._trfd.push({ap:"parking"})</script><div id="root"></div>'
+        self.assertTrue(is_parked(page.lower()))
+
+    def test_for_sale_marketplaces_are_flagged(self):
+        self.assertTrue(is_parked("<h1>This domain is for sale</h1>"))
+        self.assertTrue(is_parked('<a href="https://www.hugedomains.com/">Buy this domain</a>'))
+
+    def test_a_real_business_page_is_not_flagged(self):
+        for page in ("<h1>Denver Family Dental</h1><p>Book an appointment</p>",
+                     "<p>We offer free parking for patients</p>",
+                     '<a href="/buy">Buy this domain name gift card</a>'):
+            self.assertFalse(is_parked(page.lower()), page)
+
 
 
 if __name__ == "__main__":

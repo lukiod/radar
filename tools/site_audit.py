@@ -107,6 +107,20 @@ FORM_WIDGET_PATHS = ("leadconnectorhq.com/widget/form", "leadconnectorhq.com/wid
 JS_FORMS = JS_FORMS + ("sqs-block-form", "sqs-form-block")
 
 
+# A parked domain renders its title in the browser, so the title check in
+# draft_batch never sees it; dental911.com is GoDaddy parking with an empty
+# title and scored 3/5 on leaks that belong to a parked page.
+PARKED_SIGNALS = ("parking-lander", 'ap:"parking"', "window.lander_system", "this domain is parked",
+                  "this domain is for sale", "domain parking", "sedoparking", "hugedomains", "afternic")
+
+
+def is_parked(html):
+    """Lowercases its own input: "buy this domain" was dropped as a signal
+    because a shop can say it about a gift card."""
+    lower = html.lower()
+    return any(s in lower for s in PARKED_SIGNALS)
+
+
 def has_form(lower):
     """A <form> tag, a known JS form builder, or an embedded form widget."""
     return ("<form" in lower or any(k in lower for k in JS_FORMS)
@@ -125,6 +139,19 @@ def strip_script_style(lower):
 
 
 IFRAME_SRC_RE = re.compile(r"<iframe\b[^>]*\bsrc\s*=\s*[\"\']([^\"\']+)", re.I)
+JS_REDIRECT_RE = re.compile(r"""location(?:\.href)?\s*=\s*["']([^"']+)["']""")
+META_REFRESH_RE = re.compile(r"""<meta[^>]+http-equiv\s*=\s*["']?refresh["']?[^>]*content\s*=\s*["'][^"']*url\s*=\s*([^"';]+)""", re.I)
+
+
+def redirect_target(lower, base):
+    """The URL a client side redirect stub points at, or None. dental911.com
+    answers with 114 bytes of window.location and scored 4/5 on leaks, which
+    is a report about a stub, not about the practice. A real page of this size
+    with a redirect in it does not exist; the anchor check is the guard."""
+    if len(lower) > 2000 or "<a " in lower or "<form" in lower:
+        return None
+    m = META_REFRESH_RE.search(lower) or JS_REDIRECT_RE.search(lower)
+    return urllib.parse.urljoin(base, m.group(1).strip()) if m else None
 SOCIAL_HOSTS = ("facebook.com", "instagram.com", "twitter.com", "x.com", "linkedin.com", "yelp.com",
                 "google.com", "goo.gl", "youtube.com", "tiktok.com", "pinterest.com", "apple.com")
 
@@ -257,8 +284,25 @@ def audit(domain):
         return result
 
     text = html.decode("utf-8", errors="ignore")
+    for _ in range(2):
+        target = redirect_target(text.lower(), final_url)
+        if not target:
+            break
+        try:
+            final_url, status, first, total, html = fetch(target)
+        except Exception:
+            break
+        text = html.decode("utf-8", errors="ignore")
+        checks["https"] = final_url.startswith("https://")
+        checks["load_s"] = round(total, 2)
+        checks["weight_kb"] = round(len(html) / 1024)
     lower = text.lower()
     checks["final_url"] = final_url
+    if is_parked(lower):
+        checks["blocked_status"] = "parked"
+        result["notes"].append("the domain is parked or for sale, no business is on it")
+        result["score"] = 0
+        return result
     if "just a moment..." in lower or "__cf_chl" in lower or "cf-browser-verification" in lower:
         # A Cloudflare challenge page is not the site; scoring it would
         # report "no form, no booking" about a page that is not theirs.
