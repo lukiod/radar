@@ -217,6 +217,33 @@ def pick_email(emails, domain):
     return (named or own)[0]
 
 
+def owner_email(osm_email, domain):
+    """The business's own mailbox when OSM lists it off its domain, or None.
+
+    A listing often carries the address the owner actually reads, on gmail or
+    on a second domain of theirs, and pick_email discards every one of those
+    because it only looks at the site's own domain. Dropping them loses real
+    leads, but accepting them blind would write to whatever personal address
+    a listing happens to hold, so the address has to name the business.
+    """
+    osm_email = (osm_email or "").strip().lower()
+    if "@" not in osm_email:
+        return None
+    local, _, host = osm_email.partition("@")
+    if host == domain:
+        return osm_email
+    slug = re.sub(r"[^a-z0-9]", "", domain.split(".")[0])
+    if len(slug) < 6:
+        return None
+    bare_local = re.sub(r"[^a-z0-9]", "", local)
+    bare_host = re.sub(r"[^a-z0-9]", "", host.split(".")[0])
+    if bare_local and (slug in bare_local or bare_local in slug):
+        return osm_email
+    if len(bare_host) >= 6 and (slug in bare_host or bare_host in slug):
+        return osm_email
+    return None
+
+
 def load_jsonl(path):
     if not path.exists():
         return []
@@ -338,7 +365,7 @@ def main(argv):
         if a["score"] < args.min_score or not (set(lk) & {"booking", "form"}):
             skipped["no leak"] = skipped.get("no leak", 0) + 1
             continue
-        email = pick_email(c.get("emails") or [], p["domain"]) or (p.get("osm_email") if (p.get("osm_email") or "").endswith("@" + p["domain"]) else None)
+        email = pick_email(c.get("emails") or [], p["domain"]) or owner_email(p.get("osm_email"), p["domain"])
         if not email:
             skipped["no own domain email"] = skipped.get("no own domain email", 0) + 1
             continue

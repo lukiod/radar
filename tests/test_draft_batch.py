@@ -8,8 +8,40 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import draft_batch  # noqa: E402
-from draft_batch import (address_live, facts_sentence, offer, redirected_elsewhere,  # noqa: E402
-                         site_looks_unrelated, subject_for)
+from draft_batch import (address_live, facts_sentence, offer, owner_email,  # noqa: E402
+                         redirected_elsewhere, site_looks_unrelated, subject_for)
+
+
+class OwnerEmailTests(unittest.TestCase):
+    """OSM often lists the owner's mailbox off the site's domain. Those are
+    real leads, but only when the address names the business."""
+
+    def test_a_mailbox_naming_the_business_is_taken(self):
+        self.assertEqual(owner_email("pinnacleroofingassociates@gmail.com", "pinnacleroofingassociates.com"),
+                         "pinnacleroofingassociates@gmail.com")
+        self.assertEqual(owner_email("firesidehvac@gmail.com", "firesidehvac.com"),
+                         "firesidehvac@gmail.com")
+
+    def test_a_second_domain_of_the_same_business_is_taken(self):
+        self.assertEqual(owner_email("jonathan@rizeexteriorservices.com", "rizeexterior.com"),
+                         "jonathan@rizeexteriorservices.com")
+
+    def test_the_sites_own_domain_still_passes(self):
+        self.assertEqual(owner_email("info@pophamlaw.com", "pophamlaw.com"), "info@pophamlaw.com")
+
+    def test_a_strangers_personal_address_is_refused(self):
+        self.assertIsNone(owner_email("tyler.borg@me.com", "coloradogumcare.com"))
+        self.assertIsNone(owner_email("schloegel@gmail.com", "pophamlaw.com"))
+        self.assertIsNone(owner_email("danielmurphlaw@gmail.com", "denvercocriminaldefenselawyer.com"))
+        self.assertIsNone(owner_email("jlewis@matthewslaw.com", "matthewsfamilylawyers.com"))
+
+    def test_a_short_slug_cannot_match_by_accident(self):
+        self.assertIsNone(owner_email("me@example.com", "law.com"))
+
+    def test_nothing_in_gives_nothing_back(self):
+        self.assertIsNone(owner_email(None, "pophamlaw.com"))
+        self.assertIsNone(owner_email("", "pophamlaw.com"))
+        self.assertIsNone(owner_email("not-an-address", "pophamlaw.com"))
 
 
 class RedirectedElsewhereTests(unittest.TestCase):
