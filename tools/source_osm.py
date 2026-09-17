@@ -22,6 +22,7 @@ from pathlib import Path
 STATE = Path(__file__).resolve().parents[1] / "state" / "prospects.jsonl"
 ENDPOINTS = ("https://overpass.kumi.systems/api/interpreter", "https://overpass-api.de/api/interpreter")
 UA = "radar-audit/0.1 (site audits for small business outreach)"
+OVERPASS_TIMEOUT_SECONDS = 45
 
 # south, west, north, east
 METROS = {
@@ -87,7 +88,7 @@ def overpass(q, log=lambda msg: None):
             try:
                 log(f"  querying {host} (attempt {attempt + 1})")
                 req = urllib.request.Request(host, data=data, headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=90) as resp:
+                with urllib.request.urlopen(req, timeout=OVERPASS_TIMEOUT_SECONDS) as resp:
                     return json.load(resp)["elements"]
             except Exception as err:  # 504 and rate limits are ordinary here
                 last = err
