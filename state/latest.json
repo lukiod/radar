@@ -1,6 +1,109 @@
 {
- "generated_at": "2026-09-17T05:16:10Z",
+ "generated_at": "2026-09-17T05:41:54Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14307",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] Crossref title cleanup leaves inline face markup behind (US$25 requested)",
+   "url": "https://github.com/BasedHardware/omi/issues/14307",
+   "at": "2026-09-17T05:37:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "971872015",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14307",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14307 [Bounty proposal] Crossref title cleanup leaves inline face markup behind (US$25 requested)",
+   "url": "https://github.com/BasedHardware/omi/issues/14307",
+   "at": "2026-09-17T05:37:30Z",
+   "extra": {
+    "state": "open",
+    "author": "971872015"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56828",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56828 Metal 2.0 post port passes on moreh/moreh_mean",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56828",
+   "at": "2026-09-17T05:30:51Z",
+   "extra": {
+    "author": "mcw-anasuya",
+    "labels": [
+     "moreh",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56827",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56827 concat: block-sharded width concat advances by shard capacity, corrupting ragged width shards",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56827",
+   "at": "2026-09-17T05:30:38Z",
+   "extra": {
+    "author": "VirdhatchaniKN",
+    "labels": [
+     "op_cat: TM"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56826",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56826 [SFPI] SFPCAST clamp",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56826",
+   "at": "2026-09-17T05:25:28Z",
+   "extra": {
+    "author": "rtawfik01",
+    "labels": [
+     "LLK",
+     "llk:quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/18",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: [BOUNTY: $1,500] BOUNTY FOR IMPLEMENTING A DJANGO HELLO WORLD INTO THIS REPO",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/18",
+   "at": "2026-09-17T05:20:39Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 1500,
+    "author": "someCatInTheWorld",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "django"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56825",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56825 [Quasar] Assert on mop len == 0",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56825",
+   "at": "2026-09-17T05:16:46Z",
+   "extra": {
+    "author": "rtawfik01",
+    "labels": [
+     "LLK",
+     "llk:quasar"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56824",
    "source": "tenstorrent",
@@ -11,7 +114,8 @@
    "extra": {
     "author": "VirdhatchaniKN",
     "labels": [
-     "op_cat: TM"
+     "op_cat: TM",
+     "MCW"
     ]
    }
   },
@@ -23,7 +127,7 @@
    "url": "https://github.com/Zimb/zimb/issues/1",
    "at": "2026-09-17T05:07:41Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "Zimb",
     "labels": [
@@ -1329,34 +1433,6 @@
     "author": "ampelc",
     "labels": [
      "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56719",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56719 [aw] Tenstorrent Skills Reviewer hit engine rate limit (HTTP 429)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56719",
-   "at": "2026-09-16T05:31:56Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56718",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56718 [aw] Matt Pocock Skills Reviewer hit engine rate limit (HTTP 429)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56718",
-   "at": "2026-09-16T05:27:43Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
     ]
    }
   },
