@@ -173,15 +173,43 @@ def offer(kind, lk=None):
     if "booking" not in lk:
         # A scheduler exists already; offer the intake in front of it.
         if kind == "dental":
-            return "I put a short intake in front of the booking you already have, insurance and the reason for the visit and a place to ask a question, so a patient can go from question to a booked slot without calling, with automatic reminders and a review request after each visit, in a week, one go, and give the site a clean new design while I am at it."
+            return "I put a short intake in front of the booking you already have, insurance and the reason for the visit and a place to ask a question, so a patient can go from question to a booked slot without calling, with automatic reminders and a review request after each visit, live within a week, one go, and give the site a clean new design while I am at it."
         if kind == "law":
-            return "I put a confidential intake in front of the consult booking you already have, the matter and a conflict check and a place to ask a question, so a client can go from question to a booked consult without calling, in a week, one go, and give the site a design that looks like the firm you are while I am at it."
-        return "I put a short intake in front of the booking you already have that collects the address, the problem and a photo, so an after hours request arrives with the details instead of a call back, and texts your on call tech, in a week, one go, and give the site a clean new design while I am at it."
+            return "I put a confidential intake in front of the consult booking you already have, the matter and a conflict check and a place to ask a question, so a client can go from question to a booked consult without calling, live within a week, one go, and give the site a design that looks like the firm you are while I am at it."
+        return "I put a short intake in front of the booking you already have that collects the address, the problem and a photo, so an after hours request arrives with the details instead of a call back, and texts your on call tech, live within a week, one go, and give the site a clean new design while I am at it."
     if kind == "dental":
-        return "I set up online booking that lands on your schedule, with automatic reminders and a review request after each visit, in a week, one go, and give the site a clean new design while I am at it."
+        return "I build online booking that lands on your schedule, with automatic reminders and a review request after each visit, live within a week, one go, and give the site a clean new design while I am at it."
     if kind == "law":
-        return "I set up consult scheduling with confidential intake and conflict check questions in front of it, in a week, one go, and give the site a design that looks like the firm you are while I am at it."
-    return "I set up an after hours intake that collects the address and the problem, books the request and texts your on call tech, in a week, one go, and give the site a clean new design while I am at it."
+        return "I build consult scheduling with confidential intake and conflict check questions in front of it, live within a week, one go, and give the site a design that looks like the firm you are while I am at it."
+    return "I build an after hours intake that collects the address and the problem, books the request and texts your on call tech, live within a week, one go, and give the site a clean new design while I am at it."
+
+
+def self_check(kind, domain, lk):
+    """The one thing the reader can confirm in five seconds, on their own
+    phone, before deciding anything.
+
+    Ninety sends have produced one reply and it was "stop", and the close
+    asked the owner to believe a stranger would build them a good preview.
+    An attachment would prove more but costs deliverability on the only
+    mailbox that works, and a hosted preview needs a decision that is not
+    made yet. What is left is the leak read back in the owner's own browser:
+    it is verified by the audit, it costs them one tap, and a claim they
+    check themselves stops being a claim.
+    """
+    if "booking" not in lk:
+        # A scheduler already works, so the gap is the question in front of it.
+        return (f"Try it yourself first: open {domain} on your phone and look for a way to ask a "
+                "question before committing to a time. Anyone who will not book without asking "
+                "first has to call during office hours instead, and most of them never do.")
+    # The tail must not restate the opening fact sentence, which already ends
+    # on who wins the after hours visitor. This one names what is lost.
+    what, then = {
+        "dental": ("book an appointment", "that is a new patient lost before the office opens"),
+        "law": ("book a consult", "that is a consult lost before anyone calls back"),
+        "home": ("book a job", "that is the job gone to whoever answered"),
+    }.get(kind, ("book", "that is the job gone to the next company on the list"))
+    return (f"Try it yourself first: open {domain} on your phone and look for a way to {what}. "
+            f"Anyone reading that at night does the same, and {then}.")
 
 
 def subject_for(kind, domain, lk):
@@ -381,8 +409,9 @@ def main(argv):
             skipped["no bookable gap"] = skipped.get("no bookable gap", 0) + 1
             continue
         body = (greeting(email, p["name"]) + "\n\n" + facts[0] + ("; " + "; ".join(facts[1:]) if len(facts) > 1 else "") + ".\n\n"
-                + offer(p["kind"], lk) + " I build a working preview of your own site first, before any decision.\n\n"
-                + 'Worth a look? Reply "yes" and the preview is yours within a week.' + SIGNATURE)
+                + offer(p["kind"], lk) + "\n\n"
+                + self_check(p["kind"], p["domain"], lk) + "\n\n"
+                + "If it is worth closing, reply and I will send the design for your own homepage first, before you decide anything." + SIGNATURE)
         rows.append({
             # The lane names the channel, and this row is a local business, so
             # stamping it agency made every per channel rate impossible to read.

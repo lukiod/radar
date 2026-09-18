@@ -9,7 +9,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import draft_batch  # noqa: E402
 from draft_batch import (address_live, facts_sentence, offer, owner_email,  # noqa: E402
-                         redirected_elsewhere, site_looks_unrelated, subject_for)
+                         redirected_elsewhere, self_check, site_looks_unrelated,
+                         subject_for)
 
 
 class OwnerEmailTests(unittest.TestCase):
@@ -178,6 +179,49 @@ class AddressLiveTests(unittest.TestCase):
         self.assertTrue(address_live("info@example.com"))
         self.assertEqual(len(calls), 1)
 
+
+class SelfCheckTests(unittest.TestCase):
+    """The close asks the owner to believe a stranger. The replacement asks
+    them to look at their own site for five seconds, which is the only proof
+    available while an attachment costs deliverability and a hosted preview
+    needs a decision nobody has made yet. It has to match the leak, because
+    telling a practice that already books that it cannot book is the false
+    claim class this lane already paid for once."""
+
+    def test_a_site_with_no_booking_is_asked_to_look_for_booking(self):
+        for kind in ("dental", "law", "home"):
+            line = self_check(kind, "x.com", ["booking"])
+            self.assertIn("look for a way to book", line, kind)
+            self.assertNotIn("ask a question before committing", line, kind)
+
+    def test_a_site_that_books_is_asked_about_the_question_instead(self):
+        for kind in ("dental", "law", "home"):
+            line = self_check(kind, "x.com", ["form"])
+            self.assertIn("ask a question before committing", line, kind)
+            self.assertNotIn("look for a way to book", line, kind)
+
+    def test_the_leak_sentence_and_the_check_agree(self):
+        """Both read the same leak list, so they can never contradict."""
+        for kind in ("dental", "law", "home"):
+            for lk in (["booking"], ["booking", "form"], ["form"]):
+                said = " ".join(facts_sentence(kind, "x.com", lk))
+                if not said:
+                    continue
+                line = self_check(kind, "x.com", lk)
+                if "cannot book" in said or "cannot pick" in said:
+                    self.assertIn("look for a way to book", line, (kind, lk))
+
+    def test_the_domain_is_named_so_the_check_is_one_tap(self):
+        self.assertIn("x.com", self_check("law", "x.com", ["booking"]))
+
+    def test_every_offer_is_present_tense_for_work_not_yet_done(self):
+        """'I set up X, in a week' claimed finished work and a duration in the
+        same breath. Nothing has been set up when the email is read."""
+        for kind in ("dental", "law", "home"):
+            for lk in (["booking"], ["form"]):
+                text = offer(kind, lk)
+                self.assertNotIn("I set up", text, (kind, lk))
+                self.assertNotIn(", in a week, one go", text, (kind, lk))
 
 
 if __name__ == "__main__":
