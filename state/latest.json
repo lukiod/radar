@@ -1,6 +1,181 @@
 {
- "generated_at": "2026-09-18T18:02:24Z",
+ "generated_at": "2026-09-18T21:05:49Z",
  "events": [
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-18: 0 new, 0 resumed, 7 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/3",
+   "at": "2026-09-18T20:56:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57066",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57066 [Quasar] TRISC3 mailbox incorrect results",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57066",
+   "at": "2026-09-18T20:37:58Z",
+   "extra": {
+    "author": "rtawfik01",
+    "labels": [
+     "llk:quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/40",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OmniBlocks/bountyfarmer: EKEODKDE9DKE9DO BOUNTY",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/40",
+   "at": "2026-09-18T20:36:31Z",
+   "extra": {
+    "comments": 17,
+    "amount_usd": null,
+    "author": "PPPDUD",
+    "labels": [
+     "bounty",
+     "absurd"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Team-Hamsa/LFG/issues/555",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Team-Hamsa/LFG: feat: NFT & trait rewards for bounties \u2014 bounties phase 3",
+   "url": "https://github.com/Team-Hamsa/LFG/issues/555",
+   "at": "2026-09-18T20:01:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "joshuahamsa",
+    "labels": [
+     "roadmap"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Team-Hamsa/LFG/issues/554",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Team-Hamsa/LFG: feat: time-bounded bounties (most shares / most BRIX paid out) \u2014 bounties phase 2",
+   "url": "https://github.com/Team-Hamsa/LFG/issues/554",
+   "at": "2026-09-18T20:01:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "joshuahamsa",
+    "labels": [
+     "roadmap"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1598",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [BOUNTY-PLaza-645] DAXDA Recursive Bounty System - 5 Domain Bounties",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1598",
+   "at": "2026-09-18T19:56:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "osmesirius-ship-it",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14610",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(public-holidays): coerce null optional parameters, normalize year/limit inputs, and add regression tests ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14610",
+   "at": "2026-09-18T19:44:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "onlymrneo",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14610",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14610 [Bounty proposal] fix(public-holidays): coerce null optional parameters, normalize year/limit inputs, and add regression tests ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14610",
+   "at": "2026-09-18T19:44:05Z",
+   "extra": {
+    "state": "open",
+    "author": "onlymrneo"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57055",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57055 Replace Metalium include-path copying with explicit internal interface targets",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57055",
+   "at": "2026-09-18T19:29:17Z",
+   "extra": {
+    "author": "blozano-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ed38ee1531b4273fc2d16b954569066653ae138b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "topk: return the requested k as a logical shape instead of slicing (#56893)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ed38ee1531b4273fc2d16b954569066653ae138b",
+   "at": "2026-09-18T19:19:04Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/reduction/topk/topk.cpp"
+    ],
+    "added": [],
+    "author": "mvlahovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/bed2040e46ad1efa55a0a80574a4d64a825c70f2",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "fix(eltwise): drop the stale input-domain guard from sinh_bw and cosh_bw (6 and 8 fewer ops per call) (#52613)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/bed2040e46ad1efa55a0a80574a4d64a825c70f2",
+   "at": "2026-09-18T19:02:52Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/unary_backward.cpp"
+    ],
+    "added": [],
+    "author": "EazyHood"
+   }
+  },
+  {
+   "id": "https://github.com/Team-Hamsa/LFG/issues/552",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Team-Hamsa/LFG: feat: bounties for app activities (admin-controlled; BRIX/NFT/trait/XRP payouts)",
+   "url": "https://github.com/Team-Hamsa/LFG/issues/552",
+   "at": "2026-09-18T18:34:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "joshuahamsa",
+    "labels": [
+     "roadmap"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57042",
    "source": "tenstorrent",
@@ -10,7 +185,9 @@
    "at": "2026-09-18T17:51:44Z",
    "extra": {
     "author": "bbradelTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -77,7 +254,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/38",
    "at": "2026-09-18T16:53:46Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 9126812,
     "author": "github-actions[bot]",
     "labels": []
@@ -105,7 +282,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/36",
    "at": "2026-09-18T16:22:46Z",
    "extra": {
-    "comments": 6,
+    "comments": 7,
     "amount_usd": null,
     "author": "ampelc",
     "labels": [
@@ -353,7 +530,9 @@
    "at": "2026-09-18T15:23:46Z",
    "extra": {
     "author": "ctr-lelanchelianTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -365,7 +544,9 @@
    "at": "2026-09-18T15:15:46Z",
    "extra": {
     "author": "bmalesevicTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -454,7 +635,9 @@
    "at": "2026-09-18T14:35:36Z",
    "extra": {
     "author": "ddjukicTT",
-    "labels": []
+    "labels": [
+     "feature-request"
+    ]
    }
   },
   {
@@ -867,7 +1050,7 @@
    "url": "https://github.com/khenzarr/arcns/issues/51",
    "at": "2026-09-18T11:30:27Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "Sofiia7",
     "labels": []
@@ -1019,7 +1202,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1593",
    "at": "2026-09-18T09:24:56Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 239398281948585883,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -1592,7 +1775,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1589",
    "at": "2026-09-17T22:05:32Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 3000,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -1618,30 +1801,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56914",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56914 Create ttnn method to load weights to device using sockets.",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56914",
-   "at": "2026-09-17T19:57:15Z",
-   "extra": {
-    "author": "jbaumanTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56913",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56913 Optimize slow dispatch weight upload performance",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56913",
-   "at": "2026-09-17T19:53:41Z",
-   "extra": {
-    "author": "jbaumanTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1659,36 +1818,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56908 [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "at": "2026-09-17T19:27:38Z",
-   "extra": {
-    "author": "jberkowitzTT",
-    "labels": [
-     "bounty",
-     "bounty_difficulty/hard"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56906",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56906 [sfpi] Add a __builtin_rvtt_submit(uint32_t opcode) to submit a Tensix instruction",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56906",
-   "at": "2026-09-17T19:20:34Z",
-   "extra": {
-    "author": "mcraigheadTT",
-    "labels": [
-     "feature",
-     "sfpi"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14384",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1700,35 +1829,6 @@
     "amount_usd": 25,
     "author": "Suyann",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56904",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56904 [sfpi] Support PACK instruction (subset of Zbkb) in BH backend",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56904",
-   "at": "2026-09-17T19:16:49Z",
-   "extra": {
-    "author": "mcraigheadTT",
-    "labels": [
-     "feature",
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56902",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56902 Clean distributed teardown to restart without recover.sh",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56902",
-   "at": "2026-09-17T18:58:02Z",
-   "extra": {
-    "author": "Riddy21",
-    "labels": [
-     "blaze-infra"
-    ]
    }
   },
   {
@@ -2074,150 +2174,6 @@
    }
   },
   {
-   "id": "https://github.com/MergeFi/backend/issues/352",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: Issue.repository CASCADE plus Bounty.issue RESTRICT means a Repository can never be deleted once any of its issues is bountied \u2014 an undocumented side effect of the #53 fix",
-   "url": "https://github.com/MergeFi/backend/issues/352",
-   "at": "2026-09-17T12:18:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug",
-     "documentation"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/347",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: bounties table has no index supporting BountyExpiryScheduler's hourly full-table sweep",
-   "url": "https://github.com/MergeFi/backend/issues/347",
-   "at": "2026-09-17T12:18:17Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug",
-     "performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/345",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: Bounty.sponsorId has no database index despite being the primary filter column for the sponsor dashboard",
-   "url": "https://github.com/MergeFi/backend/issues/345",
-   "at": "2026-09-17T12:18:12Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug",
-     "performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/337",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: A bounty stuck in IN_REVIEW (an abandoned/never-merged PR) can never expire \u2014 expireOverdue excludes it and the state machine has no IN_REVIEW -> EXPIRED transition",
-   "url": "https://github.com/MergeFi/backend/issues/337",
-   "at": "2026-09-17T12:10:50Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug",
-     "architecture"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/23",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9350606 BOUNTY FOR IMPLEMENTING CAT ASSIST INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/23",
-   "at": "2026-09-17T11:29:26Z",
-   "extra": {
-    "comments": 70,
-    "amount_usd": 9350606,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/jealous-sound/azerothcore-wotlk-coa/issues/3836",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "jealous-sound/azerothcore-wotlk-coa: Witch Hunter: \"Collect Bounty\" (Spell ID: 805761) \u2014 Spell Script / Aura Handler Not Implemented",
-   "url": "https://github.com/jealous-sound/azerothcore-wotlk-coa/issues/3836",
-   "at": "2026-09-17T11:01:53Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Corfirean",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/AGWAM001/stream-bounty-flow/issues/12",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AGWAM001/stream-bounty-flow: Implement a structured dispute resolution mechanism for bounties.",
-   "url": "https://github.com/AGWAM001/stream-bounty-flow/issues/12",
-   "at": "2026-09-17T10:48:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "AGWAM001",
-    "labels": [
-     "good first issue"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AGWAM001/stream-bounty-flow/issues/9",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AGWAM001/stream-bounty-flow: Implement GitHub webhook to automatically trigger bounty release on merge.",
-   "url": "https://github.com/AGWAM001/stream-bounty-flow/issues/9",
-   "at": "2026-09-17T10:46:39Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "AGWAM001",
-    "labels": [
-     "good first issue"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AGWAM001/stream-bounty-flow/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AGWAM001/stream-bounty-flow: Build the authenticated dashboard for managing bounties.",
-   "url": "https://github.com/AGWAM001/stream-bounty-flow/issues/6",
-   "at": "2026-09-17T10:44:43Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "AGWAM001",
-    "labels": [
-     "good first issue"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/52037",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2380,22 +2336,6 @@
    "extra": {
     "state": "closed",
     "author": "boai-maker"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/54551",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#54551 [Bounty $1,000] ttnn.prod_bw returns non-finite gradients for zero inputs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/54551",
-   "at": "2026-09-16T18:37:36Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "kanapitsas",
-    "assignees": [
-     "kanapitsas"
-    ],
-    "created": "2026-08-27T09:34:17Z"
    }
   }
  ],
