@@ -146,8 +146,10 @@ class SiteLooksUnrelatedTests(unittest.TestCase):
 
 
 class AddressLiveTests(unittest.TestCase):
-    """6 of the first 50 scraped addresses bounced. Only a hard rejection from
-    the mail server may drop a row: a probe the host refuses says nothing."""
+    """Only a confirmed mailbox may send. 66 of the first 73 sends carried no
+    probe verdict at all and every traceable bounce came from that group, so
+    a probe the host refuses, a timeout and a never probed address are all
+    held back rather than treated as good."""
 
     def setUp(self):
         self.real = draft_batch.rcpt_check
@@ -166,11 +168,19 @@ class AddressLiveTests(unittest.TestCase):
             draft_batch.rcpt_check = lambda a, s=status: (s, "detail")
             self.assertFalse(address_live("info@example.com"), status)
 
-    def test_a_passive_probe_failure_does_not_drop_the_row(self):
+    def test_only_a_confirmed_mailbox_passes(self):
         for status in ("accepted", "probe_blocked", "unreachable", "unknown"):
             draft_batch.EMAIL_CACHE.unlink(missing_ok=True)
             draft_batch.rcpt_check = lambda a, s=status: (s, "detail")
-            self.assertTrue(address_live("info@example.com"), status)
+            self.assertEqual(address_live("info@example.com"), status == "accepted", status)
+
+    def test_an_unprobed_address_is_probed_and_not_waved_through(self):
+        """The row that is not in the cache is the one that bounced."""
+        draft_batch.rcpt_check = lambda a: ("probe_blocked", "spamhaus")
+        self.assertFalse(address_live("info@example.com"))
+
+    def test_an_address_without_an_at_sign_is_never_sent(self):
+        self.assertFalse(address_live("not an address"))
 
     def test_the_verdict_is_cached(self):
         calls = []

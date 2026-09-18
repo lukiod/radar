@@ -313,24 +313,33 @@ def unusable(a, domain):
 
 
 def address_live(address):
-    """False only when the mail server says the mailbox is not there. A probe
-    the host refuses on a Spamhaus listing (probe_blocked) or a timeout says
-    nothing about the address, so those pass; 6 of the first 50 sends to
-    scraped addresses bounced and every one of them was avoidable this way."""
+    """True only when the mail server confirmed the mailbox is there.
+
+    Only a confirmed yes may send. Of the first 73 sends, 66 went out with no
+    probe verdict at all and every bounce that could be traced came from that
+    group, on hosts that answered the probe properly, so the bar was never the
+    problem: the gate had simply not run. A probe the host refuses on a
+    Spamhaus listing, or a timeout, is a fact about this connection and not
+    about the mailbox, so it is not a rejection either. It is an unknown, and
+    an unknown is not a yes.
+    """
+    if "@" not in address:
+        return False
     try:
         cache = json.loads(EMAIL_CACHE.read_text())
     except Exception:
         cache = {}
-    if address in cache:
-        return cache[address] != "dead"
-    status, _ = rcpt_check(address)
-    cache[address] = "dead" if status in ("rejected", "no_mx") else status
-    try:
-        EMAIL_CACHE.parent.mkdir(parents=True, exist_ok=True)
-        EMAIL_CACHE.write_text(json.dumps(cache, sort_keys=True))
-    except Exception:
-        pass
-    return cache[address] != "dead"
+    if address not in cache:
+        status, _ = rcpt_check(address)
+        cache[address] = "dead" if status in ("rejected", "no_mx") else status
+        try:
+            EMAIL_CACHE.parent.mkdir(parents=True, exist_ok=True)
+            tmp = EMAIL_CACHE.with_name(EMAIL_CACHE.name + ".tmp")
+            tmp.write_text(json.dumps(cache, sort_keys=True))
+            tmp.replace(EMAIL_CACHE)
+        except Exception:
+            pass
+    return cache[address] == "accepted"
 
 
 def main(argv):
