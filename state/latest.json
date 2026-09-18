@@ -1,6 +1,108 @@
 {
- "generated_at": "2026-09-18T21:05:49Z",
+ "generated_at": "2026-09-18T23:27:33Z",
  "events": [
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/41",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9377243 BOUNTY FOR IMPLEMENTING A FOREVER IF BLOCK INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/41",
+   "at": "2026-09-18T23:15:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9377243,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1604",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: DAXDA Bounty Matrix",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1604",
+   "at": "2026-09-18T22:52:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "osmesirius-ship-it",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1603",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: # [BOUNTY] [$25000] [AGENTIC] [AI] DAXDA Recursive Bounty Architect \u2013 Five-Fold Esoteric Expansion Protocol  ## Overview",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1603",
+   "at": "2026-09-18T22:46:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25000,
+    "author": "osmesirius-ship-it",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1602",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] EKEODKDE9DKE9DO BOUNTY",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1602",
+   "at": "2026-09-18T21:56:35Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1601",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [BOUNTY-SUBMISSION] DAXDA Recursive Bounty System - 5 Domain Bounties for Bounty Plaza #645",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1601",
+   "at": "2026-09-18T21:51:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "osmesirius-ship-it",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/german-national-wallet/issues-tracker-android/issues/29",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "german-national-wallet/issues-tracker-android: Cannot join the de-eudi-bug-bounty Google Group \u2014 Play testing enrollment blocked",
+   "url": "https://github.com/german-national-wallet/issues-tracker-android/issues/29",
+   "at": "2026-09-18T21:41:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "4bidden-knowledge",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ee1b3c471ea0aa9a06eb735abdd6e530522be282",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Performance] Optimise Wormhole integer remainder mantissa extraction (#57051)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ee1b3c471ea0aa9a06eb735abdd6e530522be282",
+   "at": "2026-09-18T21:39:36Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_remainder.h"
+    ],
+    "added": [],
+    "author": "jasondavies"
+   }
+  },
   {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/3",
    "source": "github_search",
@@ -37,7 +139,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/40",
    "at": "2026-09-18T20:36:31Z",
    "extra": {
-    "comments": 17,
+    "comments": 15,
     "amount_usd": null,
     "author": "PPPDUD",
     "labels": [
@@ -1753,21 +1855,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56921",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56921 [Quasar] Trisc2 Dprint code size",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56921",
-   "at": "2026-09-17T22:18:06Z",
-   "extra": {
-    "author": "rtawfik01",
-    "labels": [
-     "Quasar",
-     "llk:quasar"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1589",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1781,22 +1868,6 @@
     "labels": [
      "bounty",
      "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56919",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56919 Rename SFPI SrcS accessors to describe register views instead of pipeline stages",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56919",
-   "at": "2026-09-17T21:18:37Z",
-   "extra": {
-    "author": "vkrsmanovicTT",
-    "labels": [
-     "feature",
-     "sfpi",
-     "Quasar"
     ]
    }
   },
@@ -2024,152 +2095,6 @@
     "author": "abayomicornelius",
     "labels": [
      "performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/386",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: [Partial regression on closed #103] A genuinely-new (non-retry) POST /bounties for an already-bountied issueId still hits a raw unique-constraint 500, not a clean 4xx",
-   "url": "https://github.com/MergeFi/backend/issues/386",
-   "at": "2026-09-17T13:20:17Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/385",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: handlePullRequestOpened moves a bounty to IN_REVIEW based purely on issue linkage, with no check that the PR author is actually the contributor who claimed it",
-   "url": "https://github.com/MergeFi/backend/issues/385",
-   "at": "2026-09-17T13:18:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug",
-     "security"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/soroquest-hq/soroquest-app/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "soroquest-hq/soroquest-app: Add a search bar to filter bounties by title",
-   "url": "https://github.com/soroquest-hq/soroquest-app/issues/5",
-   "at": "2026-09-17T12:29:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ayomustap",
-    "labels": [
-     "complexity: high"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/soroquest-hq/soroquest-app/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "soroquest-hq/soroquest-app: Add social sharing buttons for bounties",
-   "url": "https://github.com/soroquest-hq/soroquest-app/issues/3",
-   "at": "2026-09-17T12:29:30Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ayomustap",
-    "labels": [
-     "complexity: trivial"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/soroquest-hq/soroquest-app/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "soroquest-hq/soroquest-app: Add Markdown support for bounty descriptions",
-   "url": "https://github.com/soroquest-hq/soroquest-app/issues/1",
-   "at": "2026-09-17T12:29:25Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ayomustap",
-    "labels": [
-     "complexity: medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/soroquest-hq/soroquest-contracts/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "soroquest-hq/soroquest-contracts: Allow updating bounty descriptions on-chain",
-   "url": "https://github.com/soroquest-hq/soroquest-contracts/issues/4",
-   "at": "2026-09-17T12:29:08Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ayomustap",
-    "labels": [
-     "complexity: trivial"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/soroquest-hq/soroquest-contracts/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "soroquest-hq/soroquest-contracts: Implement multi-token support for bounties",
-   "url": "https://github.com/soroquest-hq/soroquest-contracts/issues/2",
-   "at": "2026-09-17T12:29:03Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "ayomustap",
-    "labels": [
-     "complexity: medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/367",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: [Regression on closed #102] markMergedAndRelease still marks a team bounty PAID with zero splits configured, skipping the payout entirely \u2014 closed by a partially-unrelated PR",
-   "url": "https://github.com/MergeFi/backend/issues/367",
-   "at": "2026-09-17T12:23:00Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug",
-     "architecture"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/361",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: Five money-moving controllers (escrow, bounties, milestones, teams, maintenance-pool) have zero @ApiOperation/@ApiBearerAuth documentation, while sibling read-focused controllers are properly documented",
-   "url": "https://github.com/MergeFi/backend/issues/361",
-   "at": "2026-09-17T12:20:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "documentation"
     ]
    }
   },
