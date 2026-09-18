@@ -214,13 +214,16 @@ def subject_for(kind, domain, lk):
     """A subject line is a claim too."""
     if "booking" not in lk:
         return SUBJECT_ASK[kind].format(domain=domain)
+    # The domain leads and the verb agrees with its subject. The earlier
+    # wording ("the appointments example.com is not booking") put a plural
+    # subject with a singular verb, which is the first thing the owner reads.
     if kind == "dental":
-        return f"the appointments {domain} is not booking at night"
+        return f"{domain} is not booking night appointments"
     if kind == "law":
-        return f"the consults {domain} is not getting at 10pm"
+        return f"{domain} is not getting the 10pm consults"
     if "form" in lk:
         return f"{domain} after the phone goes to voicemail"
-    return f"the jobs {domain} cannot book after hours"
+    return f"{domain} cannot book the after hours jobs"
 
 
 def greeting(email, name):

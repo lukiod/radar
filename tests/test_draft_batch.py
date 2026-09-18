@@ -77,8 +77,8 @@ class FactsSentenceTests(unittest.TestCase):
     def test_booking_present_form_missing_subject_does_not_claim_no_booking(self):
         for kind in ("dental", "law", "home"):
             subj = subject_for(kind, "example.com", ["form"]).lower()
-            self.assertNotIn("not booking at night", subj, kind)
-            self.assertNotIn("not getting at 10pm", subj, kind)
+            self.assertNotIn("night appointments", subj, kind)
+            self.assertNotIn("10pm consults", subj, kind)
             self.assertNotIn("cannot book", subj, kind)
 
     def test_booking_present_form_missing_offer_does_not_sell_booking(self):
@@ -92,7 +92,7 @@ class FactsSentenceTests(unittest.TestCase):
         # The branch that was already right must not regress.
         sent = " ".join(facts_sentence("dental", "example.com", ["booking", "form"])).lower()
         self.assertIn("cannot book an appointment", sent)
-        self.assertIn("not booking at night", subject_for("dental", "example.com", ["booking", "form"]).lower())
+        self.assertIn("not booking night appointments", subject_for("dental", "example.com", ["booking", "form"]).lower())
 
     def test_no_gap_returns_nothing_to_say(self):
         # Neither missing: no honest opening sentence, so drop the row.
