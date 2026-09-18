@@ -40,6 +40,24 @@ class SelectTests(unittest.TestCase):
         rows = [row(f"d{i}.com", "denver", verified=True) for i in range(3)]
         self.assertEqual(len(select(rows, 40)), 3)
 
+    def test_a_suppressed_address_is_never_selected(self):
+        rows = [row("a.com", "denver", verified=True), row("b.com", "denver", verified=True)]
+        picked = select(rows, 10, frozenset({"info@a.com"}))
+        self.assertEqual([r["domain"] for r in picked], ["b.com"])
+
+    def test_a_suppressed_domain_covers_its_addresses(self):
+        rows = [row("a.com", "denver", verified=True)]
+        self.assertEqual(select(rows, 10, frozenset({"a.com"})), [])
+
+    def test_a_mailbox_that_is_gone_is_never_selected(self):
+        rows = [row("a.com", "denver", verified=True), row("b.com", "denver", verified=True)]
+        picked = select(rows, 10, frozenset(), lambda a: a != "info@a.com")
+        self.assertEqual([r["domain"] for r in picked], ["b.com"])
+
+    def test_without_a_checker_nothing_is_probed(self):
+        rows = [row("a.com", "denver", verified=True)]
+        self.assertEqual(len(select(rows, 10)), 1)
+
     def test_selection_is_stable(self):
         rows = [row(f"d{i}.com", "denver", verified=True) for i in range(5)]
         rows += [row(f"p{i}.com", "phoenix", verified=True) for i in range(5)]
