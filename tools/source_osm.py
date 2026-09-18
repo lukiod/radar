@@ -1,6 +1,6 @@
 """Pull local businesses with a website from OpenStreetMap, one metro at a time.
 
-    python3 tools/source_osm.py denver [kansas-city ...] [--kinds dental,law,home] [--out state/prospects.jsonl]
+    python3 tools/source_osm.py denver [kansas-city ...] [--kinds dental,law,home] [--out prospects.jsonl]
 
 Overpass is free and needs no key, so this is the bulk source for the
 agency outreach: name, website, phone, city and (rarely) an email per
@@ -19,7 +19,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-STATE = Path(__file__).resolve().parents[1] / "state" / "prospects.jsonl"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from state_paths import PROSPECTS as STATE  # noqa: E402
 ENDPOINTS = ("https://overpass.kumi.systems/api/interpreter", "https://overpass-api.de/api/interpreter")
 UA = "radar-audit/0.1 (site audits for small business outreach)"
 OVERPASS_TIMEOUT_SECONDS = 45

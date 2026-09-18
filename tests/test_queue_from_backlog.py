@@ -125,7 +125,7 @@ class ClaimedIdentifiersTests(unittest.TestCase):
         self.assertEqual(claimed_identifiers(), {"joel@firm.com", "firm.com"})
 
     def test_a_pool_row_with_no_address_does_not_speak_for_the_firm(self):
-        """state/prospects.jsonl carries domains and no addresses. Reading it
+        """The prospect pool carries domains and no addresses. Reading it
         as a send record claimed every sourced firm and left nothing to draw."""
         self.write("prospects.jsonl", [{"domain": "firm.com", "metro": "denver"}])
         self.write("audits.jsonl", [{"domain": "other.com", "score": 8}])

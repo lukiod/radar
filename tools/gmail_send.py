@@ -1,6 +1,6 @@
 """Send a queue of plain text emails through the Gmail API, stdlib only.
 
-    python3 tools/gmail_send.py --queue state/queue-2026-09-16.jsonl [--pace 120] [--limit 20] [--dry-run]
+    python3 tools/gmail_send.py --queue <queue.jsonl> [--pace 120] [--limit 20] [--dry-run]
     python3 tools/gmail_send.py --one to@example.com "Subject" body.txt [--attach file.png]
 
 The queue is JSON lines; each row has "to", "subject", "body" and
@@ -30,6 +30,10 @@ import urllib.request
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from email.utils import formataddr
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from state_paths import MX_CACHE as MX_CACHE_PATH  # noqa: E402
 
 TOKEN_DIR = os.path.expanduser("~/.gmail-mcp")
 SUPPRESSION = os.path.join(os.path.dirname(__file__), "..", "..", "internal-docs", "comms", "suppression.txt")
@@ -99,7 +103,8 @@ def build(sender, row):
     return base64.urlsafe_b64encode(msg.as_bytes()).decode()
 
 
-MX_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "state", "mx-cache.json")
+# The rest of this file opens the cache by name, so it stays a plain string here.
+MX_CACHE = str(MX_CACHE_PATH)
 
 
 def _doh(name, rtype):

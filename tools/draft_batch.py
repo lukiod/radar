@@ -1,9 +1,9 @@
 """Turn audited prospects into a send queue, one verified email per business.
 
-    python3 tools/draft_batch.py --out state/queue-2026-09-16.jsonl [--limit 30] [--kinds dental,law,home] [--metros denver]
+    python3 tools/draft_batch.py --out <queue.jsonl> [--limit 30] [--kinds dental,law,home] [--metros denver]
 
-Reads state/prospects.jsonl (from tools/source_osm.py) and the latest
-audit per domain from state/audits.jsonl (tools/audit_batch.py). A row
+Reads the prospect pool (from tools/source_osm.py) and the latest audit per
+domain (tools/audit_batch.py), both under RADAR_STATE. A row
 is drafted only when the site answered the scanner, an address on the
 site's own domain was found, and the audit shows a leak the segment
 template can name. Every sentence about the prospect's site comes from
@@ -22,14 +22,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from site_audit import audit, mail_route  # noqa: E402
+from state_paths import AUDITS, EMAIL_CACHE, PROSPECTS, STATE_DIR  # noqa: E402
 from verify_email import rcpt_check  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-PROSPECTS = ROOT / "state" / "prospects.jsonl"
-AUDITS = ROOT / "state" / "audits.jsonl"
-EMAIL_CACHE = ROOT / "state" / "email-check.json"
 SUPPRESSION = ROOT.parent / "internal-docs" / "comms" / "suppression.txt"
-QUEUES = [ROOT / "state", ROOT.parent / "internal-docs" / "comms" / "queues"]
+QUEUES = [STATE_DIR, ROOT.parent / "internal-docs" / "comms" / "queues"]
 
 SIGNATURE = '\n\nMohak Gupta\nCode Conclave\n\nReply "stop" and I will not write again.\n'
 GENERIC_LOCAL = ("info", "office", "contact", "hello", "admin", "frontdesk", "reception", "appointments", "billing", "mail", "team", "support",

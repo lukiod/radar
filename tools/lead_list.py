@@ -1,4 +1,4 @@
-"""Turn state/audits.jsonl into a lead list CSV, one row per domain, latest audit.
+"""Turn the audit file into a lead list CSV, one row per domain, latest audit.
 
 Usage: python3 tools/lead_list.py [--min-score N] [--out FILE]
                                   [--metro NAME] [--kind dental] [--limit N]
@@ -18,9 +18,8 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-STATE = ROOT / "state" / "audits.jsonl"
-PROSPECTS = ROOT / "state" / "prospects.jsonl"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from state_paths import AUDITS as STATE, PROSPECTS  # noqa: E402
 
 LEAK_COLUMNS = [
     ("no_booking", "booking", "no online booking or scheduling on the homepage or the contact page"),

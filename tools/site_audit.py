@@ -28,7 +28,8 @@ from pathlib import Path
 # rows without one. Resolved over DNS over HTTPS because the host has no local
 # resolver and no dnspython.
 
-MX_CACHE = Path(__file__).resolve().parents[1] / "state" / "mx-cache.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from state_paths import MX_CACHE  # noqa: E402
 
 
 def _doh(name, rtype):

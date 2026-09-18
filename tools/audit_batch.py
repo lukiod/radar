@@ -3,7 +3,8 @@
 Usage: python3 tools/audit_batch.py <domain> [<domain> ...]
        python3 tools/audit_batch.py --file domains.txt
 
-Appends to state/audits.jsonl (one record per domain per day, re running a
+Appends to the audit file under RADAR_STATE (one record per domain per day,
+re running a
 domain the same day replaces its line). The file is the raw material for
 lead lists and for the "what changed on their site" follow up.
 """
@@ -17,7 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from site_audit import audit  # noqa: E402
 
-STATE = Path(__file__).resolve().parents[1] / "state" / "audits.jsonl"
+from state_paths import AUDITS as STATE  # noqa: E402
 
 
 def load():

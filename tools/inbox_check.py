@@ -24,8 +24,9 @@ from email.utils import parsedate_to_datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gmail_send import access_token, profile_address  # noqa: E402
+from state_paths import INBOX_SEEN  # noqa: E402
 
-STATE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "state", "inbox-seen.json")
+STATE = str(INBOX_SEEN)
 SUPPRESSION = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",
                            "internal-docs", "comms", "suppression.txt")
 BOUNCE_FROM = ("mailer-daemon", "postmaster")
