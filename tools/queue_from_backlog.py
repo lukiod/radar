@@ -8,10 +8,11 @@ are eligible, so a claim that stopped being true cannot re-enter a queue.
 Selection is stable: the same backlog and limit give the same queue, which
 is what makes a bounced day reproducible.
 
-A row is also dropped if its address is suppressed or its mailbox is gone.
-The backlog holds rows drafted before the probe existed, so this is the last
-point that can catch a dead address before it becomes a bounce. Within a
-metro the rows addressed to a person are drawn before the shared inboxes.
+A row is also dropped if its address is suppressed, its mailbox is gone, or
+the firm has already been written to. The backlog holds rows drafted before
+the probe existed, so this is the last point that can catch a dead address
+before it becomes a bounce. Within a metro the rows addressed to a person
+are drawn before the shared inboxes.
 """
 
 import argparse
@@ -22,12 +23,34 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from draft_batch import GENERIC_LOCAL, address_live  # noqa: E402
+from draft_batch import GENERIC_LOCAL, QUEUES, address_live, load_jsonl  # noqa: E402
 from gmail_send import SUPPRESSION, load_suppression, suppressed  # noqa: E402
 
 
 def load(path):
     return [json.loads(l) for l in Path(path).read_text().splitlines() if l.strip()]
+
+
+def sent_identifiers():
+    """Every address and domain that has already been mailed.
+
+    A sent row carries a message_id and an unsent one does not, and a backlog
+    row is a copy taken before the send, so the backlog cannot answer this on
+    its own. run_queue does not consult history either. Until now the only
+    thing keeping a second cold email off a firm was a folding step done by
+    hand, which is not a guarantee, and the volume is going up.
+    """
+    out = set()
+    for folder in QUEUES:
+        for f in folder.glob("*.jsonl"):
+            for r in load_jsonl(f):
+                if not r.get("message_id"):
+                    continue
+                if r.get("to"):
+                    out.add(r["to"].lower())
+                if r.get("domain"):
+                    out.add(r["domain"].lower())
+    return out
 
 
 def is_named(row):
@@ -75,7 +98,9 @@ def main(argv):
     ap.add_argument("--limit", type=int, default=40)
     args = ap.parse_args(argv)
 
-    table = load_suppression(os.path.abspath(SUPPRESSION))
+    # A sent firm is added to the same table the suppression check reads, so a
+    # second cold email needs the address and the domain to have both missed.
+    table = load_suppression(os.path.abspath(SUPPRESSION)) | sent_identifiers()
     picked = select(load(args.backlog), args.limit, table, address_live)
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -2,12 +2,15 @@
 
 Run: PYTHONPATH=. python3 tests/test_queue_from_backlog.py
 """
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from queue_from_backlog import is_named, select  # noqa: E402
+import queue_from_backlog  # noqa: E402
+from queue_from_backlog import is_named, select, sent_identifiers  # noqa: E402
 
 
 def row(domain, metro, **kw):
@@ -85,11 +88,43 @@ class SelectTests(unittest.TestCase):
         self.assertEqual([r["domain"] for r in select(rows, 4)],
                          ["d0.com", "d1.com", "d2.com", "d3.com"])
 
+    def test_a_firm_already_written_to_is_not_drawn_again(self):
+        """The guard is the table, so it covers the address and the domain."""
+        rows = [row("a.com", "denver", verified=True), row("b.com", "denver", verified=True)]
+        self.assertEqual([r["domain"] for r in select(rows, 10, frozenset({"a.com"}))], ["b.com"])
+        self.assertEqual([r["domain"] for r in select(rows, 10, frozenset({"info@a.com"}))], ["b.com"])
+
     def test_selection_is_stable(self):
         rows = [row(f"d{i}.com", "denver", verified=True) for i in range(5)]
         rows += [row(f"p{i}.com", "phoenix", verified=True) for i in range(5)]
         self.assertEqual([r["domain"] for r in select(rows, 6)],
                          [r["domain"] for r in select(rows, 6)])
+
+
+class SentIdentifiersTests(unittest.TestCase):
+    """Only a row that was actually mailed counts. An unsent row sitting in a
+    queue, and every row of the backlog, must not put a firm on the list, or
+    the first draw would empty itself."""
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        queue_from_backlog.QUEUES = [self.tmp]
+
+    def write(self, name, rows):
+        (self.tmp / name).write_text("".join(json.dumps(r) + "\n" for r in rows))
+
+    def test_a_sent_row_gives_up_its_address_and_domain(self):
+        self.write("a.jsonl", [{"to": "Joel@Firm.com", "domain": "firm.com", "message_id": "m1"}])
+        self.assertEqual(sent_identifiers(), {"joel@firm.com", "firm.com"})
+
+    def test_an_unsent_row_is_not_on_the_list(self):
+        self.write("a.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
+        self.assertEqual(sent_identifiers(), set())
+
+    def test_a_backlog_is_not_on_the_list(self):
+        self.write("2026-09-19-backlog.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
+        self.write("a.jsonl", [{"to": "ann@other.com", "domain": "other.com", "message_id": "m2"}])
+        self.assertEqual(sent_identifiers(), {"ann@other.com", "other.com"})
 
 
 if __name__ == "__main__":
