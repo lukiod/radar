@@ -31,21 +31,30 @@ def load(path):
     return [json.loads(l) for l in Path(path).read_text().splitlines() if l.strip()]
 
 
-def sent_identifiers():
-    """Every address and domain that has already been mailed.
+def claimed_identifiers(except_path=None):
+    """Every address and domain that is spoken for: mailed already, or sitting
+    unsent in another day's queue.
 
-    A sent row carries a message_id and an unsent one does not, and a backlog
-    row is a copy taken before the send, so the backlog cannot answer this on
-    its own. run_queue does not consult history either. Until now the only
-    thing keeping a second cold email off a firm was a folding step done by
-    hand, which is not a guarantee, and the volume is going up.
+    Both halves are needed. A mailed row carries a message_id, an unsent one
+    does not, and a backlog row is a copy taken before the send, so the
+    backlog cannot answer this on its own and run_queue does not consult
+    history either. Checking only the mailed rows is not enough: a firm
+    pending in one day's queue and drawn again into the next gets two cold
+    emails, which is the failure this exists to stop, and it happened, five
+    firms shared between the 09 18 and 09 19 queues.
+
+    Backlogs are skipped because they are the pool being drawn from, and the
+    file being built is skipped so a rebuild returns the same rows twice.
     """
     out = set()
+    except_path = Path(except_path).resolve() if except_path else None
     for folder in QUEUES:
         for f in folder.glob("*.jsonl"):
+            if f.name.endswith("-backlog.jsonl"):
+                continue
+            if except_path and f.resolve() == except_path:
+                continue
             for r in load_jsonl(f):
-                if not r.get("message_id"):
-                    continue
                 if r.get("to"):
                     out.add(r["to"].lower())
                 if r.get("domain"):
@@ -98,9 +107,9 @@ def main(argv):
     ap.add_argument("--limit", type=int, default=40)
     args = ap.parse_args(argv)
 
-    # A sent firm is added to the same table the suppression check reads, so a
+    # A spoken for firm joins the table the suppression check reads, so a
     # second cold email needs the address and the domain to have both missed.
-    table = load_suppression(os.path.abspath(SUPPRESSION)) | sent_identifiers()
+    table = load_suppression(os.path.abspath(SUPPRESSION)) | claimed_identifiers(args.out)
     picked = select(load(args.backlog), args.limit, table, address_live)
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)

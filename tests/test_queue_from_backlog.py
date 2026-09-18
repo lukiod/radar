@@ -10,7 +10,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import queue_from_backlog  # noqa: E402
-from queue_from_backlog import is_named, select, sent_identifiers  # noqa: E402
+from queue_from_backlog import claimed_identifiers, is_named, select  # noqa: E402
 
 
 def row(domain, metro, **kw):
@@ -101,10 +101,11 @@ class SelectTests(unittest.TestCase):
                          [r["domain"] for r in select(rows, 6)])
 
 
-class SentIdentifiersTests(unittest.TestCase):
-    """Only a row that was actually mailed counts. An unsent row sitting in a
-    queue, and every row of the backlog, must not put a firm on the list, or
-    the first draw would empty itself."""
+class ClaimedIdentifiersTests(unittest.TestCase):
+    """A firm is spoken for once it is mailed, and also once it is sitting
+    unsent in another day's queue. Five firms were shared between the 09 18
+    and 09 19 queues, and a firm drawn into both gets two cold emails. The
+    backlog must not count, or the first draw empties itself."""
 
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())
@@ -115,16 +116,24 @@ class SentIdentifiersTests(unittest.TestCase):
 
     def test_a_sent_row_gives_up_its_address_and_domain(self):
         self.write("a.jsonl", [{"to": "Joel@Firm.com", "domain": "firm.com", "message_id": "m1"}])
-        self.assertEqual(sent_identifiers(), {"joel@firm.com", "firm.com"})
+        self.assertEqual(claimed_identifiers(), {"joel@firm.com", "firm.com"})
 
-    def test_an_unsent_row_is_not_on_the_list(self):
+    def test_a_row_pending_in_another_queue_is_spoken_for(self):
         self.write("a.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
-        self.assertEqual(sent_identifiers(), set())
+        self.assertEqual(claimed_identifiers(), {"joel@firm.com", "firm.com"})
 
-    def test_a_backlog_is_not_on_the_list(self):
+    def test_a_backlog_is_the_pool_and_is_not_spoken_for(self):
         self.write("2026-09-19-backlog.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
-        self.write("a.jsonl", [{"to": "ann@other.com", "domain": "other.com", "message_id": "m2"}])
-        self.assertEqual(sent_identifiers(), {"ann@other.com", "other.com"})
+        self.assertEqual(claimed_identifiers(), set())
+
+    def test_the_file_being_built_does_not_claim_its_own_rows(self):
+        self.write("2026-09-19.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
+        self.assertEqual(claimed_identifiers(self.tmp / "2026-09-19.jsonl"), set())
+
+    def test_a_rebuild_returns_the_same_rows_twice(self):
+        self.write("2026-09-19.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
+        self.assertEqual(claimed_identifiers(self.tmp / "2026-09-19.jsonl"),
+                         claimed_identifiers(self.tmp / "2026-09-19.jsonl"))
 
 
 if __name__ == "__main__":
