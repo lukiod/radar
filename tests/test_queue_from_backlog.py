@@ -10,7 +10,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import queue_from_backlog  # noqa: E402
+import refill_queue  # noqa: E402
 from queue_from_backlog import claimed_identifiers, is_named, select  # noqa: E402
+from refill_queue import refill, settled  # noqa: E402
 
 
 def row(domain, metro, **kw):
@@ -122,6 +124,13 @@ class ClaimedIdentifiersTests(unittest.TestCase):
         self.write("a.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
         self.assertEqual(claimed_identifiers(), {"joel@firm.com", "firm.com"})
 
+    def test_a_pool_row_with_no_address_does_not_speak_for_the_firm(self):
+        """state/prospects.jsonl carries domains and no addresses. Reading it
+        as a send record claimed every sourced firm and left nothing to draw."""
+        self.write("prospects.jsonl", [{"domain": "firm.com", "metro": "denver"}])
+        self.write("audits.jsonl", [{"domain": "other.com", "score": 8}])
+        self.assertEqual(claimed_identifiers(), set())
+
     def test_a_backlog_is_the_pool_and_is_not_spoken_for(self):
         self.write("2026-09-19-backlog.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
         self.assertEqual(claimed_identifiers(), set())
@@ -134,6 +143,56 @@ class ClaimedIdentifiersTests(unittest.TestCase):
         self.write("2026-09-19.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
         self.assertEqual(claimed_identifiers(self.tmp / "2026-09-19.jsonl"),
                          claimed_identifiers(self.tmp / "2026-09-19.jsonl"))
+
+
+class RefillTests(unittest.TestCase):
+    """A queue built before the address gate existed holds rows the gate would
+    now hold back. Refilling keeps every row that is already decided, drops
+    the unsent ones with no confirmed mailbox, and fills the room from the
+    backlog without ever touching a row that has a message id."""
+
+    def test_a_mailed_row_is_kept_and_nothing_is_drawn_in_its_place(self):
+        rows = [{"to": "a@x.com", "domain": "x.com", "message_id": "m1"}]
+        kept, dropped, drawn = refill(rows, [], 40, frozenset(), lambda a: True)
+        self.assertEqual([r["to"] for r in kept], ["a@x.com"])
+        self.assertEqual((dropped, drawn), ([], []))
+
+    def test_an_unsent_row_with_no_confirmed_mailbox_is_dropped(self):
+        rows = [{"to": "a@x.com", "domain": "x.com"}]
+        kept, dropped, _ = refill(rows, [], 40, frozenset(), lambda a: False)
+        self.assertEqual(kept, [])
+        self.assertEqual([r["to"] for r in dropped], ["a@x.com"])
+
+    def test_an_unsent_row_that_still_passes_is_kept(self):
+        rows = [{"to": "a@x.com", "domain": "x.com"}]
+        kept, dropped, _ = refill(rows, [], 40, frozenset(), lambda a: True)
+        self.assertEqual([r["to"] for r in kept], ["a@x.com"])
+        self.assertEqual(dropped, [])
+
+    def test_a_suppressed_or_rejected_row_is_settled(self):
+        rows = [{"to": "a@x.com", "suppressed": "stop"}, {"to": "b@x.com", "rejected": "unverified"}]
+        self.assertTrue(all(settled(r) for r in rows))
+        kept, dropped, _ = refill(rows, [], 40, frozenset(), lambda a: False)
+        self.assertEqual(len(kept), 2)
+        self.assertEqual(dropped, [])
+
+    def test_the_room_left_is_drawn_from_the_backlog(self):
+        rows = [{"to": "a@x.com", "domain": "x.com", "message_id": "m1"}]
+        backlog = [row("b.com", "denver", verified=True)]
+        _, _, drawn = refill(rows, backlog, 40, frozenset(), lambda a: True)
+        self.assertEqual([r["domain"] for r in drawn], ["b.com"])
+
+    def test_the_limit_is_not_exceeded(self):
+        rows = [{"to": f"a{i}@x.com", "domain": f"x{i}.com", "message_id": "m"} for i in range(3)]
+        backlog = [row(f"b{i}.com", "denver", verified=True) for i in range(5)]
+        kept, _, drawn = refill(rows, backlog, 4, frozenset(), lambda a: True)
+        self.assertEqual(len(kept) + len(drawn), 4)
+
+    def test_a_drawn_row_never_repeats_a_row_already_in_the_queue(self):
+        rows = [{"to": "a@x.com", "domain": "x.com", "message_id": "m1"}]
+        backlog = [row("x.com", "denver", verified=True), row("b.com", "denver", verified=True)]
+        _, _, drawn = refill(rows, backlog, 40, frozenset({"x.com"}), lambda a: True)
+        self.assertEqual([r["domain"] for r in drawn], ["b.com"])
 
 
 if __name__ == "__main__":

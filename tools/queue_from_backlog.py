@@ -55,8 +55,13 @@ def claimed_identifiers(except_path=None):
             if except_path and f.resolve() == except_path:
                 continue
             for r in load_jsonl(f):
-                if r.get("to"):
-                    out.add(r["to"].lower())
+                # Only a row that names an address is a send record. The pool
+                # and audit files under state/ carry a domain and no address,
+                # and claiming their domains marked every sourced firm as
+                # already written to, which starved the queue to nothing.
+                if not r.get("to"):
+                    continue
+                out.add(r["to"].lower())
                 if r.get("domain"):
                     out.add(r["domain"].lower())
     return out
