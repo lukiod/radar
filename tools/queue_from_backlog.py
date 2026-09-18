@@ -10,7 +10,8 @@ is what makes a bounced day reproducible.
 
 A row is also dropped if its address is suppressed or its mailbox is gone.
 The backlog holds rows drafted before the probe existed, so this is the last
-point that can catch a dead address before it becomes a bounce.
+point that can catch a dead address before it becomes a bounce. Within a
+metro the rows addressed to a person are drawn before the shared inboxes.
 """
 
 import argparse
@@ -21,12 +22,26 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from draft_batch import address_live  # noqa: E402
+from draft_batch import GENERIC_LOCAL, address_live  # noqa: E402
 from gmail_send import SUPPRESSION, load_suppression, suppressed  # noqa: E402
 
 
 def load(path):
     return [json.loads(l) for l in Path(path).read_text().splitlines() if l.strip()]
+
+
+def is_named(row):
+    """Whether the address is something other than a known role mailbox.
+
+    This is a heuristic, not a promise: a city or department name passes it
+    and is still a shared box. It only has to be good enough to sort by. A
+    mailbox like info@ is often nobody's job to read, three quarters of the
+    backlog is role addressed, and the only reply so far came from an
+    address that is not, so the others are drawn first and kept for later
+    rather than dropped.
+    """
+    local = (row.get("to") or "").split("@")[0].lower()
+    return bool(local) and local not in GENERIC_LOCAL and not any(h.isdigit() for h in local)
 
 
 def select(rows, limit, table=frozenset(), address_ok=None):
@@ -40,7 +55,9 @@ def select(rows, limit, table=frozenset(), address_ok=None):
         if address_ok and not address_ok(to):
             continue
         by_metro[r.get("metro") or "unknown"].append(r)
-    groups = [by_metro[k] for k in sorted(by_metro)]
+    # Stable, so rows of the same kind keep their order and the same backlog
+    # and limit still give the same queue.
+    groups = [sorted(by_metro[k], key=lambda r: not is_named(r)) for k in sorted(by_metro)]
     picked = []
     i = 0
     while len(picked) < limit and any(groups):
