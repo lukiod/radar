@@ -1580,6 +1580,295 @@
    "state": "submitted",
    "title": "Rooter Pro Plumbing: rooterproplumbingga.com after the phone goes to voicemail",
    "url": "https://rooterproplumbingga.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0086",
+   "lane": "agency",
+   "note": "sent 2026-09-17T19:56:03Z msg 1a0b0f0c2f02efef to info@metrocityroofing.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Metro City Roofing: the jobs metrocityroofing.com cannot book after hours",
+   "url": "https://metrocityroofing.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0087",
+   "lane": "agency",
+   "note": "sent 2026-09-17T19:57:01Z msg 1a0b0f1a34cb5a37 to info@assurancecontractors.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Assurance Contractors: the jobs assurancecontractors.com cannot book after hours",
+   "url": "https://assurancecontractors.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0088",
+   "lane": "agency",
+   "note": "sent 2026-09-17T19:58:18Z msg 1a0b0f2cf90f40e6 to info@arrowroofco.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Arrow Roofing and Exteriors: the jobs arrowroofco.com cannot book after hours",
+   "url": "https://arrowroofco.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0089",
+   "lane": "agency",
+   "note": "sent 2026-09-17T19:59:33Z msg 1a0b0f3f569b0d09 to jmccarrick@mccarrickelectric.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "MCCARRICK ELECTRIC LLC: the jobs mccarrickelectric.com cannot book after hours",
+   "url": "https://mccarrickelectric.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0090",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:00:50Z msg 1a0b0f520dcde650 to info@briarcliffendo.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Briarcliff Endodontics: the appointments briarcliffendo.com is not booking at night",
+   "url": "https://briarcliffendo.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0091",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:02:05Z msg 1a0b0f6476d2f4a9 to info@coolinglaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Cooling and Herbers, P.C.: the consults coolinglaw.com is not getting at 10pm",
+   "url": "https://coolinglaw.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0092",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:03:21Z msg 1a0b0f76fbcde834 to sales@raylindsey.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Ray Lindsey Company: raylindsey.com after the phone goes to voicemail",
+   "url": "https://raylindsey.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0093",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:04:37Z msg 1a0b0f897edf1996 to kathy@allstateroofingaz.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Phoenix Roofers by Allstate Roofing Contractors: the jobs allstateroofingaz.com cannot book after hours",
+   "url": "https://allstateroofingaz.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0094",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:05:52Z msg 1a0b0f9bfc521ae2 to info@asapserve.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "ASAP Serve, LLC: the consults asapserve.com is not getting at 10pm",
+   "url": "https://asapserve.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0095",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:07:08Z msg 1a0b0fae6a974601 to info@pvpd.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Palm Valley Pediatric Dentistry and Orthodontics: pvpd.com: no way to ask before booking",
+   "url": "https://pvpd.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0096",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:08:24Z msg 1a0b0fc0e2afa22c to info@marcoinjurylaw.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Marco Injury Law: the consults marcoinjurylaw.com is not getting at 10pm",
+   "url": "https://marcoinjurylaw.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0097",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:09:40Z msg 1a0b0fd390c5f299 to info@azplumbers.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "One Call Plumbing Services: the jobs azplumbers.com cannot book after hours",
+   "url": "https://azplumbers.com"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0098",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:10:57Z msg 1a0b0fe63c5b6c60 to information@cureallplumbing.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Cure All Plumbing: the jobs cureallplumbing.com cannot book after hours",
+   "url": "https://cureallplumbing.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0099",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:12:12Z msg 1a0b0ff8ac4568d0 to info@lab.dental",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Arizona 3D Dental Lab, LLC: the appointments lab.dental is not booking at night",
+   "url": "https://lab.dental"
+  },
+  {
+   "amount_usd": 3000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0100",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:13:28Z msg 1a0b100b352b0709 to info@azpservices.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "AZP Services LLC: the jobs azpservices.com cannot book after hours",
+   "url": "https://azpservices.com"
+  },
+  {
+   "amount_usd": 3500.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0101",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:14:43Z msg 1a0b101d81138847 to info@arizonadental.com",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Arizona Dental: the appointments arizonadental.com is not booking at night",
+   "url": "https://arizonadental.com"
+  },
+  {
+   "amount_usd": 4000.0,
+   "founder_minutes": 0,
+   "history": [
+    {
+     "at": "2026-09-18T04:57:46Z",
+     "state": "submitted"
+    }
+   ],
+   "id": "agency-0102",
+   "lane": "agency",
+   "note": "sent 2026-09-17T20:15:59Z msg 1a0b10301923fcf4 to info@gordonthompsonattorney.net",
+   "probability": 0.03,
+   "state": "submitted",
+   "title": "Gordon Thompson Attorney: the consults gordonthompsonattorney.net is not getting at 10pm",
+   "url": "https://gordonthompsonattorney.net"
   }
  ]
 }
