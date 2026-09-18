@@ -40,10 +40,11 @@ def load_suppression(path):
     out = set()
     if not os.path.exists(path):
         return out
-    for line in open(path, encoding="utf-8"):
-        line = line.split("#", 1)[0].strip().lower()
-        if line:
-            out.add(line)
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.split("#", 1)[0].strip().lower()
+            if line:
+                out.add(line)
     return out
 
 
