@@ -1,6 +1,303 @@
 {
- "generated_at": "2026-09-18T00:35:43Z",
+ "generated_at": "2026-09-18T05:31:27Z",
  "events": [
+  {
+   "id": "https://github.com/sharmiaalono/go-github/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "sharmiaalono/go-github: \ud83c\udfaf Fix pagination inconsistency and parameter handling when `ListOptions.PerPage` is 0",
+   "url": "https://github.com/sharmiaalono/go-github/issues/5",
+   "at": "2026-09-18T05:13:31Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "sharmiaalono",
+    "labels": [
+     "bounty",
+     "$10",
+     "bountyhub"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/frontend/issues/469",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/frontend: Navbar's Bounties/Milestones links have no active-page indication at all, visual or aria-current, unlike DashboardShell's nav",
+   "url": "https://github.com/MergeFi/frontend/issues/469",
+   "at": "2026-09-18T04:49:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "chonilius",
+    "labels": [
+     "accessibility"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56949",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56949 [GPT-OSS-120B][BH Galaxy] Fused MoE router topk_router_gpt is selected on Blackhole but requires 12 DRAM-aligned cores (Blackhole has 8)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56949",
+   "at": "2026-09-18T04:45:45Z",
+   "extra": {
+    "author": "vcankovicTT",
+    "labels": [
+     "bug",
+     "blackhole",
+     "LLM_bug",
+     "Galaxy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14490",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(notion): sanitize uid and eliminate reflected parameter injection in html routes ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14490",
+   "at": "2026-09-18T04:07:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "PINYOPATTANAWASANPORN",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14490",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14490 [Bounty proposal] fix(notion): sanitize uid and eliminate reflected parameter injection in html routes ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14490",
+   "at": "2026-09-18T04:07:31Z",
+   "extra": {
+    "state": "open",
+    "author": "PINYOPATTANAWASANPORN"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi-vector-bot/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi-vector-bot: [Bounty proposal] security: Telegram replies can forge staff answers into arbitrary Discord channels; replies lack mention bounds",
+   "url": "https://github.com/BasedHardware/omi-vector-bot/issues/4",
+   "at": "2026-09-18T03:44:48Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14477",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(subscription): sanitize uid and eliminate script injection in pricing template ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14477",
+   "at": "2026-09-18T03:41:33Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "PINYOPATTANAWASANPORN",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14477",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14477 [Bounty proposal] fix(subscription): sanitize uid and eliminate script injection in pricing template ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14477",
+   "at": "2026-09-18T03:41:33Z",
+   "extra": {
+    "state": "open",
+    "author": "PINYOPATTANAWASANPORN"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/kivaloo/issues/384",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/kivaloo#384 \n.",
+   "url": "https://github.com/Tarsnap/kivaloo/issues/384",
+   "at": "2026-09-18T03:21:58Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "ckduddn99-lgtm"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/tarsnap/issues/948",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/tarsnap#948 How to user `--newer`?",
+   "url": "https://github.com/Tarsnap/tarsnap/issues/948",
+   "at": "2026-09-18T02:40:30Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "gahr"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14463",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $150] security: _multion \u2014 unauthenticated uid\u2192user_id rebind + purchase-webhook trigger",
+   "url": "https://github.com/BasedHardware/omi/issues/14463",
+   "at": "2026-09-18T02:01:02Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 150,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56945",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56945 [LLK] 32-bit unpack-to-dest broadcast reads/writes the wrong DST tile after any op that targeted another DST index (stale DEST_TARGET_REG_CFG_MATH_Offset)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56945",
+   "at": "2026-09-18T01:14:08Z",
+   "extra": {
+    "author": "awliu-TT",
+    "labels": [
+     "LLK"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56944",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56944 [aw] Matt Pocock Skills Reviewer produced no safe outputs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56944",
+   "at": "2026-09-18T01:13:46Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14455",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $400] security: seven more plugins \u2014 39 /tools/* routes trust body uid and act with stored third-party credentials",
+   "url": "https://github.com/BasedHardware/omi/issues/14455",
+   "at": "2026-09-18T01:06:36Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 400,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56941",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56941 `LLKQuasarMeshDeviceSingleCardFixture.QuasarBfdDatacopy` fails on Quasar 2x3 Dispatch emulator",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56941",
+   "at": "2026-09-18T01:06:36Z",
+   "extra": {
+    "author": "sagarwalTT",
+    "labels": [
+     "bug",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14453",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $200] security: whoop-app \u2014 seven /tools/* routes trust body uid and read the victim's health data",
+   "url": "https://github.com/BasedHardware/omi/issues/14453",
+   "at": "2026-09-18T01:02:33Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 200,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56938",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#56938 [ttnn] unary elementwise: 28 op types return float32 bit patterns for int32 input instead of raising",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56938",
+   "at": "2026-09-18T01:00:11Z",
+   "extra": {
+    "author": "heroxcreed",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14451",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $200] security: twitter-chat-tools \u2014 nine /tools/* routes trust body uid and act with the victim's Twitter token",
+   "url": "https://github.com/BasedHardware/omi/issues/14451",
+   "at": "2026-09-18T00:59:14Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 200,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14446",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $200] security: slack/clickup/twitter transcript webhooks + slack tools trust client-supplied uid \u2014 unauthenticated writes into victim workspaces",
+   "url": "https://github.com/BasedHardware/omi/issues/14446",
+   "at": "2026-09-18T00:54:13Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 200,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14444",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $200] security: linear + notion OAuth callbacks trust unsigned state \u2014 attacker flows rebind grants to any uid",
+   "url": "https://github.com/BasedHardware/omi/issues/14444",
+   "at": "2026-09-18T00:47:27Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 200,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14442",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $200] security: shopify OAuth callback never verifies signatures \u2014 forged callbacks rebind grants to any uid",
+   "url": "https://github.com/BasedHardware/omi/issues/14442",
+   "at": "2026-09-18T00:42:39Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 200,
+    "author": "hridaya423",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/28",
    "source": "github_search",
@@ -9,7 +306,7 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/28",
    "at": "2026-09-18T00:00:38Z",
    "extra": {
-    "comments": 5,
+    "comments": 0,
     "amount_usd": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
     "author": "PPPDUD",
     "labels": [
@@ -188,18 +485,6 @@
      "bounty",
      "real"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/948",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#948 How to user `--newer`?",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/948",
-   "at": "2026-09-17T22:00:13Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "gahr"
    }
   },
   {
@@ -1591,7 +1876,7 @@
    "url": "https://github.com/sharmiaalono/go-github/issues/1",
    "at": "2026-09-17T08:58:35Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "sharmiaalono",
     "labels": [
@@ -1751,69 +2036,6 @@
    }
   },
   {
-   "id": "https://github.com/MergeFi/frontend/issues/367",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/frontend: mock-data.ts has zero XLM-denominated entries \u2014 every bounty, milestone, and pool is hardcoded to USDC",
-   "url": "https://github.com/MergeFi/frontend/issues/367",
-   "at": "2026-09-17T06:19:11Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/272",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: Reputation and Analytics only ever read the Bounty table \u2014 milestone and maintenance-pool payouts are invisible to both",
-   "url": "https://github.com/MergeFi/backend/issues/272",
-   "at": "2026-09-17T06:18:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug",
-     "architecture"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/backend/issues/271",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/backend: Reputation/Analytics lifetime-earnings computation is still SUM(bounty.amount), not the Payment ledger, even after the SQL-aggregation refactor",
-   "url": "https://github.com/MergeFi/backend/issues/271",
-   "at": "2026-09-17T06:18:27Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14307",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Crossref title cleanup leaves inline face markup behind (US$25 requested)",
-   "url": "https://github.com/BasedHardware/omi/issues/14307",
-   "at": "2026-09-17T05:37:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "971872015",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14307",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1823,37 +2045,6 @@
    "extra": {
     "state": "open",
     "author": "971872015"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56828",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56828 Metal 2.0 post port passes on moreh/moreh_mean",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56828",
-   "at": "2026-09-17T05:30:51Z",
-   "extra": {
-    "author": "mcw-anasuya",
-    "labels": [
-     "moreh",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56827",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56827 concat: block-sharded width concat advances by shard capacity, corrupting ragged width shards",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56827",
-   "at": "2026-09-17T05:30:38Z",
-   "extra": {
-    "author": "VirdhatchaniKN",
-    "labels": [
-     "bug",
-     "op_cat: TM",
-     "MCW"
-    ]
    }
   },
   {
@@ -1871,37 +2062,6 @@
      "enhancement",
      "bounty",
      "django"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56825",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56825 [Quasar] Assert on mop len == 0",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56825",
-   "at": "2026-09-17T05:16:46Z",
-   "extra": {
-    "author": "rtawfik01",
-    "labels": [
-     "LLK",
-     "llk:quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56824",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56824 concat: sharded concat above 16 inputs asserts instead of batching, and batching cannot work with a shared output_mem_config",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56824",
-   "at": "2026-09-17T05:08:57Z",
-   "extra": {
-    "author": "VirdhatchaniKN",
-    "labels": [
-     "bug",
-     "op_cat: TM",
-     "MCW"
     ]
    }
   },
@@ -1924,21 +2084,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56823",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56823 #53613: Category 4 \u2014 Exhaustive BF16 coverage for unary ops with a float/scalar parameter",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56823",
-   "at": "2026-09-17T04:39:19Z",
-   "extra": {
-    "author": "abdulla-TT",
-    "labels": [
-     "op_cat: eltwise",
-     "MCW"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14303",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1951,35 +2096,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/0c607b722214e76edec9a0e49a69e65bd1420aaa",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[silencer] Silence unused dfb_x_id warning in layernorm_large_tensor kernel (#56610)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/0c607b722214e76edec9a0e49a69e65bd1420aaa",
-   "at": "2026-09-17T03:33:08Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_large_tensor.cpp"
-    ],
-    "added": [],
-    "author": "github-actions[bot]"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14295",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Haitian Creole (Krey\u00f2l Ayisyen) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14295",
-   "at": "2026-09-17T01:39:17Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "shitobu",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14295",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1989,34 +2105,6 @@
    "extra": {
     "state": "open",
     "author": "shitobu"
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/983",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: Clarify private security reporting channel and current bounty eligibility",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/983",
-   "at": "2026-09-17T01:08:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "0monish",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14286",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] feat(omi-plugin-sdk): add Geolocation bounds and comprehensive test suite ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14286",
-   "at": "2026-09-17T00:57:23Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "PINYOPATTANAWASANPORN",
-    "labels": []
    }
   },
   {
