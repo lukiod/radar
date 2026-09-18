@@ -14,7 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import inbox_check  # noqa: E402
 from inbox_check import (address_of, bounce_recipient, is_bounce,  # noqa: E402
-                         is_ours, is_permanent, is_system)
+                         is_failure_subject, is_ours, is_permanent, is_system)
 
 
 def dsn(final_recipient, status="5.1.1", action="failed",
@@ -22,7 +22,7 @@ def dsn(final_recipient, status="5.1.1", action="failed",
     """A delivery status notification as Gmail actually puts it on the wire:
     the machine readable part is a message/delivery-status, which the email
     package hands back as a list of sub Messages rather than as bytes."""
-    return (
+    lines = (
         "From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>\r\n"
         f"Subject: {subject}\r\n"
         "MIME-Version: 1.0\r\n"
@@ -39,9 +39,10 @@ def dsn(final_recipient, status="5.1.1", action="failed",
         "\r\n"
         f"Final-Recipient: rfc822; {final_recipient}\r\n"
         f"Action: {action}\r\n"
-        f"Status: {status}\r\n"
-        "--B--\r\n"
-    ).encode()
+    )
+    if status is not None:
+        lines += f"Status: {status}\r\n"
+    return (lines + "--B--\r\n").encode()
 
 
 class BounceRecipientTests(unittest.TestCase):
@@ -201,6 +202,73 @@ class DelayDoesNotSuppressTests(MailboxHarness):
         with contextlib.redirect_stdout(buf):
             replies, bounces = self.mod.scan(14, False)
         self.assertEqual((replies, bounces), (0, 0))
+
+
+class FailureSubjectTests(unittest.TestCase):
+    """The subject is the second signal, for a notification whose machine
+    readable status is missing or in a shape the parser cannot read."""
+
+    def test_a_failure_subject_says_permanent(self):
+        self.assertTrue(is_failure_subject("Delivery Status Notification (Failure)"))
+        self.assertTrue(is_failure_subject("Undelivered Mail Returned to Sender (Failure)"))
+
+    def test_a_delay_subject_does_not(self):
+        self.assertFalse(is_failure_subject("Delivery Status Notification (Delay)"))
+        self.assertFalse(is_failure_subject("Undelivered Mail Returned to Sender"))
+
+
+class FailureWithoutAStatusTests(MailboxHarness):
+    """A hard failure whose delivery status part carries no Status header read
+    as a delay, and a delay is marked seen, so the dead address was never
+    reported again and went on being mailed."""
+
+    def report(self):
+        return dsn("info@dead.com", status=None)
+
+    def test_it_is_counted_as_a_bounce_not_a_delay(self):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            _, bounces = self.mod.scan(14, False)
+        self.assertEqual(bounces, 1)
+
+    def test_it_is_written_to_suppression(self):
+        out = self.scan(apply_bounces=True)
+        self.assertIn("info@dead.com", self.supp.read_text())
+        self.assertNotIn("DELAYED", out)
+
+
+class UnparsedBounceTests(MailboxHarness):
+    """Two reports: one that parses and one that does not. Applying the first
+    used to clear the hold on both, so the second was marked seen and lost
+    without ever naming an address to suppress."""
+
+    def setUp(self):
+        super().setUp()
+        self.mod.message_ids = lambda t, q: ["m1", "m2"]
+        good = base64.urlsafe_b64encode(dsn("info@dead.com")).decode()
+        broken = base64.urlsafe_b64encode(
+            b"From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>\r\n"
+            b"Subject: Delivery Status Notification (Failure)\r\n"
+            b"\r\nAddress not found.\r\n").decode()
+
+        def payload_for(mid):
+            return {"payload": {"headers": [
+                {"name": "From", "value": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>"},
+                {"name": "Subject", "value": "Delivery Status Notification (Failure)"}]},
+                "snippet": ""}
+
+        self.mod.api = lambda t, path, **kw: (
+            {"raw": good if "m1" in path else broken}
+            if kw.get("format") == "raw" else payload_for(path))
+
+    def test_the_unparsed_one_is_named_by_message_id(self):
+        out = self.scan(apply_bounces=True)
+        self.assertIn("unparsed bounce, message m2", out)
+
+    def test_applying_the_parsed_one_does_not_forget_the_unparsed_one(self):
+        self.scan(apply_bounces=True)
+        self.assertIn("info@dead.com", self.supp.read_text())
+        self.assertEqual(self.saved[-1], {"m1"})
 
 
 if __name__ == "__main__":

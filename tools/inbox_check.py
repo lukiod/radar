@@ -109,6 +109,19 @@ def is_bounce(from_addr, subject):
     return any(b in from_addr.lower() for b in BOUNCE_FROM) or "delivery status notification" in subject.lower()
 
 
+def is_failure_subject(subject):
+    """Whether the notification itself says the delivery failed for good.
+
+    Gmail writes "(Failure)" in the subject only for a permanent rejection and
+    "(Delay)" while it is still retrying, so the subject is a second, coarser
+    signal that survives a delivery status part this code cannot parse. It
+    matters because a notification read as a delay is marked seen and never
+    looked at again, so a dead address goes on being mailed, which is the one
+    mistake that burns the sending domain.
+    """
+    return "(failure)" in subject.lower()
+
+
 def address_of(from_addr):
     m = re.search(r"<([^>]+)>", from_addr or "")
     return (m.group(1) if m else (from_addr or "")).strip().lower()
@@ -187,7 +200,7 @@ def scan(days, apply_bounces):
         if is_bounce(from_addr, subject):
             raw = api(token, f"messages/{mid}", format="raw")["raw"]
             addr, status, action = bounce_recipient(base64.urlsafe_b64decode(raw + "==="))
-            if is_permanent(status, action):
+            if is_permanent(status, action) or (not status and is_failure_subject(subject)):
                 bounces.append((addr, status, subject, mid))
             else:
                 delays.append((addr, status, action))
@@ -218,9 +231,15 @@ def scan(days, apply_bounces):
         table = load_suppression()
         print(f"BOUNCES ({len(bounces)})")
         lines = []
+        stuck = set()
         for addr, status, subject, mid in bounces:
             if not addr:
-                print(f"  unparsed bounce: {subject}")
+                # The notification says the delivery failed but the status part
+                # did not yield an address. Nothing can be suppressed from it,
+                # so it is held rather than marked seen: a bounce that scrolls
+                # past unread leaves a dead address in the queue.
+                print(f"  unparsed bounce, message {mid}: {subject}")
+                stuck.add(mid)
                 continue
             already = addr in table or addr.split("@")[-1] in table
             print(f"  {addr}  status {status or '?'}{'  (already suppressed)' if already else ''}")
@@ -231,10 +250,13 @@ def scan(days, apply_bounces):
             with open(SUPPRESSION, "a", encoding="utf-8") as fh:
                 for line in lines:
                     fh.write(line + "\n")
-            held.clear()
             print(f"  wrote {len(lines)} line(s) to suppression.txt")
+            held.clear()
         elif lines:
             print("  rerun with --apply-bounces to write these to suppression.txt")
+        # An unparsed bounce survives the clear: applying the ones that parsed
+        # is not a reason to forget the ones that did not.
+        held |= stuck
         print()
     # Delays are reported and then marked seen. They are not an action: the
     # address is not dead until Gmail gives up and sends a failure, which
