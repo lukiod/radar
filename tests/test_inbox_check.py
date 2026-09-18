@@ -14,16 +14,17 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import inbox_check  # noqa: E402
 from inbox_check import (address_of, bounce_recipient, is_bounce,  # noqa: E402
-                         is_ours, is_system)
+                         is_ours, is_permanent, is_system)
 
 
-def dsn(final_recipient, status="5.1.1"):
+def dsn(final_recipient, status="5.1.1", action="failed",
+        subject="Delivery Status Notification (Failure)"):
     """A delivery status notification as Gmail actually puts it on the wire:
     the machine readable part is a message/delivery-status, which the email
     package hands back as a list of sub Messages rather than as bytes."""
     return (
         "From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>\r\n"
-        "Subject: Delivery Status Notification (Failure)\r\n"
+        f"Subject: {subject}\r\n"
         "MIME-Version: 1.0\r\n"
         'Content-Type: multipart/report; report-type=delivery-status; boundary="B"\r\n'
         "\r\n"
@@ -37,7 +38,7 @@ def dsn(final_recipient, status="5.1.1"):
         "Reporting-MTA: dns; googlemail.com\r\n"
         "\r\n"
         f"Final-Recipient: rfc822; {final_recipient}\r\n"
-        "Action: failed\r\n"
+        f"Action: {action}\r\n"
         f"Status: {status}\r\n"
         "--B--\r\n"
     ).encode()
@@ -45,19 +46,37 @@ def dsn(final_recipient, status="5.1.1"):
 
 class BounceRecipientTests(unittest.TestCase):
     def test_the_failed_address_and_status_are_read(self):
-        addr, status = bounce_recipient(dsn("marcus@evansroofingokc.com"))
+        addr, status, action = bounce_recipient(dsn("marcus@evansroofingokc.com"))
         self.assertEqual(addr, "marcus@evansroofingokc.com")
         self.assertEqual(status, "5.1.1")
+        self.assertEqual(action, "failed")
 
     def test_the_address_is_lowercased_for_suppression_matching(self):
-        addr, _ = bounce_recipient(dsn("Info@BuiltRightDigital.com", "5.1.3"))
+        addr, _, _ = bounce_recipient(dsn("Info@BuiltRightDigital.com", "5.1.3"))
         self.assertEqual(addr, "info@builtrightdigital.com")
 
     def test_a_message_with_no_report_part_returns_nothing(self):
         msg = EmailMessage()
         msg["From"] = "someone@example.com"
         msg.set_content("hi")
-        self.assertEqual(bounce_recipient(msg.as_bytes()), (None, ""))
+        self.assertEqual(bounce_recipient(msg.as_bytes()), (None, "", ""))
+
+
+class PermanentFailureTests(unittest.TestCase):
+    """Gmail sends a delivery status notification for a delay as well as for
+    a failure, and both say so in the subject. Suppressing on a delay kills a
+    working address and reports a bounce rate that never happened."""
+
+    def test_a_five_hundred_failure_is_permanent(self):
+        self.assertTrue(is_permanent("5.1.1", "failed"))
+        self.assertTrue(is_permanent("5.7.1", "failed"))
+
+    def test_a_delay_is_not_permanent(self):
+        self.assertFalse(is_permanent("4.4.1", "delayed"))
+        self.assertFalse(is_permanent("4.2.2", "delayed"))
+
+    def test_a_four_hundred_with_a_failed_action_is_not_permanent(self):
+        self.assertFalse(is_permanent("4.4.1", "failed"))
 
 
 class IsBounceTests(unittest.TestCase):
@@ -104,10 +123,8 @@ class SystemSenderTests(unittest.TestCase):
         self.assertFalse(is_system("omi from Omi <email@omi.me>"))
 
 
-class BounceStaysUnseenUntilSuppressedTests(unittest.TestCase):
-    """A bounce is only dealt with once it is in suppression.txt. Marking it
-    seen on a plain run lost it for good: the address was mailed again on every
-    later day and nothing said so, on the one list that protects the domain."""
+class MailboxHarness(unittest.TestCase):
+    """One delivery report in the mailbox, everything around it patched."""
 
     def setUp(self):
         self.mod = inbox_check
@@ -121,18 +138,27 @@ class BounceStaysUnseenUntilSuppressedTests(unittest.TestCase):
         self.mod.load_seen = lambda: set()
         self.mod.save_seen = lambda s: self.saved.append(set(s))
         self.mod.message_ids = lambda t, q: ["m1"]
-        raw = base64.urlsafe_b64encode(dsn("info@dead.com")).decode()
+        raw = base64.urlsafe_b64encode(self.report()).decode()
         full = {"payload": {"headers": [
             {"name": "From", "value": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>"},
             {"name": "Subject", "value": "Delivery Status Notification (Failure)"}]},
             "snippet": ""}
         self.mod.api = lambda t, path, **kw: {"raw": raw} if kw.get("format") == "raw" else full
 
+    def report(self):
+        return dsn("info@dead.com")
+
     def scan(self, apply_bounces):
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
             self.mod.scan(14, apply_bounces)
         return buf.getvalue()
+
+
+class BounceStaysUnseenUntilSuppressedTests(MailboxHarness):
+    """A bounce is only dealt with once it is in suppression.txt. Marking it
+    seen on a plain run lost it for good: the address was mailed again on every
+    later day and nothing said so, on the one list that protects the domain."""
 
     def test_a_plain_run_does_not_mark_an_unwritten_bounce_seen(self):
         out = self.scan(apply_bounces=False)
@@ -150,6 +176,31 @@ class BounceStaysUnseenUntilSuppressedTests(unittest.TestCase):
         self.supp.write_text("info@dead.com  # bounced earlier\n")
         self.scan(apply_bounces=False)
         self.assertEqual(self.saved[-1], {"m1"})
+
+
+class DelayDoesNotSuppressTests(MailboxHarness):
+    """Three delay reports on 09 17 arrived looking exactly like bounces and
+    would have suppressed two live addresses and read as a 26% bounce rate
+    against the real 10.5%, halving the next day's sends for nothing."""
+
+    def report(self):
+        return dsn("info@slowserver.com", "4.4.1", "delayed",
+                   "Delivery Status Notification (Delay)")
+
+    def test_a_delay_is_never_written_to_suppression(self):
+        out = self.scan(apply_bounces=True)
+        self.assertIn("DELAYED (1)", out)
+        self.assertNotIn("info@slowserver.com", self.supp.read_text())
+
+    def test_a_delay_is_marked_seen_so_it_is_not_reported_forever(self):
+        self.scan(apply_bounces=True)
+        self.assertEqual(self.saved[-1], {"m1"})
+
+    def test_a_delay_is_not_counted_as_a_bounce(self):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            replies, bounces = self.mod.scan(14, False)
+        self.assertEqual((replies, bounces), (0, 0))
 
 
 if __name__ == "__main__":

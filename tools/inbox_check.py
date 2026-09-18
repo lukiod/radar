@@ -81,8 +81,27 @@ def bounce_recipient(raw):
         text = text if isinstance(text, str) else "\n".join(m.as_string() for m in text)
         to = FINAL_RE.search(text)
         if to:
-            return to.group(1).strip("<>").lower(), (STATUS_RE.search(text).group(1) if STATUS_RE.search(text) else "")
-    return None, ""
+            status = STATUS_RE.search(text)
+            action = ACTION_RE.search(text)
+            return (to.group(1).strip("<>").lower(),
+                    status.group(1) if status else "",
+                    action.group(1).lower() if action else "")
+    return None, "", ""
+
+
+def is_permanent(status, action):
+    """Whether a delivery report means the mailbox is gone for good.
+
+    Gmail sends a delivery status notification both when a message fails and
+    when it is merely delayed, and both carry 'Delivery Status Notification'
+    in the subject. A delay is action=delayed with a 4.x.x status and Gmail
+    is still retrying, so treating it as a dead address suppresses a working
+    mailbox and reports a bounce rate that never happened, which then halves
+    the next day's volume for no reason.
+    """
+    if action and action != "failed":
+        return False
+    return (status or "").startswith("5")
 
 
 def is_bounce(from_addr, subject):
@@ -155,7 +174,7 @@ def scan(days, apply_bounces):
     # desk's own address, so that filter deleted exactly the replies being
     # looked for. Ours are dropped in code below, where the comparison is ours.
     ids = message_ids(token, f"in:anywhere newer_than:{days}d -in:spam -in:trash")
-    replies, bounces, other = [], [], []
+    replies, bounces, delays, other = [], [], [], []
     fresh = set()
     for mid in ids:
         if mid in seen:
@@ -166,8 +185,11 @@ def scan(days, apply_bounces):
         subject = hdr.get("subject", "")
         if is_bounce(from_addr, subject):
             raw = api(token, f"messages/{mid}", format="raw")["raw"]
-            addr, status = bounce_recipient(base64.urlsafe_b64decode(raw + "==="))
-            bounces.append((addr, status, subject, mid))
+            addr, status, action = bounce_recipient(base64.urlsafe_b64decode(raw + "==="))
+            if is_permanent(status, action):
+                bounces.append((addr, status, subject, mid))
+            else:
+                delays.append((addr, status, action))
         elif is_ours(from_addr, me) or is_system(from_addr):
             other.append((from_addr, subject))
         else:
@@ -212,6 +234,14 @@ def scan(days, apply_bounces):
             print(f"  wrote {len(lines)} line(s) to suppression.txt")
         elif lines:
             print("  rerun with --apply-bounces to write these to suppression.txt")
+        print()
+    # Delays are reported and then marked seen. They are not an action: the
+    # address is not dead until Gmail gives up and sends a failure, which
+    # arrives as its own message and is caught on the next run.
+    if delays:
+        print(f"DELAYED ({len(delays)}), still retrying, not suppressed")
+        for addr, status, action in delays:
+            print(f"  {addr}  status {status or '?'} action {action or '?'}")
         print()
     if other:
         print(f"OTHER ({len(other)}), not replies")
