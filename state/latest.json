@@ -1,6 +1,634 @@
 {
- "generated_at": "2026-09-19T14:37:11Z",
+ "generated_at": "2026-09-19T17:44:19Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15005",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a task disappears when the server rejects its delete ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15005",
+   "at": "2026-09-19T17:42:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15004",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] security(iq-rating): script-context breakout in uid and people_data, unescaped exception reflection (5 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15004",
+   "at": "2026-09-19T17:42:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "kaleidoscopeAI",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/47",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9407095 BOUNTY FOR IMPLEMENTING GNU OMNIBLOCKS INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/47",
+   "at": "2026-09-19T17:41:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9407095,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15001",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): accepted shared tasks with a due date never get a reminder ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15001",
+   "at": "2026-09-19T17:41:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/46",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OmniBlocks/bountyfarmer: BIGGEST bounty EVERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/46",
+   "at": "2026-09-19T17:40:09Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "unconstructable13",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14998",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): goal advice returns the canned fallback for goals past the first three ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14998",
+   "at": "2026-09-19T17:39:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14997",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): calendar (.ics) recipes for action items and conversations ($50 proposed, $25 each)",
+   "url": "https://github.com/BasedHardware/omi/issues/14997",
+   "at": "2026-09-19T17:39:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "knoauktasu5624-wq",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/45",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9584258 BOUNTY FOR IMPLEMENTING OMNIBLOCKS INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/45",
+   "at": "2026-09-19T17:38:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9584258,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/44",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9618819 BOUNTY FOR IMPLEMENTING AI ASSIST INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/44",
+   "at": "2026-09-19T17:38:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9618819,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/43",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9691661 BOUNTY FOR IMPLEMENTING [object Object] INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/43",
+   "at": "2026-09-19T17:37:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9691661,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14994",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] security(google-calendar-app): unescaped calendar list in settings page (stored XSS & attribute breakout) and raw exception reflection (5 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14994",
+   "at": "2026-09-19T17:37:46Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "kaleidoscopeAI",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14991",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): decoded voice question audio is never deleted from the API pod ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14991",
+   "at": "2026-09-19T17:35:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14985",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): tasks added with a due date land a day early west of UTC ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14985",
+   "at": "2026-09-19T17:30:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14983",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): checking off a task inside a conversation leaves its reminder armed ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14983",
+   "at": "2026-09-19T17:29:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14980",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): notification apps can't be created on web, scopes load from a route that doesn't exist ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14980",
+   "at": "2026-09-19T17:27:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14976",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): filtering conversations by a person stops after the first search page ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14976",
+   "at": "2026-09-19T17:24:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14974",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): renaming a person always fails with 422 ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14974",
+   "at": "2026-09-19T17:24:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14972",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): Store Recordings switch always shows OFF in Privacy settings ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14972",
+   "at": "2026-09-19T17:22:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14969",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): chat image uploads lose their thumbnail and /v1/files returns 500 for images ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14969",
+   "at": "2026-09-19T17:16:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14967",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed app catalog or enabled-apps fetch shows installed apps as not installed ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14967",
+   "at": "2026-09-19T17:02:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14965",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): cached conversations lose their source tag ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14965",
+   "at": "2026-09-19T17:00:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14961",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): cached day summary messages come back as plain text ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14961",
+   "at": "2026-09-19T16:54:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14959",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): ticking a task writes its old text and due date back to the server ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14959",
+   "at": "2026-09-19T16:49:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14956",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): one failed integrations fetch shows Google Calendar, Gmail and Apple Health as disconnected for the session ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14956",
+   "at": "2026-09-19T16:42:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14954",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): the \u2728 generate description button wipes the typed description when it fails ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14954",
+   "at": "2026-09-19T16:38:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14952",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): merging conversations always fails when a source has photos ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14952",
+   "at": "2026-09-19T16:34:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14949",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): usage Today chart uses the UTC day while the total uses the local day ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14949",
+   "at": "2026-09-19T16:30:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14944",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): all-day calendar events keep discarded scraps and beat real meetings ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14944",
+   "at": "2026-09-19T16:24:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14941",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): enabling an already-enabled app counts another install ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14941",
+   "at": "2026-09-19T16:16:58Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14939",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed subscription refresh drops a paid user to no plan ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14939",
+   "at": "2026-09-19T16:15:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14937",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): integration setup links and setup check lose the uid when the URL has a query ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14937",
+   "at": "2026-09-19T16:11:34Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57090",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57090 Per-model mesh-graph descriptors under prefill topology_configuration/ci are all identical",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57090",
+   "at": "2026-09-19T16:11:05Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14935",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): apps whose setup check URL has a query can never be installed ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14935",
+   "at": "2026-09-19T16:10:35Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14933",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): Regenerate and web recap generation skip the #12530 input bound and 500 on heavy days ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14933",
+   "at": "2026-09-19T16:08:42Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14931",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): users whose time zone is set without an FCM token never get daily recaps ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14931",
+   "at": "2026-09-19T16:02:42Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 50,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14928",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): Refresh Manifest deletes an app's webhook and the rest of external_integration ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14928",
+   "at": "2026-09-19T15:58:55Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 50,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57088",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57088 Disaggregated-prefill KV gate scores only the first 61 layers of any model deeper than Kimi-K2.7",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57088",
+   "at": "2026-09-19T15:54:13Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14927",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: Memory Markdown export silently overwrites groups with colliding category filenames ($50 bounty proposal)",
+   "url": "https://github.com/BasedHardware/omi/issues/14927",
+   "at": "2026-09-19T15:52:52Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 50,
+    "author": "dsh417",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14925",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed folder refresh wipes the folder tabs ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14925",
+   "at": "2026-09-19T15:51:04Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14923",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): goals come back after a failed delete and never clear when deleted elsewhere ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14923",
+   "at": "2026-09-19T15:46:00Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14921",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): \"Make All Memories Private\" reports success even when the server rejected it ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14921",
+   "at": "2026-09-19T15:36:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14919",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): conversation titles and feedback comments with &, # or + are saved truncated ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14919",
+   "at": "2026-09-19T15:29:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14916",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed Clear Chat leaves the chat stuck on the deleting spinner ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14916",
+   "at": "2026-09-19T15:23:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14912",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): renaming or deleting a person offline still changes the app ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14912",
+   "at": "2026-09-19T14:54:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14910",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed people fetch wipes cached people and speaker names ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14910",
+   "at": "2026-09-19T14:45:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
    "source": "github_search",
@@ -9,7 +637,7 @@
    "url": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
    "at": "2026-09-19T13:59:34Z",
    "extra": {
-    "comments": 3,
+    "comments": 17,
     "amount_usd": 50,
     "author": "kushBitxHQ",
     "labels": []
@@ -136,7 +764,7 @@
    "url": "https://github.com/attogram/fantastic-octo-giggle/issues/6",
    "at": "2026-09-19T11:28:31Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "attogram",
     "labels": []
@@ -153,20 +781,6 @@
     "comments": 0,
     "amount_usd": null,
     "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14876",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] security: omi-slack-app reflects raw channel/workspace names into HTML (XSS) + uid attribute breakout ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14876",
-   "at": "2026-09-19T10:35:31Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "shuoYun114",
     "labels": []
    }
   },
@@ -192,7 +806,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14870",
    "at": "2026-09-19T10:00:13Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -218,7 +832,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14869",
    "at": "2026-09-19T10:00:12Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -244,7 +858,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14868",
    "at": "2026-09-19T10:00:10Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -270,7 +884,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14867",
    "at": "2026-09-19T10:00:08Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -296,7 +910,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14866",
    "at": "2026-09-19T10:00:07Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -349,32 +963,6 @@
    "title": "omi#14864 [Bounty proposal] Aragonese (an) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/14864",
    "at": "2026-09-19T10:00:03Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14863",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Friulian (fur) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14863",
-   "at": "2026-09-19T10:00:02Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14863",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14863 [Bounty proposal] Friulian (fur) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14863",
-   "at": "2026-09-19T10:00:02Z",
    "extra": {
     "state": "open",
     "author": "kduailabs"
@@ -607,20 +1195,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14838",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): conversation-list JSON to Excel (.xlsx) recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14838",
-   "at": "2026-09-19T08:24:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "knoauktasu5624-wq",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/19891501/handoff-cert/issues/95",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -749,18 +1323,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14828",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14828 [Bounty proposal] docs(cli): Swahili (sw) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14828",
-   "at": "2026-09-19T07:22:54Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14826",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -801,18 +1363,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14824",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14824 [Bounty proposal] docs(cli): Malay (ms) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14824",
-   "at": "2026-09-19T07:21:09Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14822",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -827,18 +1377,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14822",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14822 [Bounty proposal] docs(cli): Serbian (sr) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14822",
-   "at": "2026-09-19T07:17:34Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14820",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -850,18 +1388,6 @@
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14820",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14820 [Bounty proposal] docs(cli): Catalan (ca) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14820",
-   "at": "2026-09-19T07:16:51Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
    }
   },
   {
@@ -902,18 +1428,6 @@
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14816",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14816 [Bounty proposal] docs(cli): Latvian (lv) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14816",
-   "at": "2026-09-19T07:12:38Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
    }
   },
   {
@@ -1048,20 +1562,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14804",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Norwegian (no) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14804",
-   "at": "2026-09-19T07:02:39Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14804",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#14804 [Bounty proposal] docs(cli): Norwegian (no) agent quickstart ($25 proposed)",
@@ -1070,20 +1570,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14802",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Finnish (fi) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14802",
-   "at": "2026-09-19T07:01:58Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -1100,20 +1586,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14800",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Hungarian (hu) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14800",
-   "at": "2026-09-19T07:01:15Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14800",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#14800 [Bounty proposal] docs(cli): Hungarian (hu) agent quickstart ($25 proposed)",
@@ -1122,230 +1594,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14797",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Extremaduran (ext) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14797",
-   "at": "2026-09-19T07:00:45Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14797",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14797 [Bounty proposal] Extremaduran (ext) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14797",
-   "at": "2026-09-19T07:00:45Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14796",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Aromanian (rup) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14796",
-   "at": "2026-09-19T07:00:43Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14796",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14796 [Bounty proposal] Aromanian (rup) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14796",
-   "at": "2026-09-19T07:00:43Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14795",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Romansh (rm) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14795",
-   "at": "2026-09-19T07:00:42Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14795",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14795 [Bounty proposal] Romansh (rm) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14795",
-   "at": "2026-09-19T07:00:42Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14794",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Upper Sorbian (hsb) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14794",
-   "at": "2026-09-19T07:00:40Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14793",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Mirandese (mwl) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14793",
-   "at": "2026-09-19T07:00:38Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14793",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14793 [Bounty proposal] Mirandese (mwl) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14793",
-   "at": "2026-09-19T07:00:38Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14792",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Papiamento (pap) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14792",
-   "at": "2026-09-19T07:00:36Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14792",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14792 [Bounty proposal] Papiamento (pap) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14792",
-   "at": "2026-09-19T07:00:36Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14791",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Fijian (fj) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14791",
-   "at": "2026-09-19T07:00:35Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14791",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14791 [Bounty proposal] Fijian (fj) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14791",
-   "at": "2026-09-19T07:00:35Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14790",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Neapolitan (nap) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14790",
-   "at": "2026-09-19T07:00:33Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14790",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14790 [Bounty proposal] Neapolitan (nap) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14790",
-   "at": "2026-09-19T07:00:33Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14788",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): German (de) and French (fr) agent quickstarts ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14788",
-   "at": "2026-09-19T06:56:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Tsai-etc",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14787",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Thai (th) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14787",
-   "at": "2026-09-19T06:56:24Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -1358,320 +1606,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14785",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Danish (da) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14785",
-   "at": "2026-09-19T06:55:42Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14785",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14785 [Bounty proposal] docs(cli): Danish (da) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14785",
-   "at": "2026-09-19T06:55:42Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14783",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Hebrew (he) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14783",
-   "at": "2026-09-19T06:55:02Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14783",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14783 [Bounty proposal] docs(cli): Hebrew (he) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14783",
-   "at": "2026-09-19T06:55:02Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14781",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Greek (el) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14781",
-   "at": "2026-09-19T06:54:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14781",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14781 [Bounty proposal] docs(cli): Greek (el) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14781",
-   "at": "2026-09-19T06:54:21Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14779",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Romanian (ro) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14779",
-   "at": "2026-09-19T06:52:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14779",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14779 [Bounty proposal] docs(cli): Romanian (ro) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14779",
-   "at": "2026-09-19T06:52:51Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14777",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Czech (cs) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14777",
-   "at": "2026-09-19T06:51:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14777",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14777 [Bounty proposal] docs(cli): Czech (cs) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14777",
-   "at": "2026-09-19T06:51:07Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14775",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Swedish (sv) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14775",
-   "at": "2026-09-19T06:47:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14775",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14775 [Bounty proposal] docs(cli): Swedish (sv) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14775",
-   "at": "2026-09-19T06:47:00Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14773",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Ukrainian (uk) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14773",
-   "at": "2026-09-19T06:46:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14773",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14773 [Bounty proposal] docs(cli): Ukrainian (uk) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14773",
-   "at": "2026-09-19T06:46:08Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14771",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Vietnamese (vi) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14771",
-   "at": "2026-09-19T06:44:24Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14771",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14771 [Bounty proposal] docs(cli): Vietnamese (vi) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14771",
-   "at": "2026-09-19T06:44:24Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14769",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Arabic (ar) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14769",
-   "at": "2026-09-19T06:43:32Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14769",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14769 [Bounty proposal] docs(cli): Arabic (ar) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14769",
-   "at": "2026-09-19T06:43:32Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14767",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Polish (pl) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14767",
-   "at": "2026-09-19T06:39:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14767",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14767 [Bounty proposal] docs(cli): Polish (pl) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14767",
-   "at": "2026-09-19T06:39:41Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14765",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Dutch (nl) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14765",
-   "at": "2026-09-19T06:38:49Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14765",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14765 [Bounty proposal] docs(cli): Dutch (nl) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14765",
-   "at": "2026-09-19T06:38:49Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14763",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Indonesian (id) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14763",
-   "at": "2026-09-19T06:37:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14761",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Turkish (tr) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14761",
-   "at": "2026-09-19T06:36:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -1690,227 +1624,291 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14759",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Italian (it) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14759",
-   "at": "2026-09-19T06:34:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14757",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Korean (ko) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14757",
-   "at": "2026-09-19T06:33:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14754",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Russian (ru) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14754",
-   "at": "2026-09-19T06:29:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14751",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Hindi (hi) agent quickstart (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14751",
-   "at": "2026-09-19T06:21:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14749",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Portuguese (pt) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14749",
-   "at": "2026-09-19T06:20:55Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14747",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Nahuatl (nah) quickstart for omi-cli ($25 proposed)",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14747 [Bounty proposal] Nahuatl (nah) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/14747",
    "at": "2026-09-19T06:20:06Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14746",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Aymara (ay) quickstart for omi-cli ($25 proposed)",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14746 [Bounty proposal] Aymara (ay) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/14746",
    "at": "2026-09-19T06:20:04Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14745",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Tok Pisin (tpi) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14745",
-   "at": "2026-09-19T06:20:03Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14744",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Tetum (tet) quickstart for omi-cli ($25 proposed)",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14744 [Bounty proposal] Tetum (tet) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/14744",
    "at": "2026-09-19T06:20:01Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14743",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Chamorro (ch) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14743",
-   "at": "2026-09-19T06:19:59Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14742",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Marshallese (mh) quickstart for omi-cli ($25 proposed)",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14742 [Bounty proposal] Marshallese (mh) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/14742",
    "at": "2026-09-19T06:19:57Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14736",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Sena (seh) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14736",
-   "at": "2026-09-19T05:59:44Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/14735",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Kongo (kg) quickstart for omi-cli ($25 proposed)",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14735 [Bounty proposal] Kongo (kg) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/14735",
    "at": "2026-09-19T05:59:43Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14734",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Ndebele (nd) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14734",
-   "at": "2026-09-19T05:59:41Z",
+   "id": "https://github.com/BasedHardware/omi/issues/14731",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14731 [Bounty proposal] Greenlandic (kl) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14731",
+   "at": "2026-09-19T05:59:36Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14733",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Tulu (tcy) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14733",
-   "at": "2026-09-19T05:59:39Z",
+   "id": "https://github.com/BasedHardware/omi/issues/14730",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14730 [Bounty proposal] Hawaiian (haw) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14730",
+   "at": "2026-09-19T05:59:34Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14732",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Meitei (mni) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14732",
-   "at": "2026-09-19T05:59:37Z",
+   "id": "https://github.com/BasedHardware/omi/issues/14729",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14729 [Bounty proposal] Tongan (to) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14729",
+   "at": "2026-09-19T05:59:32Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14728",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14728 [Bounty proposal] Samoan (sm) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14728",
+   "at": "2026-09-19T05:59:31Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14727",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14727 [Bounty proposal] Corsican (co) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14727",
+   "at": "2026-09-19T05:59:29Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14726",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14726 [Bounty proposal] Venetian (vec) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14726",
+   "at": "2026-09-19T05:59:27Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14725",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14725 [Bounty proposal] Asturian (ast) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14725",
+   "at": "2026-09-19T05:59:26Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14719",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14719 [Bounty proposal] Yiddish (yi) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14719",
+   "at": "2026-09-19T05:46:40Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14716",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14716 [Bounty proposal] Balinese (ban) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14716",
+   "at": "2026-09-19T05:46:35Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14715",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14715 [Bounty proposal] Twi (tw) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14715",
+   "at": "2026-09-19T05:46:34Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14713",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14713 [Bounty proposal] Uyghur (ug) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14713",
+   "at": "2026-09-19T05:33:40Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14712",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14712 [Bounty proposal] Guarani (gn) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14712",
+   "at": "2026-09-19T05:33:38Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14711",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14711 [Bounty proposal] Maori (mi) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14711",
+   "at": "2026-09-19T05:33:37Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14710",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14710 [Bounty proposal] Occitan (oc) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14710",
+   "at": "2026-09-19T05:33:35Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14709",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14709 [Bounty proposal] Sicilian (scn) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14709",
+   "at": "2026-09-19T05:33:33Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14706",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14706 [Bounty proposal] Breton (br) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14706",
+   "at": "2026-09-19T05:30:42Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14704",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14704 [Bounty proposal] Frisian (fy) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14704",
+   "at": "2026-09-19T05:30:39Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14703",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14703 [Bounty proposal] Luxembourgish (lb) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14703",
+   "at": "2026-09-19T05:30:37Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14702",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14702 [Bounty proposal] Faroese (fo) quickstart for omi-cli ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14702",
+   "at": "2026-09-19T05:30:35Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
    }
   },
   {
@@ -2082,20 +2080,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57034",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57034 [aw] Tenstorrent Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57034",
-   "at": "2026-09-18T16:35:31Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/36",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2113,40 +2097,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/fa9cc8c6925605dcd4fb8b1efaa85fedb48ee5c0",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Restore missing LLK kernel uninitialization in tests (#56807)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/fa9cc8c6925605dcd4fb8b1efaa85fedb48ee5c0",
-   "at": "2026-09-18T16:18:31Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/sources/dense_pack_untilize_test.cpp",
-     "tt_metal/tt-llk/tests/sources/eltwise_unary_datacopy_test.cpp",
-     "tt_metal/tt-llk/tests/sources/math_matmul_test.cpp",
-     "tt_metal/tt-llk/tests/sources/matmul_and_unary_sfpu_test.cpp",
-     "tt_metal/tt-llk/tests/sources/matmul_custom_test.cpp",
-     "tt_metal/tt-llk/tests/sources/matmul_pack_untilize_test.cpp",
-     "tt_metal/tt-llk/tests/sources/matmul_test.cpp",
-     "tt_metal/tt-llk/tests/sources/matmul_unpack_tilize_test.cpp",
-     "tt_metal/tt-llk/tests/sources/pack_dest_bank_test.cpp",
-     "tt_metal/tt-llk/tests/sources/pack_untilize_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/sdpa_weighted_reduce_test.cpp",
-     "tt_metal/tt-llk/tests/sources/sfpu_binop_scalar_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/tilize_polluter_matmul_test.cpp",
-     "tt_metal/tt-llk/tests/sources/tilize_polluter_tiny_matmul_test.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_a_bcast_eltwise_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_a_bcast_eltwise_test.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_matmul_test.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_tilize_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_tilize_sweep_test.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_tilize_test.cpp"
-    ],
-    "added": [],
-    "author": "ndivnicTT"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56751",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2160,222 +2110,6 @@
      "jasondavies"
     ],
     "created": "2026-09-16T12:22:28Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/2a8d0e62089bd562cfdfb52ce567d992581d95c5",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Add Int8 support to ttnn.typecast (#55486)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/2a8d0e62089bd562cfdfb52ce567d992581d95c5",
-   "at": "2026-09-18T16:14:25Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_typecast.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_typecast.h",
-     "tt_metal/hw/inc/api/compute/eltwise_unary/typecast.h",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/quantization/quantization.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/unary.cpp"
-    ],
-    "added": [],
-    "author": "mcw-anasuya"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/cb70204b78139ed13411c750b028b2ff81e446da",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Feature] Add Quasar SFPU reduce kernel and tests (#54437)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/cb70204b78139ed13411c750b028b2ff81e446da",
-   "at": "2026-09-18T16:07:14Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_reduce.h",
-     "tt_metal/hw/inc/api/compute/compute_kernel_api.h",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/test_schemas.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_sfpu_reduce_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_reduce_quasar.py",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_reduce_quasar_test.cpp",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_defs.h",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_reduce.h",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_reduce.h",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_reduce_col_tilizeA_strided.h"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_reduce.h",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_sfpu_reduce_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_reduce_quasar.py",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_reduce_quasar_test.cpp"
-    ],
-    "author": "jmacanovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/4b3ffd595c6f725aea7e9b0323675c450ddcd2a2",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] Fix Blackhole reciprocal register overlap during scalar stalls (#57000)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/4b3ffd595c6f725aea7e9b0323675c450ddcd2a2",
-   "at": "2026-09-18T15:47:42Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_recip.h"
-    ],
-    "added": [],
-    "author": "jasondavies"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57028",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57028 back to back smag<->int conversions",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57028",
-   "at": "2026-09-18T15:43:57Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57027",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57027 SDPA K/V chains forward synchronously in the reader: the sender waits on the receiver, and long chains relay hop by hop",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57027",
-   "at": "2026-09-18T15:35:11Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "perf"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57026",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57026 joint and ring distributed SDPA still compile the legacy compute kernel unconditionally",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57026",
-   "at": "2026-09-18T15:35:10Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "perf"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57025",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57025 topk: retune the multi core split search for the tree merge (final merge no longer costs n x Kt)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57025",
-   "at": "2026-09-18T15:35:08Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "blackhole",
-     "perf"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/b0cc704ece12aad89786736ddd8a5f4a2de8fa5c",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Quasar] Make Fp32 -> Fp16b typecast an SFPU no-op (#57019)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/b0cc704ece12aad89786736ddd8a5f4a2de8fa5c",
-   "at": "2026-09-18T15:34:03Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/eltwise_unary/typecast.h"
-    ],
-    "added": [],
-    "author": "amokanTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57023",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57023 Quasar conv2d: DFB credit underflow (tensix_semget sem=0) in fused conv_bmm path on layer convs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57023",
-   "at": "2026-09-18T15:23:46Z",
-   "extra": {
-    "author": "ctr-lelanchelianTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57022",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57022 Borrowed-memory DFBs break stateful constraint queries: address 0 from a planning tensor is treated as \"never bound\"",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57022",
-   "at": "2026-09-18T15:15:46Z",
-   "extra": {
-    "author": "bmalesevicTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57020",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57020 [aw] Tenstorrent Skills Reviewer exceeded daily AI credits budget",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57020",
-   "at": "2026-09-18T14:57:29Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/fdb2e69e612dd6cbf5705cbdb0495e4ab99f8f1d",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Migrate ttnn.nextafter to an SFPU binary kernel (#56050)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/fdb2e69e612dd6cbf5705cbdb0495e4ab99f8f1d",
-   "at": "2026-09-18T14:56:39Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_binary.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_binary.h",
-     "tt_metal/hw/inc/api/compute/nextafter.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_defs.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_defs.h",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary_nanobind.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/common/binary_op_dtype_policy.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/common/binary_op_dtype_policy.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/common/binary_op_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/device/binary_composite_op.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary/device/kernels/compute/eltwise_binary_sfpu_kernel.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu_no_bcast.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu_scalar.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/compute/eltwise_binary_sfpu_col_bcast.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/compute/eltwise_binary_sfpu_row_bcast.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/compute/eltwise_binary_sfpu_row_col_bcast.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/compute/eltwise_binary_sfpu_scalar_bcast.cpp"
-    ],
-    "added": [
-     "tt_metal/hw/inc/api/compute/nextafter.h"
-    ],
-    "author": "Aswinmcw"
    }
   },
   {
@@ -2548,70 +2282,6 @@
    "extra": {
     "state": "OPEN",
     "author": "LubuSeb"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/52040",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#52040 [Bounty $1,500] ttnn/normalization: sharded softmax accepts a subblock_w larger than Dest and silently returns wrong results",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/52040",
-   "at": "2026-09-17T16:33:45Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "kinginu",
-    "assignees": [
-     "kinginu"
-    ],
-    "created": "2026-08-04T06:22:06Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/55443",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#55443 [Bounty $8,000] DRAM-sharded decode matmul: the in0 multicast is one hop per activation shard",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/55443",
-   "at": "2026-09-17T16:33:27Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "kinginu",
-    "assignees": [
-     "kinginu"
-    ],
-    "created": "2026-09-04T09:20:55Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/55138",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#55138 [Bounty $2,500] binary_ng/ternary: replicate the broadcast row with local NoC copies instead of ~2000 scalar stores per tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/55138",
-   "at": "2026-09-17T16:33:04Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "kinginu",
-    "assignees": [
-     "kinginu"
-    ],
-    "created": "2026-09-02T08:15:07Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56277",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56277 [Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
-   "at": "2026-09-17T15:25:20Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "jasondavies"
-    ],
-    "created": "2026-09-11T17:26:07Z"
    }
   }
  ],
