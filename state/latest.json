@@ -1,6 +1,147 @@
 {
- "generated_at": "2026-09-19T11:19:10Z",
+ "generated_at": "2026-09-19T14:37:11Z",
  "events": [
+  {
+   "id": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "kushBitxHQ/kushbitx-sdk: $50 USDC bounty: integrate @kushbitx/sdk with an AI agent",
+   "url": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
+   "at": "2026-09-19T13:59:34Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": 50,
+    "author": "kushBitxHQ",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57086",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57086 #53613: Category 6 \u2014 Exhaustive BF16 coverage for ops with multiple/special parameters",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57086",
+   "at": "2026-09-19T13:27:16Z",
+   "extra": {
+    "author": "abdulla-TT",
+    "labels": [
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14892",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] security(dropbox-app): unescaped error reflection in OAuth callback, user data reflection, and raw uid parameter injection ($75 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14892",
+   "at": "2026-09-19T12:28:31Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 75,
+    "author": "kaleidoscopeAI",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14890",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] security(whoop-app): unescaped error reflection in OAuth callback and raw uid parameter injection ($75 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14890",
+   "at": "2026-09-19T12:26:11Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 75,
+    "author": "kaleidoscopeAI",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-19: 0 new, 0 resumed, 1 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/7",
+   "at": "2026-09-19T12:24:54Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14888",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] security(clickup-app): unescaped workspace name/timezone reflection and raw uid parameter injection ($75 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14888",
+   "at": "2026-09-19T12:22:52Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 75,
+    "author": "kaleidoscopeAI",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14886",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] security(github-app): unescaped username/repo/error reflection and raw uid parameter injection (5 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14886",
+   "at": "2026-09-19T12:17:46Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "kaleidoscopeAI",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-19: 0 new, 0 resumed, 1 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/6",
+   "at": "2026-09-19T12:16:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14881",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] security(twitter): unescaped OAuth `error` and `username` reflected in HTML (reflected/stored XSS) ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14881",
+   "at": "2026-09-19T12:09:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Mateidslx",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/attogram/fantastic-octo-giggle/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "attogram/fantastic-octo-giggle: Bounty for a HUMAN to judge the \"repo dump\" bounty submissions - 142 euros payment",
+   "url": "https://github.com/attogram/fantastic-octo-giggle/issues/6",
+   "at": "2026-09-19T11:28:31Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "attogram",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/5",
    "source": "github_search",
@@ -23,7 +164,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14876",
    "at": "2026-09-19T10:35:31Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "shuoYun114",
     "labels": []
@@ -51,7 +192,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14870",
    "at": "2026-09-19T10:00:13Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -77,7 +218,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14869",
    "at": "2026-09-19T10:00:12Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -103,7 +244,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14868",
    "at": "2026-09-19T10:00:10Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -129,7 +270,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14867",
    "at": "2026-09-19T10:00:08Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -155,7 +296,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14866",
    "at": "2026-09-19T10:00:07Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -169,7 +310,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14865",
    "at": "2026-09-19T10:00:05Z",
    "extra": {
-    "comments": 1,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -195,7 +336,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14864",
    "at": "2026-09-19T10:00:03Z",
    "extra": {
-    "comments": 2,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -221,7 +362,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14863",
    "at": "2026-09-19T10:00:02Z",
    "extra": {
-    "comments": 1,
+    "comments": 4,
     "amount_usd": 25,
     "author": "kduailabs",
     "labels": []
@@ -480,90 +621,6 @@
    }
   },
   {
-   "id": "https://github.com/socksninja/sable-agent-reliability/issues/91",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "socksninja/sable-agent-reliability: Evidence Bounty: independently verify Agent Framework #8489 wrong-branch routing boundary",
-   "url": "https://github.com/socksninja/sable-agent-reliability/issues/91",
-   "at": "2026-09-19T08:08:17Z",
-   "extra": {
-    "comments": 33,
-    "amount_usd": null,
-    "author": "socksninja",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/socksninja/sable-agent-reliability/issues/90",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "socksninja/sable-agent-reliability: Evidence Bounty: independently verify Pydantic AI #5536 Temporal retry side-effect boundary",
-   "url": "https://github.com/socksninja/sable-agent-reliability/issues/90",
-   "at": "2026-09-19T08:07:38Z",
-   "extra": {
-    "comments": 9,
-    "amount_usd": null,
-    "author": "socksninja",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/socksninja/sable-agent-reliability/issues/89",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "socksninja/sable-agent-reliability: Evidence Bounty: independently verify OpenClaw #136513 premature delivery-credit boundary",
-   "url": "https://github.com/socksninja/sable-agent-reliability/issues/89",
-   "at": "2026-09-19T08:07:36Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "socksninja",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/socksninja/sable-agent-reliability/issues/88",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "socksninja/sable-agent-reliability: Evidence Bounty: independently verify Agent Framework #8292 checkpoint replay binding",
-   "url": "https://github.com/socksninja/sable-agent-reliability/issues/88",
-   "at": "2026-09-19T08:04:15Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "socksninja",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/socksninja/sable-agent-reliability/issues/87",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "socksninja/sable-agent-reliability: Evidence Bounty: independently verify CrewAI #7449 duplicate-effect retry boundary",
-   "url": "https://github.com/socksninja/sable-agent-reliability/issues/87",
-   "at": "2026-09-19T08:04:14Z",
-   "extra": {
-    "comments": 7,
-    "amount_usd": null,
-    "author": "socksninja",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/socksninja/sable-agent-reliability/issues/86",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "socksninja/sable-agent-reliability: Evidence Bounty: independently verify LangGraph #8834 resume-after-router-failure boundary",
-   "url": "https://github.com/socksninja/sable-agent-reliability/issues/86",
-   "at": "2026-09-19T07:58:13Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "socksninja",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/19891501/handoff-cert/issues/95",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -607,7 +664,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14834",
    "at": "2026-09-19T07:28:06Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -633,7 +690,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14832",
    "at": "2026-09-19T07:27:09Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -659,7 +716,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14830",
    "at": "2026-09-19T07:26:16Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -711,7 +768,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14826",
    "at": "2026-09-19T07:22:03Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -815,7 +872,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14818",
    "at": "2026-09-19T07:16:03Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -867,7 +924,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14814",
    "at": "2026-09-19T07:11:48Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -893,7 +950,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14812",
    "at": "2026-09-19T07:11:00Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -919,7 +976,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14810",
    "at": "2026-09-19T07:07:26Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -945,7 +1002,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14808",
    "at": "2026-09-19T07:06:45Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -971,7 +1028,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14806",
    "at": "2026-09-19T07:06:01Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -997,7 +1054,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14804",
    "at": "2026-09-19T07:02:39Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -1023,7 +1080,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14802",
    "at": "2026-09-19T07:01:58Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -1049,7 +1106,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14800",
    "at": "2026-09-19T07:01:15Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -1285,7 +1342,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14787",
    "at": "2026-09-19T06:56:24Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -1311,7 +1368,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14785",
    "at": "2026-09-19T06:55:42Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -1337,7 +1394,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14783",
    "at": "2026-09-19T06:55:02Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -1493,7 +1550,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14771",
    "at": "2026-09-19T06:44:24Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "1234adi1234",
     "labels": []
@@ -1519,7 +1576,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/14769",
    "at": "2026-09-19T06:43:32Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "1234adi1234",
     "labels": []
@@ -1849,104 +1906,6 @@
    "title": "BasedHardware/omi: [Bounty proposal] Meitei (mni) quickstart for omi-cli ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/14732",
    "at": "2026-09-19T05:59:37Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14731",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Greenlandic (kl) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14731",
-   "at": "2026-09-19T05:59:36Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14730",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Hawaiian (haw) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14730",
-   "at": "2026-09-19T05:59:34Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/jastrzebskij-sudo/EDna/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "jastrzebskij-sudo/EDna: Net-credits formula double-counts Bounty/FactionKillBond against their RedeemVoucher redemption",
-   "url": "https://github.com/jastrzebskij-sudo/EDna/issues/1",
-   "at": "2026-09-19T05:59:33Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "jastrzebskij-sudo",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14729",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Tongan (to) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14729",
-   "at": "2026-09-19T05:59:32Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14728",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Samoan (sm) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14728",
-   "at": "2026-09-19T05:59:31Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14727",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Corsican (co) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14727",
-   "at": "2026-09-19T05:59:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14726",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Venetian (vec) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14726",
-   "at": "2026-09-19T05:59:27Z",
    "extra": {
     "comments": 1,
     "amount_usd": 25,
@@ -2420,63 +2379,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57018",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57018 [tt_dit] Emit TeaCache cache-hit and cache-size info on DenoiseStep",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57018",
-   "at": "2026-09-18T14:35:36Z",
-   "extra": {
-    "author": "ddjukicTT",
-    "labels": [
-     "feature-request"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57012",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57012 sfpiadd/ge/lt 0",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57012",
-   "at": "2026-09-18T14:07:53Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57011",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57011 some sfpu insns have a restricted range result",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57011",
-   "at": "2026-09-18T14:05:49Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57009",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57009 [MiniMax-M3] prefill hangs in warmup at the MoE block on a 4x4 sub-mesh (SP4xTP4, EP16) on main ce240a3229e; 8x4 / 2x4 / 4x2 / 4x1 run",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57009",
-   "at": "2026-09-18T13:48:10Z",
-   "extra": {
-    "author": "philei-tt",
-    "labels": [
-     "bug",
-     "blackhole",
-     "Galaxy",
-     "prefill"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1596",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -2491,33 +2393,6 @@
      "bounty",
      "real"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57004",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57004 Binary goldens use Torch promotion instead of the device's per-op scalar packing",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57004",
-   "at": "2026-09-18T13:28:31Z",
-   "extra": {
-    "author": "iklemenskiTT",
-    "labels": [
-     "bug",
-     "op_cat: eltwise"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57003",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57003 [CI] Retire the T3K dispatch tests pipeline on 31 October 2026",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57003",
-   "at": "2026-09-18T13:26:21Z",
-   "extra": {
-    "author": "mtairum",
-    "labels": []
    }
   },
   {
@@ -2539,46 +2414,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57001",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57001 quasar sfpload has uint8 mode",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57001",
-   "at": "2026-09-18T13:15:16Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56999",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56999 [aw] Matt Pocock Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56999",
-   "at": "2026-09-18T12:59:28Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56998",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56998 Update prefill runner docs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56998",
-   "at": "2026-09-18T12:56:20Z",
-   "extra": {
-    "author": "svuckovicTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2595,39 +2430,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/e773a1f3fa50fc25589568e3ede465562034db54",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Perf] Build the top-k/sort/moe/sampling index tile with the NoC, not 1024 scalar stores (#53618)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/e773a1f3fa50fc25589568e3ede465562034db54",
-   "at": "2026-09-18T12:40:38Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/reduction/moe/device/kernels/dataflow/reader_create_index_tensor.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/dataflow/reader_values_indices_tensor.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/kernels/dataflow/reader_create_index_local_topk.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/kernels/dataflow/reader_create_index_tensor.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/kernels/dataflow/topk_dataflow_common.hpp"
-    ],
-    "added": [],
-    "author": "kinginu"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56993",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56993 test_glm_prefill_block_indexer_teacher_forced: indexer-K PCC ~0.06 (KVPE + output pass)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56993",
-   "at": "2026-09-18T12:35:57Z",
-   "extra": {
-    "author": "nostojicTT",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/52909",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2641,42 +2443,6 @@
      "kinginu"
     ],
     "created": "2026-08-12T08:21:49Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/7554e18092c6df172916e0aed21fa75fddcf8c8b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Test Infra] [Test Only] Add Quasar SFPU accuracy plotting harness (#56618)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/7554e18092c6df172916e0aed21fa75fddcf8c8b",
-   "at": "2026-09-18T12:25:41Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/docs/tests/sfpu_accuracy_plots_metrics.md",
-     "tt_metal/tt-llk/docs/tests/sfpu_accuracy_plotting.md",
-     "tt_metal/tt-llk/tests/.gitignore",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_plot_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_plot.py"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_plot_quasar.py"
-    ],
-    "author": "jmacanovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/e81e5c500fd7129ebb077fd07e691fead2ad4e83",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] binary_ng: bound the sharded FPU batch by the fp32 DST capacity (#56978)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/e81e5c500fd7129ebb077fd07e691fead2ad4e83",
-   "at": "2026-09-18T12:10:09Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_program_factory.cpp"
-    ],
-    "added": [],
-    "author": "Aswinmcw"
    }
   },
   {
