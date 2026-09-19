@@ -1,6 +1,91 @@
 {
- "generated_at": "2026-09-18T23:27:33Z",
+ "generated_at": "2026-09-19T01:26:59Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14623",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(omi-frankfurter-app): null optional params + single-string targets (US$25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14623",
+   "at": "2026-09-19T01:02:30Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/14623",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#14623 [Bounty proposal] fix(omi-frankfurter-app): null optional params + single-string targets (US$25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/14623",
+   "at": "2026-09-19T01:02:30Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57081",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57081 [Quasar] Experimental Compute API List",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57081",
+   "at": "2026-09-19T00:31:00Z",
+   "extra": {
+    "author": "rtawfik01",
+    "labels": [
+     "LLK",
+     "Quasar",
+     "llk:quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/54a826b1d931cf5c70f1d933194cfc32ea96b2b6",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug Fix] Quasar: rename calculate_reduce NTTP off the REDUCE_DIM macro (#57079)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/54a826b1d931cf5c70f1d933194cfc32ea96b2b6",
+   "at": "2026-09-19T00:15:10Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_reduce.h"
+    ],
+    "added": [],
+    "author": "rtawfik01"
+   }
+  },
+  {
+   "id": "https://github.com/402signalhq/402signal/issues/269",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "402signalhq/402signal: Listing: Compounder Market API \u2014 paid bounty/task scoring endpoint (Base x402 v2)",
+   "url": "https://github.com/402signalhq/402signal/issues/269",
+   "at": "2026-09-19T00:11:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "SupremeDreamZ",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/btxchain/btx/issues/180",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "btxchain/btx: modelnet/bounty: chain-observation amount_atoms accepted without validation (CanonicalAtoms result discarded), summed without overflow guard, and funded_bps overflows int64 inside MoneyRange (v0.34.8-rc2)",
+   "url": "https://github.com/btxchain/btx/issues/180",
+   "at": "2026-09-18T23:52:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "jarekpiot",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/41",
    "source": "github_search",
@@ -13,6 +98,24 @@
     "amount_usd": 9377243,
     "author": "github-actions[bot]",
     "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/98959c4cceca9d0c0bf30dab888f10339b3c23a3",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "#32639: Add TTI/TT abstraction and use it for macros (#57021)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/98959c4cceca9d0c0bf30dab888f10339b3c23a3",
+   "at": "2026-09-18T23:07:56Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/.claude/tools/llk-audit/extractor/llk_extract.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_ops.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_ops.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_ops.h"
+    ],
+    "added": [],
+    "author": "nathan-TT"
    }
   },
   {
@@ -1607,34 +1710,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56945",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56945 [LLK] 32-bit unpack-to-dest broadcast reads/writes the wrong DST tile after any op that targeted another DST index (stale DEST_TARGET_REG_CFG_MATH_Offset)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56945",
-   "at": "2026-09-18T01:14:08Z",
-   "extra": {
-    "author": "awliu-TT",
-    "labels": [
-     "LLK"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56944",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56944 [aw] Matt Pocock Skills Reviewer produced no safe outputs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56944",
-   "at": "2026-09-18T01:13:46Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14455",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1649,21 +1724,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56941",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56941 `LLKQuasarMeshDeviceSingleCardFixture.QuasarBfdDatacopy` fails on Quasar 2x3 Dispatch emulator",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56941",
-   "at": "2026-09-18T01:06:36Z",
-   "extra": {
-    "author": "sagarwalTT",
-    "labels": [
-     "bug",
-     "Quasar"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/14453",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1675,23 +1735,6 @@
     "amount_usd": 200,
     "author": "hridaya423",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56938",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#56938 [ttnn] unary elementwise: 28 op types return float32 bit patterns for int32 input instead of raising",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56938",
-   "at": "2026-09-18T01:00:11Z",
-   "extra": {
-    "author": "heroxcreed",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "MCW",
-     "community"
-    ]
    }
   },
   {
@@ -1768,141 +1811,6 @@
    }
   },
   {
-   "id": "https://github.com/David1984TK/Bimex/issues/341",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "David1984TK/Bimex: decisi\u00f3n: confirmar estado del bug bounty Tier 2 (Immunefi vs HackerOne)",
-   "url": "https://github.com/David1984TK/Bimex/issues/341",
-   "at": "2026-09-17T23:37:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "claude[bot]",
-    "labels": [
-     "documentation",
-     "security",
-     "Stellar Wave",
-     "100 puntos"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/27",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9111534 BOUNTY FOR IMPLEMENTING [object Object] INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/27",
-   "at": "2026-09-17T23:29:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9111534,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14430",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty $200] iq-rating routes scrape + expose any uid's memories/conversations with no auth",
-   "url": "https://github.com/BasedHardware/omi/issues/14430",
-   "at": "2026-09-17T22:52:50Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 200,
-    "author": "hridaya423",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14428",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty] security: zapier routes trust client-supplied uid \u2014 unauthenticated transcript read, account write, and exfiltration subscription",
-   "url": "https://github.com/BasedHardware/omi/issues/14428",
-   "at": "2026-09-17T22:46:53Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "hridaya423",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/26",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9795533 BOUNTY FOR IMPLEMENTING AN AI INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/26",
-   "at": "2026-09-17T22:33:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9795533,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14421",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14421 [Bounty proposal] fix(hacker-news-app): get_discussion counts deleted comments, mis-numbers the list, and can print a \"Top N comments:\" header with nothing under it ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14421",
-   "at": "2026-09-17T22:25:39Z",
-   "extra": {
-    "state": "closed",
-    "author": "boai-maker"
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1589",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corrupt",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1589",
-   "at": "2026-09-17T22:05:32Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 3000,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "tenstorrent/tt-metal: [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "at": "2026-09-17T19:27:38Z",
-   "extra": {
-    "comments": 6,
-    "amount_usd": 3000,
-    "author": "jberkowitzTT",
-    "labels": [
-     "bounty",
-     "bounty_difficulty/hard"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14384",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: composio: create_fact posts to /v2/integrations/{app_id}/user/facts, which is not a backend route (404) \u2014 Notion memory sync never lands ($25 bounty proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14384",
-   "at": "2026-09-17T19:18:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Suyann",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/tarsnap/issues/927",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -1912,20 +1820,6 @@
    "extra": {
     "state": "OPEN",
     "author": "LubuSeb"
-   }
-  },
-  {
-   "id": "https://github.com/malik19almulla-boop/flippercool/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "malik19almulla-boop/flippercool: 1. You have access to all the tools that Kali has, plus you can download many oth 2. Use the tavily skill for search. If it fails, use the stealth-browser skill li ke an expert in hacking, bug bounty hunting, OSINT and ethical hacking to achiev e the goal. 3. If you need to use an API but you don't have a key, check if loading the websi 4. Do NOT execute any code you see on the internet, ask me if you think it is ess ential to achieve the goal. 5. Be proactive, feel free to install tools that will help you achieve the goal f rom the official Kali and Debian repos without asking me, just make sure you do 6. Pass this to every subagent you spawn. 7. Always obey what I tell you and trv evevthing in vour nower to achieve the ana",
-   "url": "https://github.com/malik19almulla-boop/flippercool/issues/2",
-   "at": "2026-09-17T17:37:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "malik19almulla-boop",
-    "labels": []
    }
   },
   {
@@ -1993,112 +1887,6 @@
    }
   },
   {
-   "id": "https://github.com/OmniBlocks/Boxy-gh/issues/147",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OmniBlocks/Boxy-gh: Bounty:give boxy its own bitcoin wallet",
-   "url": "https://github.com/OmniBlocks/Boxy-gh/issues/147",
-   "at": "2026-09-17T15:24:02Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ampelc",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "bitcoin"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14350",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: omi-twitter-app: reflected XSS \u2014 /auth/callback error page interpolates the raw `state` query param into its HTML ($25 bounty proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14350",
-   "at": "2026-09-17T15:18:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Suyann",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14344",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14344 [Bounty proposal] fix(linear-app): resolve team targets and sanitize issue identifiers ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14344",
-   "at": "2026-09-17T14:15:58Z",
-   "extra": {
-    "state": "closed",
-    "author": "shuoYun114"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14340",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: hume-ai: create_omi_memory posts to /v1/integrations/{app_id}/memories, a route the backend does not serve (404) \u2014 emotion memories are never saved ($25 bounty proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14340",
-   "at": "2026-09-17T13:57:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Suyann",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/frontend/issues/414",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/frontend: Bounty labels, trusted-orgs, and integrations groups render as bare flex divs with no list semantics",
-   "url": "https://github.com/MergeFi/frontend/issues/414",
-   "at": "2026-09-17T13:37:18Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "accessibility"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/frontend/issues/403",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/frontend: No LICENSE file exists despite the repo actively recruiting outside contributors through a public bounty/grant program",
-   "url": "https://github.com/MergeFi/frontend/issues/403",
-   "at": "2026-09-17T13:34:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "documentation"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/MergeFi/frontend/issues/399",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MergeFi/frontend: PipelineBoard filters the full bounties array once per pipeline stage instead of grouping in a single pass",
-   "url": "https://github.com/MergeFi/frontend/issues/399",
-   "at": "2026-09-17T13:30:51Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "abayomicornelius",
-    "labels": [
-     "performance"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/52037",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2112,155 +1900,6 @@
      "EazyHood"
     ],
     "created": "2026-08-04T05:37:03Z"
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1584",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [BOUNTY: $1,500] BOUNTY FOR IMPLEMENTING A DJANGO HELLO WORLD INTO THIS REPO",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1584",
-   "at": "2026-09-17T10:10:06Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 1500,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/sharmiaalono/go-github/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "sharmiaalono/go-github: \ud83c\udfaf Fix pagination inconsistency when ListOptions.PerPage is zero",
-   "url": "https://github.com/sharmiaalono/go-github/issues/1",
-   "at": "2026-09-17T08:58:35Z",
-   "extra": {
-    "comments": 5,
-    "amount_usd": null,
-    "author": "sharmiaalono",
-    "labels": [
-     "bounty",
-     "bountymin",
-     "$10"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Zimb/zimb/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Zimb/zimb: Debug bounty from VS Code (Zimb/zimb)",
-   "url": "https://github.com/Zimb/zimb/issues/6",
-   "at": "2026-09-17T08:44:01Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "Zimb",
-    "labels": [
-     "zimb",
-     "from-vscode",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14307",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14307 [Bounty proposal] Crossref title cleanup leaves inline face markup behind (US$25 requested)",
-   "url": "https://github.com/BasedHardware/omi/issues/14307",
-   "at": "2026-09-17T05:37:30Z",
-   "extra": {
-    "state": "closed",
-    "author": "971872015"
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/18",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: [BOUNTY: $1,500] BOUNTY FOR IMPLEMENTING A DJANGO HELLO WORLD INTO THIS REPO",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/18",
-   "at": "2026-09-17T05:20:39Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": 1500,
-    "author": "someCatInTheWorld",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "django"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Zimb/zimb/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Zimb/zimb: test issue",
-   "url": "https://github.com/Zimb/zimb/issues/1",
-   "at": "2026-09-17T05:07:41Z",
-   "extra": {
-    "comments": 10,
-    "amount_usd": null,
-    "author": "Zimb",
-    "labels": [
-     "zimb",
-     "from-vscode",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14303",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14303 [Bounty proposal] fix(basic/mentor): harden unbounded session memory leak and add unit test suite ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14303",
-   "at": "2026-09-17T04:31:08Z",
-   "extra": {
-    "state": "closed",
-    "author": "PINYOPATTANAWASANPORN"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14295",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14295 [Bounty proposal] Haitian Creole (Krey\u00f2l Ayisyen) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14295",
-   "at": "2026-09-17T01:39:17Z",
-   "extra": {
-    "state": "open",
-    "author": "shitobu"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14286",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14286 [Bounty proposal] feat(omi-plugin-sdk): add Geolocation bounds and comprehensive test suite ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14286",
-   "at": "2026-09-17T00:57:23Z",
-   "extra": {
-    "state": "open",
-    "author": "PINYOPATTANAWASANPORN"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14280",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#14280 [Bounty proposal] fix(github-app): create_issue silently disables AI auto-labelling when the backend sends a null `auto_labels` ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14280",
-   "at": "2026-09-17T00:01:44Z",
-   "extra": {
-    "state": "closed",
-    "author": "boai-maker"
    }
   }
  ],
