@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-09-20T00:14:04Z",
+ "generated_at": "2026-09-20T05:09:57Z",
  "events": [
+  {
+   "id": "https://github.com/itsamuksingh-coder/trendy-flow-v2/issues/611",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "itsamuksingh-coder/trendy-flow-v2: [REVIEW] varanasi_naxal_commander_encounters_30_lakh_bounty",
+   "url": "https://github.com/itsamuksingh-coder/trendy-flow-v2/issues/611",
+   "at": "2026-09-20T04:22:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "pending-review"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57103",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57103 kimi_moe_perf: both midpoints are stale on main, and the K2.7 sample does not reproduce",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57103",
+   "at": "2026-09-20T03:49:23Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57102",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57102 Profiler accumulate mode leaves residual L1 markers without core identity",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57102",
+   "at": "2026-09-20T03:20:11Z",
+   "extra": {
+    "author": "rmillerTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Yvonne27Jin/Barkan_etal_2012_replication/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Yvonne27Jin/Barkan_etal_2012_replication: Question about Check Me bounty: Study 2 DV3 order-effect analysis",
+   "url": "https://github.com/Yvonne27Jin/Barkan_etal_2012_replication/issues/1",
+   "at": "2026-09-20T03:04:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "kalidatuna",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15089",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $150] security: hume-ai \u2014 unauthenticated uid-keyed routes write memories into any Omi account and push notifications to any user",
+   "url": "https://github.com/BasedHardware/omi/issues/15089",
+   "at": "2026-09-20T01:38:35Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": 150,
+    "author": "harmonygemini8-collab",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15087",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): failed default task-integration save stays selected locally ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15087",
+   "at": "2026-09-20T01:09:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Eclipse1704",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15085",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): failed app disable is reported as success ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15085",
+   "at": "2026-09-20T01:05:20Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 25,
+    "author": "Eclipse1704",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/cosimochellini/one-piece-zero-spoiler/issues/55",
    "source": "github_search",
@@ -43,20 +139,6 @@
     "labels": [
      "agentic-workflows"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/akarahdev/treecutters/issues/23",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "akarahdev/treecutters: [SPARK BOUNTY // URGENT] Update Loop Mechanism",
-   "url": "https://github.com/akarahdev/treecutters/issues/23",
-   "at": "2026-09-19T22:26:36Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "akarahdev",
-    "labels": []
    }
   },
   {
@@ -522,7 +604,7 @@
    "url": "https://github.com/lordjames-nexus/kushbitx-grok-agent/issues/1",
    "at": "2026-09-19T18:19:41Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "edwinalexishernandezgonzalez2-rgb",
     "labels": []
@@ -1231,20 +1313,6 @@
    }
   },
   {
-   "id": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "kushBitxHQ/kushbitx-sdk: $50 USDC bounty: integrate @kushbitx/sdk with an AI agent",
-   "url": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
-   "at": "2026-09-19T13:59:34Z",
-   "extra": {
-    "comments": 26,
-    "amount_usd": 50,
-    "author": "kushBitxHQ",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57086",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1257,62 +1325,6 @@
      "op_cat: eltwise",
      "MCW"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14892",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] security(dropbox-app): unescaped error reflection in OAuth callback, user data reflection, and raw uid parameter injection ($75 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14892",
-   "at": "2026-09-19T12:28:31Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 75,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14890",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] security(whoop-app): unescaped error reflection in OAuth callback and raw uid parameter injection ($75 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14890",
-   "at": "2026-09-19T12:26:11Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 75,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-19: 0 new, 0 resumed, 1 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/7",
-   "at": "2026-09-19T12:24:54Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14888",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] security(clickup-app): unescaped workspace name/timezone reflection and raw uid parameter injection ($75 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14888",
-   "at": "2026-09-19T12:22:52Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 75,
-    "author": "kaleidoscopeAI",
-    "labels": []
    }
   },
   {
@@ -1928,37 +1940,6 @@
    "extra": {
     "state": "open",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57081",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57081 [Quasar] Experimental Compute API List",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57081",
-   "at": "2026-09-19T00:31:00Z",
-   "extra": {
-    "author": "rtawfik01",
-    "labels": [
-     "LLK",
-     "Quasar",
-     "llk:quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/54a826b1d931cf5c70f1d933194cfc32ea96b2b6",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug Fix] Quasar: rename calculate_reduce NTTP off the REDUCE_DIM macro (#57079)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/54a826b1d931cf5c70f1d933194cfc32ea96b2b6",
-   "at": "2026-09-19T00:15:10Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_reduce.h"
-    ],
-    "added": [],
-    "author": "rtawfik01"
    }
   },
   {
