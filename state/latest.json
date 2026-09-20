@@ -1,6 +1,186 @@
 {
- "generated_at": "2026-09-20T19:37:15Z",
+ "generated_at": "2026-09-20T22:09:40Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57134",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57134 [aw] Tenstorrent Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57134",
+   "at": "2026-09-20T21:38:00Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15293",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): editing a task says \"Action item updated\" even when the edit is rejected ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15293",
+   "at": "2026-09-20T21:10:56Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15288",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): cancelling a Limitless import does not stop it ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15288",
+   "at": "2026-09-20T20:43:25Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15285",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): Developer Mode shows all webhooks off when the status call fails ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15285",
+   "at": "2026-09-20T20:40:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/438",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#438 [bug bounty] The plaintext buffers in scryptenc_file and scryptdec_file_copy are never wiped",
+   "url": "https://github.com/Tarsnap/scrypt/issues/438",
+   "at": "2026-09-20T20:35:52Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15282",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): a task completed by the reminders sync still fires its reminder ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15282",
+   "at": "2026-09-20T20:33:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15281",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): focus-stats with no date sums the user's whole history ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15281",
+   "at": "2026-09-20T20:31:20Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 50,
+    "author": "VIxIon0de",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15278",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed recaps fetch shows \"No daily recaps yet\" and hides the tab ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15278",
+   "at": "2026-09-20T20:29:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15274",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): clearing one chat deletes every chat file on the account ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15274",
+   "at": "2026-09-20T20:16:50Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15271",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): the audio bytes webhook interval falls back to 5 after you save it ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15271",
+   "at": "2026-09-20T20:12:22Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15268",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): app screenshots are dropped when you save the app ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15268",
+   "at": "2026-09-20T20:08:13Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15251",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): a failed memory delete leaves the card stuck ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15251",
+   "at": "2026-09-20T19:52:41Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15248",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): the task due date picker shows the wrong day near midnight ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15248",
+   "at": "2026-09-20T19:48:50Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/venkatesh4059/Do-Or-Die/issues/6",
    "source": "github_search",
@@ -9,7 +189,7 @@
    "url": "https://github.com/venkatesh4059/Do-Or-Die/issues/6",
    "at": "2026-09-20T19:33:25Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "venkatesh4059",
     "labels": []
@@ -23,7 +203,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15245",
    "at": "2026-09-20T19:31:21Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "jitendravjh",
     "labels": []
@@ -123,7 +303,7 @@
    "url": "https://github.com/Mantitup-Org/vista/issues/61",
    "at": "2026-09-20T18:51:05Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "techistad",
     "labels": [
@@ -928,7 +1108,7 @@
    "url": "https://github.com/SO4-Markets/so4-oracle/issues/978",
    "at": "2026-09-20T06:50:41Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "abayomicornelius",
     "labels": [
@@ -1080,36 +1260,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/708e7f58aef9d089f0e5097d4a772c7c8ee129ea",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Cleanup] llk_io: hold the Tensix register address as an integer, not a pointer (#55597)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/708e7f58aef9d089f0e5097d4a772c7c8ee129ea",
-   "at": "2026-09-19T21:28:21Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_io/llk_io_pack.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_io/llk_io_unpack.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_io/llk_io_pack.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_io/llk_io_unpack.h"
-    ],
-    "added": [],
-    "author": "blozano-tt"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57095",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57095 streaming SDPA prefill kernel: fp32 accumulator and row sums when fp32_dest_acc_en is set",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57095",
-   "at": "2026-09-19T21:11:19Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/StellarTickets/blockchain/issues/42",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1181,48 +1331,6 @@
    }
   },
   {
-   "id": "https://github.com/Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL: RC PROGRAM \u2014 staging, adversarial bug bounty, stabilization and usable V1",
-   "url": "https://github.com/Kirch-Nairu/INTER-LAN-CROSS.OS-COMMUNICATION-TOOL/issues/4",
-   "at": "2026-09-19T19:44:02Z",
-   "extra": {
-    "comments": 5,
-    "amount_usd": null,
-    "author": "Kirch-Nairu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15046",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): a failed photo read during a merge permanently deletes the photos ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15046",
-   "at": "2026-09-19T19:32:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/MentorsMind/MentorsMind-Contract/issues/1130",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MentorsMind/MentorsMind-Contract: Add get_bounties_page and get_bounty_by_id views to  lib.rs",
-   "url": "https://github.com/MentorsMind/MentorsMind-Contract/issues/1130",
-   "at": "2026-09-19T19:13:48Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "Benalex8797",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -1239,90 +1347,6 @@
    }
   },
   {
-   "id": "https://github.com/lordjames-nexus/kushbitx-grok-agent/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "lordjames-nexus/kushbitx-grok-agent: Submission: KushBitx SDK bounty (kushBitxHQ/kushbitx-sdk#1)",
-   "url": "https://github.com/lordjames-nexus/kushbitx-grok-agent/issues/1",
-   "at": "2026-09-19T18:19:41Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "edwinalexishernandezgonzalez2-rgb",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15018",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] security(plugins): parameter injection and unencoded URLs across setup pages and redirects in linear, hive, and shopify (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15018",
-   "at": "2026-09-19T18:04:17Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15014",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] security(shipbob-app): script-context breakout in uid and unescaped auth error reflection (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15014",
-   "at": "2026-09-19T17:50:52Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15011",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] security(notion-app): reflected XSS in OAuth callback error parameter and attribute injection in success link (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15011",
-   "at": "2026-09-19T17:47:55Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15004",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] security(iq-rating): script-context breakout in uid and people_data, unescaped exception reflection (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15004",
-   "at": "2026-09-19T17:42:01Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/47",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9407095 BOUNTY FOR IMPLEMENTING GNU OMNIBLOCKS INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/47",
-   "at": "2026-09-19T17:41:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9407095,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/46",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1336,20 +1360,6 @@
     "labels": [
      "bounty"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14997",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): calendar (.ics) recipes for action items and conversations ($50 proposed, $25 each)",
-   "url": "https://github.com/BasedHardware/omi/issues/14997",
-   "at": "2026-09-19T17:39:39Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "knoauktasu5624-wq",
-    "labels": []
    }
   },
   {
