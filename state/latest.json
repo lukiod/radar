@@ -1,6 +1,191 @@
 {
- "generated_at": "2026-09-20T17:23:38Z",
+ "generated_at": "2026-09-20T19:37:15Z",
  "events": [
+  {
+   "id": "https://github.com/venkatesh4059/Do-Or-Die/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "venkatesh4059/Do-Or-Die: DOD Paid Services \u2014 bounty due diligence, reproducibility audits, agent/API verification",
+   "url": "https://github.com/venkatesh4059/Do-Or-Die/issues/6",
+   "at": "2026-09-20T19:33:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "venkatesh4059",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15245",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): toggling the daily summary can reset its delivery time ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15245",
+   "at": "2026-09-20T19:31:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15243",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(web): adding a vocabulary word can wipe the saved list ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15243",
+   "at": "2026-09-20T19:28:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/tarsnap/issues/948",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/tarsnap#948 How to user `--newer`?",
+   "url": "https://github.com/Tarsnap/tarsnap/issues/948",
+   "at": "2026-09-20T19:21:01Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "gahr"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15241",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed training data status check offers the opt-in again ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15241",
+   "at": "2026-09-20T19:19:57Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15238",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(twitter-chat-tools): failed X calls leak `'NoneType' object has no attribute 'get'`, and unlike/delete report success when nothing happened ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15238",
+   "at": "2026-09-20T19:15:39Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "boai-maker",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15236",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): chat only knows about 3 of your goals ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15236",
+   "at": "2026-09-20T19:15:14Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "jitendravjh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Mantitup-Org/vista/issues/62",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Mantitup-Org/vista: Bug: vista deploy still breaks static hosts and platform adapters",
+   "url": "https://github.com/Mantitup-Org/vista/issues/62",
+   "at": "2026-09-20T18:51:07Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "techistad",
+    "labels": [
+     "bug",
+     "help wanted",
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Mantitup-Org/vista/issues/61",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Mantitup-Org/vista: Bounty: hunt bugs across the entire Vista framework",
+   "url": "https://github.com/Mantitup-Org/vista/issues/61",
+   "at": "2026-09-20T18:51:05Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "techistad",
+    "labels": [
+     "help wanted",
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/441",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#441 NaN -m value bypasses validation and aborts in memtouse()",
+   "url": "https://github.com/Tarsnap/scrypt/issues/441",
+   "at": "2026-09-20T18:22:29Z",
+   "extra": {
+    "state": "CLOSED",
+    "author": "tokenjunkielabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15221",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Afrikaans (af) AI agent quickstart guide (5 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15221",
+   "at": "2026-09-20T18:03:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "1234adi1234",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15213",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(openfoodfacts-app): guard empty-list nutriments, non-string scores, and delimited inputs ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15213",
+   "at": "2026-09-20T17:38:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15211",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(open-library-app): guard null author collections, extract string metadata, disallow boolean limits, and reject non-dict payloads ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15211",
+   "at": "2026-09-20T17:36:21Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15206",
    "source": "github_search",
@@ -9,7 +194,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15206",
    "at": "2026-09-20T17:16:49Z",
    "extra": {
-    "comments": 0,
+    "comments": 3,
     "amount_usd": 50,
     "author": "Abhist17",
     "labels": []
@@ -23,7 +208,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15201",
    "at": "2026-09-20T16:59:00Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 100,
     "author": "singhharsh1708",
     "labels": []
@@ -65,7 +250,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15190",
    "at": "2026-09-20T16:15:17Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 50,
     "author": "knoauktasu5624-wq",
     "labels": []
@@ -594,6 +779,7 @@
     "author": "p32929",
     "labels": [
      "bug",
+     "op_cat: reduces",
      "community"
     ]
    }
@@ -1037,22 +1223,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/f0025ce5f30f8a49e54236d108bbf9dff3c54101",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#56938: Reject integer inputs for float-only unary ops (#56980)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/f0025ce5f30f8a49e54236d108bbf9dff3c54101",
-   "at": "2026-09-19T18:39:23Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_op_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_device_operation.cpp"
-    ],
-    "added": [],
-    "author": "KalaivaniMCW"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -1179,132 +1349,6 @@
     "comments": 0,
     "amount_usd": 50,
     "author": "knoauktasu5624-wq",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/45",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9584258 BOUNTY FOR IMPLEMENTING OMNIBLOCKS INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/45",
-   "at": "2026-09-19T17:38:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9584258,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/44",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9618819 BOUNTY FOR IMPLEMENTING AI ASSIST INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/44",
-   "at": "2026-09-19T17:38:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9618819,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/43",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9691661 BOUNTY FOR IMPLEMENTING [object Object] INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/43",
-   "at": "2026-09-19T17:37:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9691661,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14994",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] security(google-calendar-app): unescaped calendar list in settings page (stored XSS & attribute breakout) and raw exception reflection (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14994",
-   "at": "2026-09-19T17:37:46Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14956",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed integrations fetch shows everything as disconnected ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14956",
-   "at": "2026-09-19T16:42:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "jitendravjh",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14939",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed subscription refresh drops a paid user to no plan ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14939",
-   "at": "2026-09-19T16:15:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "jitendravjh",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "kushBitxHQ/kushbitx-sdk: $50 USDC bounty: integrate @kushbitx/sdk with an AI agent",
-   "url": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
-   "at": "2026-09-19T13:59:34Z",
-   "extra": {
-    "comments": 67,
-    "amount_usd": 50,
-    "author": "kushBitxHQ",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14892",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] security(dropbox-app): unescaped error reflection in OAuth callback, user data reflection, and raw uid parameter injection ($75 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14892",
-   "at": "2026-09-19T12:28:31Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 75,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14890",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] security(whoop-app): unescaped error reflection in OAuth callback and raw uid parameter injection ($75 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14890",
-   "at": "2026-09-19T12:26:11Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 75,
-    "author": "kaleidoscopeAI",
     "labels": []
    }
   },
@@ -1906,30 +1950,6 @@
    "extra": {
     "state": "open",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/948",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#948 How to user `--newer`?",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/948",
-   "at": "2026-09-18T02:40:30Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "gahr"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/927",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#927 tarsnap-recrypt deletes the live block set when old and new keys identify the same machine",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/927",
-   "at": "2026-09-17T18:03:54Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "LubuSeb"
    }
   }
  ],
