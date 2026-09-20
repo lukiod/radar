@@ -1,6 +1,64 @@
 {
- "generated_at": "2026-09-19T22:17:55Z",
+ "generated_at": "2026-09-20T00:14:04Z",
  "events": [
+  {
+   "id": "https://github.com/cosimochellini/one-piece-zero-spoiler/issues/55",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "cosimochellini/one-piece-zero-spoiler: File every bounty poster the story shows",
+   "url": "https://github.com/cosimochellini/one-piece-zero-spoiler/issues/55",
+   "at": "2026-09-19T23:24:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "cosimochellini",
+    "labels": [
+     "content"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/50",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9635072 BOUNTY FOR IMPLEMENTING CAT ASSIST INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/50",
+   "at": "2026-09-19T22:57:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9635072,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57096",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57096 [aw] CI Failure Triage (pilot) produced no safe outputs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57096",
+   "at": "2026-09-19T22:36:34Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/akarahdev/treecutters/issues/23",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "akarahdev/treecutters: [SPARK BOUNTY // URGENT] Update Loop Mechanism",
+   "url": "https://github.com/akarahdev/treecutters/issues/23",
+   "at": "2026-09-19T22:26:36Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "akarahdev",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15080",
    "source": "github_search",
@@ -1180,7 +1238,7 @@
    "url": "https://github.com/kushBitxHQ/kushbitx-sdk/issues/1",
    "at": "2026-09-19T13:59:34Z",
    "extra": {
-    "comments": 23,
+    "comments": 26,
     "amount_usd": 50,
     "author": "kushBitxHQ",
     "labels": []
@@ -1254,76 +1312,6 @@
     "comments": 1,
     "amount_usd": 75,
     "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14886",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] security(github-app): unescaped username/repo/error reflection and raw uid parameter injection (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14886",
-   "at": "2026-09-19T12:17:46Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "kaleidoscopeAI",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-19: 0 new, 0 resumed, 1 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/6",
-   "at": "2026-09-19T12:16:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14881",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] security(twitter): unescaped OAuth `error` and `username` reflected in HTML (reflected/stored XSS) ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14881",
-   "at": "2026-09-19T12:09:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Mateidslx",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/attogram/fantastic-octo-giggle/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "attogram/fantastic-octo-giggle: Bounty for a HUMAN to judge the \"repo dump\" bounty submissions - 142 euros payment",
-   "url": "https://github.com/attogram/fantastic-octo-giggle/issues/6",
-   "at": "2026-09-19T11:28:31Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "attogram",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-19: 0 new, 0 resumed, 3 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/5",
-   "at": "2026-09-19T10:58:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
     "labels": []
    }
   },
@@ -1974,58 +1962,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/98959c4cceca9d0c0bf30dab888f10339b3c23a3",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#32639: Add TTI/TT abstraction and use it for macros (#57021)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/98959c4cceca9d0c0bf30dab888f10339b3c23a3",
-   "at": "2026-09-18T23:07:56Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/.claude/tools/llk-audit/extractor/llk_extract.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_ops.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_ops.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_ops.h"
-    ],
-    "added": [],
-    "author": "nathan-TT"
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1602",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] EKEODKDE9DKE9DO BOUNTY",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1602",
-   "at": "2026-09-18T21:56:35Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/36",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OmniBlocks/bountyfarmer: $\u221e BOUNTY",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/36",
-   "at": "2026-09-18T16:22:46Z",
-   "extra": {
-    "comments": 7,
-    "amount_usd": null,
-    "author": "ampelc",
-    "labels": [
-     "bounty",
-     "meme"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56751",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2042,41 +1978,6 @@
    }
   },
   {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1596",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty $1,500] SFPLOADMACRO produces wrong results under coverage instrumentati",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1596",
-   "at": "2026-09-18T13:45:12Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 1500,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/35",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OmniBlocks/bountyfarmer: CLAIM YOUR REWARD HERE",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/35",
-   "at": "2026-09-18T13:23:10Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "playforge-coding",
-    "labels": [
-     "help wanted",
-     "bounty",
-     "bitcoin"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/52909",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2090,75 +1991,6 @@
      "kinginu"
     ],
     "created": "2026-08-12T08:21:49Z"
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1593",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $239398281948585883* bounty",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1593",
-   "at": "2026-09-18T09:24:56Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 239398281948585883,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/31",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $239398281948585883* bounty",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/31",
-   "at": "2026-09-18T07:44:06Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 239398281948585883,
-    "author": "unconstructable13",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/30",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OmniBlocks/bountyfarmer: Bounty:give boxy its own bitcoin wallet",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/30",
-   "at": "2026-09-18T07:05:59Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "ampelc",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "bitcoin"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/sharmiaalono/go-github/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "sharmiaalono/go-github: \ud83c\udfaf Fix pagination inconsistency and parameter handling when `ListOptions.PerPage` is 0",
-   "url": "https://github.com/sharmiaalono/go-github/issues/5",
-   "at": "2026-09-18T05:13:31Z",
-   "extra": {
-    "comments": 7,
-    "amount_usd": null,
-    "author": "sharmiaalono",
-    "labels": [
-     "bounty",
-     "$10",
-     "bountyhub"
-    ]
    }
   },
   {
