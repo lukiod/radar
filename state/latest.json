@@ -1,6 +1,303 @@
 {
- "generated_at": "2026-09-20T05:09:57Z",
+ "generated_at": "2026-09-20T09:56:53Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15116",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(ms365): normalize recipient inputs and safely coerce date range parameters ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15116",
+   "at": "2026-09-20T09:55:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57117",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57117 k3_contracts occupies a galaxy for 21 s of host-only tests",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57117",
+   "at": "2026-09-20T09:33:21Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15112",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty $150] reliability(plugins): 76 requests calls have no timeout, 19 of them block the event loop",
+   "url": "https://github.com/BasedHardware/omi/issues/15112",
+   "at": "2026-09-20T09:31:09Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 150,
+    "author": "singhharsh1708",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/9173350554b616022b3aa7c4fbad33f13cb36aee",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Schedule the perf measuring pass one test at a time, temp fix for perf instability (#57015)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/9173350554b616022b3aa7c4fbad33f13cb36aee",
+   "at": "2026-09-20T09:28:09Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/run_llk_perf_blackhole.sh",
+     "tt_metal/tt-llk/tests/run_llk_perf_wormhole.sh"
+    ],
+    "added": [],
+    "author": "nstojicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tryproxy/larkspur/issues/25",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "tryproxy/larkspur: Style the Bounty Board so payout and Claim stand out",
+   "url": "https://github.com/tryproxy/larkspur/issues/25",
+   "at": "2026-09-20T09:24:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "tryproxy",
+    "labels": [
+     "showcase"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/lordjames-nexus/kushbitx-grok-agent/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "lordjames-nexus/kushbitx-grok-agent: Bounty submission: kushBitxHQ/kushbitx-sdk#1 ($50 USDC)",
+   "url": "https://github.com/lordjames-nexus/kushbitx-grok-agent/issues/4",
+   "at": "2026-09-20T09:20:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "edwinalexishernandezgonzalez2-rgb",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57116",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57116 ttnn.selu: the registered golden ignores the op's own scale= and alpha= kwargs, returning standard SELU \u2014 up to 3416% off while PCC stays above 0.99",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57116",
+   "at": "2026-09-20T09:10:58Z",
+   "extra": {
+    "author": "p32929",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57115",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57115 ttnn.sum/mean/max/min/std/var: the registered reduction goldens silently drop the `scalar=` kwarg, so the reference is off by up to 300% at PCC 1.0",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57115",
+   "at": "2026-09-20T09:06:46Z",
+   "extra": {
+    "author": "p32929",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Saidur-droid/MergeEarn: [LIVE] Verified NIM bounty board",
+   "url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+   "at": "2026-09-20T08:52:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Saidur-droid",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57112",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57112 Chunked-prefill determinism skip runs after weight load and trace capture",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57112",
+   "at": "2026-09-20T08:23:43Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57111",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57111 _forward_shutdown allocates a plane-scaled host tensor to push a sentinel",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57111",
+   "at": "2026-09-20T08:23:42Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57110",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57110 KdaState._zeros holds a full duplicate carry per KDA layer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57110",
+   "at": "2026-09-20T08:23:30Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57109",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57109 Kimi-K3 AttnRes plane count is derived in three places and BLOCK_SIZE is spelled twice",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57109",
+   "at": "2026-09-20T08:23:28Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57108",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57108 Kimi-K3 weight-cache completeness ignores routed_expert_weights_dtype",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57108",
+   "at": "2026-09-20T08:23:14Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Saidur-droid/MergeEarn/issues/31",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Saidur-droid/MergeEarn: Add a compact proof glossary for first-time bounty visitors",
+   "url": "https://github.com/Saidur-droid/MergeEarn/issues/31",
+   "at": "2026-09-20T08:20:57Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": null,
+    "author": "Saidur-droid",
+    "labels": [
+     "help wanted",
+     "good first issue",
+     "bounty-waiting"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Saidur-droid/MergeEarn/issues/28",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Saidur-droid/MergeEarn: Improve public bounty card accessibility labels",
+   "url": "https://github.com/Saidur-droid/MergeEarn/issues/28",
+   "at": "2026-09-20T08:05:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Saidur-droid",
+    "labels": [
+     "help wanted",
+     "good first issue",
+     "bounty-waiting"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Saidur-droid/MergeEarn/issues/26",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Saidur-droid/MergeEarn: Add a compact contributor onboarding note to funded bounty cards",
+   "url": "https://github.com/Saidur-droid/MergeEarn/issues/26",
+   "at": "2026-09-20T08:05:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Saidur-droid",
+    "labels": [
+     "help wanted",
+     "good first issue",
+     "bounty-waiting"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SO4-Markets/so4-oracle/issues/978",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SO4-Markets/so4-oracle: No CHANGELOG.md exists despite 200+ merged PRs and an active external-contributor bounty program",
+   "url": "https://github.com/SO4-Markets/so4-oracle/issues/978",
+   "at": "2026-09-20T06:50:41Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "abayomicornelius",
+    "labels": [
+     "documentation",
+     "good first issue"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/597dda74eabe7d7d8e10a02a70f6f8a935ee73ab",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[silencer] Scope dfb_prev_max declaration to NUMERIC_STABLE in softmax_large_tensor (#56331)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/597dda74eabe7d7d8e10a02a70f6f8a935ee73ab",
+   "at": "2026-09-20T06:43:54Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/softmax/device/kernels/attention/compute/softmax_large_tensor.cpp"
+    ],
+    "added": [],
+    "author": "github-actions[bot]"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/46e6bb990f7b8dd4210ca42127b5fd10242a754e",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[silencer] Fix unused-but-set variable in layernorm pre-allgather compute kernel (#56799)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/46e6bb990f7b8dd4210ca42127b5fd10242a754e",
+   "at": "2026-09-20T06:42:50Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_pre_allgather.cpp"
+    ],
+    "added": [],
+    "author": "github-actions[bot]"
+   }
+  },
   {
    "id": "https://github.com/itsamuksingh-coder/trendy-flow-v2/issues/611",
    "source": "github_search",
@@ -63,7 +360,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15089",
    "at": "2026-09-20T01:38:35Z",
    "extra": {
-    "comments": 5,
+    "comments": 7,
     "amount_usd": 150,
     "author": "harmonygemini8-collab",
     "labels": []
@@ -474,7 +771,7 @@
    "url": "https://github.com/MentorsMind/MentorsMind-Contract/issues/1130",
    "at": "2026-09-19T19:13:48Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "Benalex8797",
     "labels": []
@@ -604,7 +901,7 @@
    "url": "https://github.com/lordjames-nexus/kushbitx-grok-agent/issues/1",
    "at": "2026-09-19T18:19:41Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "edwinalexishernandezgonzalez2-rgb",
     "labels": []
@@ -1131,62 +1428,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/14935",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): apps whose setup check URL has a query can never be installed ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14935",
-   "at": "2026-09-19T16:10:35Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "jitendravjh",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14933",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): Regenerate and web recap generation skip the #12530 input bound and 500 on heavy days ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14933",
-   "at": "2026-09-19T16:08:42Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 25,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14931",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): users whose time zone is set without an FCM token never get daily recaps ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14931",
-   "at": "2026-09-19T16:02:42Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14928",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): Refresh Manifest deletes an app's webhook and the rest of external_integration ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14928",
-   "at": "2026-09-19T15:58:55Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57088",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1198,118 +1439,6 @@
     "labels": [
      "bug"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14927",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: Memory Markdown export silently overwrites groups with colliding category filenames ($50 bounty proposal)",
-   "url": "https://github.com/BasedHardware/omi/issues/14927",
-   "at": "2026-09-19T15:52:52Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 50,
-    "author": "dsh417",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14925",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed folder refresh wipes the folder tabs ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14925",
-   "at": "2026-09-19T15:51:04Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14923",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): goals come back after a failed delete and never clear when deleted elsewhere ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14923",
-   "at": "2026-09-19T15:46:00Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14921",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): \"Make All Memories Private\" reports success even when the server rejected it ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14921",
-   "at": "2026-09-19T15:36:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14919",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): conversation titles and feedback comments with &, # or + are saved truncated ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14919",
-   "at": "2026-09-19T15:29:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14916",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed Clear Chat leaves the chat stuck on the deleting spinner ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14916",
-   "at": "2026-09-19T15:23:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14912",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): renaming or deleting a person offline still changes the app ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14912",
-   "at": "2026-09-19T14:54:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/14910",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(app): a failed people fetch wipes cached people and speaker names ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/14910",
-   "at": "2026-09-19T14:45:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "singhharsh1708",
-    "labels": []
    }
   },
   {
@@ -1817,21 +1946,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57083",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57083 Fabric packet size defaults to 4352 B, below the 8192 B ideal the CCL validator itself computes for 2048 B pages",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57083",
-   "at": "2026-09-19T06:34:53Z",
-   "extra": {
-    "author": "L-Beale-NZ",
-    "labels": [
-     "performance monitoring",
-     "community"
-    ]
    }
   },
   {
