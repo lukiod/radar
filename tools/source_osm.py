@@ -138,11 +138,21 @@ def load(path):
     return rows
 
 
+def save(path, rows):
+    """Write after every metro: a long run that is killed keeps what it sourced."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows.values()))
+    tmp.replace(path)
+
+
 def main(argv):
     ap = argparse.ArgumentParser()
     ap.add_argument("metros", nargs="+")
     ap.add_argument("--kinds", default="dental,law,home")
     ap.add_argument("--out", default=str(STATE))
+    # Overpass answers 429 past roughly one query a minute from one address.
+    ap.add_argument("--pace", type=int, default=45)
     args = ap.parse_args(argv)
     kinds = args.kinds.split(",")
     out = Path(args.out)
@@ -179,9 +189,8 @@ def main(argv):
             kept += 1
         added += kept
         print(f"{metro}: {len(elements)} elements, {kept} new domains")
-        time.sleep(2)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows.values()))
+        save(out, rows)
+        time.sleep(args.pace)
     print(f"{added} added, {len(rows)} total in {out}")
     return 0
 
