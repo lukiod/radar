@@ -45,9 +45,12 @@ in US Eastern:
 | 16:00 | 25 |
 
 **159 of 208 landed between midnight and 04:00 US Eastern**, and not one landed
-between 08:00 and noon, which is when a small business owner reads email. The
-01:00 bucket is the scheduled window: 09:43 IST plus a 45 second pace is 00:13
-to 01:28 Eastern. The two afternoon buckets are earlier manual runs.
+between 08:00 and noon, which is when a small business owner reads email.
+
+The timer has never fired, so every row here is a manual run and the buckets are
+where this machine's working day falls. The 09:43 this was set to lands in the
+same place, 00:13 to 01:28 Eastern, so it would have repeated the accident daily
+rather than caused it.
 
 The pool is weighted to Central and Mountain rather than Eastern, so midnight
 Eastern is 23:00 Central, 22:00 Mountain and 21:00 Pacific. The whole country
@@ -85,12 +88,12 @@ not broken, and a machine that looks idle earns nothing.
 `scheduling/radar-daily.cmd` is the run, written so it finds the repository
 from its own location rather than from a hardcoded path. Register it:
 
-    schtasks /create /tn "radar daily" /sc daily /st 09:43 ^
+    schtasks /create /tn "radar daily" /sc daily /st 20:30 ^
       /tr "\"C:\path\to\radar\scheduling\radar-daily.cmd\"" /f
 
 Then open the task in Task Scheduler and tick **Run task as soon as possible
 after a scheduled start is missed**, which is what `Persistent=true` does on
-Linux. Without it a laptop asleep at 09:43 skips the day. Setting
+Linux. Without it a laptop asleep at 20:30 skips the day. Setting
 `RandomDelay` to `PT7M` on the trigger matches `RandomizedDelaySec=7min`.
 
 ## What has to move with the machine
