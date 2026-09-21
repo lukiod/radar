@@ -1,0 +1,13 @@
+[Unit]
+Description=radar: build today's outreach queue and send it
+
+[Service]
+Type=oneshot
+TimeoutStartSec=infinity
+Environment=RADAR_DAILY_CAP=100
+WorkingDirectory=%h/Desktop/opensource/MershLab/radar
+ExecStart=/usr/bin/python3 %h/Desktop/opensource/MershLab/radar/tools/daily.py --cap 100 --pace 45
+StandardOutput=append:%h/Desktop/opensource/MershLab/internal-docs/comms/outreach-state/daily.log
+StandardError=append:%h/Desktop/opensource/MershLab/internal-docs/comms/outreach-state/daily.log
+Nice=10
+IOSchedulingClass=idle

@@ -1,0 +1,11 @@
+[Unit]
+Description=radar: send the day's outreach queue, daily
+
+[Timer]
+OnCalendar=*-*-* 09:43:00
+RandomizedDelaySec=7min
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target
