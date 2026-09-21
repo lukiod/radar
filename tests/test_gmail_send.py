@@ -2,9 +2,11 @@
 
 Run: python3 tests/test_gmail_send.py
 """
+import io
 import json
 import sys
 import tempfile
+import time
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
@@ -85,6 +87,63 @@ class BudgetTests(unittest.TestCase):
     def test_an_unreadable_counter_is_not_fatal(self):
         self.budget.write_text("{not json", encoding="utf-8")
         self.assertEqual(reserve_send(5, self.queues), 1)
+
+
+class TokenRefreshTests(unittest.TestCase):
+    """The credential file every send depends on.
+
+    It was written by opening the real path with "w" and dumping into it, so
+    the file was truncated before the replacement bytes existed. A crash in
+    between left a file json cannot parse, and every send fails on an
+    unparseable credential file until somebody reads it. The refresh runs once
+    per row and the day's send is now a timer nobody is watching, which is what
+    makes the window worth closing.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.real_dir = gmail_send.TOKEN_DIR
+        gmail_send.TOKEN_DIR = self.tmp.name
+        self.dir = Path(self.tmp.name)
+        self.creds = self.dir / "credentials.json"
+        (self.dir / "gcp-oauth.keys.json").write_text(
+            json.dumps({"installed": {"client_id": "i", "client_secret": "s"}}), encoding="utf-8")
+        self.creds.write_text(json.dumps(
+            {"access_token": "old", "refresh_token": "r", "expiry_date": 0}), encoding="utf-8")
+        original = gmail_send.urllib.request.urlopen
+        gmail_send.urllib.request.urlopen = lambda *a, **k: io.BytesIO(
+            json.dumps({"access_token": "new", "expires_in": 3600}).encode())
+        self.addCleanup(setattr, gmail_send.urllib.request, "urlopen", original)
+        self.addCleanup(setattr, gmail_send, "TOKEN_DIR", self.real_dir)
+        self.addCleanup(self.tmp.cleanup)
+
+    def test_a_refresh_replaces_the_file_and_leaves_it_parseable(self):
+        self.assertEqual(gmail_send.access_token(), "new")
+        self.assertEqual(json.loads(self.creds.read_text(encoding="utf-8"))["access_token"], "new")
+
+    def test_no_temp_file_is_left_behind(self):
+        gmail_send.access_token()
+        self.assertEqual(list(self.dir.glob("*.tmp")), [])
+
+    def test_a_write_that_fails_leaves_the_old_credentials_intact(self):
+        """The point of the temp file. With the old code the real path was
+        already truncated at this moment, so the file read back empty and the
+        next send could not authenticate at all."""
+        def boom(*a, **k):
+            raise OSError("disk full")
+        original = gmail_send.json.dump
+        gmail_send.json.dump = boom
+        self.addCleanup(setattr, gmail_send.json, "dump", original)
+        with self.assertRaises(OSError):
+            gmail_send.access_token()
+        self.assertEqual(json.loads(self.creds.read_text(encoding="utf-8"))["access_token"], "old")
+        self.assertEqual(list(self.dir.glob("*.tmp")), [])
+
+    def test_a_live_token_is_used_without_a_refresh(self):
+        self.creds.write_text(json.dumps(
+            {"access_token": "live", "refresh_token": "r",
+             "expiry_date": int((time.time() + 3600) * 1000)}), encoding="utf-8")
+        self.assertEqual(gmail_send.access_token(), "live")
 
 
 if __name__ == "__main__":

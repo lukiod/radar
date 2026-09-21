@@ -64,10 +64,13 @@ def suppressed(addr, table):
 
 
 def access_token():
-    creds = json.load(open(os.path.join(TOKEN_DIR, "credentials.json")))
+    creds_path = os.path.join(TOKEN_DIR, "credentials.json")
+    with open(creds_path, encoding="utf-8") as fh:
+        creds = json.load(fh)
     if creds.get("expiry_date", 0) > time.time() * 1000 + 60_000:
         return creds["access_token"]
-    keys = json.load(open(os.path.join(TOKEN_DIR, "gcp-oauth.keys.json")))
+    with open(os.path.join(TOKEN_DIR, "gcp-oauth.keys.json"), encoding="utf-8") as fh:
+        keys = json.load(fh)
     client = keys.get("installed") or keys.get("web")
     form = urllib.parse.urlencode({
         "client_id": client["client_id"],
@@ -81,7 +84,22 @@ def access_token():
         tok = json.load(resp)
     creds["access_token"] = tok["access_token"]
     creds["expiry_date"] = int((time.time() + tok.get("expires_in", 3600)) * 1000)
-    json.dump(creds, open(os.path.join(TOKEN_DIR, "credentials.json"), "w"))
+    # Through a private temp file, moved into place. Opening the real path with
+    # "w" truncates it before the new bytes exist, so a crash in between leaves
+    # a file json cannot parse and every later send fails on it. The refresh
+    # runs per row, the day's send is a timer nobody watches, and two senders
+    # can hold the file at once, which the per process name also rules out.
+    tmp = f"{creds_path}.{os.getpid()}.tmp"
+    try:
+        with open(tmp, "w", encoding="utf-8") as fh:
+            json.dump(creds, fh)
+        os.replace(tmp, creds_path)
+    except BaseException:
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+        raise
     return creds["access_token"]
 
 
