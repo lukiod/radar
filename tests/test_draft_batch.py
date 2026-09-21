@@ -2,6 +2,8 @@
 
 Run: python3 tests/test_draft_batch.py
 """
+import datetime
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -254,6 +256,45 @@ class AddressLiveTests(unittest.TestCase):
         self.assertTrue(address_live("info@example.com"))
         self.assertTrue(address_live("info@example.com"))
         self.assertEqual(len(calls), 1)
+
+    def _cache(self, status, at):
+        draft_batch.EMAIL_CACHE.write_text(json.dumps(
+            {"info@example.com": {"status": status, "at": at}}))
+
+    def test_a_refused_probe_is_asked_again_once_it_is_stale(self):
+        """213 of 565 cached verdicts were the host refusing our probing IP,
+        and every one was reported as a mailbox that does not exist. A
+        refusal says nothing about the mailbox, so it cannot stand forever."""
+        self._cache("probe_blocked",
+                    (datetime.date.today() - datetime.timedelta(days=30)).isoformat())
+        draft_batch.rcpt_check = lambda a: ("accepted", "ok")
+        self.assertTrue(address_live("info@example.com"))
+
+    def test_a_fresh_refusal_still_holds_the_row_back(self):
+        self._cache("probe_blocked", datetime.date.today().isoformat())
+        calls = []
+        draft_batch.rcpt_check = lambda a: (calls.append(a), ("accepted", "ok"))[1]
+        self.assertFalse(address_live("info@example.com"))
+        self.assertEqual(calls, [])
+
+    def test_a_confirmed_mailbox_is_never_asked_again(self):
+        self._cache("accepted", "2020-01-01")
+        calls = []
+        draft_batch.rcpt_check = lambda a: (calls.append(a), ("accepted", "ok"))[1]
+        self.assertTrue(address_live("info@example.com"))
+        self.assertEqual(calls, [])
+
+    def test_a_dead_mailbox_is_settled(self):
+        self._cache("dead", "2020-01-01")
+        calls = []
+        draft_batch.rcpt_check = lambda a: (calls.append(a), ("accepted", "ok"))[1]
+        self.assertFalse(address_live("info@example.com"))
+        self.assertEqual(calls, [])
+
+    def test_a_verdict_from_before_dates_were_stored_is_asked_again(self):
+        draft_batch.EMAIL_CACHE.write_text(json.dumps({"info@example.com": "probe_blocked"}))
+        draft_batch.rcpt_check = lambda a: ("accepted", "ok")
+        self.assertTrue(address_live("info@example.com"))
 
 
 class SelfCheckTests(unittest.TestCase):

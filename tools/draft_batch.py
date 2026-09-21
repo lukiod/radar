@@ -357,6 +357,13 @@ def unusable(a, domain):
     return None
 
 
+# A refused probe is a fact about this connection, so the verdict is asked
+# again after a gap instead of standing as a verdict on the mailbox forever.
+PROBE_RETRY_DAYS = 7
+# Only a mailbox the server says is gone is settled.
+SETTLED = ("dead",)
+
+
 def address_live(address):
     """True only when the mail server confirmed the mailbox is there.
 
@@ -367,24 +374,62 @@ def address_live(address):
     Spamhaus listing, or a timeout, is a fact about this connection and not
     about the mailbox, so it is not a rejection either. It is an unknown, and
     an unknown is not a yes.
+
+    An unknown is still not a yes after a week, but it is not a no either.
+    Holding it forever made a fact about our own probing IP into a permanent
+    verdict on the address, and 213 of 565 cached verdicts were exactly that,
+    every one of them reported as a mailbox that does not exist. Only a dead
+    mailbox is settled; a refusal is asked again after PROBE_RETRY_DAYS.
     """
     if "@" not in address:
         return False
+    cache = probe_cache()
+    entry = cache.get(address)
+    status = entry.get("status") if isinstance(entry, dict) else entry
+    at = entry.get("at") if isinstance(entry, dict) else None
+    if status == "accepted":
+        return True
+    if status in SETTLED:
+        return False
+    # An entry with no date was written before verdicts carried one, so it is
+    # asked again rather than trusted.
+    age = probe_age_days(at)
+    if status is not None and age is not None and age < PROBE_RETRY_DAYS:
+        return False
+    status, _ = rcpt_check(address)
+    verdict = "dead" if status in ("rejected", "no_mx") else status
+    cache[address] = {"status": verdict, "at": datetime.date.today().isoformat()}
     try:
-        cache = json.loads(EMAIL_CACHE.read_text())
+        EMAIL_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        tmp = EMAIL_CACHE.with_name(EMAIL_CACHE.name + ".tmp")
+        tmp.write_text(json.dumps(cache, sort_keys=True))
+        tmp.replace(EMAIL_CACHE)
     except Exception:
-        cache = {}
-    if address not in cache:
-        status, _ = rcpt_check(address)
-        cache[address] = "dead" if status in ("rejected", "no_mx") else status
-        try:
-            EMAIL_CACHE.parent.mkdir(parents=True, exist_ok=True)
-            tmp = EMAIL_CACHE.with_name(EMAIL_CACHE.name + ".tmp")
-            tmp.write_text(json.dumps(cache, sort_keys=True))
-            tmp.replace(EMAIL_CACHE)
-        except Exception:
-            pass
-    return cache[address] == "accepted"
+        pass
+    return verdict == "accepted"
+
+
+def probe_cache():
+    try:
+        return json.loads(EMAIL_CACHE.read_text())
+    except Exception:
+        return {}
+
+
+def probe_age_days(at):
+    """How long ago a verdict was taken, or None when it carries no date."""
+    if not at:
+        return None
+    try:
+        return (datetime.date.today() - datetime.date.fromisoformat(at)).days
+    except ValueError:
+        return None
+
+
+def probe_verdict(address):
+    """The stored verdict for an address, for reporting why a row was dropped."""
+    entry = probe_cache().get(address)
+    return entry.get("status") if isinstance(entry, dict) else entry
 
 
 def main(argv):
@@ -433,7 +478,8 @@ def main(argv):
                 skipped["already contacted"] = skipped.get("already contacted", 0) + 1
                 continue
             if not address_live(email):
-                skipped["mailbox does not exist"] = skipped.get("mailbox does not exist", 0) + 1
+                why = probe_verdict(email) or "unprobed"
+                skipped[f"probe {why}"] = skipped.get(f"probe {why}", 0) + 1
                 continue
             rows.append({
                 "slug": p["domain"].split(".")[0], "lane": "agency", "kind": "agency", "metro": p["metro"], "domain": p["domain"],
@@ -458,7 +504,8 @@ def main(argv):
             skipped["already contacted"] = skipped.get("already contacted", 0) + 1
             continue
         if not address_live(email):
-            skipped["mailbox does not exist"] = skipped.get("mailbox does not exist", 0) + 1
+            why = probe_verdict(email) or "unprobed"
+            skipped[f"probe {why}"] = skipped.get(f"probe {why}", 0) + 1
             continue
         facts = facts_sentence(p["kind"], p["domain"], lk)
         if not facts:
