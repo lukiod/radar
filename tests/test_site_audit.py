@@ -7,8 +7,29 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from site_audit import has_form, is_parked, redirect_target  # noqa: E402
+from site_audit import JUNK_EMAIL, PLACEHOLDER_LOCAL, find_emails, has_form, is_parked, redirect_target  # noqa: E402
 from site_audit import has_online_booking  # noqa: E402
+
+
+class JunkAddressTests(unittest.TestCase):
+    """srcset filenames parse as addresses. Shipping .webp means sending to a
+    filename, and the placeholder check has to be exact or it eats real ones."""
+
+    def test_image_filenames_are_not_addresses(self):
+        html = 'srcset="az-specialist@2x.webp 2x, header-logo@2x.webp 2x"'
+        self.assertEqual([e for e in find_emails(html.lower(), "1800theeagle.com") if "webp" in e], [])
+
+    def test_a_placeholder_is_not_an_address(self):
+        html = "write to example@gmail.com or test@acmedental.com"
+        self.assertEqual(find_emails(html.lower(), "acmedental.com"), [])
+
+    def test_a_real_address_ending_in_example_is_kept(self):
+        html = "careexample@gmail.com"
+        self.assertEqual(find_emails(html.lower(), "careexample.com"), ["careexample@gmail.com"])
+
+    def test_a_domain_broker_is_not_an_address(self):
+        html = "interested@domainmarket.com"
+        self.assertEqual(find_emails(html.lower(), "forsale.com"), [])
 
 
 class AcuityShortLinkTests(unittest.TestCase):

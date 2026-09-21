@@ -97,7 +97,15 @@ ANCHOR_RE = re.compile(r"<(?:a|button)\b([^>]*)>(.*?)</(?:a|button)>", re.S)
 HREF_RE = re.compile(r'href\s*=\s*["\']([^"\']+)', re.I)
 EMAIL_RE = re.compile(r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", re.I)
 CONTACT_WORDS = ("contact", "consult", "schedule", "book", "appoint", "request")
-JUNK_EMAIL = ("example.com", "sentry", "wixpress", "domain.com", "email.com", ".png", ".jpg", ".gif", ".svg", "godaddy", "wordpress", "noreply", "no-reply")
+# ".webp" and friends are image extensions that only ever appear here as srcset
+# filenames ("logo@2x.webp"), and "@example." pins the whole local part to the
+# placeholder word, so a real address ending in "example" is left alone.
+JUNK_EMAIL = ("example.com", "sentry", "wixpress", "domain.com", "email.com", ".png", ".jpg", ".jpeg",
+              ".gif", ".svg", ".webp", ".avif", "godaddy", "wordpress", "noreply", "no-reply",
+              "domainmarket.com")
+# Placeholder local parts sit at the start of the address, so a substring test
+# cannot see them without also catching "careexample@". Exact match only.
+PLACEHOLDER_LOCAL = ("example", "test", "yourname", "youremail", "yourdomain", "emailaddress")
 
 
 # Widget paths, not hostnames: leadconnector also serves review widgets.
@@ -228,7 +236,7 @@ def find_emails(lower, domain):
     found = set()
     for m in EMAIL_RE.findall(lower):
         m = m.strip(".").lower()
-        if any(j in m for j in JUNK_EMAIL):
+        if any(j in m for j in JUNK_EMAIL) or m.split("@")[0] in PLACEHOLDER_LOCAL:
             continue
         found.add(m)
     own = {e for e in found if e.endswith("@" + domain.replace("www.", "")) or e.endswith("." + domain.replace("www.", ""))}
