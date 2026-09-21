@@ -5,6 +5,7 @@ Run: PYTHONPATH=. python3 tests/test_inbox_check.py
 import base64
 import contextlib
 import io
+import json
 import sys
 import tempfile
 import unittest
@@ -269,6 +270,73 @@ class UnparsedBounceTests(MailboxHarness):
         self.scan(apply_bounces=True)
         self.assertIn("info@dead.com", self.supp.read_text())
         self.assertEqual(self.saved[-1], {"m1"})
+
+
+class ReplyStopsTheSequenceTests(unittest.TestCase):
+    """A reply used to change nothing. The next queue was drawn from the pool
+    and the address could be mailed again as cold, so the one lead in this
+    pipeline that is worth money was treated as though it did not exist."""
+
+    def setUp(self):
+        self.mod = inbox_check
+        self.tmp = Path(tempfile.mkdtemp())
+        self.supp = self.tmp / "suppression.txt"
+        self.supp.write_text("# nothing suppressed yet\n")
+        self.queues = self.tmp / "queues"
+        self.queues.mkdir()
+        (self.queues / "2026-09-22.jsonl").write_text(
+            json.dumps({"to": "info@romanaustin.com", "domain": "romanaustin.com"}) + "\n")
+        self.mod.SUPPRESSION = str(self.supp)
+        self.mod.QUEUES = str(self.queues)
+        self.mod.access_token = lambda: "t"
+        self.mod.profile_address = lambda t: "mohaktheprodev@gmail.com"
+        self.mod.load_seen = lambda: set()
+        self.mod.save_seen = lambda s: None
+
+    def mailbox(self, sender):
+        self.mod.message_ids = lambda t, q: ["m1"]
+        self.mod.api = lambda t, path, **kw: {"payload": {"headers": [
+            {"name": "From", "value": sender},
+            {"name": "Subject", "value": "Re: romanaustin.com"},
+            {"name": "Date", "value": "Mon, 21 Sep 2026 10:00:00 +0000"}]},
+            "snippet": "yes, tell me more"}
+
+    def scan(self, apply_replies):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.mod.scan(14, False, apply_replies)
+        return buf.getvalue()
+
+    def test_a_prospect_reply_is_named_as_answered(self):
+        self.mailbox("Roman Austin <info@romanaustin.com>")
+        self.assertIn("ANSWERED, no further automated mail", self.scan(False))
+
+    def test_the_address_is_written_so_the_pool_cannot_draw_it_again(self):
+        self.mailbox("Roman Austin <info@romanaustin.com>")
+        self.scan(True)
+        self.assertIn("info@romanaustin.com", self.supp.read_text())
+        self.assertIn("# replied", self.supp.read_text())
+
+    def test_a_plain_run_writes_nothing_and_says_how_to(self):
+        self.mailbox("Roman Austin <info@romanaustin.com>")
+        out = self.scan(False)
+        self.assertNotIn("info@romanaustin.com", self.supp.read_text())
+        self.assertIn("--apply-replies", out)
+
+    def test_a_newsletter_from_a_stranger_is_not_recorded_as_an_answer(self):
+        """Anything not ours and not a system sender is classified as a
+        reply, so without the queue check a supplier newsletter would become
+        a reason never to write to that address again."""
+        self.mailbox("Some Vendor <news@vendor.example>")
+        out = self.scan(True)
+        self.assertNotIn("ANSWERED", out)
+        self.assertNotIn("vendor.example", self.supp.read_text())
+
+    def test_an_address_already_suppressed_is_not_written_twice(self):
+        self.supp.write_text("info@romanaustin.com  # already there\n")
+        self.mailbox("Roman Austin <info@romanaustin.com>")
+        self.scan(True)
+        self.assertEqual(self.supp.read_text().count("info@romanaustin.com"), 1)
 
 
 if __name__ == "__main__":

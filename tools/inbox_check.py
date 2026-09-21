@@ -3,11 +3,17 @@
     python3 tools/inbox_check.py                  # new mail since the last run
     python3 tools/inbox_check.py --days 30
     python3 tools/inbox_check.py --apply-bounces  # write new bounces to suppression.txt
+    python3 tools/inbox_check.py --apply-replies  # and stop automated mail to anyone who answered
 
 Replies are the only thing in this pipeline that can turn into money, and
 nothing was reading them. Bounces were arriving the same way and being
 recorded by hand, which is how the ledger came to hold 8 rejects where the
-suppression list holds 9. Stdlib only.
+suppression list holds 9.
+
+A reply from a prospect is now recorded as a reason to stop writing to them.
+Someone who answered is a person on the other end of the thread, whatever
+they said, and one that is worth money must not be queued again as cold.
+Stdlib only.
 """
 
 import argparse
@@ -29,6 +35,8 @@ from state_paths import INBOX_SEEN  # noqa: E402
 STATE = str(INBOX_SEEN)
 SUPPRESSION = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",
                            "internal-docs", "comms", "suppression.txt")
+QUEUES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",
+                      "internal-docs", "comms", "queues")
 BOUNCE_FROM = ("mailer-daemon", "postmaster")
 FINAL_RE = re.compile(r"^final-recipient:\s*(?:rfc822;)?\s*(\S+)", re.I | re.M)
 ACTION_RE = re.compile(r"^action:\s*(\S+)", re.I | re.M)
@@ -166,6 +174,32 @@ def load_suppression():
     return out
 
 
+def written_to():
+    """Every address and domain this pipeline has actually emailed.
+
+    A reply is only a reply if it comes from someone we wrote to. Anything in
+    the mailbox that is not ours and not a system sender is classified as a
+    reply, so without this a supplier newsletter becomes an answer, and an
+    answer is about to be recorded as a reason never to write again.
+    """
+    addrs, domains = set(), set()
+    if not os.path.isdir(QUEUES):
+        return addrs, domains
+    for name in os.listdir(QUEUES):
+        if not name.endswith(".jsonl"):
+            continue
+        with open(os.path.join(QUEUES, name), encoding="utf-8") as fh:
+            for line in fh:
+                if not line.strip():
+                    continue
+                row = json.loads(line)
+                if row.get("to"):
+                    addrs.add(row["to"].strip().lower())
+                if row.get("domain"):
+                    domains.add(row["domain"].strip().lower())
+    return addrs, domains
+
+
 def message_ids(token, query):
     out, page = [], None
     while True:
@@ -177,7 +211,7 @@ def message_ids(token, query):
     return out
 
 
-def scan(days, apply_bounces):
+def scan(days, apply_bounces, apply_replies=False):
     token = access_token()
     me = profile_address(token).lower()
     seen = load_seen()
@@ -212,6 +246,13 @@ def scan(days, apply_bounces):
         fresh.add(mid)
 
     print(f"{len(fresh)} new message(s) in the last {days} days\n")
+    answered = set()
+    if replies:
+        addrs, domains = written_to()
+        for from_addr, *_ in replies:
+            who = address_of(from_addr)
+            if who and (who in addrs or who.split("@")[-1] in domains):
+                answered.add(who)
     if replies:
         print(f"REPLIES ({len(replies)})")
         for from_addr, subject, snippet, date in replies:
@@ -220,8 +261,28 @@ def scan(days, apply_bounces):
                 when = parsedate_to_datetime(date).astimezone(timezone.utc).strftime("%m %d %H:%M")
             except Exception:
                 pass
-            print(f"  {when}  {from_addr}\n    {subject}\n    {snippet[:220]}")
+            mark = "   ANSWERED, no further automated mail" if address_of(from_addr) in answered else ""
+            print(f"  {when}  {from_addr}{mark}\n    {subject}\n    {snippet[:220]}")
         print()
+    # A prospect who answered has a person on the other end, whatever they
+    # said, and the sequence has to stop for them. Until this was written a
+    # reply changed nothing: the next queue was drawn from the pool and the
+    # address could be mailed again, which is the one lead in the pipeline
+    # that is worth money being treated as though it did not exist.
+    if answered:
+        if apply_replies:
+            table = load_suppression()
+            lines = [f"{who}  # replied {datetime.now(timezone.utc):%Y-%m-%d}, handled by hand"
+                     for who in sorted(answered)
+                     if who not in table and who.split("@")[-1] not in table]
+            if lines:
+                with open(SUPPRESSION, "a", encoding="utf-8") as fh:
+                    for line in lines:
+                        fh.write(line + "\n")
+                print(f"  {len(lines)} address(es) written to suppression.txt, automated mail stops")
+            print()
+        else:
+            print("  rerun with --apply-replies to stop automated mail to these addresses\n")
     # A bounce that is not yet in suppression.txt has not been dealt with, so
     # it is held out of `seen` and reported again next run. Otherwise a look at
     # the mailbox without --apply-bounces marks it read and the address is
@@ -278,8 +339,10 @@ def main(argv):
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=14)
     ap.add_argument("--apply-bounces", action="store_true")
+    ap.add_argument("--apply-replies", action="store_true",
+                    help="stop automated mail to any address that answered")
     args = ap.parse_args(argv)
-    replies, bounces = scan(args.days, args.apply_bounces)
+    replies, bounces = scan(args.days, args.apply_bounces, args.apply_replies)
     return 0
 
 
