@@ -222,18 +222,21 @@ def self_check(kind, domain, lk):
     """
     if "booking" not in lk:
         # A scheduler already works, so the gap is the question in front of it.
-        return (f"Try it yourself first: open {domain} on your phone and look for a way to ask a "
-                "question before committing to a time. Anyone who will not book without asking "
+        return (f"If you want to see it yourself, open {domain} on your phone and look for a way to "
+                "ask a question before committing to a time. Anyone who will not book without asking "
                 "first has to call during office hours instead, and most of them never do.")
-    # The tail must not restate the opening fact sentence, which already ends
-    # on who wins the after hours visitor. This one names what is lost.
-    what, then = {
-        "dental": ("book an appointment", "that is a new patient lost before the office opens"),
-        "law": ("book a consult", "that is a consult lost before anyone calls back"),
-        "home": ("book a job", "that is the job gone to whoever answered"),
-    }.get(kind, ("book", "that is the job gone to the next company on the list"))
-    return (f"Try it yourself first: open {domain} on your phone and look for a way to {what}. "
-            f"Anyone reading that at night does the same, and {then}.")
+    # This paragraph is the invitation to check, not a second telling of the
+    # loss. It used to close on "anyone reading that at night does the same,
+    # and that is a consult lost before anyone calls back", which is the
+    # opening sentence's own punchline said again in the same words, and the
+    # command that led it read as a challenge rather than as an offer.
+    what = {
+        "dental": "book an appointment",
+        "law": "book a consult",
+        "home": "book a job",
+    }.get(kind, "book")
+    return (f"If you want to see it yourself, open {domain} on your phone and look for a way "
+            f"to {what}.")
 
 
 def subject_for(kind, domain, lk):
