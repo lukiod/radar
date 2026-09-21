@@ -58,6 +58,28 @@ def pending(path):
     return n
 
 
+def send_follow_ups(pace, dry_run=False):
+    """Send every second touch that is drafted and still unsent.
+
+    follow_up.py builds the lane and nothing ran it, so a file it wrote was as
+    far as a follow up got. Seven written notes, three of them to a named
+    person, sat in 2026-09-21-followup.jsonl with no schedule that would ever
+    pick them up, and a rebuild would not have recovered them either: spoken_for
+    counts a row already carrying follow_up_of in a queue as claimed, so a
+    second build drops them.
+
+    They go out ahead of the cold queue because a note under a thread the
+    reader already opened is worth more than one more first touch, and the
+    mailbox cap covers both, so the day's total is unchanged.
+    """
+    n = 0
+    for f in sorted(QUEUES.glob("*-followup.jsonl")):
+        if pending(f) == 0:
+            continue
+        n += run_queue(str(f), pace, 0, dry_run)
+    return n
+
+
 def read_replies(days=3, apply=True):
     """Read the mailbox on the way in, rather than when someone remembers to.
 
@@ -100,6 +122,11 @@ def main(argv):
     # suppression it writes is in place before the builder and the sender look
     # at it.
     read_replies(apply=not args.dry_run)
+
+    # Before the queue check, so a day whose cold queue already went out still
+    # gets its second touches away instead of returning here and stranding them.
+    sent_follow = send_follow_ups(args.pace, args.dry_run)
+    print(f"{'would send' if args.dry_run else 'sent'} {sent_follow} follow up(s)")
 
     if pending(queue) == 0:
         # A queue that already sent some rows is not refilled: a past day's
