@@ -135,6 +135,17 @@ class ClaimedIdentifiersTests(unittest.TestCase):
         self.write("2026-09-19-backlog.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
         self.assertEqual(claimed_identifiers(), set())
 
+    def test_a_row_already_sent_out_of_a_backlog_does_speak_for_the_firm(self):
+        """The hole the backlog skip left. A firm mailed out of a backlog was
+        not spoken for, so a second row for it in another backlog was drawn and
+        got a second cold email. Only the sent row counts, so an unsent one in
+        the same file still leaves the pool drawable."""
+        self.write("2026-09-19-backlog.jsonl", [
+            {"to": "joel@firm.com", "domain": "firm.com", "message_id": "m1"},
+            {"to": "anna@other.com", "domain": "other.com"},
+        ])
+        self.assertEqual(claimed_identifiers(), {"joel@firm.com", "firm.com"})
+
     def test_the_file_being_built_does_not_claim_its_own_rows(self):
         self.write("2026-09-19.jsonl", [{"to": "joel@firm.com", "domain": "firm.com"}])
         self.assertEqual(claimed_identifiers(self.tmp / "2026-09-19.jsonl"), set())

@@ -43,15 +43,22 @@ def claimed_identifiers(except_path=None):
     emails, which is the failure this exists to stop, and it happened, five
     firms shared between the 09 18 and 09 19 queues.
 
-    Backlogs are skipped because they are the pool being drawn from, and the
-    file being built is skipped so a rebuild returns the same rows twice.
+    A backlog is the pool being drawn from, so only its sent rows count. It
+    used to be skipped whole, which left a hole: a firm mailed out of a
+    backlog was not spoken for, so a second row for that firm in another
+    backlog was drawable and got a second cold email. The two backlogs are
+    built from overlapping pools, so the hole was one rebuild away from
+    mattering, and 485 drawable rows checked against every send found it
+    still empty. A sent row carries a message_id and a pool row does not,
+    which is the whole distinction.
+
+    The file being built is skipped so a rebuild returns the same rows twice.
     """
     out = set()
     except_path = Path(except_path).resolve() if except_path else None
     for folder in QUEUES:
         for f in folder.glob("*.jsonl"):
-            if f.name.endswith("-backlog.jsonl"):
-                continue
+            backlog = f.name.endswith("-backlog.jsonl")
             if except_path and f.resolve() == except_path:
                 continue
             for r in load_jsonl(f):
@@ -60,6 +67,8 @@ def claimed_identifiers(except_path=None):
                 # and claiming their domains marked every sourced firm as
                 # already written to, which starved the queue to nothing.
                 if not r.get("to"):
+                    continue
+                if backlog and not r.get("message_id"):
                     continue
                 out.add(r["to"].lower())
                 if r.get("domain"):
