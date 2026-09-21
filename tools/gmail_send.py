@@ -80,8 +80,22 @@ def access_token(force=False):
     }).encode()
     req = urllib.request.Request("https://oauth2.googleapis.com/token", data=form,
                                  headers={"Content-Type": "application/x-www-form-urlencoded"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        tok = json.load(resp)
+    # This is the first network call on every path (send, inbox scan, follow
+    # up), so a transient DNS or connect failure here used to take the whole
+    # scheduled run down before it built or sent anything. Three tries with a
+    # short backoff turns a one second blip back into a normal run.
+    for attempt, delay in enumerate((0, 5, 15)):
+        if delay:
+            time.sleep(delay)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                tok = json.load(resp)
+            break
+        except urllib.error.HTTPError:
+            raise  # a real answer, e.g. a revoked grant; waiting will not fix it
+        except urllib.error.URLError:
+            if attempt == 2:
+                raise
     creds["access_token"] = tok["access_token"]
     creds["expiry_date"] = int((time.time() + tok.get("expires_in", 3600)) * 1000)
     # Through a private temp file, moved into place. Opening the real path with
