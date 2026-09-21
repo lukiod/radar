@@ -1,6 +1,661 @@
 {
- "generated_at": "2026-09-21T16:49:12Z",
+ "generated_at": "2026-09-21T20:45:43Z",
  "events": [
+  {
+   "id": "https://github.com/Smartdevs17/stellarlend/issues/994",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Unauthenticated insurance API lets callers self-approve KYC, mint policies/coverage, and auto-approve claims",
+   "url": "https://github.com/Smartdevs17/stellarlend/issues/994",
+   "at": "2026-09-21T20:44:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "franklincg",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/anthropics/claude-code/issues/95923",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "anthropics/claude-code: [BUG] Opus 5 Safeguard for Bug Bounty / legit offensive security work. (With CVP approval.)",
+   "url": "https://github.com/anthropics/claude-code/issues/95923",
+   "at": "2026-09-21T20:32:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "FiftyP",
+    "labels": [
+     "bug",
+     "duplicate",
+     "platform:linux",
+     "area:model",
+     "area:security",
+     "api:anthropic"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/devlootxyz-bounties/kanban-test/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "devlootxyz-bounties/kanban-test: Integrate Algorand Testnet wallet connection and task bounty funding",
+   "url": "https://github.com/devlootxyz-bounties/kanban-test/issues/12",
+   "at": "2026-09-21T20:06:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "devloot-bounty-bot[bot]",
+    "labels": [
+     "kanban",
+     "feature",
+     "algorand",
+     "web3"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/apb31/maintainerops/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "apb31/maintainerops: [Cash Ops] Bounty for a HUMAN to judge the \"repo dump\" bounty submissions - 142 euros payment",
+   "url": "https://github.com/apb31/maintainerops/issues/5",
+   "at": "2026-09-21T20:00:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "blocked"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/apb31/maintainerops/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "apb31/maintainerops: [Cash Ops] [Bounty proposal] docs(cli): Spanish agent quickstart and CSV export guide ($60 proposed)",
+   "url": "https://github.com/apb31/maintainerops/issues/6",
+   "at": "2026-09-21T20:00:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "github-actions[bot]",
+    "labels": [
+     "submitted"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57248",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57248 Metal 2.0 base ProgramSpec cache-hit path silently mis-binds aliased input tensors",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57248",
+   "at": "2026-09-21T19:44:50Z",
+   "extra": {
+    "author": "gajanan-choudhary",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57247",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57247 Analyze where existing use cases disabling implicit sync on Quasar can be removed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57247",
+   "at": "2026-09-21T19:39:44Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/336de956a3712ee0be1391c74abeff04efa9f3b5",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Feature] Reconcile Blaze LLK compatibility for remaining header rewires (#55976)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/336de956a3712ee0be1391c74abeff04efa9f3b5",
+   "at": "2026-09-21T19:19:50Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_math_generalized_moe_gate_transpose_dest_single_face_api.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_math_rmsnorm_bcast_scalar_dest_reuse_api.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_add_rsqrt.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_generalized_moe_gate_topk_single_face.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_logit_softcap.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_scalar_block_api.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_sdpa_custom_mm_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/experimental/llk_math_generalized_moe_gate_transpose_dest_single_face_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_generalized_moe_gate_topk_single_face.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/compressed_custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm_reuse_dest_srcb.h",
+     "tt_metal/hw/inc/api/compute/experimental/add_rsqrt.h",
+     "tt_metal/hw/inc/api/compute/experimental/compressed_custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/csa_index_remap.h",
+     "tt_metal/hw/inc/api/compute/experimental/custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/custom_pack_untilize.h",
+     "tt_metal/hw/inc/api/compute/experimental/eltwise_mul_scalar.h",
+     "tt_metal/hw/inc/api/compute/experimental/generalized_moe_gate.h",
+     "tt_metal/hw/inc/api/compute/experimental/hadamard.h",
+     "tt_metal/hw/inc/api/compute/experimental/rmsnorm.h",
+     "tt_metal/hw/inc/api/compute/experimental/rope_sfpu.h",
+     "tt_metal/hw/inc/api/compute/experimental/sdpa.h",
+     "tt_metal/hw/inc/api/compute/experimental/sdpa_custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/topk_xl.h",
+     "tt_metal/tt-llk/tests/helpers/include/topk_xl_test_helpers.h",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
+     "tt_metal/tt-llk/tests/python_tests/test_csa_index_remap.py",
+     "tt_metal/tt-llk/tests/python_tests/test_custom_mm_uninit_parity.py",
+     "tt_metal/tt-llk/tests/python_tests/test_custom_mm_uninit_restore.py",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_mul_scalar_block.py",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_mul_scalar_hifi.py",
+     "tt_metal/tt-llk/tests/python_tests/test_generalized_moe_gate.py",
+     "tt_metal/tt-llk/tests/python_tests/test_mul_reduce_scalar_chunked.py",
+     "tt_metal/tt-llk/tests/python_tests/test_rmsnorm_clear_product_tile.py",
+     "tt_metal/tt-llk/tests/python_tests/test_rope.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sdpa_custom_mm.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_add_rsqrt.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_generic_moe_gate_topk.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_logit_softcap.py"
+    ],
+    "added": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_scalar_block_api.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/compressed_custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm_reuse_dest_srcb.h",
+     "tt_metal/hw/inc/api/compute/experimental/csa_index_remap.h",
+     "tt_metal/hw/inc/api/compute/experimental/custom_pack_untilize.h",
+     "tt_metal/tt-llk/tests/helpers/include/topk_xl_test_helpers.h",
+     "tt_metal/tt-llk/tests/python_tests/test_csa_index_remap.py",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_mul_scalar_block.py",
+     "tt_metal/tt-llk/tests/python_tests/test_rmsnorm_clear_product_tile.py",
+     "tt_metal/tt-llk/tests/sources/csa_index_remap_test.cpp",
+     "tt_metal/tt-llk/tests/sources/eltwise_mul_scalar_block_test.cpp",
+     "tt_metal/tt-llk/tests/sources/rmsnorm_clear_product_tile_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_csa_index_remap.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_eltwise_mul_scalar_block.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_pack_custom_mm.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_scalar_block.h"
+    ],
+    "author": "pmilenkovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/ussyalfaks/ahjoorxmr-contract/issues/878",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ussyalfaks/ahjoorxmr-contract: feat(escrow): Add get_max_bounty_rejection_rounds view function",
+   "url": "https://github.com/ussyalfaks/ahjoorxmr-contract/issues/878",
+   "at": "2026-09-21T19:17:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ussyalfaks",
+    "labels": [
+     "enhancement",
+     "Stellar Wave",
+     "dx"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57243",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57243 Perform Program Descriptor (PD) port for a subset of ops that need it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57243",
+   "at": "2026-09-21T18:56:54Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57242",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57242 Perform Program Descriptor (PD) port for a subset of ops that need it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57242",
+   "at": "2026-09-21T18:53:51Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15563",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(shopify-app): exception text leaks into chat tool responses across 6 endpoints and API client ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15563",
+   "at": "2026-09-21T18:52:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15559",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(shipbob-app): exception text leaks into chat tool responses and OAuth callback across 7 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15559",
+   "at": "2026-09-21T18:49:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15557",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(notion-app): exception text leaks into chat tool responses across 6 endpoints and API client ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15557",
+   "at": "2026-09-21T18:47:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15553",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(linear-app): exception text leaks into chat tool responses across 7 endpoints and GraphQL client ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15553",
+   "at": "2026-09-21T18:44:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57241",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57241 [aw] Failed jobs: Tenstorrent Skills Reviewer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57241",
+   "at": "2026-09-21T18:40:57Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15549",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(openfoodfacts-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15549",
+   "at": "2026-09-21T18:38:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15549",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15549 [Bounty proposal] fix(openfoodfacts-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15549",
+   "at": "2026-09-21T18:38:59Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15546",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(pubmed-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15546",
+   "at": "2026-09-21T18:37:00Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15546",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15546 [Bounty proposal] fix(pubmed-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15546",
+   "at": "2026-09-21T18:37:00Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15544",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(crossref-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15544",
+   "at": "2026-09-21T18:34:51Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15544",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15544 [Bounty proposal] fix(crossref-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15544",
+   "at": "2026-09-21T18:34:51Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15542",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(semantic-scholar-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15542",
+   "at": "2026-09-21T18:32:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15542",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15542 [Bounty proposal] fix(semantic-scholar-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15542",
+   "at": "2026-09-21T18:32:45Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15540",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(open-meteo-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15540",
+   "at": "2026-09-21T18:29:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15540",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15540 [Bounty proposal] fix(open-meteo-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15540",
+   "at": "2026-09-21T18:29:29Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/Smartdevs17/stellarlend/issues/993",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Backend dispute vote resolves after 4/5 jurors, letting 3/5 decide a >66% quorum",
+   "url": "https://github.com/Smartdevs17/stellarlend/issues/993",
+   "at": "2026-09-21T18:28:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "franklincg",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15538",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(open-library-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15538",
+   "at": "2026-09-21T18:27:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15538",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15538 [Bounty proposal] fix(open-library-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15538",
+   "at": "2026-09-21T18:27:24Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57236",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57236 Robust launch/reconnect for the prefill runner (and drop the shmem-queue bring-up)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57236",
+   "at": "2026-09-21T17:43:47Z",
+   "extra": {
+    "author": "dmadicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15529",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(wikipedia-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15529",
+   "at": "2026-09-21T17:42:03Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15529",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15529 [Bounty proposal] fix(wikipedia-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15529",
+   "at": "2026-09-21T17:42:03Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15527",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(stack-overflow-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15527",
+   "at": "2026-09-21T17:40:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15527",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15527 [Bounty proposal] fix(stack-overflow-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15527",
+   "at": "2026-09-21T17:40:05Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15525",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(hume-ai): exception text leaks into HTTP responses across 9 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15525",
+   "at": "2026-09-21T17:37:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "PINYOPATTANAWASANPORN",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15525",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15525 [Bounty proposal] fix(hume-ai): exception text leaks into HTTP responses across 9 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15525",
+   "at": "2026-09-21T17:37:37Z",
+   "extra": {
+    "state": "open",
+    "author": "PINYOPATTANAWASANPORN"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15523",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(coingecko-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15523",
+   "at": "2026-09-21T17:36:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15523",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15523 [Bounty proposal] fix(coingecko-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15523",
+   "at": "2026-09-21T17:36:50Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15521",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(public-holidays-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15521",
+   "at": "2026-09-21T17:35:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15521",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15521 [Bounty proposal] fix(public-holidays-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15521",
+   "at": "2026-09-21T17:35:23Z",
+   "extra": {
+    "state": "open",
+    "author": "Evos09"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15518",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(twitter-chat-tools): exception text leaks into HTTP & chat tool responses across 10 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15518",
+   "at": "2026-09-21T17:34:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ff8c063f81f5f3dd298c4ec3bf918bb2dba810bc",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] #56955: groupnorm sharded Welford kernel strides batches by the group tile span (#57223)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ff8c063f81f5f3dd298c4ec3bf918bb2dba810bc",
+   "at": "2026-09-21T17:02:56Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/kernels/compute/welford_groupnorm_sharded_v2.cpp"
+    ],
+    "added": [],
+    "author": "fplavecTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57232",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57232 Llama 3.3-70B Galaxy unit test hangs at decode token 5 (DramPrefetcher + FF2 matmul) since #55697, watcher-dependent",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57232",
+   "at": "2026-09-21T17:00:26Z",
+   "extra": {
+    "author": "mtairum",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
   {
    "id": "https://github.com/Smartdevs17/stellarlend/issues/990",
    "source": "github_search",
@@ -51,7 +706,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15512",
    "at": "2026-09-21T15:51:12Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 50,
     "author": "Mateidslx",
     "labels": []
@@ -169,7 +824,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15498",
    "at": "2026-09-21T15:34:28Z",
    "extra": {
-    "comments": 0,
+    "comments": 4,
     "amount_usd": 50,
     "author": "Evos09",
     "labels": []
@@ -269,18 +924,6 @@
     "amount_usd": 50,
     "author": "Evos09",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15494",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15494 [Bounty proposal] fix(google-calendar-app): exception text leaks into HTTP & chat tool responses across 8 endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15494",
-   "at": "2026-09-21T15:14:24Z",
-   "extra": {
-    "state": "open",
-    "author": "Evos09"
    }
   },
   {
@@ -385,18 +1028,6 @@
     "amount_usd": 50,
     "author": "kduailabs",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15485",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15485 [Bounty proposal] fix(shopify-app): exception text leaks into HTTP & chat tool responses across 6 endpoints and the shared API helper ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15485",
-   "at": "2026-09-21T14:44:58Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
    }
   },
   {
@@ -643,7 +1274,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15456",
    "at": "2026-09-21T12:12:27Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 25,
     "author": "1234adi1234",
     "labels": []
@@ -1789,18 +2420,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15300",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15300 [Bounty proposal] security(backend): announcements admin gate compares ADMIN_KEY with != \u2014 timing side-channel, diverges from compare_digest standard ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15300",
-   "at": "2026-09-21T00:06:10Z",
-   "extra": {
-    "state": "open",
-    "author": "t3ratech"
-   }
-  },
-  {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/51",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1840,18 +2459,6 @@
     "amount_usd": 150,
     "author": "t3ratech",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15298",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15298 [Bounty proposal] security(oauth): Notion CRM callback trusts raw uid in OAuth state \u2014 grant rebinding, same class as #14690 ($150 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15298",
-   "at": "2026-09-20T23:02:34Z",
-   "extra": {
-    "state": "open",
-    "author": "t3ratech"
    }
   },
   {
@@ -1915,20 +2522,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15281",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): focus-stats with no date sums the user's whole history ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15281",
-   "at": "2026-09-20T20:31:20Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 50,
-    "author": "VIxIon0de",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15281",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15281 [Bounty proposal] fix(backend): focus-stats with no date sums the user's whole history ($50 proposed)",
@@ -1937,34 +2530,6 @@
    "extra": {
     "state": "open",
     "author": "VIxIon0de"
-   }
-  },
-  {
-   "id": "https://github.com/venkatesh4059/Do-Or-Die/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "venkatesh4059/Do-Or-Die: Buy DOD Paid Services \u2014 live $0.01 x402 bounty due-diligence API",
-   "url": "https://github.com/venkatesh4059/Do-Or-Die/issues/6",
-   "at": "2026-09-20T19:33:25Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 0,
-    "author": "venkatesh4059",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15245",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(web): toggling the daily summary can reset its delivery time ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15245",
-   "at": "2026-09-20T19:31:21Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "jitendravjh",
-    "labels": []
    }
   },
   {
@@ -1989,20 +2554,6 @@
    "extra": {
     "state": "OPEN",
     "author": "gahr"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15238",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(twitter-chat-tools): failed X calls leak `'NoneType' object has no attribute 'get'`, and unlike/delete report success when nothing happened ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15238",
-   "at": "2026-09-20T19:15:39Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "boai-maker",
-    "labels": []
    }
   },
   {
@@ -2054,20 +2605,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15221",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Afrikaans (af) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15221",
-   "at": "2026-09-20T18:03:22Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15221",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15221 [Bounty proposal] docs(python-cli): Afrikaans (af) AI agent quickstart guide (5 proposed)",
@@ -2076,20 +2613,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15213",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(openfoodfacts-app): guard empty-list nutriments, non-string scores, and delimited inputs ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15213",
-   "at": "2026-09-20T17:38:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Longo125",
-    "labels": []
    }
   },
   {
@@ -2105,86 +2628,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15211",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(open-library-app): guard null author collections, extract string metadata, disallow boolean limits, and reject non-dict payloads ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15211",
-   "at": "2026-09-20T17:36:21Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 25,
-    "author": "Longo125",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15201",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): get_action_items reads every conversation a user has, whatever the limit ($100 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15201",
-   "at": "2026-09-20T16:59:00Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 100,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15201",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15201 [Bounty proposal] fix(backend): get_action_items reads every conversation a user has, whatever the limit ($100 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15201",
-   "at": "2026-09-20T16:59:00Z",
-   "extra": {
-    "state": "open",
-    "author": "singhharsh1708"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15196",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): the once-a-day persona gate clears mid-afternoon, not at the user's midnight ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15196",
-   "at": "2026-09-20T16:32:50Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "singhharsh1708",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15196",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15196 [Bounty proposal] fix(backend): the once-a-day persona gate clears mid-afternoon, not at the user's midnight ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15196",
-   "at": "2026-09-20T16:32:50Z",
-   "extra": {
-    "state": "open",
-    "author": "singhharsh1708"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15190",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): action items \u2192 Markdown checklist (Obsidian Tasks) and conversation digest recipes ($50 proposed, $25 each)",
-   "url": "https://github.com/BasedHardware/omi/issues/15190",
-   "at": "2026-09-20T16:15:17Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 50,
-    "author": "knoauktasu5624-wq",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15190",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2194,20 +2637,6 @@
    "extra": {
     "state": "open",
     "author": "knoauktasu5624-wq"
-   }
-  },
-  {
-   "id": "https://github.com/cporter202/ai-agent-tools/issues/28",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "cporter202/ai-agent-tools: Add TheJobCafe \u2014 AI agent bounty marketplace",
-   "url": "https://github.com/cporter202/ai-agent-tools/issues/28",
-   "at": "2026-09-20T15:21:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "finsystem19-arch",
-    "labels": []
    }
   },
   {
@@ -2298,66 +2727,6 @@
      "enhancement",
      "bounty"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15169",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15169 [Bounty proposal] fix(backend): the daily TTS allowance resets at UTC midnight, so it can be spent twice a day ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15169",
-   "at": "2026-09-20T14:19:31Z",
-   "extra": {
-    "state": "open",
-    "author": "singhharsh1708"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15165",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15165 [Bounty proposal] fix(backend): the proactive notification cap resets mid-afternoon, so it can be hit twice a day ($75 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15165",
-   "at": "2026-09-20T14:13:04Z",
-   "extra": {
-    "state": "open",
-    "author": "singhharsh1708"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15161",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15161 [Bounty proposal] fix(backend): focus sessions and stats use the UTC day, not the user's ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15161",
-   "at": "2026-09-20T14:03:13Z",
-   "extra": {
-    "state": "open",
-    "author": "singhharsh1708"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15153",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15153 [Bounty proposal] fix(dropbox): a folder listing stops at the first page and reports it as complete ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15153",
-   "at": "2026-09-20T13:42:02Z",
-   "extra": {
-    "state": "open",
-    "author": "singhharsh1708"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15125",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15125 [Bounty proposal] docs(cli): memory-list JSON \u2192 CSV and conversation-list JSON \u2192 SQLite recipes ($50 proposed, $25 each)",
-   "url": "https://github.com/BasedHardware/omi/issues/15125",
-   "at": "2026-09-20T10:18:18Z",
-   "extra": {
-    "state": "open",
-    "author": "knoauktasu5624-wq"
    }
   },
   {
