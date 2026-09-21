@@ -23,7 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from site_audit import audit, mail_route  # noqa: E402
 from state_paths import AUDITS, EMAIL_CACHE, PROSPECTS, STATE_DIR  # noqa: E402
-from verify_email import rcpt_check  # noqa: E402
+from verify_email import catch_all_cached, rcpt_check  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SUPPRESSION = ROOT.parent / "internal-docs" / "comms" / "suppression.txt"
@@ -521,7 +521,7 @@ def main(argv):
             # stamping it agency made every per channel rate impossible to read.
             "slug": p["domain"].split(".")[0], "lane": "local", "kind": p["kind"], "metro": p["metro"], "domain": p["domain"],
             "company": p["name"], "to": email, "subject": subject_for(p["kind"], p["domain"], lk), "body": body,
-            "attachments": [], "amount": AMOUNTS.get(p["kind"], 3000), "evidence": {"leaks": lk, "pages_checked": c.get("pages_checked"), "audit_date": a["date"]},
+            "attachments": [], "amount": AMOUNTS.get(p["kind"], 3000), "evidence": {"leaks": lk, "pages_checked": c.get("pages_checked"), "audit_date": a["date"], "probe": catch_all_cached(p["domain"])},
             "copy": COPY,
         })
         seen.add(email)

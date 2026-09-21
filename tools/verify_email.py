@@ -13,10 +13,16 @@ answer properly.
 """
 
 import json
+import os
+import random
 import smtplib
 import socket
+import string
 import sys
 import urllib.request
+
+CATCH_ALL_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",
+                               "internal-docs", "comms", "outreach-state", "catch-all.json")
 
 
 def mx_hosts(domain):
@@ -57,6 +63,52 @@ def rcpt_check(address, timeout=15):
             last = f"{host}: {exc}"
             continue
     return "unreachable", last
+
+
+def catch_all(domain, timeout=15):
+    """Whether this domain accepts an address that cannot exist.
+
+    A server that takes a random local part is answering the same yes to
+    everything, so an accepted verdict on a real address there carries no
+    evidence. Measured on the 09 22 queue, 40 of 90 domains behaved this way,
+    and of 13 addresses that had already hard bounced, 5 still answer accepted
+    for both the real address and for junk. That is why this is recorded and
+    not acted on: the probe cannot tell a delivering catch all from a server
+    that takes every recipient and rejects at DATA, so the bounce rate of each
+    class has to decide, not this function.
+    """
+    junk = "".join(random.choices(string.ascii_lowercase + string.digits, k=16)) + "@" + domain
+    status, _ = rcpt_check(junk, timeout=timeout)
+    if status == "accepted":
+        return "weak"
+    if status in ("rejected", "no_mx"):
+        return "strong"
+    return "unknown"
+
+
+def catch_all_cached(domain):
+    """catch_all with a per domain file cache, because the answer is a fact
+    about the domain and not about any one address."""
+    cache = {}
+    try:
+        with open(CATCH_ALL_CACHE, encoding="utf-8") as fh:
+            cache = json.load(fh)
+    except Exception:
+        cache = {}
+    entry = cache.get(domain)
+    if isinstance(entry, dict) and entry.get("verdict"):
+        return entry["verdict"]
+    verdict = catch_all(domain)
+    cache[domain] = {"verdict": verdict}
+    try:
+        os.makedirs(os.path.dirname(CATCH_ALL_CACHE), exist_ok=True)
+        tmp = CATCH_ALL_CACHE + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as fh:
+            json.dump(cache, fh, sort_keys=True)
+        os.replace(tmp, CATCH_ALL_CACHE)
+    except Exception:
+        pass
+    return verdict
 
 
 if __name__ == "__main__":
