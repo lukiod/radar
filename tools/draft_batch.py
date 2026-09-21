@@ -29,7 +29,11 @@ ROOT = Path(__file__).resolve().parents[1]
 SUPPRESSION = ROOT.parent / "internal-docs" / "comms" / "suppression.txt"
 QUEUES = [STATE_DIR, ROOT.parent / "internal-docs" / "comms" / "queues"]
 
-SIGNATURE = '\n\nMohak Gupta\nCode Conclave\n\nReply "stop" and I will not write again.\n'
+# 692 of 696 sent bodies carried no url at all, so a reader who wanted to see
+# the work before answering had nowhere to look and the agency brand in the
+# line above pointed at nothing. The domain is the one proof the offer has.
+SIGNATURE = ('\n\nMohak Gupta\nCode Conclave\ncodeconclave.com\n\n'
+             'Reply "stop" and I will not write again.\n')
 GENERIC_LOCAL = ("info", "office", "contact", "hello", "admin", "frontdesk", "reception", "appointments", "billing", "mail", "team", "support",
                  "smile", "smiles", "dispatch", "service", "sales", "scheduling", "schedule", "help", "legalhelp", "lawyers", "law", "dental",
                  "staff", "manager", "management", "customerservice", "estimates", "quotes", "welcome", "inquiries", "questions")

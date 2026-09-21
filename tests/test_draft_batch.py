@@ -8,7 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import draft_batch  # noqa: E402
-from draft_batch import (address_live, facts_sentence, offer, owner_email,  # noqa: E402
+from draft_batch import (SIGNATURE, address_live, facts_sentence, offer, owner_email,  # noqa: E402
                          redirected_elsewhere, self_check, site_email,
                          site_looks_unrelated, subject_for)
 
@@ -74,6 +74,41 @@ class SiteEmailTests(unittest.TestCase):
     def test_nothing_in_gives_nothing_back(self):
         self.assertIsNone(site_email([], "acmedental.com"))
         self.assertIsNone(site_email(["not-an-address"], "acmedental.com"))
+
+
+class RedraftGuardTests(unittest.TestCase):
+    """A carried tail mixes follow up rows into a first touch queue, and the
+    re render must not rewrite them."""
+
+    def test_a_follow_up_row_is_left_alone(self):
+        import redraft_bodies
+        row = {"follow_up_of": "x@y.com", "kind": "dental", "domain": "a.com",
+               "to": "b@a.com", "evidence": {"leaks": ["booking"]}}
+        self.assertIsNone(redraft_bodies.render(row))
+
+    def test_a_first_touch_row_still_renders(self):
+        import redraft_bodies
+        row = {"kind": "dental", "domain": "a.com", "to": "b@a.com",
+               "evidence": {"leaks": ["booking", "form"]}}
+        made = redraft_bodies.render(row)
+        self.assertIsNotNone(made)
+        self.assertIn("codeconclave.com", made[1])
+
+
+class SignatureTests(unittest.TestCase):
+    """The offer is a design the reader has not seen, from a sender they have
+    never heard of. The signature is the only place the work can be looked at,
+    and for 692 of the first 696 sends it pointed nowhere."""
+
+    def test_the_signature_names_the_site(self):
+        self.assertIn("codeconclave.com", SIGNATURE)
+
+    def test_the_stop_line_is_still_there(self):
+        self.assertIn('Reply "stop"', SIGNATURE)
+
+    def test_it_is_still_plain_text(self):
+        self.assertNotIn("<", SIGNATURE)
+        self.assertNotIn("http://", SIGNATURE)  # a bare domain, no scheme
 
 
 class RedirectedElsewhereTests(unittest.TestCase):
