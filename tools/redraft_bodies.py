@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from draft_batch import (SIGNATURE, facts_sentence, greeting, offer,  # noqa: E402
+from draft_batch import (COPY, SIGNATURE, facts_sentence, greeting, offer,  # noqa: E402
                          self_check, subject_for)
 
 
@@ -61,11 +61,13 @@ def main(argv):
             continue
         row = json.loads(line)
         made = render(row)
-        if made and (row.get("subject"), row.get("body")) != made:
-            row["subject"], row["body"] = made
-            changed += 1
-        elif made:
-            kept += 1
+        if made:
+            if (row.get("subject"), row.get("body")) != made:
+                row["subject"], row["body"] = made
+                changed += 1
+            else:
+                kept += 1
+            row["copy"] = COPY
         rows.append(row)
 
     dst = Path(args.dst or args.src)

@@ -34,6 +34,10 @@ QUEUES = [STATE_DIR, ROOT.parent / "internal-docs" / "comms" / "queues"]
 # line above pointed at nothing. The domain is the one proof the offer has.
 SIGNATURE = ('\n\nMohak Gupta\nCode Conclave\ncodeconclave.com\n\n'
              'Reply "stop" and I will not write again.\n')
+# The offer wording changed on 09 21 with 218 sends behind the old one, so the
+# first 32 sends after the change carry a mixture the queue cannot separate
+# unless each row says which version it was written from.
+COPY = 2
 GENERIC_LOCAL = ("info", "office", "contact", "hello", "admin", "frontdesk", "reception", "appointments", "billing", "mail", "team", "support",
                  "smile", "smiles", "dispatch", "service", "sales", "scheduling", "schedule", "help", "legalhelp", "lawyers", "law", "dental",
                  "staff", "manager", "management", "customerservice", "estimates", "quotes", "welcome", "inquiries", "questions")
@@ -471,6 +475,7 @@ def main(argv):
             "slug": p["domain"].split(".")[0], "lane": "local", "kind": p["kind"], "metro": p["metro"], "domain": p["domain"],
             "company": p["name"], "to": email, "subject": subject_for(p["kind"], p["domain"], lk), "body": body,
             "attachments": [], "amount": AMOUNTS.get(p["kind"], 3000), "evidence": {"leaks": lk, "pages_checked": c.get("pages_checked"), "audit_date": a["date"]},
+            "copy": COPY,
         })
         seen.add(email)
         if len(rows) >= args.limit:
