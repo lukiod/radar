@@ -246,6 +246,19 @@ def pick_email(emails, domain):
     return (named or own)[0]
 
 
+def names_business(address, domain):
+    """True when an off domain address plausibly belongs to this business."""
+    local, _, host = address.partition("@")
+    slug = re.sub(r"[^a-z0-9]", "", domain.split(".")[0])
+    if len(slug) < 6:
+        return False
+    bare_local = re.sub(r"[^a-z0-9]", "", local)
+    bare_host = re.sub(r"[^a-z0-9]", "", host.split(".")[0])
+    if bare_local and (slug in bare_local or bare_local in slug):
+        return True
+    return len(bare_host) >= 6 and (slug in bare_host or bare_host in slug)
+
+
 def owner_email(osm_email, domain):
     """The business's own mailbox when OSM lists it off its domain, or None.
 
@@ -258,18 +271,24 @@ def owner_email(osm_email, domain):
     osm_email = (osm_email or "").strip().lower()
     if "@" not in osm_email:
         return None
-    local, _, host = osm_email.partition("@")
-    if host == domain:
+    if osm_email.partition("@")[2] == domain:
         return osm_email
-    slug = re.sub(r"[^a-z0-9]", "", domain.split(".")[0])
-    if len(slug) < 6:
-        return None
-    bare_local = re.sub(r"[^a-z0-9]", "", local)
-    bare_host = re.sub(r"[^a-z0-9]", "", host.split(".")[0])
-    if bare_local and (slug in bare_local or bare_local in slug):
-        return osm_email
-    if len(bare_host) >= 6 and (slug in bare_host or bare_host in slug):
-        return osm_email
+    return osm_email if names_business(osm_email, domain) else None
+
+
+def site_email(emails, domain):
+    """An address the site publishes on another domain, when it names the business.
+
+    find_emails keeps up to three off domain addresses off the page and
+    pick_email then discards every one of them. A practice whose only
+    published address is its gmail is a live lead on a mailbox somebody
+    reads, and the role addresses that bounce hardest are not on that list.
+    """
+    for e in emails:
+        if e.split("@")[0] in SKIP_LOCAL or e.endswith("@" + domain):
+            continue
+        if names_business(e, domain):
+            return e
     return None
 
 
@@ -380,7 +399,8 @@ def main(argv):
         c = a["checks"]
         lk = leaks(c)
         if p["kind"] == "agency":
-            email = pick_email(c.get("emails") or [], p["domain"])
+            site = c.get("emails") or []
+            email = pick_email(site, p["domain"]) or site_email(site, p["domain"])
             if not email:
                 skipped["no own domain email"] = skipped.get("no own domain email", 0) + 1
                 continue
@@ -403,7 +423,9 @@ def main(argv):
         if a["score"] < args.min_score or not (set(lk) & {"booking", "form"}):
             skipped["no leak"] = skipped.get("no leak", 0) + 1
             continue
-        email = pick_email(c.get("emails") or [], p["domain"]) or owner_email(p.get("osm_email"), p["domain"])
+        site = c.get("emails") or []
+        email = (pick_email(site, p["domain"]) or owner_email(p.get("osm_email"), p["domain"])
+                 or site_email(site, p["domain"]))
         if not email:
             skipped["no own domain email"] = skipped.get("no own domain email", 0) + 1
             continue

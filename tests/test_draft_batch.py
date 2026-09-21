@@ -9,8 +9,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import draft_batch  # noqa: E402
 from draft_batch import (address_live, facts_sentence, offer, owner_email,  # noqa: E402
-                         redirected_elsewhere, self_check, site_looks_unrelated,
-                         subject_for)
+                         redirected_elsewhere, self_check, site_email,
+                         site_looks_unrelated, subject_for)
 
 
 class OwnerEmailTests(unittest.TestCase):
@@ -43,6 +43,37 @@ class OwnerEmailTests(unittest.TestCase):
         self.assertIsNone(owner_email(None, "pophamlaw.com"))
         self.assertIsNone(owner_email("", "pophamlaw.com"))
         self.assertIsNone(owner_email("not-an-address", "pophamlaw.com"))
+
+
+class SiteEmailTests(unittest.TestCase):
+    """When a site publishes only an off domain address, find_emails keeps it
+    and pick_email throws it away. site_email is the last resort that keeps
+    the ones naming the business, which is where the small practices live."""
+
+    def test_a_practice_gmail_is_recovered(self):
+        self.assertEqual(site_email(["abjroofing@gmail.com"], "abjroofinginc.com"),
+                         "abjroofing@gmail.com")
+        self.assertEqual(site_email(["carrollwoodsmiles@yahoo.com"], "carrollwoodsmiles.com"),
+                         "carrollwoodsmiles@yahoo.com")
+
+    def test_a_second_domain_of_the_same_business_is_recovered(self):
+        self.assertEqual(site_email(["heather@ameristarroofing.com"], "ameristarroofingkc.com"),
+                         "heather@ameristarroofing.com")
+
+    def test_a_strangers_address_on_the_page_is_refused(self):
+        self.assertIsNone(site_email(["info@atlantaintercontinental.com"], "airkitchenandbath.com"))
+        self.assertIsNone(site_email(["ga@webfx.com"], "ameriproroofing.com"))
+        self.assertIsNone(site_email(["1539082550@qq.com"], "andersonpl.com"))
+
+    def test_careers_and_press_boxes_are_refused(self):
+        self.assertIsNone(site_email(["careers@abjroofinginc.com"], "abjroofinginc.com"))
+
+    def test_an_own_domain_address_is_left_to_pick_email(self):
+        self.assertIsNone(site_email(["hello@acmedental.com"], "acmedental.com"))
+
+    def test_nothing_in_gives_nothing_back(self):
+        self.assertIsNone(site_email([], "acmedental.com"))
+        self.assertIsNone(site_email(["not-an-address"], "acmedental.com"))
 
 
 class RedirectedElsewhereTests(unittest.TestCase):
