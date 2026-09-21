@@ -121,6 +121,47 @@ class SignatureTests(unittest.TestCase):
         self.assertNotIn("http://", SIGNATURE)  # a bare domain, no scheme
 
 
+class RenderedMessageTests(unittest.TestCase):
+    """Every other check in this file reads a field. None of them read the
+    message, which is how a greeting that is a fragment rather than a
+    sentence came to open 726 of the 793 rows on file. These render one
+    message per kind and leak set and read the whole thing."""
+
+    LEAKS = (["booking"], ["form"], ["booking", "form"], ["booking", "form", "mobile", "tel"])
+
+    def messages(self):
+        import redraft_bodies
+        for kind in ("dental", "law", "home"):
+            for lk in self.LEAKS:
+                row = {"kind": kind, "domain": "example.com", "to": "info@example.com",
+                       "company": "Example Practice", "evidence": {"leaks": lk}}
+                made = redraft_bodies.render(row)
+                if made:
+                    yield kind, tuple(lk), made
+
+    def test_no_message_leaves_a_template_artefact_in_the_text(self):
+        for kind, lk, (subject, body) in self.messages():
+            with self.subTest(kind=kind, leaks=lk):
+                self.assertNotIn("{", subject + body)
+                self.assertNotIn("owner of", body)
+
+    def test_every_paragraph_is_a_finished_sentence(self):
+        """The salutation is the one line that ends on a comma; everything
+        after it has to close, because a paragraph that stops mid clause is
+        what a dropped merge field looks like."""
+        for kind, lk, (subject, body) in self.messages():
+            paras = [p.strip() for p in body.replace(SIGNATURE, "").split("\n\n") if p.strip()]
+            for para in paras[1:]:
+                with self.subTest(kind=kind, leaks=lk, para=para[:50]):
+                    self.assertRegex(para, r"[.:]$")
+
+    def test_the_subject_is_not_empty_and_is_not_the_domain_alone(self):
+        for kind, lk, (subject, body) in self.messages():
+            with self.subTest(kind=kind, leaks=lk):
+                self.assertTrue(subject.strip())
+                self.assertNotEqual(subject.strip().rstrip("."), "example.com")
+
+
 class GreetingTests(unittest.TestCase):
     """The greeting opened 726 of the 793 rows on file with "Hello, for the
     owner of {name}:", which is a fragment rather than a sentence, so the
