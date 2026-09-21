@@ -25,6 +25,57 @@ behind before anyone looked.
 Check it with `systemctl --user list-timers radar-daily.timer`. The run appends
 to `internal-docs/comms/outreach-state/daily.log`.
 
+## When it fires, and why not in the morning here
+
+The timer fires at **20:30 local**, and the local clock on this machine is IST.
+The recipients are US small businesses across 48 metros, and the run takes
+about 75 minutes at a 45 second pace, so the hour the sender is awake is not
+the hour that matters.
+
+Measured over the 208 sent rows that carry a timestamp, by the hour they landed
+in US Eastern:
+
+| hour landed (US Eastern) | rows |
+| --- | --- |
+| 00:00 | 11 |
+| 01:00 | 104 |
+| 02:00 | 30 |
+| 03:00 | 14 |
+| 15:00 | 24 |
+| 16:00 | 25 |
+
+**159 of 208 landed between midnight and 04:00 US Eastern**, and not one landed
+between 08:00 and noon, which is when a small business owner reads email. The
+01:00 bucket is the scheduled window: 09:43 IST plus a 45 second pace is 00:13
+to 01:28 Eastern. The two afternoon buckets are earlier manual runs.
+
+The pool is weighted to Central and Mountain rather than Eastern, so midnight
+Eastern is 23:00 Central, 22:00 Mountain and 21:00 Pacific. The whole country
+was being mailed in its sleep.
+
+20:30 IST is 15:00 UTC and lands the batch at:
+
+| zone | window |
+| --- | --- |
+| US Eastern | 11:00 to 12:15 |
+| US Central | 10:00 to 11:15 |
+| US Mountain | 09:00 to 10:15 |
+| US Pacific | 08:00 to 09:15 |
+
+**This is a change to a live test, and the confound is real.** The copy is
+unchanged and the volume is unchanged, but the reply rate read at 300 sends
+now spans two send windows, so a reply cannot be attributed to the copy alone.
+The alternative was to keep spending a hundred emails a day into the US small
+hours to protect the purity of a test whose independent variable is not the
+one being changed. The record of which rows went out in which window is in
+`sent_at`, so the two windows can be read apart later.
+
+The only human reply the program has had is one "stop", out of 185 first touches
+and 23 second touches. Timing is not proven to be why, and the deliverability
+measurements in `internal-docs/earn/outreach-scale.md` rule out the cheaper
+explanations. It is the one variable that was set to a value no one would
+choose.
+
 ## Windows
 
 There is no systemd, so the unit files above do nothing there and the schedule

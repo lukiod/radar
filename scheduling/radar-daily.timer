@@ -2,7 +2,10 @@
 Description=radar: send the day's outreach queue, daily
 
 [Timer]
-OnCalendar=*-*-* 09:43:00
+# 20:30 here is 15:00 UTC, which lands the batch in the US business morning.
+# See README.md: 09:43 here sent 159 of the first 208 emails between midnight
+# and 04:00 US Eastern.
+OnCalendar=*-*-* 20:30:00
 RandomizedDelaySec=7min
 Persistent=true
 AccuracySec=1min
