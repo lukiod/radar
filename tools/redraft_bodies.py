@@ -34,6 +34,12 @@ def render(row):
     """
     if row.get("follow_up_of"):
         return None
+    # A sent row is the record of a message that is already in someone's
+    # inbox, so it keeps the words that were actually sent. Rewriting it
+    # would make the queue claim a send that never happened, and the only
+    # way left to read what went out would be the mailbox.
+    if row.get("message_id"):
+        return None
     kind = row.get("kind")
     domain = row.get("domain")
     lk = (row.get("evidence") or {}).get("leaks") or []
@@ -55,7 +61,7 @@ def main(argv):
     ap.add_argument("--out", dest="dst")
     args = ap.parse_args(argv)
 
-    rows, changed, kept = [], 0, 0
+    rows, changed, kept, sent = [], 0, 0, 0
     for line in Path(args.src).read_text(encoding="utf-8").splitlines():
         if not line.strip():
             continue
@@ -68,6 +74,8 @@ def main(argv):
             else:
                 kept += 1
             row["copy"] = COPY
+        elif row.get("message_id") or row.get("follow_up_of"):
+            sent += 1
         rows.append(row)
 
     dst = Path(args.dst or args.src)
@@ -78,7 +86,7 @@ def main(argv):
         for row in rows:
             fh.write(json.dumps(row, ensure_ascii=False) + "\n")
     os.replace(tmp, dst)
-    print(f"{changed} re rendered, {kept} already current, {len(rows)} rows to {dst}")
+    print(f"{changed} re rendered, {kept} already current, {sent} left as sent, {len(rows)} rows to {dst}")
     return 0
 
 
