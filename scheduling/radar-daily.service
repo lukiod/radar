@@ -1,5 +1,9 @@
 [Unit]
 Description=radar: build today's outreach queue and send it
+# Bounds the retries below: at most 3 starts in 30 minutes, so a real outage
+# fails closed instead of restarting forever.
+StartLimitIntervalSec=1800
+StartLimitBurst=3
 
 [Service]
 Type=oneshot
@@ -11,3 +15,10 @@ StandardOutput=append:%h/Desktop/opensource/MershLab/internal-docs/comms/outreac
 StandardError=append:%h/Desktop/opensource/MershLab/internal-docs/comms/outreach-state/daily.log
 Nice=10
 IOSchedulingClass=idle
+# 09 21: the scheduled run died on a one second DNS blip mid script and the
+# next chance was 24 hours away. Every stage in daily.py resumes from what it
+# already wrote (message_id, sent rows, claimed follow ups), so restarting
+# the whole script after a failure is exactly what re running it by hand
+# would do.
+Restart=on-failure
+RestartSec=300
