@@ -94,6 +94,11 @@ def build(sender, row):
     if row.get("cc"):
         msg["Cc"] = ", ".join(row["cc"]) if isinstance(row["cc"], list) else row["cc"]
     msg["Subject"] = row["subject"]
+    if row.get("in_reply_to"):
+        # A follow up lands under the message it answers, in the reader's own
+        # client, instead of arriving as a second stranger.
+        msg["In-Reply-To"] = row["in_reply_to"]
+        msg["References"] = row.get("references") or row["in_reply_to"]
     msg.set_content(row["body"])
     for path in row.get("attachments") or []:
         ctype, _ = mimetypes.guess_type(path)
@@ -159,7 +164,10 @@ def domain_accepts_mail(domain):
 
 
 def send(token, sender, row):
-    payload = json.dumps({"raw": build(sender, row)}).encode()
+    body = {"raw": build(sender, row)}
+    if row.get("thread_id"):
+        body["threadId"] = row["thread_id"]
+    payload = json.dumps(body).encode()
     req = urllib.request.Request("https://gmail.googleapis.com/gmail/v1/users/me/messages/send", data=payload,
                                  headers={"Authorization": "Bearer " + token, "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=60) as resp:
