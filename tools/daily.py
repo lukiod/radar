@@ -23,6 +23,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from carry_forward import main as carry_tail  # noqa: E402
 from gmail_send import run_queue  # noqa: E402
 from queue_from_backlog import main as build_queue  # noqa: E402
 
@@ -59,17 +60,22 @@ def main(argv):
     queue = QUEUES / f"{today}.jsonl"
 
     if pending(queue) == 0:
-        backlog = newest_backlog()
-        if not backlog:
-            sys.exit(f"no backlog in {QUEUES}, nothing to build {queue.name} from")
         # A queue that already sent some rows is not refilled: a past day's
         # queue is never re-run, and topping it up would mix two days.
         if queue.exists() and any(json.loads(l).get("message_id")
                                   for l in queue.read_text(encoding="utf-8").splitlines() if l.strip()):
             print(f"{queue.name} has already sent, leaving it alone")
             return 0
-        print(f"{queue.name} has nothing pending, building {args.cap} rows from {backlog.name}")
-        build_queue(["--backlog", str(backlog), "--out", str(queue), "--limit", str(args.cap)])
+        print(f"{queue.name} has nothing pending, building {args.cap} rows")
+        # Yesterday's unsent tail goes in first. It is already drafted and
+        # verified, and claimed_identifiers would otherwise block it from the
+        # backlog forever.
+        carry_tail(["--out", str(queue), "--limit", str(args.cap), "--before", today])
+        backlog = newest_backlog()
+        if backlog:
+            build_queue(["--backlog", str(backlog), "--out", str(queue), "--limit", str(args.cap)])
+        elif pending(queue) == 0:
+            sys.exit(f"no backlog in {QUEUES} and no tail to carry, nothing to build {queue.name} from")
     else:
         print(f"{queue.name}: {pending(queue)} row(s) already pending")
 
