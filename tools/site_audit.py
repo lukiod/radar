@@ -129,10 +129,20 @@ def is_parked(html):
     return any(s in lower for s in PARKED_SIGNALS)
 
 
+# A white label form embed: the builder's script served under the agency's own
+# hostname, and the form's identity carried on the iframe it drives. An iframe
+# is not parsed for a <form>, so parkhilldental.com and gemstateroofing.com read
+# as having none while shipping a contact form and an estimate request form.
+IFRAME_FORM_ID_RE = re.compile(r"<iframe\b[^>]*\bdata-form-id\s*=", re.I)
+FORM_EMBED_PATHS = ("form_embed.js",)
+
+
 def has_form(lower):
-    """A <form> tag, a known JS form builder, or an embedded form widget."""
+    """A <form> tag, a known JS builder, a widget path, or a form embed."""
     return ("<form" in lower or any(k in lower for k in JS_FORMS)
-            or any(k in lower for k in FORM_WIDGET_PATHS))
+            or any(k in lower for k in FORM_WIDGET_PATHS)
+            or any(k in lower for k in FORM_EMBED_PATHS)
+            or bool(IFRAME_FORM_ID_RE.search(lower)))
 
 
 SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1>", re.S)

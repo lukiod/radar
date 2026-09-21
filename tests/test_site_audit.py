@@ -93,6 +93,26 @@ class SocialHostSuffixTests(unittest.TestCase):
         self.assertFalse(has_online_booking(html.lower(), domain="oasisdentalhealth.com"))
 
 
+class WhiteLabelFormEmbedTests(unittest.TestCase):
+    """The builder's script is served under the agency's own hostname and the
+    form's identity sits on the iframe, so the page carries neither a <form>
+    tag nor a known widget path. parkhilldental.com and gemstateroofing.com
+    ship exactly this and were reported as having no form at all."""
+
+    def test_a_form_embed_script_and_iframe_is_a_form(self):
+        html = ('<iframe data-form-name="a - contact us" data-form-id="to99owspigbe2jhrwa4d"'
+                ' title="a - contact us"></iframe>'
+                '<script src="https://api.wonderistcrm.com/js/form_embed.js"></script>')
+        self.assertTrue(has_form(html.lower()))
+
+    def test_an_iframe_carrying_a_form_id_is_a_form(self):
+        html = '<iframe data-form-id="swb5iuswatyvjuff63hc" title="roofing services estimate submission-"></iframe>'
+        self.assertTrue(has_form(html.lower()))
+
+    def test_an_unrelated_embed_script_is_not_a_form(self):
+        self.assertFalse(has_form('<script src="https://www.youtube.com/iframe_api"></script>'.lower()))
+
+
 class ChatWidgetIsNotABookingTests(unittest.TestCase):
     """A chat widget is not a scheduler. Reading one as evidence of booking
     would suppress a real leak and drop the lead, which is the opposite error
