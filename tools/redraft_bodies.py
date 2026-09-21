@@ -25,7 +25,15 @@ from draft_batch import (SIGNATURE, facts_sentence, greeting, offer,  # noqa: E4
 
 
 def render(row):
-    """The same assembly draft_batch uses, from the row's stored leaks."""
+    """The same assembly draft_batch uses, from the row's stored leaks.
+
+    A follow up row is left alone. It is a short note threaded under the first
+    email, so re rendering it here would turn it back into a full first touch
+    while its In-Reply-To still points at the message it now repeats, and a
+    carried tail can put follow up rows in the same file as first touch ones.
+    """
+    if row.get("follow_up_of"):
+        return None
     kind = row.get("kind")
     domain = row.get("domain")
     lk = (row.get("evidence") or {}).get("leaks") or []
