@@ -82,10 +82,44 @@ class RedraftGuardTests(unittest.TestCase):
     """A carried tail mixes follow up rows into a first touch queue, and the
     re render must not rewrite them."""
 
-    def test_a_follow_up_row_is_left_alone(self):
+    def test_a_follow_up_is_not_rebuilt_into_a_first_touch(self):
         import redraft_bodies
         row = {"follow_up_of": "x@y.com", "kind": "dental", "domain": "a.com",
-               "to": "b@a.com", "evidence": {"leaks": ["booking"]}}
+               "to": "b@a.com", "evidence": {"leaks": ["booking"]},
+               "subject": "Re: a.com", "body": "Hello,\n\nShort note." + SIGNATURE}
+        self.assertIsNone(redraft_bodies.render(row))
+
+    def test_a_follow_up_signed_before_the_site_was_added_gets_it(self):
+        """30 follow ups went out signed without the site on them, so the one
+        place the reader could look at the work pointed nowhere, on the touch
+        most likely to be answered."""
+        import redraft_bodies
+        stale = ('\n\nMohak Gupta\nCode Conclave\n\n'
+                 'Reply "stop" and I will not write again.\n')
+        row = {"follow_up_of": "x@y.com", "domain": "a.com", "to": "info@a.com",
+               "company": "A Practice", "subject": "Re: a.com",
+               "body": "Hello, for the owner of A Practice:\n\nShort note." + stale}
+        made = redraft_bodies.render(row)
+        self.assertIsNotNone(made)
+        self.assertEqual(made[0], "Re: a.com")
+        self.assertIn("codeconclave.com", made[1])
+        self.assertIn("Short note.", made[1])
+        self.assertEqual(made[1].count("Mohak Gupta"), 1)
+
+    def test_the_follow_up_gets_the_same_salutation_a_first_touch_would(self):
+        import redraft_bodies
+        stale = ('\n\nMohak Gupta\nCode Conclave\n\n'
+                 'Reply "stop" and I will not write again.\n')
+        row = {"follow_up_of": "x@y.com", "domain": "a.com", "to": "info@a.com",
+               "company": "A Practice", "subject": "Re: a.com",
+               "body": "Hello, for the owner of A Practice:\n\nShort note." + stale}
+        self.assertEqual(redraft_bodies.render(row)[1].split("\n")[0], "Hello,")
+
+    def test_a_named_follow_up_keeps_its_name(self):
+        import redraft_bodies
+        row = {"follow_up_of": "x@y.com", "domain": "a.com", "to": "sarah@a.com",
+               "company": "A Practice", "subject": "Re: a.com",
+               "body": "Hello Sarah,\n\nShort note." + SIGNATURE}
         self.assertIsNone(redraft_bodies.render(row))
 
     def test_a_first_touch_row_still_renders(self):
