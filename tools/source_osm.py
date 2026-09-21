@@ -21,9 +21,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from state_paths import PROSPECTS as STATE  # noqa: E402
-ENDPOINTS = ("https://overpass.kumi.systems/api/interpreter", "https://overpass-api.de/api/interpreter")
+# Order matters: a dead first host costs two timeouts per metro before the second is tried.
+ENDPOINTS = ("https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter")
 UA = "radar-audit/0.1 (site audits for small business outreach)"
 OVERPASS_TIMEOUT_SECONDS = 45
+BACKOFF = (10, 30, 60)
 
 # south, west, north, east
 METROS = {
@@ -84,8 +86,10 @@ def query(bbox, kinds):
 def overpass(q, log=lambda msg: None):
     data = urllib.parse.urlencode({"data": q}).encode()
     last = None
-    for host in ENDPOINTS:
-        for attempt in range(2):
+    for index, host in enumerate(ENDPOINTS):
+        # A 504 is the instance rate limiting and it clears in under a minute,
+        # so the primary host is retried on a backoff and the failover gets one shot.
+        for attempt, wait in enumerate(BACKOFF if index == 0 else (0,)):
             try:
                 log(f"  querying {host} (attempt {attempt + 1})")
                 req = urllib.request.Request(host, data=data, headers={"User-Agent": UA})
@@ -94,7 +98,7 @@ def overpass(q, log=lambda msg: None):
             except Exception as err:  # 504 and rate limits are ordinary here
                 last = err
                 log(f"  {host} failed: {err}")
-                time.sleep(5)
+                time.sleep(wait)
     raise RuntimeError(f"overpass failed for both endpoints: {last}")
 
 
