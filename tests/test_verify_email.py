@@ -67,6 +67,18 @@ class CatchAllTests(unittest.TestCase):
         self.assertEqual(catch_all_cached("example.com"), "weak")
         self.assertEqual(calls, [])
 
+    def test_parallel_domains_all_survive_the_write(self):
+        """The probe runs in threads. An unlocked read modify write kept 10 of
+        the 105 domains classified, because every thread read the file before
+        any of the others had written it."""
+        import concurrent.futures
+        verify_email.rcpt_check = lambda a, timeout=15: ("rejected", "x")
+        domains = [f"d{i}.example.com" for i in range(60)]
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+            list(pool.map(catch_all_cached, domains))
+        on_disk = json.loads(Path(verify_email.CATCH_ALL_CACHE).read_text())
+        self.assertEqual(sorted(on_disk), sorted(domains))
+
 
 if __name__ == "__main__":
     unittest.main()

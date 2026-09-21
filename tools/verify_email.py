@@ -12,6 +12,7 @@ probe_blocked and says nothing about the address. Google hosted domains
 answer properly.
 """
 
+import fcntl
 import json
 import os
 import random
@@ -89,26 +90,42 @@ def catch_all(domain, timeout=15):
 def catch_all_cached(domain):
     """catch_all with a per domain file cache, because the answer is a fact
     about the domain and not about any one address."""
-    cache = {}
-    try:
-        with open(CATCH_ALL_CACHE, encoding="utf-8") as fh:
-            cache = json.load(fh)
-    except Exception:
-        cache = {}
-    entry = cache.get(domain)
+    entry = _load_catch_all().get(domain)
     if isinstance(entry, dict) and entry.get("verdict"):
         return entry["verdict"]
     verdict = catch_all(domain)
-    cache[domain] = {"verdict": verdict}
+    _merge_catch_all({domain: {"verdict": verdict}})
+    return verdict
+
+
+def _load_catch_all():
+    try:
+        with open(CATCH_ALL_CACHE, encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
+def _merge_catch_all(updates):
+    """Read, merge and write under a lock.
+
+    The probe runs unlocked so a batch of domains still resolves in parallel,
+    but the merge has to be serialised: probing 105 domains across 10 threads
+    with an unlocked read modify write kept 10 of them, because every thread
+    read the file before any of the others had written it.
+    """
     try:
         os.makedirs(os.path.dirname(CATCH_ALL_CACHE), exist_ok=True)
-        tmp = CATCH_ALL_CACHE + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as fh:
-            json.dump(cache, fh, sort_keys=True)
-        os.replace(tmp, CATCH_ALL_CACHE)
+        with open(CATCH_ALL_CACHE + ".lock", "a+") as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX)
+            cache = _load_catch_all()
+            cache.update(updates)
+            tmp = CATCH_ALL_CACHE + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as fh:
+                json.dump(cache, fh, sort_keys=True)
+            os.replace(tmp, CATCH_ALL_CACHE)
     except Exception:
         pass
-    return verdict
 
 
 if __name__ == "__main__":
