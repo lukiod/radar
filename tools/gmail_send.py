@@ -269,8 +269,7 @@ def run_queue(path, pace, limit, dry_run, daily_cap=None):
     lock = None if dry_run else take_queue_lock(path)
     rows = [json.loads(l) for l in open(path, encoding="utf-8") if l.strip()]
     table = load_suppression(os.path.abspath(SUPPRESSION))
-    token = None if dry_run else access_token()
-    sender = "dry-run@example.com" if dry_run else profile_address(token)
+    sender = "dry-run@example.com" if dry_run else profile_address(access_token())
     sent = 0
     for i, row in enumerate(rows):
         if row.get("message_id") or row.get("suppressed"):
@@ -305,7 +304,9 @@ def run_queue(path, pace, limit, dry_run, daily_cap=None):
             print(f"today's cap of {cap} sends is spent; stopping with {len(rows) - i} row(s) left in {os.path.basename(path)}")
             return sent
         try:
-            res = send(token, sender, row)
+            # Read the token per row: a paced run outlives the hour a token
+            # lives, and reading it once up front killed the rest of the queue.
+            res = send(access_token(), sender, row)
         except urllib.error.HTTPError as err:
             body = err.read().decode(errors="ignore")[:300]
             print(f'FAILED {row["to"]}: HTTP {err.code} {body}')
