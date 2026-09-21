@@ -24,6 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from carry_forward import main as carry_tail  # noqa: E402
+from follow_up import main as write_follow_ups  # noqa: E402
 from gmail_send import run_queue  # noqa: E402
 from inbox_check import scan as scan_inbox  # noqa: E402
 from queue_from_backlog import main as build_queue  # noqa: E402
@@ -80,6 +81,28 @@ def send_follow_ups(pace, dry_run=False):
     return n
 
 
+def build_follow_ups(dry_run=False):
+    """Write today's second touches from sends old enough to have gone quiet.
+
+    Draining the lane alone empties it, since nothing rebuilt it: the second
+    touch was a file somebody wrote once. The build goes to a fresh dated file
+    so it cannot land on a queue that still holds unsent rows, and it refuses
+    to write at all while any follow up file is still pending, because a rebuild
+    claims every row already carrying follow_up_of and would drop them.
+
+    Guarded, because it reads the Gmail API for a Message Id per first send and
+    a bad minute there must not cost the day's cold queue as well.
+    """
+    if any(pending(f) for f in QUEUES.glob("*-followup.jsonl")):
+        print("follow up lane still holds unsent rows, not rebuilding")
+        return
+    out = QUEUES / f"{datetime.date.today().isoformat()}-followup.jsonl"
+    try:
+        write_follow_ups(["--out", str(out)] + (["--dry-run"] if dry_run else []))
+    except Exception as err:
+        print(f"follow up build skipped: {err}")
+
+
 def read_replies(days=3, apply=True):
     """Read the mailbox on the way in, rather than when someone remembers to.
 
@@ -127,6 +150,7 @@ def main(argv):
     # gets its second touches away instead of returning here and stranding them.
     sent_follow = send_follow_ups(args.pace, args.dry_run)
     print(f"{'would send' if args.dry_run else 'sent'} {sent_follow} follow up(s)")
+    build_follow_ups(args.dry_run)
 
     if pending(queue) == 0:
         # A queue that already sent some rows is not refilled: a past day's
