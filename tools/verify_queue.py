@@ -25,6 +25,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from site_audit import fetch, has_form, has_online_booking, contact_links  # noqa: E402
 
+# Written by this file and read back by the filter below, so the two cannot
+# drift apart.
+UNREADABLE = "site could not be read, so the claim cannot stand"
+
 
 def live_leaks(domain):
     """Which of booking, form, mobile, tel are missing right now, or None when
@@ -77,8 +81,14 @@ def main(argv):
     rows = [json.loads(line) for line in queue.read_text().splitlines() if line.strip()]
     if limit:
         rows = rows[:limit]
+    # A measured rejection is final, because the copy is what was wrong and
+    # re-reading the page only makes the same row flap. An unreadable site is
+    # not a measurement at all: it is a timeout or a hung hostname, and both
+    # come back on a later attempt. Freezing that as a verdict threw away the
+    # prospect, so it is the one rejected reason a later pass may revisit.
     todo = [r for r in rows if (r.get("evidence") or {}).get("leaks")
-            and not r.get("message_id") and not r.get("rejected")]
+            and not r.get("message_id")
+            and (not r.get("rejected") or r.get("rejected") == UNREADABLE)]
     # Six at a time: one row is four page fetches, and a queue of 200 took
     # twenty minutes single threaded, long enough that the gate got skipped.
     with ThreadPoolExecutor(max_workers=6) as pool:
@@ -89,7 +99,7 @@ def main(argv):
         observed = observed_by_id[id(row)]
         if observed is None:
             unverifiable.append(row["domain"])
-            row["rejected"] = "site could not be read, so the claim cannot stand"
+            row["rejected"] = UNREADABLE
             # A row rejected on a second pass kept the verified it earned on
             # the first, so the file said both things at once. Every reader
             # checks rejected as well, so nothing bad was sent on it, but a
@@ -112,7 +122,7 @@ def main(argv):
     for domain, claimed, observed, present in bad:
         print(f"WRONG {domain}: copy claims {present} missing, the site has it (live missing: {observed})")
     for domain in unverifiable:
-        print(f"UNVERIFIABLE {domain}: site could not be read, so the claim cannot stand")
+        print(f"UNVERIFIABLE {domain}: {UNREADABLE}")
     print(f"\n{len(rows)} rows: {ok} hold, {len(bad)} wrong, {len(unverifiable)} unverifiable")
     if write:
         print(f"verdicts written to {queue}")

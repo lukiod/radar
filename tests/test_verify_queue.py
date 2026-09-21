@@ -102,6 +102,24 @@ class VerdictTests(unittest.TestCase):
         self._run()
         self.assertEqual(seen, [])
 
+    def test_a_site_that_could_not_be_read_is_checked_again(self):
+        # The measured rejection above is final. This one is not a measurement:
+        # a timeout or a hung hostname is what produced it, and both come back.
+        # Freezing it cost the prospect permanently for a network blip.
+        self._write([self._row("a.com", ["booking"], rejected=verify_queue.UNREADABLE)])
+        seen = []
+        verify_queue.live_leaks = lambda d: (seen.append(d) or ["booking"])
+        got = self._run()
+        self.assertEqual(seen, ["a.com"])
+        self.assertTrue(got[0].get("verified"))
+        self.assertNotIn("rejected", got[0])
+
+    def test_a_site_still_unreadable_keeps_the_same_verdict(self):
+        self._write([self._row("a.com", ["booking"], rejected=verify_queue.UNREADABLE)])
+        verify_queue.live_leaks = lambda d: None
+        got = self._run()
+        self.assertEqual(got[0]["rejected"], verify_queue.UNREADABLE)
+
 
 if __name__ == "__main__":
     unittest.main()
