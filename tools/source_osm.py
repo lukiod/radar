@@ -195,6 +195,11 @@ def domain_of(website):
     host = parts.netloc.lower().split(":")[0]
     host = host[4:] if host.startswith("www.") else host
     path = parts.path.strip("/")
+    # The website tag is free text, so a business name can land in it. A host
+    # with a space in it is not a host, and one such row ("town center
+    # dental.com") took down a 916 domain audit run rather than being dropped.
+    if not re.fullmatch(r"[a-z0-9.-]+", host or ""):
+        return "", ""
     return host, path
 
 

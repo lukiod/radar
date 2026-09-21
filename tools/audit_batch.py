@@ -36,10 +36,17 @@ def run(domains, workers=12):
     today = datetime.date.today().isoformat()
     rows = [r for r in load() if not (r["date"] == today and r["domain"] in domains)]
     done = 0
+    failed = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
-        futures = [pool.submit(audit, d) for d in domains]
+        futures = {pool.submit(audit, d): d for d in domains}
         for future in concurrent.futures.as_completed(futures):
-            result = future.result()
+            try:
+                result = future.result()
+            except Exception as err:
+                # A domain that is not a hostname raises inside audit, and one
+                # such row used to end the whole batch with it.
+                failed.append(f"{futures[future]}: {err}")
+                continue
             result["date"] = today
             rows.append(result)
             done += 1
@@ -51,6 +58,8 @@ def run(domains, workers=12):
                 print(f"{done}/{len(domains)} audited", file=sys.stderr, flush=True)
     rows.sort(key=lambda r: (r["domain"], r["date"]))
     save(rows)
+    for line in failed:
+        print(f"skipped {line}", file=sys.stderr, flush=True)
     return rows
 
 
