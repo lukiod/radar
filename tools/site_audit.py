@@ -98,8 +98,7 @@ HREF_RE = re.compile(r'href\s*=\s*["\']([^"\']+)', re.I)
 EMAIL_RE = re.compile(r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", re.I)
 CONTACT_WORDS = ("contact", "consult", "schedule", "book", "appoint", "request")
 # ".webp" and friends are image extensions that only ever appear here as srcset
-# filenames ("logo@2x.webp"), and "@example." pins the whole local part to the
-# placeholder word, so a real address ending in "example" is left alone.
+# filenames ("logo@2x.webp"), so the extension alone rules the match out.
 JUNK_EMAIL = ("example.com", "sentry", "wixpress", "domain.com", "email.com", ".png", ".jpg", ".jpeg",
               ".gif", ".svg", ".webp", ".avif", "godaddy", "wordpress", "noreply", "no-reply",
               "domainmarket.com")
