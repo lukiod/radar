@@ -2,7 +2,6 @@
 
     python3 tools/gmail_send.py --queue <queue.jsonl> [--pace 120] [--limit 20] [--dry-run]
     python3 tools/gmail_send.py --one to@example.com "Subject" body.txt [--attach file.png]
-
 The queue is JSON lines; each row has "to", "subject", "body" and
 optionally "attachments" (absolute paths), "cc", "slug" and "lane". Rows
 that already carry "message_id" are skipped, so the file doubles as the
@@ -14,6 +13,9 @@ Credentials come from the token file the Gmail MCP server wrote
 (~/.gmail-mcp/credentials.json, scope gmail.modify) and the OAuth client in
 gcp-oauth.keys.json; nothing is stored here. Pacing is a plain sleep between
 sends so a batch looks like a person at a keyboard, not a blast.
+
+--daily-cap bounds the whole mailbox for the day, across every queue, because
+the per queue limit bounds one queue and the senders run side by side.
 """
 
 import argparse
@@ -34,10 +36,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from state_paths import MX_CACHE as MX_CACHE_PATH  # noqa: E402
+from state_paths import SEND_BUDGET  # noqa: E402
 
 TOKEN_DIR = os.path.expanduser("~/.gmail-mcp")
 SUPPRESSION = os.path.join(os.path.dirname(__file__), "..", "..", "internal-docs", "comms", "suppression.txt")
+QUEUES = os.path.join(os.path.dirname(__file__), "..", "..", "internal-docs", "comms", "queues")
 FROM_NAME = "Mohak Gupta"
+DAILY_CAP = int(os.environ.get("RADAR_DAILY_CAP") or 100)
 
 
 def load_suppression(path):
@@ -197,7 +202,70 @@ def take_queue_lock(path):
     return fh
 
 
-def run_queue(path, pace, limit, dry_run):
+def today_utc():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def count_sent_today(queues_dir):
+    """Rows in any queue that actually went out today.
+
+    Read from the queues rather than trusted to a counter, because the queues
+    are the record of what happened. A counter that is the only witness drifts
+    the first time a send happens outside this process.
+    """
+    n = 0
+    for p in Path(queues_dir).glob("*.jsonl"):
+        if p.name.endswith("-backlog.jsonl"):
+            continue
+        try:
+            lines = p.read_text(encoding="utf-8").splitlines()
+        except OSError:
+            continue
+        for line in lines:
+            if not line.strip():
+                continue
+            try:
+                row = json.loads(line)
+            except ValueError:
+                continue
+            if (row.get("sent_at") or "").startswith(today_utc()):
+                n += 1
+    return n
+
+
+def reserve_send(cap, queues_dir):
+    """Take one slot of today's budget, or None when the day is spent.
+
+    The per queue limit bounds one queue, not the mailbox. Three senders on
+    three queues each honour their own limit and the mailbox still sends three
+    times as much, which is the total the sending domain is judged on. The
+    count is reconciled against the queues on every reservation so it cannot
+    fall below what actually went out, and the reservation is taken under a
+    lock every sender shares, so two of them cannot spend the last slot.
+    """
+    path = str(SEND_BUDGET)
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path + ".lock", "a+") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        try:
+            with open(path, encoding="utf-8") as fh:
+                state = json.load(fh)
+        except Exception:
+            state = {}
+        if state.get("date") != today_utc():
+            state = {"date": today_utc(), "sent": 0}
+        state["sent"] = max(state.get("sent") or 0, count_sent_today(queues_dir))
+        if state["sent"] >= cap:
+            return None
+        state["sent"] += 1
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as fh:
+            json.dump(state, fh)
+        os.replace(tmp, path)
+        return state["sent"]
+
+
+def run_queue(path, pace, limit, dry_run, daily_cap=None):
     lock = None if dry_run else take_queue_lock(path)
     rows = [json.loads(l) for l in open(path, encoding="utf-8") if l.strip()]
     table = load_suppression(os.path.abspath(SUPPRESSION))
@@ -232,6 +300,10 @@ def run_queue(path, pace, limit, dry_run):
             continue
         if sent and pace:
             time.sleep(pace)
+        cap = DAILY_CAP if daily_cap is None else daily_cap
+        if reserve_send(cap, os.path.dirname(os.path.abspath(path))) is None:
+            print(f"today's cap of {cap} sends is spent; stopping with {len(rows) - i} row(s) left in {os.path.basename(path)}")
+            return sent
         try:
             res = send(token, sender, row)
         except urllib.error.HTTPError as err:
@@ -266,6 +338,8 @@ def main(argv):
     ap.add_argument("--one", nargs=3, metavar=("TO", "SUBJECT", "BODYFILE"))
     ap.add_argument("--attach", action="append", default=[])
     ap.add_argument("--pace", type=int, default=90, help="seconds between sends")
+    ap.add_argument("--daily-cap", type=int, default=DAILY_CAP,
+                    help="total sends allowed across every queue today")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
@@ -276,6 +350,8 @@ def main(argv):
             print(build("dry-run@example.com", row)[:80])
             return 0
         token = access_token()
+        if reserve_send(args.daily_cap, QUEUES) is None:
+            sys.exit(f"today's cap of {args.daily_cap} sends is spent; raise --daily-cap to override")
         res = send(token, profile_address(token), row)
         print(res["id"])
         return 0
