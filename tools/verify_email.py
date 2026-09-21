@@ -12,7 +12,6 @@ probe_blocked and says nothing about the address. Google hosted domains
 answer properly.
 """
 
-import fcntl
 import json
 import os
 import random
@@ -21,6 +20,10 @@ import socket
 import string
 import sys
 import urllib.request
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import filelock  # noqa: E402
 
 CATCH_ALL_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",
                                "internal-docs", "comms", "outreach-state", "catch-all.json")
@@ -117,7 +120,7 @@ def _merge_catch_all(updates):
     try:
         os.makedirs(os.path.dirname(CATCH_ALL_CACHE), exist_ok=True)
         with open(CATCH_ALL_CACHE + ".lock", "a+") as lock:
-            fcntl.flock(lock, fcntl.LOCK_EX)
+            filelock.lock(lock)
             cache = _load_catch_all()
             cache.update(updates)
             tmp = CATCH_ALL_CACHE + ".tmp"

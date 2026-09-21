@@ -20,7 +20,6 @@ the per queue limit bounds one queue and the senders run side by side.
 
 import argparse
 import base64
-import fcntl
 import json
 import mimetypes
 import os
@@ -35,6 +34,7 @@ from email.utils import formataddr
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import filelock  # noqa: E402
 from state_paths import MX_CACHE as MX_CACHE_PATH  # noqa: E402
 from state_paths import SEND_BUDGET  # noqa: E402
 
@@ -207,9 +207,7 @@ def take_queue_lock(path):
     """
     lock_path = os.path.join(os.path.dirname(os.path.abspath(path)) or ".", "." + os.path.basename(path) + ".lock")
     fh = open(lock_path, "a+")
-    try:
-        fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
-    except OSError:
+    if not filelock.try_lock(fh):
         fh.seek(0)
         holder = fh.read().strip() or "another process"
         sys.exit(f"queue {path} is already being sent by {holder}; refusing to run a second sender")
@@ -264,7 +262,7 @@ def reserve_send(cap, queues_dir):
     path = str(SEND_BUDGET)
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path + ".lock", "a+") as lock:
-        fcntl.flock(lock, fcntl.LOCK_EX)
+        filelock.lock(lock)
         try:
             with open(path, encoding="utf-8") as fh:
                 state = json.load(fh)
