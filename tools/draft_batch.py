@@ -211,8 +211,8 @@ def self_check(kind, domain, lk):
     """The one thing the reader can confirm in five seconds, on their own
     phone, before deciding anything.
 
-    Ninety sends have produced one reply and it was "stop", and the close
-    asked the owner to believe a stranger would build them a good preview.
+    218 sends have produced one reply and it was "stop", so the close still
+    asks the owner to believe a stranger would build them a good preview.
     An attachment would prove more but costs deliverability on the only
     mailbox that works, and a hosted preview needs a decision that is not
     made yet. What is left is the leak read back in the owner's own browser:
