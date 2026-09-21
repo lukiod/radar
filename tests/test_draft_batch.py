@@ -10,8 +10,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import draft_batch  # noqa: E402
-from draft_batch import (SIGNATURE, address_live, facts_sentence, offer, owner_email,  # noqa: E402
-                         redirected_elsewhere, self_check, site_email,
+from draft_batch import (SIGNATURE, address_live, facts_sentence, greeting, offer,  # noqa: E402
+                         owner_email, redirected_elsewhere, self_check, site_email,
                          site_looks_unrelated, subject_for)
 
 
@@ -96,6 +96,14 @@ class RedraftGuardTests(unittest.TestCase):
         self.assertIsNotNone(made)
         self.assertIn("codeconclave.com", made[1])
 
+    def test_a_sent_row_keeps_the_words_that_were_sent(self):
+        """The row is the only record of what went out. A copy change that
+        rewrote it would have the queue claim a send that never happened."""
+        import redraft_bodies
+        row = {"kind": "dental", "domain": "a.com", "to": "b@a.com", "message_id": "19abc",
+               "subject": "old", "body": "old", "evidence": {"leaks": ["booking", "form"]}}
+        self.assertIsNone(redraft_bodies.render(row))
+
 
 class SignatureTests(unittest.TestCase):
     """The offer is a design the reader has not seen, from a sender they have
@@ -111,6 +119,30 @@ class SignatureTests(unittest.TestCase):
     def test_it_is_still_plain_text(self):
         self.assertNotIn("<", SIGNATURE)
         self.assertNotIn("http://", SIGNATURE)  # a bare domain, no scheme
+
+
+class GreetingTests(unittest.TestCase):
+    """The greeting opened 726 of the 793 rows on file with "Hello, for the
+    owner of {name}:", which is a fragment rather than a sentence, so the
+    first thing read in nearly every email was a merge field."""
+
+    def test_a_role_mailbox_gets_a_plain_hello(self):
+        self.assertEqual(greeting("info@shieldspetitti.com", "Shields Petitti & Zoldan, PLC"), "Hello,")
+        self.assertEqual(greeting("contact@romanaustin.com", "Roman Austin Personal Injury Lawyers"), "Hello,")
+        self.assertEqual(greeting("office@zentooth.com", "Zen Tooth"), "Hello,")
+
+    def test_a_named_mailbox_still_gets_the_name(self):
+        self.assertEqual(greeting("sarah@bakertitle.com", "Baker Title"), "Hello Sarah,")
+
+    def test_a_brand_that_looks_like_a_name_is_not_treated_as_one(self):
+        self.assertEqual(greeting("spike@goldenspikeroofing.com", "Golden Spike Roofing"), "Hello,")
+
+    def test_every_greeting_is_a_sentence(self):
+        for addr, name in (("info@a.com", "A"), ("sarah@b.com", "B"), ("x@c.com", "C")):
+            with self.subTest(addr=addr):
+                line = greeting(addr, name)
+                self.assertTrue(line.endswith(","))
+                self.assertNotIn("owner of", line)
 
 
 class RedirectedElsewhereTests(unittest.TestCase):

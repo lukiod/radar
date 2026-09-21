@@ -36,8 +36,9 @@ SIGNATURE = ('\n\nMohak Gupta\nCode Conclave\ncodeconclave.com\n\n'
              'Reply "stop" and I will not write again.\n')
 # The offer wording changed on 09 21 with 218 sends behind the old one, so the
 # first 32 sends after the change carry a mixture the queue cannot separate
-# unless each row says which version it was written from.
-COPY = 2
+# unless each row says which version it was written from. Version 3 is the
+# same offer with the greeting repaired, so a read can separate the two.
+COPY = 3
 GENERIC_LOCAL = ("info", "office", "contact", "hello", "admin", "frontdesk", "reception", "appointments", "billing", "mail", "team", "support",
                  "smile", "smiles", "dispatch", "service", "sales", "scheduling", "schedule", "help", "legalhelp", "lawyers", "law", "dental",
                  "staff", "manager", "management", "customerservice", "estimates", "quotes", "welcome", "inquiries", "questions")
@@ -253,14 +254,21 @@ def subject_for(kind, domain, lk):
 
 def greeting(email, name):
     """First name only when the mailbox looks like a person and the word is
-    not part of the business name (spike@goldenspikeroofing.com is a brand)."""
+    not part of the business name (spike@goldenspikeroofing.com is a brand).
+
+    A role mailbox gets a plain hello. The earlier wording was "Hello, for the
+    owner of {name}:", which is not a sentence, and it opened 726 of the 793
+    rows on file, so the first four words of nearly every email read as a
+    merge field rather than as a person. The firm is named again by its own
+    domain two lines down, so nothing is lost by dropping it here.
+    """
     local = email.split("@")[0].lower()
     domain = email.split("@")[-1].lower()
     first = re.split(r"[._-]", local)[0]
     brand = (domain.split(".")[0] + " " + name.lower())
     if first in FIRST_NAMES and first not in brand:
         return f"Hello {first.capitalize()},"
-    return f"Hello, for the owner of {name}:"
+    return "Hello,"
 
 
 def pick_email(emails, domain):
