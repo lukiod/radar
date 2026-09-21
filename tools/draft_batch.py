@@ -38,7 +38,8 @@ SIGNATURE = ('\n\nMohak Gupta\nCode Conclave\ncodeconclave.com\n\n'
 # first 32 sends after the change carry a mixture the queue cannot separate
 # unless each row says which version it was written from. Version 3 is the
 # same offer with the greeting repaired, so a read can separate the two.
-COPY = 3
+# Version 4 is the same again with the closing line repaired.
+COPY = 4
 GENERIC_LOCAL = ("info", "office", "contact", "hello", "admin", "frontdesk", "reception", "appointments", "billing", "mail", "team", "support",
                  "smile", "smiles", "dispatch", "service", "sales", "scheduling", "schedule", "help", "legalhelp", "lawyers", "law", "dental",
                  "staff", "manager", "management", "customerservice", "estimates", "quotes", "welcome", "inquiries", "questions")
@@ -237,6 +238,23 @@ def self_check(kind, domain, lk):
     }.get(kind, "book")
     return (f"If you want to see it yourself, open {domain} on your phone and look for a way "
             f"to {what}.")
+
+
+def closing():
+    """The ask, on the one line that has to earn the reply.
+
+    It used to open "If it is worth closing", which reads as though the
+    writer meant to finish the sentence and did not, and it sat on 712 rows.
+    The reader is an owner, not a deal desk, so "closing" says nothing to
+    them and the fragment costs the only sentence in the email that asks for
+    anything.
+
+    It lives in one function because the line was written out twice, here and
+    in the re renderer, and two copies of a sentence is how the greeting came
+    to be wrong in one of them.
+    """
+    return ("If that is useful, reply and I will send the design for your own "
+            "homepage first, before you decide anything.")
 
 
 def subject_for(kind, domain, lk):
@@ -526,7 +544,7 @@ def main(argv):
         body = (greeting(email, p["name"]) + "\n\n" + facts[0] + ("; " + "; ".join(facts[1:]) if len(facts) > 1 else "") + ".\n\n"
                 + offer(p["kind"], lk) + "\n\n"
                 + self_check(p["kind"], p["domain"], lk) + "\n\n"
-                + "If it is worth closing, reply and I will send the design for your own homepage first, before you decide anything." + SIGNATURE)
+                + closing() + SIGNATURE)
         rows.append({
             # The lane names the channel, and this row is a local business, so
             # stamping it agency made every per channel rate impossible to read.

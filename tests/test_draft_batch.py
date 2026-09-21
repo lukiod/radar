@@ -10,9 +10,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import draft_batch  # noqa: E402
-from draft_batch import (SIGNATURE, address_live, facts_sentence, greeting, offer,  # noqa: E402
-                         owner_email, redirected_elsewhere, self_check, site_email,
-                         site_looks_unrelated, subject_for)
+from draft_batch import (SIGNATURE, address_live, closing, facts_sentence,  # noqa: E402
+                         greeting, offer, owner_email, redirected_elsewhere,
+                         self_check, site_email, site_looks_unrelated, subject_for)
 
 
 class OwnerEmailTests(unittest.TestCase):
@@ -194,6 +194,32 @@ class RenderedMessageTests(unittest.TestCase):
             with self.subTest(kind=kind, leaks=lk):
                 self.assertTrue(subject.strip())
                 self.assertNotEqual(subject.strip().rstrip("."), "example.com")
+
+    def test_the_closing_line_asks_for_the_reply(self):
+        """It opened "If it is worth closing" on 712 rows. An owner is not a
+        deal desk, so "closing" said nothing to them, and the clause stopped
+        without a subject, which is what a sentence looks like when the
+        writer meant to keep going."""
+        for kind, lk, (subject, body) in self.messages():
+            with self.subTest(kind=kind, leaks=lk):
+                self.assertNotIn("worth closing", body)
+                self.assertIn("reply and I will send the design", body)
+
+
+class ClosingTests(unittest.TestCase):
+    def test_it_is_one_sentence_that_can_be_read_aloud(self):
+        line = closing()
+        self.assertTrue(line.endswith("."))
+        self.assertEqual(line.count("."), 1)
+
+    def test_both_copy_sites_use_the_same_line(self):
+        """The line was written out twice, in the builder and in the re
+        renderer. Two copies is how the greeting came to be wrong in one of
+        them, so there is one now."""
+        import redraft_bodies
+        row = {"kind": "dental", "domain": "example.com", "to": "info@example.com",
+               "company": "Example", "evidence": {"leaks": ["booking"]}}
+        self.assertIn(closing(), redraft_bodies.render(row)[1])
 
 
 class GreetingTests(unittest.TestCase):

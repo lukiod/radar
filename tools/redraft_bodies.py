@@ -20,8 +20,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from draft_batch import (COPY, SIGNATURE, facts_sentence, greeting, offer,  # noqa: E402
-                         self_check, subject_for)
+from draft_batch import (COPY, SIGNATURE, closing, facts_sentence, greeting,  # noqa: E402
+                         offer, self_check, subject_for)
 
 
 def refresh_follow_up(row):
@@ -79,8 +79,7 @@ def render(row):
             + "\n\n" + facts[0] + ("; " + "; ".join(facts[1:]) if len(facts) > 1 else "") + ".\n\n"
             + offer(kind, lk) + "\n\n"
             + self_check(kind, domain, lk) + "\n\n"
-            + "If it is worth closing, reply and I will send the design for your own homepage first, "
-              "before you decide anything." + SIGNATURE)
+            + closing() + SIGNATURE)
     return subject_for(kind, domain, lk), body
 
 
