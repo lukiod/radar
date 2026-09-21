@@ -38,7 +38,10 @@ SIGNATURE = ('\n\nMohak Gupta\nCode Conclave\ncodeconclave.com\n\n'
 # first 32 sends after the change carry a mixture the queue cannot separate
 # unless each row says which version it was written from. Version 3 is the
 # same offer with the greeting repaired, so a read can separate the two.
-# Version 4 is the same again with the closing line repaired.
+# Version 4 is the same again with the closing line repaired, the agency lane
+# given the ask it never had, and the two phrases only this desk understood
+# ("no re-ask", "the leak named") taken out. Nothing had sent on version 4 when
+# the agency change went in, so the two repairs are not confounded.
 COPY = 4
 GENERIC_LOCAL = ("info", "office", "contact", "hello", "admin", "frontdesk", "reception", "appointments", "billing", "mail", "team", "support",
                  "smile", "smiles", "dispatch", "service", "sales", "scheduling", "schedule", "help", "legalhelp", "lawyers", "law", "dental",
@@ -69,8 +72,9 @@ AGENCY_BODY = (
     "no way to book or request service, no contact form, not built for phones, a phone number that is not tappable. "
     "Every row is a measured fact from the homepage and the contact page, not a scrape, so the first email your team "
     "sends is about the owner's business, not about you.\n\n"
-    "They are yours, no strings. If the quality is right, 500 rows to your target list (trade, metro, size) is $400 "
-    "once, or I keep it current: 100 fresh rows delivered on the 1st of every month for $150/month, no re-ask."
+    "The 25 are yours, no strings. If the quality holds up, 500 rows to your target trade and metro is $400 once, "
+    "or I keep it current with 100 fresh rows on the 1st of every month for $150 a month.\n\n"
+    "Reply with the trade and the metro you want and I will pull the list the same day."
 )
 
 
@@ -512,7 +516,7 @@ def main(argv):
                 continue
             rows.append({
                 "slug": p["domain"].split(".")[0], "lane": "agency", "kind": "agency", "metro": p["metro"], "domain": p["domain"],
-                "company": p["name"], "to": email, "subject": "25 local business sites with the leak named, free",
+                "company": p["name"], "to": email, "subject": "25 local business sites, audited, free",
                 "body": greeting(email, p["name"]) + "\n\n" + AGENCY_BODY + SIGNATURE,
                 "attachments": [str(SAMPLE_CSV)], "amount": AMOUNTS["agency"], "evidence": {"pages_checked": c.get("pages_checked"), "audit_date": a["date"]},
             })

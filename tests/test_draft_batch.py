@@ -10,9 +10,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import draft_batch  # noqa: E402
-from draft_batch import (SIGNATURE, address_live, closing, facts_sentence,  # noqa: E402
-                         greeting, offer, owner_email, redirected_elsewhere,
-                         self_check, site_email, site_looks_unrelated, subject_for)
+from draft_batch import (AGENCY_BODY, SIGNATURE, address_live, closing,  # noqa: E402
+                         facts_sentence, greeting, offer, owner_email,
+                         redirected_elsewhere, self_check, site_email,
+                         site_looks_unrelated, subject_for)
 
 
 class OwnerEmailTests(unittest.TestCase):
@@ -204,6 +205,31 @@ class RenderedMessageTests(unittest.TestCase):
             with self.subTest(kind=kind, leaks=lk):
                 self.assertNotIn("worth closing", body)
                 self.assertIn("reply and I will send the design", body)
+
+
+class AgencyBodyTests(unittest.TestCase):
+    """The agency lane carried 152 of the 208 sends and it never asked the
+    reader for anything. It gave away the sample, priced the rest, and ended on
+    the price, so the next step was the reader's to invent. Two phrases in it
+    were also only legible to this desk: "no re-ask", and a subject line about
+    "the leak named"."""
+
+    def test_it_asks_for_the_reply(self):
+        self.assertIn("Reply with the trade and the metro", AGENCY_BODY)
+
+    def test_the_two_phrases_only_this_desk_understood_are_gone(self):
+        self.assertNotIn("no re-ask", AGENCY_BODY)
+        self.assertNotIn("target list (trade, metro, size)", AGENCY_BODY)
+
+    def test_both_prices_survive_the_rewrite(self):
+        """The ask is not a reason to lose the offer it is asking about."""
+        self.assertIn("$400", AGENCY_BODY)
+        self.assertIn("$150 a month", AGENCY_BODY)
+
+    def test_every_paragraph_is_a_finished_sentence(self):
+        for para in [p.strip() for p in AGENCY_BODY.split("\n\n") if p.strip()]:
+            with self.subTest(para=para[:50]):
+                self.assertRegex(para, r"[.:]$")
 
 
 class ClosingTests(unittest.TestCase):
