@@ -25,6 +25,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from carry_forward import main as carry_tail  # noqa: E402
 from gmail_send import run_queue  # noqa: E402
+from inbox_check import scan as scan_inbox  # noqa: E402
 from queue_from_backlog import main as build_queue  # noqa: E402
 
 QUEUES = Path(__file__).resolve().parents[2] / "internal-docs" / "comms" / "queues"
@@ -57,6 +58,33 @@ def pending(path):
     return n
 
 
+def read_replies(days=3, apply=True):
+    """Read the mailbox on the way in, rather than when someone remembers to.
+
+    The whole machine exists to produce a reply, and nothing was watching for
+    one. A run that sends a hundred emails and says nothing about the answer
+    that arrived overnight leaves the only thing worth money sitting in a
+    mailbox until somebody happens to look.
+
+    On the way in and not on the way out, because run_queue reads
+    suppression.txt once when it starts: a prospect who answered "stop"
+    overnight is only held out of this batch if their reply is recorded
+    before the batch is handed over. Reading after the send mails them one
+    more time and finds out why the following morning.
+
+    Bounces are applied on the same pass, because a dead address that is not
+    suppressed is mailed again tomorrow, and a prospect who answered is
+    recorded as one, because a person who replied must not be drawn again as
+    cold. A dry run only looks: it writes nothing and stops nothing.
+    """
+    replies, bounces = scan_inbox(days, apply_bounces=apply, apply_replies=apply)
+    if replies:
+        print(f"\n{'=' * 66}\n  {replies} REPLY OR REPLIES WAITING IN THE MAILBOX\n{'=' * 66}")
+    if bounces:
+        print(f"{bounces} hard bounce(s) suppressed this run")
+    return replies
+
+
 def main(argv):
     ap = argparse.ArgumentParser()
     ap.add_argument("--cap", type=int, default=40)
@@ -66,6 +94,12 @@ def main(argv):
 
     today = datetime.date.today().isoformat()
     queue = QUEUES / f"{today}.jsonl"
+
+    # First, before anything can return early. The read sits at the top so a
+    # day whose queue already went out still gets its mailbox read, and so the
+    # suppression it writes is in place before the builder and the sender look
+    # at it.
+    read_replies(apply=not args.dry_run)
 
     if pending(queue) == 0:
         # A queue that already sent some rows is not refilled: a past day's

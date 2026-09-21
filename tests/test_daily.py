@@ -2,7 +2,9 @@
 
 Run: python3 tests/test_daily.py
 """
+import contextlib
 import datetime
+import io
 import json
 import os
 import sys
@@ -24,14 +26,17 @@ class BacklogDrawTests(unittest.TestCase):
         self.queues = Path(self.tmp.name)
         self.real_queues = daily.QUEUES
         self.real_carry, self.real_build, self.real_run = daily.carry_tail, daily.build_queue, daily.run_queue
+        self.real_scan = daily.scan_inbox
         daily.QUEUES = self.queues
         daily.carry_tail = lambda argv: None
         daily.run_queue = lambda *a, **k: 0
+        daily.scan_inbox = lambda *a, **k: (0, 0)
         self.asked = []
 
     def tearDown(self):
         daily.QUEUES = self.real_queues
         daily.carry_tail, daily.build_queue, daily.run_queue = self.real_carry, self.real_build, self.real_run
+        daily.scan_inbox = self.real_scan
         self.tmp.cleanup()
 
     def _backlog(self, name, rows, age):
@@ -80,6 +85,71 @@ class BacklogDrawTests(unittest.TestCase):
         self._backlog("2026-09-21-backlog.jsonl", 5, age=10)
         self.assertEqual([p.name for p in daily.backlogs_newest_first()],
                          ["2026-09-21-backlog.jsonl", "2026-09-19-backlog.jsonl"])
+
+    def test_the_run_reads_the_mailbox_before_it_sends(self):
+        """The machine exists to produce a reply. A run that sends and says
+        nothing about the answer that arrived leaves the only thing worth
+        money sitting in a mailbox until somebody happens to look.
+
+        Before the send, not after: run_queue reads suppression.txt once when
+        it starts, so a reply recorded afterwards arrives a day late and the
+        address is mailed once more in the meantime."""
+        self._backlog("2026-09-21-backlog.jsonl", 200, age=10)
+        daily.build_queue = self._build(0)
+        order = []
+        daily.scan_inbox = lambda days, **k: (order.append("mailbox") or (0, 0))
+        daily.run_queue = lambda *a, **k: (order.append("send") or 0)
+
+        daily.main(["--cap", "5"])
+
+        self.assertEqual(order, ["mailbox", "send"])
+
+    def test_the_read_applies_what_it_finds(self):
+        self._backlog("2026-09-21-backlog.jsonl", 200, age=10)
+        daily.build_queue = self._build(0)
+        asked = []
+        daily.scan_inbox = lambda days, **k: (asked.append(k) or (0, 0))
+
+        daily.main(["--cap", "5"])
+
+        self.assertTrue(asked[0].get("apply_bounces"))
+        self.assertTrue(asked[0].get("apply_replies"))
+
+    def test_a_dry_run_looks_without_writing(self):
+        """A dry run that suppressed addresses or stopped sequences would
+        make the one command safe to try the one that changes things."""
+        self._backlog("2026-09-21-backlog.jsonl", 200, age=10)
+        daily.build_queue = self._build(0)
+        asked = []
+        daily.scan_inbox = lambda days, **k: (asked.append(k) or (0, 0))
+
+        daily.main(["--cap", "5", "--dry-run"])
+
+        self.assertFalse(asked[0].get("apply_bounces"))
+        self.assertFalse(asked[0].get("apply_replies"))
+
+    def test_a_day_that_already_sent_still_reads_the_mailbox(self):
+        """A queue that has gone out returns early. The read used to sit
+        after that return, so on every re run of a sent day the mailbox went
+        unread, which is most of the times this runs."""
+        p = self.queues / (datetime.date.today().isoformat() + ".jsonl")
+        p.write_text(json.dumps({"to": "a@x.com", "message_id": "m1"}) + "\n")
+        asked = []
+        daily.scan_inbox = lambda days, **k: (asked.append(days) or (0, 0))
+
+        daily.main(["--cap", "5"])
+
+        self.assertEqual(len(asked), 1)
+
+    def test_a_reply_is_shouted_about(self):
+        self._backlog("2026-09-21-backlog.jsonl", 200, age=10)
+        daily.build_queue = self._build(0)
+        daily.scan_inbox = lambda days, **k: (2, 0)
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            daily.main(["--cap", "5"])
+        out = buf.getvalue()
+        self.assertIn("2 REPLY OR REPLIES WAITING IN THE MAILBOX", out)
 
 
 if __name__ == "__main__":
