@@ -63,11 +63,11 @@ def suppressed(addr, table):
     return addr in table or domain in table
 
 
-def access_token():
+def access_token(force=False):
     creds_path = os.path.join(TOKEN_DIR, "credentials.json")
     with open(creds_path, encoding="utf-8") as fh:
         creds = json.load(fh)
-    if creds.get("expiry_date", 0) > time.time() * 1000 + 60_000:
+    if not force and creds.get("expiry_date", 0) > time.time() * 1000 + 60_000:
         return creds["access_token"]
     with open(os.path.join(TOKEN_DIR, "gcp-oauth.keys.json"), encoding="utf-8") as fh:
         keys = json.load(fh)
@@ -324,7 +324,18 @@ def run_queue(path, pace, limit, dry_run, daily_cap=None):
         try:
             # Read the token per row: a paced run outlives the hour a token
             # lives, and reading it once up front killed the rest of the queue.
-            res = send(access_token(), sender, row)
+            try:
+                res = send(access_token(), sender, row)
+            except urllib.error.HTTPError as err:
+                if err.code != 401:
+                    raise
+                # A 401 on a token the file still calls live is the credential
+                # file being refreshed underneath this run by its other holder,
+                # which is what stopped three queues today. One forced refresh
+                # and one retry, then the day is given up as before. A message
+                # that 401ed was not accepted, so retrying cannot double send.
+                print(f'{row["to"]}: HTTP 401, refreshing the token and retrying once')
+                res = send(access_token(force=True), sender, row)
         except urllib.error.HTTPError as err:
             body = err.read().decode(errors="ignore")[:300]
             print(f'FAILED {row["to"]}: HTTP {err.code} {body}')
@@ -333,6 +344,9 @@ def run_queue(path, pace, limit, dry_run, daily_cap=None):
             if err.code in (401, 403, 429):
                 return sent
             continue
+        # Cleared so a row that went out on the retry does not keep reading as
+        # errored, which is how three rows sat in queues today.
+        row.pop("error", None)
         row["message_id"] = res["id"]
         row["thread_id"] = res.get("threadId")
         row["sent_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")

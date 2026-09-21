@@ -8,6 +8,7 @@ import sys
 import tempfile
 import time
 import unittest
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -144,6 +145,107 @@ class TokenRefreshTests(unittest.TestCase):
             {"access_token": "live", "refresh_token": "r",
              "expiry_date": int((time.time() + 3600) * 1000)}), encoding="utf-8")
         self.assertEqual(gmail_send.access_token(), "live")
+
+    def test_a_forced_refresh_replaces_a_token_that_looks_live(self):
+        """What the 401 retry needs. A token the file calls live is exactly the
+        case a plain read will not refresh, so the retry has to ask."""
+        self.creds.write_text(json.dumps(
+            {"access_token": "live", "refresh_token": "r",
+             "expiry_date": int((time.time() + 3600) * 1000)}), encoding="utf-8")
+        self.assertEqual(gmail_send.access_token(force=True), "new")
+
+
+class SendRetryTests(unittest.TestCase):
+    """A 401 on a live looking token abandons the whole queue.
+
+    Three queues did that today, each stopping where it stood. The token is
+    rejected while the file still calls it live because the credential file has
+    a second holder that refreshes it mid run. One forced refresh and one retry
+    turns that into a recovered row, and a real auth failure into the same stop
+    as before.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.dir = Path(self.tmp.name)
+        self.queue = self.dir / "q.jsonl"
+        self.queue.write_text(
+            json.dumps({"to": "a@x.com", "subject": "s", "body": "b"}) + "\n", encoding="utf-8")
+
+        self.real_dir = gmail_send.TOKEN_DIR
+        gmail_send.TOKEN_DIR = self.tmp.name
+        self.addCleanup(setattr, gmail_send, "TOKEN_DIR", self.real_dir)
+        (self.dir / "gcp-oauth.keys.json").write_text(
+            json.dumps({"installed": {"client_id": "i", "client_secret": "s"}}), encoding="utf-8")
+        (self.dir / "credentials.json").write_text(json.dumps(
+            {"access_token": "live", "refresh_token": "r",
+             "expiry_date": int((time.time() + 3600) * 1000)}), encoding="utf-8")
+        original = gmail_send.urllib.request.urlopen
+        gmail_send.urllib.request.urlopen = lambda *a, **k: io.BytesIO(
+            json.dumps({"access_token": "new", "expires_in": 3600}).encode())
+        self.addCleanup(setattr, gmail_send.urllib.request, "urlopen", original)
+
+        self.slots = []
+
+        def reserve(cap, d):
+            self.slots.append(1)
+            return len(self.slots)
+
+        for name, value in (("profile_address", lambda t: "me@x.com"),
+                            ("domain_accepts_mail", lambda d: True),
+                            ("reserve_send", reserve)):
+            self.addCleanup(setattr, gmail_send, name, getattr(gmail_send, name))
+            setattr(gmail_send, name, value)
+        self.tokens = []
+
+    def patch_send(self, outcomes):
+        """Hand back the queue's send calls: an exception instance to raise, or
+        a result dict to return."""
+        def fake(token, sender, row):
+            self.tokens.append(token)
+            out = outcomes[len(self.tokens) - 1]
+            if isinstance(out, Exception):
+                raise out
+            return out
+        self.addCleanup(setattr, gmail_send, "send", gmail_send.send)
+        gmail_send.send = fake
+
+    def unauthorised(self):
+        return urllib.error.HTTPError(
+            "https://gmail.googleapis.com/x", 401, "Unauthorized", {}, io.BytesIO(b"{}"))
+
+    def row(self):
+        return json.loads(self.queue.read_text(encoding="utf-8").strip())
+
+    def test_a_401_is_retried_once_with_a_freshly_refreshed_token(self):
+        self.patch_send([self.unauthorised(), {"id": "m1", "threadId": "t1"}])
+        self.assertEqual(gmail_send.run_queue(str(self.queue), 0, 0, False), 1)
+        self.assertEqual(self.tokens, ["live", "new"])
+        self.assertEqual(self.row()["message_id"], "m1")
+        self.assertNotIn("error", self.row())
+
+    def test_the_retry_spends_one_slot_of_todays_budget_not_two(self):
+        """The slot is taken before the send, so a retry must not take another
+        one. Two would count one letter twice against the mailbox cap."""
+        self.patch_send([self.unauthorised(), {"id": "m2", "threadId": "t2"}])
+        gmail_send.run_queue(str(self.queue), 0, 0, False)
+        self.assertEqual(len(self.slots), 1)
+
+    def test_a_second_401_still_gives_up_the_queue(self):
+        """The retry recovers a raced token, it does not paper over dead auth.
+        The row is left pending so a later run picks it up."""
+        self.patch_send([self.unauthorised(), self.unauthorised()])
+        self.assertEqual(gmail_send.run_queue(str(self.queue), 0, 0, False), 0)
+        self.assertEqual(self.tokens, ["live", "new"])
+        self.assertNotIn("message_id", self.row())
+        self.assertEqual(self.row()["error"], "HTTP 401")
+
+    def test_another_error_is_not_retried(self):
+        self.patch_send([urllib.error.HTTPError(
+            "https://gmail.googleapis.com/x", 400, "Bad Request", {}, io.BytesIO(b"{}"))])
+        self.assertEqual(gmail_send.run_queue(str(self.queue), 0, 0, False), 0)
+        self.assertEqual(self.tokens, ["live"])
 
 
 if __name__ == "__main__":
