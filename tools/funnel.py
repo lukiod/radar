@@ -100,7 +100,15 @@ def report(days, mailbox):
     print("                    (counted from the queues, so it excludes any send made before its row was filed)")
 
     if first:
-        print("\nby lane:", dict(Counter(r.get("lane") or "?" for r in first)))
+        # Not by lane. lane is not the copy: 152 sent rows read agency there
+        # while carrying the local body and the local closing line, so a
+        # breakdown by it was read as 152 agency sends and invited a wrong
+        # conclusion about which copy was failing. copy is stamped for exactly
+        # this read, and the rows sent before it existed are the honest "?".
+        stamped = Counter(r.get("copy") if r.get("copy") is not None else "?" for r in first)
+        print("\nby copy:", dict(stamped))
+        if stamped.get("?") == len(first):
+            print("                    (every send predates the copy stamp, so none of them can be separated by it yet)")
         print("by kind:", dict(Counter(r.get("kind") or "?" for r in first)))
 
     print(f"\nsuppression list:   {len([l for l in SUPPRESSION.read_text().splitlines() if l.strip() and not l.startswith('#')]) if SUPPRESSION.exists() else 0} entries")
