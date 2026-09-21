@@ -30,9 +30,17 @@ from queue_from_backlog import main as build_queue  # noqa: E402
 QUEUES = Path(__file__).resolve().parents[2] / "internal-docs" / "comms" / "queues"
 
 
-def newest_backlog():
-    found = sorted(QUEUES.glob("*-backlog.jsonl"), key=lambda p: p.stat().st_mtime)
-    return found[-1] if found else None
+def backlogs_newest_first():
+    """Every backlog, newest first.
+
+    Reading only the newest one stranded inventory. The 372 row backlog
+    drafted 09 19 held 365 verified rows that had never been sent, and it was
+    never drawn from again because 09 21's was newer, so a day's quota came
+    out of one file while a fully drafted one sat beside it. Preferring fresh
+    rows is the point; abandoning old ones was not.
+    """
+    found = sorted(QUEUES.glob("*-backlog.jsonl"), key=lambda p: p.stat().st_mtime, reverse=True)
+    return found
 
 
 def pending(path):
@@ -71,10 +79,16 @@ def main(argv):
         # verified, and claimed_identifiers would otherwise block it from the
         # backlog forever.
         carry_tail(["--out", str(queue), "--limit", str(args.cap), "--before", today])
-        backlog = newest_backlog()
-        if backlog:
-            build_queue(["--backlog", str(backlog), "--out", str(queue), "--limit", str(args.cap)])
-        elif pending(queue) == 0:
+        backlogs = backlogs_newest_first()
+        for backlog in backlogs:
+            # Each file is asked only for what the day still needs, so the
+            # newest is drained first and an older one is reached rather than
+            # skipped.
+            left = args.cap - pending(queue)
+            if left <= 0:
+                break
+            build_queue(["--backlog", str(backlog), "--out", str(queue), "--limit", str(left)])
+        if not backlogs and pending(queue) == 0:
             sys.exit(f"no backlog in {QUEUES} and no tail to carry, nothing to build {queue.name} from")
     else:
         print(f"{queue.name}: {pending(queue)} row(s) already pending")

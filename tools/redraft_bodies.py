@@ -71,9 +71,13 @@ def main(argv):
         rows.append(row)
 
     dst = Path(args.dst or args.src)
-    with dst.open("w", encoding="utf-8") as fh:
+    # A copy change rewrites the file it reads, so an interrupted write would
+    # leave a half rendered backlog where a whole one was.
+    tmp = dst.with_name(dst.name + ".tmp")
+    with tmp.open("w", encoding="utf-8") as fh:
         for row in rows:
             fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+    os.replace(tmp, dst)
     print(f"{changed} re rendered, {kept} already current, {len(rows)} rows to {dst}")
     return 0
 
