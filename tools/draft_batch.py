@@ -171,19 +171,36 @@ def facts_sentence(kind, domain, lk):
 
 
 def offer(kind, lk=None):
+    """The design, then the one automation, then the timeline, in that order.
+
+    The earlier wording packed the rebuild, four features and the deadline
+    into a single sentence joined by three ands, so the design, which is the
+    thing being sold, arrived last as an aside while a feature list led. Each
+    branch now opens on what the site looks like, says the one thing it does
+    after hours, and ends on the one short sentence about time.
+    """
     lk = lk or []
     if "booking" not in lk:
         # A scheduler exists already; offer the intake in front of it.
         if kind == "dental":
-            return "I put a short intake in front of the booking you already have, insurance and the reason for the visit and a place to ask a question, so a patient can go from question to a booked slot without calling, with automatic reminders and a review request after each visit, live within a week, one go, and give the site a clean new design while I am at it."
+            return ("I rebuild the site so it looks like the practice it is, and put a short intake in front of "
+                    "the booking you already have, insurance and the reason for the visit, so a patient gets from "
+                    "a question to a booked slot without calling. A week from the go ahead.")
         if kind == "law":
-            return "I put a confidential intake in front of the consult booking you already have, the matter and a conflict check and a place to ask a question, so a client can go from question to a booked consult without calling, live within a week, one go, and give the site a design that looks like the firm you are while I am at it."
-        return "I put a short intake in front of the booking you already have that collects the address, the problem and a photo, so an after hours request arrives with the details instead of a call back, and texts your on call tech, live within a week, one go, and give the site a clean new design while I am at it."
+            return ("I rebuild the site so it looks like the firm it is, and put a confidential intake in front of "
+                    "the consult booking you already have, the matter and a conflict check, so a client gets from a "
+                    "question to a booked consult without calling. A week from the go ahead.")
+        return ("I rebuild the site so it looks like the company it is, and put a short form in front of the booking "
+                "you already have that takes the address, the problem and a photo, so an after hours request arrives "
+                "with the details and texts whoever is on call. A week from the go ahead.")
     if kind == "dental":
-        return "I build online booking that lands on your schedule, with automatic reminders and a review request after each visit, live within a week, one go, and give the site a clean new design while I am at it."
+        return ("I rebuild the site so it looks like the practice it is, and put booking on it that lands on your own "
+                "schedule, with reminders and a review request after each visit. A week from the go ahead.")
     if kind == "law":
-        return "I build consult scheduling with confidential intake and conflict check questions in front of it, live within a week, one go, and give the site a design that looks like the firm you are while I am at it."
-    return "I build an after hours intake that collects the address and the problem, books the request and texts your on call tech, live within a week, one go, and give the site a clean new design while I am at it."
+        return ("I rebuild the site so it looks like the firm it is, and put consult scheduling on it with a "
+                "confidential intake in front, so the 10pm consult books itself. A week from the go ahead.")
+    return ("I rebuild the site so it looks like the company it is, and put an after hours form on it that books the "
+            "job, takes the address and the problem, and texts whoever is on call. A week from the go ahead.")
 
 
 def self_check(kind, domain, lk):

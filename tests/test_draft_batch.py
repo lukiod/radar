@@ -300,5 +300,44 @@ class SelfCheckTests(unittest.TestCase):
                 self.assertNotIn(", in a week, one go", text, (kind, lk))
 
 
+class OfferReadsLikeAMessageTests(unittest.TestCase):
+    """245 first touches produced one reply and it was "stop". The reply that
+    did come, ten minutes after a plain correction that conceded an error,
+    says the voice is what gets answered, not the feature list."""
+
+    KINDS = ("dental", "law", "home")
+    LEAKS = (["booking"], ["booking", "form"], ["form"])
+
+    def test_the_design_is_what_the_offer_opens_on(self):
+        # The site was the last clause of a long sentence, joined by "and I
+        # give the site a design while I am at it", so it read as a freebie
+        # thrown in rather than the product.
+        for kind in self.KINDS:
+            for lk in self.LEAKS:
+                text = offer(kind, lk)
+                self.assertTrue(text.startswith("I rebuild the site so it looks like"), (kind, lk))
+
+    def test_no_feature_triad_joined_by_ands(self):
+        """One sentence carried the rebuild, four features and the deadline."""
+        for kind in self.KINDS:
+            for lk in self.LEAKS:
+                text = offer(kind, lk)
+                self.assertNotIn(" and a place to ask", text, (kind, lk))
+                self.assertNotIn(" and give the site", text, (kind, lk))
+                self.assertNotIn("one go", text, (kind, lk))
+
+    def test_the_timeline_is_its_own_short_sentence(self):
+        for kind in self.KINDS:
+            for lk in self.LEAKS:
+                text = offer(kind, lk)
+                self.assertTrue(text.endswith("A week from the go ahead."), (kind, lk))
+                self.assertEqual(text.count("."), 2, (kind, lk))
+
+    def test_it_stays_short_enough_to_read_on_a_phone(self):
+        for kind in self.KINDS:
+            for lk in self.LEAKS:
+                self.assertLess(len(offer(kind, lk)), 330, (kind, lk))
+
+
 if __name__ == "__main__":
     unittest.main()
