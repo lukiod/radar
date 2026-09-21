@@ -152,11 +152,12 @@ def main(argv):
     print(f"{'would send' if args.dry_run else 'sent'} {sent_follow} follow up(s)")
     build_follow_ups(args.dry_run)
 
+    # A queue that already sent some rows is not refilled: a past day's queue
+    # is never re-run, and topping it up would mix two days.
+    started = queue.exists() and any(json.loads(l).get("message_id")
+                                     for l in queue.read_text(encoding="utf-8").splitlines() if l.strip())
     if pending(queue) == 0:
-        # A queue that already sent some rows is not refilled: a past day's
-        # queue is never re-run, and topping it up would mix two days.
-        if queue.exists() and any(json.loads(l).get("message_id")
-                                  for l in queue.read_text(encoding="utf-8").splitlines() if l.strip()):
+        if started:
             print(f"{queue.name} has already sent, leaving it alone")
             return 0
         print(f"{queue.name} has nothing pending, building {args.cap} rows")
@@ -164,19 +165,32 @@ def main(argv):
         # verified, and claimed_identifiers would otherwise block it from the
         # backlog forever.
         carry_tail(["--out", str(queue), "--limit", str(args.cap), "--before", today])
-        backlogs = backlogs_newest_first()
-        for backlog in backlogs:
-            # Each file is asked only for what the day still needs, so the
-            # newest is drained first and an older one is reached rather than
-            # skipped.
-            left = args.cap - pending(queue)
-            if left <= 0:
-                break
-            build_queue(["--backlog", str(backlog), "--out", str(queue), "--limit", str(left)])
-        if not backlogs and pending(queue) == 0:
-            sys.exit(f"no backlog in {QUEUES} and no tail to carry, nothing to build {queue.name} from")
     else:
         print(f"{queue.name}: {pending(queue)} row(s) already pending")
+
+    # Then draw up to the cap, whether the queue started the day empty or not.
+    # A row the verifier rejected is not pending, so a queue built to the cap
+    # sends fewer than the cap and nothing replaced the shortfall: seven rows
+    # went that way in the 09 22 queue alone. A queue that has begun sending is
+    # left alone, for the reason above.
+    if not started:
+        backlogs = backlogs_newest_first()
+        try:
+            for backlog in backlogs:
+                # Each file is asked only for what the day still needs, so the
+                # newest is drained first and an older one is reached rather
+                # than skipped.
+                left = args.cap - pending(queue)
+                if left <= 0:
+                    break
+                build_queue(["--backlog", str(backlog), "--out", str(queue), "--limit", str(left)])
+        except Exception as err:
+            # Guarded for the same reason the follow up build is: a bad minute
+            # in the builder must not cost the day's cold queue, which is
+            # already drafted and sitting right here.
+            print(f"top up skipped: {err}")
+        if not backlogs and pending(queue) == 0:
+            sys.exit(f"no backlog in {QUEUES} and no tail to carry, nothing to build {queue.name} from")
 
     n = run_queue(str(queue), args.pace, args.cap, args.dry_run)
     print(f"sent {n} from {queue.name}")

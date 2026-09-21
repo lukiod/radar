@@ -86,6 +86,36 @@ class BacklogDrawTests(unittest.TestCase):
         self.assertEqual([p.name for p in daily.backlogs_newest_first()],
                          ["2026-09-21-backlog.jsonl", "2026-09-19-backlog.jsonl"])
 
+    def test_a_queue_short_of_the_cap_is_topped_up(self):
+        """A row the verifier rejected is not pending, so a queue built to the
+        cap sends fewer than the cap. Seven rows went that way in the 09 22
+        queue alone, and nothing drew their replacements."""
+        self._backlog("2026-09-21-backlog.jsonl", 200, age=10)
+        daily.build_queue = self._build(0)
+        today = self.queues / (datetime.date.today().isoformat() + ".jsonl")
+        rows = [{"to": f"p{i}@x.com"} for i in range(93)]
+        rows += [{"to": f"r{i}@x.com", "rejected": "copy claims ['form'] missing, the live site has it"}
+                 for i in range(7)]
+        today.write_text("".join(json.dumps(r) + "\n" for r in rows))
+
+        daily.main(["--cap", "100"])
+
+        self.assertEqual(self.asked, [("2026-09-21-backlog.jsonl", 7)])
+
+    def test_a_queue_that_has_begun_sending_is_not_topped_up(self):
+        """A queue that already put rows out is not refilled, because topping
+        it up would mix two days in one file."""
+        self._backlog("2026-09-21-backlog.jsonl", 200, age=10)
+        daily.build_queue = self._build(0)
+        today = self.queues / (datetime.date.today().isoformat() + ".jsonl")
+        rows = [{"to": "sent@x.com", "message_id": "m1"}]
+        rows += [{"to": f"p{i}@x.com"} for i in range(50)]
+        today.write_text("".join(json.dumps(r) + "\n" for r in rows))
+
+        daily.main(["--cap", "100"])
+
+        self.assertEqual(self.asked, [])
+
     def test_the_run_reads_the_mailbox_before_it_sends(self):
         """The machine exists to produce a reply. A run that sends and says
         nothing about the answer that arrived leaves the only thing worth
