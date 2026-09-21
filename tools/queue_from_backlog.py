@@ -115,16 +115,23 @@ def main(argv):
     # A spoken for firm joins the table the suppression check reads, so a
     # second cold email needs the address and the domain to have both missed.
     table = load_suppression(os.path.abspath(SUPPRESSION)) | claimed_identifiers(args.out)
-    picked = select(load(args.backlog), args.limit, table, address_live)
     out = Path(args.out)
+    # Rows already in the file are kept and their firms blocked from the
+    # draw: the day's tail is carried in first, and a top up that redrew one
+    # of those rows would put the same firm in the queue twice.
+    existing = load(out) if out.exists() else []
+    for r in existing:
+        table.add((r.get("to") or "").lower())
+        table.add((r.get("domain") or "").lower())
+    picked = select(load(args.backlog), max(0, args.limit - len(existing)), table, address_live)
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open("w", encoding="utf-8") as fh:
-        for r in picked:
+        for r in existing + picked:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
     metros = defaultdict(int)
     for r in picked:
         metros[r.get("metro") or "unknown"] += 1
-    print(f"{len(picked)} rows to {out} from {dict(sorted(metros.items()))}")
+    print(f"{len(existing)} kept, {len(picked)} drawn to {out} from {dict(sorted(metros.items()))}")
     return 0
 
 
