@@ -70,6 +70,46 @@ class OpaqueVendorLinkTests(unittest.TestCase):
         self.assertFalse(has_online_booking(html.lower(), domain="example.com"))
 
 
+class SocialHostSuffixTests(unittest.TestCase):
+    """SOCIAL_HOSTS was matched with a bare substring, so any host merely
+    ending in those letters read as social and every booking link on it was
+    dropped: nationsdentalstudio.com shows a real Book Online link to
+    mychart.myoryx.com and the check called it absent."""
+
+    def test_a_host_merely_ending_in_x_com_is_not_social(self):
+        html = '<a href="https://mychart.myoryx.com/online-schedule/index.html?realm=1">Book Online</a>'
+        self.assertTrue(has_online_booking(html.lower(), domain="nationsdentalstudio.com"))
+
+    def test_a_tx_domain_can_still_show_its_own_booking_link(self):
+        html = '<a href="https://apolloairtx.com/book-online">Book Online</a>'
+        self.assertTrue(has_online_booking(html.lower(), domain="apolloairtx.com"))
+
+    def test_a_lookalike_domain_is_not_social(self):
+        html = '<a href="https://myfacebook.com/book">Book now</a>'
+        self.assertTrue(has_online_booking(html.lower(), domain="oasisdentalhealth.com"))
+
+    def test_a_real_subdomain_of_a_social_host_is_still_dropped(self):
+        html = '<a href="https://m.facebook.com/oasisdental/">Book now</a>'
+        self.assertFalse(has_online_booking(html.lower(), domain="oasisdentalhealth.com"))
+
+
+class ChatWidgetIsNotABookingTests(unittest.TestCase):
+    """A chat widget is not a scheduler. Reading one as evidence of booking
+    would suppress a real leak and drop the lead, which is the opposite error
+    from the false claim and just as wrong."""
+
+    def test_a_leadconnector_chat_widget_is_not_booking(self):
+        html = ('<script src="https://widgets.leadconnectorhq.com/loader.js"'
+                ' data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"'
+                ' data-widget-id="69665387406a7c000a41568d"></script>')
+        self.assertFalse(has_online_booking(html.lower(), domain="nashvilleroofingco.com"))
+
+    def test_a_podium_webchat_widget_is_not_booking(self):
+        html = ('<script defer src="https://connect.podium.com/widget.js#org_token=abc"'
+                ' id=podium-widget></script>')
+        self.assertFalse(has_online_booking(html.lower(), domain="anywhererooter.com"))
+
+
 class ScriptSwallowedAnchorTests(unittest.TestCase):
     """A JS comparator like `x<a` inside an inline <script> reads to the
     regex as an unclosed <a> tag; without stripping script/style content

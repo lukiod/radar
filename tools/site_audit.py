@@ -185,8 +185,13 @@ def has_online_booking(lower, domain=None):
         if "call" in words and "online" not in words:
             continue
         host = re.sub(r"^https?://", "", target).split("/", 1)[0].lower()
-        if any(s in host for s in SOCIAL_HOSTS):
-            continue  # "facebook.com" contains "book"; a social link is never a scheduler
+        # Whole labels, not a substring: "facebook.com" contains "book", so the
+        # test exists to drop social links, but as a substring it also swallowed
+        # every host ending in those letters. mychart.myoryx.com, apolloairtx.com,
+        # childrensdentistryofapex.com and 46 other pool domains matched a social
+        # host by accident, and every booking link on them was discarded.
+        if any(host == s or host.endswith("." + s) for s in SOCIAL_HOSTS):
+            continue  # a social link is never a scheduler
         if any(k in target for k in ("book", "schedul", "appoint", "reserv", "widget")):
             return True
         # A booking-worded link that jumps to a completely different domain
