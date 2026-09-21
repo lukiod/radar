@@ -90,11 +90,18 @@ def main(argv):
         if observed is None:
             unverifiable.append(row["domain"])
             row["rejected"] = "site could not be read, so the claim cannot stand"
+            # A row rejected on a second pass kept the verified it earned on
+            # the first, so the file said both things at once. Every reader
+            # checks rejected as well, so nothing bad was sent on it, but a
+            # row that reads as verified and rejected is a row nobody can
+            # trust by eye. One verdict per row.
+            row.pop("verified", None)
             continue
         # Anything claimed missing has to still be missing.
         present = [k for k in claimed if k not in observed]
         if present:
             row["rejected"] = f"copy claims {present} missing, the live site has it"
+            row.pop("verified", None)
             bad.append((row["domain"], claimed, observed, present))
         else:
             row.pop("rejected", None)
