@@ -1,6 +1,486 @@
 {
- "generated_at": "2026-09-21T23:48:16Z",
+ "generated_at": "2026-09-22T03:10:04Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15641",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: Bounty Proposal: Sanitize Exception Leak in fetch_url_tool ($50 USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/15641",
+   "at": "2026-09-22T03:07:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15641",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15641 Bounty Proposal: Sanitize Exception Leak in fetch_url_tool ($50 USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/15641",
+   "at": "2026-09-22T03:07:08Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15639",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: Bounty Proposal: Sanitize Exception Leaks in integration_base Helpers ($50 USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/15639",
+   "at": "2026-09-22T03:03:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15639",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15639 Bounty Proposal: Sanitize Exception Leaks in integration_base Helpers ($50 USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/15639",
+   "at": "2026-09-22T03:03:51Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57299",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57299 [Trace allocation tracker] Replace capture-wide sampling corruption scope with exact acknowledgements",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57299",
+   "at": "2026-09-22T02:58:44Z",
+   "extra": {
+    "author": "tchedaTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15637",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Request] : Sanitize unexpected exception leaks in installed app chat tools",
+   "url": "https://github.com/BasedHardware/omi/issues/15637",
+   "at": "2026-09-22T02:57:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15635",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Request] : Sanitize date parsing, mutation errors, and unexpected exception leaks in calendar chat tools",
+   "url": "https://github.com/BasedHardware/omi/issues/15635",
+   "at": "2026-09-22T02:54:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15633",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Request] : Sanitize unexpected search exception leaks in perplexity chat tool",
+   "url": "https://github.com/BasedHardware/omi/issues/15633",
+   "at": "2026-09-22T02:47:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15631",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Request] : Sanitize config and session exception leaks in file search chat tool",
+   "url": "https://github.com/BasedHardware/omi/issues/15631",
+   "at": "2026-09-22T02:44:13Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15629",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Request] : Sanitize date parsing and formatting exception leaks in conversation chat tools",
+   "url": "https://github.com/BasedHardware/omi/issues/15629",
+   "at": "2026-09-22T02:41:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15627",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] Backend: Memory tools exception leak & unhandled retrieval prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15627",
+   "at": "2026-09-22T02:35:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15627",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15627 [Bounty Proposal] Backend: Memory tools exception leak & unhandled retrieval prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15627",
+   "at": "2026-09-22T02:35:49Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15625",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] Backend: Gmail tools exception leak & unhandled error prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15625",
+   "at": "2026-09-22T02:30:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15625",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15625 [Bounty Proposal] Backend: Gmail tools exception leak & unhandled error prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15625",
+   "at": "2026-09-22T02:30:29Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/Smartdevs17/stellarlend/issues/1004",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] RBAC trusts spoofable X-User-Role, enabling unauthenticated admin actions and role assignment",
+   "url": "https://github.com/Smartdevs17/stellarlend/issues/1004",
+   "at": "2026-09-22T02:23:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Babydov",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15623",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] Backend: Action item tools exception leak & unhandled crash prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15623",
+   "at": "2026-09-22T02:13:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15623",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15623 [Bounty Proposal] Backend: Action item tools exception leak & unhandled crash prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15623",
+   "at": "2026-09-22T02:13:09Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15616",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] Backend: Apple Health tools exception leak & unhandled crash prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15616",
+   "at": "2026-09-22T02:04:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15616",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15616 [Bounty Proposal] Backend: Apple Health tools exception leak & unhandled crash prevention",
+   "url": "https://github.com/BasedHardware/omi/issues/15616",
+   "at": "2026-09-22T02:04:20Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15611",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(iq_rating): prevent internal exception leakage and HTML injection in GET /iq dashboard ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15611",
+   "at": "2026-09-22T01:28:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15611",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15611 [Bounty proposal] fix(iq_rating): prevent internal exception leakage and HTML injection in GET /iq dashboard ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15611",
+   "at": "2026-09-22T01:28:15Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57290",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57290 [aw] Failed jobs: Repo Assist (tt-metal)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57290",
+   "at": "2026-09-22T01:19:21Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57289",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57289 [aw] Repo Assist (tt-metal) failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57289",
+   "at": "2026-09-22T01:19:19Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/RandyKnapp/ValheimMods/issues/751",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RandyKnapp/ValheimMods: Issue with Bounties and Treasure Map",
+   "url": "https://github.com/RandyKnapp/ValheimMods/issues/751",
+   "at": "2026-09-22T01:10:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "OctoberJemini",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15602",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(ms365-app): prevent internal exception leaks and sanitize tool dispatch error responses ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15602",
+   "at": "2026-09-22T01:10:07Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 50,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15602",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15602 [Bounty proposal] fix(ms365-app): prevent internal exception leaks and sanitize tool dispatch error responses ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15602",
+   "at": "2026-09-22T01:10:07Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15600",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(usgs-earthquake): prevent internal exception leaks and sanitize chat tool responses ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15600",
+   "at": "2026-09-22T01:03:27Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 50,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15600",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15600 [Bounty proposal] fix(usgs-earthquake): prevent internal exception leaks and sanitize chat tool responses ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15600",
+   "at": "2026-09-22T01:03:27Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15593",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(hacker-news): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15593",
+   "at": "2026-09-22T00:47:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15593",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15593 [Bounty proposal] fix(hacker-news): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15593",
+   "at": "2026-09-22T00:47:48Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15591",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(frankfurter-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15591",
+   "at": "2026-09-22T00:26:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15591",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15591 [Bounty proposal] fix(frankfurter-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15591",
+   "at": "2026-09-22T00:26:32Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57286",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57286 MetalEnv::create_mesh_device leaks a MetalContext when mesh device creation throws",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57286",
+   "at": "2026-09-22T00:19:02Z",
+   "extra": {
+    "author": "ezaiakinTT",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15589",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] security: eight plugins \u2014 unauthenticated GET /disconnect?uid= deletes any user's stored OAuth tokens ($150 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15589",
+   "at": "2026-09-22T00:06:53Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 150,
+    "author": "boai-maker",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/52",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9770850 BOUNTY FOR IMPLEMENTING SCRATCH 4.0 INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/52",
+   "at": "2026-09-22T00:02:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9770850,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57282",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57282 [aw] Failed jobs: Tenstorrent Skills Reviewer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57282",
+   "at": "2026-09-22T00:01:13Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
   {
    "id": "https://github.com/Smartdevs17/stellarlend/issues/999",
    "source": "github_search",
@@ -37,7 +517,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15588",
    "at": "2026-09-21T23:30:13Z",
    "extra": {
-    "comments": 1,
+    "comments": 4,
     "amount_usd": 50,
     "author": "gewenbo888",
     "labels": []
@@ -92,7 +572,9 @@
    "at": "2026-09-21T23:00:46Z",
    "extra": {
     "author": "iklemenskiTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -104,7 +586,9 @@
    "at": "2026-09-21T23:00:45Z",
    "extra": {
     "author": "iklemenskiTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -565,7 +1049,9 @@
    "at": "2026-09-21T19:44:50Z",
    "extra": {
     "author": "gajanan-choudhary",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -785,18 +1271,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15549",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15549 [Bounty proposal] fix(openfoodfacts-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15549",
-   "at": "2026-09-21T18:38:59Z",
-   "extra": {
-    "state": "open",
-    "author": "Evos09"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15546",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -808,18 +1282,6 @@
     "amount_usd": 50,
     "author": "Evos09",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15546",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15546 [Bounty proposal] fix(pubmed-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15546",
-   "at": "2026-09-21T18:37:00Z",
-   "extra": {
-    "state": "open",
-    "author": "Evos09"
    }
   },
   {
@@ -837,18 +1299,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15544",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15544 [Bounty proposal] fix(crossref-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15544",
-   "at": "2026-09-21T18:34:51Z",
-   "extra": {
-    "state": "open",
-    "author": "Evos09"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15542",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -860,18 +1310,6 @@
     "amount_usd": 50,
     "author": "Evos09",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15542",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15542 [Bounty proposal] fix(semantic-scholar-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15542",
-   "at": "2026-09-21T18:32:45Z",
-   "extra": {
-    "state": "open",
-    "author": "Evos09"
    }
   },
   {
@@ -925,7 +1363,9 @@
    "at": "2026-09-21T17:43:47Z",
    "extra": {
     "author": "dmadicTT",
-    "labels": []
+    "labels": [
+     "feature"
+    ]
    }
   },
   {
@@ -940,18 +1380,6 @@
     "amount_usd": 50,
     "author": "Evos09",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15529",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15529 [Bounty proposal] fix(wikipedia-app): exception text leaks into chat tool responses across 3 endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15529",
-   "at": "2026-09-21T17:42:03Z",
-   "extra": {
-    "state": "open",
-    "author": "Evos09"
    }
   },
   {
@@ -1006,18 +1434,6 @@
     "amount_usd": 50,
     "author": "Evos09",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15523",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15523 [Bounty proposal] fix(coingecko-app): exception text leaks into chat tool responses across 4 endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15523",
-   "at": "2026-09-21T17:36:50Z",
-   "extra": {
-    "state": "open",
-    "author": "Evos09"
    }
   },
   {
@@ -1131,18 +1547,6 @@
     "amount_usd": 50,
     "author": "Mateidslx",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15512",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15512 [Bounty proposal] fix(hume-ai): exception text leaks into HTTP responses across endpoints and helpers ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15512",
-   "at": "2026-09-21T15:51:12Z",
-   "extra": {
-    "state": "open",
-    "author": "Mateidslx"
    }
   },
   {
@@ -1472,7 +1876,9 @@
    "at": "2026-09-21T13:50:48Z",
    "extra": {
     "author": "mvlahovicTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1612,7 +2018,9 @@
    "at": "2026-09-21T12:28:17Z",
    "extra": {
     "author": "ifabijanic-tt",
-    "labels": []
+    "labels": [
+     "feature-request"
+    ]
    }
   },
   {
@@ -1721,20 +2129,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15448",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Crimean Tatar (crh) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15448",
-   "at": "2026-09-21T12:09:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15448",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15448 [Bounty proposal] docs(python-cli): Crimean Tatar (crh) AI agent quickstart guide ($25 proposed)",
@@ -1743,20 +2137,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15446",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Macedonian (mk) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15446",
-   "at": "2026-09-21T12:08:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -1773,20 +2153,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15444",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Sinhala (si) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15444",
-   "at": "2026-09-21T12:08:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15444",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15444 [Bounty proposal] docs(python-cli): Sinhala (si) AI agent quickstart guide ($25 proposed)",
@@ -1795,20 +2161,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15441",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Lao (lo) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15441",
-   "at": "2026-09-21T12:07:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -1825,20 +2177,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15439",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Burmese (my) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15439",
-   "at": "2026-09-21T12:07:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15439",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15439 [Bounty proposal] docs(python-cli): Burmese (my) AI agent quickstart guide ($25 proposed)",
@@ -1851,20 +2189,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15437",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Khmer (km) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15437",
-   "at": "2026-09-21T12:06:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15437",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15437 [Bounty proposal] docs(python-cli): Khmer (km) AI agent quickstart guide ($25 proposed)",
@@ -1873,20 +2197,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15435",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Tajik (tg) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15435",
-   "at": "2026-09-21T12:05:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -1918,20 +2228,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15433",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Kyrgyz (ky) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15433",
-   "at": "2026-09-21T12:02:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15433",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15433 [Bounty proposal] docs(python-cli): Kyrgyz (ky) AI agent quickstart guide ($25 proposed)",
@@ -1940,20 +2236,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15431",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Kazakh (kk) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15431",
-   "at": "2026-09-21T12:01:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -1970,20 +2252,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15427",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Azerbaijani (az) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15427",
-   "at": "2026-09-21T11:44:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15427",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15427 [Bounty proposal] docs(python-cli): Azerbaijani (az) AI agent quickstart guide ($25 proposed)",
@@ -1992,20 +2260,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15425",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Belarusian (be) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15425",
-   "at": "2026-09-21T11:43:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -2022,20 +2276,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15422",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Albanian (sq) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15422",
-   "at": "2026-09-21T11:41:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15422",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15422 [Bounty proposal] docs(python-cli): Albanian (sq) AI agent quickstart guide (5 proposed)",
@@ -2044,20 +2284,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15419",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Georgian (ka) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15419",
-   "at": "2026-09-21T11:41:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -2074,20 +2300,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15415",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Armenian (hy) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15415",
-   "at": "2026-09-21T11:39:47Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15415",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15415 [Bounty proposal] docs(python-cli): Armenian (hy) AI agent quickstart guide (5 proposed)",
@@ -2096,20 +2308,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15412",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Nepali (ne) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15412",
-   "at": "2026-09-21T11:39:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -2126,20 +2324,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15409",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Maltese (mt) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15409",
-   "at": "2026-09-21T11:37:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15409",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15409 [Bounty proposal] docs(python-cli): Maltese (mt) AI agent quickstart guide (5 proposed)",
@@ -2152,20 +2336,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15407",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Sanskrit (sa) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15407",
-   "at": "2026-09-21T11:37:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15407",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15407 [Bounty proposal] docs(python-cli): Sanskrit (sa) AI agent quickstart guide (5 proposed)",
@@ -2174,20 +2344,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15404",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Latin (la) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15404",
-   "at": "2026-09-21T11:13:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
    }
   },
   {
@@ -2249,20 +2405,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15397",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Esperanto (eo) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15397",
-   "at": "2026-09-21T09:56:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "1234adi1234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15397",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15397 [Bounty proposal] docs(python-cli): Esperanto (eo) AI agent quickstart guide (5 proposed)",
@@ -2271,20 +2413,6 @@
    "extra": {
     "state": "open",
     "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/985",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Unauthenticated P&L write endpoints allow arbitrary financial-report corruption",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/985",
-   "at": "2026-09-21T09:23:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Babydov",
-    "labels": []
    }
   },
   {
@@ -2396,7 +2524,9 @@
    "at": "2026-09-21T08:49:43Z",
    "extra": {
     "author": "mvlahovicTT",
-    "labels": []
+    "labels": [
+     "performance monitoring"
+    ]
    }
   },
   {
@@ -2454,20 +2584,6 @@
    }
   },
   {
-   "id": "https://github.com/InductiveComputerScience/pbTpl/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "InductiveComputerScience/pbTpl: Bounty submission channel for verified TextualTemplates 0.1.22 correctness report",
-   "url": "https://github.com/InductiveComputerScience/pbTpl/issues/2",
-   "at": "2026-09-21T07:10:10Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "huangyujun1215",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57152",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -2479,20 +2595,6 @@
     "labels": [
      "agentic-workflows"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/openhat-security/ohqs/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "openhat-security/ohqs: Ingest every bug bounty program individually: recon targets, infer likely vulns, index into vector store",
-   "url": "https://github.com/openhat-security/ohqs/issues/1",
-   "at": "2026-09-21T06:38:08Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "adamsiwiec1",
-    "labels": []
    }
   },
   {
@@ -2638,30 +2740,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15281",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15281 [Bounty proposal] fix(backend): focus-stats with no date sums the user's whole history ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15281",
-   "at": "2026-09-20T20:31:20Z",
-   "extra": {
-    "state": "open",
-    "author": "VIxIon0de"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15245",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15245 [Bounty proposal] fix(web): toggling the daily summary can reset its delivery time ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15245",
-   "at": "2026-09-20T19:31:21Z",
-   "extra": {
-    "state": "open",
-    "author": "jitendravjh"
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/tarsnap/issues/948",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -2674,41 +2752,6 @@
    }
   },
   {
-   "id": "https://github.com/Mantitup-Org/vista/issues/62",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Mantitup-Org/vista: Bug: vista deploy still breaks static hosts and platform adapters",
-   "url": "https://github.com/Mantitup-Org/vista/issues/62",
-   "at": "2026-09-20T18:51:07Z",
-   "extra": {
-    "comments": 11,
-    "amount_usd": null,
-    "author": "techistad",
-    "labels": [
-     "bug",
-     "help wanted",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Mantitup-Org/vista/issues/61",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Mantitup-Org/vista: Bounty: hunt bugs across the entire Vista framework",
-   "url": "https://github.com/Mantitup-Org/vista/issues/61",
-   "at": "2026-09-20T18:51:05Z",
-   "extra": {
-    "comments": 8,
-    "amount_usd": null,
-    "author": "techistad",
-    "labels": [
-     "help wanted",
-     "bounty"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/scrypt/issues/441",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -2718,120 +2761,6 @@
    "extra": {
     "state": "CLOSED",
     "author": "tokenjunkielabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15221",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15221 [Bounty proposal] docs(python-cli): Afrikaans (af) AI agent quickstart guide (5 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15221",
-   "at": "2026-09-20T18:03:22Z",
-   "extra": {
-    "state": "open",
-    "author": "1234adi1234"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15213",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15213 [Bounty proposal] fix(openfoodfacts-app): guard empty-list nutriments, non-string scores, and delimited inputs ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15213",
-   "at": "2026-09-20T17:38:35Z",
-   "extra": {
-    "state": "open",
-    "author": "Longo125"
-   }
-  },
-  {
-   "id": "https://github.com/ditto-assistant/ditto-subnet/issues/2054",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ditto-assistant/ditto-subnet: Epic: 5% maintenance treasury and miner bounty operations",
-   "url": "https://github.com/ditto-assistant/ditto-subnet/issues/2054",
-   "at": "2026-09-20T14:23:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Peyton-Spencer",
-    "labels": [
-     "epic",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ditto-assistant/ditto-subnet/issues/2047",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ditto-assistant/ditto-subnet: Publish a GitHub-backed SN118 bounty board and contributor guide",
-   "url": "https://github.com/ditto-assistant/ditto-subnet/issues/2047",
-   "at": "2026-09-20T14:22:57Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "Peyton-Spencer",
-    "labels": [
-     "documentation",
-     "good first issue",
-     "help wanted",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ditto-assistant/ditto-subnet/issues/2046",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ditto-assistant/ditto-subnet: Implement bounty acceptance, payout proof, disputes, and public accounting",
-   "url": "https://github.com/ditto-assistant/ditto-subnet/issues/2046",
-   "at": "2026-09-20T14:22:55Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "Peyton-Spencer",
-    "labels": [
-     "enhancement",
-     "help wanted",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ditto-assistant/ditto-subnet/issues/2045",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ditto-assistant/ditto-subnet: Design hotkey-signed bounty claiming, reservation, and contributor identity",
-   "url": "https://github.com/ditto-assistant/ditto-subnet/issues/2045",
-   "at": "2026-09-20T14:22:54Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "Peyton-Spencer",
-    "labels": [
-     "enhancement",
-     "help wanted",
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ditto-assistant/ditto-subnet/issues/2044",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ditto-assistant/ditto-subnet: Specify the 5% SN118 maintenance treasury and governance contract",
-   "url": "https://github.com/ditto-assistant/ditto-subnet/issues/2044",
-   "at": "2026-09-20T14:22:53Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "Peyton-Spencer",
-    "labels": [
-     "documentation",
-     "enhancement",
-     "bounty"
-    ]
    }
   },
   {
