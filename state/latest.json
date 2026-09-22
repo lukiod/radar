@@ -1,6 +1,158 @@
 {
- "generated_at": "2026-09-22T20:50:47Z",
+ "generated_at": "2026-09-22T23:27:41Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/16035",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(mcp): handle null content on locked memories ($50-100 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/16035",
+   "at": "2026-09-22T23:17:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/16035",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#16035 [Bounty proposal] fix(mcp): handle null content on locked memories ($50-100 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/16035",
+   "at": "2026-09-22T23:17:19Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/16033",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(action-items): handle null description on locked items ($50-100 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/16033",
+   "at": "2026-09-22T23:10:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
+   "at": "2026-09-22T23:00:02Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "singhharsh1708"
+    ],
+    "created": "2026-09-11T18:45:31Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57444",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57444 Add `zoo` third-party dependency and ttsl::move_only_function alias",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57444",
+   "at": "2026-09-22T22:56:35Z",
+   "extra": {
+    "author": "ezaiakinTT",
+    "labels": [
+     "feature"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57441",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57441 Optimization H3 Model sadesoye/H3_rebase_merge_optimizations",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57441",
+   "at": "2026-09-22T22:34:06Z",
+   "extra": {
+    "author": "rouzbehTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/monark-community/referral-system/issues/92",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "monark-community/referral-system: Create a Bounty Type Task",
+   "url": "https://github.com/monark-community/referral-system/issues/92",
+   "at": "2026-09-22T22:18:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "sspen094",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SecOpsNews/news/issues/74277",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SecOpsNews/news: [HackerNews] Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+   "url": "https://github.com/SecOpsNews/news/issues/74277",
+   "at": "2026-09-22T21:36:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "HackerNews"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57436",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57436 [Bug] Express Link Routing/Fabric Issues on Workflows",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57436",
+   "at": "2026-09-22T21:34:45Z",
+   "extra": {
+    "author": "agupta-TT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/28",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-22: 0 new, 0 resumed, 4 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/28",
+   "at": "2026-09-22T21:19:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57435",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57435 Blaze prefill CI: GLM-5.2 AllToAll hang on main, bisected to #48280 (Fabric express link routing)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57435",
+   "at": "2026-09-22T21:13:14Z",
+   "extra": {
+    "author": "pavlepopovic",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57430",
    "source": "tenstorrent",
@@ -2071,20 +2223,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15925",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] python-cli: agent_quickstart.fur.md \u2014 Friulian (fur) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15925",
-   "at": "2026-09-22T12:46:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15925",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15925 [Bounty proposal] python-cli: agent_quickstart.fur.md \u2014 Friulian (fur) agent quickstart guide",
@@ -2097,20 +2235,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15923",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] python-cli: agent_quickstart.ty.md \u2014 Tahitian (ty) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15923",
-   "at": "2026-09-22T12:45:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15923",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15923 [Bounty proposal] python-cli: agent_quickstart.ty.md \u2014 Tahitian (ty) agent quickstart guide",
@@ -2119,20 +2243,6 @@
    "extra": {
     "state": "open",
     "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15920",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] python-cli: agent_quickstart.chr.md \u2014 Cherokee (chr) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15920",
-   "at": "2026-09-22T12:42:29Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
    }
   },
   {
@@ -2190,36 +2300,6 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/23",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-22: 0 new, 0 resumed, 1 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/23",
-   "at": "2026-09-22T12:25:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15913",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: Python CLI: oversized expiry breaks configuration recovery ($30 bounty proposal)",
-   "url": "https://github.com/BasedHardware/omi/issues/15913",
-   "at": "2026-09-22T12:24:48Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 30,
-    "author": "Zbjay",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15913",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2232,110 +2312,12 @@
    }
   },
   {
-   "id": "https://github.com/Invoice-Liquidity-Network/ILN-Smart-Contract/issues/923",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Invoice-Liquidity-Network/ILN-Smart-Contract: Design and launch a post-mainnet bug bounty program",
-   "url": "https://github.com/Invoice-Liquidity-Network/ILN-Smart-Contract/issues/923",
-   "at": "2026-09-22T12:23:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Nursca",
-    "labels": [
-     "post-audit-remediation"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15911",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): analyze speaker turns, talk time percentages, and speech balance metrics ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15911",
-   "at": "2026-09-22T12:19:23Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15909",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export action items to Todoist REST API tasks payload with priority mapping ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15909",
-   "at": "2026-09-22T12:19:07Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15906",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): convert conversations and action items to Notion API-compatible block payloads ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15906",
-   "at": "2026-09-22T12:18:50Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15904",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15904",
-   "at": "2026-09-22T12:18:33Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15902",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Urdu (ur) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15902",
-   "at": "2026-09-22T12:18:13Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15902",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15902 [Bounty proposal] docs(python-cli): Urdu (ur) AI agent quickstart guide ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/15902",
    "at": "2026-09-22T12:18:13Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15900",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15900 [Bounty proposal] docs(python-cli): Persian (fa) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15900",
-   "at": "2026-09-22T12:17:59Z",
    "extra": {
     "state": "open",
     "author": "pullitall"
@@ -2603,22 +2585,6 @@
    "extra": {
     "author": "dlukicTT",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "at": "2026-09-22T10:26:43Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-11T18:45:31Z"
    }
   },
   {
@@ -3313,90 +3279,6 @@
     "author": "app/github-actions",
     "labels": [
      "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57271",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57271 [aw] Tenstorrent Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57271",
-   "at": "2026-09-21T23:01:07Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57270",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57270 tracy report generation aborts on a captured-but-never-replayed trace (assert in _enrich_ops_from_perf_csv)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57270",
-   "at": "2026-09-21T23:00:46Z",
-   "extra": {
-    "author": "iklemenskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57269",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57269 Host-memory pinning on tensor writes can wedge the process and the device with no timeout, fallback, or off switch",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57269",
-   "at": "2026-09-21T23:00:45Z",
-   "extra": {
-    "author": "iklemenskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57259",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57259 sfpi doesn't expose `SFPSHFT2`",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57259",
-   "at": "2026-09-21T21:19:30Z",
-   "extra": {
-    "author": "fvranicTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57258",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57258 Update eltwise kernel_lib code and tests for Quasar",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57258",
-   "at": "2026-09-21T21:16:08Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57257",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57257 `sfpi::min_max` is not available for `vInt` on Blackhole",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57257",
-   "at": "2026-09-21T21:05:07Z",
-   "extra": {
-    "author": "fvranicTT",
-    "labels": [
-     "sfpi"
     ]
    }
   },
