@@ -1,6 +1,1305 @@
 {
- "generated_at": "2026-09-22T17:54:31Z",
+ "generated_at": "2026-09-22T20:50:47Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57430",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57430 [Quasar] POP_TILES/PUSH_TILES + stalling",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57430",
+   "at": "2026-09-22T20:14:04Z",
+   "extra": {
+    "author": "rtawfik01",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/63",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] ACLEDA Bank \u2014 USD / KH",
+   "url": "https://github.com/0xSachinK/openplaid/issues/63",
+   "at": "2026-09-22T19:03:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/62",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] TBC Bank Georgia \u2014 GEL / GE",
+   "url": "https://github.com/0xSachinK/openplaid/issues/62",
+   "at": "2026-09-22T19:03:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/61",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Halyk Bank \u2014 KZT / KZ",
+   "url": "https://github.com/0xSachinK/openplaid/issues/61",
+   "at": "2026-09-22T19:03:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/60",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Interbank Peru \u2014 PEN / PE",
+   "url": "https://github.com/0xSachinK/openplaid/issues/60",
+   "at": "2026-09-22T19:03:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/59",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Nagad \u2014 BDT / BD",
+   "url": "https://github.com/0xSachinK/openplaid/issues/59",
+   "at": "2026-09-22T19:03:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/58",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Maya \u2014 PHP / PH",
+   "url": "https://github.com/0xSachinK/openplaid/issues/58",
+   "at": "2026-09-22T19:03:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/57",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Nequi \u2014 COP / CO",
+   "url": "https://github.com/0xSachinK/openplaid/issues/57",
+   "at": "2026-09-22T19:03:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/56",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] BIDV \u2014 VND / VN",
+   "url": "https://github.com/0xSachinK/openplaid/issues/56",
+   "at": "2026-09-22T19:03:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/55",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Bank Mandiri \u2014 IDR / ID",
+   "url": "https://github.com/0xSachinK/openplaid/issues/55",
+   "at": "2026-09-22T19:03:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/54",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Bank BRI \u2014 IDR / ID",
+   "url": "https://github.com/0xSachinK/openplaid/issues/54",
+   "at": "2026-09-22T19:03:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/53",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] SeaBank Indonesia \u2014 IDR / ID",
+   "url": "https://github.com/0xSachinK/openplaid/issues/53",
+   "at": "2026-09-22T19:03:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/52",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] A-Bank \u2014 UAH / UA",
+   "url": "https://github.com/0xSachinK/openplaid/issues/52",
+   "at": "2026-09-22T19:03:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/51",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] PUMB \u2014 UAH / UA",
+   "url": "https://github.com/0xSachinK/openplaid/issues/51",
+   "at": "2026-09-22T19:03:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/50",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] SadaPay \u2014 PKR / PK",
+   "url": "https://github.com/0xSachinK/openplaid/issues/50",
+   "at": "2026-09-22T19:03:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/49",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] NayaPay \u2014 PKR / PK",
+   "url": "https://github.com/0xSachinK/openplaid/issues/49",
+   "at": "2026-09-22T19:03:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/48",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Meezan Bank \u2014 PKR / PK",
+   "url": "https://github.com/0xSachinK/openplaid/issues/48",
+   "at": "2026-09-22T19:03:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/47",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Access Bank \u2014 NGN / NG",
+   "url": "https://github.com/0xSachinK/openplaid/issues/47",
+   "at": "2026-09-22T19:03:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/46",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Kuda Bank \u2014 NGN / NG",
+   "url": "https://github.com/0xSachinK/openplaid/issues/46",
+   "at": "2026-09-22T19:03:03Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/45",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] PalmPay \u2014 NGN / NG",
+   "url": "https://github.com/0xSachinK/openplaid/issues/45",
+   "at": "2026-09-22T19:03:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/44",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Banco Pichincha Ecuador \u2014 USD / EC",
+   "url": "https://github.com/0xSachinK/openplaid/issues/44",
+   "at": "2026-09-22T19:02:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/43",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Al Rajhi Bank \u2014 SAR / SA",
+   "url": "https://github.com/0xSachinK/openplaid/issues/43",
+   "at": "2026-09-22T19:02:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/42",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Bank al Etihad \u2014 JOD / JO",
+   "url": "https://github.com/0xSachinK/openplaid/issues/42",
+   "at": "2026-09-22T19:02:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/41",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Ameriabank \u2014 AMD / AM",
+   "url": "https://github.com/0xSachinK/openplaid/issues/41",
+   "at": "2026-09-22T19:02:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/40",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Kapital Bank Azerbaijan \u2014 AZN / AZ",
+   "url": "https://github.com/0xSachinK/openplaid/issues/40",
+   "at": "2026-09-22T19:02:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/39",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] PayMe Hong Kong \u2014 HKD / HK",
+   "url": "https://github.com/0xSachinK/openplaid/issues/39",
+   "at": "2026-09-22T19:02:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/38",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] BAC Costa Rica \u2014 CRC / CR",
+   "url": "https://github.com/0xSachinK/openplaid/issues/38",
+   "at": "2026-09-22T19:02:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/37",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Banreservas \u2014 DOP / DO",
+   "url": "https://github.com/0xSachinK/openplaid/issues/37",
+   "at": "2026-09-22T19:02:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/36",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Banco Union Bolivia \u2014 BOB / BO",
+   "url": "https://github.com/0xSachinK/openplaid/issues/36",
+   "at": "2026-09-22T19:02:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/35",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Santander Chile \u2014 CLP / CL",
+   "url": "https://github.com/0xSachinK/openplaid/issues/35",
+   "at": "2026-09-22T19:02:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/34",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Orange Money Cameroon \u2014 XAF / CM",
+   "url": "https://github.com/0xSachinK/openplaid/issues/34",
+   "at": "2026-09-22T19:02:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/33",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Vodacom M-Pesa Tanzania \u2014 TZS / TZ",
+   "url": "https://github.com/0xSachinK/openplaid/issues/33",
+   "at": "2026-09-22T19:02:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/32",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] MTN MoMo Ghana \u2014 GHS / GH",
+   "url": "https://github.com/0xSachinK/openplaid/issues/32",
+   "at": "2026-09-22T19:02:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/31",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] FNB South Africa \u2014 ZAR / ZA",
+   "url": "https://github.com/0xSachinK/openplaid/issues/31",
+   "at": "2026-09-22T19:02:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/30",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Maybank Malaysia \u2014 MYR / MY",
+   "url": "https://github.com/0xSachinK/openplaid/issues/30",
+   "at": "2026-09-22T19:02:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/29",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] TrueMoney Thailand \u2014 THB / TH",
+   "url": "https://github.com/0xSachinK/openplaid/issues/29",
+   "at": "2026-09-22T19:02:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/28",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] TD Canada \u2014 CAD / CA",
+   "url": "https://github.com/0xSachinK/openplaid/issues/28",
+   "at": "2026-09-22T19:02:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/27",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] ANZ Australia \u2014 AUD / AU",
+   "url": "https://github.com/0xSachinK/openplaid/issues/27",
+   "at": "2026-09-22T19:02:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/26",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Lloyds Bank \u2014 GBP / GB",
+   "url": "https://github.com/0xSachinK/openplaid/issues/26",
+   "at": "2026-09-22T19:02:13Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/25",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Paysera Lithuania \u2014 EUR / LT",
+   "url": "https://github.com/0xSachinK/openplaid/issues/25",
+   "at": "2026-09-22T19:02:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/24",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] BBVA Spain \u2014 EUR / ES",
+   "url": "https://github.com/0xSachinK/openplaid/issues/24",
+   "at": "2026-09-22T19:02:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$150"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/23",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Bank of Georgia \u2014 GEL / GE",
+   "url": "https://github.com/0xSachinK/openplaid/issues/23",
+   "at": "2026-09-22T19:02:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/22",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Wave Senegal \u2014 XOF / SN",
+   "url": "https://github.com/0xSachinK/openplaid/issues/22",
+   "at": "2026-09-22T19:02:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/21",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Itau Brazil \u2014 BRL / BR",
+   "url": "https://github.com/0xSachinK/openplaid/issues/21",
+   "at": "2026-09-22T19:02:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/20",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Uala Argentina \u2014 ARS / AR",
+   "url": "https://github.com/0xSachinK/openplaid/issues/20",
+   "at": "2026-09-22T19:01:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/19",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Abu Dhabi Commercial Bank \u2014 AED / AE",
+   "url": "https://github.com/0xSachinK/openplaid/issues/19",
+   "at": "2026-09-22T19:01:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/18",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Ziraat Bank \u2014 TRY / TR",
+   "url": "https://github.com/0xSachinK/openplaid/issues/18",
+   "at": "2026-09-22T19:01:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/17",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Banco de Credito del Peru \u2014 PEN / PE",
+   "url": "https://github.com/0xSachinK/openplaid/issues/17",
+   "at": "2026-09-22T19:01:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/16",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] BBVA Mexico \u2014 MXN / MX",
+   "url": "https://github.com/0xSachinK/openplaid/issues/16",
+   "at": "2026-09-22T19:01:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/15",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Kaspi Bank \u2014 KZT / KZ",
+   "url": "https://github.com/0xSachinK/openplaid/issues/15",
+   "at": "2026-09-22T19:01:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/14",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Safaricom M-Pesa \u2014 KES / KE",
+   "url": "https://github.com/0xSachinK/openplaid/issues/14",
+   "at": "2026-09-22T19:01:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/13",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] bKash \u2014 BDT / BD",
+   "url": "https://github.com/0xSachinK/openplaid/issues/13",
+   "at": "2026-09-22T19:01:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] ABA Bank \u2014 USD / KH",
+   "url": "https://github.com/0xSachinK/openplaid/issues/12",
+   "at": "2026-09-22T19:01:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] ICICI Bank \u2014 INR / IN",
+   "url": "https://github.com/0xSachinK/openplaid/issues/11",
+   "at": "2026-09-22T19:01:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] GCash \u2014 PHP / PH",
+   "url": "https://github.com/0xSachinK/openplaid/issues/10",
+   "at": "2026-09-22T19:01:33Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Bancolombia \u2014 COP / CO",
+   "url": "https://github.com/0xSachinK/openplaid/issues/9",
+   "at": "2026-09-22T19:01:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Vietcombank \u2014 VND / VN",
+   "url": "https://github.com/0xSachinK/openplaid/issues/8",
+   "at": "2026-09-22T19:01:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] BCA \u2014 IDR / ID",
+   "url": "https://github.com/0xSachinK/openplaid/issues/7",
+   "at": "2026-09-22T19:01:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] PrivatBank \u2014 UAH / UA",
+   "url": "https://github.com/0xSachinK/openplaid/issues/6",
+   "at": "2026-09-22T19:01:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Easypaisa \u2014 PKR / PK",
+   "url": "https://github.com/0xSachinK/openplaid/issues/5",
+   "at": "2026-09-22T19:01:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/0xSachinK/openplaid/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] OPay \u2014 NGN / Nigeria",
+   "url": "https://github.com/0xSachinK/openplaid/issues/4",
+   "at": "2026-09-22T19:00:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 200,
+    "author": "0xSachinK",
+    "labels": [
+     "integration",
+     "Merit",
+     "funding-pending",
+     "round-1",
+     "$200"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57422",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57422 [ring_joint_sdpa] Sliding-window halo is single-hop, so Gemma4 prefill cannot use chunks below 8192 at CP8",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57422",
+   "at": "2026-09-22T18:54:24Z",
+   "extra": {
+    "author": "kmabeeTT",
+    "labels": [
+     "blackhole",
+     "op_cat: ccl",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA",
+     "model: gemma-4"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Sofiia7/ARC/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Sofiia7/ARC: Feasibility: add Nano (XNO) as a feeless settlement rail alongside USDC for bounty winners",
+   "url": "https://github.com/Sofiia7/ARC/issues/3",
+   "at": "2026-09-22T18:38:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "PANDeveloper001",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15976",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Patch + bounty proposal] CLI screenshot export fails after writing markup-like paths",
+   "url": "https://github.com/BasedHardware/omi/issues/15976",
+   "at": "2026-09-22T18:35:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "oimrqs-ops",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15976",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15976 [Patch + bounty proposal] CLI screenshot export fails after writing markup-like paths",
+   "url": "https://github.com/BasedHardware/omi/issues/15976",
+   "at": "2026-09-22T18:35:34Z",
+   "extra": {
+    "state": "open",
+    "author": "oimrqs-ops"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/5bf4ec6bf0c9a0521e88cee8ad7ec8084c673f01",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "#55317: Route ternary and binary_ng specless-sharded outputs through common shard-spec synthesizer (#56052)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/5bf4ec6bf0c9a0521e88cee8ad7ec8084c673f01",
+   "at": "2026-09-22T18:24:58Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/device/ternary_device_operation.cpp"
+    ],
+    "added": [],
+    "author": "mouliraj-mcw"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57413",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57413 [tt_transformers] Llama 3.2-90B-Vision e2e BERTScore 0.6815 < 0.69 since #57179 (approximate tanh 6-entry SFPLUT reland); bisected on adjacent commits",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57413",
+   "at": "2026-09-22T18:13:02Z",
+   "extra": {
+    "author": "mtairum",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57410",
    "source": "tenstorrent",
@@ -99,6 +1398,43 @@
     "labels": [
      "bounty-watch"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/675737933f8192c9fc7c0a0af648958881db623e",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Metal 2.0] Pre-port fixes for eltwise/unary (#56858)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/675737933f8192c9fc7c0a0af648958881db623e",
+   "at": "2026-09-22T16:44:55Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_device_operation.cpp"
+    ],
+    "added": [],
+    "author": "mcw-anasuya"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/9e13e435af1d6a454dddf88a4919f17a4f9d879a",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "fix: add static assert for Pooltype::MIN on FPU reduce (#57373)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/9e13e435af1d6a454dddf88a4919f17a4f9d879a",
+   "at": "2026-09-22T16:31:59Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_math_reduce.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_AB_reduce.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_reduce.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_math_reduce.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_AB_reduce.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_reduce.h"
+    ],
+    "added": [],
+    "author": "fvranicTT"
    }
   },
   {
@@ -877,7 +2213,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/15913",
    "at": "2026-09-22T12:24:48Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 30,
     "author": "Zbjay",
     "labels": []
@@ -995,20 +2331,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15900",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Persian (fa) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15900",
-   "at": "2026-09-22T12:17:59Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15900",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15900 [Bounty proposal] docs(python-cli): Persian (fa) AI agent quickstart guide ($25 proposed)",
@@ -1017,46 +2339,6 @@
    "extra": {
     "state": "open",
     "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15898",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Bengali (bn) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15898",
-   "at": "2026-09-22T12:17:44Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15898",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15898 [Bounty proposal] docs(python-cli): Bengali (bn) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15898",
-   "at": "2026-09-22T12:17:44Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15896",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Arabic (ar) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15896",
-   "at": "2026-09-22T12:17:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
    }
   },
   {
@@ -1073,20 +2355,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15895",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Afar (aa) AI agent quickstart guide (\\ proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15895",
-   "at": "2026-09-22T12:17:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15895",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15895 [Bounty proposal] docs(python-cli): Afar (aa) AI agent quickstart guide (\\ proposed)",
@@ -1095,76 +2363,6 @@
    "extra": {
     "state": "open",
     "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15892",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] plugins/omi-stack-overflow-app: Sanitize exception details in chat tool error responses",
-   "url": "https://github.com/BasedHardware/omi/issues/15892",
-   "at": "2026-09-22T12:08:12Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "gewenbo888",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15887",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] plugins/omi-semantic-scholar-app: Sanitize exception details in chat tool error responses",
-   "url": "https://github.com/BasedHardware/omi/issues/15887",
-   "at": "2026-09-22T12:04:22Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "gewenbo888",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15885",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] plugins/omi-public-holidays-app: Sanitize exception details in chat tool error responses",
-   "url": "https://github.com/BasedHardware/omi/issues/15885",
-   "at": "2026-09-22T12:00:25Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "gewenbo888",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15882",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] plugins/omi-open-meteo-app: Sanitize exception details in chat tool error responses",
-   "url": "https://github.com/BasedHardware/omi/issues/15882",
-   "at": "2026-09-22T11:58:44Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "gewenbo888",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15880",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: Bounty Proposal: Sanitize error responses in omi-crossref-app",
-   "url": "https://github.com/BasedHardware/omi/issues/15880",
-   "at": "2026-09-22T11:56:39Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "gewenbo888",
-    "labels": []
    }
   },
   {
@@ -1177,20 +2375,6 @@
    "extra": {
     "state": "open",
     "author": "gewenbo888"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15875",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: Bounty Proposal: Sanitize error responses in omi-wikipedia-app",
-   "url": "https://github.com/BasedHardware/omi/issues/15875",
-   "at": "2026-09-22T11:55:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "gewenbo888",
-    "labels": []
    }
   },
   {
@@ -1230,38 +2414,6 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/20",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-09-22: 28 changes across 11 bounty programs",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/20",
-   "at": "2026-09-22T11:39:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/19",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-22: 0 new, 1 resumed, 2 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/19",
-   "at": "2026-09-22T11:39:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/d81b0fb5a243903c2493a42b95418fae7ce23631",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -1286,188 +2438,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15869",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): index raw audio chunk directories into a validated SHA-256 JSON manifest ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15869",
-   "at": "2026-09-22T11:23:18Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15867",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): render conversations into a styled, self-contained HTML report ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15867",
-   "at": "2026-09-22T11:22:59Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15865",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export desktop screen history and OCR text to spreadsheet-safe CSV ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15865",
-   "at": "2026-09-22T11:22:43Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15863",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Thai (th) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15863",
-   "at": "2026-09-22T11:22:24Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15861",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Vietnamese (vi) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15861",
-   "at": "2026-09-22T11:22:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15859",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Hindi (hi) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15859",
-   "at": "2026-09-22T11:21:54Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15857",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Hebrew (he) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15857",
-   "at": "2026-09-22T11:21:39Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15848",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): aggregate conversations into an executive weekly Markdown digest ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15848",
-   "at": "2026-09-22T11:11:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15844",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export memories to Anki-compatible TSV flashcards for spaced repetition ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15844",
-   "at": "2026-09-22T11:10:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15842",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export action items with due dates to standard iCalendar (.ics) format ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15842",
-   "at": "2026-09-22T11:10:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15840",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Korean (ko) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15840",
-   "at": "2026-09-22T11:10:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15838",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Indonesian (id) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15838",
-   "at": "2026-09-22T11:09:52Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15835",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Dhivehi (dv) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15835",
-   "at": "2026-09-22T11:07:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15835",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1477,20 +2447,6 @@
    "extra": {
     "state": "open",
     "author": "Abhinav-Prabhakar"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15834",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Ossetian (os) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15834",
-   "at": "2026-09-22T11:07:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
    }
   },
   {
@@ -1507,20 +2463,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15833",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Walloon (wa) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15833",
-   "at": "2026-09-22T11:07:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15833",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15833 [Bounty proposal] docs(cli): Walloon (wa) agent quickstart ($25 proposed)",
@@ -1529,20 +2471,6 @@
    "extra": {
     "state": "open",
     "author": "Abhinav-Prabhakar"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15832",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Avar (av) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15832",
-   "at": "2026-09-22T11:07:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
    }
   },
   {
@@ -1559,20 +2487,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15831",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Kabyle (kab) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15831",
-   "at": "2026-09-22T11:07:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15831",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15831 [Bounty proposal] docs(cli): Kabyle (kab) agent quickstart ($25 proposed)",
@@ -1581,20 +2495,6 @@
    "extra": {
     "state": "open",
     "author": "Abhinav-Prabhakar"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15830",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): Luba-Katanga (lu) agent quickstart ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15830",
-   "at": "2026-09-22T11:07:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
    }
   },
   {
@@ -1611,20 +2511,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15829",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Dhivehi (dv) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15829",
-   "at": "2026-09-22T11:07:13Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15829",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15829 [Bounty proposal] Dhivehi (dv) quickstart for omi-cli ($25 proposed)",
@@ -1633,20 +2519,6 @@
    "extra": {
     "state": "open",
     "author": "Abhinav-Prabhakar"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15828",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Ossetian (os) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15828",
-   "at": "2026-09-22T11:07:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
    }
   },
   {
@@ -1663,20 +2535,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15827",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Walloon (wa) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15827",
-   "at": "2026-09-22T11:07:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15827",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15827 [Bounty proposal] Walloon (wa) quickstart for omi-cli ($25 proposed)",
@@ -1685,20 +2543,6 @@
    "extra": {
     "state": "open",
     "author": "Abhinav-Prabhakar"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15826",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Avar (av) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15826",
-   "at": "2026-09-22T11:07:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
    }
   },
   {
@@ -1715,20 +2559,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15825",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Kabyle (kab) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15825",
-   "at": "2026-09-22T11:07:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15825",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15825 [Bounty proposal] Kabyle (kab) quickstart for omi-cli ($25 proposed)",
@@ -1741,20 +2571,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15824",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] Luba-Katanga (lu) quickstart for omi-cli ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15824",
-   "at": "2026-09-22T11:06:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "Abhinav-Prabhakar",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15824",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15824 [Bounty proposal] Luba-Katanga (lu) quickstart for omi-cli ($25 proposed)",
@@ -1763,244 +2579,6 @@
    "extra": {
     "state": "open",
     "author": "Abhinav-Prabhakar"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15822",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export conversation transcripts to Obsidian Markdown with frontmatter ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15822",
-   "at": "2026-09-22T11:03:33Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15820",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export action tasks to CSV for spreadsheets and task managers ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15820",
-   "at": "2026-09-22T11:03:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15818",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export goals and milestone progress to CSV with formula injection sanitization ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15818",
-   "at": "2026-09-22T11:03:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15816",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): convert conversation transcripts to JSONL for LLM fine-tuning and RAG ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15816",
-   "at": "2026-09-22T10:56:44Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15814",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export action items to CSV for spreadsheets and task trackers ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15814",
-   "at": "2026-09-22T10:56:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15812",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] recipe(python-cli): export memories to CSV with formula injection sanitization ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15812",
-   "at": "2026-09-22T10:56:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15810",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Catalan (ca) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15810",
-   "at": "2026-09-22T10:55:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15808",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Latvian (lv) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15808",
-   "at": "2026-09-22T10:55:33Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15806",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Lithuanian (lt) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15806",
-   "at": "2026-09-22T10:55:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15804",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Estonian (et) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15804",
-   "at": "2026-09-22T10:55:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15802",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Slovenian (sl) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15802",
-   "at": "2026-09-22T10:54:49Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15800",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Irish (ga) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15800",
-   "at": "2026-09-22T10:54:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15798",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Welsh (cy) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15798",
-   "at": "2026-09-22T10:54:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15796",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Icelandic (is) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15796",
-   "at": "2026-09-22T10:54:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15794",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Swahili (sw) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15794",
-   "at": "2026-09-22T10:53:52Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15792",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Serbian (sr) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15792",
-   "at": "2026-09-22T10:53:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15782",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Yoruba (yo) AI agent quickstart guide (\\ proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15782",
-   "at": "2026-09-22T10:49:47Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
    }
   },
   {
@@ -2028,146 +2606,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15778",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Croatian (hr) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15778",
-   "at": "2026-09-22T10:40:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15776",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Bulgarian (bg) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15776",
-   "at": "2026-09-22T10:40:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15774",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Slovak (sk) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15774",
-   "at": "2026-09-22T10:40:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15772",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Norwegian (no) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15772",
-   "at": "2026-09-22T10:39:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15770",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Danish (da) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15770",
-   "at": "2026-09-22T10:39:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15768",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Ukrainian (uk) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15768",
-   "at": "2026-09-22T10:39:31Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15766",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Romanian (ro) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15766",
-   "at": "2026-09-22T10:39:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15764",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Turkish (tr) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15764",
-   "at": "2026-09-22T10:39:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15762",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Dutch (nl) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15762",
-   "at": "2026-09-22T10:38:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15760",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Czech (cs) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15760",
-   "at": "2026-09-22T10:38:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2181,48 +2619,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-11T18:45:31Z"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15755",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Swedish (sv) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15755",
-   "at": "2026-09-22T10:25:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15753",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Finnish (fi) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15753",
-   "at": "2026-09-22T10:24:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15751",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Hungarian (hu) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15751",
-   "at": "2026-09-22T10:24:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pullitall",
-    "labels": []
    }
   },
   {
@@ -3005,167 +3401,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/b20f2184b3d43c7727a8b43440868465f74ee84e",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Add profiling for synchronization events (#56882)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/b20f2184b3d43c7727a8b43440868465f74ee84e",
-   "at": "2026-09-21T19:56:03Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_io/llk_io_pack.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_io/llk_io_unpack.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_io/llk_io_pack.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_io/llk_io_unpack.h",
-     "tt_metal/hw/inc/api/compute/experimental/semaphore.h"
-    ],
-    "added": [],
-    "author": "sohaibnadeemTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57248",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57248 Metal 2.0 base ProgramSpec cache-hit path silently mis-binds aliased input tensors",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57248",
-   "at": "2026-09-21T19:44:50Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57247",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57247 Analyze where existing use cases disabling implicit sync on Quasar can be removed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57247",
-   "at": "2026-09-21T19:39:44Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/336de956a3712ee0be1391c74abeff04efa9f3b5",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Feature] Reconcile Blaze LLK compatibility for remaining header rewires (#55976)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/336de956a3712ee0be1391c74abeff04efa9f3b5",
-   "at": "2026-09-21T19:19:50Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_math_generalized_moe_gate_transpose_dest_single_face_api.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_math_rmsnorm_bcast_scalar_dest_reuse_api.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_add_rsqrt.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_generalized_moe_gate_topk_single_face.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_logit_softcap.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_scalar_block_api.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_sdpa_custom_mm_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/experimental/llk_math_generalized_moe_gate_transpose_dest_single_face_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/experimental/llk_sfpu/ckernel_sfpu_generalized_moe_gate_topk_single_face.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/compressed_custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm_reuse_dest_srcb.h",
-     "tt_metal/hw/inc/api/compute/experimental/add_rsqrt.h",
-     "tt_metal/hw/inc/api/compute/experimental/compressed_custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/csa_index_remap.h",
-     "tt_metal/hw/inc/api/compute/experimental/custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/custom_pack_untilize.h",
-     "tt_metal/hw/inc/api/compute/experimental/eltwise_mul_scalar.h",
-     "tt_metal/hw/inc/api/compute/experimental/generalized_moe_gate.h",
-     "tt_metal/hw/inc/api/compute/experimental/hadamard.h",
-     "tt_metal/hw/inc/api/compute/experimental/rmsnorm.h",
-     "tt_metal/hw/inc/api/compute/experimental/rope_sfpu.h",
-     "tt_metal/hw/inc/api/compute/experimental/sdpa.h",
-     "tt_metal/hw/inc/api/compute/experimental/sdpa_custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/topk_xl.h",
-     "tt_metal/tt-llk/tests/helpers/include/topk_xl_test_helpers.h",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
-     "tt_metal/tt-llk/tests/python_tests/test_csa_index_remap.py",
-     "tt_metal/tt-llk/tests/python_tests/test_custom_mm_uninit_parity.py",
-     "tt_metal/tt-llk/tests/python_tests/test_custom_mm_uninit_restore.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_mul_scalar_block.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_mul_scalar_hifi.py",
-     "tt_metal/tt-llk/tests/python_tests/test_generalized_moe_gate.py",
-     "tt_metal/tt-llk/tests/python_tests/test_mul_reduce_scalar_chunked.py",
-     "tt_metal/tt-llk/tests/python_tests/test_rmsnorm_clear_product_tile.py",
-     "tt_metal/tt-llk/tests/python_tests/test_rope.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sdpa_custom_mm.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_add_rsqrt.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_generic_moe_gate_topk.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_logit_softcap.py"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_scalar_block_api.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/compressed_custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm_reuse_dest_srcb.h",
-     "tt_metal/hw/inc/api/compute/experimental/csa_index_remap.h",
-     "tt_metal/hw/inc/api/compute/experimental/custom_pack_untilize.h",
-     "tt_metal/tt-llk/tests/helpers/include/topk_xl_test_helpers.h",
-     "tt_metal/tt-llk/tests/python_tests/test_csa_index_remap.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_mul_scalar_block.py",
-     "tt_metal/tt-llk/tests/python_tests/test_rmsnorm_clear_product_tile.py",
-     "tt_metal/tt-llk/tests/sources/csa_index_remap_test.cpp",
-     "tt_metal/tt-llk/tests/sources/eltwise_mul_scalar_block_test.cpp",
-     "tt_metal/tt-llk/tests/sources/rmsnorm_clear_product_tile_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_csa_index_remap.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_eltwise_mul_scalar_block.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_pack_custom_mm.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_scalar_block.h"
-    ],
-    "author": "pmilenkovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57243",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57243 Perform Program Descriptor (PD) port for a subset of ops that need it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57243",
-   "at": "2026-09-21T18:56:54Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57242",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57242 Perform Program Descriptor (PD) port for a subset of ops that need it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57242",
-   "at": "2026-09-21T18:53:51Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57241",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57241 [aw] Failed jobs: Tenstorrent Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57241",
-   "at": "2026-09-21T18:40:57Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/spiped/issues/463",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -3291,18 +3526,6 @@
    "extra": {
     "state": "CLOSED",
     "author": "tokenjunkielabs"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/kivaloo/issues/384",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/kivaloo#384 \n.",
-   "url": "https://github.com/Tarsnap/kivaloo/issues/384",
-   "at": "2026-09-19T19:46:27Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "ckduddn99-lgtm"
    }
   }
  ],
