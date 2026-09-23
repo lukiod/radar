@@ -1,6 +1,2527 @@
 {
- "generated_at": "2026-09-23T12:53:14Z",
+ "generated_at": "2026-09-23T17:40:55Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17551",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(omi-shipbob-app): guard booleans in quantity, fulfillment center ID, and limits ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17551",
+   "at": "2026-09-23T17:39:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/loiste-interactive/Obenseuer-Issues/issues/5592",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "loiste-interactive/Obenseuer-Issues: (0.4.33) All of the cops are stuck chasing player, despite the player not having any bounty.",
+   "url": "https://github.com/loiste-interactive/Obenseuer-Issues/issues/5592",
+   "at": "2026-09-23T17:36:54Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "TIMOFEITV",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17549",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(omi-usgs-earthquake-app): reject boolean coordinates, guard bounds, and protect event ID ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17549",
+   "at": "2026-09-23T17:26:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17547",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(omi-crossref-app): preserve string titles against single-letter truncation and guard malformed record dates ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17547",
+   "at": "2026-09-23T17:24:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57573",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57573 Gemma4 bounded sliding: page tables sized from the window, so GEMMA4_SPEC_RING_HEADROOM_BLOCKS fails paged_fill_cache modulo check",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57573",
+   "at": "2026-09-23T17:22:41Z",
+   "extra": {
+    "author": "viktorpusTT",
+    "labels": [
+     "bug",
+     "models",
+     "gemma"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17545",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(omi-pubmed-app): guard non-dict bodies, coerce integer PMIDs, and protect limit bounds ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17545",
+   "at": "2026-09-23T17:21:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57571",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57571 llk testsuite uses TT_ macros without enabling tensix",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57571",
+   "at": "2026-09-23T17:12:38Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "LLK"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/826",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add scoped pause controls so one feature can be halted without freezing all payments",
+   "url": "https://github.com/OphirPay/OphirPay/issues/826",
+   "at": "2026-09-23T17:07:24Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "security",
+     "feature",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/825",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Recommend transaction fees from Horizon fee statistics instead of a static value",
+   "url": "https://github.com/OphirPay/OphirPay/issues/825",
+   "at": "2026-09-23T17:07:21Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/824",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Look up asset metadata so custom assets display their ticker and issuer name",
+   "url": "https://github.com/OphirPay/OphirPay/issues/824",
+   "at": "2026-09-23T17:07:19Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/823",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add Postgres full-text search for payments and audit entries",
+   "url": "https://github.com/OphirPay/OphirPay/issues/823",
+   "at": "2026-09-23T17:07:16Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/822",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Publish a CLI or GitHub Action so CI pipelines can create payments",
+   "url": "https://github.com/OphirPay/OphirPay/issues/822",
+   "at": "2026-09-23T17:07:12Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "feature",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/821",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a SEP-24 style anchor deposit and withdrawal flow for fiat on-ramp",
+   "url": "https://github.com/OphirPay/OphirPay/issues/821",
+   "at": "2026-09-23T17:07:08Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "feature",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/820",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Expose RPC failover state as a health and metrics signal",
+   "url": "https://github.com/OphirPay/OphirPay/issues/820",
+   "at": "2026-09-23T17:07:06Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/819",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Use Horizon streaming for payment status instead of polling reconciliation",
+   "url": "https://github.com/OphirPay/OphirPay/issues/819",
+   "at": "2026-09-23T17:07:02Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/818",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a Go reference verifier for webhook signatures",
+   "url": "https://github.com/OphirPay/OphirPay/issues/818",
+   "at": "2026-09-23T17:06:59Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/817",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add an automation-platform integration guide with generated payload examples",
+   "url": "https://github.com/OphirPay/OphirPay/issues/817",
+   "at": "2026-09-23T17:06:56Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/816",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Ship Slack and Discord notification templates for payment events",
+   "url": "https://github.com/OphirPay/OphirPay/issues/816",
+   "at": "2026-09-23T17:06:53Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/815",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add OpenTelemetry tracing so a payment can be followed across contract, API and database",
+   "url": "https://github.com/OphirPay/OphirPay/issues/815",
+   "at": "2026-09-23T17:06:50Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/814",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Harden the price feed with caching, rate-limit handling and a staleness policy",
+   "url": "https://github.com/OphirPay/OphirPay/issues/814",
+   "at": "2026-09-23T17:06:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/813",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Publish a SEP-1 stellar.toml so wallets can discover the deployment",
+   "url": "https://github.com/OphirPay/OphirPay/issues/813",
+   "at": "2026-09-23T17:06:44Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy",
+     "integrations"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/812",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add SEP-7 URI handoff so mobile wallets can complete a payment",
+   "url": "https://github.com/OphirPay/OphirPay/issues/812",
+   "at": "2026-09-23T17:06:41Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/811",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add CSV import and export for the address book",
+   "url": "https://github.com/OphirPay/OphirPay/issues/811",
+   "at": "2026-09-23T17:06:38Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/810",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Handle payment request expiration and reminders",
+   "url": "https://github.com/OphirPay/OphirPay/issues/810",
+   "at": "2026-09-23T17:06:34Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "backend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/809",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a trustline setup flow for non-native assets",
+   "url": "https://github.com/OphirPay/OphirPay/issues/809",
+   "at": "2026-09-23T17:06:31Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/808",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a governance proposal detail view with vote history and execution state",
+   "url": "https://github.com/OphirPay/OphirPay/issues/808",
+   "at": "2026-09-23T17:06:28Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1635",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty] Fix one deterministic RPC failover regression",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1635",
+   "at": "2026-09-23T17:06:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1634",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty] Fix one deterministic agent-card discovery regression",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1634",
+   "at": "2026-09-23T17:06:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1633",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty] Flower-shaped rainwater collector for a tinaco",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1633",
+   "at": "2026-09-23T17:06:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/807",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Surface refund reason-code analytics in the UI",
+   "url": "https://github.com/OphirPay/OphirPay/issues/807",
+   "at": "2026-09-23T17:06:25Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "backend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/806",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a dead-letter queue and delivery timeout for webhooks that exhaust retries",
+   "url": "https://github.com/OphirPay/OphirPay/issues/806",
+   "at": "2026-09-23T17:06:22Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/805",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add API key rotation alongside revocation",
+   "url": "https://github.com/OphirPay/OphirPay/issues/805",
+   "at": "2026-09-23T17:06:18Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/804",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add an on-chain idempotency key to record_payment",
+   "url": "https://github.com/OphirPay/OphirPay/issues/804",
+   "at": "2026-09-23T17:06:15Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/803",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Make timelocked actions actually dispatch to the functions they claim to protect",
+   "url": "https://github.com/OphirPay/OphirPay/issues/803",
+   "at": "2026-09-23T17:06:12Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "feature",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/802",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Replace the modeled Kani proof set with a harness that exercises the real contract",
+   "url": "https://github.com/OphirPay/OphirPay/issues/802",
+   "at": "2026-09-23T17:06:09Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "security",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/801",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Wire error tracking end to end so ErrorBoundary reports reach a backend",
+   "url": "https://github.com/OphirPay/OphirPay/issues/801",
+   "at": "2026-09-23T17:06:06Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "backend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/800",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Implement transactional email instead of a placeholder that silently returns false",
+   "url": "https://github.com/OphirPay/OphirPay/issues/800",
+   "at": "2026-09-23T17:06:02Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "feature",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/799",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Build a payment stream UI with vesting progress",
+   "url": "https://github.com/OphirPay/OphirPay/issues/799",
+   "at": "2026-09-23T17:05:59Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "feature",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/798",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Build an escrow management UI, since the feature is currently API-only",
+   "url": "https://github.com/OphirPay/OphirPay/issues/798",
+   "at": "2026-09-23T17:05:56Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "feature",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/797",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Implement the Ledger hardware wallet connector for real",
+   "url": "https://github.com/OphirPay/OphirPay/issues/797",
+   "at": "2026-09-23T17:05:53Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "feature",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/796",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Give the webhook test sender a delivery preview and a result toast",
+   "url": "https://github.com/OphirPay/OphirPay/issues/796",
+   "at": "2026-09-23T17:05:50Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/795",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Extend the currency display toggle beyond the payments table",
+   "url": "https://github.com/OphirPay/OphirPay/issues/795",
+   "at": "2026-09-23T17:05:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/794",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Make the multisig and governance tables usable on mobile",
+   "url": "https://github.com/OphirPay/OphirPay/issues/794",
+   "at": "2026-09-23T17:05:44Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/793",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a print stylesheet so receipts and payment details print cleanly",
+   "url": "https://github.com/OphirPay/OphirPay/issues/793",
+   "at": "2026-09-23T17:05:41Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/792",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Persist payment list sort and filter state in the URL",
+   "url": "https://github.com/OphirPay/OphirPay/issues/792",
+   "at": "2026-09-23T17:05:38Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/791",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add per-route error boundaries so one failing page does not blank the app",
+   "url": "https://github.com/OphirPay/OphirPay/issues/791",
+   "at": "2026-09-23T17:05:34Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/790",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a keyboard shortcut cheat sheet using the existing Kbd primitives",
+   "url": "https://github.com/OphirPay/OphirPay/issues/790",
+   "at": "2026-09-23T17:05:31Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "accessibility",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/789",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a skip-to-content link and verify landmark regions across pages",
+   "url": "https://github.com/OphirPay/OphirPay/issues/789",
+   "at": "2026-09-23T17:05:28Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "accessibility",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/788",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add proper PNG maskable icons and populate the manifest screenshots",
+   "url": "https://github.com/OphirPay/OphirPay/issues/788",
+   "at": "2026-09-23T17:05:25Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "accessibility",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/787",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add an offline fallback page and precache the critical shell",
+   "url": "https://github.com/OphirPay/OphirPay/issues/787",
+   "at": "2026-09-23T17:05:22Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/786",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add route-level loading skeletons for pages that render without one",
+   "url": "https://github.com/OphirPay/OphirPay/issues/786",
+   "at": "2026-09-23T17:05:19Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/785",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the Kubernetes and Helm deployment path",
+   "url": "https://github.com/OphirPay/OphirPay/issues/785",
+   "at": "2026-09-23T17:05:16Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/784",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document switching between PostgreSQL and SQLite and the limits of each",
+   "url": "https://github.com/OphirPay/OphirPay/issues/784",
+   "at": "2026-09-23T17:05:13Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/783",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document how to import the Grafana dashboard and route the Prometheus alerts",
+   "url": "https://github.com/OphirPay/OphirPay/issues/783",
+   "at": "2026-09-23T17:05:10Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/782",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Publish the contract deployment checklist, including the emitter allow-list step",
+   "url": "https://github.com/OphirPay/OphirPay/issues/782",
+   "at": "2026-09-23T17:05:07Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "contracts",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/781",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the security header policy and where each header is set",
+   "url": "https://github.com/OphirPay/OphirPay/issues/781",
+   "at": "2026-09-23T17:05:04Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "security",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/780",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document how to run the E2E suite locally, including the server requirement",
+   "url": "https://github.com/OphirPay/OphirPay/issues/780",
+   "at": "2026-09-23T17:04:54Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "tests",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/779",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document which checks actually gate a merge",
+   "url": "https://github.com/OphirPay/OphirPay/issues/779",
+   "at": "2026-09-23T17:04:51Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/778",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the error code to HTTP status mapping in one table",
+   "url": "https://github.com/OphirPay/OphirPay/issues/778",
+   "at": "2026-09-23T17:04:48Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "backend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/777",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document demo mode and the seeded demo environment",
+   "url": "https://github.com/OphirPay/OphirPay/issues/777",
+   "at": "2026-09-23T17:04:45Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/776",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add request and response examples to every OpenAPI path",
+   "url": "https://github.com/OphirPay/OphirPay/issues/776",
+   "at": "2026-09-23T17:04:42Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/775",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Write a disaster-recovery runbook that ties the backup job and restore drill together",
+   "url": "https://github.com/OphirPay/OphirPay/issues/775",
+   "at": "2026-09-23T17:04:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/774",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the real status of the Ledger wallet connector and its fallback",
+   "url": "https://github.com/OphirPay/OphirPay/issues/774",
+   "at": "2026-09-23T17:04:36Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "frontend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/773",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the escrow and stream APIs, the only way to use them today",
+   "url": "https://github.com/OphirPay/OphirPay/issues/773",
+   "at": "2026-09-23T17:04:32Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/772",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the refund reason-code catalog and the analytics endpoint",
+   "url": "https://github.com/OphirPay/OphirPay/issues/772",
+   "at": "2026-09-23T17:04:29Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "backend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/771",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the feature flag matrix and the localStorage override behaviour",
+   "url": "https://github.com/OphirPay/OphirPay/issues/771",
+   "at": "2026-09-23T17:04:27Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "frontend",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/770",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a check that the translated READMEs stay in sync with the English one",
+   "url": "https://github.com/OphirPay/OphirPay/issues/770",
+   "at": "2026-09-23T17:04:24Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/769",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a documentation link checker so the 37 docs cannot rot",
+   "url": "https://github.com/OphirPay/OphirPay/issues/769",
+   "at": "2026-09-23T17:04:21Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/768",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Document the WebSocket live-event server, which exists but is described as future work",
+   "url": "https://github.com/OphirPay/OphirPay/issues/768",
+   "at": "2026-09-23T17:04:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "documentation",
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/767",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Align the two contract test harnesses onto one convention",
+   "url": "https://github.com/OphirPay/OphirPay/issues/767",
+   "at": "2026-09-23T17:04:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "tests",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/766",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Trim the 300-entry PaymentError catalog to what the contract actually implements",
+   "url": "https://github.com/OphirPay/OphirPay/issues/766",
+   "at": "2026-09-23T17:04:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/765",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Extract the middleware security policy constants out of proxy.ts",
+   "url": "https://github.com/OphirPay/OphirPay/issues/765",
+   "at": "2026-09-23T17:04:09Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "security",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/764",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Eliminate the remaining explicit any types and stale ESLint suppressions",
+   "url": "https://github.com/OphirPay/OphirPay/issues/764",
+   "at": "2026-09-23T17:04:06Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/763",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Move test-only helpers out of the shipped src/lib tree",
+   "url": "https://github.com/OphirPay/OphirPay/issues/763",
+   "at": "2026-09-23T17:04:03Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "tests",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/762",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Give API routes a shared wrapper instead of repeating the same preamble",
+   "url": "https://github.com/OphirPay/OphirPay/issues/762",
+   "at": "2026-09-23T17:04:00Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/761",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Unify the four CSV modules behind one parse/serialize core",
+   "url": "https://github.com/OphirPay/OphirPay/issues/761",
+   "at": "2026-09-23T17:03:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/760",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Consolidate the five overlapping error-handling modules",
+   "url": "https://github.com/OphirPay/OphirPay/issues/760",
+   "at": "2026-09-23T17:03:53Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/759",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Merge the four rate-limiting modules into one component",
+   "url": "https://github.com/OphirPay/OphirPay/issues/759",
+   "at": "2026-09-23T17:03:49Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "security",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/758",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Consolidate the four webhook modules behind one entry point",
+   "url": "https://github.com/OphirPay/OphirPay/issues/758",
+   "at": "2026-09-23T17:03:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/757",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Split the 6,500-line OphirPay contract into focused modules",
+   "url": "https://github.com/OphirPay/OphirPay/issues/757",
+   "at": "2026-09-23T17:03:44Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/756",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add container image vulnerability scanning for the published image",
+   "url": "https://github.com/OphirPay/OphirPay/issues/756",
+   "at": "2026-09-23T17:03:41Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "security",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/755",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Validate the Grafana dashboard JSON and keep its metric queries in sync",
+   "url": "https://github.com/OphirPay/OphirPay/issues/755",
+   "at": "2026-09-23T17:03:38Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/754",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Validate the Prometheus alert rules in CI with promtool",
+   "url": "https://github.com/OphirPay/OphirPay/issues/754",
+   "at": "2026-09-23T17:03:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/753",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add concurrency cancellation to the remaining workflows",
+   "url": "https://github.com/OphirPay/OphirPay/issues/753",
+   "at": "2026-09-23T17:03:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/752",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Alert when the nightly database backup fails or stops running",
+   "url": "https://github.com/OphirPay/OphirPay/issues/752",
+   "at": "2026-09-23T17:03:29Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/751",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Automate the database restore drill instead of relying on an untested backup",
+   "url": "https://github.com/OphirPay/OphirPay/issues/751",
+   "at": "2026-09-23T17:03:26Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/750",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add SBOM generation and build provenance attestation to the release artifacts",
+   "url": "https://github.com/OphirPay/OphirPay/issues/750",
+   "at": "2026-09-23T17:03:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "security",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/749",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Publish the Docker image to GHCR from a release workflow",
+   "url": "https://github.com/OphirPay/OphirPay/issues/749",
+   "at": "2026-09-23T17:03:21Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/748",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a Lighthouse CI budget for the dashboard and payment detail pages",
+   "url": "https://github.com/OphirPay/OphirPay/issues/748",
+   "at": "2026-09-23T17:03:18Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "performance",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/747",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Audit outbound Stellar and Horizon calls for the existing timeout helper",
+   "url": "https://github.com/OphirPay/OphirPay/issues/747",
+   "at": "2026-09-23T17:03:14Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/746",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add cursor pagination to the event history endpoint",
+   "url": "https://github.com/OphirPay/OphirPay/issues/746",
+   "at": "2026-09-23T17:03:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/745",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Virtualize the payments table so large accounts stay responsive",
+   "url": "https://github.com/OphirPay/OphirPay/issues/745",
+   "at": "2026-09-23T17:03:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/744",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Bound the SSE event stream per client and assert connection cleanup under load",
+   "url": "https://github.com/OphirPay/OphirPay/issues/744",
+   "at": "2026-09-23T17:03:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/743",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Report WASM size and fee deltas on contract pull requests",
+   "url": "https://github.com/OphirPay/OphirPay/issues/743",
+   "at": "2026-09-23T17:03:03Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "performance",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/742",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Cap and truncate the remaining unbounded contract readers",
+   "url": "https://github.com/OphirPay/OphirPay/issues/742",
+   "at": "2026-09-23T17:02:59Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "contracts",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/741",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Use the existing cache modules to serve read-heavy endpoints from Redis",
+   "url": "https://github.com/OphirPay/OphirPay/issues/741",
+   "at": "2026-09-23T17:02:57Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "backend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/740",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Apply the same static-asset cache headers in next.config.ts that vercel.json sets",
+   "url": "https://github.com/OphirPay/OphirPay/issues/740",
+   "at": "2026-09-23T17:02:54Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "performance",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/739",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a JavaScript bundle-size budget with an analyzer report in CI",
+   "url": "https://github.com/OphirPay/OphirPay/issues/739",
+   "at": "2026-09-23T17:02:51Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "frontend",
+     "performance",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/738",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a HEALTHCHECK to the Docker image and distinguish liveness from readiness",
+   "url": "https://github.com/OphirPay/OphirPay/issues/738",
+   "at": "2026-09-23T17:02:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "performance",
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/737",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Slim the Docker runner stage, which copies the full node_modules beside the standalone build",
+   "url": "https://github.com/OphirPay/OphirPay/issues/737",
+   "at": "2026-09-23T17:02:46Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "performance",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/736",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Exempt bounty and Stellar Wave issues from the stale auto-close workflow",
+   "url": "https://github.com/OphirPay/OphirPay/issues/736",
+   "at": "2026-09-23T17:02:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/735",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Schedule the existing load tests so performance regressions are caught",
+   "url": "https://github.com/OphirPay/OphirPay/issues/735",
+   "at": "2026-09-23T17:02:33Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "performance",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/734",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Deduplicate the npm ci and prisma generate preamble with a composite action",
+   "url": "https://github.com/OphirPay/OphirPay/issues/734",
+   "at": "2026-09-23T17:02:30Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/733",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Pin GitHub Actions to commit SHAs instead of mutable version tags",
+   "url": "https://github.com/OphirPay/OphirPay/issues/733",
+   "at": "2026-09-23T17:02:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "security",
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/732",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add .github/dependabot.yml for npm, Cargo and GitHub Actions",
+   "url": "https://github.com/OphirPay/OphirPay/issues/732",
+   "at": "2026-09-23T17:02:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "security",
+     "ci",
+     "bounty",
+     "Stellar Wave",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/731",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a Docker build smoke job so the image cannot silently break",
+   "url": "https://github.com/OphirPay/OphirPay/issues/731",
+   "at": "2026-09-23T17:02:21Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/730",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add helm lint, helm template and manifest validation to CI",
+   "url": "https://github.com/OphirPay/OphirPay/issues/730",
+   "at": "2026-09-23T17:02:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/31",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-23: 0 new, 0 resumed, 5 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/31",
+   "at": "2026-09-23T17:00:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57568",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57568 need way to annotate close compares",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57568",
+   "at": "2026-09-23T16:46:46Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#56908 [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
+   "at": "2026-09-23T16:33:25Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "Adraca"
+    ],
+    "created": "2026-09-17T19:27:38Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57563",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57563 expunge direct sfpi bultin use",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57563",
+   "at": "2026-09-23T16:12:56Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/barryrwilson/Rimward/issues/269",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "barryrwilson/Rimward: [Playtest][Jobs] Veridian ace bounty row names an ordinary pirate at 300 UU and keeps it after the kill",
+   "url": "https://github.com/barryrwilson/Rimward/issues/269",
+   "at": "2026-09-23T16:08:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "barryrwilson",
+    "labels": [
+     "bug",
+     "area:missions"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/johnephraim949-web/cypher-gridpay-contracts/issues/114",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "johnephraim949-web/cypher-gridpay-contracts: security: Update SECURITY.md with threat model, bug bounty program, and vulnerability reporting process",
+   "url": "https://github.com/johnephraim949-web/cypher-gridpay-contracts/issues/114",
+   "at": "2026-09-23T16:00:12Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "johnephraim949-web",
+    "labels": [
+     "documentation",
+     "security"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/releaseken/Perpetua-Contracts/issues/101",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "releaseken/Perpetua-Contracts: [Third-Party Audit] Formal setup of audit scope and bug bounty program guidelines",
+   "url": "https://github.com/releaseken/Perpetua-Contracts/issues/101",
+   "at": "2026-09-23T15:54:50Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "hannyloveworld",
+    "labels": [
+     "documentation",
+     "security",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/7f1699284a4876820059e7c681aa029ea85184be",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][Quasar] Emit the semaphore pre-stall for every wait-resource slot (#56328)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/7f1699284a4876820059e7c681aa029ea85184be",
+   "at": "2026-09-23T15:47:29Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_quasar_stall_wrapper_codegen.py",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_trisc_common.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_quasar_stall_wrapper_codegen.py"
+    ],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17539",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): action items -> Org-mode agenda file ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17539",
+   "at": "2026-09-23T15:40:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "knoauktasu5624-wq",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17539",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17539 [Bounty proposal] docs(cli): action items -> Org-mode agenda file ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17539",
+   "at": "2026-09-23T15:40:51Z",
+   "extra": {
+    "state": "open",
+    "author": "knoauktasu5624-wq"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/86d0bdb8ccbe1fa4d0a8d51b0fca35820c6358d7",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "fix: collapse Quasar datacopy MX formats to one smoke pair (#57548)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/86d0bdb8ccbe1fa4d0a8d51b0fca35820c6358d7",
+   "at": "2026-09-23T15:09:03Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/helpers/param_config.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_unary_datacopy_quasar.py"
+    ],
+    "added": [],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/EmpyreanMist/Dashlash/issues/81",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "EmpyreanMist/Dashlash: Add an optional open-world bounty and encounter replay loop",
+   "url": "https://github.com/EmpyreanMist/Dashlash/issues/81",
+   "at": "2026-09-23T14:43:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "EmpyreanMist",
+    "labels": [
+     "area: world"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57549",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57549 [GLM 5.3] Validate SC8 Prefill - Standalone",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57549",
+   "at": "2026-09-23T14:41:26Z",
+   "extra": {
+    "author": "fahmedchanTT",
+    "labels": [
+     "shield_prefill"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Lafiya-xyz/Lafiya-contract/issues/435",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Lafiya-xyz/Lafiya-contract: [Advanced] Design a bug bounty program with severity rubric, scope, and safe-harbor terms",
+   "url": "https://github.com/Lafiya-xyz/Lafiya-contract/issues/435",
+   "at": "2026-09-23T14:29:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ink-mami",
+    "labels": [
+     "documentation",
+     "security",
+     "advanced",
+     "priority:p2",
+     "process"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57545",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57545 GLM prefill - increase number slots to max on main",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57545",
+   "at": "2026-09-23T14:23:44Z",
+   "extra": {
+    "author": "pavlepopovic",
+    "labels": [
+     "shield_prefill"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SAW72/STRANDED/issues/28",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SAW72/STRANDED: StrandedRegistry \u2014 Phase 2: Discovery + Bounty Layer",
+   "url": "https://github.com/SAW72/STRANDED/issues/28",
+   "at": "2026-09-23T14:17:24Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "SAW72",
+    "labels": [
+     "enhancement",
+     "phase-2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57540",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57540 [qwen36]: Qwen3.5-9B on single P150 hangs in capture_prefill_trace_chunked (text_demo traced_128)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57540",
+   "at": "2026-09-23T14:03:36Z",
+   "extra": {
+    "author": "viktorpusTT",
+    "labels": [
+     "bug",
+     "blackhole",
+     "qwen35",
+     "Hang"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57538",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57538 ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57538",
+   "at": "2026-09-23T13:26:19Z",
+   "extra": {
+    "author": "Yusaku-062255",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/dde896d8889a5563eefb83967fe9c439762474fb",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[repo-assist] fix(sfpu): round ttnn.square to nearest-even instead of truncating to bf16 (#57421)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/dde896d8889a5563eefb83967fe9c439762474fb",
+   "at": "2026-09-23T13:21:31Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_square.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_square.h",
+     "tt_metal/hw/inc/api/compute/compute_kernel_api.h",
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations.h"
+    ],
+    "added": [],
+    "author": "github-actions[bot]"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17339",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(cli): auth refresh --json output contract violation ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17339",
+   "at": "2026-09-23T13:07:01Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 50,
+    "author": "ElvinGts",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17339",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17339 [Bounty proposal] fix(cli): auth refresh --json output contract violation ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17339",
+   "at": "2026-09-23T13:07:01Z",
+   "extra": {
+    "state": "open",
+    "author": "ElvinGts"
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1463",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Add pagination to `GET /api/bounties` before the dataset grows past demo size",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1463",
+   "at": "2026-09-23T13:00:02Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: perf",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1459",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Add contributor reputation display sourced from prior released bounties",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1459",
+   "at": "2026-09-23T12:59:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: repo",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1456",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Document what happens to a bounty if the maintainer's wallet becomes unreachable",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1456",
+   "at": "2026-09-23T12:59:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: docs",
+     "difficulty: medium",
+     "priority: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1455",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Add a maintainer dashboard view separate from the public bounty list",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1455",
+   "at": "2026-09-23T12:59:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: frontend",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1454",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Add notification (email or webhook) on bounty state change",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1454",
+   "at": "2026-09-23T12:59:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1452",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Frontend: show bounty escrow status distinctly from application status",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1452",
+   "at": "2026-09-23T12:59:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: frontend",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57533",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57533 [aw] Failed jobs: Matt Pocock Skills Reviewer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57533",
+   "at": "2026-09-23T12:58:56Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57531",
    "source": "tenstorrent",
@@ -42,22 +2563,6 @@
    "extra": {
     "author": "avelickovTT",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56908 [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "at": "2026-09-23T11:59:25Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "Adraca"
-    ],
-    "created": "2026-09-17T19:27:38Z"
    }
   },
   {
@@ -1331,32 +3836,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/17319",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] feat(backend): per-deny structured telemetry in managed-compute authorization ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/17319",
-   "at": "2026-09-23T11:47:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/17319",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#17319 [Bounty proposal] feat(backend): per-deny structured telemetry in managed-compute authorization ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/17319",
-   "at": "2026-09-23T11:47:30Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/30",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1498,20 +3977,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/17300",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): app review cache rewrite deletes legacy reviews ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/17300",
-   "at": "2026-09-23T10:40:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/17300",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#17300 [Bounty proposal] fix(backend): app review cache rewrite deletes legacy reviews ($50 proposed)",
@@ -1627,48 +4092,6 @@
    }
   },
   {
-   "id": "https://github.com/josedab/chronicle/issues/94",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #11 claim: Kubernetes sidecar example",
-   "url": "https://github.com/josedab/chronicle/issues/94",
-   "at": "2026-09-23T08:46:36Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "inunanba",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/93",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #4 claim: Write integration test suite for server",
-   "url": "https://github.com/josedab/chronicle/issues/93",
-   "at": "2026-09-23T08:46:31Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/91",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #22 claim: Prometheus text exposition format parser",
-   "url": "https://github.com/josedab/chronicle/issues/91",
-   "at": "2026-09-23T08:42:33Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57480",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1677,7 +4100,9 @@
    "at": "2026-09-23T08:30:44Z",
    "extra": {
     "author": "awliu-TT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1745,76 +4170,6 @@
    }
   },
   {
-   "id": "https://github.com/josedab/chronicle/issues/87",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #21 claim: Prometheus remote write endpoint (/api/v1/write)",
-   "url": "https://github.com/josedab/chronicle/issues/87",
-   "at": "2026-09-23T07:56:24Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/85",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #2 claim: Write tutorial blog post",
-   "url": "https://github.com/josedab/chronicle/issues/85",
-   "at": "2026-09-23T07:53:23Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/83",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #4 claim: Improve error messages doc",
-   "url": "https://github.com/josedab/chronicle/issues/83",
-   "at": "2026-09-23T07:50:41Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "inunanba",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/84",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #5 claim: Write Chronicle vs X comparison",
-   "url": "https://github.com/josedab/chronicle/issues/84",
-   "at": "2026-09-23T07:50:41Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "inunanba",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/81",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #1 claim: Add PromQL query examples",
-   "url": "https://github.com/josedab/chronicle/issues/81",
-   "at": "2026-09-23T07:47:52Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57468",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1826,48 +4181,6 @@
     "labels": [
      "agentic-workflows"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/79",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #13 claim: Home automation example (MQTT/Zigbee/Z-Wave)",
-   "url": "https://github.com/josedab/chronicle/issues/79",
-   "at": "2026-09-23T07:40:10Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/77",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #12 claim: Docker Compose monitoring stack",
-   "url": "https://github.com/josedab/chronicle/issues/77",
-   "at": "2026-09-23T07:38:13Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/75",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #2 claim: Add CQL query examples",
-   "url": "https://github.com/josedab/chronicle/issues/75",
-   "at": "2026-09-23T07:33:00Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "inunanba",
-    "labels": []
    }
   },
   {
@@ -1886,48 +4199,6 @@
    }
   },
   {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/1090",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Emergency withdraw endpoint lets anyone withdraw from anyone else's wallet",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/1090",
-   "at": "2026-09-23T07:30:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "keteng86",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/1089",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] API reads role from X-User-Role header with no auth check",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/1089",
-   "at": "2026-09-23T07:29:22Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "keteng86",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/1088",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Admin functions callable without any auth \u2014 full protocol takeover",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/1088",
-   "at": "2026-09-23T07:28:44Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "keteng86",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57459",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1939,62 +4210,6 @@
     "labels": [
      "agentic-workflows"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/72",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #14 claim: Stock market ticker feed example",
-   "url": "https://github.com/josedab/chronicle/issues/72",
-   "at": "2026-09-23T07:03:22Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/70",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #15 claim: Weather station example",
-   "url": "https://github.com/josedab/chronicle/issues/70",
-   "at": "2026-09-23T07:02:14Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/69",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #15 claim: Weather station example",
-   "url": "https://github.com/josedab/chronicle/issues/69",
-   "at": "2026-09-23T07:01:12Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "bdrsmsdn",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/67",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #9 claim: Fast ZSTD compression codec",
-   "url": "https://github.com/josedab/chronicle/issues/67",
-   "at": "2026-09-23T06:57:35Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
    }
   },
   {
@@ -2015,48 +4230,6 @@
    }
   },
   {
-   "id": "https://github.com/josedab/chronicle/issues/65",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #10 claim: Dynamic retention policies per metric",
-   "url": "https://github.com/josedab/chronicle/issues/65",
-   "at": "2026-09-23T06:55:32Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/62",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #14 claim: Financial tick data example",
-   "url": "https://github.com/josedab/chronicle/issues/62",
-   "at": "2026-09-23T06:48:32Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "bdrsmsdn",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/951",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Tarsnap/tarsnap: [bug bounty] --without-bz2lib produces an unlinkable binary",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/951",
-   "at": "2026-09-23T06:43:53Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "lukiod",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/tarsnap/issues/951",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -2066,18 +4239,6 @@
    "extra": {
     "state": "OPEN",
     "author": "lukiod"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/17270",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#17270 [Bounty proposal] docs(python-cli): Bengali (bn) CLI quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/17270",
-   "at": "2026-09-23T05:38:50Z",
-   "extra": {
-    "state": "open",
-    "author": "britsync07-prog"
    }
   },
   {
@@ -2378,7 +4539,9 @@
    "at": "2026-09-22T21:34:45Z",
    "extra": {
     "author": "agupta-TT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -2470,240 +4633,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57408",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57408 [ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
-   "at": "2026-09-22T17:26:19Z",
-   "extra": {
-    "author": "Torbjorn-Zhang",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57407",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57407 Investigate potential DRAM congestion between RE and Combine",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57407",
-   "at": "2026-09-22T17:21:17Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57403",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57403 Prefill <> Decode migration support",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57403",
-   "at": "2026-09-22T17:10:45Z",
-   "extra": {
-    "author": "kgrujcic-tt",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57401",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57401 Enable AI-CodeGen RE kernel execution for remaining models",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57401",
-   "at": "2026-09-22T16:51:15Z",
-   "extra": {
-    "author": "pmilojevicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/675737933f8192c9fc7c0a0af648958881db623e",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Metal 2.0] Pre-port fixes for eltwise/unary (#56858)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/675737933f8192c9fc7c0a0af648958881db623e",
-   "at": "2026-09-22T16:44:55Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_device_operation.cpp"
-    ],
-    "added": [],
-    "author": "mcw-anasuya"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/9e13e435af1d6a454dddf88a4919f17a4f9d879a",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "fix: add static assert for Pooltype::MIN on FPU reduce (#57373)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/9e13e435af1d6a454dddf88a4919f17a4f9d879a",
-   "at": "2026-09-22T16:31:59Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_math_reduce.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_AB_reduce.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_reduce.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_math_reduce.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_AB_reduce.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_reduce.h"
-    ],
-    "added": [],
-    "author": "fvranicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57394",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57394 [fabric] #48280 express link routing: every CCL on an 8-chip T3K FABRIC_1D_RING mesh hangs, Blackhole Galaxy trips fabric_set_mcast_route assert (T3K unit tier fully red since 2026-09-21)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57394",
-   "at": "2026-09-22T16:30:26Z",
-   "extra": {
-    "author": "mtairum",
-    "labels": [
-     "bug",
-     "ci-bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57393",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57393 tt_metal/hw/inc/internal/tt-2xx/quasar/overlay/xcustom_test.hpp needs reimplementing",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57393",
-   "at": "2026-09-22T16:29:16Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57385",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57385 [Merge Gate] RealtimeProfilerSanity tests intermittently see 3 of 5 records (runtime validation basic [wh_n150_civ2])",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57385",
-   "at": "2026-09-22T15:46:57Z",
-   "extra": {
-    "author": "mtairum",
-    "labels": [
-     "ci-bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/5b8236e1b0f6590be228cdfc4d63868cc5e8b7c6",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#55542: compensated (Kahan) accumulation for fp32 cumsum (#56811)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/5b8236e1b0f6590be228cdfc4d63868cc5e8b7c6",
-   "at": "2026-09-22T15:46:32Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/accumulation_common.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/accumulation_common.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/cumsum/cumsum.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/cumsum/cumsum.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/cumsum/cumsum_nanobind.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/device/accumulation_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/device/accumulation_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/device/accumulation_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/device/accumulation_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/accumulation/device/kernels/compute/accumulation_compute.cpp"
-    ],
-    "added": [],
-    "author": "rybruscoe"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57382",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57382 [ttnn/data_movement] slice returns rows from one input row too early when a non-innermost dim is truncated and the innermost begin is misaligned",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57382",
-   "at": "2026-09-22T15:37:05Z",
-   "extra": {
-    "author": "jasonmacTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57381",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57381 Dangling Buffer/AllocatorImpl pointers",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57381",
-   "at": "2026-09-22T15:36:11Z",
-   "extra": {
-    "author": "ckaravasilisTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57379",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57379 [aw] Failed jobs: Matt Pocock Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57379",
-   "at": "2026-09-22T15:28:41Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/2ebe7e5062e213cacbc707b0199afabd1441b11e",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#32639: TT_FOO is void, TTI_FOO is function-like (#57138)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/2ebe7e5062e213cacbc707b0199afabd1441b11e",
-   "at": "2026-09-22T15:12:28Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_ops.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_ops.h",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_eltwise_binary.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_ops.h"
-    ],
-    "added": [],
-    "author": "nathan-TT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/aece3257fd2f8ccd2510e44e4f1cba95a7c7c579",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Use TT_INSN (#57371)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/aece3257fd2f8ccd2510e44e4f1cba95a7c7c579",
-   "at": "2026-09-22T15:07:59Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_face_compressed_mm.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_pack_block.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_compressed_custom_mm.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_face_compressed_mm.h"
-    ],
-    "added": [],
-    "author": "nathan-TT"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15945",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2713,254 +4642,6 @@
    "extra": {
     "state": "open",
     "author": "knoauktasu5624-wq"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57370",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57370 [upstream tests] upstream BH ccl smoke test failing PCC on loudbox only",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57370",
-   "at": "2026-09-22T14:28:06Z",
-   "extra": {
-    "author": "williamlyTT",
-    "labels": [
-     "bug",
-     "op_cat: ccl"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57367",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57367 [ttnn/data_movement] 10 defects: core-enumeration mismatches, dropped output tensor, cache-key omission",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57367",
-   "at": "2026-09-22T14:17:37Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57366",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57366 [ttnn/experimental/transformer] 12 defects in the create_qkv_heads family and friends",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57366",
-   "at": "2026-09-22T14:03:25Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57365",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57365 [ttnn] 8 defects in to_layout / creation / embedding / full / isin / dropout / random",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57365",
-   "at": "2026-09-22T14:02:39Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57364",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57364 [ttnn][sdpa] 8 defects in SDPA, kv_cache, paged_cache and indexer_score",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57364",
-   "at": "2026-09-22T14:01:33Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57363",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57363 [ttnn/experimental/quasar] 14 defects in pad / reshard / slice / transpose / pool and friends",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57363",
-   "at": "2026-09-22T14:00:30Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57362",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57362 [ttnn/experimental/quasar] 13 defects in binary / binary_ng / matmul",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57362",
-   "at": "2026-09-22T13:59:30Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57361",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57361 [ttnn/normalization] 8 defects in layernorm, rmsnorm and manual_seed: 2D core-mapping index math, wrong kernel selection, dead beta path",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57361",
-   "at": "2026-09-22T13:58:34Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57360",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57360 [ttnn][mmfusedreduce] 13 defects in moreh / integral_image / ssm / deepseek MoE tilize",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57360",
-   "at": "2026-09-22T13:57:37Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/6a4447028a10571ea5e45091fe0f7623d27fa222",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[repo-assist] fix(ttnn): hash Alignment/Tile in ternary and tanh_bw program-cache keys (#57349)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/6a4447028a10571ea5e45091fe0f7623d27fa222",
-   "at": "2026-09-22T13:57:16Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/ternary/device/ternary_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/tanh_bw/device/tanh_bw_device_operation.cpp"
-    ],
-    "added": [],
-    "author": "github-actions[bot]"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57359",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57359 [ttnn/matmul] 10 defects: loop-carried CB indices, per-core stride enumeration, dead validation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57359",
-   "at": "2026-09-22T13:55:43Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57358",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57358 [ttnn/experimental/ccl] 8 defects in reduce-scatter, rmsnorm and send/recv",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57358",
-   "at": "2026-09-22T13:54:40Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57357",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57357 [ttnn/experimental/ccl] 7 defects in all_gather and all_to_all dispatch",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57357",
-   "at": "2026-09-22T13:53:42Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57356",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57356 [ttnn/eltwise] 13 defects: dropped output tensors, rank-generic indexing, wrong CB formats",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57356",
-   "at": "2026-09-22T13:52:44Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57355",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57355 [ttnn/experimental][deepseek] 6 defects: CB overflow, missing bounds check, binding default mismatch",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57355",
-   "at": "2026-09-22T13:51:35Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57354",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57354 [ttnn/data_movement] 11 pad / tilize / untilize defects: missing FLOAT32 cases and unsigned underflow",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57354",
-   "at": "2026-09-22T13:50:17Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57353",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57353 [ttnn][convolutions] 11 defects in conv2d, conv3d, pool, adaptive_pool, cnn, slice_write and multi_scale_deformable_attn",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57353",
-   "at": "2026-09-22T13:49:11Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57352",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57352 [ttnn/ccl] 13 defects in collectives, point_to_point and dram_prefetcher: per-link work-split unit mixups, NoC ordering, ineffective guards",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57352",
-   "at": "2026-09-22T13:47:40Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/12ee7e742c28228077b308e9e02fe35b76ba8659",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] Interleaved LN: keep in0 full for RM+residual (#56883)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/12ee7e742c28228077b308e9e02fe35b76ba8659",
-   "at": "2026-09-22T12:59:13Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/layernorm_op_multi_core.cpp"
-    ],
-    "added": [],
-    "author": "ijankowskiTT"
    }
   },
   {
