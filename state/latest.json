@@ -1,6 +1,494 @@
 {
- "generated_at": "2026-09-23T17:40:55Z",
+ "generated_at": "2026-09-23T21:02:18Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17842",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: Bounty proposal] docs(cli): memories -> CSV spreadsheet export ($25 proposed",
+   "url": "https://github.com/BasedHardware/omi/issues/17842",
+   "at": "2026-09-23T20:46:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "aiwithrajan",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17842",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17842 Bounty proposal] docs(cli): memories -> CSV spreadsheet export ($25 proposed",
+   "url": "https://github.com/BasedHardware/omi/issues/17842",
+   "at": "2026-09-23T20:46:00Z",
+   "extra": {
+    "state": "open",
+    "author": "aiwithrajan"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57603",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57603 Refactor SFPU dispatch: op classes, TensorShape instead of VectorMode, deprecate SFPU_* macros and SfpuType",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57603",
+   "at": "2026-09-23T20:29:42Z",
+   "extra": {
+    "author": "halghTT",
+    "labels": [
+     "LLK",
+     "llk:quasar",
+     "llk:wormhole",
+     "llk:blackhole",
+     "llk:common"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1430",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "yosemite01/stellar-creator-portfolio: documentation: add a doc comment to `app/bounties/[id]/bounty-share-client.tsx` explaining its exported functions",
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1430",
+   "at": "2026-09-23T20:09:28Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "yosemite01",
+    "labels": [
+     "good first issue",
+     "frontend"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1426",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "yosemite01/stellar-creator-portfolio: accessibility: audit `app/admin/bounties/page.tsx` for missing aria-label on icon-only controls",
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1426",
+   "at": "2026-09-23T20:09:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "yosemite01",
+    "labels": [
+     "good first issue",
+     "frontend"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1362",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "yosemite01/stellar-creator-portfolio: [Mobile] Develop the native Project & Bounty generalized list layout",
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1362",
+   "at": "2026-09-23T20:04:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "yosemite01",
+    "labels": [
+     "feature",
+     "mobile"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17831",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): cross-speaker sentence repair reorders and reattributes transcript segments ($75 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17831",
+   "at": "2026-09-23T19:36:41Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 75,
+    "author": "VIxIon0de",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17829",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(action-items): accept_shared_action_items returns misleading 402 Payment Required for deleted tasks instead of 404",
+   "url": "https://github.com/BasedHardware/omi/issues/17829",
+   "at": "2026-09-23T19:28:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Zyphawk",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
+   "at": "2026-09-23T19:07:16Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "singhharsh1708"
+    ],
+    "created": "2026-09-11T18:45:31Z"
+   }
+  },
+  {
+   "id": "https://github.com/devloot-xyz/devloot_discord_bot/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "devloot-xyz/devloot_discord_bot: Implement Discord identity linking, builder profiles, and bounty thread discovery",
+   "url": "https://github.com/devloot-xyz/devloot_discord_bot/issues/12",
+   "at": "2026-09-23T19:03:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "devloot-bounty-bot[bot]",
+    "labels": [
+     "discord",
+     "identity",
+     "pilot-a"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57586",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57586 Host thread pool is too slow to hand off short tasks (~1.4 us/task + park/wake latency), blocking per-device dispatch fan-out",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57586",
+   "at": "2026-09-23T19:01:34Z",
+   "extra": {
+    "author": "jbaumanTT",
+    "labels": [
+     "perf",
+     "runtime"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57583",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57583 Metal 2.0 port: data_movement/tilize + tilize_with_val_padding block factories",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57583",
+   "at": "2026-09-23T18:58:23Z",
+   "extra": {
+    "author": "gajanan-choudhary",
+    "labels": [
+     "tilize_untilize",
+     "data_movement"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17812",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Faroese (fo) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17812",
+   "at": "2026-09-23T18:47:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17812",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17812 [Bounty proposal] docs(python-cli): Faroese (fo) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17812",
+   "at": "2026-09-23T18:47:41Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17811",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Occitan (oc) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17811",
+   "at": "2026-09-23T18:47:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17811",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17811 [Bounty proposal] docs(python-cli): Occitan (oc) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17811",
+   "at": "2026-09-23T18:47:37Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17810",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Breton (br) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17810",
+   "at": "2026-09-23T18:47:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17810",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17810 [Bounty proposal] docs(python-cli): Breton (br) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17810",
+   "at": "2026-09-23T18:47:34Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17809",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Scottish Gaelic (gd) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17809",
+   "at": "2026-09-23T18:47:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17808",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Tetum (tet) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17808",
+   "at": "2026-09-23T18:47:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17808",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17808 [Bounty proposal] docs(python-cli): Tetum (tet) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17808",
+   "at": "2026-09-23T18:47:28Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17807",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Tongan (to) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17807",
+   "at": "2026-09-23T18:47:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17807",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17807 [Bounty proposal] docs(python-cli): Tongan (to) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17807",
+   "at": "2026-09-23T18:47:24Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17806",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Samoan (sm) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17806",
+   "at": "2026-09-23T18:47:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17806",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17806 [Bounty proposal] docs(python-cli): Samoan (sm) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17806",
+   "at": "2026-09-23T18:47:21Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17805",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Hawaiian (haw) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17805",
+   "at": "2026-09-23T18:47:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17805",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17805 [Bounty proposal] docs(python-cli): Hawaiian (haw) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17805",
+   "at": "2026-09-23T18:47:18Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17804",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): M\u0101ori (mi) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17804",
+   "at": "2026-09-23T18:47:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17803",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Yiddish (yi) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17803",
+   "at": "2026-09-23T18:47:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17802",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Uyghur (ug) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17802",
+   "at": "2026-09-23T18:47:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17801",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Javanese (jv) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17801",
+   "at": "2026-09-23T18:47:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Shackole/NeuroWealth-Smartcontract/issues/72",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Shackole/NeuroWealth-Smartcontract: [Docs] Bug bounty program setup \u2014 scope, severity rubric, and payout process",
+   "url": "https://github.com/Shackole/NeuroWealth-Smartcontract/issues/72",
+   "at": "2026-09-23T18:32:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Shackole",
+    "labels": [
+     "documentation",
+     "security"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ee33bd43267af271e37280795c26c8041f19dd01",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Quasar] Add dprint_tensix DEST-register read + dbg_halt rendezvous (#56580)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ee33bd43267af271e37280795c26c8041f19dd01",
+   "at": "2026-09-23T17:56:42Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_debug.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_dest.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_debug.h"
+    ],
+    "author": "rtawfik01"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17554",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(omi-arxiv-app): guard boolean inputs in text cleaner and limit bounds ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17554",
+   "at": "2026-09-23T17:50:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "Longo125",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/BasedHardware/omi/issues/17551",
    "source": "github_search",
@@ -19,7 +507,7 @@
    "id": "https://github.com/loiste-interactive/Obenseuer-Issues/issues/5592",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "loiste-interactive/Obenseuer-Issues: (0.4.33) All of the cops are stuck chasing player, despite the player not having any bounty.",
+   "title": "loiste-interactive/Obenseuer-Issues: (0.4.33) All of the bazaar cops are stuck chasing player, despite the player not having any bounty.",
    "url": "https://github.com/loiste-interactive/Obenseuer-Issues/issues/5592",
    "at": "2026-09-23T17:36:54Z",
    "extra": {
@@ -109,7 +597,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/826",
    "at": "2026-09-23T17:07:24Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -191,7 +679,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/822",
    "at": "2026-09-23T17:07:12Z",
    "extra": {
-    "comments": 4,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -231,7 +719,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/820",
    "at": "2026-09-23T17:07:06Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -271,7 +759,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/818",
    "at": "2026-09-23T17:06:59Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -371,7 +859,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/813",
    "at": "2026-09-23T17:06:44Z",
    "extra": {
-    "comments": 3,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -411,7 +899,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/811",
    "at": "2026-09-23T17:06:38Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -492,7 +980,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1635",
    "at": "2026-09-23T17:06:28Z",
    "extra": {
-    "comments": 0,
+    "comments": 23,
     "amount_usd": null,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -564,7 +1052,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/806",
    "at": "2026-09-23T17:06:22Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -584,7 +1072,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/805",
    "at": "2026-09-23T17:06:18Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1096,7 +1584,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/779",
    "at": "2026-09-23T17:04:51Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1155,7 +1643,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/776",
    "at": "2026-09-23T17:04:42Z",
    "extra": {
-    "comments": 2,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1175,7 +1663,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/775",
    "at": "2026-09-23T17:04:39Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1314,7 +1802,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/768",
    "at": "2026-09-23T17:04:18Z",
    "extra": {
-    "comments": 0,
+    "comments": 6,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1334,7 +1822,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/767",
    "at": "2026-09-23T17:04:15Z",
    "extra": {
-    "comments": 0,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1354,7 +1842,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/766",
    "at": "2026-09-23T17:04:12Z",
    "extra": {
-    "comments": 0,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1413,7 +1901,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/763",
    "at": "2026-09-23T17:04:03Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1452,7 +1940,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/761",
    "at": "2026-09-23T17:03:56Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1510,7 +1998,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/758",
    "at": "2026-09-23T17:03:46Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1587,7 +2075,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/754",
    "at": "2026-09-23T17:03:35Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1606,7 +2094,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/753",
    "at": "2026-09-23T17:03:32Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1663,7 +2151,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/750",
    "at": "2026-09-23T17:03:24Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1743,7 +2231,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/746",
    "at": "2026-09-23T17:03:12Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1763,7 +2251,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/745",
    "at": "2026-09-23T17:03:09Z",
    "extra": {
-    "comments": 0,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1783,7 +2271,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/744",
    "at": "2026-09-23T17:03:06Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1864,7 +2352,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/740",
    "at": "2026-09-23T17:02:54Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1903,7 +2391,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/738",
    "at": "2026-09-23T17:02:49Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -1943,7 +2431,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/736",
    "at": "2026-09-23T17:02:42Z",
    "extra": {
-    "comments": 0,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -2001,7 +2489,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/733",
    "at": "2026-09-23T17:02:27Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -2021,7 +2509,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/732",
    "at": "2026-09-23T17:02:24Z",
    "extra": {
-    "comments": 0,
+    "comments": 7,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -2060,7 +2548,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/730",
    "at": "2026-09-23T17:02:19Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -2085,6 +2573,25 @@
     "labels": [
      "bounty-watch"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ff8b6557b49802ab56b4bf42288f783894a711e4",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[BH] Adding compute semaphores (#56189)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ff8b6557b49802ab56b4bf42288f783894a711e4",
+   "at": "2026-09-23T16:58:06Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/inc/api/compute/experimental/2_0/hw_startup.h",
+     "tt_metal/hw/inc/api/compute/experimental/semaphore_compute_impl.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel.h"
+    ],
+    "added": [
+     "tt_metal/hw/inc/api/compute/experimental/semaphore_compute_impl.h"
+    ],
+    "author": "rtawfik01"
    }
   },
   {
@@ -2173,7 +2680,7 @@
    "url": "https://github.com/releaseken/Perpetua-Contracts/issues/101",
    "at": "2026-09-23T15:54:50Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "hannyloveworld",
     "labels": [
@@ -3392,466 +3899,6 @@
    }
   },
   {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1208",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties/:id/release`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1208",
-   "at": "2026-09-23T11:54:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: test",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1207",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties/:id/submit`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1207",
-   "at": "2026-09-23T11:54:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1206",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties/:id/submit`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1206",
-   "at": "2026-09-23T11:54:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: docs",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1205",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties/:id/submit`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1205",
-   "at": "2026-09-23T11:54:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: security",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1204",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties/:id/submit`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1204",
-   "at": "2026-09-23T11:54:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: test",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1203",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties/:id/submit`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1203",
-   "at": "2026-09-23T11:54:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1202",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties/:id/reserve`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1202",
-   "at": "2026-09-23T11:54:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: docs",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1201",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties/:id/reserve`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1201",
-   "at": "2026-09-23T11:54:23Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: security",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1200",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties/:id/reserve`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1200",
-   "at": "2026-09-23T11:54:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: test",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1199",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties/:id/reserve`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1199",
-   "at": "2026-09-23T11:54:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1198",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties/:id/reserve`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1198",
-   "at": "2026-09-23T11:54:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1197",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1197",
-   "at": "2026-09-23T11:54:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: security",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1196",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1196",
-   "at": "2026-09-23T11:54:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: test",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1195",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1195",
-   "at": "2026-09-23T11:53:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1194",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1194",
-   "at": "2026-09-23T11:53:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1193",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1193",
-   "at": "2026-09-23T11:53:47Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: docs",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1192",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `GET /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1192",
-   "at": "2026-09-23T11:53:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: test",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1191",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `GET /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1191",
-   "at": "2026-09-23T11:53:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1190",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `GET /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1190",
-   "at": "2026-09-23T11:53:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1189",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `GET /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1189",
-   "at": "2026-09-23T11:53:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "good first issue",
-     "area: backend",
-     "type: docs",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1188",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `GET /api/bounties`",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1188",
-   "at": "2026-09-23T11:53:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: security",
-     "difficulty: easy"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1163",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: No documented check that `release_bounty` / `refund_bounty` verify the caller",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1163",
-   "at": "2026-09-23T11:51:32Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: contract",
-     "type: security",
-     "difficulty: medium",
-     "priority: critical"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1160",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Bounty persistence is a single JSON file with no documented write-concurrency guarantee",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1160",
-   "at": "2026-09-23T11:50:52Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: backend",
-     "type: bug",
-     "difficulty: medium",
-     "priority: high"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1159",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ritik4ever/stellar-bounty-board: Two zip archives are committed at repo root (`crowdpay.zip`, `stellar-bounty-board.zip`)",
-   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1159",
-   "at": "2026-09-23T11:50:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ritik4ever",
-    "labels": [
-     "area: repo",
-     "type: chore",
-     "difficulty: easy",
-     "priority: medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/30",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-23: 0 new, 0 resumed, 3 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/30",
-   "at": "2026-09-23T11:37:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57512",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -3973,18 +4020,6 @@
    "extra": {
     "author": "ijankowskiTT",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/17300",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#17300 [Bounty proposal] fix(backend): app review cache rewrite deletes legacy reviews ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/17300",
-   "at": "2026-09-23T10:40:59Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
    }
   },
   {
@@ -4288,22 +4323,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "at": "2026-09-23T00:52:56Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-11T18:45:31Z"
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/spiped/issues/444",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -4493,18 +4512,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/16035",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#16035 [Bounty proposal] fix(mcp): handle null content on locked memories ($50-100 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/16035",
-   "at": "2026-09-22T23:17:19Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57444",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -4545,39 +4552,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57430",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57430 [Quasar] POP_TILES/PUSH_TILES + stalling",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57430",
-   "at": "2026-09-22T20:14:04Z",
-   "extra": {
-    "author": "rtawfik01",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57422",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57422 [ring_joint_sdpa] Sliding-window halo is single-hop, so Gemma4 prefill cannot use chunks below 8192 at CP8",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57422",
-   "at": "2026-09-22T18:54:24Z",
-   "extra": {
-    "author": "kmabeeTT",
-    "labels": [
-     "blackhole",
-     "op_cat: ccl",
-     "perf",
-     "SDPA",
-     "op_cat: SDPA",
-     "model: gemma-4"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15976",
    "source": "omi",
    "kind": "omi_proposal",
@@ -4587,49 +4561,6 @@
    "extra": {
     "state": "open",
     "author": "oimrqs-ops"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/5bf4ec6bf0c9a0521e88cee8ad7ec8084c673f01",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#55317: Route ternary and binary_ng specless-sharded outputs through common shard-spec synthesizer (#56052)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/5bf4ec6bf0c9a0521e88cee8ad7ec8084c673f01",
-   "at": "2026-09-22T18:24:58Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/ternary/device/ternary_device_operation.cpp"
-    ],
-    "added": [],
-    "author": "mouliraj-mcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57413",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57413 [tt_transformers] Llama 3.2-90B-Vision e2e BERTScore 0.6815 < 0.69 since #57179 (approximate tanh 6-entry SFPLUT reland); bisected on adjacent commits",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57413",
-   "at": "2026-09-22T18:13:02Z",
-   "extra": {
-    "author": "mtairum",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57410",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57410 [tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57410",
-   "at": "2026-09-22T17:42:29Z",
-   "extra": {
-    "author": "Torbjorn-Zhang",
-    "labels": [
-     "bug",
-     "community"
-    ]
    }
   },
   {
@@ -4837,54 +4768,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15802",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15802 [Bounty proposal] docs(python-cli): Slovenian (sl) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15802",
-   "at": "2026-09-22T10:54:49Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15798",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15798 [Bounty proposal] docs(python-cli): Welsh (cy) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15798",
-   "at": "2026-09-22T10:54:20Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15796",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15796 [Bounty proposal] docs(python-cli): Icelandic (is) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15796",
-   "at": "2026-09-22T10:54:06Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15792",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15792 [Bounty proposal] docs(python-cli): Serbian (sr) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15792",
-   "at": "2026-09-22T10:53:37Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15782",
    "source": "omi",
    "kind": "omi_proposal",
@@ -4894,30 +4777,6 @@
    "extra": {
     "state": "open",
     "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15778",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15778 [Bounty proposal] docs(python-cli): Croatian (hr) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15778",
-   "at": "2026-09-22T10:40:45Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15776",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15776 [Bounty proposal] docs(python-cli): Bulgarian (bg) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15776",
-   "at": "2026-09-22T10:40:30Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
    }
   },
   {
@@ -5194,30 +5053,6 @@
    "extra": {
     "state": "OPEN",
     "author": "mjneuroart"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/948",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#948 How to user `--newer`?",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/948",
-   "at": "2026-09-20T19:21:01Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "gahr"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/scrypt/issues/441",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/scrypt#441 NaN -m value bypasses validation and aborts in memtouse()",
-   "url": "https://github.com/Tarsnap/scrypt/issues/441",
-   "at": "2026-09-20T18:22:29Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "tokenjunkielabs"
    }
   }
  ],
