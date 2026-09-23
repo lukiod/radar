@@ -1,6 +1,1932 @@
 {
- "generated_at": "2026-09-23T07:17:34Z",
+ "generated_at": "2026-09-23T12:53:14Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57531",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57531 [Gemma4] Chunked prefill loses the sliding-window tail when a request's scheduler chunks mix the traced and eager paths",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57531",
+   "at": "2026-09-23T12:52:43Z",
+   "extra": {
+    "author": "viktorpusTT",
+    "labels": [
+     "bug",
+     "models",
+     "prefill",
+     "gemma"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17335",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] Guard Sparkle appcast XML generator against explicit None release fields (PR #17334)",
+   "url": "https://github.com/BasedHardware/omi/issues/17335",
+   "at": "2026-09-23T12:40:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57524",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57524 Matmul optimization (MoE logic unchanged)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57524",
+   "at": "2026-09-23T12:21:39Z",
+   "extra": {
+    "author": "avelickovTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#56908 [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
+   "at": "2026-09-23T11:59:25Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "Adraca"
+    ],
+    "created": "2026-09-17T19:27:38Z"
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1259",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a boundary/edge-case test suite for `dispute_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1259",
+   "at": "2026-09-23T11:58:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1258",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a fuzz test for `dispute_bounty`'s numeric inputs",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1258",
+   "at": "2026-09-23T11:58:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1257",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: emit a structured event from `dispute_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1257",
+   "at": "2026-09-23T11:58:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1256",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add an authorisation test for `dispute_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1256",
+   "at": "2026-09-23T11:58:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1255",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: document preconditions and every panic path of `dispute_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1255",
+   "at": "2026-09-23T11:58:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: contract",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1254",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a fuzz test for `get_bounty`'s numeric inputs",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1254",
+   "at": "2026-09-23T11:58:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1253",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: emit a structured event from `get_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1253",
+   "at": "2026-09-23T11:58:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1252",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add an authorisation test for `get_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1252",
+   "at": "2026-09-23T11:58:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1251",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: document preconditions and every panic path of `get_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1251",
+   "at": "2026-09-23T11:58:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: contract",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1250",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a boundary/edge-case test suite for `get_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1250",
+   "at": "2026-09-23T11:57:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1249",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: emit a structured event from `refund_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1249",
+   "at": "2026-09-23T11:57:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1248",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add an authorisation test for `refund_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1248",
+   "at": "2026-09-23T11:57:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1247",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: document preconditions and every panic path of `refund_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1247",
+   "at": "2026-09-23T11:57:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: contract",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1246",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a boundary/edge-case test suite for `refund_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1246",
+   "at": "2026-09-23T11:57:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1245",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a fuzz test for `refund_bounty`'s numeric inputs",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1245",
+   "at": "2026-09-23T11:57:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1244",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add an authorisation test for `release_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1244",
+   "at": "2026-09-23T11:57:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1243",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: document preconditions and every panic path of `release_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1243",
+   "at": "2026-09-23T11:57:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: contract",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1242",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a boundary/edge-case test suite for `release_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1242",
+   "at": "2026-09-23T11:57:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1241",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a fuzz test for `release_bounty`'s numeric inputs",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1241",
+   "at": "2026-09-23T11:57:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1240",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: emit a structured event from `release_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1240",
+   "at": "2026-09-23T11:57:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1239",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: document preconditions and every panic path of `submit_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1239",
+   "at": "2026-09-23T11:57:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: contract",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1238",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a boundary/edge-case test suite for `submit_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1238",
+   "at": "2026-09-23T11:57:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1237",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a fuzz test for `submit_bounty`'s numeric inputs",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1237",
+   "at": "2026-09-23T11:56:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1236",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: emit a structured event from `submit_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1236",
+   "at": "2026-09-23T11:56:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1235",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add an authorisation test for `submit_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1235",
+   "at": "2026-09-23T11:56:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1234",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a boundary/edge-case test suite for `reserve_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1234",
+   "at": "2026-09-23T11:56:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1232",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a fuzz test for `reserve_bounty`'s numeric inputs",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1232",
+   "at": "2026-09-23T11:56:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1231",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: emit a structured event from `reserve_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1231",
+   "at": "2026-09-23T11:56:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1230",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add an authorisation test for `reserve_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1230",
+   "at": "2026-09-23T11:56:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1229",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: document preconditions and every panic path of `reserve_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1229",
+   "at": "2026-09-23T11:56:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: contract",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1228",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a fuzz test for `create_bounty`'s numeric inputs",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1228",
+   "at": "2026-09-23T11:56:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1226",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: emit a structured event from `create_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1226",
+   "at": "2026-09-23T11:56:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: feature",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1225",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add an authorisation test for `create_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1225",
+   "at": "2026-09-23T11:56:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1224",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: document preconditions and every panic path of `create_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1224",
+   "at": "2026-09-23T11:56:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: contract",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1223",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Contract: add a boundary/edge-case test suite for `create_bounty`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1223",
+   "at": "2026-09-23T11:56:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: test",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1217",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties/:id/refund`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1217",
+   "at": "2026-09-23T11:55:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: test",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1216",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties/:id/refund`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1216",
+   "at": "2026-09-23T11:55:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1215",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties/:id/refund`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1215",
+   "at": "2026-09-23T11:55:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57519",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57519 [Bug] reduce_scatter worker-count heuristic ignores `reduce_scatter_core_grid_offset`",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57519",
+   "at": "2026-09-23T11:55:27Z",
+   "extra": {
+    "author": "iwroszTT",
+    "labels": [
+     "op_cat: ccl",
+     "data_movement",
+     "ops-data-movement",
+     "ccl"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1214",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties/:id/refund`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1214",
+   "at": "2026-09-23T11:55:22Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1213",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties/:id/refund`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1213",
+   "at": "2026-09-23T11:55:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: security",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1212",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties/:id/release`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1212",
+   "at": "2026-09-23T11:55:13Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1211",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties/:id/release`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1211",
+   "at": "2026-09-23T11:55:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1210",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties/:id/release`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1210",
+   "at": "2026-09-23T11:55:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1209",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties/:id/release`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1209",
+   "at": "2026-09-23T11:54:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: security",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1208",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties/:id/release`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1208",
+   "at": "2026-09-23T11:54:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: test",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1207",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties/:id/submit`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1207",
+   "at": "2026-09-23T11:54:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1206",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties/:id/submit`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1206",
+   "at": "2026-09-23T11:54:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1205",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties/:id/submit`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1205",
+   "at": "2026-09-23T11:54:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: security",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1204",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties/:id/submit`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1204",
+   "at": "2026-09-23T11:54:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: test",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1203",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties/:id/submit`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1203",
+   "at": "2026-09-23T11:54:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1202",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties/:id/reserve`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1202",
+   "at": "2026-09-23T11:54:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1201",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties/:id/reserve`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1201",
+   "at": "2026-09-23T11:54:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: security",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1200",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties/:id/reserve`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1200",
+   "at": "2026-09-23T11:54:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: test",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1199",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties/:id/reserve`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1199",
+   "at": "2026-09-23T11:54:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1198",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties/:id/reserve`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1198",
+   "at": "2026-09-23T11:54:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1197",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `POST /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1197",
+   "at": "2026-09-23T11:54:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: security",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1196",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `POST /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1196",
+   "at": "2026-09-23T11:54:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: test",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1195",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `POST /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1195",
+   "at": "2026-09-23T11:53:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1194",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `POST /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1194",
+   "at": "2026-09-23T11:53:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1193",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `POST /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1193",
+   "at": "2026-09-23T11:53:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1192",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add integration test coverage for `GET /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1192",
+   "at": "2026-09-23T11:53:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: test",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1191",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add a Zod schema validating every input to `GET /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1191",
+   "at": "2026-09-23T11:53:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1190",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: add an idempotency check to `GET /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1190",
+   "at": "2026-09-23T11:53:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1189",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Docs: specify the exact response schema for `GET /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1189",
+   "at": "2026-09-23T11:53:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "good first issue",
+     "area: backend",
+     "type: docs",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1188",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Backend: apply an explicit rate limit to `GET /api/bounties`",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1188",
+   "at": "2026-09-23T11:53:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: security",
+     "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1163",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: No documented check that `release_bounty` / `refund_bounty` verify the caller",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1163",
+   "at": "2026-09-23T11:51:32Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: contract",
+     "type: security",
+     "difficulty: medium",
+     "priority: critical"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1160",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Bounty persistence is a single JSON file with no documented write-concurrency guarantee",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1160",
+   "at": "2026-09-23T11:50:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: backend",
+     "type: bug",
+     "difficulty: medium",
+     "priority: high"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ritik4ever/stellar-bounty-board/issues/1159",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ritik4ever/stellar-bounty-board: Two zip archives are committed at repo root (`crowdpay.zip`, `stellar-bounty-board.zip`)",
+   "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1159",
+   "at": "2026-09-23T11:50:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ritik4ever",
+    "labels": [
+     "area: repo",
+     "type: chore",
+     "difficulty: easy",
+     "priority: medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17319",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(backend): per-deny structured telemetry in managed-compute authorization ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17319",
+   "at": "2026-09-23T11:47:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17319",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17319 [Bounty proposal] feat(backend): per-deny structured telemetry in managed-compute authorization ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17319",
+   "at": "2026-09-23T11:47:30Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/30",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-23: 0 new, 0 resumed, 3 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/30",
+   "at": "2026-09-23T11:37:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57512",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57512 moe_expert_token_remap: validate reduction_size (non-zero, divides batch*seq)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57512",
+   "at": "2026-09-23T11:16:47Z",
+   "extra": {
+    "author": "VirdhatchaniKN",
+    "labels": [
+     "op_cat: TM",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/7569dc720a73fe96c4f54e620fb0ec06d187e7f7",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] binary_ng/ternary: mixed-rank operand plumbing and UINT32 lerp (#57483)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/7569dc720a73fe96c4f54e620fb0ec06d187e7f7",
+   "at": "2026-09-23T11:12:49Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/device/ternary_op_utils.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/device/ternary_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/ternary.cpp"
+    ],
+    "added": [],
+    "author": "Aswinmcw"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/cb0b12add25e1c28afc6d71e00cdb0621f40df6f",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] addcmul/addcdiv: write output_tensor on the composite fallback (#57482)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/cb0b12add25e1c28afc6d71e00cdb0621f40df6f",
+   "at": "2026-09-23T11:12:35Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/ternary.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/ternary_composite_op.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/ternary_composite_op.hpp"
+    ],
+    "added": [],
+    "author": "Aswinmcw"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57510",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57510 [tt_metal/impl] 11 defects in debug, flatbuffer, jit_server, tensor and threading",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57510",
+   "at": "2026-09-23T11:01:44Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57509",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57509 [tt_metal/hw] 8 LLK / SFPU and compute-API defects",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57509",
+   "at": "2026-09-23T11:01:09Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57506",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57506 [tt_metal/hw] 10 defects in the NoC, dprint, tensor-accessor and memory-map headers",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57506",
+   "at": "2026-09-23T10:48:58Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57504",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57504 [tt_metal/fabric] 5 defects: inverted operator<=, wrong VC2 index, container mutation during erase",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57504",
+   "at": "2026-09-23T10:47:52Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57503",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57503 [tt_metal][distributed/llrt/tools] 13 defects: FIFO wrap, MPI API misuse, lost path separator",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57503",
+   "at": "2026-09-23T10:46:28Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57502",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57502 [tt_metal/impl] 11 defects in buffers, dispatch and program dispatch",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57502",
+   "at": "2026-09-23T10:43:51Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17300",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): app review cache rewrite deletes legacy reviews ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17300",
+   "at": "2026-09-23T10:40:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17300",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17300 [Bounty proposal] fix(backend): app review cache rewrite deletes legacy reviews ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/17300",
+   "at": "2026-09-23T10:40:59Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57501",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57501 AI static analysis tt_metal defects",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57501",
+   "at": "2026-09-23T10:39:17Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57500",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57500 [ttnn/eltwise] quantize/requantize: uint8 composite output wraps and floors",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57500",
+   "at": "2026-09-23T10:24:40Z",
+   "extra": {
+    "author": "Aswinmcw",
+    "labels": [
+     "bug",
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57499",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57499 [ttnn/eltwise] unary: dedicated-kernel ops dropped in chains; same-grid sharding permutes output",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57499",
+   "at": "2026-09-23T10:24:36Z",
+   "extra": {
+    "author": "Aswinmcw",
+    "labels": [
+     "bug",
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57498",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57498 [ttnn/eltwise] polyval empty coeffs segfaults; concat_bw negative dim; atanh_bw zero grad",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57498",
+   "at": "2026-09-23T10:24:31Z",
+   "extra": {
+    "author": "Aswinmcw",
+    "labels": [
+     "bug",
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e68036a5913e3030f0dec9f98755bf4a64b17db5",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] tanh_bw returns garbage when grad_output and input dtypes differ (#56064)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e68036a5913e3030f0dec9f98755bf4a64b17db5",
+   "at": "2026-09-23T10:12:14Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/tanh_bw/device/kernels/compute/eltwise_bw_tanh_deriv.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/tanh_bw/device/tanh_bw_program_factory.cpp"
+    ],
+    "added": [],
+    "author": "Aswinmcw"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57490",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57490 [aw] Matt Pocock Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57490",
+   "at": "2026-09-23T09:13:08Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57487",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57487 [aw] Failed jobs: CI Failure Triage (pilot)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57487",
+   "at": "2026-09-23T08:58:48Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/94",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #11 claim: Kubernetes sidecar example",
+   "url": "https://github.com/josedab/chronicle/issues/94",
+   "at": "2026-09-23T08:46:36Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "inunanba",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/93",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #4 claim: Write integration test suite for server",
+   "url": "https://github.com/josedab/chronicle/issues/93",
+   "at": "2026-09-23T08:46:31Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/91",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #22 claim: Prometheus text exposition format parser",
+   "url": "https://github.com/josedab/chronicle/issues/91",
+   "at": "2026-09-23T08:42:33Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57480",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57480 MemoryConfig spec pairs are never re-validated when attached to a new tensor shape",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57480",
+   "at": "2026-09-23T08:30:44Z",
+   "extra": {
+    "author": "awliu-TT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57478",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57478 [ttnn] 3 defects in typecast, kv_cache and plusone",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57478",
+   "at": "2026-09-23T08:25:38Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57477",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57477 [ttnn][mmfusedreduce] 5 defects in reduction, matmul and quasar tilize: undersized CBs, a tile-size NoC read, a missing shard-alignment guard",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57477",
+   "at": "2026-09-23T08:24:47Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57476",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57476 [ttnn][convolutions] upsample_nearest float path sizes its intermediate CB from the output alignment",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57476",
+   "at": "2026-09-23T08:23:50Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57475",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57475 [ttnn/moreh] 4 defects: missing CB reserve, rounded NoC write length, wrong unpack mode, rank-1 out-of-bounds read",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57475",
+   "at": "2026-09-23T08:22:51Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57474",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57474 [ttnn/data_movement] 3 defects: repeat drops its rank expansion, div_up(0, 0) in strided all-gather, embedding L1 budget counted twice",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57474",
+   "at": "2026-09-23T08:21:46Z",
+   "extra": {
+    "author": "ijankowskiTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/87",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #21 claim: Prometheus remote write endpoint (/api/v1/write)",
+   "url": "https://github.com/josedab/chronicle/issues/87",
+   "at": "2026-09-23T07:56:24Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/85",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #2 claim: Write tutorial blog post",
+   "url": "https://github.com/josedab/chronicle/issues/85",
+   "at": "2026-09-23T07:53:23Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/83",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #4 claim: Improve error messages doc",
+   "url": "https://github.com/josedab/chronicle/issues/83",
+   "at": "2026-09-23T07:50:41Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "inunanba",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/84",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #5 claim: Write Chronicle vs X comparison",
+   "url": "https://github.com/josedab/chronicle/issues/84",
+   "at": "2026-09-23T07:50:41Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "inunanba",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/81",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #1 claim: Add PromQL query examples",
+   "url": "https://github.com/josedab/chronicle/issues/81",
+   "at": "2026-09-23T07:47:52Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57468",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57468 [aw] Tenstorrent Skills Reviewer produced no safe outputs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57468",
+   "at": "2026-09-23T07:44:33Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/79",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #13 claim: Home automation example (MQTT/Zigbee/Z-Wave)",
+   "url": "https://github.com/josedab/chronicle/issues/79",
+   "at": "2026-09-23T07:40:10Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/77",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #12 claim: Docker Compose monitoring stack",
+   "url": "https://github.com/josedab/chronicle/issues/77",
+   "at": "2026-09-23T07:38:13Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/75",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #2 claim: Add CQL query examples",
+   "url": "https://github.com/josedab/chronicle/issues/75",
+   "at": "2026-09-23T07:33:00Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "inunanba",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57461",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57461 moe_expert_token_remap: writer drops a metadata page from every reduction group after the first",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57461",
+   "at": "2026-09-23T07:31:01Z",
+   "extra": {
+    "author": "VirdhatchaniKN",
+    "labels": [
+     "op_cat: TM",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Smartdevs17/stellarlend/issues/1090",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Emergency withdraw endpoint lets anyone withdraw from anyone else's wallet",
+   "url": "https://github.com/Smartdevs17/stellarlend/issues/1090",
+   "at": "2026-09-23T07:30:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "keteng86",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Smartdevs17/stellarlend/issues/1089",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] API reads role from X-User-Role header with no auth check",
+   "url": "https://github.com/Smartdevs17/stellarlend/issues/1089",
+   "at": "2026-09-23T07:29:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "keteng86",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Smartdevs17/stellarlend/issues/1088",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Admin functions callable without any auth \u2014 full protocol takeover",
+   "url": "https://github.com/Smartdevs17/stellarlend/issues/1088",
+   "at": "2026-09-23T07:28:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "keteng86",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57459",
    "source": "tenstorrent",
@@ -143,160 +2069,6 @@
    }
   },
   {
-   "id": "https://github.com/josedab/chronicle/issues/60",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #8 claim: Add large dataset test",
-   "url": "https://github.com/josedab/chronicle/issues/60",
-   "at": "2026-09-23T06:39:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "bdrsmsdn",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/58",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #12 claim: DuckDB integration",
-   "url": "https://github.com/josedab/chronicle/issues/58",
-   "at": "2026-09-23T06:21:07Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/56",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #11 claim: Arrow/Parquet batch export",
-   "url": "https://github.com/josedab/chronicle/issues/56",
-   "at": "2026-09-23T06:19:07Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/54",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Windows testing bounty #9: availability and acceptance scope",
-   "url": "https://github.com/josedab/chronicle/issues/54",
-   "at": "2026-09-23T06:14:17Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "Heraklines",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/51",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #13 claim: In-memory trace visualizer",
-   "url": "https://github.com/josedab/chronicle/issues/51",
-   "at": "2026-09-23T06:10:34Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/49",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #6 claim: Add edge case tests for parser",
-   "url": "https://github.com/josedab/chronicle/issues/49",
-   "at": "2026-09-23T06:10:03Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "inunanba",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/48",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #20 claim: Implement query result streaming",
-   "url": "https://github.com/josedab/chronicle/issues/48",
-   "at": "2026-09-23T06:08:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/47",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #7 claim: Add concurrent write stress test",
-   "url": "https://github.com/josedab/chronicle/issues/47",
-   "at": "2026-09-23T06:05:48Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "bdrsmsdn",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/45",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #19 claim: Add Prometheus metrics exposition",
-   "url": "https://github.com/josedab/chronicle/issues/45",
-   "at": "2026-09-23T05:53:50Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/44",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #3 claim: Add FAQ entries",
-   "url": "https://github.com/josedab/chronicle/issues/44",
-   "at": "2026-09-23T05:42:13Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "wxzzh",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/17270",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Bengali (bn) CLI quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/17270",
-   "at": "2026-09-23T05:38:50Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "britsync07-prog",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/17270",
    "source": "omi",
    "kind": "omi_proposal",
@@ -321,111 +2093,6 @@
      "op_cat: eltwise",
      "MCW"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/42",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #20 claim: Implement query result streaming",
-   "url": "https://github.com/josedab/chronicle/issues/42",
-   "at": "2026-09-23T05:11:14Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "bdrsmsdn",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/29",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-23: 0 new, 0 resumed, 3 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/29",
-   "at": "2026-09-23T04:45:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/nextlevelbuilder/goclaw/issues/1576",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "nextlevelbuilder/goclaw: Proposal: AnySearch bundled skill \u2014 bounty scope and license compatibility",
-   "url": "https://github.com/nextlevelbuilder/goclaw/issues/1576",
-   "at": "2026-09-23T04:42:27Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "hzhuangqiu",
-    "labels": [
-     "question",
-     "area:skills",
-     "agent:github-maintain",
-     "maintain:triaged"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/39",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #19 claim: Add Prometheus metrics exposition",
-   "url": "https://github.com/josedab/chronicle/issues/39",
-   "at": "2026-09-23T04:22:56Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "bdrsmsdn",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/37",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #17 claim: Add PERCENTILE aggregation",
-   "url": "https://github.com/josedab/chronicle/issues/37",
-   "at": "2026-09-23T04:15:17Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/35",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #16 claim: Implement LAST_VALUE aggregation",
-   "url": "https://github.com/josedab/chronicle/issues/35",
-   "at": "2026-09-23T04:09:06Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "ArtyormSatori",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/josedab/chronicle/issues/33",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "josedab/chronicle: Bounty #18 claim: NOT IN tag filter",
-   "url": "https://github.com/josedab/chronicle/issues/33",
-   "at": "2026-09-23T03:51:20Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "kalidatuna",
-    "labels": []
    }
   },
   {
@@ -665,34 +2332,6 @@
    }
   },
   {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/54",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9759171 BOUNTY FOR IMPLEMENTING YOURSELF INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/54",
-   "at": "2026-09-22T23:35:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9759171,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/16035",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(mcp): handle null content on locked memories ($50-100 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/16035",
-   "at": "2026-09-22T23:17:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/16035",
    "source": "omi",
    "kind": "omi_proposal",
@@ -702,20 +2341,6 @@
    "extra": {
     "state": "open",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/16033",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(action-items): handle null description on locked items ($50-100 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/16033",
-   "at": "2026-09-22T23:10:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "kduailabs",
-    "labels": []
    }
   },
   {
@@ -745,36 +2370,6 @@
    }
   },
   {
-   "id": "https://github.com/monark-community/referral-system/issues/92",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "monark-community/referral-system: Create a Bounty Type Task",
-   "url": "https://github.com/monark-community/referral-system/issues/92",
-   "at": "2026-09-22T22:18:49Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "sspen094",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SecOpsNews/news/issues/74277",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "SecOpsNews/news: [HackerNews] Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-   "url": "https://github.com/SecOpsNews/news/issues/74277",
-   "at": "2026-09-22T21:36:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "HackerNews"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57436",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -783,34 +2378,6 @@
    "at": "2026-09-22T21:34:45Z",
    "extra": {
     "author": "agupta-TT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/28",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-22: 0 new, 0 resumed, 4 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/28",
-   "at": "2026-09-22T21:19:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57435",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57435 Blaze prefill CI: GLM-5.2 AllToAll hang on main, bisected to #48280 (Fabric express link routing)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57435",
-   "at": "2026-09-22T21:13:14Z",
-   "extra": {
-    "author": "pavlepopovic",
     "labels": []
    }
   },
@@ -825,1006 +2392,6 @@
     "author": "rtawfik01",
     "labels": [
      "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/63",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] ACLEDA Bank \u2014 USD / KH",
-   "url": "https://github.com/0xSachinK/openplaid/issues/63",
-   "at": "2026-09-22T19:03:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/62",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] TBC Bank Georgia \u2014 GEL / GE",
-   "url": "https://github.com/0xSachinK/openplaid/issues/62",
-   "at": "2026-09-22T19:03:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/61",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Halyk Bank \u2014 KZT / KZ",
-   "url": "https://github.com/0xSachinK/openplaid/issues/61",
-   "at": "2026-09-22T19:03:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/60",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Interbank Peru \u2014 PEN / PE",
-   "url": "https://github.com/0xSachinK/openplaid/issues/60",
-   "at": "2026-09-22T19:03:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/59",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Nagad \u2014 BDT / BD",
-   "url": "https://github.com/0xSachinK/openplaid/issues/59",
-   "at": "2026-09-22T19:03:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/58",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Maya \u2014 PHP / PH",
-   "url": "https://github.com/0xSachinK/openplaid/issues/58",
-   "at": "2026-09-22T19:03:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/57",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Nequi \u2014 COP / CO",
-   "url": "https://github.com/0xSachinK/openplaid/issues/57",
-   "at": "2026-09-22T19:03:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/56",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] BIDV \u2014 VND / VN",
-   "url": "https://github.com/0xSachinK/openplaid/issues/56",
-   "at": "2026-09-22T19:03:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/55",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Bank Mandiri \u2014 IDR / ID",
-   "url": "https://github.com/0xSachinK/openplaid/issues/55",
-   "at": "2026-09-22T19:03:23Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/54",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Bank BRI \u2014 IDR / ID",
-   "url": "https://github.com/0xSachinK/openplaid/issues/54",
-   "at": "2026-09-22T19:03:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/53",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] SeaBank Indonesia \u2014 IDR / ID",
-   "url": "https://github.com/0xSachinK/openplaid/issues/53",
-   "at": "2026-09-22T19:03:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/52",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] A-Bank \u2014 UAH / UA",
-   "url": "https://github.com/0xSachinK/openplaid/issues/52",
-   "at": "2026-09-22T19:03:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/51",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] PUMB \u2014 UAH / UA",
-   "url": "https://github.com/0xSachinK/openplaid/issues/51",
-   "at": "2026-09-22T19:03:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/50",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] SadaPay \u2014 PKR / PK",
-   "url": "https://github.com/0xSachinK/openplaid/issues/50",
-   "at": "2026-09-22T19:03:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/49",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] NayaPay \u2014 PKR / PK",
-   "url": "https://github.com/0xSachinK/openplaid/issues/49",
-   "at": "2026-09-22T19:03:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/48",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Meezan Bank \u2014 PKR / PK",
-   "url": "https://github.com/0xSachinK/openplaid/issues/48",
-   "at": "2026-09-22T19:03:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/47",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Access Bank \u2014 NGN / NG",
-   "url": "https://github.com/0xSachinK/openplaid/issues/47",
-   "at": "2026-09-22T19:03:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/46",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Kuda Bank \u2014 NGN / NG",
-   "url": "https://github.com/0xSachinK/openplaid/issues/46",
-   "at": "2026-09-22T19:03:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/45",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] PalmPay \u2014 NGN / NG",
-   "url": "https://github.com/0xSachinK/openplaid/issues/45",
-   "at": "2026-09-22T19:03:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/44",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Banco Pichincha Ecuador \u2014 USD / EC",
-   "url": "https://github.com/0xSachinK/openplaid/issues/44",
-   "at": "2026-09-22T19:02:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/43",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Al Rajhi Bank \u2014 SAR / SA",
-   "url": "https://github.com/0xSachinK/openplaid/issues/43",
-   "at": "2026-09-22T19:02:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/42",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Bank al Etihad \u2014 JOD / JO",
-   "url": "https://github.com/0xSachinK/openplaid/issues/42",
-   "at": "2026-09-22T19:02:53Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/41",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Ameriabank \u2014 AMD / AM",
-   "url": "https://github.com/0xSachinK/openplaid/issues/41",
-   "at": "2026-09-22T19:02:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/40",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Kapital Bank Azerbaijan \u2014 AZN / AZ",
-   "url": "https://github.com/0xSachinK/openplaid/issues/40",
-   "at": "2026-09-22T19:02:47Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/39",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] PayMe Hong Kong \u2014 HKD / HK",
-   "url": "https://github.com/0xSachinK/openplaid/issues/39",
-   "at": "2026-09-22T19:02:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/38",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] BAC Costa Rica \u2014 CRC / CR",
-   "url": "https://github.com/0xSachinK/openplaid/issues/38",
-   "at": "2026-09-22T19:02:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/37",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Banreservas \u2014 DOP / DO",
-   "url": "https://github.com/0xSachinK/openplaid/issues/37",
-   "at": "2026-09-22T19:02:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/36",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Banco Union Bolivia \u2014 BOB / BO",
-   "url": "https://github.com/0xSachinK/openplaid/issues/36",
-   "at": "2026-09-22T19:02:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/35",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Santander Chile \u2014 CLP / CL",
-   "url": "https://github.com/0xSachinK/openplaid/issues/35",
-   "at": "2026-09-22T19:02:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/34",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Orange Money Cameroon \u2014 XAF / CM",
-   "url": "https://github.com/0xSachinK/openplaid/issues/34",
-   "at": "2026-09-22T19:02:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/33",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Vodacom M-Pesa Tanzania \u2014 TZS / TZ",
-   "url": "https://github.com/0xSachinK/openplaid/issues/33",
-   "at": "2026-09-22T19:02:29Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/32",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] MTN MoMo Ghana \u2014 GHS / GH",
-   "url": "https://github.com/0xSachinK/openplaid/issues/32",
-   "at": "2026-09-22T19:02:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/31",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] FNB South Africa \u2014 ZAR / ZA",
-   "url": "https://github.com/0xSachinK/openplaid/issues/31",
-   "at": "2026-09-22T19:02:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/30",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Maybank Malaysia \u2014 MYR / MY",
-   "url": "https://github.com/0xSachinK/openplaid/issues/30",
-   "at": "2026-09-22T19:02:23Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/29",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] TrueMoney Thailand \u2014 THB / TH",
-   "url": "https://github.com/0xSachinK/openplaid/issues/29",
-   "at": "2026-09-22T19:02:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/28",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] TD Canada \u2014 CAD / CA",
-   "url": "https://github.com/0xSachinK/openplaid/issues/28",
-   "at": "2026-09-22T19:02:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/27",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] ANZ Australia \u2014 AUD / AU",
-   "url": "https://github.com/0xSachinK/openplaid/issues/27",
-   "at": "2026-09-22T19:02:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/26",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Lloyds Bank \u2014 GBP / GB",
-   "url": "https://github.com/0xSachinK/openplaid/issues/26",
-   "at": "2026-09-22T19:02:13Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/25",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] Paysera Lithuania \u2014 EUR / LT",
-   "url": "https://github.com/0xSachinK/openplaid/issues/25",
-   "at": "2026-09-22T19:02:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/24",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$150 bounty \u00b7 funding pending] BBVA Spain \u2014 EUR / ES",
-   "url": "https://github.com/0xSachinK/openplaid/issues/24",
-   "at": "2026-09-22T19:02:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 150,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$150"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/23",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Bank of Georgia \u2014 GEL / GE",
-   "url": "https://github.com/0xSachinK/openplaid/issues/23",
-   "at": "2026-09-22T19:02:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/22",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Wave Senegal \u2014 XOF / SN",
-   "url": "https://github.com/0xSachinK/openplaid/issues/22",
-   "at": "2026-09-22T19:02:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/21",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Itau Brazil \u2014 BRL / BR",
-   "url": "https://github.com/0xSachinK/openplaid/issues/21",
-   "at": "2026-09-22T19:02:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/20",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Uala Argentina \u2014 ARS / AR",
-   "url": "https://github.com/0xSachinK/openplaid/issues/20",
-   "at": "2026-09-22T19:01:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/19",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Abu Dhabi Commercial Bank \u2014 AED / AE",
-   "url": "https://github.com/0xSachinK/openplaid/issues/19",
-   "at": "2026-09-22T19:01:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/18",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Ziraat Bank \u2014 TRY / TR",
-   "url": "https://github.com/0xSachinK/openplaid/issues/18",
-   "at": "2026-09-22T19:01:53Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/17",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Banco de Credito del Peru \u2014 PEN / PE",
-   "url": "https://github.com/0xSachinK/openplaid/issues/17",
-   "at": "2026-09-22T19:01:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/16",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] BBVA Mexico \u2014 MXN / MX",
-   "url": "https://github.com/0xSachinK/openplaid/issues/16",
-   "at": "2026-09-22T19:01:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/15",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Kaspi Bank \u2014 KZT / KZ",
-   "url": "https://github.com/0xSachinK/openplaid/issues/15",
-   "at": "2026-09-22T19:01:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/14",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Safaricom M-Pesa \u2014 KES / KE",
-   "url": "https://github.com/0xSachinK/openplaid/issues/14",
-   "at": "2026-09-22T19:01:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
     ]
    }
   },
@@ -2397,48 +2964,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/4a8051cbc60c73fa223bd7b7f45065945d03d277",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Perf] Generic reduce: move scalar to runtime arguments (#56743)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/4a8051cbc60c73fa223bd7b7f45065945d03d277",
-   "at": "2026-09-22T12:40:26Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/common.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/common.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_compute_common.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_h_neg.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_hw_neg.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_rm.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_w_neg.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/welford_reduce_h.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/welford_reduce_hw.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/welford_reduce_w.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_reduce_input_rows_partitioned_sharded.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_reduce_rm.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_reduce_universal_start_id.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_transpose_wh_interleaved_input_cols_partitioned_sharded.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_transpose_wh_universal_input_cols_partitioned.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_multi_core_h_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_multi_core_w_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_single_core_hw_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/welford_reduce_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/welford_reduce_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/welford_reduce_program_factory.cpp"
-    ],
-    "added": [
-     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_compute_common.hpp"
-    ],
-    "author": "ign-sudha"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15913",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2484,54 +3009,6 @@
    "extra": {
     "state": "open",
     "author": "gewenbo888"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57345",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57345 Skip PAD token in KDA state update",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57345",
-   "at": "2026-09-22T11:54:30Z",
-   "extra": {
-    "author": "kgrujcic-tt",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57343",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57343 Multi-turn support",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57343",
-   "at": "2026-09-22T11:51:38Z",
-   "extra": {
-    "author": "kgrujcic-tt",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/d81b0fb5a243903c2493a42b95418fae7ce23631",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] binary_ng: centralize fused-activation SrcA format restoration (#56850)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/d81b0fb5a243903c2493a42b95418fae7ce23631",
-   "at": "2026-09-22T11:37:17Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/reconfig_data_format.h",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_no_bcast.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_scalar.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu_no_bcast.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu_scalar.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_utils_common.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_utils_sfpu.hpp"
-    ],
-    "added": [],
-    "author": "mmoscickiTT"
    }
   },
   {
@@ -2691,18 +3168,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15800",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15800 [Bounty proposal] docs(python-cli): Irish (ga) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15800",
-   "at": "2026-09-22T10:54:35Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15798",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2721,18 +3186,6 @@
    "title": "omi#15796 [Bounty proposal] docs(python-cli): Icelandic (is) AI agent quickstart guide ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/15796",
    "at": "2026-09-22T10:54:06Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15794",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15794 [Bounty proposal] docs(python-cli): Swahili (sw) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15794",
-   "at": "2026-09-22T10:53:52Z",
    "extra": {
     "state": "open",
     "author": "pullitall"
@@ -2763,18 +3216,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57340",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57340 Verify introduction of forwarding buffer does not eat up too much DRAM in the end-2-end setup",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57340",
-   "at": "2026-09-22T10:47:59Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15778",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2796,251 +3237,6 @@
    "extra": {
     "state": "open",
     "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/b8915544692d8f9feb2c890afbc2f22791560cd2",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Refactor] Shared device operation for unary backward ops, with sigmoid_bw ported (#56061)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/b8915544692d8f9feb2c890afbc2f22791560cd2",
-   "at": "2026-09-22T09:54:07Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/CMakeLists.txt",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/eltwise_bw_sigmoid.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_program_factory.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/sources.cmake",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/unary_backward.cpp"
-    ],
-    "added": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/eltwise_bw_sigmoid.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_program_factory.hpp"
-    ],
-    "author": "Aswinmcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57339",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57339 [aw] CI Failure Triage (pilot) produced no safe outputs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57339",
-   "at": "2026-09-22T09:52:17Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57337",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57337 [Prefill][MoE] - Further Combine improvements",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57337",
-   "at": "2026-09-22T09:31:19Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57335",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57335 Support all Combine features",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57335",
-   "at": "2026-09-22T09:12:17Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/40653194d78f88cf2e151451cf9023af3dc28957",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Feature] [HAL] Add Blackhole CFG field descriptors (#54996)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/40653194d78f88cf2e151451cf9023af3dc28957",
-   "at": "2026-09-22T09:01:53Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/.claude/tools/llk-audit/run.sh",
-     "tt_metal/tt-llk/setup_clangd.sh",
-     "tt_metal/tt-llk/tests/out_of_tree/python_tests/test_consumer_contract.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/alu.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/detail/for_each.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/detail/invalid_index.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/field.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/global.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/pack.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/registers.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/thcon.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/thread.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/unpack.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/alu.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/detail/for_each.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/detail/invalid_index.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/field.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/global.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/pack.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/registers.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/thcon.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/thread.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/hal/cfg/unpack.h"
-    ],
-    "author": "njokovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57332",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57332 Swap old op for the new one in the MoE block",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57332",
-   "at": "2026-09-22T08:54:00Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57331",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57331 Run stress tests on the op",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57331",
-   "at": "2026-09-22T08:53:19Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57330",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57330 Unify unit tests for the old and new op to use same parametrization and only differ in v1/v2 parametrization axis.",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57330",
-   "at": "2026-09-22T08:52:42Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57329",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57329 [aw] Matt Pocock Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57329",
-   "at": "2026-09-22T08:47:28Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57328",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57328 [Prefill][MoE] - Integrate Combine and Dispatch ops into the MoE block",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57328",
-   "at": "2026-09-22T08:45:08Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57326",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57326 `sfpi::lz` cannot set CC",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57326",
-   "at": "2026-09-22T08:36:41Z",
-   "extra": {
-    "author": "fvranicTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57325",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57325 Week 9/21 - 9/25",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57325",
-   "at": "2026-09-22T08:36:20Z",
-   "extra": {
-    "author": "kgrujcic-tt",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57323",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57323 generalized_moe_gate compute kernel fails to compile since the header rewire (transpose_wh_init_short not declared), 60 MoE gate tests fail on main",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57323",
-   "at": "2026-09-22T08:33:09Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57322",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57322 [ttnn/eltwise] ternary and tanh_bw program-cache keys omit Alignment",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57322",
-   "at": "2026-09-22T08:19:50Z",
-   "extra": {
-    "author": "ijankowskiTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57320",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57320 test_scaled_dot_product_attention_sprint: the wan2_2_4xGLX perf check band (1.5 percent) is inside p100a board variance, fails at 56 percent versus 57.5 expected on main",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57320",
-   "at": "2026-09-22T08:19:20Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug"
-    ]
    }
   },
   {
@@ -3305,22 +3501,6 @@
    "extra": {
     "state": "OPEN",
     "author": "mjneuroart"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56908 [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "at": "2026-09-21T10:37:03Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "Adraca"
-    ],
-    "created": "2026-09-17T19:27:38Z"
    }
   },
   {
