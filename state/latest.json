@@ -1,32 +1,462 @@
 {
- "generated_at": "2026-09-23T01:41:36Z",
+ "generated_at": "2026-09-23T07:17:34Z",
  "events": [
   {
-   "id": "https://github.com/BasedHardware/omi/issues/16096",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(apps): persona PATCH 500s when a released client sends explicit nulls ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/16096",
-   "at": "2026-09-23T01:00:57Z",
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57459",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57459 [aw] Tenstorrent Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57459",
+   "at": "2026-09-23T07:05:01Z",
    "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "kduailabs",
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/72",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #14 claim: Stock market ticker feed example",
+   "url": "https://github.com/josedab/chronicle/issues/72",
+   "at": "2026-09-23T07:03:22Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
     "labels": []
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/16093",
+   "id": "https://github.com/josedab/chronicle/issues/70",
    "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(apps): MCP OAuth callback trusts forgeable state and enables apps for any account ($100 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/16093",
-   "at": "2026-09-23T00:58:40Z",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #15 claim: Weather station example",
+   "url": "https://github.com/josedab/chronicle/issues/70",
+   "at": "2026-09-23T07:02:14Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/69",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #15 claim: Weather station example",
+   "url": "https://github.com/josedab/chronicle/issues/69",
+   "at": "2026-09-23T07:01:12Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "bdrsmsdn",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/67",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #9 claim: Fast ZSTD compression codec",
+   "url": "https://github.com/josedab/chronicle/issues/67",
+   "at": "2026-09-23T06:57:35Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57458",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57458 [Bug] all_gather_minimal_matmul_async: without a persistent buffer, peers overwrite L1 of a lagging device",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57458",
+   "at": "2026-09-23T06:56:44Z",
+   "extra": {
+    "author": "iwroszTT",
+    "labels": [
+     "bug",
+     "op_cat: ccl",
+     "data_movement",
+     "ops-data-movement"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/65",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #10 claim: Dynamic retention policies per metric",
+   "url": "https://github.com/josedab/chronicle/issues/65",
+   "at": "2026-09-23T06:55:32Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/62",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #14 claim: Financial tick data example",
+   "url": "https://github.com/josedab/chronicle/issues/62",
+   "at": "2026-09-23T06:48:32Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "bdrsmsdn",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/tarsnap/issues/951",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Tarsnap/tarsnap: [bug bounty] --without-bz2lib produces an unlinkable binary",
+   "url": "https://github.com/Tarsnap/tarsnap/issues/951",
+   "at": "2026-09-23T06:43:53Z",
    "extra": {
     "comments": 0,
-    "amount_usd": 100,
-    "author": "kduailabs",
+    "amount_usd": null,
+    "author": "lukiod",
     "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/tarsnap/issues/951",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/tarsnap#951 [bug bounty] --without-bz2lib produces an unlinkable binary",
+   "url": "https://github.com/Tarsnap/tarsnap/issues/951",
+   "at": "2026-09-23T06:43:53Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "lukiod"
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/60",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #8 claim: Add large dataset test",
+   "url": "https://github.com/josedab/chronicle/issues/60",
+   "at": "2026-09-23T06:39:29Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "bdrsmsdn",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/58",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #12 claim: DuckDB integration",
+   "url": "https://github.com/josedab/chronicle/issues/58",
+   "at": "2026-09-23T06:21:07Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/56",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #11 claim: Arrow/Parquet batch export",
+   "url": "https://github.com/josedab/chronicle/issues/56",
+   "at": "2026-09-23T06:19:07Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/54",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Windows testing bounty #9: availability and acceptance scope",
+   "url": "https://github.com/josedab/chronicle/issues/54",
+   "at": "2026-09-23T06:14:17Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "Heraklines",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/51",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #13 claim: In-memory trace visualizer",
+   "url": "https://github.com/josedab/chronicle/issues/51",
+   "at": "2026-09-23T06:10:34Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/49",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #6 claim: Add edge case tests for parser",
+   "url": "https://github.com/josedab/chronicle/issues/49",
+   "at": "2026-09-23T06:10:03Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "inunanba",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/48",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #20 claim: Implement query result streaming",
+   "url": "https://github.com/josedab/chronicle/issues/48",
+   "at": "2026-09-23T06:08:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/47",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #7 claim: Add concurrent write stress test",
+   "url": "https://github.com/josedab/chronicle/issues/47",
+   "at": "2026-09-23T06:05:48Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "bdrsmsdn",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/45",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #19 claim: Add Prometheus metrics exposition",
+   "url": "https://github.com/josedab/chronicle/issues/45",
+   "at": "2026-09-23T05:53:50Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/44",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #3 claim: Add FAQ entries",
+   "url": "https://github.com/josedab/chronicle/issues/44",
+   "at": "2026-09-23T05:42:13Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "wxzzh",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17270",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): Bengali (bn) CLI quickstart guide",
+   "url": "https://github.com/BasedHardware/omi/issues/17270",
+   "at": "2026-09-23T05:38:50Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "britsync07-prog",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/17270",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#17270 [Bounty proposal] docs(python-cli): Bengali (bn) CLI quickstart guide",
+   "url": "https://github.com/BasedHardware/omi/issues/17270",
+   "at": "2026-09-23T05:38:50Z",
+   "extra": {
+    "state": "open",
+    "author": "britsync07-prog"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57455",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57455 `relu6_bw` returns 6.0 for a NaN input",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57455",
+   "at": "2026-09-23T05:15:32Z",
+   "extra": {
+    "author": "VirdhatchaniKN",
+    "labels": [
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/42",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #20 claim: Implement query result streaming",
+   "url": "https://github.com/josedab/chronicle/issues/42",
+   "at": "2026-09-23T05:11:14Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "bdrsmsdn",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/29",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-23: 0 new, 0 resumed, 3 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/29",
+   "at": "2026-09-23T04:45:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/nextlevelbuilder/goclaw/issues/1576",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "nextlevelbuilder/goclaw: Proposal: AnySearch bundled skill \u2014 bounty scope and license compatibility",
+   "url": "https://github.com/nextlevelbuilder/goclaw/issues/1576",
+   "at": "2026-09-23T04:42:27Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "hzhuangqiu",
+    "labels": [
+     "question",
+     "area:skills",
+     "agent:github-maintain",
+     "maintain:triaged"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/39",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #19 claim: Add Prometheus metrics exposition",
+   "url": "https://github.com/josedab/chronicle/issues/39",
+   "at": "2026-09-23T04:22:56Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "bdrsmsdn",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/37",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #17 claim: Add PERCENTILE aggregation",
+   "url": "https://github.com/josedab/chronicle/issues/37",
+   "at": "2026-09-23T04:15:17Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/35",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #16 claim: Implement LAST_VALUE aggregation",
+   "url": "https://github.com/josedab/chronicle/issues/35",
+   "at": "2026-09-23T04:09:06Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "ArtyormSatori",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/33",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #18 claim: NOT IN tag filter",
+   "url": "https://github.com/josedab/chronicle/issues/33",
+   "at": "2026-09-23T03:51:20Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "kalidatuna",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57452",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57452 [aw] Tenstorrent Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57452",
+   "at": "2026-09-23T02:39:14Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57450",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57450 [Gemma4] Prefill has a large fixed per-chunk cost, making chunk 2048/4096 slow at long context",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57450",
+   "at": "2026-09-23T01:51:28Z",
+   "extra": {
+    "author": "kmabeeTT",
+    "labels": [
+     "blackhole",
+     "op_cat: mm",
+     "perf",
+     "model: gemma-4"
+    ]
    }
   },
   {
@@ -229,6 +659,7 @@
    "extra": {
     "author": "HuzaifaChaudary",
     "labels": [
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -392,7 +823,9 @@
    "at": "2026-09-22T20:14:04Z",
    "extra": {
     "author": "rtawfik01",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1396,206 +1829,6 @@
    }
   },
   {
-   "id": "https://github.com/0xSachinK/openplaid/issues/13",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] bKash \u2014 BDT / BD",
-   "url": "https://github.com/0xSachinK/openplaid/issues/13",
-   "at": "2026-09-22T19:01:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/12",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] ABA Bank \u2014 USD / KH",
-   "url": "https://github.com/0xSachinK/openplaid/issues/12",
-   "at": "2026-09-22T19:01:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/11",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] ICICI Bank \u2014 INR / IN",
-   "url": "https://github.com/0xSachinK/openplaid/issues/11",
-   "at": "2026-09-22T19:01:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/10",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] GCash \u2014 PHP / PH",
-   "url": "https://github.com/0xSachinK/openplaid/issues/10",
-   "at": "2026-09-22T19:01:33Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/9",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Bancolombia \u2014 COP / CO",
-   "url": "https://github.com/0xSachinK/openplaid/issues/9",
-   "at": "2026-09-22T19:01:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/8",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Vietcombank \u2014 VND / VN",
-   "url": "https://github.com/0xSachinK/openplaid/issues/8",
-   "at": "2026-09-22T19:01:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] BCA \u2014 IDR / ID",
-   "url": "https://github.com/0xSachinK/openplaid/issues/7",
-   "at": "2026-09-22T19:01:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] PrivatBank \u2014 UAH / UA",
-   "url": "https://github.com/0xSachinK/openplaid/issues/6",
-   "at": "2026-09-22T19:01:22Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] Easypaisa \u2014 PKR / PK",
-   "url": "https://github.com/0xSachinK/openplaid/issues/5",
-   "at": "2026-09-22T19:01:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/0xSachinK/openplaid/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "0xSachinK/openplaid: [$200 bounty \u00b7 funding pending] OPay \u2014 NGN / Nigeria",
-   "url": "https://github.com/0xSachinK/openplaid/issues/4",
-   "at": "2026-09-22T19:00:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 200,
-    "author": "0xSachinK",
-    "labels": [
-     "integration",
-     "Merit",
-     "funding-pending",
-     "round-1",
-     "$200"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57422",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1612,34 +1845,6 @@
      "op_cat: SDPA",
      "model: gemma-4"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/Sofiia7/ARC/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Sofiia7/ARC: Feasibility: add Nano (XNO) as a feeless settlement rail alongside USDC for bounty winners",
-   "url": "https://github.com/Sofiia7/ARC/issues/3",
-   "at": "2026-09-22T18:38:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "PANDeveloper001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15976",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Patch + bounty proposal] CLI screenshot export fails after writing markup-like paths",
-   "url": "https://github.com/BasedHardware/omi/issues/15976",
-   "at": "2026-09-22T18:35:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "oimrqs-ops",
-    "labels": []
    }
   },
   {
@@ -1708,6 +1913,7 @@
     "author": "Torbjorn-Zhang",
     "labels": [
      "bug",
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -1739,22 +1945,6 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/26",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-22: 0 new, 0 resumed, 1 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/26",
-   "at": "2026-09-22T17:00:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57401",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1764,22 +1954,6 @@
    "extra": {
     "author": "pmilojevicTT",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/24",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-22: 0 new, 0 resumed, 3 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/24",
-   "at": "2026-09-22T16:49:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
    }
   },
   {
@@ -1913,20 +2087,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15954",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): merging conversations leaves the removed tasks' search vectors ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15954",
-   "at": "2026-09-22T15:33:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57379",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1937,60 +2097,6 @@
     "author": "app/github-actions",
     "labels": [
      "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15951",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): cascade conversation delete leaves the removed tasks' search vectors ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15951",
-   "at": "2026-09-22T15:25:31Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/EarnQuestOne/stellar_Earn/issues/2590",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "EarnQuestOne/stellar_Earn: Define the bounty funding and payout governance",
-   "url": "https://github.com/EarnQuestOne/stellar_Earn/issues/2590",
-   "at": "2026-09-22T15:17:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "RUKAYAT-CODER",
-    "labels": [
-     "documentation",
-     "difficulty:medium",
-     "governance",
-     "priority:medium"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/EarnQuestOne/stellar_Earn/issues/2576",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "EarnQuestOne/stellar_Earn: Define the bug bounty program governance",
-   "url": "https://github.com/EarnQuestOne/stellar_Earn/issues/2576",
-   "at": "2026-09-22T15:16:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "RUKAYAT-CODER",
-    "labels": [
-     "documentation",
-     "enhancement",
-     "security",
-     "difficulty:medium",
-     "governance",
-     "priority:medium"
     ]
    }
   },
@@ -2028,34 +2134,6 @@
     ],
     "added": [],
     "author": "nathan-TT"
-   }
-  },
-  {
-   "id": "https://github.com/mergeos-bounties/mergeos/issues/298",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "mergeos-bounties/mergeos: feat: add Nano (XNO) as a feeless settlement rail for micro-bounties",
-   "url": "https://github.com/mergeos-bounties/mergeos/issues/298",
-   "at": "2026-09-22T14:58:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "PANDeveloper001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15945",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): conversations -> Atom feed recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15945",
-   "at": "2026-09-22T14:30:31Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "knoauktasu5624-wq",
-    "labels": []
    }
   },
   {
@@ -2319,78 +2397,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/15933",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15933 [Bounty proposal] python-cli: agent_quickstart.tkl.md \u2014 Tokelauan (tkl) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15933",
-   "at": "2026-09-22T12:49:11Z",
-   "extra": {
-    "state": "open",
-    "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15931",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15931 [Bounty proposal] python-cli: agent_quickstart.tvl.md \u2014 Tuvaluan (tvl) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15931",
-   "at": "2026-09-22T12:48:41Z",
-   "extra": {
-    "state": "open",
-    "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15929",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15929 [Bounty proposal] python-cli: agent_quickstart.niu.md \u2014 Niuean (niu) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15929",
-   "at": "2026-09-22T12:48:08Z",
-   "extra": {
-    "state": "open",
-    "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15927",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15927 [Bounty proposal] python-cli: agent_quickstart.sg.md \u2014 Sango (sg) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15927",
-   "at": "2026-09-22T12:47:30Z",
-   "extra": {
-    "state": "open",
-    "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15925",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15925 [Bounty proposal] python-cli: agent_quickstart.fur.md \u2014 Friulian (fur) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15925",
-   "at": "2026-09-22T12:46:57Z",
-   "extra": {
-    "state": "open",
-    "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15923",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15923 [Bounty proposal] python-cli: agent_quickstart.ty.md \u2014 Tahitian (ty) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15923",
-   "at": "2026-09-22T12:45:51Z",
-   "extra": {
-    "state": "open",
-    "author": "Ljunqiang"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/4a8051cbc60c73fa223bd7b7f45065945d03d277",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -2526,18 +2532,6 @@
     ],
     "added": [],
     "author": "mmoscickiTT"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15863",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15863 [Bounty proposal] docs(python-cli): Thai (th) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15863",
-   "at": "2026-09-22T11:22:24Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
    }
   },
   {
@@ -2685,6 +2679,30 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/issues/15802",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15802 [Bounty proposal] docs(python-cli): Slovenian (sl) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15802",
+   "at": "2026-09-22T10:54:49Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15800",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15800 [Bounty proposal] docs(python-cli): Irish (ga) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15800",
+   "at": "2026-09-22T10:54:35Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
+   }
+  },
+  {
    "id": "https://github.com/BasedHardware/omi/issues/15798",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2703,6 +2721,30 @@
    "title": "omi#15796 [Bounty proposal] docs(python-cli): Icelandic (is) AI agent quickstart guide ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/15796",
    "at": "2026-09-22T10:54:06Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15794",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15794 [Bounty proposal] docs(python-cli): Swahili (sw) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15794",
+   "at": "2026-09-22T10:53:52Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15792",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15792 [Bounty proposal] docs(python-cli): Serbian (sr) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15792",
+   "at": "2026-09-22T10:53:37Z",
    "extra": {
     "state": "open",
     "author": "pullitall"
@@ -2730,6 +2772,30 @@
    "extra": {
     "author": "dlukicTT",
     "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15778",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15778 [Bounty proposal] docs(python-cli): Croatian (hr) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15778",
+   "at": "2026-09-22T10:40:45Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15776",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15776 [Bounty proposal] docs(python-cli): Bulgarian (bg) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15776",
+   "at": "2026-09-22T10:40:30Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
    }
   },
   {
@@ -2990,60 +3056,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57312",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57312 [aw] Failed jobs: Repo Assist (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57312",
-   "at": "2026-09-22T07:03:25Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57310",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57310 [Prefill][MoE] - MoE block perf improvements",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57310",
-   "at": "2026-09-22T07:02:30Z",
-   "extra": {
-    "author": "dlukicTT",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/be877820f4b01b360bd7e1ed6540999c14946f1c",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Quasar] Remove unpack to dest math hw config (#57203)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/be877820f4b01b360bd7e1ed6540999c14946f1c",
-   "at": "2026-09-22T06:57:43Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_math_transpose_dest_api.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/common.py",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_sfpu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_sfpu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_fill_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_reduce_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_square_trisc3_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_swiglu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_where_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/unpack_tilize_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/unpack_unary_operand_quasar_test.cpp",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_common.h"
-    ],
-    "added": [],
-    "author": "amokanTT"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15693",
    "source": "omi",
    "kind": "omi_proposal",
@@ -3065,68 +3077,6 @@
    "extra": {
     "state": "open",
     "author": "gewenbo888"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57308",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57308 Sharded support for the shared unary-backward device operation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57308",
-   "at": "2026-09-22T05:07:48Z",
-   "extra": {
-    "author": "Aswinmcw",
-    "labels": [
-     "op_cat: eltwise",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/1fe5d72bb76eddf04b355deef92f69967b2200e8",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Cleanup] Remove redundant member and string initializers (#57281)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/1fe5d72bb76eddf04b355deef92f69967b2200e8",
-   "at": "2026-09-22T04:34:26Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/reduction/reduce_op_validation.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/topk_route_finish_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/topk_route_prep_device_operation.hpp"
-    ],
-    "added": [],
-    "author": "blozano-tt"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/56be226036fe246630d254eecf2cf34cc2d9598e",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#52175: Reconfigure WH-B0 packer for OCB tile geometry in tilize_init/uninit (#54900)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/56be226036fe246630d254eecf2cf34cc2d9598e",
-   "at": "2026-09-22T04:22:20Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/tilize.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_pack_untilize.h"
-    ],
-    "added": [],
-    "author": "mouliraj-mcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57306",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57306 ttnn.pow: compute integer powers in a kernel instead of chaining host-dispatched multiplies",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57306",
-   "at": "2026-09-22T04:17:26Z",
-   "extra": {
-    "author": "Aswinmcw",
-    "labels": [
-     "op_cat: eltwise"
-    ]
    }
   },
   {
@@ -3274,20 +3224,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57301",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57301 [2026-09-22] Test Escalation Assignment",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57301",
-   "at": "2026-09-22T04:02:11Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "test-escalation"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/15646",
    "source": "omi",
    "kind": "omi_proposal",
@@ -3309,18 +3245,6 @@
    "extra": {
     "state": "open",
     "author": "gewenbo888"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57299",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57299 [Trace allocation tracker] Replace capture-wide sampling corruption scope with exact acknowledgements",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57299",
-   "at": "2026-09-22T02:58:44Z",
-   "extra": {
-    "author": "tchedaTT",
-    "labels": []
    }
   },
   {
