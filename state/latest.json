@@ -1,6 +1,252 @@
 {
- "generated_at": "2026-09-22T23:27:41Z",
+ "generated_at": "2026-09-23T01:41:36Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/16096",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(apps): persona PATCH 500s when a released client sends explicit nulls ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/16096",
+   "at": "2026-09-23T01:00:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/16093",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(apps): MCP OAuth callback trusts forgeable state and enables apps for any account ($100 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/16093",
+   "at": "2026-09-23T00:58:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 100,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
+   "at": "2026-09-23T00:52:56Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "singhharsh1708"
+    ],
+    "created": "2026-09-11T18:45:31Z"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/spiped/issues/444",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/spiped#444 spiped -r 60 -R and -r 0 -R are accepted, though the manual page gives -r and -R as alternatives",
+   "url": "https://github.com/Tarsnap/spiped/issues/444",
+   "at": "2026-09-23T00:14:01Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/spiped/issues/442",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/spiped#442 pthread_create_blocking_np() returns an error after the thread has started, so pushbits() frees a buffer the thread is still using",
+   "url": "https://github.com/Tarsnap/spiped/issues/442",
+   "at": "2026-09-23T00:13:52Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/spiped/issues/460",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/spiped#460 [bug bounty] retrying close after EINTR can close a reused descriptor",
+   "url": "https://github.com/Tarsnap/spiped/issues/460",
+   "at": "2026-09-23T00:08:17Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "tokenjunkielabs"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/spiped/issues/440",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/spiped#440 [bug bounty] The handshake cookie, holding the diffie-hellman private value, is freed without being wiped",
+   "url": "https://github.com/Tarsnap/spiped/issues/440",
+   "at": "2026-09-23T00:08:05Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/spiped/issues/438",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/spiped#438 [bug bounty] dnsthread_resolveone() abandons a running resolution if the wakeup listener fails to register",
+   "url": "https://github.com/Tarsnap/spiped/issues/438",
+   "at": "2026-09-23T00:08:02Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/spiped/issues/436",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/spiped#436 [bug bounty] Key file contents and dhmac keys are left on the stack in proto_crypt.c",
+   "url": "https://github.com/Tarsnap/spiped/issues/436",
+   "at": "2026-09-23T00:07:55Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/438",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#438 [bug bounty] The plaintext buffers in scryptenc_file and scryptdec_file_copy are never wiped",
+   "url": "https://github.com/Tarsnap/scrypt/issues/438",
+   "at": "2026-09-23T00:06:56Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/436",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#436 [bug bounty] \"scrypt dec\" aborts on an assertion when given explicit --logN/-r/-p",
+   "url": "https://github.com/Tarsnap/scrypt/issues/436",
+   "at": "2026-09-23T00:06:52Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/431",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#431 [bug bounty] readpass_file() silently truncates the passphrase at a carriage return",
+   "url": "https://github.com/Tarsnap/scrypt/issues/431",
+   "at": "2026-09-23T00:06:49Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/429",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#429 [bug bounty] The expanded AES key is leaked when a write to the output file fails",
+   "url": "https://github.com/Tarsnap/scrypt/issues/429",
+   "at": "2026-09-23T00:06:44Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/427",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#427 [bug bounty] \"scrypt enc f f\" silently destroys f: the output file is truncated before the input is read",
+   "url": "https://github.com/Tarsnap/scrypt/issues/427",
+   "at": "2026-09-23T00:06:41Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/425",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#425 [bug bounty] \"scrypt info\" shifts by an unvalidated logN byte from the file header",
+   "url": "https://github.com/Tarsnap/scrypt/issues/425",
+   "at": "2026-09-23T00:06:37Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/kivaloo/issues/390",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/kivaloo#390 [bug bounty] lbs-s3 rejected APPEND responses leak the request buffer and request",
+   "url": "https://github.com/Tarsnap/kivaloo/issues/390",
+   "at": "2026-09-23T00:03:58Z",
+   "extra": {
+    "state": "CLOSED",
+    "author": "tokenjunkielabs"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/760544bad70e62ea5b2f33116bed778220f47715",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Cleanup] Metal 2.0 port: untilize with UntilizeMultiCoreBlockProgramFactory (#56280)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/760544bad70e62ea5b2f33116bed778220f47715",
+   "at": "2026-09-23T00:00:41Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_wh_multicore.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_wh_multicore_metal2.cpp"
+    ],
+    "added": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_wh_multicore_metal2.cpp"
+    ],
+    "author": "vsureshTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57446",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57446 ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57446",
+   "at": "2026-09-22T23:40:25Z",
+   "extra": {
+    "author": "HuzaifaChaudary",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/54",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9759171 BOUNTY FOR IMPLEMENTING YOURSELF INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/54",
+   "at": "2026-09-22T23:35:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9759171,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/BasedHardware/omi/issues/16035",
    "source": "github_search",
@@ -42,26 +288,10 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "at": "2026-09-22T23:00:02Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-11T18:45:31Z"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57444",
    "source": "tenstorrent",
    "kind": "tt_issue",
-   "title": "tt-metal#57444 Add `zoo` third-party dependency and ttsl::move_only_function alias",
+   "title": "tt-metal#57444 Evaluate `zoo` and `fu2` header-only third-party libraries as the implementation of the `ttsl::move_only_function` alias",
    "url": "https://github.com/tenstorrent/tt-metal/issues/57444",
    "at": "2026-09-22T22:56:35Z",
    "extra": {
@@ -1598,7 +1828,10 @@
    "at": "2026-09-22T16:30:26Z",
    "extra": {
     "author": "mtairum",
-    "labels": []
+    "labels": [
+     "bug",
+     "ci-bug"
+    ]
    }
   },
   {
@@ -1622,7 +1855,9 @@
    "at": "2026-09-22T15:46:57Z",
    "extra": {
     "author": "mtairum",
-    "labels": []
+    "labels": [
+     "ci-bug"
+    ]
    }
   },
   {
@@ -2069,40 +2304,6 @@
    }
   },
   {
-   "id": "https://github.com/accensa/accensa-contracts/issues/476",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "accensa/accensa-contracts: feat(dao): Add On-Chain Bounty Matching via Quadratic Funding",
-   "url": "https://github.com/accensa/accensa-contracts/issues/476",
-   "at": "2026-09-22T13:01:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "mallison031",
-    "labels": [
-     "wave",
-     "complexity:high"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/accensa/accensa-contracts/issues/459",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "accensa/accensa-contracts: feat(channel): Add Watchtower Reward Bounties for Channel Defense",
-   "url": "https://github.com/accensa/accensa-contracts/issues/459",
-   "at": "2026-09-22T13:00:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "mallison031",
-    "labels": [
-     "wave",
-     "complexity:medium"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/12ee7e742c28228077b308e9e02fe35b76ba8659",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -2119,20 +2320,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15933",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] python-cli: agent_quickstart.tkl.md \u2014 Tokelauan (tkl) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15933",
-   "at": "2026-09-22T12:49:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15933",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15933 [Bounty proposal] python-cli: agent_quickstart.tkl.md \u2014 Tokelauan (tkl) agent quickstart guide",
@@ -2141,20 +2328,6 @@
    "extra": {
     "state": "open",
     "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15931",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] python-cli: agent_quickstart.tvl.md \u2014 Tuvaluan (tvl) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15931",
-   "at": "2026-09-22T12:48:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
    }
   },
   {
@@ -2171,20 +2344,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/15929",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] python-cli: agent_quickstart.niu.md \u2014 Niuean (niu) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15929",
-   "at": "2026-09-22T12:48:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15929",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#15929 [Bounty proposal] python-cli: agent_quickstart.niu.md \u2014 Niuean (niu) agent quickstart guide",
@@ -2193,20 +2352,6 @@
    "extra": {
     "state": "open",
     "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15927",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] python-cli: agent_quickstart.sg.md \u2014 Sango (sg) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15927",
-   "at": "2026-09-22T12:47:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ljunqiang",
-    "labels": []
    }
   },
   {
@@ -2240,18 +2385,6 @@
    "title": "omi#15923 [Bounty proposal] python-cli: agent_quickstart.ty.md \u2014 Tahitian (ty) agent quickstart guide",
    "url": "https://github.com/BasedHardware/omi/issues/15923",
    "at": "2026-09-22T12:45:51Z",
-   "extra": {
-    "state": "open",
-    "author": "Ljunqiang"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15920",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15920 [Bounty proposal] python-cli: agent_quickstart.chr.md \u2014 Cherokee (chr) agent quickstart guide",
-   "url": "https://github.com/BasedHardware/omi/issues/15920",
-   "at": "2026-09-22T12:42:29Z",
    "extra": {
     "state": "open",
     "author": "Ljunqiang"
@@ -2309,30 +2442,6 @@
    "extra": {
     "state": "open",
     "author": "Zbjay"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15902",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15902 [Bounty proposal] docs(python-cli): Urdu (ur) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15902",
-   "at": "2026-09-22T12:18:13Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/15896",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#15896 [Bounty proposal] docs(python-cli): Arabic (ar) AI agent quickstart guide ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/15896",
-   "at": "2026-09-22T12:17:29Z",
-   "extra": {
-    "state": "open",
-    "author": "pullitall"
    }
   },
   {
@@ -2417,6 +2526,18 @@
     ],
     "added": [],
     "author": "mmoscickiTT"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15863",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15863 [Bounty proposal] docs(python-cli): Thai (th) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15863",
+   "at": "2026-09-22T11:22:24Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
    }
   },
   {
@@ -2561,6 +2682,30 @@
    "extra": {
     "state": "open",
     "author": "Abhinav-Prabhakar"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15798",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15798 [Bounty proposal] docs(python-cli): Welsh (cy) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15798",
+   "at": "2026-09-22T10:54:20Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/15796",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#15796 [Bounty proposal] docs(python-cli): Icelandic (is) AI agent quickstart guide ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/15796",
+   "at": "2026-09-22T10:54:06Z",
+   "extra": {
+    "state": "open",
+    "author": "pullitall"
    }
   },
   {
@@ -3227,62 +3372,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57290",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57290 [aw] Failed jobs: Repo Assist (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57290",
-   "at": "2026-09-22T01:19:21Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57289",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57289 [aw] Repo Assist (tt-metal) failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57289",
-   "at": "2026-09-22T01:19:19Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57286",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57286 MetalEnv::create_mesh_device leaks a MetalContext when mesh device creation throws",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57286",
-   "at": "2026-09-22T00:19:02Z",
-   "extra": {
-    "author": "ezaiakinTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57282",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57282 [aw] Failed jobs: Tenstorrent Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57282",
-   "at": "2026-09-22T00:01:13Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/spiped/issues/463",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -3320,70 +3409,6 @@
    "extra": {
     "state": "OPEN",
     "author": "mjneuroart"
-   }
-  },
-  {
-   "id": "https://github.com/Eaprime1/custos/issues/325",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Eaprime1/custos: XDA concept entity \u2014 multi-stream with sub-streams",
-   "url": "https://github.com/Eaprime1/custos/issues/325",
-   "at": "2026-09-21T05:43:38Z",
-   "extra": {
-    "comments": 7,
-    "amount_usd": null,
-    "author": "Eaprime1",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/kivaloo/issues/390",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/kivaloo#390 [bug bounty] lbs-s3 rejected APPEND responses leak the request buffer and request",
-   "url": "https://github.com/Tarsnap/kivaloo/issues/390",
-   "at": "2026-09-21T04:39:00Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "tokenjunkielabs"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/spiped/issues/460",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/spiped#460 [bug bounty] retrying close after EINTR can close a reused descriptor",
-   "url": "https://github.com/Tarsnap/spiped/issues/460",
-   "at": "2026-09-21T04:36:38Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "tokenjunkielabs"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/spiped/issues/438",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/spiped#438 [bug bounty] dnsthread_resolveone() abandons a running resolution if the wakeup listener fails to register",
-   "url": "https://github.com/Tarsnap/spiped/issues/438",
-   "at": "2026-09-21T02:42:16Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "woahwhattheheck"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/scrypt/issues/438",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/scrypt#438 [bug bounty] The plaintext buffers in scryptenc_file and scryptdec_file_copy are never wiped",
-   "url": "https://github.com/Tarsnap/scrypt/issues/438",
-   "at": "2026-09-20T20:35:52Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "woahwhattheheck"
    }
   },
   {
