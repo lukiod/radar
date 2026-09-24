@@ -1,6 +1,352 @@
 {
- "generated_at": "2026-09-24T18:22:38Z",
+ "generated_at": "2026-09-24T21:39:56Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57800",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57800 Investigate KDA PCC drop",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57800",
+   "at": "2026-09-24T21:39:11Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/37",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-24: 1 new, 0 resumed, 2 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/37",
+   "at": "2026-09-24T21:31:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18740",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(users): exception text leaks in migration and timezone calculation endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/18740",
+   "at": "2026-09-24T21:23:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18738",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(phone-calls): exception text and stack trace leaks in VoIP and verification endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/18738",
+   "at": "2026-09-24T21:20:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57798",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57798 Segfault in `MeshBuffer::deallocate()` when a closed `MeshDevice` outlives `ReleaseOwnership()`",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57798",
+   "at": "2026-09-24T21:18:57Z",
+   "extra": {
+    "author": "kevinwuTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18736",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(task-integrations): exception text leaks across task integration & sync endpoints ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/18736",
+   "at": "2026-09-24T21:18:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Evos09",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57793",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57793 [aw] Failed jobs: Silencer (tt-metal)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57793",
+   "at": "2026-09-24T20:58:37Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57792",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57792 [aw] Silencer (tt-metal) failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57792",
+   "at": "2026-09-24T20:58:35Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57789",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57789 quasar/tests/ops/test_linear.py fails with a TensorArgument 'sparsity' fatal",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57789",
+   "at": "2026-09-24T20:45:51Z",
+   "extra": {
+    "author": "iwroszTT",
+    "labels": [
+     "op_cat: mm",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/55b967d012930443f18463362d6bda2c5f2d6af2",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK]: Make tilize teardown revert only what init writes (#54537)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/55b967d012930443f18463362d6bda2c5f2d6af2",
+   "at": "2026-09-24T20:41:03Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_unpack_tilize_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_tilize_api.h",
+     "tt_metal/hw/inc/api/compute/tilize.h",
+     "tt_metal/tt-llk/tests/helpers/include/llk_lib_unpack_wrappers.h",
+     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilizeA_B_uninit_restore.py",
+     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_descriptor.py",
+     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_restore.py",
+     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_restore_tiny.py",
+     "tt_metal/tt-llk/tests/sources/unpack_tilizeA_B_uninit_restore_test.cpp",
+     "tt_metal/tt-llk/tests/sources/unpack_tilize_uninit_descriptor_test.cpp",
+     "tt_metal/tt-llk/tests/sources/unpack_tilize_uninit_restore_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cunpack_common.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_tilize.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_gpr_map.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/cunpack_common.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_tilize.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilizeA_B_uninit_restore.py",
+     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_descriptor.py",
+     "tt_metal/tt-llk/tests/sources/unpack_tilizeA_B_uninit_restore_test.cpp",
+     "tt_metal/tt-llk/tests/sources/unpack_tilize_uninit_descriptor_test.cpp"
+    ],
+    "author": "ncvetkovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/8818a118a7b357c830a22df714c07d0d7330c1b8",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "fix: do not use high fidelities for fp16b data in LLK Quasar tests (#57774)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/8818a118a7b357c830a22df714c07d0d7330c1b8",
+   "at": "2026-09-24T20:39:45Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/.claude/skills/perf-parameter-impact/SKILL.md",
+     "tt_metal/tt-llk/.claude/skills/quasar-perf-test/SKILL.md",
+     "tt_metal/tt-llk/.cursor/skills/perf-parameter-impact/SKILL.md",
+     "tt_metal/tt-llk/.cursor/skills/quasar-perf-test/SKILL.md",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_broadcast_quasar.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_quasar.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_reuse_dest_quasar.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_matmul_custom_no_mop_quasar.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_matmul_quasar.py"
+    ],
+    "added": [],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1647",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] $1000 DOOLAR BOUNTY IF YOU CAN ADD STATUS METER TO README!!!!1111",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1647",
+   "at": "2026-09-24T20:28:07Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 1000,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/51655",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#51655 [Bounty $1,000] ttnn.typecast to uint16 rounds while every other integer destination and the host path truncate",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/51655",
+   "at": "2026-09-24T20:07:57Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "kinginu",
+    "assignees": [
+     "kinginu"
+    ],
+    "created": "2026-07-31T03:59:46Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57780",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57780 [LLK/Quasar]: tilize UNPACKER_0 ILLEGAL_FORMAT_CONVERSION with enable_32_bit_dest (FP32/UINT8 inputs)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57780",
+   "at": "2026-09-24T19:49:38Z",
+   "extra": {
+    "author": "gajanan-choudhary",
+    "labels": [
+     "bug",
+     "LLK",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Lapikud/proliige/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Lapikud/proliige: Add bug bounty feature",
+   "url": "https://github.com/Lapikud/proliige/issues/8",
+   "at": "2026-09-24T19:42:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "topsinoty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #10 claim: Test on 32-bit ARM (Pi Zero 2)",
+   "url": "https://github.com/josedab/chronicle/issues/102",
+   "at": "2026-09-24T19:29:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "woahwhattheheck",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/101",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #13 claim: Home automation MQTT example",
+   "url": "https://github.com/josedab/chronicle/issues/101",
+   "at": "2026-09-24T19:29:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "woahwhattheheck",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/100",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #12 claim: Docker Compose monitoring stack",
+   "url": "https://github.com/josedab/chronicle/issues/100",
+   "at": "2026-09-24T19:29:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "woahwhattheheck",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/99",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Bounty #11 claim: Kubernetes sidecar example",
+   "url": "https://github.com/josedab/chronicle/issues/99",
+   "at": "2026-09-24T19:29:21Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "woahwhattheheck",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57771",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57771 layer_norm/rms_norm runs into errors on quasar",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57771",
+   "at": "2026-09-24T19:04:35Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: fused"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57770",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57770 [tt-train] Mixed precision PR 1: tests reproducing the stale FULL view and stale checkpoints",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57770",
+   "at": "2026-09-24T19:04:02Z",
+   "extra": {
+    "author": "jlachowskiTT",
+    "labels": [
+     "tt-train"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ichabodcole/anthill/issues/113",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ichabodcole/anthill: [feedback/bug] The seat's bounty tail filter drops Spellbook's tail handoff line, and never matches task.* events",
+   "url": "https://github.com/ichabodcole/anthill/issues/113",
+   "at": "2026-09-24T18:25:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ichabodcole",
+    "labels": [
+     "anthill-feedback"
+    ]
+   }
+  },
   {
    "id": "https://github.com/OmniBlocks/bountyfarmer/issues/56",
    "source": "github_search",
@@ -9,27 +355,13 @@
    "url": "https://github.com/OmniBlocks/bountyfarmer/issues/56",
    "at": "2026-09-24T18:14:49Z",
    "extra": {
-    "comments": 3,
+    "comments": 8,
     "amount_usd": 1000,
     "author": "GvYoutube",
     "labels": [
      "bounty",
      "spam"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/devloot-xyz/devloot-open-source-test/issues/95",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "devloot-xyz/devloot-open-source-test: [Dispute fixture 2/5] Add bounty submission checklist",
-   "url": "https://github.com/devloot-xyz/devloot-open-source-test/issues/95",
-   "at": "2026-09-24T18:09:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "p2arthur",
-    "labels": []
    }
   },
   {
@@ -766,7 +1098,9 @@
    "at": "2026-09-24T15:29:24Z",
    "extra": {
     "author": "abhullar-tt",
-    "labels": []
+    "labels": [
+     "feature"
+    ]
    }
   },
   {
@@ -914,7 +1248,9 @@
    "at": "2026-09-24T14:55:08Z",
    "extra": {
     "author": "arginugaTT",
-    "labels": []
+    "labels": [
+     "performance monitoring"
+    ]
    }
   },
   {
@@ -1010,7 +1346,9 @@
    "at": "2026-09-24T14:26:23Z",
    "extra": {
     "author": "kevinwuTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1022,7 +1360,9 @@
    "at": "2026-09-24T14:22:09Z",
    "extra": {
     "author": "iklemenskiTT",
-    "labels": []
+    "labels": [
+     "performance monitoring"
+    ]
    }
   },
   {
@@ -1063,7 +1403,9 @@
    "at": "2026-09-24T14:10:55Z",
    "extra": {
     "author": "tchedaTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1075,7 +1417,9 @@
    "at": "2026-09-24T14:10:54Z",
    "extra": {
     "author": "tchedaTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1087,7 +1431,9 @@
    "at": "2026-09-24T14:10:50Z",
    "extra": {
     "author": "tchedaTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1273,7 +1619,9 @@
    "at": "2026-09-24T12:39:04Z",
    "extra": {
     "author": "tchedaTT",
-    "labels": []
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -1645,11 +1993,12 @@
    "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/947",
    "at": "2026-09-24T11:20:16Z",
    "extra": {
-    "comments": 0,
+    "comments": 3,
     "amount_usd": null,
     "author": "techisigu",
     "labels": [
-     "documentation"
+     "documentation",
+     "Stellar Wave"
     ]
    }
   },
@@ -2247,20 +2596,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/18570",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): memories -> Graphviz knowledge graph recipe ($25 proposed) (PR #18569)",
-   "url": "https://github.com/BasedHardware/omi/issues/18570",
-   "at": "2026-09-24T09:42:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18570",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#18570 [Bounty Proposal] docs(cli): memories -> Graphviz knowledge graph recipe ($25 proposed) (PR #18569)",
@@ -2269,62 +2604,6 @@
    "extra": {
     "state": "open",
     "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18567",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): action items -> Trello board JSON recipe ($25 proposed) (PR #18566)",
-   "url": "https://github.com/BasedHardware/omi/issues/18567",
-   "at": "2026-09-24T09:41:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18565",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): conversations -> speaker metrics & speech rate recipe ($25 proposed) (PR #18564)",
-   "url": "https://github.com/BasedHardware/omi/issues/18565",
-   "at": "2026-09-24T09:40:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18563",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): memories -> ChromaDB vector upsert payload recipe ($25 proposed) (PR #18562)",
-   "url": "https://github.com/BasedHardware/omi/issues/18563",
-   "at": "2026-09-24T09:39:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18561",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): conversations -> PII & secrets redaction recipe ($25 proposed) (PR #18560)",
-   "url": "https://github.com/BasedHardware/omi/issues/18561",
-   "at": "2026-09-24T09:38:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
    }
   },
   {
@@ -2337,48 +2616,6 @@
    "extra": {
     "state": "open",
     "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18559",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): conversations -> offline full-text search index recipe ($25 proposed) (PR #18558)",
-   "url": "https://github.com/BasedHardware/omi/issues/18559",
-   "at": "2026-09-24T09:36:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18556",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): action items -> RFC 5545 VTODO task feed recipe ($25 proposed) (PR #18555)",
-   "url": "https://github.com/BasedHardware/omi/issues/18556",
-   "at": "2026-09-24T09:34:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18554",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): memories -> Obsidian knowledge vault recipe ($25 proposed) (PR #18553)",
-   "url": "https://github.com/BasedHardware/omi/issues/18554",
-   "at": "2026-09-24T09:31:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
    }
   },
   {
@@ -2411,48 +2648,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/18552",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): conversations -> Notion API block payloads recipe ($25 proposed) (PR #18551)",
-   "url": "https://github.com/BasedHardware/omi/issues/18552",
-   "at": "2026-09-24T09:27:54Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18550",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): action items -> Markdown Kanban board recipe ($25 proposed) (PR #18549)",
-   "url": "https://github.com/BasedHardware/omi/issues/18550",
-   "at": "2026-09-24T09:25:23Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18548",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): memories -> Anki flashcard deck recipe ($25 proposed) (PR #18547)",
-   "url": "https://github.com/BasedHardware/omi/issues/18548",
-   "at": "2026-09-24T09:23:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/18548",
    "source": "omi",
    "kind": "omi_proposal",
@@ -2462,20 +2657,6 @@
    "extra": {
     "state": "open",
     "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18546",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] docs(cli): conversations -> SubRip (.srt) subtitles recipe ($25 proposed) (PR #18545)",
-   "url": "https://github.com/BasedHardware/omi/issues/18546",
-   "at": "2026-09-24T09:20:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "joelwoolley2025-prog",
-    "labels": []
    }
   },
   {
@@ -2990,63 +3171,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57611",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57611 [aw] Tenstorrent Skills Reviewer exceeded daily AI credits budget",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57611",
-   "at": "2026-09-23T21:36:16Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57608",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57608 [Bug Report] ttnn.transformer.scaled_dot_product_attention: the tile padding of K and V reaches the output when the sequence length is not a multiple of 32 \u2014 silently, PCC ~0",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57608",
-   "at": "2026-09-23T21:28:40Z",
-   "extra": {
-    "author": "ayewo",
-    "labels": [
-     "bug",
-     "community",
-     "op_cat: SDPA"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/99da4d79707583384694461b93699d78d160cb8b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Feature] Reconcile Blaze MoE biased scores and FP32 fused RoPE (#57492)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/99da4d79707583384694461b93699d78d160cb8b",
-   "at": "2026-09-23T21:19:52Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_sfpu/llk_math_generic_moe_gate_topk_api.h",
-     "tt_metal/hw/inc/api/compute/experimental/generic_moe_gate.h",
-     "tt_metal/hw/inc/api/compute/experimental/rope_sfpu.h",
-     "tt_metal/tt-llk/tests/helpers/include/generic_moe_gate_test_helpers.h",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
-     "tt_metal/tt-llk/tests/python_tests/test_rope.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_generic_moe_gate_topk.py",
-     "tt_metal/tt-llk/tests/sources/rope_test.cpp",
-     "tt_metal/tt-llk/tests/sources/sfpu_generic_moe_gate_topk_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_generic_moe_gate_topk.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_rope.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/helpers/include/generic_moe_gate_test_helpers.h"
-    ],
-    "author": "pmilenkovicTT"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/17842",
    "source": "omi",
    "kind": "omi_proposal",
@@ -3056,53 +3180,6 @@
    "extra": {
     "state": "open",
     "author": "aiwithrajan"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57603",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57603 Refactor SFPU dispatch: op classes, TensorShape instead of VectorMode, deprecate SFPU_* macros and SfpuType",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57603",
-   "at": "2026-09-23T20:29:42Z",
-   "extra": {
-    "author": "halghTT",
-    "labels": [
-     "LLK",
-     "llk:quasar",
-     "llk:wormhole",
-     "llk:blackhole",
-     "llk:common"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/d9c2c92d05cbe6cd73f629697d62a58aa02194ed",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[WIP] fix: remove superfluous DataFormat combinations in Quasar LLK tests (#57428)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/d9c2c92d05cbe6cd73f629697d62a58aa02194ed",
-   "at": "2026-09-23T20:25:22Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/pytest.ini",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_broadcast_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_reuse_dest_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_isolate_sfpu_add_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_isolate_sfpu_square_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_matmul_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_pack_l1_acc_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_pack_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_reduce_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_semaphore_sync_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_add_parallel_matmul_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_transpose_dest_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_unary_broadcast_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_unpack_unary_operand_quasar.py"
-    ],
-    "added": [],
-    "author": "fvranicTT"
    }
   },
   {
@@ -3119,36 +3196,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-11T18:45:31Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57586",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57586 Host thread pool is too slow to hand off short tasks (~1.4 us/task + park/wake latency), blocking per-device dispatch fan-out",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57586",
-   "at": "2026-09-23T19:01:34Z",
-   "extra": {
-    "author": "jbaumanTT",
-    "labels": [
-     "perf",
-     "runtime"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57583",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57583 Metal 2.0 port: data_movement/tilize + tilize_with_val_padding block factories",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57583",
-   "at": "2026-09-23T18:58:23Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "tilize_untilize",
-     "data_movement"
-    ]
    }
   },
   {
@@ -3231,7 +3278,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/826",
    "at": "2026-09-23T17:07:24Z",
    "extra": {
-    "comments": 6,
+    "comments": 7,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3252,7 +3299,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/825",
    "at": "2026-09-23T17:07:21Z",
    "extra": {
-    "comments": 4,
+    "comments": 6,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3272,7 +3319,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/824",
    "at": "2026-09-23T17:07:19Z",
    "extra": {
-    "comments": 6,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3292,7 +3339,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/823",
    "at": "2026-09-23T17:07:16Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3333,7 +3380,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/821",
    "at": "2026-09-23T17:07:08Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3373,7 +3420,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/819",
    "at": "2026-09-23T17:07:02Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3433,7 +3480,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/816",
    "at": "2026-09-23T17:06:53Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3574,7 +3621,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/809",
    "at": "2026-09-23T17:06:31Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3594,7 +3641,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/808",
    "at": "2026-09-23T17:06:28Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3726,7 +3773,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/804",
    "at": "2026-09-23T17:06:15Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3807,7 +3854,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/800",
    "at": "2026-09-23T17:06:02Z",
    "extra": {
-    "comments": 4,
+    "comments": 6,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3847,7 +3894,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/798",
    "at": "2026-09-23T17:05:56Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -3887,7 +3934,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/796",
    "at": "2026-09-23T17:05:50Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4041,7 +4088,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/788",
    "at": "2026-09-23T17:05:25Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4100,7 +4147,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/785",
    "at": "2026-09-23T17:05:16Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4120,7 +4167,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/784",
    "at": "2026-09-23T17:05:13Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4158,7 +4205,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/782",
    "at": "2026-09-23T17:05:07Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4178,7 +4225,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/781",
    "at": "2026-09-23T17:05:04Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4218,7 +4265,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/779",
    "at": "2026-09-23T17:04:51Z",
    "extra": {
-    "comments": 2,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4238,7 +4285,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/778",
    "at": "2026-09-23T17:04:48Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4297,7 +4344,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/775",
    "at": "2026-09-23T17:04:39Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4316,7 +4363,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/774",
    "at": "2026-09-23T17:04:36Z",
    "extra": {
-    "comments": 2,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4356,7 +4403,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/772",
    "at": "2026-09-23T17:04:29Z",
    "extra": {
-    "comments": 2,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4376,7 +4423,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/771",
    "at": "2026-09-23T17:04:27Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4456,7 +4503,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/767",
    "at": "2026-09-23T17:04:15Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4476,7 +4523,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/766",
    "at": "2026-09-23T17:04:12Z",
    "extra": {
-    "comments": 3,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4495,7 +4542,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/765",
    "at": "2026-09-23T17:04:09Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4515,7 +4562,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/764",
    "at": "2026-09-23T17:04:06Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4555,7 +4602,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/762",
    "at": "2026-09-23T17:04:00Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4574,7 +4621,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/761",
    "at": "2026-09-23T17:03:56Z",
    "extra": {
-    "comments": 2,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4593,7 +4640,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/760",
    "at": "2026-09-23T17:03:53Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4651,7 +4698,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/757",
    "at": "2026-09-23T17:03:44Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4670,7 +4717,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/756",
    "at": "2026-09-23T17:03:41Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4690,7 +4737,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/755",
    "at": "2026-09-23T17:03:38Z",
    "extra": {
-    "comments": 3,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4728,7 +4775,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/753",
    "at": "2026-09-23T17:03:32Z",
    "extra": {
-    "comments": 4,
+    "comments": 6,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4785,7 +4832,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/750",
    "at": "2026-09-23T17:03:24Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4805,7 +4852,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/749",
    "at": "2026-09-23T17:03:21Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4824,7 +4871,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/748",
    "at": "2026-09-23T17:03:18Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4845,7 +4892,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/747",
    "at": "2026-09-23T17:03:14Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4885,7 +4932,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/745",
    "at": "2026-09-23T17:03:09Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4905,68 +4952,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/744",
    "at": "2026-09-23T17:03:06Z",
    "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "CodingAngel1",
-    "labels": [
-     "backend",
-     "performance",
-     "difficulty: medium",
-     "bounty",
-     "Stellar Wave"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OphirPay/OphirPay/issues/743",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OphirPay/OphirPay: Report WASM size and fee deltas on contract pull requests",
-   "url": "https://github.com/OphirPay/OphirPay/issues/743",
-   "at": "2026-09-23T17:03:03Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "CodingAngel1",
-    "labels": [
-     "contracts",
-     "performance",
-     "ci",
-     "difficulty: medium",
-     "bounty",
-     "Stellar Wave"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OphirPay/OphirPay/issues/742",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OphirPay/OphirPay: Cap and truncate the remaining unbounded contract readers",
-   "url": "https://github.com/OphirPay/OphirPay/issues/742",
-   "at": "2026-09-23T17:02:59Z",
-   "extra": {
-    "comments": 5,
-    "amount_usd": null,
-    "author": "CodingAngel1",
-    "labels": [
-     "contracts",
-     "performance",
-     "difficulty: medium",
-     "bounty",
-     "Stellar Wave"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OphirPay/OphirPay/issues/741",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OphirPay/OphirPay: Use the existing cache modules to serve read-heavy endpoints from Redis",
-   "url": "https://github.com/OphirPay/OphirPay/issues/741",
-   "at": "2026-09-23T17:02:57Z",
-   "extra": {
-    "comments": 5,
+    "comments": 2,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -4986,7 +4972,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/740",
    "at": "2026-09-23T17:02:54Z",
    "extra": {
-    "comments": 9,
+    "comments": 10,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -5025,7 +5011,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/738",
    "at": "2026-09-23T17:02:49Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -5084,7 +5070,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/735",
    "at": "2026-09-23T17:02:33Z",
    "extra": {
-    "comments": 2,
+    "comments": 1,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -5104,7 +5090,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/734",
    "at": "2026-09-23T17:02:30Z",
    "extra": {
-    "comments": 3,
+    "comments": 6,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -5123,7 +5109,7 @@
    "url": "https://github.com/OphirPay/OphirPay/issues/733",
    "at": "2026-09-23T17:02:27Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "CodingAngel1",
     "labels": [
@@ -5152,6 +5138,44 @@
      "bounty",
      "Stellar Wave",
      "difficulty: easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/731",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add a Docker build smoke job so the image cannot silently break",
+   "url": "https://github.com/OphirPay/OphirPay/issues/731",
+   "at": "2026-09-23T17:02:21Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OphirPay/OphirPay/issues/730",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OphirPay/OphirPay: Add helm lint, helm template and manifest validation to CI",
+   "url": "https://github.com/OphirPay/OphirPay/issues/730",
+   "at": "2026-09-23T17:02:19Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": null,
+    "author": "CodingAngel1",
+    "labels": [
+     "ci",
+     "difficulty: medium",
+     "bounty",
+     "Stellar Wave"
     ]
    }
   },
