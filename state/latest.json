@@ -1,6 +1,334 @@
 {
- "generated_at": "2026-09-25T19:24:36Z",
+ "generated_at": "2026-09-25T22:37:43Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19001",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(desktop_tts_updates): sanitize error reflections in release promotion endpoint ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19001",
+   "at": "2026-09-25T22:34:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Mateidslx",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57970",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57970 ttnn: to_layout/tilize transients retained by a live deferred reader after upload \u2014 ~950 MB/request DRAM retention pattern in eager decode",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57970",
+   "at": "2026-09-25T22:31:36Z",
+   "extra": {
+    "author": "lu-zero",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18987",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): memories -> iCalendar (.ics) timeline recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18987",
+   "at": "2026-09-25T21:47:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "OrderStream",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18987",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#18987 [Bounty proposal] docs(cli): memories -> iCalendar (.ics) timeline recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18987",
+   "at": "2026-09-25T21:47:43Z",
+   "extra": {
+    "state": "open",
+    "author": "OrderStream"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18985",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): memories -> Excel workbook (.xlsx) recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18985",
+   "at": "2026-09-25T21:45:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "OrderStream",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18985",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#18985 [Bounty proposal] docs(cli): memories -> Excel workbook (.xlsx) recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18985",
+   "at": "2026-09-25T21:45:29Z",
+   "extra": {
+    "state": "open",
+    "author": "OrderStream"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18979",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): conversations -> JSON Lines (JSONL) dataset recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18979",
+   "at": "2026-09-25T21:39:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "I-Am-Finite",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18979",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#18979 [Bounty proposal] docs(cli): conversations -> JSON Lines (JSONL) dataset recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18979",
+   "at": "2026-09-25T21:39:50Z",
+   "extra": {
+    "state": "open",
+    "author": "I-Am-Finite"
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/43",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-25: 0 new, 0 resumed, 5 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/43",
+   "at": "2026-09-25T21:39:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/theblockcade/stellarcade/issues/1232",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "theblockcade/stellarcade: Contract bounty-escrow: add community arcade bounty and speedrun escrow contract",
+   "url": "https://github.com/theblockcade/stellarcade/issues/1232",
+   "at": "2026-09-25T21:38:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CMI-James",
+    "labels": [
+     "enhancement",
+     "Contract",
+     "Medium",
+     "Soroban"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/d52909f346a78a7bc45c99d666fc82ba1e216868",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Cleanup] Replace `IDevice` with `MeshDevice` in ttnn where it's trivial to do (#57790)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/d52909f346a78a7bc45c99d666fc82ba1e216868",
+   "at": "2026-09-25T21:37:01Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/gelu_bw/device/gelu_bw_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/tanh_bw/device/tanh_bw_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/batch_norm/device/batch_norm_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/batch_norm/device/running_statistics_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/groupnorm_mcast_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/groupnorm_no_mcast_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/groupnorm_sharded_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/layernorm_device_operation.hpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/layernorm_op_multi_core.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/layernorm_op_multi_core_sharded.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/sharded_layernorm_factory_helpers.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/sharded_layernorm_factory_helpers.hpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_post_all_gather_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_post_all_gather_welford_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_pre_all_gather_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_pre_all_gather_welford_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/accumulation/device/accumulation_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/accumulation/ema/device/ema_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/argmax/device/argmax_multi_core_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/argmax/device/argmax_single_core_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_multi_core_h_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_multi_core_w_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/welford_reduce_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/manual_seed/device/manual_seed_program_factory.cpp"
+    ],
+    "added": [],
+    "author": "obacherikovTT"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18977",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): memories -> JSON Lines (JSONL) dataset recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18977",
+   "at": "2026-09-25T21:31:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "I-Am-Finite",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18977",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#18977 [Bounty proposal] docs(cli): memories -> JSON Lines (JSONL) dataset recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18977",
+   "at": "2026-09-25T21:31:58Z",
+   "extra": {
+    "state": "open",
+    "author": "I-Am-Finite"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57965",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57965 Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57965",
+   "at": "2026-09-25T21:19:18Z",
+   "extra": {
+    "author": "bvdyvncqr5-commits",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57959",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57959 Investigate if reshuffle-rows can be ported from SFPU to FPU using matmul",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57959",
+   "at": "2026-09-25T20:54:20Z",
+   "extra": {
+    "author": "gdsinghTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18971",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): action-items -> CSV export recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18971",
+   "at": "2026-09-25T20:26:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "OrderStream",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18971",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#18971 [Bounty proposal] docs(cli): action-items -> CSV export recipe",
+   "url": "https://github.com/BasedHardware/omi/issues/18971",
+   "at": "2026-09-25T20:26:28Z",
+   "extra": {
+    "state": "open",
+    "author": "OrderStream"
+   }
+  },
+  {
+   "id": "https://github.com/averray-agent/agent/issues/1409",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "averray-agent/agent: Additive feeless settlement leg: let verified bounties settle in Nano (XNO) beside the USDC escrow",
+   "url": "https://github.com/averray-agent/agent/issues/1409",
+   "at": "2026-09-25T20:23:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dhyabi2",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57955",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57955 [Prefill][MoE] - combine_fabric2d: stream core fallback ignores NOC cost, and may pass a link ordinal as a link index",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57955",
+   "at": "2026-09-25T20:13:54Z",
+   "extra": {
+    "author": "ianastasijevicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/57954",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#57954 [ops] matmul: MatmulMultiCoreReuseProgramConfig leaves output tiles unwritten when per_core_M < Mt and blocks exceed cores",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/57954",
+   "at": "2026-09-25T20:01:45Z",
+   "extra": {
+    "author": "rmillerTT",
+    "labels": [
+     "bug",
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/18966",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend/speaker_tag_prompts): sanitize error reflections and prevent internal state leaks ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/18966",
+   "at": "2026-09-25T19:39:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Mateidslx",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ee86196816f99406836047af2481c0163b3ab799",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] [Bug fix]: BH SFPU reduce: divide UInt32 column AVG as unsigned (#57509 item 2) (#57661)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ee86196816f99406836047af2481c0163b3ab799",
+   "at": "2026-09-25T19:31:57Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_reduce.h",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_reduce.py"
+    ],
+    "added": [],
+    "author": "ldjurovicTT"
+   }
+  },
   {
    "id": "https://github.com/BasedHardware/omi/issues/18964",
    "source": "github_search",
@@ -112,6 +440,28 @@
      "Quasar",
      "llk:quasar"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/5372fd3fa0e0324eaa3c884460ce5a74707739e2",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "Support odd K dimensions in custom MM (#57767)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/5372fd3fa0e0324eaa3c884460ce5a74707739e2",
+   "at": "2026-09-25T18:51:10Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_math_custom_mm_api.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_custom_mm_api.h",
+     "tt_metal/hw/inc/api/compute/experimental/custom_mm.h",
+     "tt_metal/tt-llk/tests/python_tests/test_custom_mm.py",
+     "tt_metal/tt-llk/tests/sources/custom_mm_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_custom_mm.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_custom_mm.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_sdpa_custom_mm.h"
+    ],
+    "added": [],
+    "author": "TT-BrianLiu"
    }
   },
   {
@@ -813,6 +1163,23 @@
    }
   },
   {
+   "id": "https://github.com/Grainlify/grainlify-bounty-agent/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Grainlify/grainlify-bounty-agent: Expose inference cost metrics on the public ledger endpoint",
+   "url": "https://github.com/Grainlify/grainlify-bounty-agent/issues/2",
+   "at": "2026-09-25T15:02:02Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": null,
+    "author": "grainlify-agent[bot]",
+    "labels": [
+     "good first issue",
+     "bounty"
+    ]
+   }
+  },
+  {
    "id": "https://github.com/Grainlify/grainlify-bounty-agent/issues/3",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -830,23 +1197,6 @@
    }
   },
   {
-   "id": "https://github.com/Grainlify/grainlify-bounty-agent/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Grainlify/grainlify-bounty-agent: Expose inference cost metrics on the public ledger endpoint",
-   "url": "https://github.com/Grainlify/grainlify-bounty-agent/issues/2",
-   "at": "2026-09-25T15:02:02Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "grainlify-agent[bot]",
-    "labels": [
-     "good first issue",
-     "bounty"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/Grainlify/grainlify-bounty-agent/issues/1",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -854,7 +1204,7 @@
    "url": "https://github.com/Grainlify/grainlify-bounty-agent/issues/1",
    "at": "2026-09-25T15:02:01Z",
    "extra": {
-    "comments": 4,
+    "comments": 6,
     "amount_usd": null,
     "author": "grainlify-agent[bot]",
     "labels": [
@@ -1059,7 +1409,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/18911",
    "at": "2026-09-25T13:51:46Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 50,
     "author": "ElvinGts",
     "labels": []
@@ -1376,7 +1726,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/18885",
    "at": "2026-09-25T11:01:26Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 50,
     "author": "ajin558",
     "labels": []
@@ -2482,20 +2832,6 @@
    }
   },
   {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/1129",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: [BUG BOUNTY] Private security report ready \u2014 request secure submission channel",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/1129",
-   "at": "2026-09-24T23:38:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "uknwplayer",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/57813",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -2572,7 +2908,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/18794",
    "at": "2026-09-24T22:55:41Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": 50,
     "author": "Evos09",
     "labels": []
@@ -2664,20 +3000,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/18783",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(conversations): delivery exception details in share email endpoint ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18783",
-   "at": "2026-09-24T22:32:15Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18783",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#18783 [Bounty proposal] fix(conversations): delivery exception details in share email endpoint ($50 proposed)",
@@ -2686,174 +3008,6 @@
    "extra": {
     "state": "open",
     "author": "Evos09"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18780",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(mcp): category ValueError exception details in memories and conversations endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18780",
-   "at": "2026-09-24T22:29:43Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18777",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(developer): category ValueError exception details in memories and conversations endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18777",
-   "at": "2026-09-24T22:27:49Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18775",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(plugins/ms365): sanitize auth, argument binding, and handler execution errors ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18775",
-   "at": "2026-09-24T22:25:03Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18771",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(payment): StripeError exception leaks across subscription and connect endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18771",
-   "at": "2026-09-24T22:21:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/x402-guild/x402-guild/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "x402-guild/x402-guild: Add Bounty Aggregator API to the directory",
-   "url": "https://github.com/x402-guild/x402-guild/issues/5",
-   "at": "2026-09-24T22:21:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "airplagnepapi",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18767",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(security): sanitize exception details in imports and updates endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18767",
-   "at": "2026-09-24T22:16:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18762",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(retrieval-tools): sanitize internal exception disclosure across core chat tools ( proposed) (PR #17827)",
-   "url": "https://github.com/BasedHardware/omi/issues/18762",
-   "at": "2026-09-24T22:10:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "naufalfx805-source",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18761",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(users): sanitize internal exception disclosure and timezone errors ( proposed) (PR #18345)",
-   "url": "https://github.com/BasedHardware/omi/issues/18761",
-   "at": "2026-09-24T22:10:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "naufalfx805-source",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18760",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(task-integrations): sanitize internal exception disclosure in asana and clickup handlers ( proposed) (PR #18599)",
-   "url": "https://github.com/BasedHardware/omi/issues/18760",
-   "at": "2026-09-24T22:09:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "naufalfx805-source",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18759",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(oauth): Redis connection details and Firebase verification exception leaks in OAuth endpoints ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18759",
-   "at": "2026-09-24T22:09:31Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57806",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57806 Matmul block-size perf sweep: cycles + tiles/cycle (Blackhole P300)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57806",
-   "at": "2026-09-24T22:08:59Z",
-   "extra": {
-    "author": "vsureshTT",
-    "labels": [
-     "performance monitoring"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18755",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(manual-import): exception text and raw upstream response disclosure in submit-memories ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/18755",
-   "at": "2026-09-24T22:06:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Evos09",
-    "labels": []
    }
   },
   {
@@ -2873,120 +3027,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57800",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57800 Investigate KDA PCC drop",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57800",
-   "at": "2026-09-24T21:39:11Z",
-   "extra": {
-    "author": "kgrujcic-tt",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57798",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57798 Segfault in `MeshBuffer::deallocate()` when a closed `MeshDevice` outlives `ReleaseOwnership()`",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57798",
-   "at": "2026-09-24T21:18:57Z",
-   "extra": {
-    "author": "kevinwuTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57793",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57793 [aw] Failed jobs: Silencer (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57793",
-   "at": "2026-09-24T20:58:37Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57792",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57792 [aw] Silencer (tt-metal) failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57792",
-   "at": "2026-09-24T20:58:35Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/55b967d012930443f18463362d6bda2c5f2d6af2",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK]: Make tilize teardown revert only what init writes (#54537)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/55b967d012930443f18463362d6bda2c5f2d6af2",
-   "at": "2026-09-24T20:41:03Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_unpack_tilize_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_tilize_api.h",
-     "tt_metal/hw/inc/api/compute/tilize.h",
-     "tt_metal/tt-llk/tests/helpers/include/llk_lib_unpack_wrappers.h",
-     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilizeA_B_uninit_restore.py",
-     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_descriptor.py",
-     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_restore.py",
-     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_restore_tiny.py",
-     "tt_metal/tt-llk/tests/sources/unpack_tilizeA_B_uninit_restore_test.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_tilize_uninit_descriptor_test.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_tilize_uninit_restore_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cunpack_common.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_tilize.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_gpr_map.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/cunpack_common.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_tilize.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilizeA_B_uninit_restore.py",
-     "tt_metal/tt-llk/tests/python_tests/test_unpack_tilize_uninit_descriptor.py",
-     "tt_metal/tt-llk/tests/sources/unpack_tilizeA_B_uninit_restore_test.cpp",
-     "tt_metal/tt-llk/tests/sources/unpack_tilize_uninit_descriptor_test.cpp"
-    ],
-    "author": "ncvetkovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/8818a118a7b357c830a22df714c07d0d7330c1b8",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "fix: do not use high fidelities for fp16b data in LLK Quasar tests (#57774)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/8818a118a7b357c830a22df714c07d0d7330c1b8",
-   "at": "2026-09-24T20:39:45Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/.claude/skills/perf-parameter-impact/SKILL.md",
-     "tt_metal/tt-llk/.claude/skills/quasar-perf-test/SKILL.md",
-     "tt_metal/tt-llk/.cursor/skills/perf-parameter-impact/SKILL.md",
-     "tt_metal/tt-llk/.cursor/skills/quasar-perf-test/SKILL.md",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_broadcast_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_reuse_dest_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_matmul_custom_no_mop_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_matmul_quasar.py"
-    ],
-    "added": [],
-    "author": "fvranicTT"
-   }
-  },
-  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1647",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -3000,22 +3040,6 @@
     "labels": [
      "bounty",
      "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57780",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57780 [LLK/Quasar] tilize: lossless fp32 never unpacks to DEST (UNPACKER_0 ILLEGAL_FORMAT_CONVERSION)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57780",
-   "at": "2026-09-24T19:49:38Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "bug",
-     "LLK",
-     "Quasar"
     ]
    }
   },
@@ -3139,66 +3163,6 @@
    "title": "omi#18588 [Bounty Proposal] docs(cli): conversations -> printable HTML book recipe ($25 proposed) (PR #18587)",
    "url": "https://github.com/BasedHardware/omi/issues/18588",
    "at": "2026-09-24T09:52:16Z",
-   "extra": {
-    "state": "open",
-    "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18586",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#18586 [Bounty Proposal] docs(cli): conversations -> Obsidian notes vault recipe ($25 proposed) (PR #18585)",
-   "url": "https://github.com/BasedHardware/omi/issues/18586",
-   "at": "2026-09-24T09:50:43Z",
-   "extra": {
-    "state": "open",
-    "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18582",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#18582 [Bounty Proposal] docs(cli): memories -> Pinecone vector upsert recipe ($25 proposed) (PR #18581)",
-   "url": "https://github.com/BasedHardware/omi/issues/18582",
-   "at": "2026-09-24T09:49:22Z",
-   "extra": {
-    "state": "open",
-    "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18578",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#18578 [Bounty Proposal] docs(cli): conversations -> Mermaid diagram generator recipe ($25 proposed) (PR #18577)",
-   "url": "https://github.com/BasedHardware/omi/issues/18578",
-   "at": "2026-09-24T09:46:36Z",
-   "extra": {
-    "state": "open",
-    "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18570",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#18570 [Bounty Proposal] docs(cli): memories -> Graphviz knowledge graph recipe ($25 proposed) (PR #18569)",
-   "url": "https://github.com/BasedHardware/omi/issues/18570",
-   "at": "2026-09-24T09:42:50Z",
-   "extra": {
-    "state": "open",
-    "author": "joelwoolley2025-prog"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/18561",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#18561 [Bounty Proposal] docs(cli): conversations -> PII & secrets redaction recipe ($25 proposed) (PR #18560)",
-   "url": "https://github.com/BasedHardware/omi/issues/18561",
-   "at": "2026-09-24T09:38:00Z",
    "extra": {
     "state": "open",
     "author": "joelwoolley2025-prog"
