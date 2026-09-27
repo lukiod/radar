@@ -1,6 +1,176 @@
 {
- "generated_at": "2026-09-27T15:44:22Z",
+ "generated_at": "2026-09-27T19:30:10Z",
  "events": [
+  {
+   "id": "https://github.com/pizzaguyapprentice/high-noon/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "pizzaguyapprentice/high-noon: enemies (sheriff, bounty, etc)",
+   "url": "https://github.com/pizzaguyapprentice/high-noon/issues/4",
+   "at": "2026-09-27T19:11:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Oscarrscso",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/daydreamsai/skills-market/issues/67",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "daydreamsai/skills-market: Requester cannot preview artifacts on active `winner_only` bounty submissions",
+   "url": "https://github.com/daydreamsai/skills-market/issues/67",
+   "at": "2026-09-27T19:10:55Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "XxionxX",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19478",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(retrieval-tools): sanitize internal exception disclosure in integration_base",
+   "url": "https://github.com/BasedHardware/omi/issues/19478",
+   "at": "2026-09-27T18:44:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "naufalfx805-source",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19478",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19478 [Bounty proposal] fix(retrieval-tools): sanitize internal exception disclosure in integration_base",
+   "url": "https://github.com/BasedHardware/omi/issues/19478",
+   "at": "2026-09-27T18:44:40Z",
+   "extra": {
+    "state": "open",
+    "author": "naufalfx805-source"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19463",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(cli): support single conversation object and empty envelopes in conversations_to_sqlite ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19463",
+   "at": "2026-09-27T16:39:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "brandonstensby-dotcom",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19463",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19463 [Bounty proposal] fix(cli): support single conversation object and empty envelopes in conversations_to_sqlite ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19463",
+   "at": "2026-09-27T16:39:35Z",
+   "extra": {
+    "state": "open",
+    "author": "brandonstensby-dotcom"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19461",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(cli): unwrap action_items, items, and data envelopes in action_items_to_sqlite ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19461",
+   "at": "2026-09-27T16:39:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "brandonstensby-dotcom",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19461",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19461 [Bounty proposal] fix(cli): unwrap action_items, items, and data envelopes in action_items_to_sqlite ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19461",
+   "at": "2026-09-27T16:39:00Z",
+   "extra": {
+    "state": "open",
+    "author": "brandonstensby-dotcom"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19457",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(apps): drop explicit-null required fields on app and persona PATCH ( -  USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/19457",
+   "at": "2026-09-27T16:04:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19457",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19457 [Bounty Proposal] fix(apps): drop explicit-null required fields on app and persona PATCH ( -  USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/19457",
+   "at": "2026-09-27T16:04:59Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19454",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(cli): unwrap action_items, items, and data envelopes in action_items_to_todotxt ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19454",
+   "at": "2026-09-27T15:57:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "antrinhht",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19454",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19454 [Bounty proposal] fix(cli): unwrap action_items, items, and data envelopes in action_items_to_todotxt ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19454",
+   "at": "2026-09-27T15:57:06Z",
+   "extra": {
+    "state": "open",
+    "author": "antrinhht"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58046",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58046 Matmul 1D in0-mcast: sharded output is wrong when out_block_w < per_core_N",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58046",
+   "at": "2026-09-27T15:49:31Z",
+   "extra": {
+    "author": "rmillerTT",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/CredenceOrg/Credence-Contracts/issues/1312",
    "source": "github_search",
@@ -9,10 +179,12 @@
    "url": "https://github.com/CredenceOrg/Credence-Contracts/issues/1312",
    "at": "2026-09-27T15:39:30Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "Baskarayelu",
-    "labels": []
+    "labels": [
+     "Stellar Wave"
+    ]
    }
   },
   {
@@ -25,10 +197,8 @@
    "extra": {
     "author": "vcankovicTT",
     "labels": [
-     "bug",
-     "blackhole",
      "LLM_bug",
-     "Galaxy",
+     "Identified By: Shield / Models CI",
      "GLX1-BH"
     ]
    }
@@ -76,18 +246,6 @@
     "amount_usd": 50,
     "author": "kduailabs",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19443",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19443 [Bounty Proposal] fix(conversations): meeting-context gate and screen duration use the capture-session window ($50-100 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19443",
-   "at": "2026-09-27T14:24:23Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
    }
   },
   {
@@ -494,7 +652,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/19371",
    "at": "2026-09-27T08:46:16Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "gewenbo888",
     "labels": []
@@ -520,7 +678,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/19369",
    "at": "2026-09-27T08:40:35Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "gewenbo888",
     "labels": []
@@ -546,7 +704,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/19366",
    "at": "2026-09-27T08:31:24Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 25,
     "author": "huyhoang2k5",
     "labels": []
@@ -598,7 +756,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/19360",
    "at": "2026-09-27T08:02:56Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 25,
     "author": "huyhoang2k5",
     "labels": []
@@ -718,7 +876,7 @@
    "url": "https://github.com/The-Swarm-Corporation/swarms-framework-docs/issues/255",
    "at": "2026-09-27T05:01:50Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "paulchan890130",
     "labels": []
@@ -902,7 +1060,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/19310",
    "at": "2026-09-27T00:08:44Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "brandonstensby-dotcom",
     "labels": []
@@ -974,7 +1132,7 @@
    "url": "https://github.com/Gitlawb/node/issues/477",
    "at": "2026-09-26T21:30:19Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "euxaristia",
     "labels": [
@@ -994,12 +1152,13 @@
    "url": "https://github.com/theblockcade/stellarcade/issues/1306",
    "at": "2026-09-26T21:17:23Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "CMI-James",
     "labels": [
      "enhancement",
      "Contract",
+     "Stellar Wave",
      "Medium",
      "Soroban"
     ]
@@ -1237,46 +1396,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58004",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58004 [aw] Failed jobs: Repo Assist (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58004",
-   "at": "2026-09-26T19:00:49Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58003",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58003 [aw] Repo Assist (tt-metal) failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58003",
-   "at": "2026-09-26T19:00:47Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19268",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19268 Bounty Proposal: Conversations -> JSONL Export Recipe (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19268",
-   "at": "2026-09-26T19:00:43Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
    "id": "https://github.com/asentum-network/asentum-explorer/issues/36",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1339,34 +1458,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58001",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58001 ttnn.typecast int32/uint16/uint32 -> bfloat16 rounds ties away from zero while float32 -> bfloat16 rounds ties to even (50% of exact ties disagree with torch)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58001",
-   "at": "2026-09-26T17:00:48Z",
-   "extra": {
-    "author": "Salvatore1021",
-    "labels": [
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58000",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58000 ttnn.floor_div(int32 tensor, scalar) is wrong for ~100% of inputs: scalar path multiplies by a truncated float reciprocal and runs float-only floor on INT32 bits",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58000",
-   "at": "2026-09-26T16:52:00Z",
-   "extra": {
-    "author": "Salvatore1021",
-    "labels": [
-     "community"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/dark-princezz/stellar-hooks/issues/865",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1424,18 +1515,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/19214",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19214 [Bounty proposal] fix(backend): add error boundaries, sanitization, and unit tests in auto model router ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19214",
-   "at": "2026-09-26T15:27:34Z",
-   "extra": {
-    "state": "open",
-    "author": "ajin558"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19203",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1459,90 +1538,6 @@
    "extra": {
     "state": "open",
     "author": "ajin558"
-   }
-  },
-  {
-   "id": "https://github.com/pursekeeper/api/issues/61",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "pursekeeper/api: Measured-settlement inventory of 32 agent work/bounty boards (relay for ARION, flag-hidden filing)",
-   "url": "https://github.com/pursekeeper/api/issues/61",
-   "at": "2026-09-26T14:03:09Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "dhyabi2",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19174",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): action items -> Taskwarrior import JSON ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19174",
-   "at": "2026-09-26T13:15:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "knoauktasu5624-wq",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19174",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19174 [Bounty proposal] docs(cli): action items -> Taskwarrior import JSON ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19174",
-   "at": "2026-09-26T13:15:28Z",
-   "extra": {
-    "state": "open",
-    "author": "knoauktasu5624-wq"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19169",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty interest] low-effort documentation/bugfix task suitable for new contributor",
-   "url": "https://github.com/BasedHardware/omi/issues/19169",
-   "at": "2026-09-26T12:52:09Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "vbf95vgsb7-star",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/45",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-09-26: 1 changes across 1 bounty programs",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/45",
-   "at": "2026-09-26T11:24:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19139",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend/folders): add input validation, whitespace rejection, and error boundaries ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19139",
-   "at": "2026-09-26T09:23:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "OrderStream",
-    "labels": []
    }
   },
   {
@@ -1642,18 +1637,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/19094",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19094 [Bounty proposal] fix(backend): add error boundaries, validation, and sanitization in conversation sync mutations router ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19094",
-   "at": "2026-09-26T06:57:35Z",
-   "extra": {
-    "state": "open",
-    "author": "ajin558"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19080",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1747,38 +1730,6 @@
    "extra": {
     "state": "open",
     "author": "ajin558"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56908 [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "at": "2026-09-25T17:23:14Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "Adraca"
-    ],
-    "created": "2026-09-17T19:27:38Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56277",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56277 [Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
-   "at": "2026-09-25T16:10:52Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "jasondavies"
-    ],
-    "created": "2026-09-11T17:26:07Z"
    }
   }
  ],
