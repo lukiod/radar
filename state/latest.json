@@ -1,6 +1,494 @@
 {
- "generated_at": "2026-09-27T05:32:23Z",
+ "generated_at": "2026-09-27T11:20:32Z",
  "events": [
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19413",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(announcements): changelogs limit accepts negative values and returns the wrong slice ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19413",
+   "at": "2026-09-27T11:04:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19413",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19413 [Bounty Proposal] fix(announcements): changelogs limit accepts negative values and returns the wrong slice ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19413",
+   "at": "2026-09-27T11:04:39Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19407",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(retrieval-tools): sanitize unexpected exceptions across external and app tools",
+   "url": "https://github.com/BasedHardware/omi/issues/19407",
+   "at": "2026-09-27T10:59:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "naufalfx805-source",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19407",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19407 [Bounty proposal] fix(retrieval-tools): sanitize unexpected exceptions across external and app tools",
+   "url": "https://github.com/BasedHardware/omi/issues/19407",
+   "at": "2026-09-27T10:59:30Z",
+   "extra": {
+    "state": "open",
+    "author": "naufalfx805-source"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19405",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(backend): daily-summary total_duration_minutes uses the capture-session window ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19405",
+   "at": "2026-09-27T10:58:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19405",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19405 [Bounty Proposal] fix(backend): daily-summary total_duration_minutes uses the capture-session window ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19405",
+   "at": "2026-09-27T10:58:42Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19401",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(retrieval-tools): sanitize internal exception disclosure in apple_health_tools ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19401",
+   "at": "2026-09-27T10:48:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "naufalfx805-source",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19401",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19401 [Bounty proposal] fix(retrieval-tools): sanitize internal exception disclosure in apple_health_tools ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19401",
+   "at": "2026-09-27T10:48:50Z",
+   "extra": {
+    "state": "open",
+    "author": "naufalfx805-source"
+   }
+  },
+  {
+   "id": "https://github.com/Creditra/Creditra-Contracts/issues/1341",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Creditra/Creditra-Contracts: Exercise bounty withdrawal on empty and funded pools",
+   "url": "https://github.com/Creditra/Creditra-Contracts/issues/1341",
+   "at": "2026-09-27T10:40:00Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "greatest0fallt1me",
+    "labels": [
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58040",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58040 [gemma4_d_p] Eliminate packed-KV layout overhead in RoPE and ring SDPA",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58040",
+   "at": "2026-09-27T10:29:37Z",
+   "extra": {
+    "author": "svuckovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19393",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(conversations): meeting verdict measures short calls from the capture-session window ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19393",
+   "at": "2026-09-27T10:15:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19393",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19393 [Bounty Proposal] fix(conversations): meeting verdict measures short calls from the capture-session window ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19393",
+   "at": "2026-09-27T10:15:49Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19389",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): memories -> CSV export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19389",
+   "at": "2026-09-27T10:03:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19389",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19389 [Bounty proposal] feat(python-cli): memories -> CSV export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19389",
+   "at": "2026-09-27T10:03:28Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/Creditra/Creditra-Contracts/issues/1265",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Creditra/Creditra-Contracts: Emit sweep events for treasury and bounty",
+   "url": "https://github.com/Creditra/Creditra-Contracts/issues/1265",
+   "at": "2026-09-27T09:27:33Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "greatest0fallt1me",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19377",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): memories -> SQLite export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19377",
+   "at": "2026-09-27T09:05:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19377",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19377 [Bounty proposal] feat(python-cli): memories -> SQLite export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19377",
+   "at": "2026-09-27T09:05:46Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19375",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): action items -> Jira (CSV) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19375",
+   "at": "2026-09-27T09:01:51Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "huyhoang2k5",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19375",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19375 [Bounty proposal] feat(python-cli): action items -> Jira (CSV) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19375",
+   "at": "2026-09-27T09:01:51Z",
+   "extra": {
+    "state": "open",
+    "author": "huyhoang2k5"
+   }
+  },
+  {
+   "id": "https://github.com/picsoritdidnthappen/poidh-app/issues/1532",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "picsoritdidnthappen/poidh-app: Open claim on poidh bounty 1396 awaiting review (random draw 2026-10-02)",
+   "url": "https://github.com/picsoritdidnthappen/poidh-app/issues/1532",
+   "at": "2026-09-27T08:51:58Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "testies1234321-afk",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19371",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): goals -> CSV export recipe ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19371",
+   "at": "2026-09-27T08:46:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19371",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19371 [Bounty proposal] feat(python-cli): goals -> CSV export recipe ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19371",
+   "at": "2026-09-27T08:46:16Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19369",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): goals -> Markdown export recipe ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19369",
+   "at": "2026-09-27T08:40:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19369",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19369 [Bounty proposal] feat(python-cli): goals -> Markdown export recipe ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19369",
+   "at": "2026-09-27T08:40:35Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19366",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): action items -> Linear (CSV) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19366",
+   "at": "2026-09-27T08:31:24Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "huyhoang2k5",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19366",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19366 [Bounty proposal] feat(python-cli): action items -> Linear (CSV) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19366",
+   "at": "2026-09-27T08:31:24Z",
+   "extra": {
+    "state": "open",
+    "author": "huyhoang2k5"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19363",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(action-item-tools): sanitize internal exception disclosure in action_item_tools ( proposed) (PR #18486)",
+   "url": "https://github.com/BasedHardware/omi/issues/19363",
+   "at": "2026-09-27T08:16:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "naufalfx805-source",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19363",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19363 [Bounty proposal] fix(action-item-tools): sanitize internal exception disclosure in action_item_tools ( proposed) (PR #18486)",
+   "url": "https://github.com/BasedHardware/omi/issues/19363",
+   "at": "2026-09-27T08:16:02Z",
+   "extra": {
+    "state": "open",
+    "author": "naufalfx805-source"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19360",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): memories -> Anki flashcards (.tsv) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19360",
+   "at": "2026-09-27T08:02:56Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "huyhoang2k5",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19360",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19360 [Bounty proposal] feat(python-cli): memories -> Anki flashcards (.tsv) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19360",
+   "at": "2026-09-27T08:02:56Z",
+   "extra": {
+    "state": "open",
+    "author": "huyhoang2k5"
+   }
+  },
+  {
+   "id": "https://github.com/picsoritdidnthappen/poidh-app/issues/1530",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "picsoritdidnthappen/poidh-app: Two open claims on poidh bounties 1406 and 1415 awaiting review",
+   "url": "https://github.com/picsoritdidnthappen/poidh-app/issues/1530",
+   "at": "2026-09-27T06:38:56Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "testies1234321-afk",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/jpfraneto/menloapp/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "jpfraneto/menloapp: poidh bounty 362: one-shot Menlo landing page submitted as an onchain claim",
+   "url": "https://github.com/jpfraneto/menloapp/issues/7",
+   "at": "2026-09-27T06:34:05Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "testies1234321-afk",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19346",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] Validate inputs and add resilience guards in database calendar meetings ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19346",
+   "at": "2026-09-27T06:19:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "ajin558",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19346",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19346 [Bounty Proposal] Validate inputs and add resilience guards in database calendar meetings ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19346",
+   "at": "2026-09-27T06:19:47Z",
+   "extra": {
+    "state": "open",
+    "author": "ajin558"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19341",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] Validate inputs and add resilience guards in database voice profiles ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19341",
+   "at": "2026-09-27T05:58:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "ajin558",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19341",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19341 [Bounty Proposal] Validate inputs and add resilience guards in database voice profiles ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19341",
+   "at": "2026-09-27T05:58:42Z",
+   "extra": {
+    "state": "open",
+    "author": "ajin558"
+   }
+  },
+  {
+   "id": "https://github.com/3a7i3/crypto-ia-terminal/issues/284",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "3a7i3/crypto-ia-terminal: AGENT-ECON-00 \u2014 \u00c9conomie d\u2019agents, Bounty Market et am\u00e9lioration autonome gouvern\u00e9e",
+   "url": "https://github.com/3a7i3/crypto-ia-terminal/issues/284",
+   "at": "2026-09-27T05:33:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "3a7i3",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/The-Swarm-Corporation/swarms-framework-docs/issues/255",
    "source": "github_search",
@@ -478,42 +966,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/19294",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19294 Bounty Proposal: Czech (cs) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19294",
-   "at": "2026-09-26T19:26:33Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19292",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19292 Bounty Proposal: Greek (el) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19292",
-   "at": "2026-09-26T19:24:34Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19290",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19290 Bounty Proposal: Turkish (tr) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19290",
-   "at": "2026-09-26T19:22:19Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
    "id": "https://github.com/devloot-xyz/devloot_discord_bot/issues/19",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -528,18 +980,6 @@
      "discord",
      "feature"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19288",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19288 Bounty Proposal: Arabic (ar) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19288",
-   "at": "2026-09-26T19:20:44Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
    }
   },
   {
@@ -598,54 +1038,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/19286",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19286 Bounty Proposal: Indonesian (id) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19286",
-   "at": "2026-09-26T19:11:22Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19281",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19281 Bounty Proposal: Russian (ru) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19281",
-   "at": "2026-09-26T19:09:41Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19279",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19279 Bounty Proposal: Hindi (hi) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19279",
-   "at": "2026-09-26T19:07:52Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19277",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19277 Bounty Proposal: Italian (it) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19277",
-   "at": "2026-09-26T19:06:11Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19275",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -668,18 +1060,6 @@
    "at": "2026-09-26T19:04:51Z",
    "extra": {
     "state": "open",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19273",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19273 Bounty Proposal: Spanish (es) Agent Quickstart Guide (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19273",
-   "at": "2026-09-26T19:03:33Z",
-   "extra": {
-    "state": "closed",
     "author": "brandonstensby-dotcom"
    }
   },
@@ -718,30 +1098,6 @@
    "title": "omi#19268 Bounty Proposal: Conversations -> JSONL Export Recipe (\\ USD)",
    "url": "https://github.com/BasedHardware/omi/issues/19268",
    "at": "2026-09-26T19:00:43Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19266",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19266 Bounty Proposal: Action Items -> JSONL Export Recipe (\\ USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/19266",
-   "at": "2026-09-26T18:58:51Z",
-   "extra": {
-    "state": "closed",
-    "author": "brandonstensby-dotcom"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19261",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19261 [Bounty proposal] feat(python-cli): memories -> SQLite export recipe ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19261",
-   "at": "2026-09-26T18:46:00Z",
    "extra": {
     "state": "closed",
     "author": "brandonstensby-dotcom"
@@ -887,7 +1243,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/19214",
    "at": "2026-09-26T15:27:34Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 50,
     "author": "ajin558",
     "labels": []
@@ -903,18 +1259,6 @@
    "extra": {
     "state": "open",
     "author": "ajin558"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19211",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19211 [Bounty proposal] feat(python-cli): goals -> SQLite export recipe ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19211",
-   "at": "2026-09-26T15:22:32Z",
-   "extra": {
-    "state": "closed",
-    "author": "arawnslab-hash"
    }
   },
   {
@@ -1043,20 +1387,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/57987",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#57987 [aw] CI Failure Triage (pilot) produced no safe outputs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/57987",
-   "at": "2026-09-26T10:50:42Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19139",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1125,30 +1455,6 @@
    "extra": {
     "state": "open",
     "author": "Ariyachan"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19117",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19117 [Bounty proposal] docs(cli): memories -> Markdown digest summary recipe ( -  proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19117",
-   "at": "2026-09-26T08:02:29Z",
-   "extra": {
-    "state": "closed",
-    "author": "OrderStream"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19115",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19115 [Bounty proposal] docs(cli): memories -> CSV export recipe ( -  proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19115",
-   "at": "2026-09-26T07:56:37Z",
-   "extra": {
-    "state": "closed",
-    "author": "OrderStream"
    }
   },
   {
@@ -1308,18 +1614,6 @@
    }
   },
   {
-   "id": "https://github.com/BasedHardware/omi/issues/19097",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19097 [Bounty proposal] docs(cli): goals -> CSV export recipe ( -  proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19097",
-   "at": "2026-09-26T07:08:36Z",
-   "extra": {
-    "state": "closed",
-    "author": "OrderStream"
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19094",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -1346,34 +1640,6 @@
    }
   },
   {
-   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1393",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MyZubster-Ecosystem/myzubster: Contributor bounty reconciliation \u2014 auditable BTC/XMR settlement and legacy MYZ claims",
-   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1393",
-   "at": "2026-09-26T05:27:14Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "danieldirimini-myzubster",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19080",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): goals -> Excel workbook (.xlsx) recipe ($25 - $50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19080",
-   "at": "2026-09-26T05:12:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "OrderStream",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19080",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1383,36 +1649,6 @@
    "extra": {
     "state": "open",
     "author": "OrderStream"
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/44",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-26: 0 new, 0 resumed, 3 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/44",
-   "at": "2026-09-26T04:59:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19058",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): action-items -> Apache Parquet dataset recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19058",
-   "at": "2026-09-26T02:57:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "ajin558",
-    "labels": []
    }
   },
   {
@@ -1429,20 +1665,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/19056",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): conversations -> Apache Parquet dataset recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19056",
-   "at": "2026-09-26T02:50:58Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "ajin558",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19056",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#19056 [Bounty proposal] docs(cli): conversations -> Apache Parquet dataset recipe ($25 proposed)",
@@ -1451,20 +1673,6 @@
    "extra": {
     "state": "open",
     "author": "ajin558"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19053",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] Validate inputs and use merge writes in database calendar meetings",
-   "url": "https://github.com/BasedHardware/omi/issues/19053",
-   "at": "2026-09-26T02:47:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ariyachan",
-    "labels": []
    }
   },
   {
@@ -1481,20 +1689,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/19050",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] Validate id and use merge writes in database apps and tester access",
-   "url": "https://github.com/BasedHardware/omi/issues/19050",
-   "at": "2026-09-26T02:42:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ariyachan",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19050",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#19050 [Bounty Proposal] Validate id and use merge writes in database apps and tester access",
@@ -1503,20 +1697,6 @@
    "extra": {
     "state": "open",
     "author": "Ariyachan"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19044",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] Populate snapshot id and use merge writes in database tasks",
-   "url": "https://github.com/BasedHardware/omi/issues/19044",
-   "at": "2026-09-26T02:33:49Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ariyachan",
-    "labels": []
    }
   },
   {
@@ -1533,20 +1713,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/19036",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] Guard category id lookup and make trend topic writes atomic",
-   "url": "https://github.com/BasedHardware/omi/issues/19036",
-   "at": "2026-09-26T02:04:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Ariyachan",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19036",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#19036 [Bounty Proposal] Guard category id lookup and make trend topic writes atomic",
@@ -1555,20 +1721,6 @@
    "extra": {
     "state": "open",
     "author": "Ariyachan"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19035",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(cli): memories -> Apache Parquet dataset recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19035",
-   "at": "2026-09-26T02:03:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "ajin558",
-    "labels": []
    }
   },
   {
@@ -1629,22 +1781,6 @@
      "EazyHood"
     ],
     "created": "2026-08-04T05:37:03Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "at": "2026-09-25T07:59:54Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-11T18:45:31Z"
    }
   }
  ],
