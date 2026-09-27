@@ -1,6 +1,236 @@
 {
- "generated_at": "2026-09-27T19:30:10Z",
+ "generated_at": "2026-09-27T22:47:00Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58057",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58057 Kimi-K3 test_mla_chunked_perf_check runs below its perf band since #55596",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58057",
+   "at": "2026-09-27T22:12:43Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sofiia7/ARC/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Sofiia7/ARC: Offer: a neutral, recomputable arbitrator for bounties with objective criteria",
+   "url": "https://github.com/Sofiia7/ARC/issues/4",
+   "at": "2026-09-27T22:10:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "vijaygopalbalasa",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/backend/issues/460",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/backend: BountiesService.expireOverdue() overwrites concurrently-advanced bounties to EXPIRED \u2014 read-then-save with no status re-check and no assertTransition",
+   "url": "https://github.com/MergeFi/backend/issues/460",
+   "at": "2026-09-27T21:59:04Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "chonilius",
+    "labels": [
+     "bug",
+     "very hard",
+     "architecture",
+     "Stellar Wave"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/theblockcade/stellarcade/issues/1343",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "theblockcade/stellarcade: Contract community-quest-bounty: add cooperative community raid quest pool contract",
+   "url": "https://github.com/theblockcade/stellarcade/issues/1343",
+   "at": "2026-09-27T21:58:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "CMI-James",
+    "labels": [
+     "enhancement",
+     "Contract",
+     "Medium",
+     "Soroban"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/MergeFi/frontend/issues/571",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MergeFi/frontend: useBountyStatus: a transient fetch failure mid-session silently swaps the live bounty for static fallbackBounty and fires a false onStatusChange",
+   "url": "https://github.com/MergeFi/frontend/issues/571",
+   "at": "2026-09-27T21:52:00Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "chonilius",
+    "labels": [
+     "bug",
+     "help wanted",
+     "very hard"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/owocki-bot/ai-bounty-board/issues/42",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "owocki-bot/ai-bounty-board: Bug: no bounty is claimable \u2014 /stats reports openBounties: 0 while /bounties lists \"open\" mirror records",
+   "url": "https://github.com/owocki-bot/ai-bounty-board/issues/42",
+   "at": "2026-09-27T21:47:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "baby-zack-agent",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/endless-sky/endless-sky/issues/12742",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "endless-sky/endless-sky: Issue: Bounty hunters attacking you with too high combat rating",
+   "url": "https://github.com/endless-sky/endless-sky/issues/12742",
+   "at": "2026-09-27T21:30:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ziproot",
+    "labels": [
+     "balance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/aibtcdev/landing-page/issues/1099",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "aibtcdev/landing-page: Bounties: unknown `status` values silently return the active set instead of a 400 (`status=zzzz` proves it)",
+   "url": "https://github.com/aibtcdev/landing-page/issues/1099",
+   "at": "2026-09-27T21:01:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "secret-mars",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58055",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58055 [aw] Failed jobs: Silencer (tt-metal)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58055",
+   "at": "2026-09-27T20:53:06Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/IcanBENCHurCAT/algo-bounty/issues/171",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "IcanBENCHurCAT/algo-bounty: [Legal/Compliance] Bounty Terms \u2014 Missing Legal Enforceability",
+   "url": "https://github.com/IcanBENCHurCAT/algo-bounty/issues/171",
+   "at": "2026-09-27T20:15:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "IcanBENCHurCAT",
+    "labels": [
+     "priority:high",
+     "legal"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/IcanBENCHurCAT/algo-bounty/issues/166",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "IcanBENCHurCAT/algo-bounty: [Scam] Bounty Spam \u2014 No Cost to Create, High Reward for Fraud",
+   "url": "https://github.com/IcanBENCHurCAT/algo-bounty/issues/166",
+   "at": "2026-09-27T20:13:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "IcanBENCHurCAT",
+    "labels": [
+     "scam",
+     "priority:high"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58052",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58052 [aw] CI Failure Triage (pilot) produced no safe outputs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58052",
+   "at": "2026-09-27T20:11:18Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1251",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1241",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1251",
+   "at": "2026-09-27T20:08:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "SPLURT-Station-Bot",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/The-Swarm-Corporation/swarms-framework-docs/issues/263",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "The-Swarm-Corporation/swarms-framework-docs: SpreadSheetSwarm CSV example appends duplicate agents; focused docs bounty inquiry",
+   "url": "https://github.com/The-Swarm-Corporation/swarms-framework-docs/issues/263",
+   "at": "2026-09-27T19:56:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dtdnetizen",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58051",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58051 TensorArgument 'actual_end' must reference a MeshTensor reachable from tensor_args / tensor_return_value, or one of the factory's op_owned_tensors",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58051",
+   "at": "2026-09-27T19:53:30Z",
+   "extra": {
+    "author": "kgrujcic-tt",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/pizzaguyapprentice/high-noon/issues/4",
    "source": "github_search",
@@ -1145,26 +1375,6 @@
    }
   },
   {
-   "id": "https://github.com/theblockcade/stellarcade/issues/1306",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "theblockcade/stellarcade: Contract time-trial-bounty: add speedrun time-trial verified submission bounty vault",
-   "url": "https://github.com/theblockcade/stellarcade/issues/1306",
-   "at": "2026-09-26T21:17:23Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "CMI-James",
-    "labels": [
-     "enhancement",
-     "Contract",
-     "Stellar Wave",
-     "Medium",
-     "Soroban"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/xpex-systems-ai/GXEON-Wallet-Command-Center/issues/3",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1176,41 +1386,6 @@
     "amount_usd": null,
     "author": "xpex-systems-ai",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58007",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58007 [aw] Failed jobs: Silencer (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58007",
-   "at": "2026-09-26T20:56:23Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/killerboyyy777/Machine-Learning-mmo/issues/374",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "killerboyyy777/Machine-Learning-mmo: Bughunt: economy findings (prune, fees, death credit, bounties, collusion)",
-   "url": "https://github.com/killerboyyy777/Machine-Learning-mmo/issues/374",
-   "at": "2026-09-26T20:39:14Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "killerboyyy777",
-    "labels": [
-     "bug",
-     "P2",
-     "M",
-     "area:server",
-     "area:market",
-     "balance"
-    ]
    }
   },
   {
@@ -1396,99 +1571,6 @@
    }
   },
   {
-   "id": "https://github.com/asentum-network/asentum-explorer/issues/36",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "asentum-network/asentum-explorer: Bug bounties: comment your airdrop username on your issue",
-   "url": "https://github.com/asentum-network/asentum-explorer/issues/36",
-   "at": "2026-09-26T18:12:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "jugs-eth",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/yetanotheridentifier/dmgCtrl/issues/710",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "yetanotheridentifier/dmgCtrl: feat/sealed-mech-bounty-again: react to a Bounty collection, once each round",
-   "url": "https://github.com/yetanotheridentifier/dmgCtrl/issues/710",
-   "at": "2026-09-26T18:11:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "yetanotheridentifier",
-    "labels": [
-     "enhancement"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/emmanuelist/curb/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "emmanuelist/curb: Capture bounty requirements verbatim",
-   "url": "https://github.com/emmanuelist/curb/issues/5",
-   "at": "2026-09-26T17:13:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "emmanuelist",
-    "labels": [
-     "type:proof",
-     "p0",
-     "blocked"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Grainlify/grainlify-agent-sandbox/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Grainlify/grainlify-agent-sandbox: [TEST BOUNTY] README and GREETING still say devnet, but bounties here now pay real USDC",
-   "url": "https://github.com/Grainlify/grainlify-agent-sandbox/issues/3",
-   "at": "2026-09-26T17:09:54Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Jagadeeshftw",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dark-princezz/stellar-hooks/issues/865",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dark-princezz/stellar-hooks: Set up a bounty program for `good first issue` items",
-   "url": "https://github.com/dark-princezz/stellar-hooks/issues/865",
-   "at": "2026-09-26T15:52:04Z",
-   "extra": {
-    "comments": 5,
-    "amount_usd": null,
-    "author": "gloriaelishahabu",
-    "labels": [
-     "Stellar Wave",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19223",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] docs(python-cli): memories -> Atom feed recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19223",
-   "at": "2026-09-26T15:48:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 25,
-    "author": "pyfile-toolkit",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19223",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1498,34 +1580,6 @@
    "extra": {
     "state": "open",
     "author": "pyfile-toolkit"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19214",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): add error boundaries, sanitization, and unit tests in auto model router ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19214",
-   "at": "2026-09-26T15:27:34Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "ajin558",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19203",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): add error boundaries, validation, and sanitization in workstreams router ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19203",
-   "at": "2026-09-26T15:03:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "ajin558",
-    "labels": []
    }
   },
   {
