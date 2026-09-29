@@ -1,6 +1,356 @@
 {
- "generated_at": "2026-09-28T21:33:35Z",
+ "generated_at": "2026-09-29T01:26:52Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58266",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58266 force user to specify -mcpu",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58266",
+   "at": "2026-09-29T01:19:07Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58264",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58264 Runtime FW Init Hang on Galaxies",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58264",
+   "at": "2026-09-29T01:00:00Z",
+   "extra": {
+    "author": "sidnadTT",
+    "labels": [
+     "bug",
+     "Identified By: Runtime"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/64",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "OmniBlocks/bountyfarmer: $9110988 BOUNTY FOR IMPLEMENTING ORKUT 2 INTO OMNIBLOCKS",
+   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/64",
+   "at": "2026-09-29T00:57:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 9110988,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/UniversalAviator420/bounty-sandbox/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "UniversalAviator420/bounty-sandbox: Bug: add() subtracts instead of adding",
+   "url": "https://github.com/UniversalAviator420/bounty-sandbox/issues/5",
+   "at": "2026-09-29T00:56:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "UniversalAviator420",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19683",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(retrieval): safely deserialize Person records in LLM and retrieval tools ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19683",
+   "at": "2026-09-29T00:52:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19683",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19683 [Bounty proposal] fix(retrieval): safely deserialize Person records in LLM and retrieval tools ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19683",
+   "at": "2026-09-29T00:52:09Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1698",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1698",
+   "at": "2026-09-29T00:37:17Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 1,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1697",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1697",
+   "at": "2026-09-29T00:37:16Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 1,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/killerboyyy777/Machine-Learning-mmo/issues/406",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "killerboyyy777/Machine-Learning-mmo: Soak: delver quest vs guild bounties compete, quest side losing",
+   "url": "https://github.com/killerboyyy777/Machine-Learning-mmo/issues/406",
+   "at": "2026-09-29T00:25:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "killerboyyy777",
+    "labels": [
+     "enhancement",
+     "P2",
+     "M",
+     "area:server",
+     "balance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58261",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58261 [Bug] Llama 3.3-70B Galaxy prefill 2x slower at long context since #57180 (accurate SDPA exp on the fp32-dest path); prefix-caching benchmark red on every host",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58261",
+   "at": "2026-09-28T23:58:56Z",
+   "extra": {
+    "author": "mtairum",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/52",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-28: 0 new, 0 resumed, 4 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/52",
+   "at": "2026-09-28T23:28:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58253",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58253 [BEVFormer] Remove the fused-MSDA reader scatter and serve value from L1",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58253",
+   "at": "2026-09-28T23:21:37Z",
+   "extra": {
+    "author": "ctr-mmicicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "BEVFormer"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/RyRy79261/baumy-olympics/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RyRy79261/baumy-olympics: feat(web): add and edit bounties from the Bounties page",
+   "url": "https://github.com/RyRy79261/baumy-olympics/issues/109",
+   "at": "2026-09-28T23:21:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "RyRy79261",
+    "labels": [
+     "type:feat"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/RyRy79261/baumy-olympics/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RyRy79261/baumy-olympics: feat(ai): let Baumy create and edit bounties and add to the pot",
+   "url": "https://github.com/RyRy79261/baumy-olympics/issues/107",
+   "at": "2026-09-28T23:10:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "RyRy79261",
+    "labels": [
+     "area:brain",
+     "type:feat"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58245",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58245 Non-atomic tensor-cache writes: DP ranks race on shared empty-KV cache files and crash in memcpy_to_device on first boot",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58245",
+   "at": "2026-09-28T22:49:17Z",
+   "extra": {
+    "author": "arginugaTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19664",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(meetings): meeting notes read the legacy memory store and miss canonical memories ($25-50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19664",
+   "at": "2026-09-28T22:28:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19664",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19664 [Bounty Proposal] fix(meetings): meeting notes read the legacy memory store and miss canonical memories ($25-50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19664",
+   "at": "2026-09-28T22:28:43Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/Rotwood-Vale/Ratwood-2.0/issues/2934",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Rotwood-Vale/Ratwood-2.0: [BUG] Enchanted bounty scrolls don't update",
+   "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/issues/2934",
+   "at": "2026-09-28T21:55:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "LostLittleMeowMeow",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58229",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58229 [Bounty $3k] Fix u32-to-fp32 double rounding in typecast",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58229",
+   "at": "2026-09-28T21:50:43Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "jasondavies"
+    ],
+    "created": "2026-09-28T21:27:32Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58228",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58228 [Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58228",
+   "at": "2026-09-28T21:50:28Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "jasondavies"
+    ],
+    "created": "2026-09-28T21:27:15Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58227",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58227 [Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58227",
+   "at": "2026-09-28T21:50:11Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "jasondavies"
+    ],
+    "created": "2026-09-28T21:27:00Z"
+   }
+  },
+  {
+   "id": "https://github.com/UniversalAviator420/bounty-sandbox/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "UniversalAviator420/bounty-sandbox: Bug: greet() crashes with AttributeError when name is None",
+   "url": "https://github.com/UniversalAviator420/bounty-sandbox/issues/3",
+   "at": "2026-09-28T21:49:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "UniversalAviator420",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/51",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-28: 0 new, 1 resumed, 12 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/51",
+   "at": "2026-09-28T21:36:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/49307",
    "source": "tenstorrent",
@@ -19,30 +369,19 @@
   },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58229",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58229 [Bounty $3k] Fix u32-to-fp32 double rounding in typecast",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "tenstorrent/tt-metal: [Bounty $3k] Fix u32-to-fp32 double rounding in typecast",
    "url": "https://github.com/tenstorrent/tt-metal/issues/58229",
-   "at": "2026-09-28T21:28:35Z",
+   "at": "2026-09-28T21:27:32Z",
    "extra": {
-    "state": "OPEN",
+    "comments": 2,
+    "amount_usd": null,
     "author": "jberkowitzTT",
-    "assignees": [],
-    "created": "2026-09-28T21:27:32Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58228",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58228 [Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58228",
-   "at": "2026-09-28T21:28:15Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [],
-    "created": "2026-09-28T21:27:15Z"
+    "labels": [
+     "bounty",
+     "bounty_difficulty/medium"
+    ]
    }
   },
   {
@@ -53,6 +392,23 @@
    "url": "https://github.com/tenstorrent/tt-metal/issues/58229",
    "at": "2026-09-28T21:27:32Z",
    "extra": {
+    "author": "jberkowitzTT",
+    "labels": [
+     "bounty",
+     "bounty_difficulty/medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58228",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "tenstorrent/tt-metal: [Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58228",
+   "at": "2026-09-28T21:27:15Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 1,
     "author": "jberkowitzTT",
     "labels": [
      "bounty",
@@ -77,6 +433,23 @@
   },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58227",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "tenstorrent/tt-metal: [Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58227",
+   "at": "2026-09-28T21:27:00Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": 1,
+    "author": "jberkowitzTT",
+    "labels": [
+     "bounty",
+     "bounty_difficulty/medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58227",
    "source": "tenstorrent",
    "kind": "tt_issue",
    "title": "tt-metal#58227 [Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
@@ -84,7 +457,29 @@
    "at": "2026-09-28T21:27:00Z",
    "extra": {
     "author": "jberkowitzTT",
-    "labels": []
+    "labels": [
+     "bounty",
+     "bounty_difficulty/medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/123137c3d4f760abc960603720397f86e66a021b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Add a check for unbalanced Tensix mutex acquire/release (#56367)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/123137c3d4f760abc960603720397f86e66a021b",
+   "at": "2026-09-28T21:09:34Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/infra/check_mutex_balance.py",
+     "tt_metal/tt-llk/infra/tests/test_check_mutex_balance.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/infra/check_mutex_balance.py",
+     "tt_metal/tt-llk/infra/tests/test_check_mutex_balance.py"
+    ],
+    "author": "amahmudTT"
    }
   },
   {
@@ -100,6 +495,43 @@
      "op_cat: eltwise",
      "Quasar"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/044276cd20d3579c3b12b476a28ac92f8ed4c6e0",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Pin math dest offset in 32-bit unpack-to-dest datacopy branch (#56932)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/044276cd20d3579c3b12b476a28ac92f8ed4c6e0",
+   "at": "2026-09-28T19:56:19Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_math_eltwise_unary_datacopy.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_math_eltwise_unary_datacopy.h"
+    ],
+    "added": [],
+    "author": "awliu-TT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e563b85c7695630c62be70e5c442cef4d5fed241",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "Implemented INT32 -> FP16b Typecast (#56911)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e563b85c7695630c62be70e5c442cef4d5fed241",
+   "at": "2026-09-28T19:19:22Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_typecast.h",
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_unary_sfpu_quasar.py",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_sfpu.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_typecast_int32_fp16b.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_typecast_int32_fp16b.h"
+    ],
+    "author": "vkhullarTT"
    }
   },
   {
@@ -127,6 +559,22 @@
     "author": "bbradelTT",
     "labels": [
      "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/dseelinger/d47/issues/639",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "dseelinger/d47: Unpaid fines and bounties said on arrival",
+   "url": "https://github.com/dseelinger/d47/issues/639",
+   "at": "2026-09-28T18:30:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dseelinger",
+    "labels": [
+     "enhancement"
     ]
    }
   },
@@ -168,6 +616,20 @@
     "labels": [
      "op_cat: mm"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/xentac/FFScouter/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "xentac/FFScouter: Add support for new FF Scouter bounty board",
+   "url": "https://github.com/xentac/FFScouter/issues/7",
+   "at": "2026-09-28T18:19:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "xentac",
+    "labels": []
    }
   },
   {
@@ -262,6 +724,52 @@
    }
   },
   {
+   "id": "https://github.com/MateusKasuya/spqtc-tournament-manager/issues/86",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MateusKasuya/spqtc-tournament-manager: Pain\u00e9is da mesa: painel Bounty em jogo e card renomeado",
+   "url": "https://github.com/MateusKasuya/spqtc-tournament-manager/issues/86",
+   "at": "2026-09-28T17:27:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "MateusKasuya",
+    "labels": [
+     "ready-for-agent"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/MateusKasuya/spqtc-tournament-manager/issues/75",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MateusKasuya/spqtc-tournament-manager: spec: Pain\u00e9is da Mesa ao vivo (cards toc\u00e1veis com o detalhe de Jogadores, Stack m\u00e9dio, Fichas em jogo, Prize pool, Bounty em jogo e N\u00edvel)",
+   "url": "https://github.com/MateusKasuya/spqtc-tournament-manager/issues/75",
+   "at": "2026-09-28T17:01:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "MateusKasuya",
+    "labels": [
+     "ready-for-agent"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/verdikta/verdikta-applications/issues/47",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "verdikta/verdikta-applications: Bounty API: accept smart-wallet (EIP-1271) creator signatures on PATCH /jobs/:id/public-submissions",
+   "url": "https://github.com/verdikta/verdikta-applications/issues/47",
+   "at": "2026-09-28T16:55:46Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "nigelon11",
+    "labels": []
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/136484cbda440cc8e6672d1c2d45cf3c787745ef",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -333,6 +841,32 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/issues/19624",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): conversations -> GeoJSON export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19624",
+   "at": "2026-09-28T15:47:32Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "huyhoang2k5",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19624",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19624 [Bounty proposal] feat(python-cli): conversations -> GeoJSON export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19624",
+   "at": "2026-09-28T15:47:32Z",
+   "extra": {
+    "state": "open",
+    "author": "huyhoang2k5"
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/9b527ec433cedb6201b781e20e6b32f1af3e4c0d",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -346,6 +880,46 @@
     ],
     "added": [],
     "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/Space-Nebula/stellar-nebula-nomad/issues/520",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Space-Nebula/stellar-nebula-nomad: Create automated bug bounty system with severity-based rewards",
+   "url": "https://github.com/Space-Nebula/stellar-nebula-nomad/issues/520",
+   "at": "2026-09-28T15:19:59Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "parkerwinner",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19617",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: Bounty Proposal: Sanitize Unexpected Exception Leakage in Web Retrieval Tool",
+   "url": "https://github.com/BasedHardware/omi/issues/19617",
+   "at": "2026-09-28T15:05:01Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "naufalfx805-source",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19617",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19617 Bounty Proposal: Sanitize Unexpected Exception Leakage in Web Retrieval Tool",
+   "url": "https://github.com/BasedHardware/omi/issues/19617",
+   "at": "2026-09-28T15:05:01Z",
+   "extra": {
+    "state": "open",
+    "author": "naufalfx805-source"
    }
   },
   {
@@ -452,7 +1026,7 @@
    "id": "https://github.com/tenstorrent/tt-metal/issues/58148",
    "source": "tenstorrent",
    "kind": "tt_issue",
-   "title": "tt-metal#58148 [Bug] #57252 (UMD bump 21.09.2026 + relaxed DRAM write ordering) wedges Blackhole devices under the profiler build: MMIO per-op timeout at open/teardown, every BH device-perf leg red since 09-26",
+   "title": "tt-metal#58148 [Bug] tt-umd #3396 (Remove TLBManager), landed via UMD bump #57252, wedges Blackhole devices under the profiler build: every BH device-perf leg red since 2026-09-26",
    "url": "https://github.com/tenstorrent/tt-metal/issues/58148",
    "at": "2026-09-28T14:11:11Z",
    "extra": {
@@ -512,6 +1086,36 @@
    }
   },
   {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/50",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-28: 0 new, 0 resumed, 4 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/50",
+   "at": "2026-09-28T13:55:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/yohann-dev/gitfees-demo/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "yohann-dev/gitfees-demo: test bounty",
+   "url": "https://github.com/yohann-dev/gitfees-demo/issues/1",
+   "at": "2026-09-28T13:54:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "yohann-dev",
+    "labels": []
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/9a34f7b1f90e227c2d6c27332cd1a4a4cbbbb828",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -533,6 +1137,32 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/issues/19606",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: Bounty Proposal: Sanitize Exception & Information Disclosure in Phone Calls Router",
+   "url": "https://github.com/BasedHardware/omi/issues/19606",
+   "at": "2026-09-28T13:47:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "naufalfx805-source",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19606",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19606 Bounty Proposal: Sanitize Exception & Information Disclosure in Phone Calls Router",
+   "url": "https://github.com/BasedHardware/omi/issues/19606",
+   "at": "2026-09-28T13:47:19Z",
+   "extra": {
+    "state": "open",
+    "author": "naufalfx805-source"
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58145",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -542,6 +1172,22 @@
    "extra": {
     "author": "ndivnicTT",
     "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/szpak-dev/enclosure/issues/233",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "szpak-dev/enclosure: Bug bounty: bring Enclosure architecture conformance to green",
+   "url": "https://github.com/szpak-dev/enclosure/issues/233",
+   "at": "2026-09-28T13:44:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "9orky",
+    "labels": [
+     "bug"
+    ]
    }
   },
   {
@@ -767,6 +1413,32 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/issues/19598",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): validate inputs and add resilience guards in database fair use ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19598",
+   "at": "2026-09-28T12:26:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "ajin558",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19598",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19598 [Bounty proposal] fix(backend): validate inputs and add resilience guards in database fair use ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19598",
+   "at": "2026-09-28T12:26:56Z",
+   "extra": {
+    "state": "open",
+    "author": "ajin558"
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/64f11461e3681cf5b0c928f33335e737f41cba87",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -798,6 +1470,32 @@
     ],
     "added": [],
     "author": "markoradosavljevicTT"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19596",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): validate inputs and add resilience guards in database daily summaries ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19596",
+   "at": "2026-09-28T12:09:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "ajin558",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19596",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19596 [Bounty proposal] fix(backend): validate inputs and add resilience guards in database daily summaries ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19596",
+   "at": "2026-09-28T12:09:53Z",
+   "extra": {
+    "state": "open",
+    "author": "ajin558"
    }
   },
   {
@@ -849,19 +1547,29 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58110",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58110 [BEVFormer] Read fused-MSDA bilinear corners in horizontal pairs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58110",
-   "at": "2026-09-28T11:40:48Z",
+   "id": "https://github.com/BasedHardware/omi/issues/19590",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend/action_items): sanitize task link resolver unavailable error reflections ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19590",
+   "at": "2026-09-28T11:45:28Z",
    "extra": {
-    "author": "ctr-mmicicTT",
-    "labels": [
-     "blackhole",
-     "perf",
-     "BEVFormer"
-    ]
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "ajin558",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19590",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19590 [Bounty proposal] fix(backend/action_items): sanitize task link resolver unavailable error reflections ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19590",
+   "at": "2026-09-28T11:45:28Z",
+   "extra": {
+    "state": "open",
+    "author": "ajin558"
    }
   },
   {
@@ -881,6 +1589,64 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/issues/19581",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(chat): chat-file multi-writers exceed Firestore's 500-write batch limit ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19581",
+   "at": "2026-09-28T11:21:13Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19581",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19581 [Bounty Proposal] fix(chat): chat-file multi-writers exceed Firestore's 500-write batch limit ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19581",
+   "at": "2026-09-28T11:21:13Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/48",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-09-28: 2 changes across 2 bounty programs",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/48",
+   "at": "2026-09-28T11:15:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/47",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-28: 0 new, 2 resumed, 4 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/47",
+   "at": "2026-09-28T11:15:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58103",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -891,6 +1657,91 @@
     "author": "imichalakTT",
     "labels": [
      "feature"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/cosimochellini/one-piece-zero-spoiler/issues/115",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "cosimochellini/one-piece-zero-spoiler: Lola's record is dated too early (threshold, affiliation, epithet, bounty)",
+   "url": "https://github.com/cosimochellini/one-piece-zero-spoiler/issues/115",
+   "at": "2026-09-28T09:51:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "cosimochellini",
+    "labels": [
+     "content"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19561",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(chat): send path 500s on a malformed stored attachment ($25-50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19561",
+   "at": "2026-09-28T09:33:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19561",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19561 [Bounty Proposal] fix(chat): send path 500s on a malformed stored attachment ($25-50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19561",
+   "at": "2026-09-28T09:33:42Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19559",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(chat): message-list routes 500 on one malformed stored row ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19559",
+   "at": "2026-09-28T09:30:54Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19559",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19559 [Bounty Proposal] fix(chat): message-list routes 500 on one malformed stored row ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19559",
+   "at": "2026-09-28T09:30:54Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/DelegoLabs/Delego-contracts/issues/316",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "DelegoLabs/Delego-contracts: Implement Automated Storage TTL Keeper Bounty System",
+   "url": "https://github.com/DelegoLabs/Delego-contracts/issues/316",
+   "at": "2026-09-28T08:42:46Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "ScriptedBro",
+    "labels": [
+     "contracts",
+     "Stellar Wave"
     ]
    }
   },
@@ -967,6 +1818,32 @@
    }
   },
   {
+   "id": "https://github.com/BasedHardware/omi/issues/19536",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(action-items): drop explicit-null required fields and heal legacy corrupt docs ( -  USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/19536",
+   "at": "2026-09-28T07:18:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19536",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19536 [Bounty Proposal] fix(action-items): drop explicit-null required fields and heal legacy corrupt docs ( -  USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/19536",
+   "at": "2026-09-28T07:18:26Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58088",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -992,6 +1869,72 @@
     "labels": [
      "agentic-workflows"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/RandyKnapp/ValheimMods/issues/755",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RandyKnapp/ValheimMods: Suggestion: Config option to spawn bounties/treasures near explored areas",
+   "url": "https://github.com/RandyKnapp/ValheimMods/issues/755",
+   "at": "2026-09-28T07:09:54Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "alzy27",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19532",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): goals -> Org-mode export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19532",
+   "at": "2026-09-28T07:05:06Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "antrinhht",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19532",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19532 [Bounty proposal] feat(python-cli): goals -> Org-mode export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19532",
+   "at": "2026-09-28T07:05:06Z",
+   "extra": {
+    "state": "open",
+    "author": "antrinhht"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19529",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): memories -> Org-mode export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19529",
+   "at": "2026-09-28T06:50:45Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "antrinhht",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19529",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19529 [Bounty proposal] feat(python-cli): memories -> Org-mode export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19529",
+   "at": "2026-09-28T06:50:45Z",
+   "extra": {
+    "state": "open",
+    "author": "antrinhht"
    }
   },
   {
@@ -1025,6 +1968,90 @@
    }
   },
   {
+   "id": "https://github.com/ariahendrawan-sudo/project-a/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ariahendrawan-sudo/project-a: Bounty Scout \u2014 2026-09-28",
+   "url": "https://github.com/ariahendrawan-sudo/project-a/issues/5",
+   "at": "2026-09-28T05:54:16Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-scout"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19522",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): conversations -> Org-mode export recipe ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19522",
+   "at": "2026-09-28T05:53:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "antrinhht",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19522",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19522 [Bounty proposal] feat(python-cli): conversations -> Org-mode export recipe ( proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19522",
+   "at": "2026-09-28T05:53:11Z",
+   "extra": {
+    "state": "open",
+    "author": "antrinhht"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19519",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(memories): sanitize internal exception detail in batch-delete 413 response ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19519",
+   "at": "2026-09-28T05:50:26Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 25,
+    "author": "1132dadf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19519",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19519 [Bounty Proposal] fix(memories): sanitize internal exception detail in batch-delete 413 response ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19519",
+   "at": "2026-09-28T05:50:26Z",
+   "extra": {
+    "state": "open",
+    "author": "1132dadf"
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/46",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-28: 0 new, 0 resumed, 1 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/46",
+   "at": "2026-09-28T05:23:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58077",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -1041,121 +2068,145 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58070",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58070 Metalium public API (tt_metal/api/) include hygiene \u2014 IWYU findings",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58070",
-   "at": "2026-09-28T01:03:32Z",
+   "id": "https://github.com/BasedHardware/omi/issues/19512",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): action items -> Asana (CSV) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19512",
+   "at": "2026-09-28T04:59:27Z",
    "extra": {
-    "author": "blozano-tt",
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "huyhoang2k5",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19512",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19512 [Bounty proposal] feat(python-cli): action items -> Asana (CSV) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19512",
+   "at": "2026-09-28T04:59:27Z",
+   "extra": {
+    "state": "open",
+    "author": "huyhoang2k5"
+   }
+  },
+  {
+   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1253",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1244",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1253",
+   "at": "2026-09-28T04:58:07Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "SPLURT-Station-Bot",
     "labels": [
-     "infra-ci"
+     "bounty"
     ]
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58066",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58066 LLK perf report loses rows when a worker runs a test module in more than one chunk",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58066",
-   "at": "2026-09-28T00:43:53Z",
+   "id": "https://github.com/BasedHardware/omi/issues/19510",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): conversations -> Podcast RSS 2.0 export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19510",
+   "at": "2026-09-28T04:51:53Z",
    "extra": {
-    "author": "mvlahovicTT",
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "huyhoang2k5",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19510",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19510 [Bounty proposal] feat(python-cli): conversations -> Podcast RSS 2.0 export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19510",
+   "at": "2026-09-28T04:51:53Z",
+   "extra": {
+    "state": "open",
+    "author": "huyhoang2k5"
+   }
+  },
+  {
+   "id": "https://github.com/enaqx/awesome-pentest/issues/721",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "enaqx/awesome-pentest: Add recon pipeline lite for lite bug  bounty recon",
+   "url": "https://github.com/enaqx/awesome-pentest/issues/721",
+   "at": "2026-09-28T02:29:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "numbpill3d",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19503",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(folders): safe folder deserialization in folders and developer API endpoints ( -  USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/19503",
+   "at": "2026-09-28T02:26:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "gewenbo888",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19503",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19503 [Bounty Proposal] fix(folders): safe folder deserialization in folders and developer API endpoints ( -  USDC)",
+   "url": "https://github.com/BasedHardware/omi/issues/19503",
+   "at": "2026-09-28T02:26:56Z",
+   "extra": {
+    "state": "open",
+    "author": "gewenbo888"
+   }
+  },
+  {
+   "id": "https://github.com/ariahendrawan-sudo/project-a/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ariahendrawan-sudo/project-a: Bounty Scout \u2014 2026-09-28",
+   "url": "https://github.com/ariahendrawan-sudo/project-a/issues/4",
+   "at": "2026-09-28T00:55:54Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
     "labels": [
-     "bug"
+     "bounty-scout"
     ]
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58067",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58067 perf_fast_untilize: the isolate run types skip the uninits and leave a packer stride for the next kernel",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58067",
-   "at": "2026-09-28T00:43:53Z",
+   "id": "https://github.com/ariahendrawan-sudo/project-a/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ariahendrawan-sudo/project-a: Bounty Scout \u2014 2026-09-28",
+   "url": "https://github.com/ariahendrawan-sudo/project-a/issues/2",
+   "at": "2026-09-28T00:30:10Z",
    "extra": {
-    "author": "mvlahovicTT",
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
     "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58065",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58065 LLK profiler: the zone start record is stored inside the measured window",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58065",
-   "at": "2026-09-28T00:43:52Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58064",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58064 LLK perf tests: TRISC timing depends on the code address, and harness changes move every kernel",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58064",
-   "at": "2026-09-28T00:43:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58061",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58061 [SFPI] Quasar: vFloat a != b is false when b == -a (integer difference tested with the FP32 SFPSETCC format bit)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58061",
-   "at": "2026-09-27T23:18:32Z",
-   "extra": {
-    "author": "amahmudTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/86cc272f8697e44d03f811ce08edf6c9d38092c5",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "chore: update ttsim-version to 1.10.10 (#58059)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/86cc272f8697e44d03f811ce08edf6c9d38092c5",
-   "at": "2026-09-27T23:14:40Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/ttsim-version"
-    ],
-    "added": [],
-    "author": "fvranicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58057",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58057 Kimi-K3 test_mla_chunked_perf_check runs below its perf band since #55596",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58057",
-   "at": "2026-09-27T22:12:43Z",
-   "extra": {
-    "author": "kgrujcic-tt",
-    "labels": [
-     "bug"
+     "bounty-scout"
     ]
    }
   }
  ],
- "errors": [
-  "new_bounty_issues: gh search issues bounty in:title: HTTP 403: You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitH",
-  "omi_activity: gh search issues --repo: HTTP 403: You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitH"
- ]
+ "errors": []
 }
