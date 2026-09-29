@@ -1,6 +1,277 @@
 {
- "generated_at": "2026-09-29T19:32:38Z",
+ "generated_at": "2026-09-29T23:24:40Z",
  "events": [
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1703",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1703",
+   "at": "2026-09-29T22:37:03Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 750,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 9 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/11",
+   "at": "2026-09-29T22:20:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/57",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-29: 1 new, 0 resumed, 5 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/57",
+   "at": "2026-09-29T22:18:13Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58503",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58503 SPDA + GeLU optimization",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58503",
+   "at": "2026-09-29T22:07:29Z",
+   "extra": {
+    "author": "avelickovTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/22aa2b4c383d994be5824fcebc8e8557db684e8d",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "Add /bug-audit skill: exhaustive, knowledge-weighted bug audit (#57985)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/22aa2b4c383d994be5824fcebc8e8557db684e8d",
+   "at": "2026-09-29T21:32:26Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/.claude/skills/bug-audit/SKILL.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/audit-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/bench.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/common.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/consolidate.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/dedup-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/dedup.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/disposition.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/exec_tier.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/filed-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/filed_check.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/fix-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/fixes.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/init_run.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/judge-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/next_wave.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/persist_wave.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/run_headless.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/run_workflow_headless.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/siblings.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/spawn.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/status.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/deep-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/distill-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/distill.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/fetch_repo.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/fetch_reviews.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/fetch_search.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/holdout-screen-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/make_cases.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/make_chunks.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/make_review_chunks.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/marker.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/persist_mining.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/review-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/select.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/synthesize.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/.claude/skills/bug-audit/SKILL.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/audit-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/bench.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/common.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/consolidate.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/dedup-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/dedup.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/disposition.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/exec_tier.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/filed-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/filed_check.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/fix-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/fixes.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/init_run.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/judge-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/next_wave.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/persist_wave.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/run_headless.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/run_workflow_headless.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/siblings.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/spawn.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/status.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/deep-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/distill-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/distill.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/fetch_repo.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/fetch_reviews.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/fetch_search.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/holdout-screen-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/make_cases.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/make_chunks.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/make_review_chunks.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/marker.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/persist_mining.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/review-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/select.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/synthesize.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/triage-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-llk-detail-1.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-llk-holdout.jsonl",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-llk.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-llk.mined.json",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-metal-detail-1.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-metal-detail-2.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-metal-holdout-v2.jsonl",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-metal-holdout.jsonl",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-metal.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/packs/tt-metal.mined.json",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/references/classes-tenstorrent.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/references/classes-universal.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/references/measurement-history.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/tests/test_engine.py"
+    ],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19850",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): validate identifiers, clamp boundaries, and add transaction retry in recording_sessions ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19850",
+   "at": "2026-09-29T20:57:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "shitobu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/19850",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#19850 [Bounty proposal] fix(backend): validate identifiers, clamp boundaries, and add transaction retry in recording_sessions ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/19850",
+   "at": "2026-09-29T20:57:29Z",
+   "extra": {
+    "state": "open",
+    "author": "shitobu"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58495 [Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
+   "at": "2026-09-29T20:32:54Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "singhharsh1708"
+    ],
+    "created": "2026-09-29T20:22:48Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "tenstorrent/tt-metal: [Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
+   "at": "2026-09-29T20:22:48Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": 750,
+    "author": "jberkowitzTT",
+    "labels": [
+     "bounty",
+     "bounty_difficulty/easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58495 [Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
+   "at": "2026-09-29T20:22:48Z",
+   "extra": {
+    "author": "jberkowitzTT",
+    "labels": [
+     "bounty",
+     "bounty_difficulty/easy"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58494",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58494 Eager `value_or(create_...)` allocates device resources even when the caller supplies them",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58494",
+   "at": "2026-09-29T20:10:45Z",
+   "extra": {
+    "author": "brnorris03",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58488",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58488 [Quasar] quasar matmul compute kernel trips the pack re-init guard (pack_block into cb_out without pack_init) \u2014 test_linear_small_grid aborts with TT_METAL_LLK_ASSERTS=1",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58488",
+   "at": "2026-09-29T19:34:43Z",
+   "extra": {
+    "author": "vsureshTT",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
   {
    "id": "https://github.com/uknwplayer/BountyScout/issues/9",
    "source": "github_search",
@@ -1072,23 +1343,6 @@
    "extra": {
     "state": "open",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/orphic-inc/stellar-api/issues/755",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "orphic-inc/stellar-api: Request surfaces skip community access: 7 writes, bounty history, and createRequest's communityId",
-   "url": "https://github.com/orphic-inc/stellar-api/issues/755",
-   "at": "2026-09-29T12:28:36Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "obrien-k",
-    "labels": [
-     "bug",
-     "ready-for-agent"
-    ]
    }
   },
   {
@@ -2406,62 +2660,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58295",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58295 [sfpi-gcc] Compiler replay sequences can straddle a user TTREPLAY or its capture shadow",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58295",
-   "at": "2026-09-29T04:30:26Z",
-   "extra": {
-    "author": "amahmudTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58294",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58294 [sfpi-gcc] Runtime-length TTREPLAY playback reserves no replay-buffer slots",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58294",
-   "at": "2026-09-29T04:30:21Z",
-   "extra": {
-    "author": "amahmudTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58293",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58293 [sfpi-gcc] expand_cmp leaves the leftmost iterator on a statement expand_cond removes",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58293",
-   "at": "2026-09-29T04:30:16Z",
-   "extra": {
-    "author": "amahmudTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58292",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58292 [sfpi-gcc] Quasar float/smag != is lowered with a float SETCC on an integer difference",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58292",
-   "at": "2026-09-29T04:30:11Z",
-   "extra": {
-    "author": "amahmudTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19698",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -2593,20 +2791,6 @@
    "extra": {
     "state": "open",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/OmniBlocks/bountyfarmer/issues/64",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "OmniBlocks/bountyfarmer: $9110988 BOUNTY FOR IMPLEMENTING ORKUT 2 INTO OMNIBLOCKS",
-   "url": "https://github.com/OmniBlocks/bountyfarmer/issues/64",
-   "at": "2026-09-29T00:57:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 9110988,
-    "author": "github-actions[bot]",
-    "labels": []
    }
   },
   {
@@ -2831,41 +3015,6 @@
      "bounty",
      "bounty_difficulty/medium"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/123137c3d4f760abc960603720397f86e66a021b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Add a check for unbalanced Tensix mutex acquire/release (#56367)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/123137c3d4f760abc960603720397f86e66a021b",
-   "at": "2026-09-28T21:09:34Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/infra/check_mutex_balance.py",
-     "tt_metal/tt-llk/infra/tests/test_check_mutex_balance.py"
-    ],
-    "added": [
-     "tt_metal/tt-llk/infra/check_mutex_balance.py",
-     "tt_metal/tt-llk/infra/tests/test_check_mutex_balance.py"
-    ],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/044276cd20d3579c3b12b476a28ac92f8ed4c6e0",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Pin math dest offset in 32-bit unpack-to-dest datacopy branch (#56932)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/044276cd20d3579c3b12b476a28ac92f8ed4c6e0",
-   "at": "2026-09-28T19:56:19Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_math_eltwise_unary_datacopy.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_math_eltwise_unary_datacopy.h"
-    ],
-    "added": [],
-    "author": "awliu-TT"
    }
   },
   {
@@ -3195,22 +3344,6 @@
    }
   },
   {
-   "id": "https://github.com/cosimochellini/one-piece-zero-spoiler/issues/115",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "cosimochellini/one-piece-zero-spoiler: Lola's record is dated too early (threshold, affiliation, epithet, bounty)",
-   "url": "https://github.com/cosimochellini/one-piece-zero-spoiler/issues/115",
-   "at": "2026-09-28T09:51:49Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "cosimochellini",
-    "labels": [
-     "content"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19561",
    "source": "omi",
    "kind": "omi_proposal",
@@ -3235,34 +3368,6 @@
    }
   },
   {
-   "id": "https://github.com/RandyKnapp/ValheimMods/issues/755",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "RandyKnapp/ValheimMods: Suggestion: Config option to spawn bounties/treasures near explored areas",
-   "url": "https://github.com/RandyKnapp/ValheimMods/issues/755",
-   "at": "2026-09-28T07:09:54Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "alzy27",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19532",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): goals -> Org-mode export recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19532",
-   "at": "2026-09-28T07:05:06Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "antrinhht",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/19532",
    "source": "omi",
    "kind": "omi_proposal",
@@ -3272,20 +3377,6 @@
    "extra": {
     "state": "open",
     "author": "antrinhht"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19529",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): memories -> Org-mode export recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19529",
-   "at": "2026-09-28T06:50:45Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "antrinhht",
-    "labels": []
    }
   },
   {
