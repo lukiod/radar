@@ -1,6 +1,170 @@
 {
- "generated_at": "2026-10-01T23:19:37Z",
+ "generated_at": "2026-10-02T02:25:33Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58940",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58940 [aw] Matt Pocock Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58940",
+   "at": "2026-10-02T01:37:21Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/22",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 8 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/22",
+   "at": "2026-10-02T01:21:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58937",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58937 [repo-assist] Monthly Activity 2026-10",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58937",
+   "at": "2026-10-02T01:10:25Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "automation"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/agentbuddha88/saucerswap-liquidity-kit/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "agentbuddha88/saucerswap-liquidity-kit: Bounty submission packet (Scaffold-HBAR) \u2014 awaiting official form URL",
+   "url": "https://github.com/agentbuddha88/saucerswap-liquidity-kit/issues/1",
+   "at": "2026-10-02T01:03:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "agentbuddha88",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/hedera-dev/hedera-harness/issues/83",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "hedera-dev/hedera-harness: Scaffold-HBAR Template Bounty: registration/submit URLs still TBC \u2014 submission packet",
+   "url": "https://github.com/hedera-dev/hedera-harness/issues/83",
+   "at": "2026-10-02T01:03:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "agentbuddha88",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/joshft/correctless/issues/315",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "joshft/correctless: caudit: $<digit> sequences in SKILL.md are replaced by argument words when invoked with arguments \u2014 Step 7 LINES_CHANGED is always 0 and the bounty tables are garbled",
+   "url": "https://github.com/joshft/correctless/issues/315",
+   "at": "2026-10-02T00:34:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "joshft",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/mozilla/bedrock/issues/17413",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mozilla/bedrock: Bug bounty page lists Syria as a sanctioned country",
+   "url": "https://github.com/mozilla/bedrock/issues/17413",
+   "at": "2026-10-02T00:11:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "omaralbeik",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/72",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "nick-transition/fitapp: [Bounty Proposal] Shared styled empty states for #42",
+   "url": "https://github.com/nick-transition/fitapp/issues/72",
+   "at": "2026-10-02T00:06:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "PellaML",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58932",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58932 opt-in bf8 block weights and per-phase SDPA matmul fidelity",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58932",
+   "at": "2026-10-02T00:04:34Z",
+   "extra": {
+    "author": "rouzbehTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58931",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58931 adaLN through the fused norm's tile-row map, one-hot gathers, norm-weight fold, opt-in schedule cache",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58931",
+   "at": "2026-10-02T00:04:00Z",
+   "extra": {
+    "author": "rouzbehTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/71",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "nick-transition/fitapp: [Bounty Proposal] Scoped calendar visual upgrade for #40",
+   "url": "https://github.com/nick-transition/fitapp/issues/71",
+   "at": "2026-10-01T23:54:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "montfort-systems",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/AcalaNetwork/Acala/issues/2988",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AcalaNetwork/Acala: Bug bounty report",
+   "url": "https://github.com/AcalaNetwork/Acala/issues/2988",
+   "at": "2026-10-01T23:46:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "thaer-assfour",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/54016",
    "source": "tenstorrent",
@@ -27,6 +191,7 @@
    "extra": {
     "author": "kinginu",
     "labels": [
+     "op_cat: mm",
      "community"
     ]
    }
@@ -210,79 +375,6 @@
      "tt_metal/tt-llk/tests/sources/quasar/vector_add_l1_quasar_test.cpp"
     ],
     "author": "gdsinghTT"
-   }
-  },
-  {
-   "id": "https://github.com/goobinss/pearOS/issues/8",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "goobinss/pearOS: Expand public API response examples",
-   "url": "https://github.com/goobinss/pearOS/issues/8",
-   "at": "2026-10-01T21:12:53Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "goobinss",
-    "labels": [
-     "documentation",
-     "bounty",
-     "good-first-issue"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/goobinss/pearOS/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "goobinss/pearOS: Improve ratio chart accessibility",
-   "url": "https://github.com/goobinss/pearOS/issues/7",
-   "at": "2026-10-01T21:12:52Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "goobinss",
-    "labels": [
-     "accessibility",
-     "bounty",
-     "frontend"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/goobinss/pearOS/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "goobinss/pearOS: Add a runnable public SDK mock example",
-   "url": "https://github.com/goobinss/pearOS/issues/6",
-   "at": "2026-10-01T21:12:51Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "goobinss",
-    "labels": [
-     "bounty",
-     "good-first-issue",
-     "sdk",
-     "testing"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/goobinss/pearOS/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "goobinss/pearOS: Improve mobile layout and keyboard access",
-   "url": "https://github.com/goobinss/pearOS/issues/5",
-   "at": "2026-10-01T21:12:49Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "goobinss",
-    "labels": [
-     "accessibility",
-     "bounty",
-     "frontend"
-    ]
    }
   },
   {
@@ -2515,75 +2607,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58724",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58724 blackhole llk eltwise binary: the dest-reuse forms run at 3.7 to 3.9 times the standard math time because every face drains the pipeline before its four moves",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58724",
-   "at": "2026-10-01T11:02:18Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58723",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58723 blackhole llk eltwise binary: each fidelity phase of ELWMUL beyond the second costs 24 cycles per tile for 8 instructions, and ttnn multiplies at HiFi4 by default",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58723",
-   "at": "2026-10-01T11:02:17Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58722",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58722 blackhole llk eltwise binary: the two-operand unpack call costs 27.4 cycles per tile whatever the input format, 1.7 times the bf16 data time, and sets the pipeline rate",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58722",
-   "at": "2026-10-01T11:02:15Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58721",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58721 perf counters: every python -m tracy -r run leaves a serve_wasm web server process behind",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58721",
-   "at": "2026-10-01T11:02:11Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/20159",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -2991,7 +3014,7 @@
    "url": "https://github.com/AstralDeep/LETS/issues/66",
    "at": "2026-10-01T04:54:22Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -3029,7 +3052,7 @@
    "url": "https://github.com/AstralDeep/AstralPrimitives/issues/13",
    "at": "2026-10-01T04:54:19Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -3219,7 +3242,7 @@
    "url": "https://github.com/AstralDeep/AstralPlane/issues/22",
    "at": "2026-10-01T04:54:05Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -3891,88 +3914,6 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/62",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-09-30: 1 new, 1 resumed, 8 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/62",
-   "at": "2026-09-30T22:20:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/16",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 9 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/16",
-   "at": "2026-09-30T21:17:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20022",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] fix(mcp): safely validate chat messages and memories to prevent HTTP 500 ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20022",
-   "at": "2026-09-30T20:29:38Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "naufalfx805-source",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20022",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20022 [Bounty Proposal] fix(mcp): safely validate chat messages and memories to prevent HTTP 500 ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20022",
-   "at": "2026-09-30T20:29:38Z",
-   "extra": {
-    "state": "open",
-    "author": "naufalfx805-source"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20018",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] fix(chat): harden message persistence and memory citation deserialization resilience ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20018",
-   "at": "2026-09-30T19:44:59Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "naufalfx805-source",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20018",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20018 [Bounty Proposal] fix(chat): harden message persistence and memory citation deserialization resilience ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20018",
-   "at": "2026-09-30T19:44:59Z",
-   "extra": {
-    "state": "open",
-    "author": "naufalfx805-source"
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/tarsnap/issues/953",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -3985,86 +3926,6 @@
    }
   },
   {
-   "id": "https://github.com/osmesirius-ship-it/DAX_DA13-DA13x2/issues/13",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "osmesirius-ship-it/DAX_DA13-DA13x2: [meta-bounty-question].",
-   "url": "https://github.com/osmesirius-ship-it/DAX_DA13-DA13x2/issues/13",
-   "at": "2026-09-30T19:33:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "osmesirius-ship-it",
-    "labels": [
-     "[meta-bounty-question]."
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1715",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty] Fix one deterministic agent-card discovery regression",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1715",
-   "at": "2026-09-30T19:23:25Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Obfinityy/Dark-Matter/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Obfinityy/Dark-Matter: Local uncensored model library for the autonomous bug bounty agent + simplified agent UI",
-   "url": "https://github.com/Obfinityy/Dark-Matter/issues/3",
-   "at": "2026-09-30T17:49:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Obfinity",
-    "labels": [
-     "enhancement"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/jimichi-org/jimichi/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "jimichi-org/jimichi: Independent security audit and bug bounty before public beta",
-   "url": "https://github.com/jimichi-org/jimichi/issues/103",
-   "at": "2026-09-30T17:36:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "blsssss",
-    "labels": [
-     "security",
-     "product"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/954",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Tarsnap/tarsnap: [Bug bounty] tarsnap-keymgmt --keylist accepts trailing garbage and base-0 key numbers",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/954",
-   "at": "2026-09-30T17:18:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "blackmore-technology-group",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/Tarsnap/tarsnap/issues/954",
    "source": "tarsnap",
    "kind": "tarsnap_issue",
@@ -4074,106 +3935,6 @@
    "extra": {
     "state": "OPEN",
     "author": "blackmore-technology-group"
-   }
-  },
-  {
-   "id": "https://github.com/dr-week/Business-Man/issues/12",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dr-week/Business-Man: Collaboration & Monetization: Decentralized Peer Bounties and Field Verification Desk",
-   "url": "https://github.com/dr-week/Business-Man/issues/12",
-   "at": "2026-09-30T17:06:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dr-week",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20007",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] fix(listen): a failing legacy live persist crashes the stream_transcript task ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20007",
-   "at": "2026-09-30T17:04:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "kduailabs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20007",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20007 [Bounty Proposal] fix(listen): a failing legacy live persist crashes the stream_transcript task ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20007",
-   "at": "2026-09-30T17:04:06Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1711",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Redeem] daxda bounty 1605",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1711",
-   "at": "2026-09-30T16:47:29Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "osmesirius-ship-it",
-    "labels": [
-     "redeem"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/15",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 16 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/15",
-   "at": "2026-09-30T16:47:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/953",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Tarsnap/tarsnap: [Bug bounty] --creationtime accepts trailing garbage",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/953",
-   "at": "2026-09-30T16:28:55Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "blackmore-technology-group",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/laclance/BountyScout/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "laclance/BountyScout: \ud83c\udfaf Bounty Alert: 1 Clean Paid Opportunity found",
-   "url": "https://github.com/laclance/BountyScout/issues/5",
-   "at": "2026-09-30T16:25:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-alert"
-    ]
    }
   },
   {
@@ -4190,168 +3951,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-11T18:45:31Z"
-   }
-  },
-  {
-   "id": "https://github.com/Merit-Systems/x402scan/issues/1246",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Merit-Systems/x402scan: Add Ops Control HQ Bounty Check \u2014 x402 endpoint on Base",
-   "url": "https://github.com/Merit-Systems/x402scan/issues/1246",
-   "at": "2026-09-30T14:17:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Jay44333",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19993",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19993 [Bounty proposal] feat(python-cli): goals -> Org-mode export recipe ( supersedes abandoned #19532)",
-   "url": "https://github.com/BasedHardware/omi/issues/19993",
-   "at": "2026-09-30T13:02:37Z",
-   "extra": {
-    "state": "open",
-    "author": "bing33221"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19958",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19958 [Bounty proposal] fix(backend): validate inputs and add resilience guards in database wrapped ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19958",
-   "at": "2026-09-30T08:18:49Z",
-   "extra": {
-    "state": "open",
-    "author": "foxck016077"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19955",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19955 [Bounty proposal] fix(backend): validate inputs and prevent counter crashes in daily summaries ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19955",
-   "at": "2026-09-30T08:13:16Z",
-   "extra": {
-    "state": "open",
-    "author": "foxck016077"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19944",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19944 [Bounty Proposal] fix(listen): a failing rollover finalization crashes the live session ($25-50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19944",
-   "at": "2026-09-30T06:46:33Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19915",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19915 [Bounty Proposal] fix(backend): validate inputs and prevent self-merge data loss in database entities ( proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19915",
-   "at": "2026-09-30T04:28:55Z",
-   "extra": {
-    "state": "open",
-    "author": "naufalfx805-source"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19908",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19908 [Bounty Proposal] fix(people-stats): a dropped tombstone row ends the people-stats scan early ($25-50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19908",
-   "at": "2026-09-30T04:02:41Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19907",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19907 [Bounty Proposal] fix(daily-summary): a malformed conversation doc 500s daily-summary generation ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/19907",
-   "at": "2026-09-30T04:01:52Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58495 [Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
-   "at": "2026-09-30T01:51:11Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-29T20:22:48Z"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19872",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19872 [Bounty Proposal] Harden database durable queue age against timezone subtraction crashes, malformed summaries, and query errors ($50)",
-   "url": "https://github.com/BasedHardware/omi/issues/19872",
-   "at": "2026-09-30T00:50:20Z",
-   "extra": {
-    "state": "open",
-    "author": "ajin558"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19869",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19869 [Bounty Proposal] Harden database translation admission against delimiter injection, NaN deadline overflow, and Redis type mismatches ($50)",
-   "url": "https://github.com/BasedHardware/omi/issues/19869",
-   "at": "2026-09-30T00:36:25Z",
-   "extra": {
-    "state": "open",
-    "author": "ajin558"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19866",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19866 [Bounty Proposal] Harden database listen continuations against invalid identifiers, timezone mismatch, and Firestore exceptions ($50)",
-   "url": "https://github.com/BasedHardware/omi/issues/19866",
-   "at": "2026-09-30T00:24:55Z",
-   "extra": {
-    "state": "open",
-    "author": "ajin558"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/19863",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#19863 [Bounty Proposal] Harden database mentor gate state against invalid inputs, TTL overflow, and Redis transport blips ($50)",
-   "url": "https://github.com/BasedHardware/omi/issues/19863",
-   "at": "2026-09-30T00:19:48Z",
-   "extra": {
-    "state": "open",
-    "author": "ajin558"
    }
   }
  ],
