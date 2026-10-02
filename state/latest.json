@@ -1,6 +1,865 @@
 {
- "generated_at": "2026-10-02T08:48:46Z",
+ "generated_at": "2026-10-02T15:20:01Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59017",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59017 blackhole llk topk_xl: the K=512 row-major path never writes faces 2 and 3 of the index tile, so test_topk_xl_unfused_macro_equals_opt_out[K=512] fails when a ternary or sum_reduce_scalar test ran before it on the same core",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59017",
+   "at": "2026-10-02T15:12:08Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "bug",
+     "LLK",
+     "blackhole",
+     "op_cat: reduces",
+     "llk:blackhole"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59016",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59016 [Quasar] typecast: generic Int32 <-> float paths mishandle negative values (Int32 is two's complement)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59016",
+   "at": "2026-10-02T15:11:53Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "bug",
+     "LLK"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Bannerlord-Coop-Team/BannerlordCoop/issues/3774",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Bannerlord-Coop-Team/BannerlordCoop: [QUEST] Add co-op support for Associates Captured by Bounty Hunters",
+   "url": "https://github.com/Bannerlord-Coop-Team/BannerlordCoop/issues/3774",
+   "at": "2026-10-02T14:55:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ShoT-UPfps",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "at": "2026-10-02T14:48:43Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [],
+    "created": "2026-10-02T14:34:03Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58988",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58988 [gemma4_d_p] Prefill-only accuracy check on a single Galaxy: next-token likelihood regression test for perf changes",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58988",
+   "at": "2026-10-02T14:42:45Z",
+   "extra": {
+    "author": "kmabeeTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "tenstorrent/tt-metal: [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "at": "2026-10-02T14:34:03Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 1000,
+    "author": "jberkowitzTT",
+    "labels": [
+     "bounty",
+     "bounty_difficulty/medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "at": "2026-10-02T14:34:03Z",
+   "extra": {
+    "author": "jberkowitzTT",
+    "labels": [
+     "bounty",
+     "bounty_difficulty/medium"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/101444e094cfb7c038c7972257d3ea441ca0c6f9",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "Test only: set Quasar Src dvalids with UNPACR_NOP, not SETDVALID (#58604)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/101444e094cfb7c038c7972257d3ea441ca0c6f9",
+   "at": "2026-10-02T14:28:02Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/helpers/include/perf.h"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/7356c602dbfaf0a96525b35c99e6f0da5754ec18",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Quasar typecast to UInt16: leave CC_en on, re-widen with SFPENCC(0, 0) (#58880)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/7356c602dbfaf0a96525b35c99e6f0da5754ec18",
+   "at": "2026-10-02T14:26:12Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_typecast_fp16b_uint16.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_typecast_fp32_to_uint16.h"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/877bc81346f4b02527c4dd2dd0eec736d0d02c99",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "llk: Quasar pack test: Int16 takes no ReLU (#58876)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/877bc81346f4b02527c4dd2dd0eec736d0d02c99",
+   "at": "2026-10-02T14:26:00Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_pack_quasar.py"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/9d423e4bb6f397b961067bfd79653edf66957326",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] tests: add the matmul operand face dims to the Quasar perf schema (#58641)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/9d423e4bb6f397b961067bfd79653edf66957326",
+   "at": "2026-10-02T14:25:19Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/helpers/perf/wide_schema_quasar.py"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58982",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58982 [CI infra] bh_sc1 Galaxy hosts: Wan2.2 VAE section doubled on 2026-09-15 with no tt-metal change (same commit re-run is now 2x slower); T2V/I2V sc1 legs red since",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58982",
+   "at": "2026-10-02T14:23:58Z",
+   "extra": {
+    "author": "mtairum",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1447",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [PAID BOUNTY \u00b7 RESERVED] Complete Henderson Contributor Passport onboarding \u2014 25 USD equivalent",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1447",
+   "at": "2026-10-02T14:14:49Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/drexthealpha/Knos/issues/30",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "drexthealpha/Knos: knos mcp: knos_bounties should say what each bounty is about",
+   "url": "https://github.com/drexthealpha/Knos/issues/30",
+   "at": "2026-10-02T14:12:33Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "drexthealpha",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/drexthealpha/Knos/issues/29",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "drexthealpha/Knos: Judge: a Ruby runner for bounties paid on tests",
+   "url": "https://github.com/drexthealpha/Knos/issues/29",
+   "at": "2026-10-02T14:12:28Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "drexthealpha",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/ZohnHadley/sage-engine/issues/389",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ZohnHadley/sage-engine: 4r-4: Crime, witnesses, bounty and faction ranks",
+   "url": "https://github.com/ZohnHadley/sage-engine/issues/389",
+   "at": "2026-10-02T13:57:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ZohnHadley",
+    "labels": [
+     "priority: P2",
+     "type: feature",
+     "area: gameplay",
+     "area: rpg-kit",
+     "size: L"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/cefc1c784c88d4f7fbf03edfea32b57fd2d5cf4d",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[fuser] add ternary SFPU support (#58693)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/cefc1c784c88d4f7fbf03edfea32b57fd2d5cf4d",
+   "at": "2026-10-02T13:40:21Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/base_sfpu.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/binary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/block_data.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/config_parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/golden/sfpu/ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/indexing.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/pipeline_plan.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/sfpu/ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/sfpu_node.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/sweep.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/sfpu_ternary.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/validator.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/sfpu/ternary.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/golden/sfpu/ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/sfpu/ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/sfpu_ternary.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/sfpu/ternary.py"
+    ],
+    "author": "markoradosavljevicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/9ac1997f90933e4b0e52a6535fca2597dd0f1edc",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "#58806: Fix Quasar matmul, layer norm, and ArgMax execution (#58967)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/9ac1997f90933e4b0e52a6535fca2597dd0f1edc",
+   "at": "2026-10-02T13:30:35Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_post_allgather.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_pre_allgather.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/sharded_layernorm_factory_helpers.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/argmax/device/argmax_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/argmax/device/argmax_multi_core_program_factory.cpp"
+    ],
+    "added": [],
+    "author": "bbradelTT"
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1443",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [GOOD FIRST ISSUE \u00b7 PROPOSED REWARD] Add empty/error states to Paid Bounties UI",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1443",
+   "at": "2026-10-02T13:24:43Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1440",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [GOOD FIRST ISSUE \u00b7 PROPOSED REWARD] Add bounty API funding-state filter tests",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1440",
+   "at": "2026-10-02T13:24:36Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1439",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [GOOD FIRST ISSUE \u00b7 RESERVED] Add smoke test for /paid-bounties route \u2014 15 USD equivalent",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1439",
+   "at": "2026-10-02T13:24:34Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58976",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58976 Fix sanity breaking in linear test",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58976",
+   "at": "2026-10-02T13:22:27Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/70",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-02: 8 changes across 7 bounty programs",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/70",
+   "at": "2026-10-02T12:38:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/69",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-02: 0 new, 0 resumed, 1 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/69",
+   "at": "2026-10-02T12:37:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/68751ecff57a79792702e2104d598e4ee94b56fa",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "fix sdpa attention mask docs (#54162)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/68751ecff57a79792702e2104d598e4ee94b56fa",
+   "at": "2026-10-02T11:39:59Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/softmax/device/softmax_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/softmax/docs/Softmax.md"
+    ],
+    "added": [],
+    "author": "ijankowskiTT"
+   }
+  },
+  {
+   "id": "https://github.com/ItsGraphax-Server/RMC5/issues/14",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ItsGraphax-Server/RMC5: Move Bounty Strings to Translations",
+   "url": "https://github.com/ItsGraphax-Server/RMC5/issues/14",
+   "at": "2026-10-02T11:39:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ItsGraphax",
+    "labels": [
+     "enhancement"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/682015ef80325f6f58edef97c1c5a9f6dca8fc41",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "feat: wire Quasar cumsum to Compute API (#58537)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/682015ef80325f6f58edef97c1c5a9f6dca8fc41",
+   "at": "2026-10-02T11:35:20Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cumsum.h",
+     "tt_metal/hw/inc/api/compute/cumsum.h"
+    ],
+    "added": [],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/76",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "nick-transition/fitapp: [Bounty Proposal] M3 bottom navigation for #36 \u2014 USD 300",
+   "url": "https://github.com/nick-transition/fitapp/issues/76",
+   "at": "2026-10-02T11:33:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 300,
+    "author": "damnbrocrazy-svg",
+    "labels": [
+     "bounty-proposal"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/4c680a02ab55f86c876f46a1bbad4d0e3c19a08a",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Performance] Speed up ring MLA prefill with batched V matmul and compute overlap (#57878)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/4c680a02ab55f86c876f46a1bbad4d0e3c19a08a",
+   "at": "2026-10-02T11:30:40Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_unpack_AB_matmul_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_AB_matmul_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_AB_matmul_api.h",
+     "tt_metal/hw/inc/api/compute/experimental/matmul_custom.h",
+     "tt_metal/tt-llk/tests/python_tests/test_matmul_in1_column_stride.py",
+     "tt_metal/tt-llk/tests/sources/matmul_in1_column_stride_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_AB_matmul.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_AB_matmul.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/test_matmul_in1_column_stride.py",
+     "tt_metal/tt-llk/tests/sources/matmul_in1_column_stride_test.cpp"
+    ],
+    "author": "skrsticTT"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20336",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(desktop-proxy): a null generationConfig/thinkingConfig 500s the streaming Gemini proxy ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20336",
+   "at": "2026-10-02T11:19:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 25,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20336",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#20336 [Bounty Proposal] fix(desktop-proxy): a null generationConfig/thinkingConfig 500s the streaming Gemini proxy ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20336",
+   "at": "2026-10-02T11:19:52Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20334",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(speakers): a wrong-typed manual-speaker receipt section 500s conversation read and voice-match ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20334",
+   "at": "2026-10-02T11:15:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20334",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#20334 [Bounty Proposal] fix(speakers): a wrong-typed manual-speaker receipt section 500s conversation read and voice-match ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20334",
+   "at": "2026-10-02T11:15:50Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/josedab/chronicle/issues/111",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "josedab/chronicle: Qualification: Windows testing bounty in BOUNTY_PROGRAM table row 9",
+   "url": "https://github.com/josedab/chronicle/issues/111",
+   "at": "2026-10-02T11:13:18Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "zbzbdzb",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58965",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58965 [tt_dit] LTX-2.3 Fast T2V [bh_sc1]: VBench imaging_quality 0.631 < 0.645 on the 153f / 25 fps config (#57265); gate was calibrated for 145f / 24 fps",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58965",
+   "at": "2026-10-02T11:06:00Z",
+   "extra": {
+    "author": "mtairum",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/d34d12e69f5bf5e64f2e36ce8de19bc43fdc4205",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Quasar] Clear pack/pack_matmul FACE/ROW_SEL state at pack/pack_matmul_init (#57530)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/d34d12e69f5bf5e64f2e36ce8de19bc43fdc4205",
+   "at": "2026-10-02T11:05:51Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_instr_params.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_pack.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_pack_matmul.h"
+    ],
+    "added": [],
+    "author": "amokanTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58962",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58962 [CI infra] wh_n150 CI VMs intermittently run host work 2-10x slower (vm-109, vm-115, vm-166, vm-167): Llama 3.1-8B device-perf leg exceeds its budgets on those days",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58962",
+   "at": "2026-10-02T10:30:08Z",
+   "extra": {
+    "author": "mtairum",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58961",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58961 [BEVFormer] E2E benchmark at the occb preset",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58961",
+   "at": "2026-10-02T10:13:18Z",
+   "extra": {
+    "author": "ctr-mmicicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "BEVFormer"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20325",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): conversations -> LaTeX report (.tex) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20325",
+   "at": "2026-10-02T10:00:52Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 25,
+    "author": "bing33221",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20325",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#20325 [Bounty proposal] feat(python-cli): conversations -> LaTeX report (.tex) export recipe ($25 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20325",
+   "at": "2026-10-02T10:00:52Z",
+   "extra": {
+    "state": "open",
+    "author": "bing33221"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58958",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58958 [MoE][Combine] - Chip can finish before its neighbours' FINAL_WRITEs land in its output",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58958",
+   "at": "2026-10-02T09:53:59Z",
+   "extra": {
+    "author": "pmilojevicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/drexthealpha/knos-e2e/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "drexthealpha/knos-e2e: Bounty 3: tests-mode, paid without a merge",
+   "url": "https://github.com/drexthealpha/knos-e2e/issues/3",
+   "at": "2026-10-02T09:19:57Z",
+   "extra": {
+    "comments": 7,
+    "amount_usd": null,
+    "author": "drexthealpha",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/38b15a287d6138e684a5540c3913109fccef6fa3",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][skills] bug-audit: re-rate severities, default to 300-line batches, remove the execution tier (#58519)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/38b15a287d6138e684a5540c3913109fccef6fa3",
+   "at": "2026-10-02T09:11:46Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/.claude/skills/bug-audit/SKILL.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/audit-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/common.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/consolidate.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/exec_tier.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/fix-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/init_run.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/next_wave.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity-wave.js",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/spawn.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/marker.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/select.py",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/references/measurement-history.md",
+     "tt_metal/tt-llk/.claude/skills/bug-audit/tests/test_engine.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity.py"
+    ],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58950",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#58950 [aw] Failed jobs: CI Failure Triage (pilot)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58950",
+   "at": "2026-10-02T08:59:24Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/3872518532f7d03e813ce011da88fdebd5061a38",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Quasar] Port Blackhole SFPI SFPU kernels with fuser coverage (#58209)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/3872518532f7d03e813ce011da88fdebd5061a38",
+   "at": "2026-10-02T08:56:24Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_activations.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add1.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add_top_row.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcdiv.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcmul.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_alt_complex_rotate90.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_bitwise.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_fmod.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_remainder.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise_not.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cast_fp32_to_fp16a.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cbrt.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_celu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_clamped_silu_glu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_digamma.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32_floor.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_elu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erf.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfc.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfinv.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp2.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1_cw.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_fmod.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardmish.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardshrink.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardtanh.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_heaviside.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i0.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i1.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_identity.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_int_sum.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_is_fp16_zero.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_isclose.h"
+    ],
+    "added": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_activations.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add1.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add_top_row.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcdiv.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcmul.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_alt_complex_rotate90.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_bitwise.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_fmod.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_remainder.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise_not.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cast_fp32_to_fp16a.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cbrt.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_celu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_clamped_silu_glu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_digamma.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32_floor.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_elu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erf.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfc.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfinv.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp2.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1_cw.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_fmod.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardmish.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardshrink.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardtanh.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_heaviside.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i0.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i1.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_identity.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_int_sum.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_is_fp16_zero.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_isclose.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_isinf_isnan.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_lerp.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_lgamma.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logical_not.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logsigmoid.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_mac.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_mask.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_mish.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_polygamma.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_prelu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rdiv.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_remainder.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rpow.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rsub_int32.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_selu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_sigmoid_appx.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_sign.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_situ_glu.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_snake_beta.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_softcap.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_softshrink.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_softsign.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_tanh_derivative.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_tanhshrink.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_threshold.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_tiled_prod.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_unary_comp.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_unary_power.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_unary_shift.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_xielu.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_bessel_i0_i1_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_bessel_i0_i1_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_fmod_remainder_dest16_bf16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_fmod_remainder_dest16_fp16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_fmod_remainder_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_pow_dest16_bf16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_pow_dest16_fp16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_pow_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_erfinv_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_erfinv_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_glu_dest16_bf16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_glu_dest16_fp16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_glu_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_binary_bitwise_fmod_remainder.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_div.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_left_shift_sum.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_mask_sum_add.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_unary.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest16_bf16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest16_fp16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest32_unpack_to_dest.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_lgamma_digamma_polygamma_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_lgamma_digamma_polygamma_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_lgamma_stirling_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_log_power_iterative_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_log_power_iterative_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logsigmoid_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logsigmoid_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_mask_dest16_bf16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_mask_dest16_fp16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_mask_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_tiled_prod_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_tiled_prod_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_uint32_binary_remainder.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_approx_modes_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_approx_modes_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest32.yaml"
+    ],
+    "author": "vvukomanovicTT"
+   }
+  },
   {
    "id": "https://github.com/uknwplayer/BountyScout/issues/23",
    "source": "github_search",
@@ -408,7 +1267,7 @@
    "url": "https://github.com/nick-transition/fitapp/issues/74",
    "at": "2026-10-02T04:22:58Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "Ariyachan",
     "labels": []
@@ -1321,34 +2180,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58855",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58855 [LLK][Perf Coverage] Improve eltwise binary SFPU perf coverage",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58855",
-   "at": "2026-10-01T15:14:29Z",
-   "extra": {
-    "author": "skrsmanovicTT",
-    "labels": [
-     "LLK"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20185",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] fix(x_connector): prevent open redirects, XSS, and state delimiter injection in OAuth flow (- proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20185",
-   "at": "2026-10-01T15:11:24Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "naufalfx805-source",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/20185",
    "source": "omi",
    "kind": "omi_proposal",
@@ -1361,1678 +2192,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58853",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58853 Other optimizations",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58853",
-   "at": "2026-10-01T15:10:04Z",
-   "extra": {
-    "author": "avelickovTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58849",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58849 [GLM5.3] MTP enable runtime trace",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58849",
-   "at": "2026-10-01T14:56:35Z",
-   "extra": {
-    "author": "nmilicevicTT",
-    "labels": [
-     "shield_prefill"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58848",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58848 [GPT-OSS-120B][BH Galaxy] Decode is ~15x slower since vllm-tt-plugin PR 140 moves token sampling to the host; nightly hits the 12 h job limit",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58848",
-   "at": "2026-10-01T14:47:50Z",
-   "extra": {
-    "author": "vcankovicTT",
-    "labels": [
-     "LLM_bug",
-     "Identified By: Shield / Models CI",
-     "GLX1-BH"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58846",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58846 [tt-train] KSplitGramMatmul intermittent device hang",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58846",
-   "at": "2026-10-01T14:46:21Z",
-   "extra": {
-    "author": "kevinwuTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/KEithwy1030/gamer-demo1/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "KEithwy1030/gamer-demo1: aibtc bounty munkpv0qe7d1683c6411 \u2013 Jing core-spread v1 / v6-3 / swap-vault audit (Photon Warden)",
-   "url": "https://github.com/KEithwy1030/gamer-demo1/issues/3",
-   "at": "2026-10-01T14:31:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "KEithwy1030",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58845",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58845 vLLM Qwen3-32B (BH Galaxy): seeded and greedy outputs not reproducible since vllm-tt-plugin #140 routes top_k>32 batches to host sampling (row-structured divergences, 74/74 with the 09-29 plugin)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58845",
-   "at": "2026-10-01T14:30:06Z",
-   "extra": {
-    "author": "mtairum",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/MateusKasuya/spqtc-tournament-manager/issues/93",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MateusKasuya/spqtc-tournament-manager: confirmBuyIn l\u00ea o torneio antes de travar a linha: Bounty inicial pode ficar desatualizado",
-   "url": "https://github.com/MateusKasuya/spqtc-tournament-manager/issues/93",
-   "at": "2026-10-01T14:29:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "MateusKasuya",
-    "labels": [
-     "needs-triage"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/KEithwy1030/gamer-demo1/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "KEithwy1030/gamer-demo1: aibtc bounty muk2q8eb456c1faac489 \u2013 does sBTC cash out? u3500\u2013u3600 measured (Photon Warden)",
-   "url": "https://github.com/KEithwy1030/gamer-demo1/issues/2",
-   "at": "2026-10-01T14:17:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "KEithwy1030",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/2460c2f6b6df0e4a17f9a51da7aea1bfea954b26",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] Normalization: fix remaining #51231 defects (items 1, 6, 7) (#58086)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/2460c2f6b6df0e4a17f9a51da7aea1bfea954b26",
-   "at": "2026-10-01T13:48:14Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/groupnorm_sharded_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/kernels/compute/layernorm_pre_allgather_welford.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_post_all_gather_welford_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/softmax/device/kernels/attention/dataflow/reader_unary_interleaved_sm_large_tensor.cpp"
-    ],
-    "added": [],
-    "author": "ign-sudha"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58835",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58835 Qwen-Image [bh_quietbox_2] perf gate: cached weight uploads 2.7x slower since #52893 (read-only pinned uploads of ttnn.load_tensor mmaps), total 55 s -> 68 s",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58835",
-   "at": "2026-10-01T13:45:55Z",
-   "extra": {
-    "author": "mtairum",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58831",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58831 Add LAYER_ACK in runner for KDA layers as well",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58831",
-   "at": "2026-10-01T13:33:18Z",
-   "extra": {
-    "author": "kgrujcic-tt",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/65",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-01: 25 changes across 10 bounty programs",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/65",
-   "at": "2026-10-01T13:13:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/64",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-01: 4 new, 0 resumed, 7 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/64",
-   "at": "2026-10-01T13:13:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58830",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58830 [aw] Tenstorrent Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58830",
-   "at": "2026-10-01T13:13:04Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/cb2b2da590bda3c9d71fa4605bcd84a251e10c71",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Remove orphaned ai_gen kernel sources (#58814)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/cb2b2da590bda3c9d71fa4605bcd84a251e10c71",
-   "at": "2026-10-01T12:51:24Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/sources/ai_gen/eltwise_binary_sfpu_pack_untilize.cpp",
-     "tt_metal/tt-llk/tests/sources/ai_gen/eltwise_binary_sfpu_unary.cpp",
-     "tt_metal/tt-llk/tests/sources/ai_gen/reduce_sfpu_unary.cpp",
-     "tt_metal/tt-llk/tests/sources/ai_gen/unpack_tilize_sfpu_pack.cpp"
-    ],
-    "added": [],
-    "author": "ldjurovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58806",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58806 Quasar llama test and assert related fixes",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58806",
-   "at": "2026-10-01T12:08:31Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58804",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58804 concat: sharded height concat leaves one RISC idle when a leading block is one stick tall",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58804",
-   "at": "2026-10-01T11:43:29Z",
-   "extra": {
-    "author": "VirdhatchaniKN",
-    "labels": [
-     "op_cat: TM",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58801",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58801 blackhole llk experimental: no perf twin exists for the rmsnorm reuse, mul_reduce_scalar, the scalar block, the moe gates, hadamard, add_rsqrt, rope, csa_index_remap or the block pack, and the copy-form reduce twin hangs the core in the perf harness",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58801",
-   "at": "2026-10-01T11:06:20Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58800",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58800 blackhole llk moe gate: a one-token dest section costs 296 cycles per token end to end for 95 cycles of math-thread work, the math thread waiting 238 cycles per token for a free dest half behind a pack thread that issues 101 words, drains 32 cycles and has nothing to issue for 159",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58800",
-   "at": "2026-10-01T11:06:18Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: fused",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58799",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58799 blackhole llk pack block: pack_block_contiguous issues 18 + 9/N pack-thread words per 32x32 tile against 16 + 8/N for the standard n-tile pack mop, 19.35 against 17.14 cycles per tile at 8 tiles per call, and its tiny-tile form is the family's whole gain",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58799",
-   "at": "2026-10-01T11:06:16Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58798",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58798 blackhole llk sfpu add_rsqrt: the accurate body idles 201 cycles per tile in the dependency chain of its refinement steps, 160 more than the approximate body, 1204 against 852 cycles per tile for 960 and 768 sfpu instructions",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58798",
-   "at": "2026-10-01T11:06:14Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58797",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58797 blackhole llk sfpu csa_index_remap and rope: the index remap runs a rolled 32-iteration loop of 6 sfpu instructions at 211 cycles per tile, and a rope decode row costs 21 cycles plus 15 per call",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58797",
-   "at": "2026-10-01T11:06:13Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58796",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58796 blackhole llk hadamard: a 128-element transform costs 36 to 64 cycles per vector for 4 to 6 fpu cycles, the unpack thread waiting 18 cycles per vector for the math chain and the math thread draining 11 to 27 cycles around its dest-to-source bridge",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58796",
-   "at": "2026-10-01T11:06:11Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58795",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58795 blackhole llk rmsnorm bcast scalar reuse: the row multiply costs 17.7 cycles per tile in an 8-tile row, but one tile per call with its inits costs 103.5 cycles at LoFi and 150.5 at HiFi4, and the deepseek sampling kernel calls it that way four times per token",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58795",
-   "at": "2026-10-01T11:06:09Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58794",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58794 blackhole llk eltwise mul scalar block: mul_tiles_bcast_scalar_block issues 8 ELWMUL per tile whatever the kernel's math fidelity, so a HiFi2 or HiFi4 kernel gets first-phase products from it while its aliases honour the fidelity",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58794",
-   "at": "2026-10-01T11:06:08Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58793",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58793 blackhole llk moe gate: the generalized gate runs its fpu transposes and sfpu merges strictly in turn, 1059 cycles per ungrouped token and 718 grouped for 504 and 346 cycles of engine work, against 371 for the sfpu-only gate",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58793",
-   "at": "2026-10-01T11:06:06Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: fused",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58792",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58792 blackhole llk mul_reduce_scalar: the default per-tile form is math bound at 89.6 cycles per input tile at LoFi, 5.3 times its own multiply, with the math pipeline scoreboard-stalled 47 to 63 percent of the window on the dest round trip",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58792",
-   "at": "2026-10-01T11:06:05Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58791",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58791 blackhole llk custom matmul: no perf test covers custom_mm, compressed_custom_mm, sdpa_custom_mm or the reuse form, and the perf twins built for this sweep are the proposal",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58791",
-   "at": "2026-10-01T11:05:55Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58790",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58790 blackhole llk sdpa bcast col custom: the pipeline is pack bound at 28.6 cycles per tile while its unpack runs at 16 + 1 / ct",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58790",
-   "at": "2026-10-01T11:05:54Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "op_cat: SDPA",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58789",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58789 blackhole llk compressed custom matmul: the risc instruction feed bounds the unpack at 10.4 cycles per 8-bit tile against 8.85 for the mop-driven path, a zero tile costs 6 and a format switch 1",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58789",
-   "at": "2026-10-01T11:05:52Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58788",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58788 blackhole llk sdpa custom matmul: the dest to srcb move block of the reuse form costs 17 math cycles per k tile and 18 per call on top of the 8-cycle mvmul body",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58788",
-   "at": "2026-10-01T11:05:50Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "op_cat: SDPA",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58787",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58787 blackhole llk sdpa custom matmul: each fpu to sfpu semaphore post costs the math thread 8 cycles, 6 of them a pipe drain, and granularity 1 at ct 8 costs 56 cycles per call",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58787",
-   "at": "2026-10-01T11:05:48Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "op_cat: SDPA",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58786",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58786 blackhole llk custom matmul: one call costs 38 to 57 cycles of unpack-thread time that the next call cannot overlap, 3.6 to 7.2 times the data time of a one-tile call",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58786",
-   "at": "2026-10-01T11:05:47Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58785",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58785 blackhole llk custom matmul: Bfp2_b weights on the plain path compute an output unrelated to the product while Bfp4_b and Bfp8_b weights and the compressed path's Bfp2_b tiles compute correctly",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58785",
-   "at": "2026-10-01T11:05:45Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58784",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58784 blackhole llk sdpa custom matmul: sixteen fpu to sfpu posts per call overflow the semaphore and hang the core, and neither the llk nor the standalone api checks the bound",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58784",
-   "at": "2026-10-01T11:05:43Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "perf",
-     "op_cat: SDPA",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58783",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58783 blackhole llk custom matmul: the risc-issued finalize of split_acc makes the 8-bit pipeline 4 to 25 percent slower although it halves the math time",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58783",
-   "at": "2026-10-01T11:05:42Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58782",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58782 blackhole llk custom matmul: the four mvmuls of a weight tile rewrite a dest row group two instructions apart and stall 4 of 8 math cycles in every path without split_acc",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58782",
-   "at": "2026-10-01T11:05:40Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58781",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58781 blackhole llk sfpu int32 division: fmod and remainder run at 1747 to 2208 cycles per tile, 51 to 65 instructions per vector, and the two quotient kernels cannot be measured under the profiler",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58781",
-   "at": "2026-10-01T11:05:21Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58780",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58780 blackhole llk quantization: the per-tensor scale tile costs a second unpack-to-dest handshake per output tile and 32 reloads per tile, 120 of 517 cycles end to end",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58780",
-   "at": "2026-10-01T11:05:19Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58779",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58779 blackhole llk sfpu: unary max, unary min and signbit rebuild their macro instruction word on the RISC every row, 4.2 idle cycles per vector and 60 percent of the tile in the perf sweep",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58779",
-   "at": "2026-10-01T11:05:17Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58778",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58778 blackhole llk typecast: float to int32 takes 16 instructions per row and 551 cycles per tile against 4 per row and 188 for int32 to float32",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58778",
-   "at": "2026-10-01T11:05:15Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58777",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58777 blackhole llk typecast: the four production pairs that fall back to plain loops with a 32-bit dest cost 135 to 360 cycles per tile, up to 3.5 times the 16-bit dest macro forms the perf test measures",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58777",
-   "at": "2026-10-01T11:05:14Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58776",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58776 blackhole llk sfpu misc: rand, dropout, mask, copy_dest_values, reshuffle_rows, softcap and the glu ops have no perf row, no run type issues sfpu from the pack thread, and the two dest-addressing hazards have no test",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58776",
-   "at": "2026-10-01T11:05:12Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58775",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58775 blackhole llk sfpu situ_glu and clamped_silu_glu: 2,914 and 1,666 cycles per output tile on the math thread, 3,395 and 2,115 with a 32-bit dest, and no pack-thread form",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58775",
-   "at": "2026-10-01T11:05:10Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58774",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58774 blackhole llk sfpu: in the compute api form identity, dropout, softshrink and the accurate softsign keep a rolled row loop and cost 12 to 52 cycles per tile more than one 32-vector call, while fill and the approximate softsign unroll there and gain 55 and 20",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58774",
-   "at": "2026-10-01T11:05:08Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58773",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58773 blackhole llk sfpu reshuffle_rows: 1,481 of the 1,978 cycles per tile are scalar work of the math risc, 46 cycles per live row and 27 per skipped row, for 480 sfpu instructions",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58773",
-   "at": "2026-10-01T11:05:06Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58772",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58772 blackhole llk sfpu rand and dropout: the seed write in rand_tile_init and dropout_kernel_init waits 600 sfpu nops in a risc loop, 1,740 to 1,820 cycles per init, 2.9 times a rand tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58772",
-   "at": "2026-10-01T11:05:05Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58771",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58771 blackhole llk sfpu mask: mask_tile ignores its mask index and reads the next dest tile, so a mask placed anywhere else leaves the data unchanged",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58771",
-   "at": "2026-10-01T11:05:03Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58770",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58770 blackhole llk sfpu dropout: the body walks dest through the address-modifier slot the eltwise binary init sets to an 8-row step, so dropout after add_tiles in one dest section writes 12.4 percent of the outputs to the wrong rows",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58770",
-   "at": "2026-10-01T11:05:01Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58769",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58769 blackhole llk sfpu binary: seven bodies without an unroll pragma compile to a risc loop at 8 iterations and idle 64 cycles per tile, 9 percent of the bf16 multiply",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58769",
-   "at": "2026-10-01T11:04:59Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58768",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58768 blackhole llk sfpu binary: eltwise_binary_sfpu_perf.cpp records no TILE_LOOP counters in MATH_ISOLATE and UNPACK_ISOLATE, and its INIT row holds impossible values",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58768",
-   "at": "2026-10-01T11:04:57Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58767",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58767 blackhole llk sfpu ternary: the ttnn where kernel pays 16 cycles per extra operand copy and 16 per op init, 190 cycles per tile against 143 for the body",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58767",
-   "at": "2026-10-01T11:04:55Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58766",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58766 blackhole llk sfpu binary: the perf sweep runs the truncating add, the one-instruction mul, the legacy pow and the sign-magnitude int32 add, none of which the compute api dispatches",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58766",
-   "at": "2026-10-01T11:04:53Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58765",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58765 blackhole llk sfpu binary: a 32-bit binary op pays one unpack-to-dest handshake per operand tile, 124 cycles each, so the int32 add runs at 419 cycles per tile end to end for 179 on the math thread",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58765",
-   "at": "2026-10-01T11:04:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58764",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58764 blackhole llk sfpu binary: max and min issued as one 32-vector call compile to a risc loop at 253 cycles per tile against 151 for four 8-vector calls",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58764",
-   "at": "2026-10-01T11:04:49Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58763",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58763 blackhole llk sfpu binary: the six float comparisons take 399 to 496 cycles per tile for 11 to 14 instructions and two or three stores per vector, against 151 for max and min",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58763",
-   "at": "2026-10-01T11:04:47Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58762",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58762 blackhole llk sfpu binary: division runs at 1139 cycles per tile with 30 sfpu instructions per vector in a risc loop, where the reciprocal programs on the load-macro path take 62 to 228",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58762",
-   "at": "2026-10-01T11:04:45Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58761",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58761 blackhole llk sfpu binary: the bf16 multiply runs at 723 cycles per tile and the nearest-even add at 485, 3.7 and 2.5 times the truncating add, on the software rounding and the zero fix",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58761",
-   "at": "2026-10-01T11:04:43Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58760",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58760 blackhole llk sfpu ema: sfpu_ema_perf.cpp carries an unpack-isolate branch that deadlocks the core, and its driver measures neither the 32-bit dest nor the float32 form that ttnn runs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58760",
-   "at": "2026-10-01T11:04:34Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58759",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58759 blackhole llk sfpu stateful: cumsum and welford have no tt-llk test on blackhole, and wired as on quasar the cumsum tile measures 173.0 cycles with its 32 sfpnop free and its per-tile init at 24.0",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58759",
-   "at": "2026-10-01T11:04:32Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58758",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58758 blackhole llk sfpu ema: the tile runs at its issue floor of 245.4 cycles with 70.9 idle cycles on the serial multiply-add chain, so the wormhole replay optimisation has nothing to gain on blackhole",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58758",
-   "at": "2026-10-01T11:04:30Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58757",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58757 blackhole llk sfpu welford: the update runs at its issue floor of 391.5 cycles per tile, and the callers add 27.0 per tile for the fp32 re-init, 22.9 per state spill and 126 per tile of unpack-to-dest feed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58757",
-   "at": "2026-10-01T11:04:28Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "op_cat: fused",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58756",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58756 blackhole llk sfpu welford: ttnn.var and ttnn.std pass no reciprocal table, so every tile row costs a software float division on the math risc and the update runs at 7588.9 cycles per tile against 391.5 with the table",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58756",
-   "at": "2026-10-01T11:04:26Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58755",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58755 blackhole llk sfpu ema: the ema body addresses dest through an address-mode record its init never programs, so its output is wrong after any other math init in the same dest section",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58755",
-   "at": "2026-10-01T11:04:24Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58754",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58754 blackhole llk topk: k 64 costs 1.45 times k 32 per tile-pair step, with the rebuild at 1.96 times and the merge unchanged",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58754",
-   "at": "2026-10-01T11:04:12Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58753",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58753 blackhole llk topk: the single-core insertion step re-sorts the resident tile through phases 0 to 4, about 1,460 of its 4,514 LLK cycles",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58753",
-   "at": "2026-10-01T11:04:10Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58752",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58752 blackhole llk topk: the tt-llk perf harness has no TopK pipeline kernel, and the unary rows time the phases with parameters no kernel uses",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58752",
-   "at": "2026-10-01T11:04:08Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58751",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58751 blackhole llk topk: the single-core kernel runs the comparator-stable network at 1.78 times the unstable step where fused keys cost 0.88 times",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58751",
-   "at": "2026-10-01T11:04:07Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58750",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58750 blackhole llk topk: a topk_xl chunk idles 29 to 38 percent of its cycles, half of it swap bubbles, and its FPU transposes never overlap the SFPU",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58750",
-   "at": "2026-10-01T11:04:05Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58749",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58749 blackhole llk topk: the local sort pays one unfilled bubble per SFPSWAP, 688 cycles per slab, while its 232 address increments are issued in bundles",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58749",
-   "at": "2026-10-01T11:04:03Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58748",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58748 blackhole llk topk: the merge and the k 64 rebuild are fed word by word from the RISC, 669 cycles for 301 instructions and 1992 for 1177",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58748",
-   "at": "2026-10-01T11:04:01Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58747",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58747 blackhole llk sfpu reduce: perf_sfpu_reduce.py measures one of its kernel's configurations and perf_sfpu_reduce_sdpa.py is skipped on blackhole although it runs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58747",
-   "at": "2026-10-01T11:03:37Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58746",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58746 blackhole llk sfpu reduce: the float column sum consumes each add result on the next instruction and pays 20 hazard cycles per tile, 107 against 90 for the same 80 instructions in int32",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58746",
-   "at": "2026-10-01T11:03:35Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58745",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58745 blackhole llk sfpu reduce: the sfpu row max runs at 314 cycles per tile and the row sum at 232 against 23 to 117 for the fpu pooling path, so the sfpu path is worth its cost only for int32, min and exact fp32",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58745",
-   "at": "2026-10-01T11:03:33Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58744",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58744 blackhole llk sfpu reduce: SFPSWAP and cross-lane SFPSHFT2 occupy the SFPU for two cycles whatever is interleaved, 56 of the row sum's 232 cycles per tile and 112 of the row max's 314",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58744",
-   "at": "2026-10-01T11:03:31Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58743",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58743 blackhole llk sfpu: the other `<op>_tile` entry points issue four 8-row calls per tile, and the unrolled abs, relu_max and clamp bodies stay 6 to 15 cycles per tile slower in that form than in one 32-row call",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58743",
-   "at": "2026-10-01T11:03:25Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58742",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58742 blackhole llk sfpu: the uint16 and uint32 zero-compare perf slices are skipped on blackhole although they run, at 254.6 and 234.7 cycles per tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58742",
-   "at": "2026-10-01T11:03:23Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58741",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58741 blackhole llk sfpu: with a 32-bit dest the accurate exp, tanh and sigmoid bodies cost 2.39, 2.78 and 1.42 times their 16-bit dest bodies",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58741",
-   "at": "2026-10-01T11:03:21Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58740",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58740 blackhole llk sfpu: the accurate reciprocal program for a 16-bit dest takes 285.6 cycles per tile, 1.48 times the 32-bit dest program at 193.5",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58740",
-   "at": "2026-10-01T11:03:19Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58739",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58739 blackhole llk sfpu: re-running an op init per tile costs 9 to 63 cycles per tile, 67 percent of the approximate exp, and the ttnn unary kernel does it for every op of its chain",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58739",
-   "at": "2026-10-01T11:03:17Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58738",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58738 blackhole llk sfpu: the compute API's four 8-vector calls per tile cost the approximate exp 35 to 38 cycles per tile (37 to 41 percent) against one 32-vector call",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58738",
-   "at": "2026-10-01T11:03:15Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58737",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58737 blackhole llk sfpu: a row loop the compiler leaves rolled idles the SFPU 2 cycles per vector, 69 cycles per tile in abs, identity, relu_max and 17 more ops",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58737",
-   "at": "2026-10-01T11:03:14Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "sfpi",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58736",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58736 blackhole llk fast untilize: the pack of a row wider than four tiles takes the strided-row path and slows from 26.5 to 32.5 cycles per bf16 tile with the same instruction count",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58736",
-   "at": "2026-10-01T11:03:04Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "tilize_untilize",
-     "LLK",
-     "blackhole",
-     "op_cat: TM",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58735",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58735 blackhole llk transpose: transpose_dest costs 124 cycles per bf16 tile and 290 per int32 tile, with the unpack thread held on its unpacker 35 percent of the window by the per-tile source-register handshake",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58735",
-   "at": "2026-10-01T11:03:02Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: TM",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58734",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58734 blackhole llk datacopy: re-running the unpack and math inits per tile costs 22.5 and 29.5 cycles per tile, and a one-tile DEST section 9.8 more",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58734",
-   "at": "2026-10-01T11:03:00Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58733",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58733 blackhole llk tilize: at eight tiles per block row the L1 refuses half of the tilize unpacker's read requests, 46 busy cycles per tile against 31 at other widths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58733",
-   "at": "2026-10-01T11:02:58Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "tilize_untilize",
-     "LLK",
-     "blackhole",
-     "op_cat: TM",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58731",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58731 blackhole llk tilize: the tilize_block path is bound by its one-tile unpack call at 52 to 68 cycles per tile, ahead of the 43-cycle un-swizzle pack, and fast tilize does the same block in 31.8",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58731",
-   "at": "2026-10-01T11:02:57Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "tilize_untilize",
-     "LLK",
-     "blackhole",
-     "op_cat: TM",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58730",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58730 blackhole llk pack untilize: the pack thread issues 64 + 111 / block_ct_dim instructions per tile and the cycles follow it, 78 at block 8 and 178 at block 1 for 32 DEST reads",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58730",
-   "at": "2026-10-01T11:02:55Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "tilize_untilize",
-     "LLK",
-     "blackhole",
-     "op_cat: TM",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58729",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58729 blackhole llk datacopy: unpack to dest costs 117 to 122 cycles per fp32 or int32 tile, 3.6 times the data time, because the per-tile mailbox and semaphore handshake keeps one tile in flight",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58729",
-   "at": "2026-10-01T11:02:53Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58728",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58728 blackhole llk datacopy: one unpack call costs 41 cycles of unpack-thread time for 1, 2 or 4 faces and every input format, so a bf16 copy_tile runs at 2.6 times its data time",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58728",
-   "at": "2026-10-01T11:02:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58727",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58727 blackhole llk eltwise binary: fp32 operands unpack in 32 beats per tile plus 4 cycles of conversion into a 16-bit DEST, and fp32 output is pack-bound at 35 to 41 cycles per tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58727",
-   "at": "2026-10-01T11:02:22Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58726",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58726 blackhole llk eltwise binary: one tile per dest section costs 19.5 cycles per tile (1.64 times), and binary_ng runs that way on interleaved tensors",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58726",
-   "at": "2026-10-01T11:02:21Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/20159",
    "source": "omi",
    "kind": "omi_proposal",
@@ -3042,62 +2201,6 @@
    "extra": {
     "state": "closed",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/ai-boost/awesome-a2a/issues/186",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ai-boost/awesome-a2a: Suggest: Bounty Engineer \u2014 hosted A2A/x402 agent-commerce service",
-   "url": "https://github.com/ai-boost/awesome-a2a/issues/186",
-   "at": "2026-10-01T10:46:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "gatoprd",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/postmark-town/postmark-office/issues/295",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "postmark-town/postmark-office: Bounty board reads every notice as open: the hydrator drops ask, reward and status",
-   "url": "https://github.com/postmark-town/postmark-office/issues/295",
-   "at": "2026-10-01T10:37:34Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "wright-starforge",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/jflournoy/for-funsies/issues/252",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "jflournoy/for-funsies: [Bounty: 3 GSD] DARE 012: Build something that argues, and let nobody decide who is right",
-   "url": "https://github.com/jflournoy/for-funsies/issues/252",
-   "at": "2026-10-01T10:21:52Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "liutingqiu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/jflournoy/for-funsies/issues/251",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "jflournoy/for-funsies: [Bounty: 3 GSD] DARE 011: A memory that forgets on purpose, and shows you what it lost",
-   "url": "https://github.com/jflournoy/for-funsies/issues/251",
-   "at": "2026-10-01T10:21:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "liutingqiu",
-    "labels": []
    }
   },
   {
@@ -3138,106 +2241,6 @@
    "extra": {
     "state": "closed",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/19",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 17 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/19",
-   "at": "2026-10-01T08:28:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Nudgen-Marketing/mermail-skills/issues/430",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Nudgen-Marketing/mermail-skills: [official-skill] mermail-bounty-closer",
-   "url": "https://github.com/Nudgen-Marketing/mermail-skills/issues/430",
-   "at": "2026-10-01T07:29:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "enricoaboujaoude-droid",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Smartdevs17/stellarlend/issues/1191",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Smartdevs17/stellarlend: Bug-bounty settlement route for remediated private reports",
-   "url": "https://github.com/Smartdevs17/stellarlend/issues/1191",
-   "at": "2026-10-01T07:10:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Babydov",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/serenakeyitan/awesome-ai-agent-benchmarks/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "serenakeyitan/awesome-ai-agent-benchmarks: Add Glassbox \u2014 live autonomous-agent bounty arena",
-   "url": "https://github.com/serenakeyitan/awesome-ai-agent-benchmarks/issues/6",
-   "at": "2026-10-01T07:08:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "philipwright1295-wq",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/kalashnikovski/cvn_node/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "kalashnikovski/cvn_node: Bounty Reward \ud83d\udc8e",
-   "url": "https://github.com/kalashnikovski/cvn_node/issues/4",
-   "at": "2026-10-01T06:43:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "kalashnikovski",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/63",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-01: 0 new, 0 resumed, 2 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/63",
-   "at": "2026-10-01T05:52:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): validate inputs, enforce document path invariants, and add resilience guards in database account deletion ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20110",
-   "at": "2026-10-01T05:25:11Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "ajin558",
-    "labels": []
    }
   },
   {
@@ -4138,20 +3141,6 @@
      "track:interoperability",
      "priority:P1"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(backend): validate inputs, clamp TTL, and enforce fail-open boundaries in database action items cache ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20106",
-   "at": "2026-10-01T04:49:03Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "ajin558",
-    "labels": []
    }
   },
   {
