@@ -1,6 +1,253 @@
 {
- "generated_at": "2026-10-02T15:20:01Z",
+ "generated_at": "2026-10-02T20:03:53Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59048",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59048 [sfpu/matmul] GELU_TANH has no fast variant: its FP32 tanh path costs ~38 SFPU ops per element for BF16 outputs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59048",
+   "at": "2026-10-02T19:54:34Z",
+   "extra": {
+    "author": "kmabeeTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: eltwise",
+     "op_cat: mm",
+     "perf",
+     "prefill",
+     "wormhole",
+     "model: gemma-4"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59045",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59045 Perform TensorParameter relaxation analysis for Quasar for ops that still need it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59045",
+   "at": "2026-10-02T19:26:28Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/81",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "nick-transition/fitapp: [Bounty Proposal] Login-only gradient hero and responsive sign-in panel for #43 \u2014 USD 150",
+   "url": "https://github.com/nick-transition/fitapp/issues/81",
+   "at": "2026-10-02T18:55:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "scottperlitch",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59040",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59040 Fix interaction between add and concat on Quasar",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59040",
+   "at": "2026-10-02T18:50:48Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1728",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1728",
+   "at": "2026-10-02T18:20:01Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 1000,
+    "author": "zhangjiayang6835-cyber",
+    "labels": [
+     "bounty",
+     "real"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/6653885822d96387f3a23cac247b1cb75daac12b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "llk: Quasar p_unpacr names UNPACR_NOP's types by Quasar's encoding (#58895)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/6653885822d96387f3a23cac247b1cb75daac12b",
+   "at": "2026-10-02T18:00:16Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_A_api.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_instr_params.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_common.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_unary_operand.h"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e5a9e9b41aaa77080598c9efc8926d8c6dbb7cd2",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][BH] B2D datacopy: one MOP outer iteration per face, not always 4 (#55638)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e5a9e9b41aaa77080598c9efc8926d8c6dbb7cd2",
+   "at": "2026-10-02T17:54:11Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/test_bcast.py",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_math_eltwise_unary_datacopy.h"
+    ],
+    "added": [],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59033",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59033 [Quasar] Make `qwen3_vl` model pass end to end on quasar emulator",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59033",
+   "at": "2026-10-02T17:49:09Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/80",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "nick-transition/fitapp: [Bounty Proposal] System light/dark emerald theme for #39 \u2014 USD 300",
+   "url": "https://github.com/nick-transition/fitapp/issues/80",
+   "at": "2026-10-02T17:29:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 300,
+    "author": "JSVDSD",
+    "labels": [
+     "bounty-proposal"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1452",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [ROADMAP \u00b7 PROPOSED] Connect contributions \u2192 Knowledge \u2192 comic character/NFT \u2192 Metaverse \u2192 bounties",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1452",
+   "at": "2026-10-02T16:29:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59028",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59028 [Watcher] Legitimate NoC messages fail sanitization",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59028",
+   "at": "2026-10-02T16:21:44Z",
+   "extra": {
+    "author": "etomuskTT",
+    "labels": [
+     "bug",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "at": "2026-10-02T16:03:08Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "bvdyvncqr5-commits"
+    ],
+    "created": "2026-10-02T14:34:03Z"
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1450",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [PILOT BOUNTY \u00b7 PROPOSED REWARD] Open Period Care research & Knowledge Cards \u2014 50 USD equivalent",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1450",
+   "at": "2026-10-02T15:52:55Z",
+   "extra": {
+    "comments": 9,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/4585ffbe834dc8a8eb8556ae4c78a0e72b18f09f",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Quasar] Improve SFPU log accuracy, use fp32 ln2 in _calculate_log_body_no_init_ (#59014)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/4585ffbe834dc8a8eb8556ae4c78a0e72b18f09f",
+   "at": "2026-10-02T15:46:23Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_log.h"
+    ],
+    "added": [],
+    "author": "amokanTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/7a8571dfe7f5de53370792e3e0c4e0a3c77558f4",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "Quasar unary broadcast test: balance SrcA in the perf isolate loops (#58870)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/7a8571dfe7f5de53370792e3e0c4e0a3c77558f4",
+   "at": "2026-10-02T15:40:11Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_broadcast_quasar_test.cpp"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/24",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 14 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/24",
+   "at": "2026-10-02T15:29:00Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59017",
    "source": "tenstorrent",
@@ -35,6 +282,45 @@
    }
   },
   {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/20b4340b30d64e35522e62cac9f3e040f7787999",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "TTNOP Injector for LLK tests Fixes (#58152)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/20b4340b30d64e35522e62cac9f3e040f7787999",
+   "at": "2026-10-02T15:10:26Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/.claude/skills/perturb/SKILL.md",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/.gitignore",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/FOCUS.md",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/Makefile",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/README.md",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/native/Makefile",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/native/elf32.h",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/native/scan.cpp",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/native/tensix_isa.h",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/_pytest_runner.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/cave.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/heartbeat.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/junit.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/report.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/scanner.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/supervise.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/sweep.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/runtime/ttnop_plugin.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/scripts/ci.sh",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/scripts/env.sh",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/scripts/focus.sh",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/tests/ttnop_check.py",
+     "tt_metal/tt-llk/tests/python_tests/ttnop/tools/changed_tests.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/ttnop/native/Makefile"
+    ],
+    "author": "nmohammedTT"
+   }
+  },
+  {
    "id": "https://github.com/Bannerlord-Coop-Team/BannerlordCoop/issues/3774",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -49,17 +335,36 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "id": "https://github.com/tenstorrent/tt-metal/commit/01dd18d767fffe18c01ec91fed2c1ee1c8b05892",
    "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-   "at": "2026-10-02T14:48:43Z",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] custom_mm: serialize the both-bank SrcB clear and move it to init (#58863)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/01dd18d767fffe18c01ec91fed2c1ee1c8b05892",
+   "at": "2026-10-02T14:53:27Z",
    "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [],
-    "created": "2026-10-02T14:34:03Z"
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_compressed_custom_mm_api.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_custom_mm_api.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/compressed_custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/compressed_custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/custom_mm.h",
+     "tt_metal/hw/inc/api/compute/experimental/sdpa_custom_mm.h",
+     "tt_metal/tt-llk/tests/python_tests/helpers/compressed_utils.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
+     "tt_metal/tt-llk/tests/python_tests/test_custom_mm.py",
+     "tt_metal/tt-llk/tests/python_tests/test_matmul_custom_compressed.py",
+     "tt_metal/tt-llk/tests/sources/compressed_custom_mm_test.cpp",
+     "tt_metal/tt-llk/tests/sources/custom_mm_reuse_dest_srcb_test.cpp",
+     "tt_metal/tt-llk/tests/sources/custom_mm_test.cpp",
+     "tt_metal/tt-llk/tests/sources/matmul_custom_compressed_test.cpp",
+     "tt_metal/tt-llk/tests/sources/sdpa_custom_mm_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_compressed_custom_mm.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_compressed_custom_mm.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_custom_mm.h"
+    ],
+    "added": [],
+    "author": "lpremovicTT"
    }
   },
   {
@@ -71,7 +376,11 @@
    "at": "2026-10-02T14:42:45Z",
    "extra": {
     "author": "kmabeeTT",
-    "labels": []
+    "labels": [
+     "prefill",
+     "test-infra",
+     "model: gemma-4"
+    ]
    }
   },
   {
@@ -187,7 +496,7 @@
    "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1447",
    "at": "2026-10-02T14:14:49Z",
    "extra": {
-    "comments": 1,
+    "comments": 4,
     "amount_usd": null,
     "author": "danieldirimini-myzubster",
     "labels": []
@@ -307,7 +616,7 @@
    "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1443",
    "at": "2026-10-02T13:24:43Z",
    "extra": {
-    "comments": 1,
+    "comments": 10,
     "amount_usd": null,
     "author": "danieldirimini-myzubster",
     "labels": []
@@ -321,7 +630,7 @@
    "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1440",
    "at": "2026-10-02T13:24:36Z",
    "extra": {
-    "comments": 5,
+    "comments": 10,
     "amount_usd": null,
     "author": "danieldirimini-myzubster",
     "labels": []
@@ -335,24 +644,10 @@
    "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1439",
    "at": "2026-10-02T13:24:34Z",
    "extra": {
-    "comments": 3,
+    "comments": 8,
     "amount_usd": null,
     "author": "danieldirimini-myzubster",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58976",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58976 Fix sanity breaking in linear test",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58976",
-   "at": "2026-10-02T13:22:27Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
    }
   },
   {
@@ -898,20 +1193,6 @@
    "extra": {
     "state": "open",
     "author": "Mannerless"
-   }
-  },
-  {
-   "id": "https://github.com/MondoTruth/standart-npc/issues/24",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MondoTruth/standart-npc: Bounty Hunter: Area Purge does not start at Lv 201-230",
-   "url": "https://github.com/MondoTruth/standart-npc/issues/24",
-   "at": "2026-10-02T06:53:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "MondoTruth",
-    "labels": []
    }
   },
   {
@@ -1755,57 +2036,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/a819297d50b27102eda5b1829d2bf717b35515f9",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[ring_joint_sdpa] Configurable attention matmul fidelity; segmented accumulation for unsplit chunked attention (#58223)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/a819297d50b27102eda5b1829d2bf717b35515f9",
-   "at": "2026-10-01T19:51:49Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/experimental/matmul_custom.h"
-    ],
-    "added": [],
-    "author": "kmabeeTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58887",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58887 [aw] Failed jobs: Tenstorrent Skills Reviewer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58887",
-   "at": "2026-10-01T19:20:07Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/04c2a73718c0f24c7dc8b774340acbb57e7deb00",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Perf merge gate against a rolling merge baseline (#58121)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/04c2a73718c0f24c7dc8b774340acbb57e7deb00",
-   "at": "2026-10-01T18:36:56Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/perf/baseline_from_warehouse.py",
-     "tt_metal/tt-llk/perf/gate_slack_notify.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/core.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/publish_run.py",
-     "tt_metal/tt-llk/tests/python_tests/test_perf_baseline_from_warehouse.py",
-     "tt_metal/tt-llk/tests/python_tests/test_perf_gate_slack_notify.py",
-     "tt_metal/tt-llk/tests/python_tests/test_perf_publish_run.py",
-     "tt_metal/tt-llk/tests/python_tests/test_perf_report_hw_free.py"
-    ],
-    "added": [],
-    "author": "nstojicTT"
-   }
-  },
-  {
    "id": "https://github.com/GermanoDevelopment/greenfield/issues/36",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1968,44 +2198,6 @@
    }
   },
   {
-   "id": "https://github.com/doitsujin/dxvk/issues/5942",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "doitsujin/dxvk: [d3d9] 32-bit King's Bounty: Warriors of the North \u2014 NULL vtable deref at d3d9.dll RVA 0x466833, entered via device method RVA 0xb0914",
-   "url": "https://github.com/doitsujin/dxvk/issues/5942",
-   "at": "2026-10-01T18:07:07Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "als-creator",
-    "labels": [
-     "needs apitrace",
-     "d3d9",
-     "needs more info",
-     "AI bullshit"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58874",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58874 [gemma4_d_p] Speed up `test_prefill_migration[mock-256k]` (KV-cache PCC): ~10 min per run, ~9 s of it is the model",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58874",
-   "at": "2026-10-01T17:44:08Z",
-   "extra": {
-    "author": "kmabeeTT",
-    "labels": [
-     "infra-ci",
-     "host performance optimization",
-     "blackhole",
-     "prefill",
-     "test-infra",
-     "model: gemma-4"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2022,46 +2214,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58871",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58871 Qwen3-32B unit (WH Galaxy): dram_prefetcher writer_l1 NoC write past the end of L1 on g03glx03 / g03glx04 / j09glx02 (OM1 hosts pass), byte-identical on three hosts",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58871",
-   "at": "2026-10-01T17:02:55Z",
-   "extra": {
-    "author": "mtairum",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58865",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58865 [Trace allocation tracker] Audit and narrow remaining model allocation scopes",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58865",
-   "at": "2026-10-01T16:32:56Z",
-   "extra": {
-    "author": "tchedaTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/20",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 15 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/20",
-   "at": "2026-10-01T16:05:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1271",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2069,7 +2221,7 @@
    "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1271",
    "at": "2026-10-01T16:00:08Z",
    "extra": {
-    "comments": 4,
+    "comments": 8,
     "amount_usd": null,
     "author": "SPLURT-Station-Bot",
     "labels": [
@@ -2111,20 +2263,6 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/20193",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] feat(python-cli): conversations -> Jupyter notebook (.ipynb) export recipe ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20193",
-   "at": "2026-10-01T15:50:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 25,
-    "author": "bing33221",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20193",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#20193 [Bounty proposal] feat(python-cli): conversations -> Jupyter notebook (.ipynb) export recipe ($25 proposed)",
@@ -2133,38 +2271,6 @@
    "extra": {
     "state": "open",
     "author": "bing33221"
-   }
-  },
-  {
-   "id": "https://github.com/rumcan/Heavy-Metal-GP/issues/113",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "rumcan/Heavy-Metal-GP: P2-07: Health bars, damage and Did Not Finish: 0 HP = DNF, the Shaman's fee, and KO bounties",
-   "url": "https://github.com/rumcan/Heavy-Metal-GP/issues/113",
-   "at": "2026-10-01T15:35:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "rumcan",
-    "labels": [
-     "multiplayer",
-     "phase-2",
-     "gameplay"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20187",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: [Bounty Proposal] fix(imports): prevent zip upload path traversal, shield storage exceptions, and validate job IDs (- proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20187",
-   "at": "2026-10-01T15:16:37Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "naufalfx805-source",
-    "labels": []
    }
   },
   {
@@ -2355,25 +2461,6 @@
    }
   },
   {
-   "id": "https://github.com/AstralDeep/LETS/issues/66",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/LETS: Validate finite, correctly typed SDK deadline and retry limits",
-   "url": "https://github.com/AstralDeep/LETS/issues/66",
-   "at": "2026-10-01T04:54:22Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "bounty",
-     "points:100",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/AstralDeep/AstralPrimitives/issues/14",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2457,7 +2544,7 @@
    "url": "https://github.com/AstralDeep/AstralPrimitives/issues/10",
    "at": "2026-10-01T04:54:14Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -2476,7 +2563,7 @@
    "url": "https://github.com/AstralDeep/AstralPrimitives/issues/9",
    "at": "2026-10-01T04:54:13Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -2745,7 +2832,7 @@
    "url": "https://github.com/AstralDeep/AstralProjection/issues/37",
    "at": "2026-10-01T04:53:53Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -3213,22 +3300,6 @@
    "extra": {
     "state": "OPEN",
     "author": "blackmore-technology-group"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56290 [Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
-   "at": "2026-09-30T16:13:51Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-11T18:45:31Z"
    }
   }
  ],
