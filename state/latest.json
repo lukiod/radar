@@ -1,6 +1,202 @@
 {
- "generated_at": "2026-10-03T03:49:17Z",
+ "generated_at": "2026-10-03T09:38:41Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/53787",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#53787 [Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
+   "at": "2026-10-03T09:24:19Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "kanapitsas",
+    "assignees": [
+     "kanapitsas"
+    ],
+    "created": "2026-08-20T12:34:59Z"
+   }
+  },
+  {
+   "id": "https://github.com/moakilodash/paycue-bounty-demo/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "moakilodash/paycue-bounty-demo: Add a bounty issue template",
+   "url": "https://github.com/moakilodash/paycue-bounty-demo/issues/12",
+   "at": "2026-10-03T09:05:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "moakilodash",
+    "labels": [
+     "enhancement",
+     "good first issue"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/moakilodash/paycue-bounty-demo/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "moakilodash/paycue-bounty-demo: Draw the bounty flow as a pixel-art diagram",
+   "url": "https://github.com/moakilodash/paycue-bounty-demo/issues/11",
+   "at": "2026-10-03T09:05:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "moakilodash",
+    "labels": [
+     "enhancement",
+     "bounty: 120000"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59098",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59098 [aw] Failed jobs: Silencer (tt-metal)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59098",
+   "at": "2026-10-03T08:59:15Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59096",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59096 [aw] Failed jobs: CI Failure Triage (pilot)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59096",
+   "at": "2026-10-03T08:19:50Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/cufelix/warren/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "cufelix/warren: Piece 2: bounty board + leaderboard",
+   "url": "https://github.com/cufelix/warren/issues/2",
+   "at": "2026-10-03T07:12:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "cufelix",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/29",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 13 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/29",
+   "at": "2026-10-03T06:08:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/RonTuretzky/issue.fund/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RonTuretzky/issue.fund: Design spike: bounty funding, claims and fee clarity",
+   "url": "https://github.com/RonTuretzky/issue.fund/issues/5",
+   "at": "2026-10-03T05:45:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "RonTuretzky",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/73",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-03: 0 new, 0 resumed, 2 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/73",
+   "at": "2026-10-03T05:25:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20413",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "BasedHardware/omi: [Bounty Proposal] fix(integrations): an explicit-null field in a developer webhook notification silently drops every proactive notification ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20413",
+   "at": "2026-10-03T05:19:23Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 50,
+    "author": "kduailabs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/BasedHardware/omi/issues/20413",
+   "source": "omi",
+   "kind": "omi_proposal",
+   "title": "omi#20413 [Bounty Proposal] fix(integrations): an explicit-null field in a developer webhook notification silently drops every proactive notification ($50 proposed)",
+   "url": "https://github.com/BasedHardware/omi/issues/20413",
+   "at": "2026-10-03T05:19:23Z",
+   "extra": {
+    "state": "open",
+    "author": "kduailabs"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/6ab530ad28d4cde65041d3459ad88698834f6ec8",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] tests: make profiler marker ids independent of the checkout path (#58866)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/6ab530ad28d4cde65041d3459ad88698834f6ec8",
+   "at": "2026-10-03T05:05:29Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59088",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59088 [Gemma4_d_p] Speed up the 256k traced prefill perf sweep (chunk 2k/4k/8k)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59088",
+   "at": "2026-10-03T03:51:13Z",
+   "extra": {
+    "author": "kmabeeTT",
+    "labels": [
+     "infra-ci",
+     "host performance optimization",
+     "blackhole",
+     "prefill",
+     "test-infra",
+     "model: gemma-4"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
    "source": "tenstorrent",
@@ -51,28 +247,12 @@
    "url": "https://github.com/ysyhlly/basedagents-issue-workflow/issues/1",
    "at": "2026-10-03T03:03:31Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "ysyhlly",
     "labels": [
      "bounty",
      "bounty:automation"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/dannyheskett/openbounty/issues/141",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dannyheskett/openbounty: Glory of Rome: troops the week can't pay leave the army (King's Bounty keeps openkb's free army)",
-   "url": "https://github.com/dannyheskett/openbounty/issues/141",
-   "at": "2026-10-03T03:00:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dannyheskett",
-    "labels": [
-     "enhancement"
     ]
    }
   },
@@ -645,7 +825,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1728",
    "at": "2026-10-02T18:20:01Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 1000,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -1504,215 +1684,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/38b15a287d6138e684a5540c3913109fccef6fa3",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][skills] bug-audit: re-rate severities, default to 300-line batches, remove the execution tier (#58519)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/38b15a287d6138e684a5540c3913109fccef6fa3",
-   "at": "2026-10-02T09:11:46Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/.claude/skills/bug-audit/SKILL.md",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/audit-wave.js",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/common.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/consolidate.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/exec_tier.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/fix-wave.js",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/init_run.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/next_wave.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck-wave.js",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/recheck.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity-wave.js",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/spawn.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/marker.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/mining/select.py",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/references/measurement-history.md",
-     "tt_metal/tt-llk/.claude/skills/bug-audit/tests/test_engine.py"
-    ],
-    "added": [
-     "tt_metal/tt-llk/.claude/skills/bug-audit/engine/severity.py"
-    ],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58950",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58950 [aw] Failed jobs: CI Failure Triage (pilot)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58950",
-   "at": "2026-10-02T08:59:24Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/3872518532f7d03e813ce011da88fdebd5061a38",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Quasar] Port Blackhole SFPI SFPU kernels with fuser coverage (#58209)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/3872518532f7d03e813ce011da88fdebd5061a38",
-   "at": "2026-10-02T08:56:24Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_activations.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add1.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add_top_row.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcdiv.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcmul.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_alt_complex_rotate90.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_bitwise.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_fmod.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_remainder.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise_not.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cast_fp32_to_fp16a.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cbrt.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_celu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_clamped_silu_glu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_digamma.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32_floor.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_elu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erf.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfc.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfinv.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp2.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1_cw.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_fmod.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardmish.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardshrink.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardtanh.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_heaviside.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i0.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i1.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_identity.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_int_sum.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_is_fp16_zero.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_isclose.h"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_activations.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add1.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add_top_row.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcdiv.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_addcmul.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_alt_complex_rotate90.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_bitwise.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_fmod.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_pow.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_remainder.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_bitwise_not.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cast_fp32_to_fp16a.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_cbrt.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_celu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_clamped_silu_glu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_digamma.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_div_int32_floor.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_elu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erf.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfc.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_erfinv.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp2.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_expm1_cw.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_fmod.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardmish.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardshrink.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_hardtanh.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_heaviside.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i0.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_i1.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_identity.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_int_sum.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_is_fp16_zero.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_isclose.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_isinf_isnan.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_lerp.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_lgamma.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logical_not.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logsigmoid.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_mac.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_mask.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_mish.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_polygamma.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_prelu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rdiv.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_remainder.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rpow.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rsub_int32.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_selu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_sigmoid_appx.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_sign.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_situ_glu.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_snake_beta.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_softcap.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_softshrink.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_softsign.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_tanh_derivative.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_tanhshrink.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_threshold.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_tiled_prod.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_unary_comp.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_unary_power.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_unary_shift.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_xielu.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_bessel_i0_i1_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_bessel_i0_i1_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_fmod_remainder_dest16_bf16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_fmod_remainder_dest16_fp16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_fmod_remainder_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_pow_dest16_bf16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_pow_dest16_fp16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_binary_pow_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_erfinv_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_erfinv_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_glu_dest16_bf16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_glu_dest16_fp16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_glu_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_binary_bitwise_fmod_remainder.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_div.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_left_shift_sum.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_mask_sum_add.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_unary.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest16_bf16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest16_fp16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_isclose_dest32_unpack_to_dest.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_lgamma_digamma_polygamma_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_lgamma_digamma_polygamma_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_lgamma_stirling_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_log_power_iterative_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_log_power_iterative_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logsigmoid_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logsigmoid_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_mask_dest16_bf16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_mask_dest16_fp16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_mask_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_tiled_prod_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_tiled_prod_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_uint32_binary_remainder.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_approx_modes_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_approx_modes_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest32.yaml"
-    ],
-    "author": "vvukomanovicTT"
-   }
-  },
-  {
    "id": "https://github.com/uknwplayer/BountyScout/issues/23",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1776,23 +1747,6 @@
    "extra": {
     "state": "open",
     "author": "nguyentruong190"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/793405d866ead4cc953a2c8836c7bc36a39c7179",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] scalar-lhs gt/lt/ne throw; where with scalar returns wrong values for bf16 inputs and float32 output (#58120)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/793405d866ead4cc953a2c8836c7bc36a39c7179",
-   "at": "2026-10-02T06:25:45Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/binary/binary.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_program_factory.cpp"
-    ],
-    "added": [],
-    "author": "ijankowskiTT"
    }
   },
   {
@@ -1923,7 +1877,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/20284",
    "at": "2026-10-02T05:40:10Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": 50,
     "author": "ajin558",
     "labels": []
@@ -2128,22 +2082,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58942",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#58942 [ops/conv]: config_tensors_in_dram=True bakes DRAM buffer addresses into compile-time args, so compiled kernels aren't reused across processes",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58942",
-   "at": "2026-10-02T03:53:14Z",
-   "extra": {
-    "author": "Sedherthe",
-    "labels": [
-     "bug",
-     "op_cat: conv2D",
-     "community"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/haveno-dex/haveno/issues/2694",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2168,76 +2106,6 @@
     "comments": 0,
     "amount_usd": null,
     "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/agentbuddha88/saucerswap-liquidity-kit/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "agentbuddha88/saucerswap-liquidity-kit: Bounty submission packet (Scaffold-HBAR) \u2014 awaiting official form URL",
-   "url": "https://github.com/agentbuddha88/saucerswap-liquidity-kit/issues/1",
-   "at": "2026-10-02T01:03:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "agentbuddha88",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/hedera-dev/hedera-harness/issues/83",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "hedera-dev/hedera-harness: Scaffold-HBAR Template Bounty: registration/submit URLs still TBC \u2014 submission packet",
-   "url": "https://github.com/hedera-dev/hedera-harness/issues/83",
-   "at": "2026-10-02T01:03:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "agentbuddha88",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/joshft/correctless/issues/315",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "joshft/correctless: caudit: $<digit> sequences in SKILL.md are replaced by argument words when invoked with arguments \u2014 Step 7 LINES_CHANGED is always 0 and the bounty tables are garbled",
-   "url": "https://github.com/joshft/correctless/issues/315",
-   "at": "2026-10-02T00:34:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "joshft",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/mozilla/bedrock/issues/17413",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "mozilla/bedrock: Bug bounty page lists Syria as a sanctioned country",
-   "url": "https://github.com/mozilla/bedrock/issues/17413",
-   "at": "2026-10-02T00:11:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "omaralbeik",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/nick-transition/fitapp/issues/72",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "nick-transition/fitapp: [Bounty Proposal] Shared styled empty states for #42",
-   "url": "https://github.com/nick-transition/fitapp/issues/72",
-   "at": "2026-10-02T00:06:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "PellaML",
     "labels": []
    }
   },
@@ -2287,22 +2155,6 @@
      "Sedherthe"
     ],
     "created": "2026-08-23T09:12:02Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/49307",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#49307 [Bounty $2500] Command-R bringup using TTNN APIs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
-   "at": "2026-10-01T08:36:02Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "morhimanshu",
-    "assignees": [
-     "morhimanshu"
-    ],
-    "created": "2026-07-07T21:46:56Z"
    }
   }
  ],
