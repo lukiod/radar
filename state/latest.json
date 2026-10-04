@@ -1,6 +1,107 @@
 {
- "generated_at": "2026-10-04T20:19:16Z",
+ "generated_at": "2026-10-04T23:26:11Z",
  "events": [
+  {
+   "id": "https://github.com/hanzhad/squelch-news-engine/issues/1321",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "hanzhad/squelch-news-engine: Google froze its open source bug bounty program due to a \u2018significant rise\u2019 in AI submissions",
+   "url": "https://github.com/hanzhad/squelch-news-engine/issues/1321",
+   "at": "2026-10-04T22:56:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "status:1-raw",
+     "source:techcrunchai"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/43",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 11 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/43",
+   "at": "2026-10-04T22:51:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59220",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59220 DS Prefill :: update_padded_kv_cache fails to JIT-build from a wheel (missing packed_kv_layout.hpp)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59220",
+   "at": "2026-10-04T22:27:20Z",
+   "extra": {
+    "author": "nostojicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/anauaque/gh-bounty-tag-ruleset-lab-20261004/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "anauaque/gh-bounty-tag-ruleset-lab-20261004: c198&echo.C198_CANARY>%TEMP%/c198-bounty-canary-20261004.txt&rem",
+   "url": "https://github.com/anauaque/gh-bounty-tag-ruleset-lab-20261004/issues/7",
+   "at": "2026-10-04T21:39:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "anauaque",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/76",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-04: 0 new, 0 resumed, 2 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/76",
+   "at": "2026-10-04T21:31:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59219",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59219 [aw] Failed jobs: Silencer (tt-metal)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59219",
+   "at": "2026-10-04T21:22:03Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/RonTuretzky/issue.fund/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RonTuretzky/issue.fund: Provide open-source bounty repository handoff",
+   "url": "https://github.com/RonTuretzky/issue.fund/issues/9",
+   "at": "2026-10-04T21:05:35Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "RonTuretzky",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59216",
    "source": "tenstorrent",
@@ -495,20 +596,6 @@
    }
   },
   {
-   "id": "https://github.com/mdpsec/bug-bounty-hunting-prompts/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "mdpsec/bug-bounty-hunting-prompts: Invitation to share bug-bounty-hunting-prompts on GithubStarMate and help more people discover your work",
-   "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts/issues/1",
-   "at": "2026-10-04T09:02:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "owl1539",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/CortexLM/cortex/issues/316",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -597,37 +684,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59151",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59151 [aw] Failed jobs: Silencer (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59151",
-   "at": "2026-10-03T21:45:39Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59148",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59148 blackhole llk test harness: the int32 signbit dispatch runs calculate_signbit_int32 under the float signbit_init macro program",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59148",
-   "at": "2026-10-03T21:38:29Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "llk:test-infra"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -655,36 +711,6 @@
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59146",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59146 Nightly: test_repeat_all_ones_shortcut fails with \"bad optional access\" for sharded inputs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59146",
-   "at": "2026-10-03T20:40:27Z",
-   "extra": {
-    "author": "VirdhatchaniKN",
-    "labels": [
-     "op_cat: TM",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59144",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59144 ttnn.repeat drops an explicit ND-sharded output memory_config and returns interleaved",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59144",
-   "at": "2026-10-03T20:37:29Z",
-   "extra": {
-    "author": "VirdhatchaniKN",
-    "labels": [
-     "op_cat: TM",
-     "MCW"
-    ]
    }
   },
   {
@@ -925,95 +951,6 @@
      "enhancement",
      "good first issue"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/BitPolito/paycue-bounty-demo/issues/11",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BitPolito/paycue-bounty-demo: Draw the bounty flow as a pixel-art diagram",
-   "url": "https://github.com/BitPolito/paycue-bounty-demo/issues/11",
-   "at": "2026-10-03T09:05:23Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "moakilodash",
-    "labels": [
-     "enhancement",
-     "bounty: 120000"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/cufelix/warren/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "cufelix/warren: Piece 2: bounty board + leaderboard",
-   "url": "https://github.com/cufelix/warren/issues/2",
-   "at": "2026-10-03T07:12:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "cufelix",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/29",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 13 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/29",
-   "at": "2026-10-03T06:08:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/RonTuretzky/issue.fund/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "RonTuretzky/issue.fund: Design spike: bounty funding, claims and fee clarity",
-   "url": "https://github.com/RonTuretzky/issue.fund/issues/5",
-   "at": "2026-10-03T05:45:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "RonTuretzky",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/73",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-03: 0 new, 0 resumed, 2 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/73",
-   "at": "2026-10-03T05:25:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20413",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] fix(integrations): an explicit-null field in a developer webhook notification silently drops every proactive notification ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20413",
-   "at": "2026-10-03T05:19:23Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "kduailabs",
-    "labels": []
    }
   },
   {
