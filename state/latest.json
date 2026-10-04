@@ -1,6 +1,50 @@
 {
- "generated_at": "2026-10-04T00:23:59Z",
+ "generated_at": "2026-10-04T06:09:59Z",
  "events": [
+  {
+   "id": "https://github.com/adhikasp/ja2-stracciatella/issues/195",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "adhikasp/ja2-stracciatella: Queen's Mind: occupation levers (edicts, curfew, reprisals, bounties, informants)",
+   "url": "https://github.com/adhikasp/ja2-stracciatella/issues/195",
+   "at": "2026-10-04T05:25:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "adhikasp",
+    "labels": [
+     "task"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/38",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 12 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/38",
+   "at": "2026-10-04T04:50:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/84",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "nick-transition/fitapp: [Bounty Proposal] Preserve exercise metadata across workout edits (#62) \u2014 USD 150",
+   "url": "https://github.com/nick-transition/fitapp/issues/84",
+   "at": "2026-10-04T02:18:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "taroyamada3173-sys",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/uknwplayer/BountyScout/issues/36",
    "source": "github_search",
@@ -287,22 +331,6 @@
    }
   },
   {
-   "id": "https://github.com/drexthealpha/Knos/issues/42",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "drexthealpha/Knos: Site: the lookup by GitHub login also shows what the first deployment holds",
-   "url": "https://github.com/drexthealpha/Knos/issues/42",
-   "at": "2026-10-03T17:16:39Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "drexthealpha",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/uknwplayer/BountyScout/issues/32",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -328,38 +356,6 @@
     "labels": [
      "bug",
      "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/drexthealpha/Knos/issues/39",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "drexthealpha/Knos: docs/INSTALL.md: a GitLab CI example for knos check, checked by a test",
-   "url": "https://github.com/drexthealpha/Knos/issues/39",
-   "at": "2026-10-03T16:19:04Z",
-   "extra": {
-    "comments": 6,
-    "amount_usd": null,
-    "author": "drexthealpha",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/drexthealpha/Knos/issues/37",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "drexthealpha/Knos: knos status --json: the same checks as one JSON document",
-   "url": "https://github.com/drexthealpha/Knos/issues/37",
-   "at": "2026-10-03T16:18:59Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "drexthealpha",
-    "labels": [
-     "bounty"
     ]
    }
   },
@@ -919,6 +915,26 @@
    }
   },
   {
+   "id": "https://github.com/ChengshuLi/WorldAtlas/issues/569",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ChengshuLi/WorldAtlas: Separate archived pre-restoration coverage from current Nukunonu and Bounty audit results",
+   "url": "https://github.com/ChengshuLi/WorldAtlas/issues/569",
+   "at": "2026-10-03T09:45:22Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "ChengshuLi",
+    "labels": [
+     "kind:work-item",
+     "status:ready",
+     "type:geography",
+     "urgent",
+     "follow-up"
+    ]
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/53787",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -1081,40 +1097,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/6ab530ad28d4cde65041d3459ad88698834f6ec8",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] tests: make profiler marker ids independent of the checkout path (#58866)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/6ab530ad28d4cde65041d3459ad88698834f6ec8",
-   "at": "2026-10-03T05:05:29Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py"
-    ],
-    "added": [],
-    "author": "pkennedyTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59088",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59088 [Gemma4_d_p] Speed up the 256k traced prefill perf sweep (chunk 2k/4k/8k)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59088",
-   "at": "2026-10-03T03:51:13Z",
-   "extra": {
-    "author": "kmabeeTT",
-    "labels": [
-     "infra-ci",
-     "host performance optimization",
-     "blackhole",
-     "prefill",
-     "test-infra",
-     "model: gemma-4"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -1157,27 +1139,6 @@
      "bounty",
      "bounty:automation"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/d303644e7075581546ed87bd0b3517e52239d2a0",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][BH+WH] Hold the two halves of the saved dest row in separate LREGs (#55824)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/d303644e7075581546ed87bd0b3517e52239d2a0",
-   "at": "2026-10-03T02:28:59Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/test_dbg_get_array_row_srca.py",
-     "tt_metal/tt-llk/tests/sources/dbg_get_array_row_srca_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_debug.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_debug.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/test_dbg_get_array_row_srca.py",
-     "tt_metal/tt-llk/tests/sources/dbg_get_array_row_srca_test.cpp"
-    ],
-    "author": "amahmudTT"
    }
   },
   {
