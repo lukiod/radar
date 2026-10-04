@@ -1,15 +1,173 @@
 {
- "generated_at": "2026-10-04T06:09:59Z",
+ "generated_at": "2026-10-04T12:42:23Z",
  "events": [
   {
-   "id": "https://github.com/adhikasp/ja2-stracciatella/issues/195",
+   "id": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "adhikasp/ja2-stracciatella: Queen's Mind: occupation levers (edicts, curfew, reprisals, bounties, informants)",
-   "url": "https://github.com/adhikasp/ja2-stracciatella/issues/195",
-   "at": "2026-10-04T05:25:50Z",
+   "title": "muhammalif/evm-signature-verifier: [Bounty 100 USDT] Refactor Signature Verifier & Add Replay Attack Invariant Tests",
+   "url": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
+   "at": "2026-10-04T12:40:10Z",
    "extra": {
     "comments": 0,
+    "amount_usd": null,
+    "author": "muhammalif",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59180",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59180 Quasar: UNPACK input tile-counter not reset at program launch \u2192 cross-program hang",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59180",
+   "at": "2026-10-04T12:12:06Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/bettercallzaal/poidhz/issues/229",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "bettercallzaal/poidhz: ZAOstock Round 5 (bounty 1421): contribution scope and claim-gas clarification",
+   "url": "https://github.com/bettercallzaal/poidhz/issues/229",
+   "at": "2026-10-04T11:56:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "elcuervo171234",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59177",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59177 ttnn.fmod / ttnn.remainder (tensor-tensor): binary SFPU kernels return out-of-range, wrong-signed results for |a/b| \u2273 2^20 (fp32 + bf16, WH + BH), and inexact fp32 residuals from |a/b| \u2248 2^8",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59177",
+   "at": "2026-10-04T11:54:27Z",
+   "extra": {
+    "author": "Hung2124",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "at": "2026-10-04T11:15:31Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "bvdyvncqr5-commits"
+    ],
+    "created": "2026-10-02T14:34:03Z"
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/40",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 5 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/40",
+   "at": "2026-10-04T10:58:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/shgew/togi/issues/372",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "shgew/togi: Bounty board",
+   "url": "https://github.com/shgew/togi/issues/372",
+   "at": "2026-10-04T10:53:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "shgew",
+    "labels": [
+     "idea"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59175",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59175 [aw] Failed jobs: CI Failure Triage (pilot)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59175",
+   "at": "2026-10-04T10:06:16Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mdpsec/bug-bounty-hunting-prompts/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mdpsec/bug-bounty-hunting-prompts: Invitation to share bug-bounty-hunting-prompts on GithubStarMate and help more people discover your work",
+   "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts/issues/1",
+   "at": "2026-10-04T09:02:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "owl1539",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/CortexLM/cortex/issues/316",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "CortexLM/cortex: Subnet 100 Bounty gateway TLS handshake failure",
+   "url": "https://github.com/CortexLM/cortex/issues/316",
+   "at": "2026-10-04T08:33:35Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "happyluck4914",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/rickyjreyes/Wavelock/issues/24",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "rickyjreyes/Wavelock: Release: complete Public Bounty v1 review and launch preparation",
+   "url": "https://github.com/rickyjreyes/Wavelock/issues/24",
+   "at": "2026-10-04T06:49:20Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "rickyjreyes",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/adhikasp/ja2-pecel-bakwan/issues/195",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "adhikasp/ja2-pecel-bakwan: Queen's Mind: occupation levers (edicts, curfew, reprisals, bounties, informants)",
+   "url": "https://github.com/adhikasp/ja2-pecel-bakwan/issues/195",
+   "at": "2026-10-04T05:25:50Z",
+   "extra": {
+    "comments": 1,
     "amount_usd": null,
     "author": "adhikasp",
     "labels": [
@@ -39,7 +197,7 @@
    "url": "https://github.com/nick-transition/fitapp/issues/84",
    "at": "2026-10-04T02:18:15Z",
    "extra": {
-    "comments": 0,
+    "comments": 3,
     "amount_usd": 150,
     "author": "taroyamada3173-sys",
     "labels": []
@@ -312,7 +470,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/20487",
    "at": "2026-10-03T17:35:32Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 50,
     "author": "ahmedcompk",
     "labels": []
@@ -338,7 +496,7 @@
    "url": "https://github.com/uknwplayer/BountyScout/issues/32",
    "at": "2026-10-03T17:02:01Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": []
@@ -381,7 +539,7 @@
    "url": "https://github.com/ngempruy/ngempruy/issues/20",
    "at": "2026-10-03T13:53:04Z",
    "extra": {
-    "comments": 6,
+    "comments": 8,
     "amount_usd": null,
     "author": "FjrREPO",
     "labels": [
@@ -857,7 +1015,7 @@
    "url": "https://github.com/uknwplayer/BountyScout/issues/30",
    "at": "2026-10-03T12:17:38Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": []
@@ -922,7 +1080,7 @@
    "url": "https://github.com/ChengshuLi/WorldAtlas/issues/569",
    "at": "2026-10-03T09:45:22Z",
    "extra": {
-    "comments": 2,
+    "comments": 5,
     "amount_usd": null,
     "author": "ChengshuLi",
     "labels": [
@@ -981,34 +1139,6 @@
     "labels": [
      "enhancement",
      "bounty: 120000"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59098",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59098 [aw] Failed jobs: Silencer (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59098",
-   "at": "2026-10-03T08:59:15Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59096",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59096 [aw] Failed jobs: CI Failure Triage (pilot)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59096",
-   "at": "2026-10-03T08:19:50Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
     ]
    }
   },
@@ -1094,22 +1224,6 @@
    "extra": {
     "state": "open",
     "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-   "at": "2026-10-03T03:48:56Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "bvdyvncqr5-commits"
-    ],
-    "created": "2026-10-02T14:34:03Z"
    }
   },
   {
