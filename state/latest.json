@@ -1,6 +1,140 @@
 {
- "generated_at": "2026-10-04T17:16:09Z",
+ "generated_at": "2026-10-04T20:19:16Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59216",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59216 [gemma4_d_p] Short-slab prefill: activation layout, collectives and output placement",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59216",
+   "at": "2026-10-04T20:15:24Z",
+   "extra": {
+    "author": "kmabeeTT",
+    "labels": [
+     "perf",
+     "prefill",
+     "model: gemma-4"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59213",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59213 [ops/sdpa]: REDUCE_ROW SUM configures unpacker operands in swapped order for m ixed formats",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59213",
+   "at": "2026-10-04T19:32:20Z",
+   "extra": {
+    "author": "dddrrreee",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59212",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59212 [ops/sdpa]: sub_exp_block packs the rescale tile with a stale FP32 packer format",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59212",
+   "at": "2026-10-04T19:31:13Z",
+   "extra": {
+    "author": "dddrrreee",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59211",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59211 [ring_attention_all_gather] Sliding halo writer is bound by per-packet bookkeeping, and sliding attention waits on it every layer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59211",
+   "at": "2026-10-04T19:31:05Z",
+   "extra": {
+    "author": "kmabeeTT",
+    "labels": [
+     "blackhole",
+     "op_cat: ccl",
+     "perf",
+     "prefill",
+     "model: gemma-4"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59210",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59210 [ops/sdpa]: sparse_sdpa ignores math_approx_mode=False for the P exponential",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59210",
+   "at": "2026-10-04T19:27:42Z",
+   "extra": {
+    "author": "dddrrreee",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/42",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 7 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/42",
+   "at": "2026-10-04T19:17:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Alliance-codeBase/PostMeta/issues/250",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Alliance-codeBase/PostMeta: Inability to complete bounty",
+   "url": "https://github.com/Alliance-codeBase/PostMeta/issues/250",
+   "at": "2026-10-04T19:05:46Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "lousvilleslugger",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59204",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59204 [model]: Llama 3.1 8B QB2 seed conversion can skip device reseeding",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59204",
+   "at": "2026-10-04T17:39:46Z",
+   "extra": {
+    "author": "tchedaTT",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Trauma-Station/Trauma-Station/issues/4880",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Trauma-Station/Trauma-Station: Revert progtot so I can bounty some more changes",
+   "url": "https://github.com/Trauma-Station/Trauma-Station/issues/4880",
+   "at": "2026-10-04T17:29:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ARMOKS",
+    "labels": [
+     "S: Untriaged"
+    ]
+   }
+  },
   {
    "id": "https://github.com/nick-transition/fitapp/issues/87",
    "source": "github_search",
@@ -9,7 +143,7 @@
    "url": "https://github.com/nick-transition/fitapp/issues/87",
    "at": "2026-10-04T16:26:31Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "saint-inc",
     "labels": []
@@ -568,130 +702,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59142",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59142 blackhole llk face compressed matmul: a second call after the init reads its activations from the wrong rows, because the call leaves the unpack thread's Y counter where its last activation load put it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59142",
-   "at": "2026-10-03T19:52:28Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59141",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59141 blackhole llk face compressed matmul: every call still clears both srcb banks next to its first weight-face unpacks, the race #58863 removed from custom_mm and compressed_custom_mm",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59141",
-   "at": "2026-10-03T19:52:26Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59140",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59140 blackhole llk pack untilize: a block row of an odd number of tiles to Fp8_e4m3 overwrites the 32 bytes after it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59140",
-   "at": "2026-10-03T19:47:28Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59139",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59139 blackhole llk pack untilize: no functional test reaches the block form that matmul and conv untilize_out use, or narrow_row",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59139",
-   "at": "2026-10-03T19:47:27Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59138",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59138 blackhole llk tilizeA_B: an fp32 operand A with an fp32 DEST unpacks the rows of a face over each other",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59138",
-   "at": "2026-10-03T19:11:32Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59137",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59137 blackhole llk fast tilize: the pack thread waits on THCON once per tile for the output address update, 4.6 of its 26.1 cycles per tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59137",
-   "at": "2026-10-03T19:11:30Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59134",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59134 blackhole llk transpose: the transpose perf tests do not measure transpose_dest by itself, and the unpacker transpose has no bfloat16 row",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59134",
-   "at": "2026-10-03T18:53:54Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: TM",
-     "llk:test-infra",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/BasedHardware/omi/issues/20487",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -872,7 +882,7 @@
    "url": "https://github.com/ChengshuLi/WorldAtlas/issues/569",
    "at": "2026-10-03T09:45:22Z",
    "extra": {
-    "comments": 5,
+    "comments": 6,
     "amount_usd": null,
     "author": "ChengshuLi",
     "labels": [
@@ -1069,41 +1079,6 @@
    "extra": {
     "state": "OPEN",
     "author": "blackmore-technology-group"
-   }
-  },
-  {
-   "id": "https://github.com/anthropics/claude-code/issues/99108",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "anthropics/claude-code: [Bug] Safety classifier false positives with bug-bounty skills loaded",
-   "url": "https://github.com/anthropics/claude-code/issues/99108",
-   "at": "2026-10-03T00:36:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "marin0raga",
-    "labels": [
-     "bug",
-     "duplicate",
-     "platform:linux",
-     "area:model",
-     "area:security",
-     "area:skills"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/27",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 10 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/27",
-   "at": "2026-10-03T00:13:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
    }
   }
  ],
