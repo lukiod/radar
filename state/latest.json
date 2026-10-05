@@ -1,6 +1,1927 @@
 {
- "generated_at": "2026-10-05T09:25:31Z",
+ "generated_at": "2026-10-05T18:43:09Z",
  "events": [
+  {
+   "id": "https://github.com/megachadxyz/mega-chad/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "megachadxyz/mega-chad: [BUG BOUNTY] CRITICAL: MegaChadLP.swap() has no on-chain minAmountOut \u2014 every swap is fully sandwichable",
+   "url": "https://github.com/megachadxyz/mega-chad/issues/8",
+   "at": "2026-10-05T18:34:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "chierce",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: US Green Card bounty #002 \u2014 confirm pilot scope, AI eligibility and payment",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/12",
+   "at": "2026-10-05T18:19:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "abd265",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/46",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 17 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/46",
+   "at": "2026-10-05T18:03:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/ShieldedLabs/crosslink_monolith/issues/215",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ShieldedLabs/crosslink_monolith: Miner bounty sniping - game theory out the expected value for a given bounty % vs reorg attack",
+   "url": "https://github.com/ShieldedLabs/crosslink_monolith/issues/215",
+   "at": "2026-10-05T17:36:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "SamHSmith",
+    "labels": [
+     "area: Fees"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/dannyheskett/openbounty/issues/160",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "dannyheskett/openbounty: King's Bounty gallery: 46 of 64 tap checks fail",
+   "url": "https://github.com/dannyheskett/openbounty/issues/160",
+   "at": "2026-10-05T17:15:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dannyheskett",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/97b37a2364bc81719ba336ef251973232de96981",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Feature][Quasar] Port and plumb the logaddexp, logaddexp2, shift, abs and fill SFPI kernels (#59267)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/97b37a2364bc81719ba336ef251973232de96981",
+   "at": "2026-10-05T16:50:07Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_abs.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp2.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logaddexp.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logaddexp2.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_shift.h",
+     "tt_metal/hw/inc/api/compute/binary_shift.h",
+     "tt_metal/hw/inc/api/compute/compute_kernel_api.h",
+     "tt_metal/hw/inc/api/compute/eltwise_unary/fill.h",
+     "tt_metal/hw/inc/api/compute/eltwise_unary/sfpu_split_includes.h",
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/sfpu/unary.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_binary_shift_left.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_binary_shift_right.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_unary.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logaddexp_dest16_bf16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logaddexp_dest16_fp16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logaddexp_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_defs.h",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_fill.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_defs.h"
+    ],
+    "added": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_abs.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logaddexp.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_logaddexp2.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_shift.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_binary_shift_left.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_int32_binary_shift_right.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logaddexp_dest16_bf16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logaddexp_dest16_fp16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_logaddexp_dest32.yaml",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_fill.h"
+    ],
+    "author": "vvukomanovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/hanzhad/squelch-news-engine/issues/1331",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "hanzhad/squelch-news-engine: Google paused its open-source bug bounty program after a flood of hallucinated AI submissions overwhelmed reviewers.",
+   "url": "https://github.com/hanzhad/squelch-news-engine/issues/1331",
+   "at": "2026-10-05T16:49:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "digest:daily"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/43",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "JoeMafiaNEO/dungeon-crawler: [QA] START NEXT WAVE (R) button overlaps bounty tracker text",
+   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/43",
+   "at": "2026-10-05T15:44:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "JoeMafiaNEO",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/39",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "JoeMafiaNEO/dungeon-crawler: [QA] Supermarket cash readout overlaps bounty list in top-right HUD",
+   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/39",
+   "at": "2026-10-05T15:40:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "JoeMafiaNEO",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/adhikasp/ja2-pecel-bakwan/issues/300",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "adhikasp/ja2-pecel-bakwan: bug: Carmen pays $20,000 for three heads - the head bounty is gifted as a single money slot",
+   "url": "https://github.com/adhikasp/ja2-pecel-bakwan/issues/300",
+   "at": "2026-10-05T15:38:22Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 20000,
+    "author": "adhikasp",
+    "labels": [
+     "bug",
+     "tactical"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59305",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59305 relax runtime dispatch syncing w/ hazard detection to reduce dispatch cost",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59305",
+   "at": "2026-10-05T15:25:50Z",
+   "extra": {
+    "author": "pgkeller",
+    "labels": [
+     "feature"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59303",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59303 stoch_rnd immediate code gen is wrong",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59303",
+   "at": "2026-10-05T15:15:04Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/80c2814e90930b58061d91fe4b41596309b46ba7",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][Feature] Implement max_pool_indices for Quasar (#58538)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/80c2814e90930b58061d91fe4b41596309b46ba7",
+   "at": "2026-10-05T15:09:58Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_mask.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_max_pool_indices.h",
+     "tt_metal/hw/inc/api/compute/compute_kernel_api.h",
+     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_max_pool_with_indices_quasar.py",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_max_pool_with_indices_quasar_test.cpp",
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_defs.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_defs.h"
+    ],
+    "added": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_max_pool_indices.h",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_max_pool_with_indices_quasar.py",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_max_pool_with_indices_quasar_test.cpp"
+    ],
+    "author": "nstamatovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59300",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59300 SDPA decode: per-padded-row core split makes logits depend on the decode bucket (same-seed divergence at DP) and idles cores for small active batches",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59300",
+   "at": "2026-10-05T15:01:06Z",
+   "extra": {
+    "author": "arginugaTT",
+    "labels": [
+     "op_cat: SDPA"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: Canadian PR bounty #007: funding, scope and AI-assisted contribution eligibility",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/8",
+   "at": "2026-10-05T14:54:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "kufumaster69-sys",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/295",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Guide first client connection and configured-service verification",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/295",
+   "at": "2026-10-05T14:42:49Z",
+   "extra": {
+    "comments": 9,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/294",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Support interrupted installation, upgrade and safe removal",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/294",
+   "at": "2026-10-05T14:42:47Z",
+   "extra": {
+    "comments": 8,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/293",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Bootstrap a valid production deployment safely",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/293",
+   "at": "2026-10-05T14:42:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/292",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Add a read-only installation and readiness doctor",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/292",
+   "at": "2026-10-05T14:42:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/291",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Propagate emergency stop and fence mesh peers on reconnect",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/291",
+   "at": "2026-10-05T14:42:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/290",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Expose emergency stop and explicit resume in shared UI and CLI",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/290",
+   "at": "2026-10-05T14:42:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/289",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Enforce a persistent owner-scoped local emergency stop",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/289",
+   "at": "2026-10-05T14:42:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/70",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Persist emergency-stop epochs and bounded peer acknowledgments",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/70",
+   "at": "2026-10-05T14:42:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/288",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Add shared selective A2A publication controls",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/288",
+   "at": "2026-10-05T14:42:33Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:50",
+     "track:interoperability",
+     "track:security",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/287",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Enforce owner-managed A2A publication and withdrawal",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/287",
+   "at": "2026-10-05T14:42:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/69",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Store fenced owner capability-publication records",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/69",
+   "at": "2026-10-05T14:42:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:50",
+     "track:interoperability",
+     "track:security",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/286",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Recover orchestrator and client work continuity after node loss",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/286",
+   "at": "2026-10-05T14:42:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/285",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Reconcile ambiguous cross-node execution results",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/285",
+   "at": "2026-10-05T14:42:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/284",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Recover fenced work after an executor node fails",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/284",
+   "at": "2026-10-05T14:42:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/68",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Qualify externally managed endpoint failover readiness",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/68",
+   "at": "2026-10-05T14:42:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/283",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Select a bounded personal-mesh availability topology",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/283",
+   "at": "2026-10-05T14:42:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/282",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Dispatch authorized work to an approved Cresco target",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/282",
+   "at": "2026-10-05T14:42:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/281",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Resolve enrolled mesh targets and current presence",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/281",
+   "at": "2026-10-05T14:42:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/280",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Add bounded read-only Cresco topology tools",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/280",
+   "at": "2026-10-05T14:42:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/279",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Reconcile and bound the general Cresco bridge contract",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/279",
+   "at": "2026-10-05T14:42:13Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/278",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Add shared mesh enrollment and member-management controls",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/278",
+   "at": "2026-10-05T14:42:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/277",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Implement one-time owner-confirmed mesh enrollment",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/277",
+   "at": "2026-10-05T14:42:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/276",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Enforce unique mesh member identity and revocation at admission",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/276",
+   "at": "2026-10-05T14:42:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/67",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Store neutral mesh membership, enrollment and revocation records",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/67",
+   "at": "2026-10-05T14:42:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:interoperability",
+     "track:security",
+     "priority:P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/275",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Select qualified harness profiles and roll back new-work rollout",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/275",
+   "at": "2026-10-05T14:42:03Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/66",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Bind operations to immutable harness profile identities",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/66",
+   "at": "2026-10-05T14:42:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/274",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Adapt existing runners to a versioned harness contract",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/274",
+   "at": "2026-10-05T14:41:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/273",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Produce candidate-bound context adoption evidence",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/273",
+   "at": "2026-10-05T14:41:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/272",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Ship failure-preserving transactional context compaction",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/272",
+   "at": "2026-10-05T14:41:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/271",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Capture, pack and recall exact tool observations under feature 093",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/271",
+   "at": "2026-10-05T14:41:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/65",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Implement feature-093 opaque observation retention and paged recall contracts",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/65",
+   "at": "2026-10-05T14:41:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralProjection/issues/52",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralProjection: Integrate owner-bound mobile notifications and authorized source navigation",
+   "url": "https://github.com/AstralDeep/AstralProjection/issues/52",
+   "at": "2026-10-05T14:41:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralProjection/issues/51",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralProjection: Implement the complete iOS notification adapter",
+   "url": "https://github.com/AstralDeep/AstralProjection/issues/51",
+   "at": "2026-10-05T14:41:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralProjection/issues/50",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralProjection: Implement the complete Android notification adapter",
+   "url": "https://github.com/AstralDeep/AstralProjection/issues/50",
+   "at": "2026-10-05T14:41:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/270",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Deliver owner-bound mobile notifications through bounded provider adapters",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/270",
+   "at": "2026-10-05T14:41:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/63",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Store opaque device destinations and claimed push deliveries",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/63",
+   "at": "2026-10-05T14:41:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/268",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Route foreground notifications and expose a durable inbox",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/268",
+   "at": "2026-10-05T14:41:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/62",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Store notification preferences, inbox records and delivery identities",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/62",
+   "at": "2026-10-05T14:41:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/267",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Expose completion subscriptions to attenuated SDK and framework callers",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/267",
+   "at": "2026-10-05T14:41:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:50",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/266",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Connect tracked remote-job completion to authorized wakeups",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/266",
+   "at": "2026-10-05T14:41:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:50",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/265",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Resume authorized waiting work when an internal operation finishes",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/265",
+   "at": "2026-10-05T14:41:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/61",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Persist completion subscriptions and deduplicated wake receipts",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/61",
+   "at": "2026-10-05T14:41:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/264",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Add shared source-linked search controls",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/264",
+   "at": "2026-10-05T14:41:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:50",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/263",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Federate authorized knowledge and conversation search results",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/263",
+   "at": "2026-10-05T14:41:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:50",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/262",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Search private notes beyond the first storage page",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/262",
+   "at": "2026-10-05T14:41:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/261",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Promote notes and memories into Atlas with explicit reconciliation",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/261",
+   "at": "2026-10-05T14:41:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/79",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-05: 4 changes across 3 bounty programs",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/79",
+   "at": "2026-10-05T14:41:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/260",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Add shared Atlas browsing, editing and source navigation",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/260",
+   "at": "2026-10-05T14:41:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/259",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Provide authorized Atlas page lifecycle APIs",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/259",
+   "at": "2026-10-05T14:41:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/78",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-05: 0 new, 0 resumed, 4 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/78",
+   "at": "2026-10-05T14:41:18Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralProjection/issues/49",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralProjection: Add interactive terminal controls across supported clients",
+   "url": "https://github.com/AstralDeep/AstralProjection/issues/49",
+   "at": "2026-10-05T14:41:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralProjection/issues/48",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralProjection: Render a read-only terminal monitor across supported clients",
+   "url": "https://github.com/AstralDeep/AstralProjection/issues/48",
+   "at": "2026-10-05T14:41:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/258",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Add terminal session commands to the SDK and CLI",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/258",
+   "at": "2026-10-05T14:41:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/257",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Expose terminal operations through governed agent tools",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/257",
+   "at": "2026-10-05T14:41:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/256",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Implement owner-scoped terminal APIs and bounded process lifecycle",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/256",
+   "at": "2026-10-05T14:41:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/60",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Qualify coordinated restore and session retirement",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/60",
+   "at": "2026-10-05T14:41:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/59",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Qualify connection-loss and uncertain transaction outcomes",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/59",
+   "at": "2026-10-05T14:41:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/58",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Define neutral recovery and writable-readiness preconditions",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/58",
+   "at": "2026-10-05T14:41:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/57",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Add bounded Atlas links and backlinks",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/57",
+   "at": "2026-10-05T14:41:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/56",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Add immutable Atlas revisions and fenced page edits",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/56",
+   "at": "2026-10-05T14:40:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:200",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralPlane/issues/55",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralPlane: Store opaque owner- and project-scoped Atlas pages",
+   "url": "https://github.com/AstralDeep/AstralPlane/issues/55",
+   "at": "2026-10-05T14:40:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/megachadxyz/mega-chad/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "megachadxyz/mega-chad: [BUG BOUNTY] MEDIUM: Negative/zero amounts silently accepted by swap and stake TX builder APIs",
+   "url": "https://github.com/megachadxyz/mega-chad/issues/7",
+   "at": "2026-10-05T13:39:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "chierce",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/megachadxyz/mega-chad/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "megachadxyz/mega-chad: [BUG BOUNTY] MEDIUM: Gasless relayer \u2014 burn amount not committed in EIP-712 signature + API instructs unlimited approval",
+   "url": "https://github.com/megachadxyz/mega-chad/issues/6",
+   "at": "2026-10-05T13:38:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "chierce",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/megachadxyz/mega-chad/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "megachadxyz/mega-chad: [BUG BOUNTY] HIGH: Dead address (0x...dEaD) occupies permanent NFT Veto Council seat with locked LP rewards",
+   "url": "https://github.com/megachadxyz/mega-chad/issues/5",
+   "at": "2026-10-05T13:38:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "chierce",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/megachadxyz/mega-chad/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "megachadxyz/mega-chad: [BUG BOUNTY] HIGH: MoggerStaking + JesterGooner reward periods expired \u2014 API shows 1.55B% and 7.35M% fake APRs",
+   "url": "https://github.com/megachadxyz/mega-chad/issues/4",
+   "at": "2026-10-05T13:37:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "chierce",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "at": "2026-10-05T13:37:01Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "bvdyvncqr5-commits"
+    ],
+    "created": "2026-10-02T14:34:03Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59283",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59283 [LLK]: Reconfig escape in perf_fast_untilize",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59283",
+   "at": "2026-10-05T13:35:47Z",
+   "extra": {
+    "author": "iklikovacTT",
+    "labels": [
+     "bug",
+     "LLK",
+     "llk:blackhole"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/faroukobayanju/squadjar/issues/21",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "faroukobayanju/squadjar: submission: README, videos, Kimi blog post, bounties",
+   "url": "https://github.com/faroukobayanju/squadjar/issues/21",
+   "at": "2026-10-05T13:30:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "faroukobayanju",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59276",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59276 Remove acc_to_dest=true from transpose_init",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59276",
+   "at": "2026-10-05T13:12:36Z",
+   "extra": {
+    "author": "sstanisicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/92",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "nick-transition/fitapp: [Bounty Proposal] Full exercise-library picker for athlete and coach editors (#62) \u2014 USD 800",
+   "url": "https://github.com/nick-transition/fitapp/issues/92",
+   "at": "2026-10-05T13:07:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 800,
+    "author": "ithyme7",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SecOpsNews/news/issues/74720",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SecOpsNews/news: [BleepingComputer] Google halts open-source bug bounty program amid AI spam surge",
+   "url": "https://github.com/SecOpsNews/news/issues/74720",
+   "at": "2026-10-05T12:41:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "BleepingComputer"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/d6f651de634cb73791b0f44f40ae2bd8b2ffa16f",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "#56601: Add shared BinaryBackwardDeviceOperation with mul_bw ported (#57830)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/d6f651de634cb73791b0f44f40ae2bd8b2ffa16f",
+   "at": "2026-10-05T12:28:05Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/CMakeLists.txt",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/binary_backward.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/binary_backward_nanobind.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation_types.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_types.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/compute/eltwise_bw_mul.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/dataflow/writer_binary_backward_dual_nobcast.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/sources.cmake"
+    ],
+    "added": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation_types.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_types.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/compute/eltwise_bw_mul.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/dataflow/writer_binary_backward_dual_nobcast.cpp"
+    ],
+    "author": "mouliraj-mcw"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ab5310c84bfa08508238306bcc380d391ea67e59",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][BH] Restore LCONST_neg1 when sinkhorn returns (#56333)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ab5310c84bfa08508238306bcc380d391ea67e59",
+   "at": "2026-10-05T12:26:43Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/test_sinkhorn_lconst_neg1_regression.py",
+     "tt_metal/tt-llk/tests/sources/sinkhorn_lconst_neg1_regression_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/ckernel_sfpu_load_config.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_sinkhorn.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_softmax_k.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/test_sinkhorn_lconst_neg1_regression.py",
+     "tt_metal/tt-llk/tests/sources/sinkhorn_lconst_neg1_regression_test.cpp"
+    ],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/7a14f010489115c28043e18daefb20b7964b3020",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][WH][Bug fix] mul_reduce_scalar: keep the default wait on the switch_to_reduce source clears (#59082)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/7a14f010489115c28043e18daefb20b7964b3020",
+   "at": "2026-10-05T12:19:02Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_unpack_mul_reduce_scalar.h"
+    ],
+    "added": [],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/30e83f43bb44c9755931e1a230bdad714968e189",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][BH] Acquire the source banks on the math class in the topk_xl transpose guards (#55882)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/30e83f43bb44c9755931e1a230bdad714968e189",
+   "at": "2026-10-05T12:17:33Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_topk_xl.h"
+    ],
+    "added": [],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/feeab6bc06f2cc945d46f3e4091969f66125b8c8",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][BH+WH] Take the Src zero-flag write off the unpack thread in reduce_block_max_row (#59091)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/feeab6bc06f2cc945d46f3e4091969f66125b8c8",
+   "at": "2026-10-05T12:16:56Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/infra/xthread_cfg_baseline_blackhole.txt",
+     "tt_metal/tt-llk/infra/xthread_cfg_baseline_wormhole_b0.txt",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cmath_common.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_topk_xl.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_reduce_custom.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_reduce_runtime_custom.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_reduce_custom.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_reduce_custom_runtime.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/cmath_common.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_math_reduce_custom.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_math_reduce_runtime_custom.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_unpack_AB_reduce_custom.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_unpack_AB_reduce_custom_runtime.h"
+    ],
+    "added": [],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59265",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59265 [BEVFormer] Minimum hardware on single Blackhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59265",
+   "at": "2026-10-05T11:51:46Z",
+   "extra": {
+    "author": "ctr-mmicicTT",
+    "labels": [
+     "blackhole",
+     "BEVFormer"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59264",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59264 [BEVFormer] Host fallback report",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59264",
+   "at": "2026-10-05T11:51:43Z",
+   "extra": {
+    "author": "ctr-mmicicTT",
+    "labels": [
+     "blackhole",
+     "BEVFormer"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e08421991ebe50f27f2969dab686293372000ab7",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[fuser] add output tolerances and fix Quasar SigmoidAppx test failures (#58966)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e08421991ebe50f27f2969dab686293372000ab7",
+   "at": "2026-10-05T11:31:16Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/fuser/config_parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/golden_check.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/operand.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest32.yaml"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest32.yaml"
+    ],
+    "author": "markoradosavljevicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59262",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59262 [gemma4_d_p] Layer perf CI: add 2048 and 4096 chunk sizes",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59262",
+   "at": "2026-10-05T11:26:58Z",
+   "extra": {
+    "author": "mmanzoorTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e3ae5fe7cca79b50c884d6e19e412967e62f1655",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] [SAN] Model the FPU reduce operations (#58857)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e3ae5fe7cca79b50c884d6e19e412967e62f1655",
+   "at": "2026-10-05T11:23:36Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_math_reduce_api.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_pack_reduce_api.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_unpack_AB_reduce_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_math_reduce_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_pack_reduce_api.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_AB_reduce_api.h",
+     "tt_metal/hw/inc/api/compute/experimental/2_0/reduce.h",
+     "tt_metal/tt-llk/tools/include/sanitizer/operation.h"
+    ],
+    "added": [],
+    "author": "sstanisicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/64d3826fad9db596eab0347756c91fe415e2c190",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] [LLK] Keep LLK PR reviews when the PR head moves; default effort to xhigh (#59020)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/64d3826fad9db596eab0347756c91fe415e2c190",
+   "at": "2026-10-05T11:18:39Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/.claude/commands/llk-code-review.md"
+    ],
+    "added": [],
+    "author": "nstamatovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: [Bounty eligibility] UK-visa \u2192 Albania correction prepared with official sources",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/6",
+   "at": "2026-10-05T10:33:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "choreoatlas",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/faizal97/realm-of-loner/issues/115",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "faizal97/realm-of-loner: Handing in a bounty shows 'Quest complete'",
+   "url": "https://github.com/faizal97/realm-of-loner/issues/115",
+   "at": "2026-10-05T09:33:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "faizal97",
+    "labels": [
+     "bug",
+     "status: ready",
+     "needs: developer"
+    ]
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59249",
    "source": "tenstorrent",
@@ -13,6 +1934,49 @@
     "labels": [
      "agentic-workflows"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/f83f3da72a381c79111c7417bed7bc4ed11830f8",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[ttnn/experimental/quasar] Fix remainder/outer and binary_ng high-rank bugs (#57362 items 1-4) (#58544)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/f83f3da72a381c79111c7417bed7bc4ed11830f8",
+   "at": "2026-10-05T09:16:10Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.cpp"
+    ],
+    "added": [],
+    "author": "Aswinmcw"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/fca2ffd0d30aa9b54d2a73499222f2c9a7656374",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix][LLK][Quasar] Fix tiny-tile eltwise binary (#56846)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/fca2ffd0d30aa9b54d2a73499222f2c9a7656374",
+   "at": "2026-10-05T09:00:14Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_AB_api.h",
+     "tt_metal/tt-llk/common/tensor_shape.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/unpack_ab.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/perf/test_schemas.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/tensor_shape_coverage_parser.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/perf_eltwise_binary_quasar.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_quasar.py",
+     "tt_metal/tt-llk/tests/python_tests/quasar/test_fused_quasar.py",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_test.cpp",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_eltwise_binary.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_pack.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_binary_operands.h",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_unary_operand.h"
+    ],
+    "added": [],
+    "author": "nstamatovicTT"
    }
   },
   {
@@ -40,6 +2004,7 @@
     "author": "Joshua-Stapleton",
     "labels": [
      "bug",
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -66,7 +2031,7 @@
    "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/1",
    "at": "2026-10-05T08:26:45Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "samproductnotes-crypto",
     "labels": []
@@ -112,24 +2077,6 @@
     "amount_usd": null,
     "author": "danieldirimini-myzubster",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/faizal97/realm-of-loner/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "faizal97/realm-of-loner: Bounties in progress are hard to find away from the bounty board (player feedback)",
-   "url": "https://github.com/faizal97/realm-of-loner/issues/109",
-   "at": "2026-10-05T07:33:05Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "faizal97",
-    "labels": [
-     "improvement",
-     "status: ready",
-     "needs: game designer"
-    ]
    }
   },
   {
@@ -201,28 +2148,12 @@
    "url": "https://github.com/Bomabgp/My-project/issues/2",
    "at": "2026-10-05T04:48:08Z",
    "extra": {
-    "comments": 3,
+    "comments": 5,
     "amount_usd": null,
     "author": "Bomabgp",
     "labels": [
      "enhancement",
      "good first issue"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/30",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "JoeMafiaNEO/dungeon-crawler: [QA] Train station too small \u2014 bounty/destination boards too close to inner wall",
-   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/30",
-   "at": "2026-10-05T04:43:44Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "JoeMafiaNEO",
-    "labels": [
-     "qa"
     ]
    }
   },
@@ -318,7 +2249,7 @@
    "url": "https://github.com/nick-transition/fitapp/issues/90",
    "at": "2026-10-05T02:33:01Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 150,
     "author": "samproductnotes-crypto",
     "labels": []
@@ -364,29 +2295,6 @@
     "amount_usd": null,
     "author": "JoeMafiaNEO",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/hanzhad/squelch-news-engine/issues/1321",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "hanzhad/squelch-news-engine: Google froze its open source bug bounty program due to a \u2018significant rise\u2019 in AI submissions",
-   "url": "https://github.com/hanzhad/squelch-news-engine/issues/1321",
-   "at": "2026-10-04T22:56:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "topic:security",
-     "topic:policy",
-     "topic:open-source",
-     "source:techcrunchai",
-     "status:3-ready",
-     "sent:site",
-     "sent:rss",
-     "sent:discord"
-    ]
    }
   },
   {
@@ -457,20 +2365,6 @@
     "labels": [
      "agentic-workflows"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/RonTuretzky/issue.fund/issues/9",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "RonTuretzky/issue.fund: Provide open-source bounty repository handoff",
-   "url": "https://github.com/RonTuretzky/issue.fund/issues/9",
-   "at": "2026-10-04T21:05:35Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "RonTuretzky",
-    "labels": []
    }
   },
   {
@@ -651,7 +2545,7 @@
    "url": "https://github.com/AxalNetwork/StudioOS/issues/1105",
    "at": "2026-10-04T15:56:41Z",
    "extra": {
-    "comments": 2,
+    "comments": 6,
     "amount_usd": null,
     "author": "guillaumelauzier",
     "labels": [
@@ -723,26 +2617,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59194",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59194 [ring_joint_sdpa / nlp head ops / rotary_embedding_llama] Short prefill slabs leave most cores idle, and sliding attention waits for the whole halo",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59194",
-   "at": "2026-10-04T15:26:45Z",
-   "extra": {
-    "author": "kmabeeTT",
-    "labels": [
-     "blackhole",
-     "op_cat: TM",
-     "perf",
-     "prefill",
-     "SDPA",
-     "op_cat: SDPA",
-     "model: gemma-4"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/GOF2BountyBot/BountyBot-Reborn-SamX/issues/124",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -787,81 +2661,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59186",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59186 ttnn.i1 returns a finite value (i1(88.5) \u2248 1.15e37) for +NaN input instead of NaN (Wormhole and Blackhole)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59186",
-   "at": "2026-10-04T13:30:09Z",
-   "extra": {
-    "author": "Patriot117",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59185",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59185 ttnn.erfc returns a finite value (erfc(5) \u2248 2.4e-12) for +NaN input instead of NaN (Wormhole and Blackhole)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59185",
-   "at": "2026-10-04T13:25:36Z",
-   "extra": {
-    "author": "Patriot117",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59184",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59184 ttnn.erf returns a finite \u00b11.0 for NaN input instead of NaN (Wormhole and Blackhole)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59184",
-   "at": "2026-10-04T13:24:38Z",
-   "extra": {
-    "author": "Patriot117",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59183",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59183 #55559 rank-scoped socket validation rejects valid rank-local coordinates (TT_FATAL mesh_socket.cpp:145)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59183",
-   "at": "2026-10-04T13:05:51Z",
-   "extra": {
-    "author": "stevendae",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59182",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59182 ttnn.rms_norm on a 0-D tensor ignores epsilon and returns x/|x| (NaN for x = 0)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59182",
-   "at": "2026-10-04T13:00:46Z",
-   "extra": {
-    "author": "Hung2124",
-    "labels": [
-     "op_cat: reduces",
-     "community"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -869,184 +2668,9 @@
    "url": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
    "at": "2026-10-04T12:40:10Z",
    "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "muhammalif",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59180",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59180 Quasar: UNPACK input tile-counter not reset at program launch \u2192 cross-program hang",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59180",
-   "at": "2026-10-04T12:12:06Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/bettercallzaal/poidhz/issues/229",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "bettercallzaal/poidhz: ZAOstock Round 5 (bounty 1421): contribution scope and claim-gas clarification",
-   "url": "https://github.com/bettercallzaal/poidhz/issues/229",
-   "at": "2026-10-04T11:56:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "elcuervo171234",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59177",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59177 ttnn.fmod / ttnn.remainder (tensor-tensor): binary SFPU kernels return out-of-range, wrong-signed results for |a/b| \u2273 2^20 (fp32 + bf16, WH + BH), and inexact fp32 residuals from |a/b| \u2248 2^8",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59177",
-   "at": "2026-10-04T11:54:27Z",
-   "extra": {
-    "author": "Hung2124",
-    "labels": [
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-   "at": "2026-10-04T11:15:31Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "bvdyvncqr5-commits"
-    ],
-    "created": "2026-10-02T14:34:03Z"
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/40",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 5 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/40",
-   "at": "2026-10-04T10:58:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/shgew/togi/issues/372",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "shgew/togi: Bounty board",
-   "url": "https://github.com/shgew/togi/issues/372",
-   "at": "2026-10-04T10:53:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "shgew",
-    "labels": [
-     "idea"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59175",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59175 [aw] Failed jobs: CI Failure Triage (pilot)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59175",
-   "at": "2026-10-04T10:06:16Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/CortexLM/cortex/issues/316",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "CortexLM/cortex: Subnet 100 Bounty gateway TLS handshake failure",
-   "url": "https://github.com/CortexLM/cortex/issues/316",
-   "at": "2026-10-04T08:33:35Z",
-   "extra": {
     "comments": 5,
     "amount_usd": null,
-    "author": "happyluck4914",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/rickyjreyes/Wavelock/issues/24",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "rickyjreyes/Wavelock: Release: complete Public Bounty v1 review and launch preparation",
-   "url": "https://github.com/rickyjreyes/Wavelock/issues/24",
-   "at": "2026-10-04T06:49:20Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "rickyjreyes",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/adhikasp/ja2-pecel-bakwan/issues/195",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "adhikasp/ja2-pecel-bakwan: Queen's Mind: occupation levers (edicts, curfew, reprisals, bounties, informants)",
-   "url": "https://github.com/adhikasp/ja2-pecel-bakwan/issues/195",
-   "at": "2026-10-04T05:25:50Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "adhikasp",
-    "labels": [
-     "task"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/38",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 12 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/38",
-   "at": "2026-10-04T04:50:04Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/nick-transition/fitapp/issues/84",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "nick-transition/fitapp: [Bounty Proposal] Preserve exercise metadata across workout edits (#62) \u2014 USD 150",
-   "url": "https://github.com/nick-transition/fitapp/issues/84",
-   "at": "2026-10-04T02:18:15Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 150,
-    "author": "taroyamada3173-sys",
+    "author": "muhammalif",
     "labels": []
    }
   },
