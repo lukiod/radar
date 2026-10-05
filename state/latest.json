@@ -1,6 +1,343 @@
 {
- "generated_at": "2026-10-05T02:15:33Z",
+ "generated_at": "2026-10-05T09:25:31Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59249",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59249 [aw] Failed jobs: CI Failure Triage (pilot)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59249",
+   "at": "2026-10-05T09:16:12Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: [BOUNTY CLAIM] bounty-2026-0304-008 \u2014 Kenya eTA verification",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/3",
+   "at": "2026-10-05T08:58:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zongsm-cmyk",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59247",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59247 ttnn.gelu returns 0 instead of NaN for negative NaN inputs (float32, Wormhole and Blackhole)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59247",
+   "at": "2026-10-05T08:55:04Z",
+   "extra": {
+    "author": "Joshua-Stapleton",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/45",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 22 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/45",
+   "at": "2026-10-05T08:33:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: [BOUNTY] bounty-2026-0304-005 completed verification: GH \u2192 GB",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/1",
+   "at": "2026-10-05T08:26:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "samproductnotes-crypto",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1501",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED 100 MYZ] Public verifier UX for Nicola/N4K48 evidence and blockchain anchors",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1501",
+   "at": "2026-10-05T08:25:30Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1500",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED 125 MYZ] Build read-only Research Bridge for Nicola/N4K48 evidence",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1500",
+   "at": "2026-10-05T08:25:23Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1499",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED 75 MYZ] Reproduce and document Nicola/N4K48 Docker node",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1499",
+   "at": "2026-10-05T08:25:15Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/faizal97/realm-of-loner/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "faizal97/realm-of-loner: Bounties in progress are hard to find away from the bounty board (player feedback)",
+   "url": "https://github.com/faizal97/realm-of-loner/issues/109",
+   "at": "2026-10-05T07:33:05Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "faizal97",
+    "labels": [
+     "improvement",
+     "status: ready",
+     "needs: game designer"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/esoinila/SpaceSails/issues/1357",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "esoinila/SpaceSails: \ud83d\udef8\ud83d\udd73 The old ship and other story hulls are ordinary depot NpcStates: trade, bounty, ordnance, 0-unit piracy and the finder pool all reach them",
+   "url": "https://github.com/esoinila/SpaceSails/issues/1357",
+   "at": "2026-10-05T06:51:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "esoinila",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59240",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59240 [ttnn/experimental/quasar] matmul auto-config hardcodes fuse_batch=false, aborts on batched A with block-sharded output",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59240",
+   "at": "2026-10-05T06:49:32Z",
+   "extra": {
+    "author": "abdulla-TT",
+    "labels": [
+     "bug",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ariahendrawan-sudo/project-a/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ariahendrawan-sudo/project-a: Bounty Scout \u2014 2026-10-05",
+   "url": "https://github.com/ariahendrawan-sudo/project-a/issues/11",
+   "at": "2026-10-05T06:14:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-scout"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/77",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-05: 0 new, 0 resumed, 2 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/77",
+   "at": "2026-10-05T05:43:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Bomabgp/My-project/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Bomabgp/My-project: Scaffold-HBAR Template Bounty",
+   "url": "https://github.com/Bomabgp/My-project/issues/2",
+   "at": "2026-10-05T04:48:08Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "Bomabgp",
+    "labels": [
+     "enhancement",
+     "good first issue"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/30",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "JoeMafiaNEO/dungeon-crawler: [QA] Train station too small \u2014 bounty/destination boards too close to inner wall",
+   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/30",
+   "at": "2026-10-05T04:43:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "JoeMafiaNEO",
+    "labels": [
+     "qa"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Bomabgp/My-project/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Bomabgp/My-project: Scaffold-HBAR Template Bounty",
+   "url": "https://github.com/Bomabgp/My-project/issues/1",
+   "at": "2026-10-05T04:31:47Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "Bomabgp",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59232",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59232 [ttnn/experimental/quasar] Narrow kernel GLOB_RECURSE in quasar/CMakeLists.txt to .cpp/.hpp (#58407 item 1)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59232",
+   "at": "2026-10-05T04:01:00Z",
+   "extra": {
+    "author": "abdulla-TT",
+    "labels": [
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1481",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED/UNFUNDED] Publish a contributor competence as a MyZubster Marketplace offer \u2014 20 USD equivalent",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1481",
+   "at": "2026-10-05T03:41:34Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1480",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED/UNFUNDED] Connect contributor project to MyZubster Metaverse path \u2014 25 USD equivalent",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1480",
+   "at": "2026-10-05T03:41:32Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1479",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED/UNFUNDED] Create contributor comic asset with provenance \u2014 20 USD equivalent",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1479",
+   "at": "2026-10-05T03:41:29Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1478",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED/UNFUNDED] Complete verified MyZubster contributor profile \u2014 15 USD equivalent",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1478",
+   "at": "2026-10-05T03:41:27Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/90",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "nick-transition/fitapp: [Bounty Proposal] Workout card \u2192 detail transition for #41 \u2014 USD 150",
+   "url": "https://github.com/nick-transition/fitapp/issues/90",
+   "at": "2026-10-05T02:33:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "samproductnotes-crypto",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/maxfain/basedagents/issues/165",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "maxfain/basedagents: Service proposal for maintainer: owner task-acceptance regression tests (not a bounty)",
+   "url": "https://github.com/maxfain/basedagents/issues/165",
+   "at": "2026-10-05T01:52:08Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "mooncitythunder",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/uknwplayer/BountyScout/issues/44",
    "source": "github_search",
@@ -9,7 +346,7 @@
    "url": "https://github.com/uknwplayer/BountyScout/issues/44",
    "at": "2026-10-05T01:42:26Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": []
@@ -47,7 +384,8 @@
      "source:techcrunchai",
      "status:3-ready",
      "sent:site",
-     "sent:rss"
+     "sent:rss",
+     "sent:discord"
     ]
    }
   },
@@ -85,7 +423,7 @@
    "url": "https://github.com/anauaque/gh-bounty-tag-ruleset-lab-20261004/issues/7",
    "at": "2026-10-04T21:39:16Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "anauaque",
     "labels": []
@@ -161,7 +499,8 @@
    "extra": {
     "author": "dddrrreee",
     "labels": [
-     "community"
+     "community",
+     "op_cat: SDPA"
     ]
    }
   },
@@ -175,7 +514,8 @@
    "extra": {
     "author": "dddrrreee",
     "labels": [
-     "community"
+     "community",
+     "op_cat: SDPA"
     ]
    }
   },
@@ -207,7 +547,8 @@
    "extra": {
     "author": "dddrrreee",
     "labels": [
-     "community"
+     "community",
+     "op_cat: SDPA"
     ]
    }
   },
@@ -425,7 +766,7 @@
    "url": "https://github.com/ExcelDsigN-tech/dukapay/issues/689",
    "at": "2026-10-04T14:25:36Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "tegrafinance",
     "labels": []
@@ -456,6 +797,7 @@
     "author": "Patriot117",
     "labels": [
      "bug",
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -471,6 +813,7 @@
     "author": "Patriot117",
     "labels": [
      "bug",
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -486,6 +829,7 @@
     "author": "Patriot117",
     "labels": [
      "bug",
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -512,6 +856,7 @@
    "extra": {
     "author": "Hung2124",
     "labels": [
+     "op_cat: reduces",
      "community"
     ]
    }
@@ -524,7 +869,7 @@
    "url": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
    "at": "2026-10-04T12:40:10Z",
    "extra": {
-    "comments": 2,
+    "comments": 4,
     "amount_usd": null,
     "author": "muhammalif",
     "labels": []
@@ -566,6 +911,7 @@
    "extra": {
     "author": "Hung2124",
     "labels": [
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -638,7 +984,7 @@
    "url": "https://github.com/CortexLM/cortex/issues/316",
    "at": "2026-10-04T08:33:35Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": null,
     "author": "happyluck4914",
     "labels": [
@@ -718,22 +1064,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-29T20:22:48Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/53787",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#53787 [Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
-   "at": "2026-10-03T09:24:19Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "kanapitsas",
-    "assignees": [
-     "kanapitsas"
-    ],
-    "created": "2026-08-20T12:34:59Z"
    }
   },
   {
