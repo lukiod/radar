@@ -1,6 +1,34 @@
 {
- "generated_at": "2026-10-04T23:26:11Z",
+ "generated_at": "2026-10-05T02:15:33Z",
  "events": [
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/44",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 15 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/44",
+   "at": "2026-10-05T01:42:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "JoeMafiaNEO/dungeon-crawler: Bounty Board \u2014 opt-in objectives per level",
+   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/7",
+   "at": "2026-10-05T00:36:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "JoeMafiaNEO",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/hanzhad/squelch-news-engine/issues/1321",
    "source": "github_search",
@@ -13,8 +41,13 @@
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": [
-     "status:1-raw",
-     "source:techcrunchai"
+     "topic:security",
+     "topic:policy",
+     "topic:open-source",
+     "source:techcrunchai",
+     "status:3-ready",
+     "sent:site",
+     "sent:rss"
     ]
    }
   },
@@ -207,16 +240,18 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59204",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59204 [model]: Llama 3.1 8B QB2 seed conversion can skip device reseeding",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59204",
-   "at": "2026-10-04T17:39:46Z",
+   "id": "https://github.com/sheepishgoat/GS13-Blubberstation/issues/616",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "sheepishgoat/GS13-Blubberstation: Inflation Sprites and SFX",
+   "url": "https://github.com/sheepishgoat/GS13-Blubberstation/issues/616",
+   "at": "2026-10-04T18:59:11Z",
    "extra": {
-    "author": "tchedaTT",
+    "comments": 0,
+    "amount_usd": null,
+    "author": "scooooop6576576",
     "labels": [
-     "bug"
+     "Bounty"
     ]
    }
   },
@@ -670,20 +705,6 @@
    }
   },
   {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/36",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 16 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/36",
-   "at": "2026-10-03T23:34:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -700,227 +721,6 @@
    }
   },
   {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/35",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 4 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/35",
-   "at": "2026-10-03T20:43:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/pizzaguyapprentice/high-noon/issues/10",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "pizzaguyapprentice/high-noon: bounty system",
-   "url": "https://github.com/pizzaguyapprentice/high-noon/issues/10",
-   "at": "2026-10-03T20:19:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "Oscarrscso",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20487",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty Proposal] fix(backend): harden public shared conversation chat against non-mapping payloads ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20487",
-   "at": "2026-10-03T17:35:32Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "ahmedcompk",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20487",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20487 [Bounty Proposal] fix(backend): harden public shared conversation chat against non-mapping payloads ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20487",
-   "at": "2026-10-03T17:35:32Z",
-   "extra": {
-    "state": "open",
-    "author": "ahmedcompk"
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/32",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 16 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/32",
-   "at": "2026-10-03T17:02:01Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1462",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MyZubster-Ecosystem/myzubster: [ROADMAP] NFT creator revenue split \u2192 MyZubster fee \u2192 bounty treasury",
-   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1462",
-   "at": "2026-10-03T14:06:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "danieldirimini-myzubster",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20461",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BasedHardware/omi: Bounty Proposal: Backend Router Exception & Information Disclosure Sanitization (0 USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/20461",
-   "at": "2026-10-03T13:52:05Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "garvijunagadh",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20461",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20461 Bounty Proposal: Backend Router Exception & Information Disclosure Sanitization (0 USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/20461",
-   "at": "2026-10-03T13:52:05Z",
-   "extra": {
-    "state": "open",
-    "author": "garvijunagadh"
-   }
-  },
-  {
-   "id": "https://github.com/verdikta/verdikta-applications/issues/56",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "verdikta/verdikta-applications: Bounty 122 preflight: missing project brief and Base form evidence requirements",
-   "url": "https://github.com/verdikta/verdikta-applications/issues/56",
-   "at": "2026-10-03T13:49:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "blucca",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/malteshark/support/issues/37",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "malteshark/support: \ud83c\udfaf Bounty Alert: 12 New Opportunityies found",
-   "url": "https://github.com/malteshark/support/issues/37",
-   "at": "2026-10-03T12:48:23Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "marcinb1971",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/30",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 16 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/30",
-   "at": "2026-10-03T12:17:38Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/74",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-03: 5 changes across 3 bounty programs",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/74",
-   "at": "2026-10-03T11:46:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BitPolito/paycue-bounty-demo/issues/15",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BitPolito/paycue-bounty-demo: Explain how Paycue keeps a bounty from being paid twice",
-   "url": "https://github.com/BitPolito/paycue-bounty-demo/issues/15",
-   "at": "2026-10-03T10:17:20Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "moakilodash",
-    "labels": [
-     "documentation",
-     "bounty: 75000"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BitPolito/paycue-bounty-demo/issues/14",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BitPolito/paycue-bounty-demo: Link the live bounty board from the README",
-   "url": "https://github.com/BitPolito/paycue-bounty-demo/issues/14",
-   "at": "2026-10-03T10:17:18Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "moakilodash",
-    "labels": [
-     "documentation",
-     "good first issue",
-     "bounty: 50000"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ChengshuLi/WorldAtlas/issues/569",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ChengshuLi/WorldAtlas: Separate archived pre-restoration coverage from current Nukunonu and Bounty audit results",
-   "url": "https://github.com/ChengshuLi/WorldAtlas/issues/569",
-   "at": "2026-10-03T09:45:22Z",
-   "extra": {
-    "comments": 6,
-    "amount_usd": null,
-    "author": "ChengshuLi",
-    "labels": [
-     "kind:work-item",
-     "status:ready",
-     "type:geography",
-     "urgent",
-     "follow-up"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/53787",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -934,64 +734,6 @@
      "kanapitsas"
     ],
     "created": "2026-08-20T12:34:59Z"
-   }
-  },
-  {
-   "id": "https://github.com/BitPolito/paycue-bounty-demo/issues/12",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "BitPolito/paycue-bounty-demo: Add a bounty issue template",
-   "url": "https://github.com/BitPolito/paycue-bounty-demo/issues/12",
-   "at": "2026-10-03T09:05:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "moakilodash",
-    "labels": [
-     "enhancement",
-     "good first issue"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20413",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20413 [Bounty Proposal] fix(integrations): an explicit-null field in a developer webhook notification silently drops every proactive notification ($50 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20413",
-   "at": "2026-10-03T05:19:23Z",
-   "extra": {
-    "state": "open",
-    "author": "kduailabs"
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20401",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20401 [Bounty proposal] CLI rejects non-ASCII developer keys as input errors (US$25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20401",
-   "at": "2026-10-03T03:21:51Z",
-   "extra": {
-    "state": "closed",
-    "author": "determine123"
-   }
-  },
-  {
-   "id": "https://github.com/ysyhlly/basedagents-issue-workflow/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ysyhlly/basedagents-issue-workflow: Dry-run verification: automate JSON export",
-   "url": "https://github.com/ysyhlly/basedagents-issue-workflow/issues/1",
-   "at": "2026-10-03T03:03:31Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "ysyhlly",
-    "labels": [
-     "bounty",
-     "bounty:automation"
-    ]
    }
   },
   {
