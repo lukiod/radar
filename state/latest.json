@@ -1,6 +1,307 @@
 {
- "generated_at": "2026-10-05T18:43:09Z",
+ "generated_at": "2026-10-06T00:34:06Z",
  "events": [
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/81",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-06: 0 new, 2 resumed, 6 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/81",
+   "at": "2026-10-06T00:11:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/p2arthur/fullstack-kanban/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "p2arthur/fullstack-kanban: Implement bounty escrow release on completion and refund handling",
+   "url": "https://github.com/p2arthur/fullstack-kanban/issues/6",
+   "at": "2026-10-05T22:54:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "devloot-bounty-bot[bot]",
+    "labels": [
+     "smart-contract",
+     "frontend",
+     "web3"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/p2arthur/fullstack-kanban/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "p2arthur/fullstack-kanban: Implement on-chain bounty deposit and task assignment flow",
+   "url": "https://github.com/p2arthur/fullstack-kanban/issues/5",
+   "at": "2026-10-05T22:54:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "devloot-bounty-bot[bot]",
+    "labels": [
+     "frontend",
+     "web3",
+     "integration"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/p2arthur/fullstack-kanban/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "p2arthur/fullstack-kanban: Develop and test AlgoKit bounty escrow smart contract for Algorand TestNet",
+   "url": "https://github.com/p2arthur/fullstack-kanban/issues/3",
+   "at": "2026-10-05T22:54:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "devloot-bounty-bot[bot]",
+    "labels": [
+     "algorand",
+     "smart-contract",
+     "tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/p2arthur/fullstack-kanban/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "p2arthur/fullstack-kanban: Build full-stack Kanban board with Algorand wallet auth and task bounty escrow",
+   "url": "https://github.com/p2arthur/fullstack-kanban/issues/1",
+   "at": "2026-10-05T22:53:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "devloot-bounty-bot[bot]",
+    "labels": [
+     "feature",
+     "fullstack",
+     "algorand",
+     "smart-contracts",
+     "mvp"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59368",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59368 blackhole llk untilize: a pack_untilize_dest for fewer tiles than its init packs the init's tile count, and the pool and upsample kernels write past their output",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59368",
+   "at": "2026-10-05T21:59:15Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "bug",
+     "LLK",
+     "blackhole",
+     "llk:blackhole"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59366",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59366 Optimizations for lower token count inputs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59366",
+   "at": "2026-10-05T21:50:35Z",
+   "extra": {
+    "author": "avelickovTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/zeemscript/Parallax/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zeemscript/Parallax: Let maintainers top up an open bounty",
+   "url": "https://github.com/zeemscript/Parallax/issues/6",
+   "at": "2026-10-05T21:46:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zeemscript",
+    "labels": [
+     "task",
+     "complexity: medium",
+     "contract"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zeemscript/Parallax/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zeemscript/Parallax: Fund a bounty on-chain when a maintainer posts an issue",
+   "url": "https://github.com/zeemscript/Parallax/issues/4",
+   "at": "2026-10-05T21:46:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zeemscript",
+    "labels": [
+     "task",
+     "web",
+     "contract",
+     "complexity: high"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/69a9294843d08ce891fef8e314bed874d71694b1",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "fix: correct issues with Quasar trigonometry functions (#59327)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/69a9294843d08ce891fef8e314bed874d71694b1",
+   "at": "2026-10-05T21:38:23Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_trigonometry.h",
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest32.yaml",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_defs.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest16.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest32.yaml"
+    ],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/14",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: Claim: bounty-2026-0304-005 \u2014 GH \u2192 GB visa fee and processing verification",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/14",
+   "at": "2026-10-05T21:00:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "lvantiff",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/13",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: [CLAIM] bounty-2026-0304-005 \u2014 GH \u2192 GB verification; PR pending fork",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/13",
+   "at": "2026-10-05T20:55:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "lvantiff",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1282",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1264",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1282",
+   "at": "2026-10-05T20:55:15Z",
+   "extra": {
+    "comments": 189,
+    "amount_usd": null,
+    "author": "SPLURT-Station-Bot",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58229",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58229 [Bounty $3000] Fix u32-to-fp32 double rounding in typecast",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58229",
+   "at": "2026-10-05T20:14:44Z",
+   "extra": {
+    "state": "CLOSED",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "jasondavies"
+    ],
+    "created": "2026-09-28T21:27:32Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59343",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59343 [ttnn/normalization] Sharded layernorm post-allgather compute kernel waits on a buffer it does not consume",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59343",
+   "at": "2026-10-05T19:27:25Z",
+   "extra": {
+    "author": "fplavecTT",
+    "labels": [
+     "op_cat: reduces"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59342",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59342 [sfpi] Fill in lreg_b field of SFP_STOCH_RND with LReg[9] (i.e. zero) in unused cases",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59342",
+   "at": "2026-10-05T19:27:24Z",
+   "extra": {
+    "author": "mcraigheadTT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/pruuk/DOGMud/issues/240",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "pruuk/DOGMud: DoT kills credit nobody (no murder, bounty, rep, quest or proc credit)",
+   "url": "https://github.com/pruuk/DOGMud/issues/240",
+   "at": "2026-10-05T18:50:15Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "pruuk",
+    "labels": [
+     "bug",
+     "area:combat",
+     "from-playtest"
+    ]
+   }
+  },
   {
    "id": "https://github.com/megachadxyz/mega-chad/issues/8",
    "source": "github_search",
@@ -51,26 +352,12 @@
    "url": "https://github.com/ShieldedLabs/crosslink_monolith/issues/215",
    "at": "2026-10-05T17:36:14Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "SamHSmith",
     "labels": [
      "area: Fees"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/dannyheskett/openbounty/issues/160",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dannyheskett/openbounty: King's Bounty gallery: 46 of 64 tap checks fail",
-   "url": "https://github.com/dannyheskett/openbounty/issues/160",
-   "at": "2026-10-05T17:15:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dannyheskett",
-    "labels": []
    }
   },
   {
@@ -135,36 +422,9 @@
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": [
-     "digest:daily"
+     "digest:daily",
+     "sent:discord-digest"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/43",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "JoeMafiaNEO/dungeon-crawler: [QA] START NEXT WAVE (R) button overlaps bounty tracker text",
-   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/43",
-   "at": "2026-10-05T15:44:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "JoeMafiaNEO",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/39",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "JoeMafiaNEO/dungeon-crawler: [QA] Supermarket cash readout overlaps bounty list in top-right HUD",
-   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/39",
-   "at": "2026-10-05T15:40:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "JoeMafiaNEO",
-    "labels": []
    }
   },
   {
@@ -175,7 +435,7 @@
    "url": "https://github.com/adhikasp/ja2-pecel-bakwan/issues/300",
    "at": "2026-10-05T15:38:22Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 20000,
     "author": "adhikasp",
     "labels": [
@@ -275,7 +535,7 @@
    "url": "https://github.com/AstralDeep/AstralDeep/issues/295",
    "at": "2026-10-05T14:42:49Z",
    "extra": {
-    "comments": 9,
+    "comments": 46,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -296,7 +556,7 @@
    "url": "https://github.com/AstralDeep/AstralDeep/issues/294",
    "at": "2026-10-05T14:42:47Z",
    "extra": {
-    "comments": 8,
+    "comments": 45,
     "amount_usd": null,
     "author": "armstrongsam25",
     "labels": [
@@ -1803,21 +2063,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59264",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59264 [BEVFormer] Host fallback report",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59264",
-   "at": "2026-10-05T11:51:43Z",
-   "extra": {
-    "author": "ctr-mmicicTT",
-    "labels": [
-     "blackhole",
-     "BEVFormer"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/e08421991ebe50f27f2969dab686293372000ab7",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -2116,7 +2361,7 @@
    "url": "https://github.com/ariahendrawan-sudo/project-a/issues/11",
    "at": "2026-10-05T06:14:43Z",
    "extra": {
-    "comments": 0,
+    "comments": 3,
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": [
@@ -2295,399 +2540,6 @@
     "amount_usd": null,
     "author": "JoeMafiaNEO",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/43",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 11 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/43",
-   "at": "2026-10-04T22:51:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59220",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59220 DS Prefill :: update_padded_kv_cache fails to JIT-build from a wheel (missing packed_kv_layout.hpp)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59220",
-   "at": "2026-10-04T22:27:20Z",
-   "extra": {
-    "author": "nostojicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/anauaque/gh-bounty-tag-ruleset-lab-20261004/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "anauaque/gh-bounty-tag-ruleset-lab-20261004: c198&echo.C198_CANARY>%TEMP%/c198-bounty-canary-20261004.txt&rem",
-   "url": "https://github.com/anauaque/gh-bounty-tag-ruleset-lab-20261004/issues/7",
-   "at": "2026-10-04T21:39:16Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "anauaque",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/76",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-04: 0 new, 0 resumed, 2 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/76",
-   "at": "2026-10-04T21:31:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59219",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59219 [aw] Failed jobs: Silencer (tt-metal)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59219",
-   "at": "2026-10-04T21:22:03Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59216",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59216 [gemma4_d_p] Short-slab prefill: activation layout, collectives and output placement",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59216",
-   "at": "2026-10-04T20:15:24Z",
-   "extra": {
-    "author": "kmabeeTT",
-    "labels": [
-     "perf",
-     "prefill",
-     "model: gemma-4"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59213",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59213 [ops/sdpa]: REDUCE_ROW SUM configures unpacker operands in swapped order for m ixed formats",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59213",
-   "at": "2026-10-04T19:32:20Z",
-   "extra": {
-    "author": "dddrrreee",
-    "labels": [
-     "community",
-     "op_cat: SDPA"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59212",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59212 [ops/sdpa]: sub_exp_block packs the rescale tile with a stale FP32 packer format",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59212",
-   "at": "2026-10-04T19:31:13Z",
-   "extra": {
-    "author": "dddrrreee",
-    "labels": [
-     "community",
-     "op_cat: SDPA"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59211",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59211 [ring_attention_all_gather] Sliding halo writer is bound by per-packet bookkeeping, and sliding attention waits on it every layer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59211",
-   "at": "2026-10-04T19:31:05Z",
-   "extra": {
-    "author": "kmabeeTT",
-    "labels": [
-     "blackhole",
-     "op_cat: ccl",
-     "perf",
-     "prefill",
-     "model: gemma-4"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59210",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59210 [ops/sdpa]: sparse_sdpa ignores math_approx_mode=False for the P exponential",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59210",
-   "at": "2026-10-04T19:27:42Z",
-   "extra": {
-    "author": "dddrrreee",
-    "labels": [
-     "community",
-     "op_cat: SDPA"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/42",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 7 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/42",
-   "at": "2026-10-04T19:17:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Alliance-codeBase/PostMeta/issues/250",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Alliance-codeBase/PostMeta: Inability to complete bounty",
-   "url": "https://github.com/Alliance-codeBase/PostMeta/issues/250",
-   "at": "2026-10-04T19:05:46Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "lousvilleslugger",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sheepishgoat/GS13-Blubberstation/issues/616",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "sheepishgoat/GS13-Blubberstation: Inflation Sprites and SFX",
-   "url": "https://github.com/sheepishgoat/GS13-Blubberstation/issues/616",
-   "at": "2026-10-04T18:59:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "scooooop6576576",
-    "labels": [
-     "Bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/Trauma-Station/Trauma-Station/issues/4880",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Trauma-Station/Trauma-Station: Revert progtot so I can bounty some more changes",
-   "url": "https://github.com/Trauma-Station/Trauma-Station/issues/4880",
-   "at": "2026-10-04T17:29:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ARMOKS",
-    "labels": [
-     "S: Untriaged"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/nick-transition/fitapp/issues/87",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "nick-transition/fitapp: Cash bounty pilot availability and an unclaimed backend task",
-   "url": "https://github.com/nick-transition/fitapp/issues/87",
-   "at": "2026-10-04T16:26:31Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "saint-inc",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/AxalNetwork/StudioOS/issues/1106",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AxalNetwork/StudioOS: Support-ticket triage protocol and bounty labels for the coordinator (D543)",
-   "url": "https://github.com/AxalNetwork/StudioOS/issues/1106",
-   "at": "2026-10-04T15:56:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "guillaumelauzier",
-    "labels": [
-     "state:ready",
-     "slot:S01"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AxalNetwork/StudioOS/issues/1105",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AxalNetwork/StudioOS: Bug bounties: grant credits from the coordinator's verified label, and show a ticket's bounty state (D542)",
-   "url": "https://github.com/AxalNetwork/StudioOS/issues/1105",
-   "at": "2026-10-04T15:56:41Z",
-   "extra": {
-    "comments": 6,
-    "amount_usd": null,
-    "author": "guillaumelauzier",
-    "labels": [
-     "state:blocked",
-     "needs-decision",
-     "slot:S09"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AxalNetwork/StudioOS/issues/1102",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AxalNetwork/StudioOS: Decisions for the ticket bounty epic: where tickets live, feature rewards, the amounts, Lab backfill (D540)",
-   "url": "https://github.com/AxalNetwork/StudioOS/issues/1102",
-   "at": "2026-10-04T15:56:39Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "guillaumelauzier",
-    "labels": [
-     "needs-decision",
-     "slot:S01"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AxalNetwork/StudioOS/issues/1101",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AxalNetwork/StudioOS: Support tickets: bug bounties, feature reviews, community tasks and credits (epic)",
-   "url": "https://github.com/AxalNetwork/StudioOS/issues/1101",
-   "at": "2026-10-04T15:56:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "guillaumelauzier",
-    "labels": [
-     "slot:S01"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/41",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 17 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/41",
-   "at": "2026-10-04T15:45:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/nick-transition/fitapp/issues/86",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "nick-transition/fitapp: [Bounty Proposal] Accessible marketing-page polish for #43 \u2014 USD 300",
-   "url": "https://github.com/nick-transition/fitapp/issues/86",
-   "at": "2026-10-04T15:27:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 300,
-    "author": "invinsibleDev",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/GOF2BountyBot/BountyBot-Reborn-SamX/issues/124",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "GOF2BountyBot/BountyBot-Reborn-SamX: events: checks only count when the bounty is captured (event metrics + lifetime systems_checked)",
-   "url": "https://github.com/GOF2BountyBot/BountyBot-Reborn-SamX/issues/124",
-   "at": "2026-10-04T14:47:52Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "SamAcctX",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/ExcelDsigN-tech/dukapay/issues/689",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ExcelDsigN-tech/dukapay: Bug bounty contact unreachable: security@dukapay.com bounces, Private Vulnerability Reporting disabled",
-   "url": "https://github.com/ExcelDsigN-tech/dukapay/issues/689",
-   "at": "2026-10-04T14:25:36Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "tegrafinance",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/nick-transition/fitapp/issues/85",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "nick-transition/fitapp: [Bounty Proposal] Athlete exercise-library picker phase for #62 \u2014 USD 300",
-   "url": "https://github.com/nick-transition/fitapp/issues/85",
-   "at": "2026-10-04T14:09:07Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 300,
-    "author": "sprintstate",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "muhammalif/evm-signature-verifier: [Bounty 100 USDT] Refactor Signature Verifier & Add Replay Attack Invariant Tests",
-   "url": "https://github.com/muhammalif/evm-signature-verifier/issues/1",
-   "at": "2026-10-04T12:40:10Z",
-   "extra": {
-    "comments": 5,
-    "amount_usd": null,
-    "author": "muhammalif",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58495 [Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
-   "at": "2026-10-03T21:37:35Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-29T20:22:48Z"
    }
   },
   {
