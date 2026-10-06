@@ -1,6 +1,1380 @@
 {
- "generated_at": "2026-10-06T07:09:05Z",
+ "generated_at": "2026-10-06T14:21:15Z",
  "events": [
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59482",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59482 Remove MetalContext / control-plane dependency from cluster validation",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59482",
+   "at": "2026-10-06T14:13:49Z",
+   "extra": {
+    "author": "Riddy21",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59481",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59481 [MiniMax-M3] Batched prefill support",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59481",
+   "at": "2026-10-06T14:13:33Z",
+   "extra": {
+    "author": "vmelnykovTT",
+    "labels": [
+     "minimax_m3"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-api/issues/14",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-api: [Bounty: $100] Make the MAX_LIVE_REGISTRATIONS cap atomic",
+   "url": "https://github.com/SUSU-LABS/susu-api/issues/14",
+   "at": "2026-10-06T13:46:01Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 100,
+    "author": "tesleem-28",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/85",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-06: 0 new, 0 resumed, 4 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/85",
+   "at": "2026-10-06T13:37:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59477",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59477 More PD porting of ops program factories",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59477",
+   "at": "2026-10-06T13:32:45Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59476",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59476 [Descriptor Migration] reduction",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59476",
+   "at": "2026-10-06T13:30:54Z",
+   "extra": {
+    "author": "azaytsev-epam",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1517",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [MYZ BOUNTY \u00b7 PROPOSED 500 MYZ] Onboard one contributor-owned independent pilot",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1517",
+   "at": "2026-10-06T13:02:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1516",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "MyZubster-Ecosystem/myzubster: [MYZ BOUNTY \u00b7 PROPOSED 250 MYZ] Independently verify another contributor pilot",
+   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1516",
+   "at": "2026-10-06T13:01:37Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "danieldirimini-myzubster",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/7fba70ab7bf8529853fec61e8ec50c4d1ef6e051",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "fix: let Quasar HiFi kernels call any_tiles_bcast with add/sub (#59459)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/7fba70ab7bf8529853fec61e8ec50c4d1ef6e051",
+   "at": "2026-10-06T12:56:56Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_math_binary_api.h"
+    ],
+    "added": [],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59468",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59468 [Master Issue][Quasar] Replace data-format reconfig with per-thread config trackers",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59468",
+   "at": "2026-10-06T12:54:43Z",
+   "extra": {
+    "author": "amokanTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59467",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59467 Quasar LLK test drivers do not compile under `--speed-of-light`",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59467",
+   "at": "2026-10-06T12:51:08Z",
+   "extra": {
+    "author": "jajuTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59466",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59466 compute_buffer_sharding_args builds the shard distribution twice",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59466",
+   "at": "2026-10-06T12:48:33Z",
+   "extra": {
+    "author": "mcw-anasuya",
+    "labels": [
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59462",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59462 ttnn.digamma is wrong for 0 < x < 1.2125e-4 (up to 10^7 ULP, sign flip below 1.5e-7)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59462",
+   "at": "2026-10-06T12:44:41Z",
+   "extra": {
+    "author": "keteng86",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/07b30d2d0af3888db0c44e4de223dc088a726501",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Quasar] Refactor math hw configure (#57226)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/07b30d2d0af3888db0c44e4de223dc088a726501",
+   "at": "2026-10-06T12:42:38Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_math_common_api.h",
+     "tt_metal/tt-llk/tests/helpers/include/quasar_test_common.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/fpu/common.py",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_broadcast_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_reuse_dest_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_sfpu_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_sub_bcast_col_custom_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_broadcast_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_datacopy_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_sfpu_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/matmul_custom_no_mop_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/matmul_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_l1_acc_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_untilize_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/reduce_block_max_row_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/reduce_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/semaphore_sync_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_add_parallel_matmul_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_exp_parallel_matmul_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_fill_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_max_pool_with_indices_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_reduce_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_square_trisc3_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_swiglu_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_where_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/transpose_dest_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/unpack_reduce_col_tilizeA_strided_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/unpack_tilize_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/unpack_unary_operand_quasar_test.cpp",
+     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_common.h"
+    ],
+    "added": [],
+    "author": "amokanTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59456",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59456 Eltwise unit tests restructuring - catch all",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59456",
+   "at": "2026-10-06T12:29:26Z",
+   "extra": {
+    "author": "KalaivaniMCW",
+    "labels": [
+     "op_cat: eltwise",
+     "master",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-indexer/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-indexer: [Bounty: $70] Guarantee recordRunFailure never throws",
+   "url": "https://github.com/SUSU-LABS/susu-indexer/issues/4",
+   "at": "2026-10-06T12:25:50Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 70,
+    "author": "Mukhtar5527",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-indexer/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-indexer: [Bounty: $120] Add tests for the indexer db.ts and handleRequest orchestration",
+   "url": "https://github.com/SUSU-LABS/susu-indexer/issues/3",
+   "at": "2026-10-06T12:25:18Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 120,
+    "author": "AminMG044",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-indexer/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-indexer: [Bounty: $80] Page the watch-list read so groups beyond the PostgREST cap are not dropped",
+   "url": "https://github.com/SUSU-LABS/susu-indexer/issues/2",
+   "at": "2026-10-06T12:24:47Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 80,
+    "author": "mubashqoz-eng",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-contracts/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-contracts: [Bounty: $120] Cap contribution_amount so pooled arithmetic cannot overflow and lock funds",
+   "url": "https://github.com/SUSU-LABS/susu-contracts/issues/4",
+   "at": "2026-10-06T12:23:49Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": 120,
+    "author": "mubashqoz-eng",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-contracts/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-contracts: [Bounty: $150] Extend persistent TTL in payout/membership paths to stop archival bricking pools",
+   "url": "https://github.com/SUSU-LABS/susu-contracts/issues/3",
+   "at": "2026-10-06T12:23:37Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 150,
+    "author": "MiaShayla",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-api/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-api: [Bounty: $100] Make the MAX_LIVE_REGISTRATIONS cap atomic",
+   "url": "https://github.com/SUSU-LABS/susu-api/issues/10",
+   "at": "2026-10-06T12:23:19Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": 100,
+    "author": "tesleem-28",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-api/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-api: [Bounty: $70] Return 400 (not 500) for avatar paths that violate the DB constraint",
+   "url": "https://github.com/SUSU-LABS/susu-api/issues/9",
+   "at": "2026-10-06T12:23:00Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 70,
+    "author": "tesleem-28",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-web/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-web: [Bounty: $90] Runtime-validate API responses with Zod instead of type assertions",
+   "url": "https://github.com/SUSU-LABS/susu-web/issues/12",
+   "at": "2026-10-06T12:17:23Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": 90,
+    "author": "mujidatolaitan787",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-api/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-api: [Bounty: $120] Key the /transactions/prepare rate limit on the verified caller",
+   "url": "https://github.com/SUSU-LABS/susu-api/issues/8",
+   "at": "2026-10-06T12:15:49Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 120,
+    "author": "mahkahu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-web/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-web: [Bounty: $60] Expose the full address to assistive tech in AddressChip",
+   "url": "https://github.com/SUSU-LABS/susu-web/issues/11",
+   "at": "2026-10-06T12:15:39Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": 60,
+    "author": "David237-hub",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-web/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-web: [Bounty: $100] Enforce the shared password policy in Settings change-password",
+   "url": "https://github.com/SUSU-LABS/susu-web/issues/10",
+   "at": "2026-10-06T12:14:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 100,
+    "author": "bumar181",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-web/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-web: [Bounty: $70] Fix transaction-receipt polling using two different failure counters",
+   "url": "https://github.com/SUSU-LABS/susu-web/issues/9",
+   "at": "2026-10-06T12:14:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "bumar181",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59454",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59454 eltwise/unary program-cache key should use sharded geometry from spec",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59454",
+   "at": "2026-10-06T12:05:09Z",
+   "extra": {
+    "author": "mcw-anasuya",
+    "labels": [
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59453",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59453 eltwise/unary mis-addresses sharded views when buffer and spec layouts differ",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59453",
+   "at": "2026-10-06T12:00:13Z",
+   "extra": {
+    "author": "mcw-anasuya",
+    "labels": [
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59452",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59452 [LLK][Perf Coverage] Eltwise-binary perf sweeps inherit functional constraints, leaving four production configurations unmeasured on every architecture",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59452",
+   "at": "2026-10-06T11:59:35Z",
+   "extra": {
+    "author": "skrsmanovicTT",
+    "labels": [
+     "LLK"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e93fe01e4853d0b61b8a03fa935fbe2d415cb182",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] [Test Only] SFPU ULP P4 \u2014 add the exhaustive sweep and enforce initial budgets (#57010)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e93fe01e4853d0b61b8a03fa935fbe2d415cb182",
+   "at": "2026-10-06T11:59:24Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/README.md",
+     "tt_metal/tt-llk/tests/SFPU_ULP.md",
+     "tt_metal/tt-llk/tests/python_tests/helpers/constraints.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/data_format_inference.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/llk_pytest_plugin.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/param_config.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.yaml",
+     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_domains.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/ulp_sweep.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/utils.py",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_binary_sfpu.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_accuracy_budget.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_binop_scalar.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/test_ulp_gate.py",
+     "tt_metal/tt-llk/tests/python_tests/test_ulp_sweep.py",
+     "tt_metal/tt-llk/tests/python_tests/test_unary_sfpu_ulp.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/SFPU_ULP.md",
+     "tt_metal/tt-llk/tests/python_tests/test_unary_sfpu_ulp.py"
+    ],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59451",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59451 replay optimization issues",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59451",
+   "at": "2026-10-06T11:53:01Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59450",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59450 [sfpi] SFPI 7.84.0: ICE in fold_live_assign (gimple-rvtt-live.cc:524), and the compiler changes what a user lltt::record window captures",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59450",
+   "at": "2026-10-06T11:50:22Z",
+   "extra": {
+    "author": "nkapreTT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-web/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-web: [Bounty: $80] Add a top-level error boundary so one malformed value cannot blank the app",
+   "url": "https://github.com/SUSU-LABS/susu-web/issues/8",
+   "at": "2026-10-06T11:46:51Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": 80,
+    "author": "code-cannot-be-blank",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59449",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59449 Compare machinery is complex and inefficient",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59449",
+   "at": "2026-10-06T11:46:21Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/faizal97/realm-of-loner/issues/135",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "faizal97/realm-of-loner: Accepting a bounty gives no clear sign it went into the Quest Log (player feedback)",
+   "url": "https://github.com/faizal97/realm-of-loner/issues/135",
+   "at": "2026-10-06T11:21:09Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "faizal97",
+    "labels": [
+     "improvement",
+     "status: ready",
+     "needs: developer"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/7adab533afed6f5c6a534fa5fb32b323fc25535a",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[repo-assist] fix(llk): scale strided-pack per-tile index by stride_size_tiles on Quasar (#56195)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/7adab533afed6f5c6a534fa5fb32b323fc25535a",
+   "at": "2026-10-06T11:20:10Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_pack_tile_api.h"
+    ],
+    "added": [],
+    "author": "github-actions[bot]"
+   }
+  },
+  {
+   "id": "https://github.com/useagenthq/useagent/issues/70",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "useagenthq/useagent: Bounty",
+   "url": "https://github.com/useagenthq/useagent/issues/70",
+   "at": "2026-10-06T11:10:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Abiola-Obafemi",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59442",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59442 Eltwise unit tests : Accuracy sweeps - FLOAT32",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59442",
+   "at": "2026-10-06T11:05:23Z",
+   "extra": {
+    "author": "KalaivaniMCW",
+    "labels": [
+     "op_cat: eltwise",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59441",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59441 BH LLK eltwise instruction level perf observations",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59441",
+   "at": "2026-10-06T10:27:05Z",
+   "extra": {
+    "author": "mateusznowakTT",
+    "labels": [
+     "op_cat: eltwise"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/RyRy79261/baumy-olympics/issues/177",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RyRy79261/baumy-olympics: fix(kiosk): the points form changes the first bounty, not the picked one",
+   "url": "https://github.com/RyRy79261/baumy-olympics/issues/177",
+   "at": "2026-10-06T10:10:54Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "RyRy79261",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/c4c61126a2117bc167393a3df3a8a09e51cfb698",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Quasar] reduce BFD initialization code size (#58574)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/c4c61126a2117bc167393a3df3a8a09e51cfb698",
+   "at": "2026-10-06T09:45:37Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/experimental/llk_unpack_AB_reduce_custom_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/experimental/llk_unpack_AB_reduce_custom_runtime_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_pack_common_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_pack_tile_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_pack_untilize_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu_srcs_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_AB_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_AB_matmul_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_AB_reduce_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_A_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_common_api.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_tilize_api.h",
+     "tt_metal/tt-llk/tests/python_tests/fuser/operand.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/packer/matmul.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/packer/packer.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/packer/untilize.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/matmul.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/reduce.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/reduce_tilize_a.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/tilize_a.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/unary_broadcast.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/unpack_a.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/unpack_ab.py",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_broadcast_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_reuse_dest_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_sfpu_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_sub_bcast_col_custom_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_broadcast_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_datacopy_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_sfpu_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/isolate_sfpu_add_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/matmul_custom_no_mop_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/matmul_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_l1_acc_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_untilize_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/reduce_block_max_row_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/reduce_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/semaphore_sync_quasar_test.cpp"
+    ],
+    "added": [],
+    "author": "markoradosavljevicTT"
+   }
+  },
+  {
+   "id": "https://github.com/RyRy79261/baumy-olympics/issues/175",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "RyRy79261/baumy-olympics: feat(web): edit many bounties at once, on the admin page and the kiosk",
+   "url": "https://github.com/RyRy79261/baumy-olympics/issues/175",
+   "at": "2026-10-06T09:30:21Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "RyRy79261",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/75",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 24: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/75",
+   "at": "2026-10-06T09:08:04Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/74",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 23: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/74",
+   "at": "2026-10-06T09:08:02Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/73",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 22: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/73",
+   "at": "2026-10-06T09:08:00Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/72",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 21: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/72",
+   "at": "2026-10-06T09:07:59Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/71",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 20: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/71",
+   "at": "2026-10-06T09:07:57Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/70",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 19: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/70",
+   "at": "2026-10-06T09:07:56Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/69",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 18: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/69",
+   "at": "2026-10-06T09:07:54Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/68",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 17: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/68",
+   "at": "2026-10-06T09:07:53Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/67",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 16: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/67",
+   "at": "2026-10-06T09:07:51Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/66",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 15: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/66",
+   "at": "2026-10-06T09:07:50Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/65",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 14: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/65",
+   "at": "2026-10-06T09:07:48Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/64",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 13: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/64",
+   "at": "2026-10-06T09:07:47Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/63",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 12: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/63",
+   "at": "2026-10-06T09:07:46Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/62",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 11: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/62",
+   "at": "2026-10-06T09:07:44Z",
+   "extra": {
+    "comments": 5,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/61",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 10: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/61",
+   "at": "2026-10-06T09:07:43Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/60",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 9: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/60",
+   "at": "2026-10-06T09:07:41Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/59",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 8: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/59",
+   "at": "2026-10-06T09:07:40Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/58",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 7: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/58",
+   "at": "2026-10-06T09:07:38Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/57",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 6: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/57",
+   "at": "2026-10-06T09:07:37Z",
+   "extra": {
+    "comments": 4,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/56",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 5: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/56",
+   "at": "2026-10-06T09:07:36Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/55",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 4: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/55",
+   "at": "2026-10-06T09:07:34Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/54",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 3: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/54",
+   "at": "2026-10-06T09:07:33Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/53",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 2: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/53",
+   "at": "2026-10-06T09:07:31Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/52",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Odyssey Book 1: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/52",
+   "at": "2026-10-06T09:07:30Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "odyssey"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/51",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 24: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/51",
+   "at": "2026-10-06T09:07:29Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/50",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 23: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/50",
+   "at": "2026-10-06T09:07:27Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/49",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 22: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/49",
+   "at": "2026-10-06T09:07:26Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/48",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 21: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/48",
+   "at": "2026-10-06T09:07:24Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/47",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 20: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/47",
+   "at": "2026-10-06T09:07:23Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/46",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 19: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/46",
+   "at": "2026-10-06T09:07:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/45",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 18: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/45",
+   "at": "2026-10-06T09:07:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/44",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 17: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/44",
+   "at": "2026-10-06T09:07:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/43",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 16: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/43",
+   "at": "2026-10-06T09:07:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/42",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 15: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/42",
+   "at": "2026-10-06T09:07:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/mazebench-temp/GreekIndexBounty/issues/41",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "mazebench-temp/GreekIndexBounty: [100,000 sats] Iliad Book 14: complete translation, lexicon, and exhaustive research index",
+   "url": "https://github.com/mazebench-temp/GreekIndexBounty/issues/41",
+   "at": "2026-10-06T09:07:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mazebench-temp",
+    "labels": [
+     "bounty",
+     "iliad"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59425",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59425 [Quasar] Support DFB entries larger than one tile in compute TDMA APIs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59425",
+   "at": "2026-10-06T09:06:53Z",
+   "extra": {
+    "author": "amokanTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/aa97c239eceaf551dae65f785e431d114c352d76",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Feature] - Generic reduce: H-axis split for TILE inputs on min/max (#57525)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/aa97c239eceaf551dae65f785e431d114c352d76",
+   "at": "2026-10-06T09:05:19Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/common.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/common.hpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_reduce_rm.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_transpose_wh_universal_input_cols_partitioned.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/generic_reductions.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/generic_reductions_nanobind.hpp"
+    ],
+    "added": [],
+    "author": "ign-msati"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59420",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59420 [LLK Test Infra] Quasar _2x format tests fail with disabled implied math formats",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59420",
+   "at": "2026-10-06T08:25:13Z",
+   "extra": {
+    "author": "amokanTT",
+    "labels": [
+     "llk:quasar",
+     "llk:test-infra"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/b3d2e56ae397ff6ea57de23a223f01ea298ba735",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] backward ops: the auto-allocated gradient takes the caller's memory config (#53970)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/b3d2e56ae397ff6ea57de23a223f01ea298ba735",
+   "at": "2026-10-06T07:27:35Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/unary_backward.cpp"
+    ],
+    "added": [],
+    "author": "kinginu"
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/48",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 16 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/48",
+   "at": "2026-10-06T07:17:19Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/Nudgen-Marketing/mermail-skills/issues/482",
    "source": "github_search",
@@ -115,7 +1489,7 @@
    "url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/28",
    "at": "2026-10-06T04:48:52Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 500,
     "author": "woahwhattheheck",
     "labels": []
@@ -316,6 +1690,7 @@
    "extra": {
     "author": "bvdyvncqr5-commits",
     "labels": [
+     "op_cat: TM",
      "community"
     ]
    }
@@ -344,23 +1719,6 @@
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/lyilyi1717/aetheria-clicker/issues/12",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "lyilyi1717/aetheria-clicker: R10: Bounty contract board",
-   "url": "https://github.com/lyilyi1717/aetheria-clicker/issues/12",
-   "at": "2026-10-06T00:36:46Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "lyilyi1717",
-    "labels": [
-     "roadmap",
-     "wave-4"
-    ]
    }
   },
   {
@@ -2008,129 +3366,6 @@
    }
   },
   {
-   "id": "https://github.com/AstralDeep/AstralPlane/issues/60",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralPlane: Qualify coordinated restore and session retirement",
-   "url": "https://github.com/AstralDeep/AstralPlane/issues/60",
-   "at": "2026-10-05T14:41:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralPlane/issues/59",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralPlane: Qualify connection-loss and uncertain transaction outcomes",
-   "url": "https://github.com/AstralDeep/AstralPlane/issues/59",
-   "at": "2026-10-05T14:41:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralPlane/issues/58",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralPlane: Define neutral recovery and writable-readiness preconditions",
-   "url": "https://github.com/AstralDeep/AstralPlane/issues/58",
-   "at": "2026-10-05T14:41:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralPlane/issues/57",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralPlane: Add bounded Atlas links and backlinks",
-   "url": "https://github.com/AstralDeep/AstralPlane/issues/57",
-   "at": "2026-10-05T14:41:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralPlane/issues/56",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralPlane: Add immutable Atlas revisions and fenced page edits",
-   "url": "https://github.com/AstralDeep/AstralPlane/issues/56",
-   "at": "2026-10-05T14:40:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralPlane/issues/55",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralPlane: Store opaque owner- and project-scoped Atlas pages",
-   "url": "https://github.com/AstralDeep/AstralPlane/issues/55",
-   "at": "2026-10-05T14:40:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/megachadxyz/mega-chad/issues/7",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2203,22 +3438,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59283",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59283 [LLK]: Reconfig escape in perf_fast_untilize",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59283",
-   "at": "2026-10-05T13:35:47Z",
-   "extra": {
-    "author": "iklikovacTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/faroukobayanju/squadjar/issues/21",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2229,18 +3448,6 @@
     "comments": 0,
     "amount_usd": null,
     "author": "faroukobayanju",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59276",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59276 Remove acc_to_dest=true from transpose_init",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59276",
-   "at": "2026-10-05T13:12:36Z",
-   "extra": {
-    "author": "sstanisicTT",
     "labels": []
    }
   },
@@ -2275,212 +3482,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/d6f651de634cb73791b0f44f40ae2bd8b2ffa16f",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "#56601: Add shared BinaryBackwardDeviceOperation with mul_bw ported (#57830)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/d6f651de634cb73791b0f44f40ae2bd8b2ffa16f",
-   "at": "2026-10-05T12:28:05Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/CMakeLists.txt",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/binary_backward.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/binary_backward_nanobind.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/compute/eltwise_bw_mul.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/dataflow/writer_binary_backward_dual_nobcast.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/sources.cmake"
-    ],
-    "added": [
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_op_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/binary_backward_program_factory.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/compute/eltwise_bw_mul.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/binary_backward/device/kernels/dataflow/writer_binary_backward_dual_nobcast.cpp"
-    ],
-    "author": "mouliraj-mcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/ab5310c84bfa08508238306bcc380d391ea67e59",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][BH] Restore LCONST_neg1 when sinkhorn returns (#56333)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/ab5310c84bfa08508238306bcc380d391ea67e59",
-   "at": "2026-10-05T12:26:43Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/test_sinkhorn_lconst_neg1_regression.py",
-     "tt_metal/tt-llk/tests/sources/sinkhorn_lconst_neg1_regression_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/ckernel_sfpu_load_config.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_sinkhorn.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_softmax_k.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/test_sinkhorn_lconst_neg1_regression.py",
-     "tt_metal/tt-llk/tests/sources/sinkhorn_lconst_neg1_regression_test.cpp"
-    ],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/7a14f010489115c28043e18daefb20b7964b3020",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][WH][Bug fix] mul_reduce_scalar: keep the default wait on the switch_to_reduce source clears (#59082)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/7a14f010489115c28043e18daefb20b7964b3020",
-   "at": "2026-10-05T12:19:02Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_unpack_mul_reduce_scalar.h"
-    ],
-    "added": [],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/30e83f43bb44c9755931e1a230bdad714968e189",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][BH] Acquire the source banks on the math class in the topk_xl transpose guards (#55882)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/30e83f43bb44c9755931e1a230bdad714968e189",
-   "at": "2026-10-05T12:17:33Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_topk_xl.h"
-    ],
-    "added": [],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/feeab6bc06f2cc945d46f3e4091969f66125b8c8",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][BH+WH] Take the Src zero-flag write off the unpack thread in reduce_block_max_row (#59091)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/feeab6bc06f2cc945d46f3e4091969f66125b8c8",
-   "at": "2026-10-05T12:16:56Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/infra/xthread_cfg_baseline_blackhole.txt",
-     "tt_metal/tt-llk/infra/xthread_cfg_baseline_wormhole_b0.txt",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cmath_common.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_topk_xl.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_reduce_custom.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_reduce_runtime_custom.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_reduce_custom.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_reduce_custom_runtime.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/cmath_common.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_math_reduce_custom.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_math_reduce_runtime_custom.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_unpack_AB_reduce_custom.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/experimental/llk_unpack_AB_reduce_custom_runtime.h"
-    ],
-    "added": [],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59265",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59265 [BEVFormer] Minimum hardware on single Blackhole",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59265",
-   "at": "2026-10-05T11:51:46Z",
-   "extra": {
-    "author": "ctr-mmicicTT",
-    "labels": [
-     "blackhole",
-     "BEVFormer"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/e08421991ebe50f27f2969dab686293372000ab7",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[fuser] add output tolerances and fix Quasar SigmoidAppx test failures (#58966)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/e08421991ebe50f27f2969dab686293372000ab7",
-   "at": "2026-10-05T11:31:16Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/fuser/config_parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/golden_check.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/operand.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_unary_float_dest32.yaml"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_sigmoid_appx_dest32.yaml"
-    ],
-    "author": "markoradosavljevicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59262",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59262 [gemma4_d_p] Layer perf CI: add 2048 and 4096 chunk sizes",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59262",
-   "at": "2026-10-05T11:26:58Z",
-   "extra": {
-    "author": "mmanzoorTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/e3ae5fe7cca79b50c884d6e19e412967e62f1655",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [SAN] Model the FPU reduce operations (#58857)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/e3ae5fe7cca79b50c884d6e19e412967e62f1655",
-   "at": "2026-10-05T11:23:36Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_math_reduce_api.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_pack_reduce_api.h",
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_unpack_AB_reduce_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_math_reduce_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_pack_reduce_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_AB_reduce_api.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/reduce.h",
-     "tt_metal/tt-llk/tools/include/sanitizer/operation.h"
-    ],
-    "added": [],
-    "author": "sstanisicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/64d3826fad9db596eab0347756c91fe415e2c190",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] [LLK] Keep LLK PR reviews when the PR head moves; default effort to xhigh (#59020)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/64d3826fad9db596eab0347756c91fe415e2c190",
-   "at": "2026-10-05T11:18:39Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/.claude/commands/llk-code-review.md"
-    ],
-    "added": [],
-    "author": "nstamatovicTT"
-   }
-  },
-  {
    "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/6",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2495,81 +3496,6 @@
    }
   },
   {
-   "id": "https://github.com/faizal97/realm-of-loner/issues/115",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "faizal97/realm-of-loner: Handing in a bounty shows 'Quest complete'",
-   "url": "https://github.com/faizal97/realm-of-loner/issues/115",
-   "at": "2026-10-05T09:33:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "faizal97",
-    "labels": [
-     "bug",
-     "status: in progress",
-     "needs: developer"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59249",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59249 [aw] Failed jobs: CI Failure Triage (pilot)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59249",
-   "at": "2026-10-05T09:16:12Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/f83f3da72a381c79111c7417bed7bc4ed11830f8",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[ttnn/experimental/quasar] Fix remainder/outer and binary_ng high-rank bugs (#57362 items 1-4) (#58544)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/f83f3da72a381c79111c7417bed7bc4ed11830f8",
-   "at": "2026-10-05T09:16:10Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_device_operation.cpp"
-    ],
-    "added": [],
-    "author": "Aswinmcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/fca2ffd0d30aa9b54d2a73499222f2c9a7656374",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix][LLK][Quasar] Fix tiny-tile eltwise binary (#56846)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/fca2ffd0d30aa9b54d2a73499222f2c9a7656374",
-   "at": "2026-10-05T09:00:14Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_unpack_AB_api.h",
-     "tt_metal/tt-llk/common/tensor_shape.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/unpack_ab.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/test_schemas.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/tensor_shape_coverage_parser.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_eltwise_binary_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_fused_quasar.py",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_test.cpp",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_eltwise_binary.h",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_pack.h",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_binary_operands.h",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_unpack_unary_operand.h"
-    ],
-    "added": [],
-    "author": "nstamatovicTT"
-   }
-  },
-  {
    "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/3",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2581,22 +3507,6 @@
     "amount_usd": null,
     "author": "zongsm-cmyk",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59247",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59247 ttnn.gelu returns 0 instead of NaN for negative NaN inputs (float32, Wormhole and Blackhole)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59247",
-   "at": "2026-10-05T08:55:04Z",
-   "extra": {
-    "author": "Joshua-Stapleton",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
    }
   },
   {
@@ -2663,7 +3573,7 @@
    "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1499",
    "at": "2026-10-05T08:25:15Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "danieldirimini-myzubster",
     "labels": []
@@ -2771,76 +3681,6 @@
     "comments": 1,
     "amount_usd": null,
     "author": "danieldirimini-myzubster",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1479",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED/UNFUNDED] Create contributor comic asset with provenance \u2014 20 USD equivalent",
-   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1479",
-   "at": "2026-10-05T03:41:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "danieldirimini-myzubster",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1478",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "MyZubster-Ecosystem/myzubster: [BOUNTY \u00b7 PROPOSED/UNFUNDED] Complete verified MyZubster contributor profile \u2014 15 USD equivalent",
-   "url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1478",
-   "at": "2026-10-05T03:41:27Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "danieldirimini-myzubster",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/nick-transition/fitapp/issues/90",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "nick-transition/fitapp: [Bounty Proposal] Workout card \u2192 detail transition for #41 \u2014 USD 150",
-   "url": "https://github.com/nick-transition/fitapp/issues/90",
-   "at": "2026-10-05T02:33:01Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 150,
-    "author": "samproductnotes-crypto",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/maxfain/basedagents/issues/165",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "maxfain/basedagents: Service proposal for maintainer: owner task-acceptance regression tests (not a bounty)",
-   "url": "https://github.com/maxfain/basedagents/issues/165",
-   "at": "2026-10-05T01:52:08Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": null,
-    "author": "mooncitythunder",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/44",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 15 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/44",
-   "at": "2026-10-05T01:42:26Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
     "labels": []
    }
   }
