@@ -1,6 +1,368 @@
 {
- "generated_at": "2026-10-06T00:34:06Z",
+ "generated_at": "2026-10-06T07:09:05Z",
  "events": [
+  {
+   "id": "https://github.com/Nudgen-Marketing/mermail-skills/issues/482",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Nudgen-Marketing/mermail-skills: [official-skill] mermail-bounty-ops",
+   "url": "https://github.com/Nudgen-Marketing/mermail-skills/issues/482",
+   "at": "2026-10-06T06:44:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "rametrid",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/83",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-06: 9 changes across 5 bounty programs",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/83",
+   "at": "2026-10-06T06:25:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/82",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-06: 0 new, 0 resumed, 5 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/82",
+   "at": "2026-10-06T06:25:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/8e4d1cbbf488d1e759f7be985cb07809341eb946",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Performance] GDN SFPU forward-substitution solve for the WY inverse (#57445)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/8e4d1cbbf488d1e759f7be985cb07809341eb946",
+   "at": "2026-10-06T06:24:08Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/llk_math_triangle_solve_sfpu_entry.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/llk_triangle_solve_sync.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu_types.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/llk_math_triangle_solve_sfpu_entry.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/llk_triangle_solve_sync.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/llk_math_triangle_solve_sfpu_entry.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/llk_triangle_solve_sync.h",
+     "tt_metal/hw/inc/api/compute/triangle_solve.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/ckernel_sfpu_triangle_solve.h"
+    ],
+    "added": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/llk_math_triangle_solve_sfpu_entry.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/llk_triangle_solve_sync.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/llk_math_triangle_solve_sfpu_entry.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/llk_triangle_solve_sync.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/llk_math_triangle_solve_sfpu_entry.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/llk_triangle_solve_sync.h",
+     "tt_metal/hw/inc/api/compute/triangle_solve.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/ckernel_sfpu_triangle_solve.h"
+    ],
+    "author": "iwroszTT"
+   }
+  },
+  {
+   "id": "https://github.com/Uuriko/project-room/issues/1574",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Uuriko/project-room: Docs gap: 12 hosted bounty_* MCP tools are live but undocumented in agent-facing docs",
+   "url": "https://github.com/Uuriko/project-room/issues/1574",
+   "at": "2026-10-06T05:17:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Uuriko",
+    "labels": [
+     "documentation"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Tarsnap/scrypt/issues/431",
+   "source": "tarsnap",
+   "kind": "tarsnap_issue",
+   "title": "Tarsnap/scrypt#431 [bug bounty] readpass_file() silently truncates the passphrase at a carriage return",
+   "url": "https://github.com/Tarsnap/scrypt/issues/431",
+   "at": "2026-10-06T04:53:22Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "woahwhattheheck"
+   }
+  },
+  {
+   "id": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/28",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "bujiproject-art/agentmidasopendevteam: Claiming Bounty #18 - Revenue Dashboard ($500)",
+   "url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/28",
+   "at": "2026-10-06T04:48:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 500,
+    "author": "woahwhattheheck",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/311",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Show why a card button failed when the client is idle",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/311",
+   "at": "2026-10-06T04:35:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "bug",
+     "bounty",
+     "points:100",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/310",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Let a resumed live stream end at its deadline with its closing card",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/310",
+   "at": "2026-10-06T04:35:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/309",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Keep a NUL character in feedback text from failing knowledge proposal generation",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/309",
+   "at": "2026-10-06T04:35:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "bug",
+     "bounty",
+     "points:50",
+     "track:reusability",
+     "priority:P3"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59400",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59400 [ttnn/experimental/quasar] Remove dead enough_space_width from quasar tilize_with_val_padding program-cache key (#58407 item 8)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59400",
+   "at": "2026-10-06T04:18:30Z",
+   "extra": {
+    "author": "abdulla-TT",
+    "labels": [
+     "cleanup",
+     "op_cat: TM",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59399",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59399 [ttnn/experimental/quasar] Remove dead enough_space_width from quasar tilize program-cache key (#58407 item 5)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59399",
+   "at": "2026-10-06T04:18:27Z",
+   "extra": {
+    "author": "abdulla-TT",
+    "labels": [
+     "cleanup",
+     "op_cat: TM",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59396",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59396 Make quasar llama e2e test run on 3mb sram",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59396",
+   "at": "2026-10-06T02:02:32Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/15",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: US Green Card bounty #002 \u2014 AI-prepared pilot eligibility and payment",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/15",
+   "at": "2026-10-06T01:50:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "amirarosedaoud-ai",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/c187c31050bbde511215bc0c87b7f854823a60da",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Cleanup] Remove deprecated global CoreRange/CoreRangeSet aliases and core-range wrappers (#58505)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/c187c31050bbde511215bc0c87b7f854823a60da",
+   "at": "2026-10-06T01:48:44Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.hpp",
+     "ttnn/cpp/ttnn/operations/reduction/argmax/device/argmax_device_operation_types.hpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/welford_reduce_device_operation.hpp",
+     "ttnn/cpp/ttnn/operations/reduction/manual_seed/device/manual_seed_device_operation_types.hpp"
+    ],
+    "added": [],
+    "author": "blozano-tt"
+   }
+  },
+  {
+   "id": "https://github.com/SecOpsNews/news/issues/74729",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SecOpsNews/news: [SecurityWeek] Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
+   "url": "https://github.com/SecOpsNews/news/issues/74729",
+   "at": "2026-10-06T01:39:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "SecurityWeek"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/cd11aa77f0673c55f3c362318151e65f163adadf",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Dest-reuse add/sub pass LoFi, as add_tiles/sub_tiles do (#59012)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/cd11aa77f0673c55f3c362318151e65f163adadf",
+   "at": "2026-10-06T01:36:39Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/inc/api/compute/eltwise_binary.h"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
+   }
+  },
+  {
+   "id": "https://github.com/cklxx/Hogwarts/issues/27",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "cklxx/Hogwarts: Bots congest in Forbidden Forest; spread hunting by density or bounty location",
+   "url": "https://github.com/cklxx/Hogwarts/issues/27",
+   "at": "2026-10-06T01:10:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "cklxx",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59395",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59395 ttnn.reshape (TILE): head split/merge 2.2-4.1x faster on Blackhole, Qwen3.5-9B single-device prefill time -11%",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59395",
+   "at": "2026-10-06T00:48:10Z",
+   "extra": {
+    "author": "bvdyvncqr5-commits",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59394",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59394 [tt-metalium] math.hpp div_up/round_up/round_down: wrong results for negatives, silent overflow, inconsistent zero handling, no type constraints; overlaps tt::align and tilize_utils",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59394",
+   "at": "2026-10-06T00:39:04Z",
+   "extra": {
+    "author": "blozano-tt",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/47",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 7 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/47",
+   "at": "2026-10-06T00:38:25Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/lyilyi1717/aetheria-clicker/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "lyilyi1717/aetheria-clicker: R10: Bounty contract board",
+   "url": "https://github.com/lyilyi1717/aetheria-clicker/issues/12",
+   "at": "2026-10-06T00:36:46Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "lyilyi1717",
+    "labels": [
+     "roadmap",
+     "wave-4"
+    ]
+   }
+  },
   {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/81",
    "source": "github_search",
@@ -232,7 +594,7 @@
    "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1282",
    "at": "2026-10-05T20:55:15Z",
    "extra": {
-    "comments": 189,
+    "comments": 396,
     "amount_usd": null,
     "author": "SPLURT-Station-Bot",
     "labels": [
@@ -408,23 +770,6 @@
      "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_fill.h"
     ],
     "author": "vvukomanovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/hanzhad/squelch-news-engine/issues/1331",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "hanzhad/squelch-news-engine: Google paused its open-source bug bounty program after a flood of hallucinated AI submissions overwhelmed reviewers.",
-   "url": "https://github.com/hanzhad/squelch-news-engine/issues/1331",
-   "at": "2026-10-05T16:49:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "digest:daily",
-     "sent:discord-digest"
-    ]
    }
   },
   {
@@ -1907,7 +2252,7 @@
    "url": "https://github.com/nick-transition/fitapp/issues/92",
    "at": "2026-10-05T13:07:41Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": 800,
     "author": "ithyme7",
     "labels": []
@@ -2162,7 +2507,7 @@
     "author": "faizal97",
     "labels": [
      "bug",
-     "status: ready",
+     "status: in progress",
      "needs: developer"
     ]
    }
@@ -2332,25 +2677,10 @@
    "url": "https://github.com/esoinila/SpaceSails/issues/1357",
    "at": "2026-10-05T06:51:00Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "esoinila",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59240",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59240 [ttnn/experimental/quasar] matmul auto-config hardcodes fuse_batch=false, aborts on batched A with block-sharded output",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59240",
-   "at": "2026-10-05T06:49:32Z",
-   "extra": {
-    "author": "abdulla-TT",
-    "labels": [
-     "bug",
-     "MCW"
-    ]
    }
   },
   {
@@ -2414,20 +2744,6 @@
     "amount_usd": null,
     "author": "Bomabgp",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59232",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59232 [ttnn/experimental/quasar] Narrow kernel GLOB_RECURSE in quasar/CMakeLists.txt to .cpp/.hpp (#58407 item 1)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59232",
-   "at": "2026-10-05T04:01:00Z",
-   "extra": {
-    "author": "abdulla-TT",
-    "labels": [
-     "MCW"
-    ]
    }
   },
   {
@@ -2526,44 +2842,6 @@
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "JoeMafiaNEO/dungeon-crawler: Bounty Board \u2014 opt-in objectives per level",
-   "url": "https://github.com/JoeMafiaNEO/dungeon-crawler/issues/7",
-   "at": "2026-10-05T00:36:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "JoeMafiaNEO",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/953",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#953 [Bug bounty] --creationtime accepts trailing garbage",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/953",
-   "at": "2026-10-03T02:02:36Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "blackmore-technology-group"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/tarsnap/issues/954",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/tarsnap#954 [Bug bounty] tarsnap-keymgmt --keylist accepts trailing garbage and base-0 key numbers",
-   "url": "https://github.com/Tarsnap/tarsnap/issues/954",
-   "at": "2026-10-03T02:02:32Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "blackmore-technology-group"
    }
   }
  ],
