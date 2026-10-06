@@ -1,6 +1,301 @@
 {
- "generated_at": "2026-10-06T19:40:19Z",
+ "generated_at": "2026-10-06T23:32:15Z",
  "events": [
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/86",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-06: 0 new, 1 resumed, 6 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/86",
+   "at": "2026-10-06T22:46:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58227",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58227 [Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58227",
+   "at": "2026-10-06T22:44:49Z",
+   "extra": {
+    "state": "CLOSED",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "jasondavies"
+    ],
+    "created": "2026-09-28T21:27:00Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59570",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59570 [Quasar] ttnn.transpose hangs on 32-bit row-major tensors (permute MultiCoreBlockedGeneric)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59570",
+   "at": "2026-10-06T22:32:46Z",
+   "extra": {
+    "author": "gajanan-choudhary",
+    "labels": [
+     "Quasar",
+     "ops-data-movement"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/dc342c981a9a11311899d042c220cd4615116339",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] Non-compliant CB usage in matmul, reduction and moreh kernels (#59493)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/dc342c981a9a11311899d042c220cd4615116339",
+   "at": "2026-10-06T21:54:00Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_h_neg.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_hw_neg.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/compute/reduce_rm.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_reduce_input_rows_partitioned_sharded.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/kernels/dataflow/reader_unary_transpose_wh_interleaved_input_cols_partitioned_sharded.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/generic/device/reduce_op_single_core_hw_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/moe/device/kernels/compute/moe.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/compute/sampling.cpp"
+    ],
+    "added": [],
+    "author": "fplavecTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/288081fdcb38e41b01232c08b6f5f942f4a3c7fa",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] Improve Wormhole BF16 reciprocal rounding (#58251)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/288081fdcb38e41b01232c08b6f5f942f4a3c7fa",
+   "at": "2026-10-06T21:26:13Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_sfpu/ckernel_sfpu_recip.h",
+     "tt_metal/hw/inc/api/compute/eltwise_unary/recip.h",
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations.h"
+    ],
+    "added": [],
+    "author": "jasondavies"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59561",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59561 [ttnn/kv_cache]: update_cache / paged_update_cache on a FLOAT32 cache corrupt the 31 neighbouring rows of the updated position",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59561",
+   "at": "2026-10-06T21:14:18Z",
+   "extra": {
+    "author": "roygindi2-design",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/fd9cea4cdc3e941a3e2eed5a18787cd52122b1a3",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] Non-compliant CB usage in eltwise kernels (#59496)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/fd9cea4cdc3e941a3e2eed5a18787cd52122b1a3",
+   "at": "2026-10-06T20:49:15Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id_metal2.cpp"
+    ],
+    "added": [],
+    "author": "fplavecTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59556",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59556 `moe_compute` and friends: Perf and correctness on Bin6 Blackhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59556",
+   "at": "2026-10-06T20:12:47Z",
+   "extra": {
+    "author": "amorrisonTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/20",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: [BOUNTY CLAIM] bounty-2026-0304-001 \u2014 Schengen visa document privileges",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/20",
+   "at": "2026-10-06T20:08:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dxnyxmrxk-star",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59552",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59552 `MeshWorkloadTestSuite.TestMeshWorkloadOnActiveEth` hangs on a 32-chip WH Galaxy (wh-glx6u-02), with main too",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59552",
+   "at": "2026-10-06T20:08:48Z",
+   "extra": {
+    "author": "ezaiakinTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/3b568637357b3902278c04b5ed675564c6216129",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] [Test Only] SFPU ULP P5 \u2014 enrol the exact and predicate ops (#57024)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/3b568637357b3902278c04b5ed675564c6216129",
+   "at": "2026-10-06T20:08:41Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/README.md",
+     "tt_metal/tt-llk/tests/SFPU_ULP.md",
+     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.yaml",
+     "tt_metal/tt-llk/tests/python_tests/helpers/ulp_sweep.py",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_binary_sfpu.py",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_unary_sfpu.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_accuracy_budget.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_ternary.py",
+     "tt_metal/tt-llk/tests/python_tests/test_ulp_sweep.py",
+     "tt_metal/tt-llk/tests/python_tests/test_unary_sfpu_ulp.py"
+    ],
+    "added": [],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/50",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 10 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/50",
+   "at": "2026-10-06T20:01:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59550",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59550 Replay optimization needs way to be told of use-on-entry",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59550",
+   "at": "2026-10-06T19:55:08Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/18",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: [BOUNTY CLAIM] bounty-2026-0304-006 \u2014 UAE conditional visa-on-arrival update",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/18",
+   "at": "2026-10-06T19:51:37Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "samproductnotes-crypto",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/zeemscript/Parallax/issues/75",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zeemscript/Parallax: Add a short demo GIF of the full bounty flow to the README",
+   "url": "https://github.com/zeemscript/Parallax/issues/75",
+   "at": "2026-10-06T19:43:02Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "zeemscript",
+    "labels": [
+     "task",
+     "complexity: trivial",
+     "docs"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zeemscript/Parallax/issues/52",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zeemscript/Parallax: Sort the Repositories tab by stars, open issues or bounty total",
+   "url": "https://github.com/zeemscript/Parallax/issues/52",
+   "at": "2026-10-06T19:41:28Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "zeemscript",
+    "labels": [
+     "task",
+     "web",
+     "complexity: trivial"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zeemscript/Parallax/issues/51",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zeemscript/Parallax: Filter Explore issues by bounty range",
+   "url": "https://github.com/zeemscript/Parallax/issues/51",
+   "at": "2026-10-06T19:41:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zeemscript",
+    "labels": [
+     "task",
+     "web",
+     "complexity: trivial"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/zeemscript/Parallax/issues/37",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "zeemscript/Parallax: Refund open bounties on-chain when a repository is disconnected",
+   "url": "https://github.com/zeemscript/Parallax/issues/37",
+   "at": "2026-10-06T19:40:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zeemscript",
+    "labels": [
+     "task",
+     "web",
+     "complexity: medium",
+     "contract"
+    ]
+   }
+  },
   {
    "id": "https://github.com/zeemscript/Parallax/issues/35",
    "source": "github_search",
@@ -139,6 +434,54 @@
    }
   },
   {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/d3bfd024ce43f5bed7ca62a78b9825b83963546b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[llk] Fix potential false scoreboard hazard on Quasar SFPMUL24 (#59536)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/d3bfd024ce43f5bed7ca62a78b9825b83963546b",
+   "at": "2026-10-06T18:22:21Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tt_llk_quasar/common/inc/ckernel_ops.h"
+    ],
+    "added": [],
+    "author": "mcraigheadTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/42d50b74afb554ce92cc9ec3a71da3ff6bb70106",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] Non-compliant CB usage in normalization kernels (#59492)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/42d50b74afb554ce92cc9ec3a71da3ff6bb70106",
+   "at": "2026-10-06T18:13:56Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/kernels/compute/groupnorm.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/kernels/compute/groupnorm_sharded_v2.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/kernels/compute/welford_groupnorm_sharded_v2.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/kernels/dataflow/reader_mcast_sender_unary_gn.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_large_tensor.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_post_allgather.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_pre_allgather.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_welford.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_welford.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/dataflow/reader_mcast_receiver_unary_sharded_ln.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/dataflow/reader_mcast_receiver_unary_sharded_ln_pre_allgather.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/dataflow/reader_mcast_sender_unary_sharded_ln.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/dataflow/reshard_writer.hpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/kernels/compute/layernorm_pre_allgather_2d.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/softmax/device/kernels/attention/compute/softmax.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/softmax/device/kernels/attention/compute/softmax_large_tensor.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/softmax/device/kernels/attention/compute/softmax_sharded.cpp"
+    ],
+    "added": [],
+    "author": "fplavecTT"
+   }
+  },
+  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59530",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -214,20 +557,6 @@
    }
   },
   {
-   "id": "https://github.com/SUSU-LABS/susu-indexer/issues/11",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-indexer: [Bounty: $100] Make the indexer checkpoint advance conditional on a higher ledger",
-   "url": "https://github.com/SUSU-LABS/susu-indexer/issues/11",
-   "at": "2026-10-06T16:16:22Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 100,
-    "author": "uscopumpi",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/Reuteknohontake-Labs/spk-compile/issues/1",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -256,34 +585,6 @@
    }
   },
   {
-   "id": "https://github.com/SUSU-LABS/susu-contracts/issues/8",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-contracts: [Bounty: $90] Include frozen fee, treasury, and frequency in the GroupCreated event",
-   "url": "https://github.com/SUSU-LABS/susu-contracts/issues/8",
-   "at": "2026-10-06T16:15:34Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 90,
-    "author": "devpassionOX",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-contracts/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-contracts: [Bounty: $120] Cap contribution_amount so pooled arithmetic cannot overflow and lock funds",
-   "url": "https://github.com/SUSU-LABS/susu-contracts/issues/7",
-   "at": "2026-10-06T16:15:24Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 120,
-    "author": "mubashqoz-eng",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/SUSU-LABS/susu-contracts/issues/6",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -291,37 +592,9 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/6",
    "at": "2026-10-06T16:14:32Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 150,
     "author": "MiaShayla",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/23",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $100] Make the MAX_LIVE_REGISTRATIONS cap atomic",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/23",
-   "at": "2026-10-06T16:13:42Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 100,
-    "author": "tesleem-28",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/22",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $70] Return 400 (not 500) for avatar paths that violate the DB constraint",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/22",
-   "at": "2026-10-06T16:13:37Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 70,
-    "author": "tesleem-28",
     "labels": []
    }
   },
@@ -374,20 +647,6 @@
    }
   },
   {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/21",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $90] Replace trustProxy: true with trusted proxy CIDRs",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/21",
-   "at": "2026-10-06T15:57:20Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 90,
-    "author": "Muhibb123",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/proyecto26/awesome-jsgames/issues/44",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -413,20 +672,6 @@
     "labels": [
      "bug"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/19",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $120] Key the /transactions/prepare rate limit on the verified caller",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/19",
-   "at": "2026-10-06T15:47:43Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 120,
-    "author": "mahkahu",
-    "labels": []
    }
   },
   {
@@ -481,20 +726,6 @@
    "at": "2026-10-06T15:15:21Z",
    "extra": {
     "author": "gajanan-choudhary",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/RyRy79261/baumy-olympics/issues/179",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "RyRy79261/baumy-olympics: feat(web): sliders for points, cooldown and effort in the bounty mass editor",
-   "url": "https://github.com/RyRy79261/baumy-olympics/issues/179",
-   "at": "2026-10-06T15:15:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "RyRy79261",
     "labels": []
    }
   },
@@ -734,20 +965,6 @@
    }
   },
   {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/14",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $100] Make the MAX_LIVE_REGISTRATIONS cap atomic",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/14",
-   "at": "2026-10-06T13:46:01Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 100,
-    "author": "tesleem-28",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/85",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -936,20 +1153,6 @@
    }
   },
   {
-   "id": "https://github.com/SUSU-LABS/susu-contracts/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-contracts: [Bounty: $120] Cap contribution_amount so pooled arithmetic cannot overflow and lock funds",
-   "url": "https://github.com/SUSU-LABS/susu-contracts/issues/4",
-   "at": "2026-10-06T12:23:49Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 120,
-    "author": "mubashqoz-eng",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/SUSU-LABS/susu-contracts/issues/3",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -960,90 +1163,6 @@
     "comments": 2,
     "amount_usd": 150,
     "author": "MiaShayla",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/10",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $100] Make the MAX_LIVE_REGISTRATIONS cap atomic",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/10",
-   "at": "2026-10-06T12:23:19Z",
-   "extra": {
-    "comments": 5,
-    "amount_usd": 100,
-    "author": "tesleem-28",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/9",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $70] Return 400 (not 500) for avatar paths that violate the DB constraint",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/9",
-   "at": "2026-10-06T12:23:00Z",
-   "extra": {
-    "comments": 7,
-    "amount_usd": 70,
-    "author": "tesleem-28",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/12",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $90] Runtime-validate API responses with Zod instead of type assertions",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/12",
-   "at": "2026-10-06T12:17:23Z",
-   "extra": {
-    "comments": 6,
-    "amount_usd": 90,
-    "author": "mujidatolaitan787",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-api/issues/8",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-api: [Bounty: $120] Key the /transactions/prepare rate limit on the verified caller",
-   "url": "https://github.com/SUSU-LABS/susu-api/issues/8",
-   "at": "2026-10-06T12:15:49Z",
-   "extra": {
-    "comments": 5,
-    "amount_usd": 120,
-    "author": "mahkahu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/11",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $60] Expose the full address to assistive tech in AddressChip",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/11",
-   "at": "2026-10-06T12:15:39Z",
-   "extra": {
-    "comments": 6,
-    "amount_usd": 60,
-    "author": "David237-hub",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/10",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $100] Enforce the shared password policy in Settings change-password",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/10",
-   "at": "2026-10-06T12:14:43Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 100,
-    "author": "bumar181",
     "labels": []
    }
   },
@@ -1243,20 +1362,6 @@
     "labels": [
      "op_cat: eltwise"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/RyRy79261/baumy-olympics/issues/177",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "RyRy79261/baumy-olympics: fix(kiosk): the points form changes the first bounty, not the picked one",
-   "url": "https://github.com/RyRy79261/baumy-olympics/issues/177",
-   "at": "2026-10-06T10:10:54Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "RyRy79261",
-    "labels": []
    }
   },
   {
@@ -1828,35 +1933,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59368",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59368 blackhole llk untilize: a pack_untilize_dest for fewer tiles than its init packs the init's tile count, and the pool and upsample kernels write past their output",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59368",
-   "at": "2026-10-05T21:59:15Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59366",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59366 Optimizations for lower token count inputs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59366",
-   "at": "2026-10-05T21:50:35Z",
-   "extra": {
-    "author": "avelickovTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/zeemscript/Parallax/issues/6",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1891,45 +1967,6 @@
      "contract",
      "complexity: high"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/69a9294843d08ce891fef8e314bed874d71694b1",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "fix: correct issues with Quasar trigonometry functions (#59327)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/69a9294843d08ce891fef8e314bed874d71694b1",
-   "at": "2026-10-05T21:38:23Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_trigonometry.h",
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest32.yaml",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_defs.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_acosh_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_atan_asinh_sinh_cosh_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_sin_cos_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_tan_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_trig_unit_interval_dest32.yaml"
-    ],
-    "author": "fvranicTT"
    }
   },
   {
@@ -3485,6 +3522,34 @@
     "comments": 0,
     "amount_usd": null,
     "author": "choreoatlas",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "angeloasante/Diaspora_AI_Visa_data: [BOUNTY CLAIM] bounty-2026-0304-008 \u2014 Kenya eTA verification",
+   "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/3",
+   "at": "2026-10-05T08:58:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "zongsm-cmyk",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/uknwplayer/BountyScout/issues/45",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 22 New Opportunityies found",
+   "url": "https://github.com/uknwplayer/BountyScout/issues/45",
+   "at": "2026-10-05T08:33:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
     "labels": []
    }
   }
