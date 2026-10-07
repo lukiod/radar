@@ -1,90 +1,554 @@
 {
- "generated_at": "2026-10-07T11:14:05Z",
+ "generated_at": "2026-10-07T17:53:38Z",
  "events": [
   {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/27",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $70] Wire vitest.setup.ts and enforce a coverage threshold in CI",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/27",
-   "at": "2026-10-07T11:13:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "David237-hub",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/26",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $110] Add a Content-Security-Policy for the persistent-token session",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/26",
-   "at": "2026-10-07T11:13:22Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 110,
-    "author": "mujidatolaitan787",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/25",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $60] Add focus-visible rings and wire Field hints to aria-describedby",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/25",
-   "at": "2026-10-07T11:12:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "bumar181",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/24",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $80] Add route-level code splitting to shrink the initial bundle",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/24",
-   "at": "2026-10-07T11:12:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "bumar181",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/SUSU-LABS/susu-web/issues/23",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "SUSU-LABS/susu-web: [Bounty: $90] Track Freighter account switches so the wallet address never goes stale",
-   "url": "https://github.com/SUSU-LABS/susu-web/issues/23",
-   "at": "2026-10-07T11:12:11Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "bumar181",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/kubex26/test-repo/issues/1",
+   "id": "https://github.com/hashgraph/guardian/issues/7108",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "kubex26/test-repo: Fix missing return statement in main.py",
-   "url": "https://github.com/kubex26/test-repo/issues/1",
-   "at": "2026-10-07T10:47:21Z",
+   "title": "hashgraph/guardian: Update Github Issue Templates Contributing,  and Bounty Program",
+   "url": "https://github.com/hashgraph/guardian/issues/7108",
+   "at": "2026-10-07T17:44:44Z",
    "extra": {
-    "comments": 6,
+    "comments": 0,
     "amount_usd": null,
-    "author": "kubex26",
+    "author": "guardian-automation",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59690",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59690 Quasar native multi thread binary op, support mixed layout",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59690",
+   "at": "2026-10-07T17:27:12Z",
+   "extra": {
+    "author": "dchenTT",
+    "labels": [
+     "op_cat: eltwise",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59689",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59689 Matmul: with dst_full_sync_en, validation admits subblocks the 2D, 1D and Reuse factories compute wrong",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59689",
+   "at": "2026-10-07T17:26:11Z",
+   "extra": {
+    "author": "rmillerTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tauriachievements/tauriachievements.github.io/issues/95",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "tauriachievements/tauriachievements.github.io: Mythic+: dungeon records, server firsts and unclaimed bounties",
+   "url": "https://github.com/tauriachievements/tauriachievements.github.io/issues/95",
+   "at": "2026-10-07T17:23:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "HunorTotBagi",
+    "labels": [
+     "enhancement"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59685",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59685 SDPA prefill with fp32 DEST and exp_approx_mode False keeps the legacy kernel",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59685",
+   "at": "2026-10-07T17:02:39Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59684",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59684 paged flash MLA decode: revisit the default max_cores_per_head_batch",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59684",
+   "at": "2026-10-07T17:02:22Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59683",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59683 SDPA: a dense mask without a block map still costs the dense amount",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59683",
+   "at": "2026-10-07T17:02:05Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59682",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59682 SDPA prefill: work units are ceil quantized over the core grid",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59682",
+   "at": "2026-10-07T17:01:48Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59681",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59681 DeepSeek V3 decode: take the column major flash MLA decode layout",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59681",
+   "at": "2026-10-07T17:01:12Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA",
+     "model performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59680",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59680 SDPA: K/V forwarding chains for chunked and windowed prefill",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59680",
+   "at": "2026-10-07T17:00:59Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "blackhole",
+     "perf",
+     "SDPA",
+     "op_cat: SDPA"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/nick-transition/fitapp/issues/93",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "nick-transition/fitapp: [Bounty Proposal] Keyboard and screen-reader access for calendar dates (#40) \u2014 USD 150",
+   "url": "https://github.com/nick-transition/fitapp/issues/93",
+   "at": "2026-10-07T16:43:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 150,
+    "author": "lTheDopeRaBBiTl",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/cerebruminc/bug-bounty/issues/14",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "cerebruminc/bug-bounty: bug bounty programs",
+   "url": "https://github.com/cerebruminc/bug-bounty/issues/14",
+   "at": "2026-10-07T16:15:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Deepak5232",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59675",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59675 Galaxy Bin6 CCL Op Tests",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59675",
+   "at": "2026-10-07T15:57:36Z",
+   "extra": {
+    "author": "amorrisonTT",
+    "labels": [
+     "GLX1-BH",
+     "galaxy-variant"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59674",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59674 P16/D16: enable 16-chip MiniMax-M3 prefill and partition-safe transport",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59674",
+   "at": "2026-10-07T15:54:47Z",
+   "extra": {
+    "author": "zhenghaoniTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59671",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59671 [tt-train] Add backward op for `ttnn.experimental.kda.qkv_causal_conv1d_silu`",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59671",
+   "at": "2026-10-07T15:28:06Z",
+   "extra": {
+    "author": "umalesTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59670",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59670 [tt-train] `rmsnorm_{fw,bw}` utilize only subset of core grid",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59670",
+   "at": "2026-10-07T15:25:16Z",
+   "extra": {
+    "author": "umalesTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59668",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59668 [tt-train] Skip gradient computation for frozen weights",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59668",
+   "at": "2026-10-07T15:21:54Z",
+   "extra": {
+    "author": "umalesTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/f478ed131636b89be4a59763e425086ee2c2a87d",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][BH+WH] Make mailbox_read wait for the message even when its value is unused (#59202)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/f478ed131636b89be4a59763e425086ee2c2a87d",
+   "at": "2026-10-07T15:16:53Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/test_mailbox_read_completion.py",
+     "tt_metal/tt-llk/tests/sources/mailbox_read_completion_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_debug.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_hw_cleanup.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_debug.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/test_mailbox_read_completion.py",
+     "tt_metal/tt-llk/tests/sources/mailbox_read_completion_test.cpp"
+    ],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59666",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59666 [tt-train] Add grouped gated RMSNorm kernel on head-merged activations",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59666",
+   "at": "2026-10-07T15:05:27Z",
+   "extra": {
+    "author": "umalesTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59665",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59665 [tt-train] Add backward op for `ttnn.transformer.chunk_gated_delta_rule`",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59665",
+   "at": "2026-10-07T15:00:23Z",
+   "extra": {
+    "author": "umalesTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1255",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286",
+   "at": "2026-10-07T14:56:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "SPLURT-Station-Bot",
     "labels": [
      "bounty"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1285",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1258",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1285",
+   "at": "2026-10-07T14:55:23Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "SPLURT-Station-Bot",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Koaieus/skill-tree-of-life/issues/1471",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Koaieus/skill-tree-of-life: preview_kill_xp ignores Avarice (bounty) \u2014 AI under-values Greed-stacked kills",
+   "url": "https://github.com/Koaieus/skill-tree-of-life/issues/1471",
+   "at": "2026-10-07T14:51:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Koaieus",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59663",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59663 [Bug Report] Fused GELU from UnaryWithParam(UnaryOpType.GELU) with no parameter silently runs the approximate kernel",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59663",
+   "at": "2026-10-07T14:48:31Z",
+   "extra": {
+    "author": "roygindi2-design",
+    "labels": [
+     "bug",
+     "op_cat: eltwise",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/88506badbf121f46c66dca8254c9d8507cb7eb36",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Block STALLWAIT argument-role swaps and instruction-constant misuse (#59172)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/88506badbf121f46c66dca8254c9d8507cb7eb36",
+   "at": "2026-10-07T14:31:07Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/infra/check_instr_encoding_args.py",
+     "tt_metal/tt-llk/infra/tests/test_check_instr_encoding_args.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/infra/check_instr_encoding_args.py",
+     "tt_metal/tt-llk/infra/tests/test_check_instr_encoding_args.py"
+    ],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+   "at": "2026-10-07T13:51:49Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "bvdyvncqr5-commits"
+    ],
+    "created": "2026-10-02T14:34:03Z"
+   }
+  },
+  {
+   "id": "https://github.com/OmniPactDAO/Contract/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OmniPactDAO/Contract: Urgent: Status Update Required for Bug Bounty Submission - Security Vulnerability",
+   "url": "https://github.com/OmniPactDAO/Contract/issues/1",
+   "at": "2026-10-07T13:43:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "VectorShieldResearch",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/88",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-07: 5 changes across 4 bounty programs",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/88",
+   "at": "2026-10-07T13:28:03Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/a67d983f834adf528a317619a19679306e44b59b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Cleanup] Remove mid-kernel `compute_kernel_hw_startup` calls from matmul/fused/reduction kernels (#57495)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/a67d983f834adf528a317619a19679306e44b59b",
+   "at": "2026-10-07T13:16:37Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_compute_utils.h",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_large_tensor.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_pre_allgather.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/kernels/compute/layernorm_pre_allgather_2d.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/rmsnorm_distributed/device/kernels/compute/rmsnorm_pre_allgather_2d.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/moe/device/kernels/compute/moe.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/compute/sampling.cpp"
+    ],
+    "added": [],
+    "author": "ign-sudha"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/975294c4e5d1469ce38c53b9cb07bbefd9120dd6",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "feat: add alternative signbit algorithm that uses loadmacro (#59543)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/975294c4e5d1469ce38c53b9cb07bbefd9120dd6",
+   "at": "2026-10-07T12:28:15Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_signbit.h"
+    ],
+    "added": [],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59647",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59647 [gemma4_d_p] Add perf gate test in CI",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59647",
+   "at": "2026-10-07T12:24:59Z",
+   "extra": {
+    "author": "svuckovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59645",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59645 ttnn trace replay overwrites device buffers allocated after the capture (MiniMax-H3 audio-decode trace corrupts later-allocated tensors)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59645",
+   "at": "2026-10-07T12:03:14Z",
+   "extra": {
+    "author": "rouzbehTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59643",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59643 [ttnn]: MemoryView.block_table always raises TypeError \u2014 missing nanobind unordered_map caster",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59643",
+   "at": "2026-10-07T11:50:41Z",
+   "extra": {
+    "author": "evalkov",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/3ac370ef9b899035c291f8934af18aa158bfd116",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[fuser] Add TopK support (#58947)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/3ac370ef9b899035c291f8934af18aa158bfd116",
+   "at": "2026-10-07T11:47:50Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/topk.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/golden/sfpu/topk.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/operand.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/sfpu/topk.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/sentinel.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/sfpu_topk.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/validator.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/sfpu/topk.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/topk.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/golden/sfpu/topk.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/sfpu/topk.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/sfpu_topk.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/sfpu/topk.py"
+    ],
+    "author": "markoradosavljevicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/85b33e83daf1156d3baf381e72cb8b11e620411a",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] UnaryWithParam JSON round trip, glu-family dim validation (#58102)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/85b33e83daf1156d3baf381e72cb8b11e620411a",
+   "at": "2026-10-07T11:11:56Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_op_types.hpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_composite_op.cpp"
+    ],
+    "added": [],
+    "author": "ijankowskiTT"
    }
   },
   {
@@ -181,7 +645,7 @@
    "url": "https://github.com/Stellar-Bounty-Treasury/stellar-bounty-frontend/issues/24",
    "at": "2026-10-07T09:41:02Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "Dev3DPrint",
     "labels": []
@@ -552,7 +1016,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/20897",
    "at": "2026-10-07T08:00:36Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 50,
     "author": "dogecon6-wq",
     "labels": []
@@ -631,20 +1095,6 @@
     "comments": 1,
     "amount_usd": null,
     "author": "iHosam",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/54",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 15 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/54",
-   "at": "2026-10-07T06:56:03Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
     "labels": []
    }
   },
@@ -798,7 +1248,7 @@
    "url": "https://github.com/quantumchain-core/velodag-core/issues/2",
    "at": "2026-10-07T05:25:07Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 100,
     "author": "quantumchain-core",
     "labels": [
@@ -1077,27 +1527,6 @@
    }
   },
   {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/333",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify opt-in caching of approved non-PHI Claude prompt prefixes",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/333",
-   "at": "2026-10-07T02:48:44Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "track:reusability",
-     "priority:P3"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/AstralDeep/AstralDeep/issues/331",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -1116,6 +1545,27 @@
      "track:security",
      "track:reusability",
      "priority:P2"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/333",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Qualify opt-in caching of approved non-PHI Claude prompt prefixes",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/333",
+   "at": "2026-10-07T02:48:44Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P3"
     ]
    }
   },
@@ -1425,20 +1875,6 @@
    }
   },
   {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/51",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 6 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/51",
-   "at": "2026-10-07T00:25:44Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/b752ec42a5a4f51d1462b99568cbcaaad515851e",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -1650,20 +2086,6 @@
     ],
     "added": [],
     "author": "ldjurovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/50",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 10 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/50",
-   "at": "2026-10-06T20:01:44Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
    }
   },
   {
@@ -1953,81 +2375,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59530",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59530 [ttnn/concat]: FLOAT32 width concat of HEIGHT_SHARDED tiles truncates every element to TF32",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59530",
-   "at": "2026-10-06T17:38:46Z",
-   "extra": {
-    "author": "roygindi2-design",
-    "labels": [
-     "op_cat: TM",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/243a3e49d4edb54712c076223ee6093d2c989b48",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Fix fast untilize perf isolate teardown (#59447)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/243a3e49d4edb54712c076223ee6093d2c989b48",
-   "at": "2026-10-06T16:50:11Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/sources/fast_untilize_test.cpp"
-    ],
-    "added": [],
-    "author": "ndivnicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59515",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59515 Bring up ttnn.scatter on Quasar",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59515",
-   "at": "2026-10-06T16:43:25Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "Quasar",
-     "ops-data-movement"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59510",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59510 WH approx exp returns zeros with TT_METAL_DISABLE_SFPLOADMACRO=1 (missing SFPNOP after SFPMAD)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59510",
-   "at": "2026-10-06T16:24:51Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "bug",
-     "LLK",
-     "llk:wormhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59508",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59508 [ttnn] Metal 2.0 fused minimal matmul fails to deduce distinct ternary accessor types",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59508",
-   "at": "2026-10-06T16:18:18Z",
-   "extra": {
-    "author": "cglagovichTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2041,38 +2388,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-29T20:22:48Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/8c8c458709ba0f60afdd7a126c1cc0e2f5249e41",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK Perf] Align eltwise binary functional and performance tests across BH and Quasar (#55921)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/8c8c458709ba0f60afdd7a126c1cc0e2f5249e41",
-   "at": "2026-10-06T16:07:09Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/test_schemas.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/wide_schema.py",
-     "tt_metal/tt-llk/tests/python_tests/perf_eltwise_binary.py",
-     "tt_metal/tt-llk/tests/python_tests/perf_eltwise_binary_broadcast.py",
-     "tt_metal/tt-llk/tests/python_tests/perf_schema_derive.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_eltwise_binary_broadcast_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_broadcast_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_perf_parquet_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_binary.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_binary_broadcast.py",
-     "tt_metal/tt-llk/tests/sources/eltwise_binary_fpu_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/eltwise_binary_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_broadcast_quasar_test.cpp"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/perf_eltwise_binary_broadcast.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_binary_broadcast.py"
-    ],
-    "author": "ndivnicTT"
    }
   },
   {
@@ -2090,75 +2405,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59505",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59505 [BUG] [Quasar] PrefetcherPipe: 9 multi-producer relay / consumer-batching tests trip device asserts on the 2x3 emulator",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59505",
-   "at": "2026-10-06T15:48:38Z",
-   "extra": {
-    "author": "ymoussaTT",
-    "labels": [
-     "bug"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59504",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59504 [Bin6] Wan2.2-T2V-A14B fails during pipeline creation: device DRAM out of memory on 7 banks (~96% full)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59504",
-   "at": "2026-10-06T15:39:09Z",
-   "extra": {
-    "author": "marijabezuljTT",
-    "labels": [
-     "Shield",
-     "Identified By: Shield / Models CI"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59502",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59502 [HAL] Check mutex balance on the HAL interface in pre-commit",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59502",
-   "at": "2026-10-06T15:26:28Z",
-   "extra": {
-    "author": "njokovicTT",
-    "labels": [
-     "llk:hal"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59501",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59501 [Bin6]: Qwen3-32B fails at startup: model code hardcodes 8 DRAM banks, Bin6 has 7",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59501",
-   "at": "2026-10-06T15:21:44Z",
-   "extra": {
-    "author": "marijabezuljTT",
-    "labels": [
-     "Identified By: Shield / Models CI"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59499",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59499 WH silicon and ttsim disagree for Qwen3-VL with fp32_dest_acc_en=False (text attention outputs zeros on silicon)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59499",
-   "at": "2026-10-06T15:15:21Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/SecOpsNews/news/issues/74760",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2166,231 +2412,13 @@
    "url": "https://github.com/SecOpsNews/news/issues/74760",
    "at": "2026-10-06T15:10:51Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "github-actions[bot]",
     "labels": [
-     "HackerNews"
+     "HackerNews",
+     "Stale"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/c5d92b93a8a4a9a62ab31bda860e004d185e5ff7",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] Mask tile padding in the fused scale-mask softmax (#58502)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/c5d92b93a8a4a9a62ab31bda860e004d185e5ff7",
-   "at": "2026-10-06T15:04:05Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/softmax/device/kernels/attention/compute/softmax.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/softmax/device/softmax_program_factory_attention_optimized.cpp"
-    ],
-    "added": [],
-    "author": "singhharsh1708"
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/49",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 20 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/49",
-   "at": "2026-10-06T14:50:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59490",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59490 [Quasar] Add transpose dest support in transpose.h compute API",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59490",
-   "at": "2026-10-06T14:46:21Z",
-   "extra": {
-    "author": "amokanTT",
-    "labels": [
-     "llk:quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/c2ea88a861cd3c03f09eea13acd5154fce9b09de",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Test Only] Align BH/QSR eltwise binary SFPU functional and perf tests (#57137)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/c2ea88a861cd3c03f09eea13acd5154fce9b09de",
-   "at": "2026-10-06T14:43:45Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/test_schemas.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/wide_schema.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
-     "tt_metal/tt-llk/tests/python_tests/perf_eltwise_binary_sfpu.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_eltwise_binary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_binary_sfpu.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_domains.py",
-     "tt_metal/tt-llk/tests/sources/eltwise_binary_sfpu_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/sfpu_binary_bcast_test.cpp",
-     "tt_metal/tt-llk/tests/sources/sfpu_binary_test.cpp"
-    ],
-    "added": [],
-    "author": "ndivnicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59488",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59488 comp_pcc reports PCC 0.0 for correct bfloat16 single-element / constant tensors",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59488",
-   "at": "2026-10-06T14:28:01Z",
-   "extra": {
-    "author": "Aswinmcw",
-    "labels": [
-     "sweeps",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59485",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59485 [MiniMax-M3] Prefill performance optimizations",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59485",
-   "at": "2026-10-06T14:26:05Z",
-   "extra": {
-    "author": "vmelnykovTT",
-    "labels": [
-     "minimax_m3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59482",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59482 Remove MetalContext / control-plane dependency from cluster validation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59482",
-   "at": "2026-10-06T14:13:49Z",
-   "extra": {
-    "author": "Riddy21",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59481",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59481 [MiniMax-M3] Batched prefill support",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59481",
-   "at": "2026-10-06T14:13:33Z",
-   "extra": {
-    "author": "vmelnykovTT",
-    "labels": [
-     "minimax_m3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/3aa7a43009f628939059d74c4dd2ba50dcbdd908",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Quasar _configure_alu_formats_ sets the ALU Src formats under implied math format too (#59314)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/3aa7a43009f628939059d74c4dd2ba50dcbdd908",
-   "at": "2026-10-06T14:12:04Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_common.h"
-    ],
-    "added": [],
-    "author": "pkennedyTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/509ad4b6c87a7c06fdb958771c8de963b7a8f4a1",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Quasar unpack-to-Dest: hold UNPACK_MATH until the tile is committed (#58892)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/509ad4b6c87a7c06fdb958771c8de963b7a8f4a1",
-   "at": "2026-10-06T14:11:38Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_math_common_api.h"
-    ],
-    "added": [],
-    "author": "pkennedyTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/80b0b62e8c95e16119361ca27fde547a43df2280",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][Bug fix] Use signbit_int32_init for Int32 signbit in the SFPU test harness (#59296)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/80b0b62e8c95e16119361ca27fde547a43df2280",
-   "at": "2026-10-06T14:07:48Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/unary.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/sfpu/unary.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_unary_sfpu.py",
-     "tt_metal/tt-llk/tests/sources/eltwise_unary_sfpu_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/eltwise_unary_sfpu_test.cpp",
-     "tt_metal/tt-llk/tests/sources/eltwise_unary_typecast_perf.cpp",
-     "tt_metal/tt-llk/tests/sources/eltwise_unary_typecast_test.cpp",
-     "tt_metal/tt-llk/tests/sources/matmul_and_unary_sfpu_test.cpp"
-    ],
-    "added": [],
-    "author": "nstamatovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/ffb41e06eb46694d941212f48dd558b4e2973891",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][Feature] Implement signbit for Quasar (#58561)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/ffb41e06eb46694d941212f48dd558b4e2973891",
-   "at": "2026-10-06T14:07:45Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_signbit.h",
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_signbit_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_signbit_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_unary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_defs.h"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_signbit.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_signbit_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_signbit_dest32.yaml"
-    ],
-    "author": "nstamatovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/4c38f4f0f8d28cea14db5b54dd7510056f62bf7c",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Quasar MxFp4_2x tests configure the ALU with the 2x register fo\u2026 (#59315)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/4c38f4f0f8d28cea14db5b54dd7510056f62bf7c",
-   "at": "2026-10-06T14:00:18Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/sources/quasar/matmul_custom_no_mop_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/reduce_quasar_test.cpp"
-    ],
-    "added": [],
-    "author": "pkennedyTT"
    }
   },
   {
@@ -2406,20 +2434,6 @@
     "author": "github-actions[bot]",
     "labels": [
      "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59477",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59477 More PD porting of ops program factories",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59477",
-   "at": "2026-10-06T13:32:45Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
     ]
    }
   },
@@ -2452,260 +2466,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/7fba70ab7bf8529853fec61e8ec50c4d1ef6e051",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "fix: let Quasar HiFi kernels call any_tiles_bcast with add/sub (#59459)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/7fba70ab7bf8529853fec61e8ec50c4d1ef6e051",
-   "at": "2026-10-06T12:56:56Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_math_binary_api.h"
-    ],
-    "added": [],
-    "author": "fvranicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59468",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59468 [Master Issue][Quasar] Replace data-format reconfig with per-thread config trackers",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59468",
-   "at": "2026-10-06T12:54:43Z",
-   "extra": {
-    "author": "amokanTT",
-    "labels": [
-     "llk:quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59467",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59467 Quasar LLK test drivers do not compile under `--speed-of-light`",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59467",
-   "at": "2026-10-06T12:51:08Z",
-   "extra": {
-    "author": "jajuTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59466",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59466 compute_buffer_sharding_args builds the shard distribution twice",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59466",
-   "at": "2026-10-06T12:48:33Z",
-   "extra": {
-    "author": "mcw-anasuya",
-    "labels": [
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59462",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59462 ttnn.digamma is wrong for 0 < x < 1.2125e-4 (up to 10^7 ULP, sign flip below 1.5e-7)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59462",
-   "at": "2026-10-06T12:44:41Z",
-   "extra": {
-    "author": "keteng86",
-    "labels": [
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/07b30d2d0af3888db0c44e4de223dc088a726501",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Quasar] Refactor math hw configure (#57226)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/07b30d2d0af3888db0c44e4de223dc088a726501",
-   "at": "2026-10-06T12:42:38Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_math_common_api.h",
-     "tt_metal/tt-llk/tests/helpers/include/quasar_test_common.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/fpu/common.py",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_broadcast_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_reuse_dest_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_sfpu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_sub_bcast_col_custom_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_broadcast_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_datacopy_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_sfpu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/matmul_custom_no_mop_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/matmul_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/pack_l1_acc_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/pack_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/pack_untilize_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/reduce_block_max_row_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/reduce_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/semaphore_sync_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_add_parallel_matmul_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_exp_parallel_matmul_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_fill_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_max_pool_with_indices_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_reduce_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_square_trisc3_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_swiglu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_where_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/transpose_dest_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/unpack_reduce_col_tilizeA_strided_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/unpack_tilize_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/unpack_unary_operand_quasar_test.cpp",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_math_common.h"
-    ],
-    "added": [],
-    "author": "amokanTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59456",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59456 Eltwise unit tests restructuring - catch all",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59456",
-   "at": "2026-10-06T12:29:26Z",
-   "extra": {
-    "author": "KalaivaniMCW",
-    "labels": [
-     "op_cat: eltwise",
-     "master",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59454",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59454 eltwise/unary program-cache key should use sharded geometry from spec",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59454",
-   "at": "2026-10-06T12:05:09Z",
-   "extra": {
-    "author": "mcw-anasuya",
-    "labels": [
-     "op_cat: eltwise",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59453",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59453 eltwise/unary mis-addresses sharded views when buffer and spec layouts differ",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59453",
-   "at": "2026-10-06T12:00:13Z",
-   "extra": {
-    "author": "mcw-anasuya",
-    "labels": [
-     "op_cat: eltwise",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59452",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59452 [LLK][Perf Coverage] Eltwise-binary perf sweeps inherit functional constraints, leaving four production configurations unmeasured on every architecture",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59452",
-   "at": "2026-10-06T11:59:35Z",
-   "extra": {
-    "author": "skrsmanovicTT",
-    "labels": [
-     "LLK"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/e93fe01e4853d0b61b8a03fa935fbe2d415cb182",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [Test Only] SFPU ULP P4 \u2014 add the exhaustive sweep and enforce initial budgets (#57010)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/e93fe01e4853d0b61b8a03fa935fbe2d415cb182",
-   "at": "2026-10-06T11:59:24Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/README.md",
-     "tt_metal/tt-llk/tests/SFPU_ULP.md",
-     "tt_metal/tt-llk/tests/python_tests/helpers/constraints.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/data_format_inference.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/llk_pytest_plugin.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/param_config.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.yaml",
-     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_domains.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/ulp_sweep.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/utils.py",
-     "tt_metal/tt-llk/tests/python_tests/test_eltwise_binary_sfpu.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_accuracy_budget.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_binop_scalar.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_ternary.py",
-     "tt_metal/tt-llk/tests/python_tests/test_ulp_gate.py",
-     "tt_metal/tt-llk/tests/python_tests/test_ulp_sweep.py",
-     "tt_metal/tt-llk/tests/python_tests/test_unary_sfpu_ulp.py"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/SFPU_ULP.md",
-     "tt_metal/tt-llk/tests/python_tests/test_unary_sfpu_ulp.py"
-    ],
-    "author": "ldjurovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59451",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59451 replay optimization issues",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59451",
-   "at": "2026-10-06T11:53:01Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59450",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59450 [sfpi] SFPI 7.84.0: ICE in fold_live_assign (gimple-rvtt-live.cc:524), and the compiler changes what a user lltt::record window captures",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59450",
-   "at": "2026-10-06T11:50:22Z",
-   "extra": {
-    "author": "nkapreTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59449",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59449 Compare machinery is complex and inefficient",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59449",
-   "at": "2026-10-06T11:46:21Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/faizal97/realm-of-loner/issues/135",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2724,21 +2484,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/7adab533afed6f5c6a534fa5fb32b323fc25535a",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[repo-assist] fix(llk): scale strided-pack per-tile index by stride_size_tiles on Quasar (#56195)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/7adab533afed6f5c6a534fa5fb32b323fc25535a",
-   "at": "2026-10-06T11:20:10Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_pack_tile_api.h"
-    ],
-    "added": [],
-    "author": "github-actions[bot]"
-   }
-  },
-  {
    "id": "https://github.com/useagenthq/useagent/issues/70",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2749,20 +2494,6 @@
     "comments": 0,
     "amount_usd": null,
     "author": "Abiola-Obafemi",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/48",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 16 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/48",
-   "at": "2026-10-06T07:17:19Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
     "labels": []
    }
   },
@@ -2820,7 +2551,7 @@
    "url": "https://github.com/Uuriko/project-room/issues/1574",
    "at": "2026-10-06T05:17:27Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "Uuriko",
     "labels": [
@@ -2961,20 +2692,6 @@
    }
   },
   {
-   "id": "https://github.com/uknwplayer/BountyScout/issues/47",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "uknwplayer/BountyScout: \ud83c\udfaf Bounty Alert: 7 New Opportunityies found",
-   "url": "https://github.com/uknwplayer/BountyScout/issues/47",
-   "at": "2026-10-06T00:38:25Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/81",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -3004,22 +2721,6 @@
      "jasondavies"
     ],
     "created": "2026-09-28T21:27:32Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58986 [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-   "at": "2026-10-05T13:37:01Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "bvdyvncqr5-commits"
-    ],
-    "created": "2026-10-02T14:34:03Z"
    }
   }
  ],
