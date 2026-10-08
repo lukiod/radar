@@ -1,4 +1,4 @@
-# Founder inbox 2026-10-07
+# Founder inbox 2026-10-08
 
 Each line: expected value ÷ your minutes, highest first.
 
