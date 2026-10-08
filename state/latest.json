@@ -1,6 +1,1925 @@
 {
- "generated_at": "2026-10-08T09:21:18Z",
+ "generated_at": "2026-10-08T16:45:37Z",
  "events": [
+  {
+   "id": "https://github.com/Vellara-Labs/vellara/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Vellara-Labs/vellara: [Bounty: $85] Add property-token tests for the dividend state left behind by `buyback`",
+   "url": "https://github.com/Vellara-Labs/vellara/issues/106",
+   "at": "2026-10-08T16:26:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "BigHost3",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Vellara-Labs/vellara/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Vellara-Labs/vellara: [Bounty: $85] Add Rust tests for invoice-token holder accounting across transfer, redeem and burn",
+   "url": "https://github.com/Vellara-Labs/vellara/issues/105",
+   "at": "2026-10-08T16:26:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Babalola29",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Vellara-Labs/vellara/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Vellara-Labs/vellara: [Bounty: $70] Add Rust tests for the compliance-engine holder-registration TTL path",
+   "url": "https://github.com/Vellara-Labs/vellara/issues/104",
+   "at": "2026-10-08T16:26:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Ayomide3271",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Vellara-Labs/vellara/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Vellara-Labs/vellara: [Bounty: $50] Add unit tests for `frontend/src/lib/validation.ts` stroop conversion",
+   "url": "https://github.com/Vellara-Labs/vellara/issues/103",
+   "at": "2026-10-08T16:26:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Abu0001-b",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Vellara-Labs/vellara/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Vellara-Labs/vellara: [Bounty: $45] Add unit tests for `sdk/src/clients/RwaTokenClient.ts` metadata and allowance calls",
+   "url": "https://github.com/Vellara-Labs/vellara/issues/102",
+   "at": "2026-10-08T16:26:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Abdulrahman654",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Vellara-Labs/vellara/issues/101",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Vellara-Labs/vellara: [Bounty: $50] Add unit tests for `sdk/src/clients/KycRegistryClient.ts` approval encoding",
+   "url": "https://github.com/Vellara-Labs/vellara/issues/101",
+   "at": "2026-10-08T16:26:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Abbyhay",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/110",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $70] Call or remove runstore.FileStore.VerifyAll",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/110",
+   "at": "2026-10-08T16:26:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "AKAEMM668",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $75] Wire or delete route.SweepCostClass and ReconcileComponents",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/109",
+   "at": "2026-10-08T16:26:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "0yOla",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/108",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $75] Correct the deployment doc's promise of a measure alert step",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/108",
+   "at": "2026-10-08T16:26:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "selianwp",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $50] Give writeJSONError the machine-readable code every other error carries",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/107",
+   "at": "2026-10-08T16:26:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "ridwanraji1290-ai",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $70] Register or remove the /api/attestations handlers",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/106",
+   "at": "2026-10-08T16:26:14Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 70,
+    "author": "rasheed814",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $45] Collapse the triplicated CostDecomposition doc comment",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/105",
+   "at": "2026-10-08T16:26:13Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "proficientformula",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $65] Add a go mod tidy check to the build job",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/104",
+   "at": "2026-10-08T16:26:11Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "princesslux",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $80] Add a CI job that fails on a broken relative Markdown link",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/103",
+   "at": "2026-10-08T16:26:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "oyeyemipamilerin6-collab",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sounding-Labs/sounding/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sounding-Labs/sounding: [Bounty: $70] Verify the committed data/ chain in a dedicated CI job",
+   "url": "https://github.com/Sounding-Labs/sounding/issues/102",
+   "at": "2026-10-08T16:26:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "omoniyiadebayo12goal-crypto",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $55] Implement or remove the extractPostageFromResult stub",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/109",
+   "at": "2026-10-08T16:26:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Bezzy2105",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/108",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $70] Stop swallowing all errors in readOnChainPostage",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/108",
+   "at": "2026-10-08T16:26:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Bashman10",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $65] Use a CSPRNG for beta control audit ids",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/107",
+   "at": "2026-10-08T16:26:03Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Awesome254",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $55] Add timeout-minutes to the E2E Tests job",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/106",
+   "at": "2026-10-08T16:26:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Adunola022",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $60] Pin the Stellar CLI download in beta-live-testnet.yml",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/105",
+   "at": "2026-10-08T16:26:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "victordice486-hub",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $90] Add component tests for the SettingsModal dialog",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/104",
+   "at": "2026-10-08T16:25:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "sulaimon-developer",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $80] Add unit tests for KvMailboxSyncPersistence",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/103",
+   "at": "2026-10-08T16:25:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "sodiqkareem018-maker",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $65] Add unit tests for handleMailboxSync in services/relay/mailbox-sync-transport.ts",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/102",
+   "at": "2026-10-08T16:25:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "snazzymillenia",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Sottara-Labs/sottara/issues/101",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Sottara-Labs/sottara: [Bounty: $60] Add unit tests for the useSnooze hook",
+   "url": "https://github.com/Sottara-Labs/sottara/issues/101",
+   "at": "2026-10-08T16:25:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "sam-jegs",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-contracts: [Bounty: $65] Add a cost-budget regression test that `get_progress_history` writes no TTL",
+   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/106",
+   "at": "2026-10-08T16:25:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "olaide2001",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-contracts: [Bounty: $45] Add tests for `scripts/calibrate-budgets.py`",
+   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/105",
+   "at": "2026-10-08T16:25:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "meek-codex",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-contracts: [Bounty: $65] Add tests for `scripts/check-migration-numbering.sh`",
+   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/104",
+   "at": "2026-10-08T16:25:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "itzkingaddie",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-contracts: [Bounty: $70] Add tests for the tier-table parser in `scripts/check-cross-doc-consistency.sh`",
+   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/103",
+   "at": "2026-10-08T16:25:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "hardeyshorlar12",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-contracts: [Bounty: $95] Add regression tests for `scripts/check-storage-layout-compat.sh` using `scripts/fixtures`",
+   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/102",
+   "at": "2026-10-08T16:25:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 95,
+    "author": "devNuel",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/101",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-contracts: [Bounty: $70] Add tests for the `chaos-tests` fixture builders in `fixtures.rs`",
+   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/101",
+   "at": "2026-10-08T16:25:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "damilarematin-sketch",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/120",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $95] Route the `postgres-driver.ts` console calls through the logger",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/120",
+   "at": "2026-10-08T16:25:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 95,
+    "author": "marvelous1805",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/119",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $90] Deduplicate the raw-event mapping across the indexer services",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/119",
+   "at": "2026-10-08T16:25:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "isaac4real-art",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/118",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $85] Remove the duplicate `convertPlaceholders` translator in `postgres-driver.ts`",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/118",
+   "at": "2026-10-08T16:25:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "horrmorr",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/117",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $70] Stop `dataExportController` returning a placeholder job id",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/117",
+   "at": "2026-10-08T16:25:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "emmixeryng",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/116",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $65] Reconcile the inert `MILESTONE_RATE_*` variables with the code",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/116",
+   "at": "2026-10-08T16:25:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "alimillz30",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/115",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $60] Bound the growth of `InMemoryRateLimitStore`",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/115",
+   "at": "2026-10-08T16:25:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Xhaka00",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/114",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $65] Add a CI step that fails on `.env.example` drift",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/114",
+   "at": "2026-10-08T16:25:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Vraey-bit",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/113",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $60] Guard the Codecov upload when `CODECOV_TOKEN` is unset",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/113",
+   "at": "2026-10-08T16:25:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Sophtassilk",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Signpost-Labs/signpost-api/issues/112",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Signpost-Labs/signpost-api: [Bounty: $75] Add `timeout-minutes` to the `docker` job in `ci.yml`",
+   "url": "https://github.com/Signpost-Labs/signpost-api/issues/112",
+   "at": "2026-10-08T16:25:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "Sheriff258",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/110",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $80] Fix the network-to-explorer mapping in the PDF export",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/110",
+   "at": "2026-10-08T16:25:26Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "comrade10-coder",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $90] Fix the accent colour in the exported transaction PDF",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/109",
+   "at": "2026-10-08T16:25:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "ayoalade1709-gif",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/108",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $80] Fix the bare `?` and draft desync in `useOfferFilters`",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/108",
+   "at": "2026-10-08T16:25:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "alongemahfuz4-eng",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $45] Add `concurrency` cancellation to the workflow",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/107",
+   "at": "2026-10-08T16:25:21Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "adewalere-ctrl",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $40] Add `timeout-minutes` to every job in `ci-cd.yml`",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/106",
+   "at": "2026-10-08T16:25:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 40,
+    "author": "abdul-tech-dev",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $45] Pin every GitHub Action in `ci-cd.yml` to a commit SHA",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/105",
+   "at": "2026-10-08T16:25:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "WALEY-OPS",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $40] Add least-privilege `permissions` to the `test` and `build` jobs",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/104",
+   "at": "2026-10-08T16:25:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 40,
+    "author": "Victoro001-tech",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $80] Add a Vitest coverage provider and thresholds so CI can gate coverage",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/103",
+   "at": "2026-10-08T16:25:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "Timmmytunner",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-app/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-app: [Bounty: $60] Add tests for the `ProfileTab` alias availability flow",
+   "url": "https://github.com/Settla-Labs/settla-app/issues/102",
+   "at": "2026-10-08T16:25:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Sky4561",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-api/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-api: [Bounty: $60] Add unit tests for PaymentMethodsService.create provider validation",
+   "url": "https://github.com/Settla-Labs/settla-api/issues/107",
+   "at": "2026-10-08T16:25:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Senatormike001",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-api/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-api: [Bounty: $40] Add a unit test for OrderCron.expireOrders error handling",
+   "url": "https://github.com/Settla-Labs/settla-api/issues/106",
+   "at": "2026-10-08T16:25:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 40,
+    "author": "Omoniyi6396",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-api/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-api: [Bounty: $90] Add unit tests for OrderService.expireOrders escrow protection",
+   "url": "https://github.com/Settla-Labs/settla-api/issues/105",
+   "at": "2026-10-08T16:25:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "Muhd010",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-api/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-api: [Bounty: $50] Add unit tests for SendService.resolveRecipient alias resolution",
+   "url": "https://github.com/Settla-Labs/settla-api/issues/104",
+   "at": "2026-10-08T16:25:05Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Luna-netty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-api/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-api: [Bounty: $50] Add unit tests for the stroop conversion helpers in send.service.ts",
+   "url": "https://github.com/Settla-Labs/settla-api/issues/103",
+   "at": "2026-10-08T16:25:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "KunmiWrites-bit",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Settla-Labs/settla-api/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Settla-Labs/settla-api: [Bounty: $75] Add unit tests for SendService.prepare fee and self-send handling",
+   "url": "https://github.com/Settla-Labs/settla-api/issues/102",
+   "at": "2026-10-08T16:25:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "Ishola001",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/110",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $70] Document the withdraw_fees, cancel_market, and cancel_refund methods the smoke test exercises",
+   "url": "https://github.com/Presago-Labs/presago/issues/110",
+   "at": "2026-10-08T16:25:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Hu-ter",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $65] Reconcile the mainnet and testnet contract tables in docs/CONTRACT_CALLS.md and README.md",
+   "url": "https://github.com/Presago-Labs/presago/issues/109",
+   "at": "2026-10-08T16:24:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Horpeyehmi",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/108",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $70] Document the seven scripts/ entry points in README.md",
+   "url": "https://github.com/Presago-Labs/presago/issues/108",
+   "at": "2026-10-08T16:24:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Halimatyemisi",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $90] Replace the hex digests in frontend/vendor/integrity.json with valid base64 SRI values",
+   "url": "https://github.com/Presago-Labs/presago/issues/107",
+   "at": "2026-10-08T16:24:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "Gentle842",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $75] Verify the hardcoded testnet XLM SAC in scripts/deploy-testnet.sh",
+   "url": "https://github.com/Presago-Labs/presago/issues/106",
+   "at": "2026-10-08T16:24:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "Emmajay12",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $80] Assert the accumulated fee in smoke-test step 5 instead of printing it",
+   "url": "https://github.com/Presago-Labs/presago/issues/105",
+   "at": "2026-10-08T16:24:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "Chummy-debug",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $45] Fix formatLeaderboardTimestamp discarding the valid epoch timestamp 0",
+   "url": "https://github.com/Presago-Labs/presago/issues/104",
+   "at": "2026-10-08T16:24:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "BigHost3",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $70] Strip whitespace from the installed wasm hash in upgrade-gas-reduction.sh",
+   "url": "https://github.com/Presago-Labs/presago/issues/103",
+   "at": "2026-10-08T16:24:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Babalola29",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: [Bounty: $65] Fix the testnet branch of upgrade-gas-reduction.sh never validating LEADERBOARD_ID",
+   "url": "https://github.com/Presago-Labs/presago/issues/102",
+   "at": "2026-10-08T16:24:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Ayomide3271",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/110",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $90] Bound the `withdraw` transfer by `remaining_balance`",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/110",
+   "at": "2026-10-08T16:24:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "Horlars105",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $70] Validate `token_addr != env.current_contract_address()` in `create_stream`",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/109",
+   "at": "2026-10-08T16:24:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Genesis000001",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/108",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $55] Document and guard the zero `rate_per_second` when the deposit is under the duration",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/108",
+   "at": "2026-10-08T16:24:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "FreshTVMax",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $45] Add `concurrency` cancellation to the CI workflow",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/107",
+   "at": "2026-10-08T16:24:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Chekuyermu",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $50] Pin GitHub Actions to commit SHAs in the CI workflow",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/106",
+   "at": "2026-10-08T16:24:38Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Ceepr1an",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $40] Add least-privilege `permissions` to the CI workflow",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/105",
+   "at": "2026-10-08T16:24:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 40,
+    "author": "Bossjhay813",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $65] Test contract token-balance invariants across the lifecycle",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/104",
+   "at": "2026-10-08T16:24:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Bezzy2105",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $70] Test that withdrawals are bounded by elapsed time (anti-drain)",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/103",
+   "at": "2026-10-08T16:24:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Bashman10",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Perenna-Labs/perenna-contracts: [Bounty: $65] Test the `cancelable = false` lifecycle end-to-end",
+   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/102",
+   "at": "2026-10-08T16:24:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Adunola022",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Nudge-Pay/nudge-server/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Nudge-Pay/nudge-server: [Bounty: $60] Cover the user-sync failure path in `SupabaseStrategy.validate`",
+   "url": "https://github.com/Nudge-Pay/nudge-server/issues/107",
+   "at": "2026-10-08T16:24:30Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Awesome254",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Nudge-Pay/nudge-server/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Nudge-Pay/nudge-server: [Bounty: $60] Add algorithm and clock-tolerance tests for `SupabaseService.verifyToken`",
+   "url": "https://github.com/Nudge-Pay/nudge-server/issues/106",
+   "at": "2026-10-08T16:24:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Abu0001-b",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Nudge-Pay/nudge-server/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Nudge-Pay/nudge-server: [Bounty: $45] Add a test that `test/env.setup.ts` defaults every required variable",
+   "url": "https://github.com/Nudge-Pay/nudge-server/issues/105",
+   "at": "2026-10-08T16:24:27Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Abdulrahman654",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Nudge-Pay/nudge-server/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Nudge-Pay/nudge-server: [Bounty: $85] Add e2e coverage for `POST /v1/webauthn/register/verify`",
+   "url": "https://github.com/Nudge-Pay/nudge-server/issues/104",
+   "at": "2026-10-08T16:24:25Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Abbyhay",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Nudge-Pay/nudge-server/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Nudge-Pay/nudge-server: [Bounty: $65] Add validation tests for the WebAuthn DTO set",
+   "url": "https://github.com/Nudge-Pay/nudge-server/issues/103",
+   "at": "2026-10-08T16:24:24Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "AKAEMM668",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Nudge-Pay/nudge-server/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Nudge-Pay/nudge-server: [Bounty: $70] Add DTO validation tests for `CreatePaymentRequestDto`",
+   "url": "https://github.com/Nudge-Pay/nudge-server/issues/102",
+   "at": "2026-10-08T16:24:22Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "0yOla",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/111",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $60] Document how to regenerate `test_snapshots/`",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/111",
+   "at": "2026-10-08T16:24:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "WALEY-OPS",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/110",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $65] Document the silent quota failure in the architecture state notes",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/110",
+   "at": "2026-10-08T16:24:19Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Victoro001-tech",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $45] Fix the stale issue-number range in `docs/architecture.md`",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/109",
+   "at": "2026-10-08T16:24:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Xhaka00",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/108",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $65] Preserve the Explore query when switching tabs",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/108",
+   "at": "2026-10-08T16:24:15Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "meek-codex",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $75] Sync the Explore search box with the `?q=` URL parameter",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/107",
+   "at": "2026-10-08T16:24:14Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "emmixeryng",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $70] Add a CI check that `engines`, `.nvmrc` and `setup-node` agree",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/106",
+   "at": "2026-10-08T16:24:12Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Luna-netty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $85] Add a secret-scanning job to `ci.yml`",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/105",
+   "at": "2026-10-08T16:24:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "KunmiWrites-bit",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $65] Add a `merge_group` trigger to `ci.yml`",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/104",
+   "at": "2026-10-08T16:24:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Adunola022",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Escaro-Labs/escaro/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Escaro-Labs/escaro: [Bounty: $55] Upload the built escrow wasm as a CI artifact",
+   "url": "https://github.com/Escaro-Labs/escaro/issues/103",
+   "at": "2026-10-08T16:24:07Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Xhaka00",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/110",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $80] Return typed errors from `VerifyTotpChallenge`",
+   "url": "https://github.com/Custos-Labs/custos/issues/110",
+   "at": "2026-10-08T16:24:03Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "KunmiWrites-bit",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/109",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $75] Wire an `mfaChecker` into the login flow",
+   "url": "https://github.com/Custos-Labs/custos/issues/109",
+   "at": "2026-10-08T16:24:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "WALEY-OPS",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/108",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $85] Honour the `disabled` enforcement level in the challenge path",
+   "url": "https://github.com/Custos-Labs/custos/issues/108",
+   "at": "2026-10-08T16:24:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "meek-codex",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $75] Pin third-party GitHub Actions to commit SHAs",
+   "url": "https://github.com/Custos-Labs/custos/issues/107",
+   "at": "2026-10-08T16:23:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "emmixeryng",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $60] Add least-privilege `permissions:` to `ci.yml`",
+   "url": "https://github.com/Custos-Labs/custos/issues/106",
+   "at": "2026-10-08T16:23:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Victoro001-tech",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $60] Cover the integration test helpers",
+   "url": "https://github.com/Custos-Labs/custos/issues/105",
+   "at": "2026-10-08T16:23:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Luna-netty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $55] Test that the repository benchmark honours its env knobs",
+   "url": "https://github.com/Custos-Labs/custos/issues/104",
+   "at": "2026-10-08T16:23:53Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Adunola022",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $60] Test the shared HTTP error helpers",
+   "url": "https://github.com/Custos-Labs/custos/issues/103",
+   "at": "2026-10-08T16:23:51Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 60,
+    "author": "Xhaka00",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Custos-Labs/custos/issues/102",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Custos-Labs/custos: [Bounty: $70] Test the anchoring operator CLI",
+   "url": "https://github.com/Custos-Labs/custos/issues/102",
+   "at": "2026-10-08T16:23:50Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "WALEY-OPS",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Augora-Labs/augora-contracts/issues/107",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Augora-Labs/augora-contracts: [Bounty: $70] Guard and TTL-refresh the referrer lookup inside referral_registry::credit",
+   "url": "https://github.com/Augora-Labs/augora-contracts/issues/107",
+   "at": "2026-10-08T16:23:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Victoro001-tech",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Augora-Labs/augora-contracts/issues/106",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Augora-Labs/augora-contracts: [Bounty: $75] Fix the off-by-one referral depth limit in referral_registry::register_referral",
+   "url": "https://github.com/Augora-Labs/augora-contracts/issues/106",
+   "at": "2026-10-08T16:23:47Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "KunmiWrites-bit",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Augora-Labs/augora-contracts/issues/105",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Augora-Labs/augora-contracts: [Bounty: $65] Emit events for resolver, fee-recipient and governor changes",
+   "url": "https://github.com/Augora-Labs/augora-contracts/issues/105",
+   "at": "2026-10-08T16:23:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Xhaka00",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Augora-Labs/augora-contracts/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Augora-Labs/augora-contracts: [Bounty: $95] Clear ZeroSideDisputeActive in prediction_market::freeze_market",
+   "url": "https://github.com/Augora-Labs/augora-contracts/issues/104",
+   "at": "2026-10-08T16:23:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 95,
+    "author": "WALEY-OPS",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59894",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59894 [aw] Matt Pocock Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59894",
+   "at": "2026-10-08T16:23:19Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59892",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59892 [aw] Tenstorrent Skills Reviewer failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59892",
+   "at": "2026-10-08T16:22:43Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59891",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59891 Investigate using narrow-row pack-untilize on Quasar",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59891",
+   "at": "2026-10-08T16:14:49Z",
+   "extra": {
+    "author": "bbradelTT",
+    "labels": [
+     "op_cat: mm"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/0d8d07ef6128581c148f6ef8a4d562a83aff3bd3",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] Perf merge gate: balance the legs, and gate each arch on its own legs (#59686)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/0d8d07ef6128581c148f6ef8a4d562a83aff3bd3",
+   "at": "2026-10-08T15:43:37Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/run_llk_perf_blackhole.sh",
+     "tt_metal/tt-llk/tests/run_llk_perf_wormhole.sh"
+    ],
+    "added": [],
+    "author": "nstojicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59886",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59886 [aw] `/test` \u2014 CI pipeline selector for tt-metal failed",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59886",
+   "at": "2026-10-08T15:28:28Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/5e76c252b2ebd7f3a8802f867cd87411f1268d85",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] softmax: accumulate the SUM reduce in fp32 regardless of input dtype (#53643)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/5e76c252b2ebd7f3a8802f867cd87411f1268d85",
+   "at": "2026-10-08T15:23:22Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/normalization/softmax/device/softmax_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/softmax/device/softmax_program_factory_attention_optimized.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/softmax/docs/Softmax.md"
+    ],
+    "added": [],
+    "author": "kinginu"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59732",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#59732 [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
+   "at": "2026-10-08T15:20:36Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "jberkowitzTT",
+    "assignees": [
+     "samiyadev786"
+    ],
+    "created": "2026-10-07T21:34:17Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/b06146bfb0cb217fd004ccabb42f56315f3edfe9",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Cleanup] LLK pack: drop dead channel-1 dest counter updates (#59512)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/b06146bfb0cb217fd004ccabb42f56315f3edfe9",
+   "at": "2026-10-08T15:15:00Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/inc/api/compute/experimental/sdpa_weighted_reduce.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cpack_common.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_pack.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_pack.h"
+    ],
+    "added": [],
+    "author": "lpremovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59874",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59874 API for >, <= mask generation",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59874",
+   "at": "2026-10-08T14:50:38Z",
+   "extra": {
+    "author": "nathan-TT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/236f9c58a1305bcaaa25b5a5290ce2c0fcdf2e4f",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] BH LLK: set_packer_strides owns packer ch1 Y stride; drop no-op fast-(un)tilize uninit writes (#59486)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/236f9c58a1305bcaaa25b5a5290ce2c0fcdf2e4f",
+   "at": "2026-10-08T14:41:51Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_pack_fast_untilize_api.h",
+     "tt_metal/hw/inc/api/compute/experimental/fast_untilize.h",
+     "tt_metal/tt-llk/.claude/references/common-errors.md",
+     "tt_metal/tt-llk/tests/sources/fast_untilize_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cpack_common.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_fast_tilize.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_fast_untilize.h",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_pack_fast_untilize.h"
+    ],
+    "added": [],
+    "author": "lpremovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59857",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59857 Heavyweight golden: inheritance vs. composition for per-architecture variation",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59857",
+   "at": "2026-10-08T14:21:58Z",
+   "extra": {
+    "author": "uvelimirovicTT",
+    "labels": [
+     "feature"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/5171fe75f476164e3768a365d58e69e9acdf6a8d",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "Remove direct load/store builtin use (#59472)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/5171fe75f476164e3768a365d58e69e9acdf6a8d",
+   "at": "2026-10-08T14:07:46Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_typecast.h"
+    ],
+    "added": [],
+    "author": "nathan-TT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59851",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59851 [gemma4_d_p] Find the smallest chunk size with high matmul utilization",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59851",
+   "at": "2026-10-08T13:10:08Z",
+   "extra": {
+    "author": "svuckovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59849",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59849 [ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59849",
+   "at": "2026-10-08T12:55:37Z",
+   "extra": {
+    "author": "warneat",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59848",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59848 [ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59848",
+   "at": "2026-10-08T12:53:29Z",
+   "extra": {
+    "author": "warneat",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59847",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59847 [ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59847",
+   "at": "2026-10-08T12:50:51Z",
+   "extra": {
+    "author": "warneat",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59846",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59846 [gemma4_d_p] Sweep SDPA util% across small chunk sizes",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59846",
+   "at": "2026-10-08T12:45:20Z",
+   "extra": {
+    "author": "svuckovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59844",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59844 [sfpi-gcc] Make sure enough cycles pass between a NOC write-flush barrier and the next L1 store (WH/BH source-buffer reuse race)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59844",
+   "at": "2026-10-08T12:41:09Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59843",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59843 [LLK][Perf Infra] Bugs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59843",
+   "at": "2026-10-08T12:40:25Z",
+   "extra": {
+    "author": "skrsmanovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59842",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59842 [LLK][Perf Infra] Improvements/Features",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59842",
+   "at": "2026-10-08T12:37:18Z",
+   "extra": {
+    "author": "skrsmanovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59840",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59840 [LLK][Perf Infra] CI Gates",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59840",
+   "at": "2026-10-08T12:28:03Z",
+   "extra": {
+    "author": "skrsmanovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59839",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59839 [LLK][Perf Infra] Reliability",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59839",
+   "at": "2026-10-08T12:26:10Z",
+   "extra": {
+    "author": "skrsmanovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59837",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59837 [LLK][Perf Infra] Stability",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59837",
+   "at": "2026-10-08T12:24:44Z",
+   "extra": {
+    "author": "skrsmanovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/0efb8a61be8d590b117aed6228b2fcde7f67ac5c",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK][BH+WH] Fix FP32 dest-acc handshake ordering: drain before release (#55807)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/0efb8a61be8d590b117aed6228b2fcde7f67ac5c",
+   "at": "2026-10-08T12:23:19Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/inc/api/compute/compute_kernel_hw_startup.h",
+     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_cfg_occupancy.py",
+     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_release_order.py",
+     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_cfg_occupancy_test.cpp",
+     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_release_order_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_fp32_dest_acc.h",
+     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_fp32_dest_acc.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_cfg_occupancy.py",
+     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_release_order.py",
+     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_cfg_occupancy_test.cpp",
+     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_release_order_test.cpp"
+    ],
+    "author": "amahmudTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59836",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59836 [Quasar] Compiler must insert spacing after RoCC address-generator instructions",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59836",
+   "at": "2026-10-08T12:18:06Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "data_movement",
+     "sfpi",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59831",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59831 LLK: cross-arch BH/QSR sweep comparer and perf accounting",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59831",
+   "at": "2026-10-08T12:06:01Z",
+   "extra": {
+    "author": "ndivnicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59829",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59829 layer_norm / rms_norm (sharded): residual_input_tensor with a different dtype than the input gives wrong results",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59829",
+   "at": "2026-10-08T11:58:27Z",
+   "extra": {
+    "author": "warneat",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59828",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59828 matmul: fp32 accumulation error grows with K in the reuse, DRAM-sharded and batched DRAM-sharded factories (partials reloaded through SrcA)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59828",
+   "at": "2026-10-08T11:58:15Z",
+   "extra": {
+    "author": "warneat",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/2c6d4cebdfebd40bc5326212c0a1a0fe39bccc4b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[fuser] fix Quasar fuser fidelity validation and unpacker configuration (#59820)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/2c6d4cebdfebd40bc5326212c0a1a0fe39bccc4b",
+   "at": "2026-10-08T11:44:47Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/unpacker/common.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/config_parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/common.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/matmul.py",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_1x1.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_bias.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_bn.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_pack_relu.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_residual.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_silu.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_two_stage.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_elwmul.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_matmul.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_column.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_row.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_row_to_tile.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_scalar.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_chunked_receiver.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_sharded_v2.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_sharded_v2_receiver.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_tiled_sender.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/hifi_elwmul_overwrite.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/layernorm_sharded.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/layernorm_sharded_two_stage.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_bias_relu.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_bn_relu.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_bottleneck.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_dest_acc.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_matmul_packer.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_residual_relu.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/eltwise_broadcast.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/fpu_matmul_32x16_16x32.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/matmul_pack.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/maxpool_col_tilize.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/reduce_col_tilize.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sdpa_inner_loop.yaml",
+     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/unpacker/common.py"
+    ],
+    "added": [],
+    "author": "markoradosavljevicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59825",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59825 moreh_layer_norm_backward / moreh_group_norm_backward: dgamma/dbeta accumulate through bf16 buffers and saturate at ~256 (2x wrong gamma/beta gradients on ordinary training shapes)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59825",
+   "at": "2026-10-08T11:16:12Z",
+   "extra": {
+    "author": "archiforge",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59824",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59824 ttnn.update_cache silently writes out-of-bounds pages past the cache buffer when num_users > 32 and not a multiple of 32 (e.g. 48)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59824",
+   "at": "2026-10-08T11:16:00Z",
+   "extra": {
+    "author": "archiforge",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59823",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59823 tt-llk: test the K=1024 column rebuild of topk_xl (_topk_xl_rebuild_columns_)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59823",
+   "at": "2026-10-08T10:25:38Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59821",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59821 LLK: run the hardware free perf counter tests outside the PR gate smoke jobs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59821",
+   "at": "2026-10-08T09:46:50Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59818",
    "source": "tenstorrent",
@@ -17,20 +1936,6 @@
    }
   },
   {
-   "id": "https://github.com/liren001/eth-legion-nexus/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "liren001/eth-legion-nexus: [BOUNTY-001] $200 Sequential Draw Structure Hunt \u2014 agents wanted",
-   "url": "https://github.com/liren001/eth-legion-nexus/issues/2",
-   "at": "2026-10-08T09:08:26Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 200,
-    "author": "liren001",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59817",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -40,22 +1945,6 @@
    "extra": {
     "author": "vvukomanovicTT",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/unicitynetwork/unicity-bridge/issues/20",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "unicitynetwork/unicity-bridge: Vault: late fee becomes a bounty for msg.sender, a ~1-day default deadline, and cheap checks before the proof",
-   "url": "https://github.com/unicitynetwork/unicity-bridge/issues/20",
-   "at": "2026-10-08T08:42:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ristik",
-    "labels": [
-     "enhancement"
-    ]
    }
   },
   {
@@ -385,20 +2274,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59732",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#59732 [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
-   "at": "2026-10-08T07:36:23Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [],
-    "created": "2026-10-07T21:34:17Z"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -431,22 +2306,6 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/91",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-08: 0 new, 0 resumed, 3 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/91",
-   "at": "2026-10-08T06:08:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/9057a06e9611e76c5728d9d6a5336137df8c590f",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -463,48 +2322,6 @@
     ],
     "added": [],
     "author": "Aswinmcw"
-   }
-  },
-  {
-   "id": "https://github.com/GabrielGLevine/wandering-inn-rpg/issues/596",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "GabrielGLevine/wandering-inn-rpg: Bounty turn-in: 'Earned N gold' toast never draws (pays before the receipt opens)",
-   "url": "https://github.com/GabrielGLevine/wandering-inn-rpg/issues/596",
-   "at": "2026-10-08T04:25:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "GabrielGLevine",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/bschick/qcrypt/issues/94",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "bschick/qcrypt: Bounty program clarification: autonomous AI and offline validation",
-   "url": "https://github.com/bschick/qcrypt/issues/94",
-   "at": "2026-10-08T04:19:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "davtx82",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: Bolt survey 3 \u2014 native MCP adapter for a locally approved bounty wallet",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/4",
-   "at": "2026-10-08T03:52:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
    }
   },
   {
@@ -604,34 +2421,6 @@
    }
   },
   {
-   "id": "https://github.com/aibtcdev/landing-page/issues/1107",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "aibtcdev/landing-page: Bounty payout verification rejects sBTC transfers routed through a contract",
-   "url": "https://github.com/aibtcdev/landing-page/issues/1107",
-   "at": "2026-10-08T02:20:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ronoel",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/maxfain/basedagents/issues/185",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "maxfain/basedagents: Abuse: 8 \"Industrial Sentinel\" accounts posting unfunded $2 bounties and pay-to-earn tasks",
-   "url": "https://github.com/maxfain/basedagents/issues/185",
-   "at": "2026-10-08T02:01:32Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 2,
-    "author": "tshyshko",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59758",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -653,7 +2442,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1836",
    "at": "2026-10-08T01:05:18Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 3000,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -693,20 +2482,6 @@
    }
   },
   {
-   "id": "https://github.com/verdikta/verdikta-applications/issues/68",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "verdikta/verdikta-applications: Implement fail-closed Zealy campaign verification for Bounties",
-   "url": "https://github.com/verdikta/verdikta-applications/issues/68",
-   "at": "2026-10-07T23:59:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "nigelon11",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59747",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -725,22 +2500,6 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/90",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-07: 0 new, 0 resumed, 6 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/90",
-   "at": "2026-10-07T23:11:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59738",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -749,1168 +2508,6 @@
    "at": "2026-10-07T22:56:11Z",
    "extra": {
     "author": "sjettTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $50] Add a `CHANGELOG.md` for the contract redeploy",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/109",
-   "at": "2026-10-07T22:10:20Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 50,
-    "author": "faithylet",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $90] Correct the README stepper vs `TxModal` STEPS",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/108",
-   "at": "2026-10-07T22:10:18Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 90,
-    "author": "emmixeryng",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $60] Add `/api/rpc` to the README Key Files table",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/107",
-   "at": "2026-10-07T22:10:16Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 60,
-    "author": "cythecode",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $70] Enforce TESTNET on the auto-connect path in `useWallet`",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/106",
-   "at": "2026-10-07T22:10:14Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 70,
-    "author": "belloaliyu11",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $50] Stop `formatXlm` rounding balances to 4 decimals",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/105",
-   "at": "2026-10-07T22:10:12Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "alimillz30",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $55] Fix the Max button using `Number(balance)` and losing precision",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/104",
-   "at": "2026-10-07T22:10:10Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 55,
-    "author": "alhajimoh7",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $85] Add a CI job that fails on `console.log` in `src/`",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/103",
-   "at": "2026-10-07T22:10:08Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 85,
-    "author": "ahmedkabeer930-rgb",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $80] Fail CI on committed `RELAYER_SECRET` values",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/102",
-   "at": "2026-10-07T22:10:07Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 80,
-    "author": "Xhaka00",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/zstellar-labs/zstellar/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zstellar-labs/zstellar: [Bounty: $60] Add a frozen-lockfile install check",
-   "url": "https://github.com/zstellar-labs/zstellar/issues/101",
-   "at": "2026-10-07T22:10:03Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 60,
-    "author": "Vraey-bit",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $70] Remove the duplicated getVouches implementation",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/109",
-   "at": "2026-10-07T22:09:59Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 70,
-    "author": "abdulwahabmonilola-ctrl",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $85] Make circom-to-soroban-hex parse a BLS12-381 verifying key",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/108",
-   "at": "2026-10-07T22:09:54Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "abdul-tech-dev",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $50] Handle Turnstile siteverify failures without throwing a 500",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/107",
-   "at": "2026-10-07T22:09:48Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "WEALTH220",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $70] Add the missing lint script and wire it into the turbo pipeline",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/106",
-   "at": "2026-10-07T22:09:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "WALEY-OPS",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $90] Add a CI job that typechecks the Nuxt app",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/105",
-   "at": "2026-10-07T22:09:43Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 90,
-    "author": "Victoro001-tech",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $95] Add a CI job that builds and tests the Soroban contracts",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/104",
-   "at": "2026-10-07T22:09:38Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 95,
-    "author": "Timmmytunner",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $90] Add a GitHub Actions workflow that runs the circuits Vitest suite",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/103",
-   "at": "2026-10-07T22:09:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "Theonlyayodeji",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $40] Add a test that hashToField returns a value below the field prime",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/102",
-   "at": "2026-10-07T22:09:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "THMSLACER",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/vouchlabsio/humanvouch/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "vouchlabsio/humanvouch: [Bounty: $45] Cover buildTree with a non-default depth in merkleTree.test.js",
-   "url": "https://github.com/vouchlabsio/humanvouch/issues/101",
-   "at": "2026-10-07T22:09:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 45,
-    "author": "Promessa1",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/visionme-studio/visionme-stellar/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "visionme-studio/visionme-stellar: [Bounty: $65] Add tests for the `usePockets` client hook",
-   "url": "https://github.com/visionme-studio/visionme-stellar/issues/106",
-   "at": "2026-10-07T22:09:27Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 65,
-    "author": "Sophtassilk",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/visionme-studio/visionme-stellar/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "visionme-studio/visionme-stellar: [Bounty: $60] Add tests for the `useStellarAccount` Horizon hook",
-   "url": "https://github.com/visionme-studio/visionme-stellar/issues/105",
-   "at": "2026-10-07T22:09:23Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Sky4561",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/visionme-studio/visionme-stellar/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "visionme-studio/visionme-stellar: [Bounty: $75] Add unit tests for `getConfig` defaults in `apps/web/lib/config.ts`",
-   "url": "https://github.com/visionme-studio/visionme-stellar/issues/104",
-   "at": "2026-10-07T22:09:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "Sheriff258",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/visionme-studio/visionme-stellar/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "visionme-studio/visionme-stellar: [Bounty: $85] Add route tests for `POST /api/auth/callback` and `GET /api/auth/user`",
-   "url": "https://github.com/visionme-studio/visionme-stellar/issues/103",
-   "at": "2026-10-07T22:09:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "Senatormike001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/visionme-studio/visionme-stellar/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "visionme-studio/visionme-stellar: [Bounty: $60] Add unit tests for `sbtService` once minting is implemented",
-   "url": "https://github.com/visionme-studio/visionme-stellar/issues/102",
-   "at": "2026-10-07T22:09:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Omoniyi6396",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/visionme-studio/visionme-stellar/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "visionme-studio/visionme-stellar: [Bounty: $65] Add unit tests for `streakService.getStreak` and `isSBTEligible`",
-   "url": "https://github.com/visionme-studio/visionme-stellar/issues/101",
-   "at": "2026-10-07T22:09:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Muhd010",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $65] Replace the `any` annotations in `src/lib/project.ts` with real types",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/109",
-   "at": "2026-10-07T22:09:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Plutoboi00",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $40] Update the stale promise in `openspec/changes/README.md`",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/108",
-   "at": "2026-10-07T22:09:13Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 40,
-    "author": "Onis2254",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $40] Document the real quality gate and build output in `README.md`",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/107",
-   "at": "2026-10-07T22:09:11Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 40,
-    "author": "Olayinka93",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $65] Remove the non-null assertion on `returnValue` in `server/_lib/deploy.ts`",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/106",
-   "at": "2026-10-07T22:09:08Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 65,
-    "author": "Obaara293",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $90] Resume the shared-project clone after email-OTP sign-in",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/105",
-   "at": "2026-10-07T22:09:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "Nwapu-TrustJah",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $90] Stop returning raw Supabase error messages from the API",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/104",
-   "at": "2026-10-07T22:09:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "Musharrof10",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $90] Add a client-bundle size budget check to CI",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/103",
-   "at": "2026-10-07T22:09:01Z",
-   "extra": {
-    "comments": 4,
-    "amount_usd": 90,
-    "author": "Modmart520",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $65] Add a CI check that `env.example` contains no real secret values",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/102",
-   "at": "2026-10-07T22:08:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Mayor-Isaac",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellita-labs/stellita-app/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellita-labs/stellita-app: [Bounty: $60] Add a CI check that blocks `as any` and `console.*` regressions",
-   "url": "https://github.com/stellita-labs/stellita-app/issues/101",
-   "at": "2026-10-07T22:08:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "KunmiWrites-bit",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $100] Remove the production CORS wildcard in `backend/server.js`",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/109",
-   "at": "2026-10-07T22:08:55Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 100,
-    "author": "Martins-594",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $95] Stop trusting client-supplied scores and coins in `/api/matches/save`",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/108",
-   "at": "2026-10-07T22:08:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 95,
-    "author": "Marshaltechnology",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $90] Add ownership verification to `PUT /api/users/profile/:address`",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/107",
-   "at": "2026-10-07T22:08:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "MRTEEworld02",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $40] Add `cargo fmt --check` to CI",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/106",
-   "at": "2026-10-07T22:08:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "Luna-netty",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $50] Add `timeout-minutes` to every CI job and step",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/105",
-   "at": "2026-10-07T22:08:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Jiddah16",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $45] Add `concurrency` cancellation to the CI workflow",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/104",
-   "at": "2026-10-07T22:08:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "Jayjay-eng725",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $40] Add least-privilege `permissions` to the CI workflow",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/103",
-   "at": "2026-10-07T22:08:39Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "Izzyabbey2020",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $85] Add an integration test that the mint flow persists ship metadata",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/102",
-   "at": "2026-10-07T22:08:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "Ishola001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellarspace-hq/space-stellar/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellarspace-hq/space-stellar: [Bounty: $95] Add tests for the duplicate `contracts/src/lib.rs` contract",
-   "url": "https://github.com/stellarspace-hq/space-stellar/issues/101",
-   "at": "2026-10-07T22:08:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 95,
-    "author": "Ghostcecode",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellar-brew/stellar-tea/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellar-brew/stellar-tea: [Bounty: $45] Add tests for `buildFlavorTemplate` and flavour lookup helpers",
-   "url": "https://github.com/stellar-brew/stellar-tea/issues/106",
-   "at": "2026-10-07T22:08:33Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 45,
-    "author": "Hu-ter",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellar-brew/stellar-tea/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellar-brew/stellar-tea: [Bounty: $60] Add tests for `buildTeaMetadata`, `toIpfsUri` and `resolveManifestUrl`",
-   "url": "https://github.com/stellar-brew/stellar-tea/issues/105",
-   "at": "2026-10-07T22:08:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Horpeyehmi",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellar-brew/stellar-tea/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellar-brew/stellar-tea: [Bounty: $80] Add unit tests for `parseAmountToI128` and `formatTokenAmount`",
-   "url": "https://github.com/stellar-brew/stellar-tea/issues/104",
-   "at": "2026-10-07T22:08:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "Horlars105",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellar-brew/stellar-tea/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellar-brew/stellar-tea: [Bounty: $95] Add a test suite for the swap contract",
-   "url": "https://github.com/stellar-brew/stellar-tea/issues/103",
-   "at": "2026-10-07T22:08:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 95,
-    "author": "Halimatyemisi",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellar-brew/stellar-tea/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellar-brew/stellar-tea: [Bounty: $55] Add tests for the event lifecycle guards in `contracts/game/src/events.rs`",
-   "url": "https://github.com/stellar-brew/stellar-tea/issues/102",
-   "at": "2026-10-07T22:08:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "Genesis000001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/stellar-brew/stellar-tea/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "stellar-brew/stellar-tea: [Bounty: $60] Add tests for listing storage in `contracts/game/src/marketplace.rs`",
-   "url": "https://github.com/stellar-brew/stellar-tea/issues/101",
-   "at": "2026-10-07T22:08:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "FreshTVMax",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $55] Document the Dockerfile's toolchain versions and image rebuild procedure",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/109",
-   "at": "2026-10-07T22:08:23Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "Gentle842",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $55] Replace the unverified keyboard-shortcut table with the real bindings",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/108",
-   "at": "2026-10-07T22:08:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "Fakindel",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $50] Document how to run lint and build locally",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/107",
-   "at": "2026-10-07T22:08:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Evaristus023",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $75] Replace the `Math.random()` salt in `lib/wallet-deploy.ts` with a cryptographic one",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/106",
-   "at": "2026-10-07T22:08:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "Emprazzo01",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $75] Stop swallowing terminal `FAILED` transaction statuses in `lib/wallet-deploy.ts`",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/105",
-   "at": "2026-10-07T22:08:08Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 75,
-    "author": "Emmajay12",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $70] Quote every container file path used in `docker exec`",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/104",
-   "at": "2026-10-07T22:08:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Dhivine-stack",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $80] Stop returning raw exception text from the Docker API route",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/103",
-   "at": "2026-10-07T22:08:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "Dboy-202",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $50] Add a `CODEOWNERS` file and a documented required-check policy",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/102",
-   "at": "2026-10-07T22:08:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Chummy-debug",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sorobanide-studio/stellar-ide/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sorobanide-studio/stellar-ide: [Bounty: $60] Fail CI when `next build` emits warnings or fails",
-   "url": "https://github.com/sorobanide-studio/stellar-ide/issues/101",
-   "at": "2026-10-07T22:07:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "BigHost3",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $75] Fix 4P quote margin rounding exposing a rate mismatch",
-   "url": "https://github.com/slippay-labs/slippay/issues/109",
-   "at": "2026-10-07T22:07:57Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 75,
-    "author": "Davichi-1",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $60] Return the right status for `ramp_disabled` vs upstream 4P errors",
-   "url": "https://github.com/slippay-labs/slippay/issues/108",
-   "at": "2026-10-07T22:07:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Chekuyermu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $90] Bound the in-memory rate-limiter bucket map growth",
-   "url": "https://github.com/slippay-labs/slippay/issues/107",
-   "at": "2026-10-07T22:07:50Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "Ceepr1an",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $60] Remove the `||` fallback that masks Deno test failures",
-   "url": "https://github.com/slippay-labs/slippay/issues/106",
-   "at": "2026-10-07T22:07:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Calebstack",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $45] Pin GitHub Actions to commit SHAs in the test workflow",
-   "url": "https://github.com/slippay-labs/slippay/issues/105",
-   "at": "2026-10-07T22:07:46Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "Bouynaty",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $40] Add least-privilege `permissions` to the test workflow",
-   "url": "https://github.com/slippay-labs/slippay/issues/104",
-   "at": "2026-10-07T22:07:44Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "Bossjhay813",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $80] Add widget tests for the Flutter money and checkout screens",
-   "url": "https://github.com/slippay-labs/slippay/issues/103",
-   "at": "2026-10-07T22:07:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "Bigtura",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $80] Add unit tests for the Shopify connector HMAC verification",
-   "url": "https://github.com/slippay-labs/slippay/issues/102",
-   "at": "2026-10-07T22:07:39Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "Bezzy2105",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/slippay-labs/slippay/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "slippay-labs/slippay: [Bounty: $45] Add tests for `packages/shared` `NETWORK` and fee constants",
-   "url": "https://github.com/slippay-labs/slippay/issues/101",
-   "at": "2026-10-07T22:07:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "Bashman10",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-mcp: [Bounty: $75] Add unit tests for `src/plugins/utilities/utilities.service.ts`",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/106",
-   "at": "2026-10-07T22:07:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "Babalola29",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-mcp: [Bounty: $75] Add unit tests for `src/clients/NFTContractClient.ts`",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/105",
-   "at": "2026-10-07T22:07:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "BIGSMKE12",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-mcp: [Bounty: $70] Add unit tests for `src/clients/GovernanceFactoryClient.ts`",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/104",
-   "at": "2026-10-07T22:07:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Ayomide3271",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-mcp: [Bounty: $65] Add round-trip tests for `formatTokenAmount` and `parseTokenAmount`",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/103",
-   "at": "2026-10-07T22:07:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Awesome254",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-mcp: [Bounty: $60] Add unit tests for `src/utils/builders.ts` config builders",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/102",
-   "at": "2026-10-07T22:07:29Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Amgold19",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-mcp: [Bounty: $60] Add unit tests for `src/utils/serialization.ts` `serializeBigInt`",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/101",
-   "at": "2026-10-07T22:07:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Aisha-hub11",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $55] Remove the \"Welcome to your app!\" template copy from the UI",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/110",
-   "at": "2026-10-07T22:07:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "Adunola022",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $40] Correct the clone URL and repository identity in the README",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/109",
-   "at": "2026-10-07T22:07:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "Abu0001-b",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $50] Stop claiming comprehensive test coverage in the README",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/108",
-   "at": "2026-10-07T22:07:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Abdulrahman654",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $75] Pin all GitHub Actions to commit SHAs",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/107",
-   "at": "2026-10-07T22:07:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "Abdul0905",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $75] Pin `stellar/quickstart@main` to a commit SHA",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/106",
-   "at": "2026-10-07T22:07:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "Abbyhay",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $55] Add an explicit `permissions` block to the workflow",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/105",
-   "at": "2026-10-07T22:07:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "Abayomi-fx",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $65] Stop `TypedStorage.clear()` from wiping the whole origin's localStorage",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/104",
-   "at": "2026-10-07T22:07:10Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 65,
-    "author": "AKAEMM668",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $65] Clear all wallet storage keys on disconnect",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/103",
-   "at": "2026-10-07T22:07:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "0yOla",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "scaffold-studio-hq/scaffold-studio-contracts: [Bounty: $70] Stop `convertObjectToMap` coercing every value to a boolean",
-   "url": "https://github.com/scaffold-studio-hq/scaffold-studio-contracts/issues/102",
-   "at": "2026-10-07T22:07:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Xhaka00",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sampled-labs/sampled/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sampled-labs/sampled: [Bounty: $75] Filter `MarketPlace` results by the `:id` route param",
-   "url": "https://github.com/sampled-labs/sampled/issues/110",
-   "at": "2026-10-07T22:07:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "KunmiWrites-bit",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/sampled-labs/sampled/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "sampled-labs/sampled: [Bounty: $75] Replace the client-side `hasPurchased` scan in `PurchaseSampleTab.tsx`",
-   "url": "https://github.com/sampled-labs/sampled/issues/109",
-   "at": "2026-10-07T22:06:59Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "emmixeryng",
     "labels": []
    }
   },
@@ -1952,7 +2549,7 @@
    "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
    "at": "2026-10-07T21:34:17Z",
    "extra": {
-    "comments": 9,
+    "comments": 2,
     "amount_usd": 3000,
     "author": "jberkowitzTT",
     "labels": [
@@ -2231,7 +2828,7 @@
    "url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/3",
    "at": "2026-10-07T18:03:49Z",
    "extra": {
-    "comments": 7,
+    "comments": 8,
     "amount_usd": null,
     "author": "TLS-sys",
     "labels": [
@@ -2423,160 +3020,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59675",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59675 Galaxy Bin6 CCL Op Tests",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59675",
-   "at": "2026-10-07T15:57:36Z",
-   "extra": {
-    "author": "amorrisonTT",
-    "labels": [
-     "GLX1-BH",
-     "galaxy-variant"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59674",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59674 P16/D16: MiniMax-M3 prefill implementation tracker (7 steps)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59674",
-   "at": "2026-10-07T15:54:47Z",
-   "extra": {
-    "author": "zhenghaoniTT",
-    "labels": [
-     "feature",
-     "prefill",
-     "parent-issue",
-     "GLX1-BH",
-     "minimax_m3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/c16029793e6365ba46b4bdce667121c4594d52b1",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Test Only] [LLK] Quasar: fix test drivers that fail to compile under\u2026 (#59644)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/c16029793e6365ba46b4bdce667121c4594d52b1",
-   "at": "2026-10-07T15:47:12Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_reuse_dest_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_sfpu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_sub_bcast_col_custom_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_broadcast_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_sfpu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/isolate_sfpu_add_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/isolate_sfpu_square_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/matmul_custom_no_mop_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/pack_l1_acc_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/reduce_block_max_row_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/reduce_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/semaphore_sync_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_add_parallel_matmul_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_exp_parallel_matmul_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_fill_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_max_pool_with_indices_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_reduce_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_square_trisc3_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_swiglu_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_topk_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_where_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/transpose_dest_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/unpack_reduce_col_tilizeA_strided_quasar_test.cpp"
-    ],
-    "added": [],
-    "author": "jajuTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59671",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59671 [tt-train] Add backward op for `ttnn.experimental.kda.qkv_causal_conv1d_silu`",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59671",
-   "at": "2026-10-07T15:28:06Z",
-   "extra": {
-    "author": "umalesTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59670",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59670 [tt-train] `rmsnorm_{fw,bw}` utilize only subset of core grid",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59670",
-   "at": "2026-10-07T15:25:16Z",
-   "extra": {
-    "author": "umalesTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59668",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59668 [tt-train] Skip gradient computation for frozen weights",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59668",
-   "at": "2026-10-07T15:21:54Z",
-   "extra": {
-    "author": "umalesTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/f478ed131636b89be4a59763e425086ee2c2a87d",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][BH+WH] Make mailbox_read wait for the message even when its value is unused (#59202)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/f478ed131636b89be4a59763e425086ee2c2a87d",
-   "at": "2026-10-07T15:16:53Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/test_mailbox_read_completion.py",
-     "tt_metal/tt-llk/tests/sources/mailbox_read_completion_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_debug.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_hw_cleanup.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/common/inc/ckernel_debug.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/test_mailbox_read_completion.py",
-     "tt_metal/tt-llk/tests/sources/mailbox_read_completion_test.cpp"
-    ],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59666",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59666 [tt-train] Add grouped gated RMSNorm kernel on head-merged activations",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59666",
-   "at": "2026-10-07T15:05:27Z",
-   "extra": {
-    "author": "umalesTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59665",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59665 [tt-train] Add backward op for `ttnn.transformer.chunk_gated_delta_rule`",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59665",
-   "at": "2026-10-07T15:00:23Z",
-   "extra": {
-    "author": "umalesTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -2584,7 +3027,7 @@
    "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286",
    "at": "2026-10-07T14:56:42Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": null,
     "author": "SPLURT-Station-Bot",
     "labels": [
@@ -2609,291 +3052,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59663",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59663 [Bug Report] Fused GELU from UnaryWithParam(UnaryOpType.GELU) with no parameter silently runs the approximate kernel",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59663",
-   "at": "2026-10-07T14:48:31Z",
-   "extra": {
-    "author": "roygindi2-design",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/88506badbf121f46c66dca8254c9d8507cb7eb36",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] Block STALLWAIT argument-role swaps and instruction-constant misuse (#59172)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/88506badbf121f46c66dca8254c9d8507cb7eb36",
-   "at": "2026-10-07T14:31:07Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/infra/check_instr_encoding_args.py",
-     "tt_metal/tt-llk/infra/tests/test_check_instr_encoding_args.py"
-    ],
-    "added": [
-     "tt_metal/tt-llk/infra/check_instr_encoding_args.py",
-     "tt_metal/tt-llk/infra/tests/test_check_instr_encoding_args.py"
-    ],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/a67d983f834adf528a317619a19679306e44b59b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Cleanup] Remove mid-kernel `compute_kernel_hw_startup` calls from matmul/fused/reduction kernels (#57495)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/a67d983f834adf528a317619a19679306e44b59b",
-   "at": "2026-10-07T13:16:37Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_compute_utils.h",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_large_tensor.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/kernels/compute/layernorm_sharded_pre_allgather.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/kernels/compute/layernorm_pre_allgather_2d.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/rmsnorm_distributed/device/kernels/compute/rmsnorm_pre_allgather_2d.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/moe/device/kernels/compute/moe.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/compute/sampling.cpp"
-    ],
-    "added": [],
-    "author": "ign-sudha"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/975294c4e5d1469ce38c53b9cb07bbefd9120dd6",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "feat: add alternative signbit algorithm that uses loadmacro (#59543)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/975294c4e5d1469ce38c53b9cb07bbefd9120dd6",
-   "at": "2026-10-07T12:28:15Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_signbit.h"
-    ],
-    "added": [],
-    "author": "fvranicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59647",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59647 [gemma4_d_p] Add perf gate test in CI",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59647",
-   "at": "2026-10-07T12:24:59Z",
-   "extra": {
-    "author": "svuckovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59645",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59645 ttnn trace replay overwrites device buffers allocated after the capture (MiniMax-H3 audio-decode trace corrupts later-allocated tensors)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59645",
-   "at": "2026-10-07T12:03:14Z",
-   "extra": {
-    "author": "rouzbehTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59643",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59643 [ttnn]: MemoryView.block_table always raises TypeError \u2014 missing nanobind unordered_map caster",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59643",
-   "at": "2026-10-07T11:50:41Z",
-   "extra": {
-    "author": "evalkov",
-    "labels": [
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/3ac370ef9b899035c291f8934af18aa158bfd116",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[fuser] Add TopK support (#58947)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/3ac370ef9b899035c291f8934af18aa158bfd116",
-   "at": "2026-10-07T11:47:50Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/topk.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/golden/sfpu/topk.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/operand.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/sfpu/topk.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/sentinel.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/sfpu_topk.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/validator.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/sfpu/topk.py"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/sfpu/topk.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/golden/sfpu/topk.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/sfpu/topk.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/sfpu_topk.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/sfpu/topk.py"
-    ],
-    "author": "markoradosavljevicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/85b33e83daf1156d3baf381e72cb8b11e620411a",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] UnaryWithParam JSON round trip, glu-family dim validation (#58102)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/85b33e83daf1156d3baf381e72cb8b11e620411a",
-   "at": "2026-10-07T11:11:56Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_op_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_composite_op.cpp"
-    ],
-    "added": [],
-    "author": "ijankowskiTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/b7c67b4b0bdcbd263b2c028420ab260ca6cc63d9",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK] [Test Only] SFPU ULP P6 \u2014 re-measure the enrolled ops over the whole format (#57235)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/b7c67b4b0bdcbd263b2c028420ab260ca6cc63d9",
-   "at": "2026-10-07T10:46:56Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/SFPU_ULP.md",
-     "tt_metal/tt-llk/tests/python_tests/helpers/llk_pytest_plugin.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_accuracy_budget.yaml",
-     "tt_metal/tt-llk/tests/python_tests/helpers/ulp.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/ulp_sweep.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/utils.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_accuracy_budget.py",
-     "tt_metal/tt-llk/tests/python_tests/test_sfpu_binop_scalar.py",
-     "tt_metal/tt-llk/tests/python_tests/test_ulp_sweep.py"
-    ],
-    "added": [],
-    "author": "ldjurovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/413eb097af506660f2e8ef835eb76f7e13da7c31",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Speed up Quasar LLK test compilation (#59022)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/413eb097af506660f2e8ef835eb76f7e13da7c31",
-   "at": "2026-10-07T10:16:45Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/fuser/config_parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/fuser_config.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/kernel_generator.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/pytest_plugin.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/llk_pytest_plugin.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py",
-     "tt_metal/tt-llk/tests/python_tests/perf_fused.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_fused_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_sub_bcast_col_custom_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_unary_datacopy_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_fused_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_matmul_custom_no_mop_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_pack_l1_acc_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_pack_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_pack_untilize_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_reduce_block_max_row_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_reduce_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_add_parallel_matmul_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_reduce_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_transpose_dest_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_unpack_reduce_col_tilizeA_strided_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_unpack_tilize_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_unpack_unary_operand_quasar.py"
-    ],
-    "added": [],
-    "author": "markoradosavljevicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/ebb1673c5edba411d9c2962ce843360f7a0c60c9",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][Performance] Wait on the unpacker's own Src bank, not the Matrix Unit's (#55431)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/ebb1673c5edba411d9c2962ce843360f7a0c60c9",
-   "at": "2026-10-07T10:07:21Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/ckernel_instr_params.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_A_top32_rm.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_A_topk_xl_copy.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_fast_untilize.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_A.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_AB_matmul.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_AB_reduce.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_reduce.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_tilize.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_untilize.h"
-    ],
-    "added": [],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59630",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59630 [Quasar] No integer index format works through copy_tile -> SFPU -> pack (max_pool2d return_indices)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59630",
-   "at": "2026-10-07T09:36:43Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59629",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59629 [Quasar] compute_mpwi: pack_reconfig_data_format without pack_init makes pack_tile write the previous output's DFB",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59629",
-   "at": "2026-10-07T09:36:42Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59628",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59628 [Quasar] max_pool2d(return_indices=True) fails on the host: MPWI needs split readers (disallowed since #55001), and reader1's out_cb self-loop is rejected on Gen2",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59628",
-   "at": "2026-10-07T09:36:42Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1828",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -2901,7 +3059,7 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1828",
    "at": "2026-10-07T08:52:34Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 100,
     "author": "zhangjiayang6835-cyber",
     "labels": [
@@ -2936,27 +3094,6 @@
      "jasondavies"
     ],
     "created": "2026-09-28T21:27:15Z"
-   }
-  },
-  {
-   "id": "https://github.com/quantumchain-core/velodag-core/issues/2",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "quantumchain-core/velodag-core: \ud83d\udcb0 Donate $10-$100 USDT/USDC \u2014 Support VeloDAG Core Rust Dev",
-   "url": "https://github.com/quantumchain-core/velodag-core/issues/2",
-   "at": "2026-10-07T05:25:07Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 100,
-    "author": "quantumchain-core",
-    "labels": [
-     "bug",
-     "documentation",
-     "help wanted",
-     "good first issue",
-     "Bounty",
-     "Funding"
-    ]
    }
   },
   {
@@ -3149,6 +3286,27 @@
    }
   },
   {
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/333",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "AstralDeep/AstralDeep: Qualify opt-in caching of approved non-PHI Claude prompt prefixes",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/333",
+   "at": "2026-10-07T02:48:44Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "armstrongsam25",
+    "labels": [
+     "enhancement",
+     "bounty",
+     "points:100",
+     "track:security",
+     "track:reusability",
+     "priority:P3"
+    ]
+   }
+  },
+  {
    "id": "https://github.com/AstralDeep/AstralDeep/issues/331",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -3171,12 +3329,12 @@
    }
   },
   {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/333",
+   "id": "https://github.com/AstralDeep/AstralDeep/issues/325",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify opt-in caching of approved non-PHI Claude prompt prefixes",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/333",
-   "at": "2026-10-07T02:48:44Z",
+   "title": "AstralDeep/AstralDeep: Add an isolated report-only Codex Security review workflow",
+   "url": "https://github.com/AstralDeep/AstralDeep/issues/325",
+   "at": "2026-10-07T02:27:20Z",
    "extra": {
     "comments": 2,
     "amount_usd": null,
@@ -3186,7 +3344,6 @@
      "bounty",
      "points:100",
      "track:security",
-     "track:reusability",
      "priority:P3"
     ]
    }
@@ -3208,26 +3365,6 @@
      "points:200",
      "track:interoperability",
      "track:reusability",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/325",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Add an isolated report-only Codex Security review workflow",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/325",
-   "at": "2026-10-07T02:27:20Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
      "priority:P3"
     ]
    }
@@ -3452,22 +3589,6 @@
      "jasondavies"
     ],
     "created": "2026-09-28T21:27:00Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58495",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58495 [Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
-   "at": "2026-10-06T16:09:58Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-29T20:22:48Z"
    }
   },
   {
