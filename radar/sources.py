@@ -23,7 +23,7 @@ SPAM_OWNERS = {
 
 # Repos whose bounty issues pay in cash to outside contributors on a
 # documented route, so they are worth acting on even without a $ in the title.
-KNOWN_PAYING = {"tenstorrent/tt-metal"}
+KNOWN_PAYING = {"tenstorrent/tt-metal", "movalabs-crew/mova-store"}
 
 AMOUNT_RE = re.compile(r"(?:\$|usd\s?)\s?(\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?\b", re.I)
 
