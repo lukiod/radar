@@ -1,6 +1,154 @@
 {
- "generated_at": "2026-10-09T01:42:56Z",
+ "generated_at": "2026-10-09T08:26:22Z",
  "events": [
+  {
+   "id": "https://github.com/sm-steel/nani-pix-bot/issues/323",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "sm-steel/nani-pix-bot: /history game record: clues, bounty, stage timeline, participation; Record/Guesses tabs; message length guard",
+   "url": "https://github.com/sm-steel/nani-pix-bot/issues/323",
+   "at": "2026-10-09T06:36:06Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "sm-steel",
+    "labels": [
+     "enhancement"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/95",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-09: 10 changes across 7 bounty programs",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/95",
+   "at": "2026-10-09T06:12:59Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/94",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-09: 6 new, 1 resumed, 2 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/94",
+   "at": "2026-10-09T06:12:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59969",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59969 Fused QK rope shards cos and sin over a different core set than Q and K",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59969",
+   "at": "2026-10-09T05:42:04Z",
+   "extra": {
+    "author": "kinginu",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/liren001/eth-legion-nexus/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "liren001/eth-legion-nexus: [SERVICE] Verdict-as-a-Service \u2014 mechanical bounty judging, \u00a5599/report",
+   "url": "https://github.com/liren001/eth-legion-nexus/issues/6",
+   "at": "2026-10-09T05:30:06Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "liren001",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Movalabs-crew/mova-store/issues/967",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Movalabs-crew/mova-store: Resolve the $1,190 advertised-bounty claim for 15 merged contributions",
+   "url": "https://github.com/Movalabs-crew/mova-store/issues/967",
+   "at": "2026-10-09T04:50:20Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 1190,
+    "author": "woahwhattheheck",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Lilly-Protocol/agentlily-runtime/issues/394",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Lilly-Protocol/agentlily-runtime: Pay the promised $90 bounty for merged PR #384",
+   "url": "https://github.com/Lilly-Protocol/agentlily-runtime/issues/394",
+   "at": "2026-10-09T04:16:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "woahwhattheheck",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59956",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59956 [ttnn/experimental/quasar] sharded_to_interleaved never trims BLOCK_SHARDED grid, writes padding-core data past output buffer (#58407 item 4)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59956",
+   "at": "2026-10-09T03:15:12Z",
+   "extra": {
+    "author": "abdulla-TT",
+    "labels": [
+     "bug",
+     "op_cat: TM",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59946",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59946 [Feature Request] tools/l2cpu: bring-up and use of the Blackhole L2CPU (x280) from tt-metal",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59946",
+   "at": "2026-10-09T02:29:36Z",
+   "extra": {
+    "author": "kinginu",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/liren001/eth-legion-nexus/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "liren001/eth-legion-nexus: [BOUNTY-002] $150 Synthetic Sequential Structure Hunt \u2014 no real-world data, structure is real",
+   "url": "https://github.com/liren001/eth-legion-nexus/issues/4",
+   "at": "2026-10-09T01:44:45Z",
+   "extra": {
+    "comments": 38,
+    "amount_usd": 150,
+    "author": "liren001",
+    "labels": []
+   }
+  },
   {
    "id": "https://github.com/OpenChatGit/GladiatorSociety/issues/6",
    "source": "github_search",
@@ -23,7 +171,7 @@
    "url": "https://github.com/anooeg100-gif/digital-store/issues/1",
    "at": "2026-10-09T00:51:02Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "anooeg100-gif",
     "labels": [
@@ -165,22 +313,6 @@
     ],
     "added": [],
     "author": "blozano-tt"
-   }
-  },
-  {
-   "id": "https://github.com/scapesnovel/AutoCash/issues/44",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "scapesnovel/AutoCash: Test Opire Bounty Integration",
-   "url": "https://github.com/scapesnovel/AutoCash/issues/44",
-   "at": "2026-10-08T23:56:17Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "hands"
-    ]
    }
   },
   {
@@ -721,7 +853,7 @@
    "url": "https://github.com/Vellara-Labs/vellara/issues/101",
    "at": "2026-10-08T16:26:22Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 50,
     "author": "Abbyhay",
     "labels": []
@@ -777,7 +909,7 @@
    "url": "https://github.com/Sounding-Labs/sounding/issues/107",
    "at": "2026-10-08T16:26:16Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 50,
     "author": "ridwanraji1290-ai",
     "labels": []
@@ -805,7 +937,7 @@
    "url": "https://github.com/Sounding-Labs/sounding/issues/105",
    "at": "2026-10-08T16:26:13Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 45,
     "author": "proficientformula",
     "labels": []
@@ -847,7 +979,7 @@
    "url": "https://github.com/Sounding-Labs/sounding/issues/102",
    "at": "2026-10-08T16:26:08Z",
    "extra": {
-    "comments": 0,
+    "comments": 3,
     "amount_usd": 70,
     "author": "omoniyiadebayo12goal-crypto",
     "labels": []
@@ -1001,7 +1133,7 @@
    "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/105",
    "at": "2026-10-08T16:25:49Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": 45,
     "author": "meek-codex",
     "labels": []
@@ -1029,7 +1161,7 @@
    "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/103",
    "at": "2026-10-08T16:25:46Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 70,
     "author": "hardeyshorlar12",
     "labels": []
@@ -1183,7 +1315,7 @@
    "url": "https://github.com/Signpost-Labs/signpost-api/issues/112",
    "at": "2026-10-08T16:25:28Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 75,
     "author": "Sheriff258",
     "labels": []
@@ -1351,7 +1483,7 @@
    "url": "https://github.com/Settla-Labs/settla-api/issues/104",
    "at": "2026-10-08T16:25:05Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 50,
     "author": "Luna-netty",
     "labels": []
@@ -1592,146 +1724,6 @@
     "comments": 0,
     "amount_usd": 40,
     "author": "Bossjhay813",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $65] Test contract token-balance invariants across the lifecycle",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/104",
-   "at": "2026-10-08T16:24:35Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Bezzy2105",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $70] Test that withdrawals are bounded by elapsed time (anti-drain)",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/103",
-   "at": "2026-10-08T16:24:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Bashman10",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $65] Test the `cancelable = false` lifecycle end-to-end",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/102",
-   "at": "2026-10-08T16:24:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Adunola022",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Nudge-Pay/nudge-server/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Nudge-Pay/nudge-server: [Bounty: $60] Cover the user-sync failure path in `SupabaseStrategy.validate`",
-   "url": "https://github.com/Nudge-Pay/nudge-server/issues/107",
-   "at": "2026-10-08T16:24:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Awesome254",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Nudge-Pay/nudge-server/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Nudge-Pay/nudge-server: [Bounty: $60] Add algorithm and clock-tolerance tests for `SupabaseService.verifyToken`",
-   "url": "https://github.com/Nudge-Pay/nudge-server/issues/106",
-   "at": "2026-10-08T16:24:29Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Abu0001-b",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Nudge-Pay/nudge-server/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Nudge-Pay/nudge-server: [Bounty: $45] Add a test that `test/env.setup.ts` defaults every required variable",
-   "url": "https://github.com/Nudge-Pay/nudge-server/issues/105",
-   "at": "2026-10-08T16:24:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "Abdulrahman654",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Nudge-Pay/nudge-server/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Nudge-Pay/nudge-server: [Bounty: $85] Add e2e coverage for `POST /v1/webauthn/register/verify`",
-   "url": "https://github.com/Nudge-Pay/nudge-server/issues/104",
-   "at": "2026-10-08T16:24:25Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "Abbyhay",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Nudge-Pay/nudge-server/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Nudge-Pay/nudge-server: [Bounty: $65] Add validation tests for the WebAuthn DTO set",
-   "url": "https://github.com/Nudge-Pay/nudge-server/issues/103",
-   "at": "2026-10-08T16:24:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "AKAEMM668",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Nudge-Pay/nudge-server/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Nudge-Pay/nudge-server: [Bounty: $70] Add DTO validation tests for `CreatePaymentRequestDto`",
-   "url": "https://github.com/Nudge-Pay/nudge-server/issues/102",
-   "at": "2026-10-08T16:24:22Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 70,
-    "author": "0yOla",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/111",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $60] Document how to regenerate `test_snapshots/`",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/111",
-   "at": "2026-10-08T16:24:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "WALEY-OPS",
     "labels": []
    }
   },
@@ -2547,52 +2539,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/c851f67bd8a95a1c25c0da6f8b025776f9d63202",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][Feature] Implement binary_bcast for Quasar (#59434)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/c851f67bd8a95a1c25c0da6f8b025776f9d63202",
-   "at": "2026-10-08T08:23:20Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_bcast.h",
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/test_schemas.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_eltwise_binary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_eltwise_binary_sfpu_quasar.py",
-     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_sfpu_quasar_test.cpp"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary_bcast.h"
-    ],
-    "author": "nstamatovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59796",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59796 LLK perf: track instability fixes merged to main",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59796",
-   "at": "2026-10-08T08:12:07Z",
-   "extra": {
-    "author": "nstojicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59795",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59795 LLK perf: Versim and silicon evaluation of Wormhole perf instability",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59795",
-   "at": "2026-10-08T08:00:44Z",
-   "extra": {
-    "author": "nstojicTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2609,77 +2555,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59780",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59780 [ttnn/experimental/quasar] pad height-sharded RM factory derives cores from shard-grid bounding box, aborts on non-contiguous grids (#58407 item 3)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59780",
-   "at": "2026-10-08T06:48:22Z",
-   "extra": {
-    "author": "abdulla-TT",
-    "labels": [
-     "bug",
-     "op_cat: TM",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/9057a06e9611e76c5728d9d6a5336137df8c590f",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "topk: a 65536-wide dim fits 16-bit indices (#59448)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/9057a06e9611e76c5728d9d6a5336137df8c590f",
-   "at": "2026-10-08T05:59:22Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/topk_route_finish_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/topk_route_finish_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/topk_utils.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/device/topk_utils.hpp",
-     "ttnn/cpp/ttnn/operations/reduction/topk/topk_nanobind.cpp"
-    ],
-    "added": [],
-    "author": "Aswinmcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59769",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59769 blackhole llk matmul: in unpack config context 1 the matmul unpack MOP covers only the first 8 streamed tiles, so a full sync block of 9 to 16 tiles in one direction gets wrong results on every other call",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59769",
-   "at": "2026-10-08T03:29:40Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59768",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59768 blackhole ttnn chunk_gated_delta_rule: the prep kernel packs the 4-tile k_dec block into a 4-tile CB one tile past its start, so the packer writes past the CB's end",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59768",
-   "at": "2026-10-08T03:29:37Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "blackhole",
-     "qwen",
-     "Identified By: LLK",
-     "llk_asserts"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2693,50 +2568,6 @@
      "Adraca"
     ],
     "created": "2026-09-17T19:27:38Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59765",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59765 blackhole ttnn transpose: a single-shard row-major transpose writes its output rows back to back, but the output keeps them on a 16-byte pitch",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59765",
-   "at": "2026-10-08T03:02:19Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "ttnn",
-     "blackhole",
-     "op_cat: TM"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59762",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59762 [Performance] Accelerate shared BFP host weight encoding",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59762",
-   "at": "2026-10-08T02:56:22Z",
-   "extra": {
-    "author": "kpaigwar",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59761",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59761 [ops]: fp32 ttnn.pow / ttnn.rpow error grows with |y * log2 x| (362 ULP on a random sweep)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59761",
-   "at": "2026-10-08T02:55:49Z",
-   "extra": {
-    "author": "EazyHood",
-    "labels": [
-     "bug",
-     "community"
-    ]
    }
   },
   {
@@ -2770,34 +2601,6 @@
      "singhharsh1708"
     ],
     "created": "2026-09-01T20:58:07Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58228",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58228 [Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58228",
-   "at": "2026-10-07T07:59:30Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "jasondavies"
-    ],
-    "created": "2026-09-28T21:27:15Z"
-   }
-  },
-  {
-   "id": "https://github.com/Tarsnap/scrypt/issues/431",
-   "source": "tarsnap",
-   "kind": "tarsnap_issue",
-   "title": "Tarsnap/scrypt#431 [bug bounty] readpass_file() silently truncates the passphrase at a carriage return",
-   "url": "https://github.com/Tarsnap/scrypt/issues/431",
-   "at": "2026-10-06T04:53:22Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "woahwhattheheck"
    }
   }
  ],
