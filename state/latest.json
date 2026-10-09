@@ -1,29 +1,2478 @@
 {
- "generated_at": "2026-10-09T08:26:22Z",
+ "generated_at": "2026-10-09T15:28:59Z",
  "events": [
   {
-   "id": "https://github.com/sm-steel/nani-pix-bot/issues/323",
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/17",
    "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "sm-steel/nani-pix-bot: /history game record: clues, bounty, stage timeline, participation; Record/Guesses tabs; message length guard",
-   "url": "https://github.com/sm-steel/nani-pix-bot/issues/323",
-   "at": "2026-10-09T06:36:06Z",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $60] Remove the unused `@types/ioredis` v4 devDependency",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/17",
+   "at": "2026-10-09T15:22:44Z",
    "extra": {
     "comments": 0,
-    "amount_usd": null,
-    "author": "sm-steel",
+    "amount_usd": 60,
+    "author": "khyiengkc",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/16",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $65] Remove the never-invoked `startMaintenanceTask` pair from `src/db/pool.ts`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/16",
+   "at": "2026-10-09T15:22:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Izzyabbey2020",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/15",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $50] Pin the `actions/checkout` and `actions/setup-node` steps in `.github/workflows/ci.yml` to commit SHAs",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/15",
+   "at": "2026-10-09T15:22:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "oycodes",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/14",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $65] Add unit tests for `src/chains/stellar/rpc.ts` retryable error classification",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/14",
+   "at": "2026-10-09T15:22:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Abayomi-fx",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/15",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $45] Pin every `HyperionError` discriminant in an integration test",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/15",
+   "at": "2026-10-09T15:22:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "matty812",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/14",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $50] Add a unit test for the `RouteMeta` rail classifier",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/14",
+   "at": "2026-10-09T15:22:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "matty812",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/13",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $55] Wire the installed `@vitest/coverage-v8` into a coverage script",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/13",
+   "at": "2026-10-09T15:21:58Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Jiddah16",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $60] Pin `actions/setup-python` in the slither job to a commit SHA",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/12",
+   "at": "2026-10-09T15:21:57Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Jiddah16",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $65] Add `--locked` to the cargo steps in `soroban.yml`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/11",
+   "at": "2026-10-09T15:21:55Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "youngkaale799",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $70] Assert the router's published events in the `hyperion-router` test harness",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/10",
+   "at": "2026-10-09T15:21:54Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "youngkaale799",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $70] Make the 64KB gate in `script/stellar/build.sh` fail when it measured nothing",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/9",
+   "at": "2026-10-09T15:21:52Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "ahmedkabeer930-rgb",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $75] Correct the crate, package and wasm names `README.md` claims",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/8",
+   "at": "2026-10-09T15:21:49Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 75,
+    "author": "ahmedkabeer930-rgb",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $85] Return `TokenDisabled` from `bridge_out` and `quote_one` on Soroban",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/7",
+   "at": "2026-10-09T15:21:48Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Abdul0905",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-contracts: [Bounty: $90] Point the `Hyperion*.sol` imports at the files that exist in `evm/src`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-contracts/issues/6",
+   "at": "2026-10-09T15:21:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "Abdul0905",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $40] Deduplicate the admin auth preamble in `src/lib.rs`",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/10",
+   "at": "2026-10-09T15:21:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 40,
+    "author": "mercy-js",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/12",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $45] Delete the duplicate `src/components/yard` re-export shim",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/12",
+   "at": "2026-10-09T15:21:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "mjkayinla1",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $85] Reuse a module-level `httpx.Client` in `app/stellar.py`",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/10",
+   "at": "2026-10-09T15:21:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Aisha-hub11",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $60] Remove the orphaned `test_trigger_payout_*` snapshots and the unused `User` struct",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/10",
+   "at": "2026-10-09T15:21:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Nwapu-TrustJah",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $65] Give the dashboard avatar `<img>` tags dimensions, lazy loading and real alt text",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/10",
+   "at": "2026-10-09T15:21:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "flexocode442",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $70] Remove the unused `src/hooks/useWallet.ts` React hook and its browser-only deps",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/10",
+   "at": "2026-10-09T15:21:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "faithylet",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $80] Replace the blocking Google Fonts `@import` in `app/globals.css` with `next/font`",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/10",
+   "at": "2026-10-09T15:21:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "Bouynaty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $60] Fix the stale script and dependency claims in `README.md`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/9",
+   "at": "2026-10-09T15:21:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "faithylet",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $55] Remove the unused langgraph, langchain-core, and python-dotenv pins",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/9",
+   "at": "2026-10-09T15:21:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Aisha-hub11",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $60] Fix the environment variable and test-count drift in `README.md`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/11",
+   "at": "2026-10-09T15:21:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "mjkayinla1",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $60] Remove the leftover `file-issues.ps1` GitHub issue-seeding script",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/9",
+   "at": "2026-10-09T15:21:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Bouynaty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $70] Remove the unreferenced `setup.js` scaffolding script",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/9",
+   "at": "2026-10-09T15:21:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "flexocode442",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $50] Remove the unused `ed25519-dalek` dev-dependency and its CI workaround",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/9",
+   "at": "2026-10-09T15:21:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "mercy-js",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $40] Fix the dead `CONTRIBUTING.md` link and table of contents in `README.md`",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/9",
+   "at": "2026-10-09T15:21:43Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 40,
+    "author": "Nwapu-TrustJah",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $70] Reject `lock_until_target` without a `target_amount` in `initialize`",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/8",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "gitGolf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $55] Remove the unused contracts checkout and protocol build from `ci.yml`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/10",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Modmart520",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $45] Fix the dead `CONTRIBUTING.md` link and the stale checks list in `README.md`",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/8",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "kintsugi012",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $85] Replace float math on Stellar amounts in `payout.service.ts` and `contract-sync.worker.ts`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/8",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "khyiengkc",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $50] Align the app name and repo links in `README.md` and `CONTRIBUTING.md`",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/8",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Marshaltechnology",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $70] Fix the `TRAIECTA_NETWORK` and `TRAIECTA_DEPLOYMENTS_FILE` names in the README environment reference",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/11",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Onis2254",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $60] Fix the wasm filename, `Cargo.lock` and org links in `README.md` and `CONTRIBUTING.md`",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/8",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "meek-codex",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $70] Align the `sentinel-frontend` / `sentinel-*` names in `CONTRIBUTING.md` and `README.md` with Specula",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/8",
+   "at": "2026-10-09T15:21:42Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "priscannanna85-lgtm",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $70] Start the contribution-scheduler and payment-request workers in `src/index.ts`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/7",
+   "at": "2026-10-09T15:21:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "khyiengkc",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $70] Guard the window comparison in `score_account` against naive timestamps",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/7",
+   "at": "2026-10-09T15:21:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Marshaltechnology",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $65] Fix the event table explorer links to use the events source network, not `network?.network`",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/7",
+   "at": "2026-10-09T15:21:41Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "priscannanna85-lgtm",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $65] Add `require_not_paused` to `reset_cycle` and `reset_rotation`",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/7",
+   "at": "2026-10-09T15:21:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "gitGolf",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $65] Pin the GitHub Actions in `ci.yml` to commit SHAs",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/9",
+   "at": "2026-10-09T15:21:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Modmart520",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $80] Stop the receipt page rendering mock success data when the Horizon fetch fails",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/7",
+   "at": "2026-10-09T15:21:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "kintsugi012",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $65] Add a `cargo fmt --all -- --check` gate to the `build-test` job",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/7",
+   "at": "2026-10-09T15:21:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "meek-codex",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $90] Stop `resolveAttestation` in `src/keeper/jobs/second-step.ts` fabricating a synthetic attestation",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/10",
+   "at": "2026-10-09T15:21:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 90,
+    "author": "Onis2254",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $80] Fix `remove_member` refunding the configured amount instead of the paid contribution",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/6",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "THMSLACER",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $60] Fix the `/events` route registering as `/events/` behind the router prefix",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/6",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "young-wallace",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $85] Extend `src/proxy.ts` auth coverage to the `/groups`, `/payments` and `/profile` routes",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/6",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "WEALTH220",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $85] Harden the `build-test` job with `permissions`, `concurrency`, timeouts and pinned actions",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/6",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Luna-netty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $50] Add tests for the transfer stage mapping in `TransferList` and the inspector page",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/8",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "lewis830",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $70] Pin `actions/checkout` and `actions/setup-node` to full commit SHAs in `.github/workflows/ci.yml`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/6",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Izzyabbey2020",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $85] Fix the `/v1/metrics` cursor query in `src/http/routes/metrics.ts` to use `last_processed`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/9",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Olayinka93",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $45] Stop the `api` helper in `app/page.tsx` sending `Content-Type` on bodyless GET requests",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/6",
+   "at": "2026-10-09T15:21:39Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Evaristus023",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $60] Add `timeout-minutes` and a `concurrency` block to `rust.yml`",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/5",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "THMSLACER",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $45] Add the `github-actions` ecosystem to `.github/dependabot.yml`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/8",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Olayinka93",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $60] Add `set_threshold` boundary tests for 0, 100 and 101",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/5",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Luna-netty",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $70] Add unit tests for the `useEvmWallet` reconnect and disconnect flow",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/7",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "lewis830",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $70] Pin the GitHub Actions in `.github/workflows/ci.yml` to commit SHAs",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/5",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "WEALTH220",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $65] Add least-privilege `permissions`, `concurrency`, and `timeout-minutes` to `.github/workflows/ci.yml`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/5",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Izzyabbey2020",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $80] Add a ruff lint and mypy typecheck gate to the `build-test` job",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/5",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 80,
+    "author": "young-wallace",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $65] Pin the `checkout` and `setup-node` actions to SHAs and add `timeout-minutes` to `ci.yml`",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/5",
+   "at": "2026-10-09T15:21:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Evaristus023",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $85] Pin every GitHub Action in `rust.yml` to a full commit SHA",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/4",
+   "at": "2026-10-09T15:21:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Calebstack",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $80] Add unit tests for `StellarWalletProvider` session restore and network switching",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/6",
+   "at": "2026-10-09T15:21:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "likali45",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $80] Add a `.github/workflows/ci.yml` that typechecks and runs the Jest suite",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/4",
+   "at": "2026-10-09T15:21:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 80,
+    "author": "oycodes",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $65] Add least-privilege `permissions`, `concurrency`, and `timeout-minutes` to `build-test`",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/4",
+   "at": "2026-10-09T15:21:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "abdulwahabmonilola-ctrl",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $60] Add least-privilege `permissions` and `concurrency` cancellation to `.github/workflows/ci.yml`",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/4",
+   "at": "2026-10-09T15:21:36Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Jayjay-eng725",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $55] Add tests for the `unauthorized` panic from `require_admin`",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/4",
+   "at": "2026-10-09T15:21:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Bigtura",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $45] Add a least-privilege `permissions` block to `.github/workflows/ci.yml`",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/4",
+   "at": "2026-10-09T15:21:35Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "sam-boyega",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $45] Add tests for `contribute` amount validation in rotational groups",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/3",
+   "at": "2026-10-09T15:21:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Calebstack",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $65] Remove the silent 1000 USDC fallback in `planRouteExecution`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/5",
+   "at": "2026-10-09T15:21:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "likali45",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $60] Add tests for the `src/context/AuthContext.tsx` session store",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/3",
+   "at": "2026-10-09T15:21:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "sam-boyega",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $40] Add unit tests for `scheduleReconciliation` in `src/queue/contract-sync.queue.ts`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/3",
+   "at": "2026-10-09T15:21:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 40,
+    "author": "oycodes",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $65] Add a `#[test]` asserting the `flagged` event emitted by `flag_anomaly`",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/3",
+   "at": "2026-10-09T15:21:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Bigtura",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $60] Add route tests for `GET /events` and `POST /risk/score` validation",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/3",
+   "at": "2026-10-09T15:21:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "abdulwahabmonilola-ctrl",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $55] Add unit tests for `downloadEventsCsv` CSV escaping and injection guard in `app/page.tsx`",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/3",
+   "at": "2026-10-09T15:21:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Jayjay-eng725",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $70] Stop `TransferFlow.handleInitiate` recomputing the bridge amount with float math",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/4",
+   "at": "2026-10-09T15:21:33Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "fatiu275",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $65] Add tests for `app/stellar.py` HTTP error mapping and ScVal decoders",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/2",
+   "at": "2026-10-09T15:21:33Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "BIGSMKE12",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $65] Add tests proving `pause` blocks `add_member`, `remove_member`, and `payout`",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/2",
+   "at": "2026-10-09T15:21:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Davichi-1",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $50] Add unit tests for `WhatsAppService.sendMessage` in `src/services/whatsapp.service.ts`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/2",
+   "at": "2026-10-09T15:21:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Abayomi-fx",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $65] Add unit tests for `src/services/api/groups.ts` invite and membership storage",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/2",
+   "at": "2026-10-09T15:21:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 65,
+    "author": "Martins-594",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $70] Stop `get_threshold` from masking the uninitialized state with `unwrap_or(0)`",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/2",
+   "at": "2026-10-09T15:21:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 70,
+    "author": "Emprazzo01",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $55] Add unit tests for `src/logging/logger.ts` redaction and bigint serialization",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/5",
+   "at": "2026-10-09T15:21:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 55,
+    "author": "Musharrof10",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $50] Add unit tests for `explorerUrl` and `networkName` network detection in `app/page.tsx`",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/2",
+   "at": "2026-10-09T15:21:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "ykhalid218",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-api/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-api: [Bounty: $45] Add unit tests for `requireAuth` in `src/middleware/auth.middleware.ts`",
+   "url": "https://github.com/Rotula-Labs/rotula-api/issues/1",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Abayomi-fx",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-api/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-api: [Bounty: $50] Add unit tests for `app/agents/pipeline.py` `run_pipeline`",
+   "url": "https://github.com/Specula-Labs/specula-api/issues/1",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "BIGSMKE12",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-contracts/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-contracts: [Bounty: $50] Add tests for the group-type guards in `withdraw_savings` and `payout`",
+   "url": "https://github.com/Rotula-Labs/rotula-contracts/issues/1",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 50,
+    "author": "Davichi-1",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Rotula-Labs/rotula-app/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Rotula-Labs/rotula-app: [Bounty: $45] Add unit tests for `src/utils/invite.ts` code generation and share URLs",
+   "url": "https://github.com/Rotula-Labs/rotula-app/issues/1",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 45,
+    "author": "Martins-594",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-contracts/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-contracts: [Bounty: $85] Move the agent registry out of instance storage in `src/lib.rs`",
+   "url": "https://github.com/Specula-Labs/specula-contracts/issues/1",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "Emprazzo01",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-api/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-api: [Bounty: $60] Add unit tests for `src/runtime/shutdown.ts` ordering and timeout budget",
+   "url": "https://github.com/Traiecta-Labs/traiecta-api/issues/4",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 60,
+    "author": "Musharrof10",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Traiecta-Labs/traiecta-app/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Traiecta-Labs/traiecta-app: [Bounty: $85] Fix the broken `brand/HyperionMark` import in `Chrome.tsx` and `render-icons.py`",
+   "url": "https://github.com/Traiecta-Labs/traiecta-app/issues/3",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "fatiu275",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Specula-Labs/specula-app/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Specula-Labs/specula-app: [Bounty: $85] Add a Vitest runner and an `npm test` script wired into the `build-lint` CI job",
+   "url": "https://github.com/Specula-Labs/specula-app/issues/1",
+   "at": "2026-10-09T15:21:31Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 85,
+    "author": "ykhalid218",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60102",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60102 blackhole llk compute_semaphore: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60102",
+   "at": "2026-10-09T15:19:59Z",
+   "extra": {
+    "author": "mvlahovicTT",
     "labels": [
-     "enhancement"
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
     ]
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/95",
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60101",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60101 blackhole llk tile_move_copy_custom: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60101",
+   "at": "2026-10-09T15:19:54Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60100",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60100 blackhole llk custom_pack_untilize: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60100",
+   "at": "2026-10-09T15:19:49Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60098",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60098 blackhole llk sinkhorn_4x4: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60098",
+   "at": "2026-10-09T15:19:44Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60094",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60094 blackhole llk rope: a decode call pays 15 to 19 cycles of setup, a math-thread drain and a counter reset, before its first row",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60094",
+   "at": "2026-10-09T15:17:51Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: eltwise",
+     "perf",
+     "llk:blackhole",
+     "llk:performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60093",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60093 blackhole llk perf: hw_cleanup",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60093",
+   "at": "2026-10-09T15:17:45Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/55105",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#55105 [Bounty $1,500] ttnn.polygamma returns exactly 0 for n >= 7 over a wide band of ordinary positive x, where the true value is a normal fp32 (n! scale applied after accumulation)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/55105",
+   "at": "2026-10-09T15:17:42Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "singhharsh1708",
+    "assignees": [
+     "singhharsh1708"
+    ],
+    "created": "2026-09-01T20:58:07Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60092",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60092 blackhole llk perf: moe_gate",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60092",
+   "at": "2026-10-09T15:17:40Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SecOpsNews/news/issues/74931",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: Scope digest 2026-10-09: 10 changes across 7 bounty programs",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/95",
-   "at": "2026-10-09T06:12:59Z",
+   "title": "SecOpsNews/news: [GrahamCluley] $10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
+   "url": "https://github.com/SecOpsNews/news/issues/74931",
+   "at": "2026-10-09T15:17:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 10,
+    "author": "github-actions[bot]",
+    "labels": [
+     "GrahamCluley"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60091",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60091 blackhole llk perf: csa_index_remap",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60091",
+   "at": "2026-10-09T15:17:34Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60090",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60090 blackhole llk perf: rope",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60090",
+   "at": "2026-10-09T15:17:30Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60089",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60089 blackhole llk perf: add_rsqrt",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60089",
+   "at": "2026-10-09T15:17:24Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60088",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60088 blackhole llk perf: sinkhorn",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60088",
+   "at": "2026-10-09T15:17:17Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60087",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60087 blackhole llk perf: compute_semaphore",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60087",
+   "at": "2026-10-09T15:17:12Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60086",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60086 blackhole llk perf: tile_move_copy_custom",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60086",
+   "at": "2026-10-09T15:17:07Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60085",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60085 blackhole llk perf: custom_pack_untilize",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60085",
+   "at": "2026-10-09T15:17:02Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60084",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60084 blackhole llk perf: pack_block",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60084",
+   "at": "2026-10-09T15:16:56Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60083",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60083 blackhole llk perf: hadamard",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60083",
+   "at": "2026-10-09T15:16:51Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60082",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60082 blackhole llk perf: eltwise_mul_scalar",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60082",
+   "at": "2026-10-09T15:16:46Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60081",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60081 blackhole llk perf: mul_reduce_scalar",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60081",
+   "at": "2026-10-09T15:16:40Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60080",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60080 blackhole llk perf: rmsnorm",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60080",
+   "at": "2026-10-09T15:16:35Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60079",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60079 blackhole llk perf: sampling",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60079",
+   "at": "2026-10-09T15:16:30Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60077",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60077 [Docs] INSTALLING.md: dead TT-NN examples link and misspelled CMAKE_BUILD_TYPE",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60077",
+   "at": "2026-10-09T15:15:19Z",
+   "extra": {
+    "author": "saqibkh",
+    "labels": [
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60070",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60070 moreh_sum_backward reads past the end of need_bcast_dim",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60070",
+   "at": "2026-10-09T15:10:32Z",
+   "extra": {
+    "author": "mcw-anasuya",
+    "labels": [
+     "moreh",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60067",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60067 blackhole llk sfpu situ_glu: no tt-llk perf row on blackhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60067",
+   "at": "2026-10-09T14:52:32Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60066",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60066 blackhole llk sfpu softcap: the fused softcap op has no tt-llk perf row",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60066",
+   "at": "2026-10-09T14:52:27Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60065",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60065 blackhole llk sfpu reshuffle_rows: no tt-llk perf row and no tt-llk functional test",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60065",
+   "at": "2026-10-09T14:52:22Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60064",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60064 blackhole llk sfpu copy_dest_values: no tt-llk perf row on blackhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60064",
+   "at": "2026-10-09T14:52:16Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60063",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60063 blackhole llk sfpu mask: no tt-llk perf row, and the one mask test drives the body through an adapter that drops the mask index, so the ignored index of #58771 has no failing test",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60063",
+   "at": "2026-10-09T14:52:11Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60062",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60062 blackhole llk sfpu clamped_silu_glu: 1,666 cycles per output tile on the math thread, 2,115 with a 32-bit dest, and no pack-thread form",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60062",
+   "at": "2026-10-09T14:52:05Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: eltwise",
+     "perf",
+     "llk:blackhole",
+     "llk:performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60061",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60061 blackhole llk sfpu clamped_silu_glu: no tt-llk perf row on blackhole",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60061",
+   "at": "2026-10-09T14:52:00Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60060",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60060 blackhole llk sfpu softsign: in the compute api form the accurate softsign keeps its 12-instruction row rolled and costs 17 cycles per tile more than one 32-vector call, while the approximate softsign unrolls there and gains 20",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60060",
+   "at": "2026-10-09T14:51:54Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: eltwise",
+     "perf",
+     "llk:blackhole",
+     "llk:performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60059",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60059 blackhole llk sfpu softshrink: in the compute api form the 12-instruction softshrink row stays rolled at 8 iterations and costs 12 cycles per tile more than one 32-vector call",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60059",
+   "at": "2026-10-09T14:51:48Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: eltwise",
+     "perf",
+     "llk:blackhole",
+     "llk:performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60058",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60058 blackhole llk sfpu dropout: the seed write in dropout_kernel_init waits 600 sfpu nops in a risc loop, about 1,820 cycles per init, 4.1 times a dropout tile",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60058",
+   "at": "2026-10-09T14:51:42Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: eltwise",
+     "perf",
+     "llk:blackhole",
+     "llk:performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60057",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60057 blackhole llk sfpu dropout: no tt-llk perf row, and no test runs dropout after an eltwise binary init, so the address-mode hazard of #58770 has no failing test",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60057",
+   "at": "2026-10-09T14:51:37Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60056",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60056 blackhole llk sfpu dropout: the dropout row loop is rolled by declaration and idles 113.4 cycles per tile for 272 sfpu issues in the compute api form",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60056",
+   "at": "2026-10-09T14:51:30Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: eltwise",
+     "perf",
+     "llk:blackhole",
+     "llk:performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60055",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60055 blackhole llk perf: SFPU clamped_silu_glu",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60055",
+   "at": "2026-10-09T14:51:25Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60054",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60054 blackhole llk perf: SFPU situ_glu",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60054",
+   "at": "2026-10-09T14:51:20Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60053",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60053 blackhole llk perf: SFPU softcap",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60053",
+   "at": "2026-10-09T14:51:15Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60052",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60052 blackhole llk perf: SFPU softshrink",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60052",
+   "at": "2026-10-09T14:51:11Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60051",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60051 blackhole llk perf: SFPU softsign",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60051",
+   "at": "2026-10-09T14:51:06Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60050",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60050 blackhole llk perf: SFPU identity",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60050",
+   "at": "2026-10-09T14:51:01Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60049",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60049 blackhole llk perf: SFPU copy_dest_values",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60049",
+   "at": "2026-10-09T14:50:56Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60048",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60048 blackhole llk perf: SFPU reshuffle_rows",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60048",
+   "at": "2026-10-09T14:50:51Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60047",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60047 blackhole llk perf: SFPU mask",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60047",
+   "at": "2026-10-09T14:50:46Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60046",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60046 blackhole llk perf: SFPU dropout",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60046",
+   "at": "2026-10-09T14:50:42Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60045",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60045 blackhole llk perf: SFPU rand",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60045",
+   "at": "2026-10-09T14:50:37Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60044",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60044 blackhole llk perf: SFPU quantization",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60044",
+   "at": "2026-10-09T14:44:28Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60043",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60043 blackhole llk perf: SFPU typecast",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60043",
+   "at": "2026-10-09T14:44:23Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60042",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60042 blackhole llk perf: SFPU comparisons",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60042",
+   "at": "2026-10-09T14:44:17Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60041",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60041 blackhole llk sfpu ternary: perf_sfpu_ternary.py has no where row, so no perf module times the body ttnn.where runs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60041",
+   "at": "2026-10-09T14:42:56Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60040",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60040 blackhole llk sfpu integer: the perf sweep's int32 add and sub rows run the sign-magnitude arm, 394.2 cycles per tile against 178.7 for the body add_int_tile dispatches",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60040",
+   "at": "2026-10-09T14:42:51Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "perf",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60039",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60039 blackhole llk perf: SFPU integer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60039",
+   "at": "2026-10-09T14:42:47Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60038",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60038 blackhole llk perf: SFPU ternary",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60038",
+   "at": "2026-10-09T14:42:42Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60037",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60037 blackhole llk perf: SFPU binary",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60037",
+   "at": "2026-10-09T14:42:37Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60036",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60036 blackhole llk sfpu welford: welford has no tt-llk functional or perf test on any architecture, and wired out of tree its update passes 8 of 8 and measures 391.5 cycles per tile with a table and 7588.9 without",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60036",
+   "at": "2026-10-09T14:39:24Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: reduces",
+     "llk:test-infra",
+     "llk:blackhole",
+     "llk:performance-tests"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60035",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60035 blackhole llk layernorm: the welford pre-allgather kernels re-run the welford init after every float32 tile at 27.0 cycles, spill the welford state around every fused pre-add block at 22.9 plus two packs and two copies, and feed float32 at 126 cycles per tile",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60035",
+   "at": "2026-10-09T14:39:18Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "LLK",
+     "blackhole",
+     "op_cat: reduces",
+     "op_cat: fused",
+     "perf",
+     "llk:blackhole",
+     "llk:performance"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60034",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60034 blackhole llk perf: SFPU cumsum",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60034",
+   "at": "2026-10-09T14:39:13Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60033",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60033 blackhole llk perf: layernorm (Welford pre-allgather)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60033",
+   "at": "2026-10-09T14:39:07Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60032",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60032 blackhole llk perf: SFPU Welford",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60032",
+   "at": "2026-10-09T14:39:02Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60031",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60031 blackhole llk perf: SFPU EMA",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60031",
+   "at": "2026-10-09T14:38:48Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60029",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60029 [MoE prefill] Derive dispatch capacity from top-k; K3 overflow sums uninitialized slots into MoE output",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60029",
+   "at": "2026-10-09T14:24:02Z",
+   "extra": {
+    "author": "pavlejosipovic",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/ChengshuLi/WorldAtlas/issues/1610",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ChengshuLi/WorldAtlas: Authenticate Nukunonu\u2013Bounty #1474 consumed assessments and captured reports",
+   "url": "https://github.com/ChengshuLi/WorldAtlas/issues/1610",
+   "at": "2026-10-09T14:23:34Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "ChengshuLi",
+    "labels": [
+     "bug",
+     "type:engineering",
+     "kind:work-item",
+     "status:ready",
+     "urgent",
+     "follow-up"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60027",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60027 Quasar: ttnn ops hang on craq-sim and the emulator after #57646 (DFB drain in DataflowBuffer destructor)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60027",
+   "at": "2026-10-09T14:14:08Z",
+   "extra": {
+    "author": "gajanan-choudhary",
+    "labels": [
+     "op_cat: mm",
+     "Quasar"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/8168ca164457f458c6c42be0a2229b675f2eb37b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Quasar] clear dvalid wait masks at kernel boot (#59976)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/8168ca164457f458c6c42be0a2229b675f2eb37b",
+   "at": "2026-10-09T14:13:27Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/helpers/include/boot.h"
+    ],
+    "added": [],
+    "author": "markoradosavljevicTT"
+   }
+  },
+  {
+   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1292",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1259",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1292",
+   "at": "2026-10-09T14:07:48Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "SPLURT-Station-Bot",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1291",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1268",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1291",
+   "at": "2026-10-09T14:07:34Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "SPLURT-Station-Bot",
+    "labels": [
+     "bounty"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60025",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60025 test_gated_deltanet_chunked_ttnn runs out of L1 on WH",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60025",
+   "at": "2026-10-09T14:02:22Z",
+   "extra": {
+    "author": "edwinleeTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60023",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60023 ttnn.pow / ttnn.rpow: +inf base is decoded as 2^128 (pow(inf, 0.5) = 1.8e19, pow(inf, -0.5) = 5.4e-20); pow(-inf, non-integer p) returns NaN",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60023",
+   "at": "2026-10-09T13:39:25Z",
+   "extra": {
+    "author": "jpeseWang",
+    "labels": [
+     "bug",
+     "op_cat: eltwise",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60021",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60021 [LLK AI codegen] Solve all Opus-solved issues with in-house K3/GLM",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60021",
+   "at": "2026-10-09T13:36:34Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60020",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60020 [LLK AI codegen] Issue solver with open-source models (K3/GLM)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60020",
+   "at": "2026-10-09T13:36:33Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60019",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60019 [LLK AI codegen] Review 100% of medium-complexity PRs with the AI reviewer only",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60019",
+   "at": "2026-10-09T13:36:28Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60018",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60018 [LLK AI codegen] 80% of PRs reviewed by the AI reviewer only",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60018",
+   "at": "2026-10-09T13:36:27Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60017",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60017 [LLK AI codegen] Reach 80% AI-completed issues on BH/WH",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60017",
+   "at": "2026-10-09T13:36:22Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60016",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60016 [LLK AI codegen] Human fully out of the loop for 80% of BH/WH issues (autofix)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60016",
+   "at": "2026-10-09T13:36:21Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60015",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60015 [LLK AI codegen] Generate all Blaze fused LLK operations for Quasar (21/21)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60015",
+   "at": "2026-10-09T13:36:16Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "Quasar",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60014",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60014 [LLK AI codegen] Human out of the loop generating complex fused LLK operations",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60014",
+   "at": "2026-10-09T13:36:15Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "Quasar",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60013",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60013 [LLK AI codegen] Generate the remaining Quasar SFPU kernels (118/118)",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60013",
+   "at": "2026-10-09T13:36:11Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "Quasar",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60012",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60012 [LLK AI codegen] Human out of the loop generating simple LLKs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60012",
+   "at": "2026-10-09T13:36:09Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "LLK",
+     "Quasar",
+     "llk-ai-codegen"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60010",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60010 ttnn.logaddexp2 (FLOAT32): forming `2^-|a-b|` as `exp(|a-b| * -ln2)` costs up to 69 ULP. The base-2 argument is rounded before the exponential.",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60010",
+   "at": "2026-10-09T13:31:34Z",
+   "extra": {
+    "author": "jpeseWang",
+    "labels": [
+     "bug",
+     "op_cat: eltwise",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60008",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60008 [LLK][Wormhole] reduce with Float16 input and Float32 output returns wrong values for every MAX reduce and for Scalar Sum/Average",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60008",
+   "at": "2026-10-09T13:27:44Z",
+   "extra": {
+    "author": "ldjurovicTT",
+    "labels": [
+     "bug",
+     "LLK",
+     "wormhole",
+     "Identified By: LLK"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/97",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-09: 0 new, 1 resumed, 4 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/97",
+   "at": "2026-10-09T13:20:43Z",
    "extra": {
     "comments": 0,
     "amount_usd": null,
@@ -34,19 +2483,419 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/94",
+   "id": "https://github.com/chatmcp/mcpso/issues/5032",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-09: 6 new, 1 resumed, 2 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/94",
-   "at": "2026-10-09T06:12:58Z",
+   "title": "chatmcp/mcpso: BountyRadar MCP \u2014 ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
+   "url": "https://github.com/chatmcp/mcpso/issues/5032",
+   "at": "2026-10-09T13:04:18Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "MistifyTea",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60005",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60005 [gemma4_d_p] Add opt-in toggle for bounded sliding window attention",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60005",
+   "at": "2026-10-09T12:17:30Z",
+   "extra": {
+    "author": "svuckovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/2ee7508cee3ea71c2e9b0db87d9b4d495fc049dc",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Feature] Upstream Blaze gated-reduce SFPU helper (#59978)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/2ee7508cee3ea71c2e9b0db87d9b4d495fc049dc",
+   "at": "2026-10-09T11:49:41Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/llk_params.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_gated_reduce.py",
+     "tt_metal/tt-llk/tests/sources/sfpu_gated_reduce_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_gated_reduce.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_gated_reduce.py",
+     "tt_metal/tt-llk/tests/sources/sfpu_gated_reduce_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/experimental/ckernel_sfpu_gated_reduce.h"
+    ],
+    "author": "pmilenkovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/60001",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#60001 [HAL] Add semantic semaphore and mutex aliases after defining resource roles",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/60001",
+   "at": "2026-10-09T11:28:13Z",
+   "extra": {
+    "author": "njokovicTT",
+    "labels": [
+     "feature",
+     "llk:hal"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/ebd1759d666e610f2b2c8bf85db7502fe3fd2fc3",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Blackhole SFPU] tt-llk _calculate_comp_unary_ decodes its threshold bits (tt-llk#1701 item 16) (#59870)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/ebd1759d666e610f2b2c8bf85db7502fe3fd2fc3",
+   "at": "2026-10-09T11:23:39Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_comp_unary_threshold.py",
+     "tt_metal/tt-llk/tests/sources/sfpu_comp_unary_threshold_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/sfpu/ckernel_sfpu_comp.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/python_tests/test_sfpu_comp_unary_threshold.py",
+     "tt_metal/tt-llk/tests/sources/sfpu_comp_unary_threshold_test.cpp"
+    ],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59998",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59998 Blackhole LLK: the unpack matmul step kept in SCRATCH_SEC0 (#58068) breaks ring MLA SDPA accuracy",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59998",
+   "at": "2026-10-09T11:11:18Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59997",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59997 Wormhole LLK perf: BRISC firmware changes move TILE_LOOP through the TRISC release timing",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59997",
+   "at": "2026-10-09T11:11:17Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59996",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59996 Wormhole LLK perf: INIT of the thread with a code change moves by more than the cost of that change",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59996",
+   "at": "2026-10-09T11:11:16Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59995",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59995 Wormhole LLK perf: INIT moves when code outside the INIT zone changes",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59995",
+   "at": "2026-10-09T11:11:14Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59994",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59994 Wormhole LLK perf: code around the measured loop changes the loop's own instructions and address",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59994",
+   "at": "2026-10-09T11:11:13Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59992",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59992 [aw] Failed jobs: Tenstorrent Skills Reviewer",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59992",
+   "at": "2026-10-09T11:06:33Z",
+   "extra": {
+    "author": "app/github-actions",
+    "labels": [
+     "agentic-workflows"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/faizal97/realm-of-loner/issues/167",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "faizal97/realm-of-loner: Taps that do nothing say why (action bar on the road, gathering, unsellable items, taken bounties)",
+   "url": "https://github.com/faizal97/realm-of-loner/issues/167",
+   "at": "2026-10-09T10:38:59Z",
    "extra": {
     "comments": 0,
     "amount_usd": null,
-    "author": "github-actions[bot]",
+    "author": "faizal97",
     "labels": [
-     "bounty-watch"
+     "improvement",
+     "status: ready",
+     "needs: developer"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59988",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59988 [Kimi-K3] Drop the KDA zero-state copy; start from zero state inside the KDA op",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59988",
+   "at": "2026-10-09T10:32:12Z",
+   "extra": {
+    "author": "pavlejosipovic",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/e951c82c9e47b88056a6fb98a38d992cce287bad",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Blackhole SFPU] Record the bf16 accurate exp body through load_replay_buf (tt-llk#1701 item 9) (#59882)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/e951c82c9e47b88056a6fb98a38d992cce287bad",
+   "at": "2026-10-09T10:31:51Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_exp.h",
+     "tt_metal/tt-llk/tests/python_tests/test_gathering_config.py",
+     "tt_metal/tt-llk/tests/sources/eltwise_unary_sfpu_gathering_test.cpp"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tests/sources/eltwise_unary_sfpu_gathering_test.cpp"
+    ],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/a1bf041638df3c363ccb2824f7088009440f5562",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Blackhole SFPU] Record rand_rows through load_replay_buf (tt-llk#1701 item 14) (#59883)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/a1bf041638df3c363ccb2824f7088009440f5562",
+   "at": "2026-10-09T10:30:33Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_rand.h"
+    ],
+    "added": [],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/d52a39d3ea2bd48d8ed0199228b3015e2bf8ed12",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Bug fix] binary_ng: read each row-major operand at its own element stride (#58079)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/d52a39d3ea2bd48d8ed0199228b3015e2bf8ed12",
+   "at": "2026-10-09T10:23:01Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_utils.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_rm_col_bcast.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_rm_no_bcast.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_rm_row_bcast.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_rm_row_col_mixed_bcast.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_rm_scalar_bcast.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_rm_stride.hpp"
+    ],
+    "added": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_rm_stride.hpp"
+    ],
+    "author": "Aswinmcw"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59986",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59986 moreh_mean_backward reads past the end of need_bcast_dim",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59986",
+   "at": "2026-10-09T10:08:34Z",
+   "extra": {
+    "author": "mcw-anasuya",
+    "labels": [
+     "moreh",
+     "MCW"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/074813620136b628bb613b71b8e90ce56a7a8f05",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[skip ci] build: update tt-exalens and tt-smi package versions in LLK test requirements (#59982)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/074813620136b628bb613b71b8e90ce56a7a8f05",
+   "at": "2026-10-09T09:57:43Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/requirements.txt"
+    ],
+    "added": [],
+    "author": "fvranicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/f3eca4ad0c2a93cfaf0b36000b219d00fdb02c23",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Blackhole SFPU] Delete the orphaned _calculate_exponential_body_ (tt-llk#1701 item 11) (#59866)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/f3eca4ad0c2a93cfaf0b36000b219d00fdb02c23",
+   "at": "2026-10-09T09:56:43Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_exp.h"
+    ],
+    "added": [],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/d1043e835ab38c89ed5961f1e1d6ad64f8ba1653",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Blackhole SFPU] Bound the fp32->uint8 typecast shift (tt-llk#1701 item 15) (#59858)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/d1043e835ab38c89ed5961f1e1d6ad64f8ba1653",
+   "at": "2026-10-09T09:54:51Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_sfpu/ckernel_sfpu_typecast.h",
+     "tt_metal/tt-llk/tests/python_tests/test_eltwise_unary_typecast.py"
+    ],
+    "added": [],
+    "author": "ldjurovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59983",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59983 [sfpi] ttrocc addrgen_pop_src/_dest builtins encode rs1 = ra instead of 1",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59983",
+   "at": "2026-10-09T09:38:35Z",
+   "extra": {
+    "author": "vvukomanovicTT",
+    "labels": [
+     "sfpi"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/baa325fd3d0cc79473c10d2695f954e0a47f690c",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Feature] Reconcile Blaze SDPA merged-KV and correction fidelity (#59253)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/baa325fd3d0cc79473c10d2695f954e0a47f690c",
+   "at": "2026-10-09T09:08:15Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_unpack_AB_sdpa_custom_mm_api.h",
+     "tt_metal/hw/inc/api/compute/experimental/sdpa.h",
+     "tt_metal/hw/inc/api/compute/experimental/sdpa_custom_mm.h",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sdpa_bcast_col_srca_srcb_reuse.py",
+     "tt_metal/tt-llk/tests/python_tests/test_sdpa_custom_mm.py",
+     "tt_metal/tt-llk/tests/sources/sdpa_bcast_col_srca_srcb_reuse_test.cpp",
+     "tt_metal/tt-llk/tests/sources/sdpa_custom_mm_test.cpp",
+     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_unpack_AB_sdpa_custom_mm.h"
+    ],
+    "added": [],
+    "author": "pmilenkovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-contracts/issues/44",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-contracts: [Bounty: $80] Test that a re-entrant token cannot double-pay across two rounds",
+   "url": "https://github.com/SUSU-LABS/susu-contracts/issues/44",
+   "at": "2026-10-09T09:06:07Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": 80,
+    "author": "GEEKYFOCUS",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/SUSU-LABS/susu-contracts/issues/41",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "SUSU-LABS/susu-contracts: [Bounty: $70] Return a length matching member_count from get_payout_order, or error",
+   "url": "https://github.com/SUSU-LABS/susu-contracts/issues/41",
+   "at": "2026-10-09T09:05:54Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": 70,
+    "author": "GEEKYFOCUS",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59980",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59980 [HAL] Schedule CFG writes using field latency to minimize NOPs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59980",
+   "at": "2026-10-09T08:54:25Z",
+   "extra": {
+    "author": "njokovicTT",
+    "labels": [
+     "feature",
+     "llk:hal"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59977",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59977 [Kimi-K3] Traced prefill pins KDA carry to slot 0; select slot on device like MLA",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59977",
+   "at": "2026-10-09T08:36:36Z",
+   "extra": {
+    "author": "pavlejosipovic",
+    "labels": [
+     "bug"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/a945272ce0dc7066417e39735c47e56105a1340b",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[LLK] setup_testing_env.sh installs the pre-commit hook from the git root (#59898)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/a945272ce0dc7066417e39735c47e56105a1340b",
+   "at": "2026-10-09T08:15:22Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/tests/setup_testing_env.sh"
+    ],
+    "added": [],
+    "author": "pkennedyTT"
    }
   },
   {
@@ -61,48 +2910,6 @@
     "labels": [
      "community"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/liren001/eth-legion-nexus/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "liren001/eth-legion-nexus: [SERVICE] Verdict-as-a-Service \u2014 mechanical bounty judging, \u00a5599/report",
-   "url": "https://github.com/liren001/eth-legion-nexus/issues/6",
-   "at": "2026-10-09T05:30:06Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "liren001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Movalabs-crew/mova-store/issues/967",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Movalabs-crew/mova-store: Resolve the $1,190 advertised-bounty claim for 15 merged contributions",
-   "url": "https://github.com/Movalabs-crew/mova-store/issues/967",
-   "at": "2026-10-09T04:50:20Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 1190,
-    "author": "woahwhattheheck",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Lilly-Protocol/agentlily-runtime/issues/394",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Lilly-Protocol/agentlily-runtime: Pay the promised $90 bounty for merged PR #384",
-   "url": "https://github.com/Lilly-Protocol/agentlily-runtime/issues/394",
-   "at": "2026-10-09T04:16:41Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "woahwhattheheck",
-    "labels": []
    }
   },
   {
@@ -132,140 +2939,6 @@
     "author": "kinginu",
     "labels": [
      "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/liren001/eth-legion-nexus/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "liren001/eth-legion-nexus: [BOUNTY-002] $150 Synthetic Sequential Structure Hunt \u2014 no real-world data, structure is real",
-   "url": "https://github.com/liren001/eth-legion-nexus/issues/4",
-   "at": "2026-10-09T01:44:45Z",
-   "extra": {
-    "comments": 38,
-    "amount_usd": 150,
-    "author": "liren001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OpenChatGit/GladiatorSociety/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OpenChatGit/GladiatorSociety: Persean Champion bounty is rejected because eagle_Attack does not exist",
-   "url": "https://github.com/OpenChatGit/GladiatorSociety/issues/6",
-   "at": "2026-10-09T01:27:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ktastic7",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/anooeg100-gif/digital-store/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "anooeg100-gif/digital-store: [Bounty ] Fix typo in README",
-   "url": "https://github.com/anooeg100-gif/digital-store/issues/1",
-   "at": "2026-10-09T00:51:02Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "anooeg100-gif",
-    "labels": [
-     "good first issue"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/8",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR other bounty \u2014 submission routing and isolation checks",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/8",
-   "at": "2026-10-09T00:46:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR race submit \u2014 single-entry append and cross-bounty control",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/7",
-   "at": "2026-10-09T00:46:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: MA test \u2014 second-submitter preservation and bounty-isolation smoke test",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/6",
-   "at": "2026-10-09T00:43:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR test bounty \u2014 signed submission lifecycle smoke test",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/5",
-   "at": "2026-10-09T00:35:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/ankittiwari-04/open-bounty/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "ankittiwari-04/open-bounty: Demo Bounty",
-   "url": "https://github.com/ankittiwari-04/open-bounty/issues/5",
-   "at": "2026-10-09T00:27:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ankittiwari-04",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/matiaszanolli/ByroRedux/issues/5405",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "matiaszanolli/ByroRedux: SCR-D5-2026-10-08-03: `build_story_manager_tree` follows a single `SNAM` chain per sibling group, so 41 Skyrim quest nodes on detached chain segments are never evaluated. Among them are the Companions radiant givers and five bounty holds",
-   "url": "https://github.com/matiaszanolli/ByroRedux/issues/5405",
-   "at": "2026-10-09T00:27:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "matiaszanolli",
-    "labels": [
-     "bug",
-     "medium",
-     "scripting",
-     "quests",
-     "game:skyrim"
     ]
    }
   },
@@ -316,36 +2989,6 @@
    }
   },
   {
-   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/93",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-08: 0 new, 0 resumed, 3 watchlist changes",
-   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/93",
-   "at": "2026-10-08T23:32:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "github-actions[bot]",
-    "labels": [
-     "bounty-watch"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/OpenChatGit/GladiatorSociety/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OpenChatGit/GladiatorSociety: Some bounty missions are missing difficulty labels",
-   "url": "https://github.com/OpenChatGit/GladiatorSociety/issues/4",
-   "at": "2026-10-08T23:28:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ktastic7",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59932",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -386,24 +3029,6 @@
    }
   },
   {
-   "id": "https://github.com/StellarQuorum/StellarQuorum/issues/334",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "StellarQuorum/StellarQuorum: security: document a bug bounty program and triage process",
-   "url": "https://github.com/StellarQuorum/StellarQuorum/issues/334",
-   "at": "2026-10-08T21:49:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "sanmipaul",
-    "labels": [
-     "documentation",
-     "security",
-     "community"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59930",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -414,6 +3039,7 @@
     "author": "ilyas-mallah",
     "labels": [
      "bug",
+     "op_cat: eltwise",
      "community"
     ]
    }
@@ -524,38 +3150,6 @@
    }
   },
   {
-   "id": "https://github.com/dannyheskett/openbounty/issues/228",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dannyheskett/openbounty: Glory of Rome: rename the 25 King's Bounty troop ids in the pack to Rome's own ids",
-   "url": "https://github.com/dannyheskett/openbounty/issues/228",
-   "at": "2026-10-08T21:40:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dannyheskett",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/cordanaLLM/praetor/issues/1023",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "cordanaLLM/praetor: Funding: governed bounty intake driven by configuration",
-   "url": "https://github.com/cordanaLLM/praetor/issues/1023",
-   "at": "2026-10-08T21:35:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "lusoris",
-    "labels": [
-     "enhancement",
-     "P3",
-     "docs"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59928",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -628,45 +3222,14 @@
   },
   {
    "id": "https://github.com/BasedHardware/omi/issues/20991",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "BasedHardware/omi: [Bounty proposal] fix(public-holidays-app): coerce null/string inputs, default current UTC year, and harden country list ($25 proposed)",
-   "url": "https://github.com/BasedHardware/omi/issues/20991",
-   "at": "2026-10-08T19:47:22Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 25,
-    "author": "Longo125",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20991",
    "source": "omi",
    "kind": "omi_proposal",
    "title": "omi#20991 [Bounty proposal] fix(public-holidays-app): coerce null/string inputs, default current UTC year, and harden country list ($25 proposed)",
    "url": "https://github.com/BasedHardware/omi/issues/20991",
    "at": "2026-10-08T19:47:22Z",
    "extra": {
-    "state": "open",
+    "state": "closed",
     "author": "Longo125"
-   }
-  },
-  {
-   "id": "https://github.com/glunk-works/claude-workbench/issues/406",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "glunk-works/claude-workbench: Cut bounty-infra over to the code-owner approval gate",
-   "url": "https://github.com/glunk-works/claude-workbench/issues/406",
-   "at": "2026-10-08T18:42:19Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "Seuss27",
-    "labels": [
-     "chore",
-     "status/needs-human"
-    ]
    }
   },
   {
@@ -717,34 +3280,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59908",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59908 Investigate failure on 3mb quasar variant emulator for slice",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59908",
-   "at": "2026-10-08T17:15:47Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/miknutty2/gh-bounty-actions-policy-lab-20261008/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "miknutty2/gh-bounty-actions-policy-lab-20261008: GH_BOUNTY_POLICY_OUTSIDER_ISSUE_20261008",
-   "url": "https://github.com/miknutty2/gh-bounty-actions-policy-lab-20261008/issues/1",
-   "at": "2026-10-08T17:10:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "09sd",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59732",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -776,1000 +3311,6 @@
    }
   },
   {
-   "id": "https://github.com/Vellara-Labs/vellara/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Vellara-Labs/vellara: [Bounty: $85] Add property-token tests for the dividend state left behind by `buyback`",
-   "url": "https://github.com/Vellara-Labs/vellara/issues/106",
-   "at": "2026-10-08T16:26:30Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "BigHost3",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Vellara-Labs/vellara/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Vellara-Labs/vellara: [Bounty: $85] Add Rust tests for invoice-token holder accounting across transfer, redeem and burn",
-   "url": "https://github.com/Vellara-Labs/vellara/issues/105",
-   "at": "2026-10-08T16:26:28Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "Babalola29",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Vellara-Labs/vellara/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Vellara-Labs/vellara: [Bounty: $70] Add Rust tests for the compliance-engine holder-registration TTL path",
-   "url": "https://github.com/Vellara-Labs/vellara/issues/104",
-   "at": "2026-10-08T16:26:27Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Ayomide3271",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Vellara-Labs/vellara/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Vellara-Labs/vellara: [Bounty: $50] Add unit tests for `frontend/src/lib/validation.ts` stroop conversion",
-   "url": "https://github.com/Vellara-Labs/vellara/issues/103",
-   "at": "2026-10-08T16:26:25Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 50,
-    "author": "Abu0001-b",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Vellara-Labs/vellara/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Vellara-Labs/vellara: [Bounty: $45] Add unit tests for `sdk/src/clients/RwaTokenClient.ts` metadata and allowance calls",
-   "url": "https://github.com/Vellara-Labs/vellara/issues/102",
-   "at": "2026-10-08T16:26:24Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 45,
-    "author": "Abdulrahman654",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Vellara-Labs/vellara/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Vellara-Labs/vellara: [Bounty: $50] Add unit tests for `sdk/src/clients/KycRegistryClient.ts` approval encoding",
-   "url": "https://github.com/Vellara-Labs/vellara/issues/101",
-   "at": "2026-10-08T16:26:22Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "Abbyhay",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $70] Call or remove runstore.FileStore.VerifyAll",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/110",
-   "at": "2026-10-08T16:26:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "AKAEMM668",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $75] Wire or delete route.SweepCostClass and ReconcileComponents",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/109",
-   "at": "2026-10-08T16:26:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "0yOla",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $75] Correct the deployment doc's promise of a measure alert step",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/108",
-   "at": "2026-10-08T16:26:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "selianwp",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $50] Give writeJSONError the machine-readable code every other error carries",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/107",
-   "at": "2026-10-08T16:26:16Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 50,
-    "author": "ridwanraji1290-ai",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $70] Register or remove the /api/attestations handlers",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/106",
-   "at": "2026-10-08T16:26:14Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 70,
-    "author": "rasheed814",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $45] Collapse the triplicated CostDecomposition doc comment",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/105",
-   "at": "2026-10-08T16:26:13Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 45,
-    "author": "proficientformula",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $65] Add a go mod tidy check to the build job",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/104",
-   "at": "2026-10-08T16:26:11Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 65,
-    "author": "princesslux",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $80] Add a CI job that fails on a broken relative Markdown link",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/103",
-   "at": "2026-10-08T16:26:09Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 80,
-    "author": "oyeyemipamilerin6-collab",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sounding-Labs/sounding/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sounding-Labs/sounding: [Bounty: $70] Verify the committed data/ chain in a dedicated CI job",
-   "url": "https://github.com/Sounding-Labs/sounding/issues/102",
-   "at": "2026-10-08T16:26:08Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 70,
-    "author": "omoniyiadebayo12goal-crypto",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $55] Implement or remove the extractPostageFromResult stub",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/109",
-   "at": "2026-10-08T16:26:06Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "Bezzy2105",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $70] Stop swallowing all errors in readOnChainPostage",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/108",
-   "at": "2026-10-08T16:26:05Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Bashman10",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $65] Use a CSPRNG for beta control audit ids",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/107",
-   "at": "2026-10-08T16:26:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Awesome254",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $55] Add timeout-minutes to the E2E Tests job",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/106",
-   "at": "2026-10-08T16:26:01Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 55,
-    "author": "Adunola022",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $60] Pin the Stellar CLI download in beta-live-testnet.yml",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/105",
-   "at": "2026-10-08T16:26:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "victordice486-hub",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $90] Add component tests for the SettingsModal dialog",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/104",
-   "at": "2026-10-08T16:25:58Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 90,
-    "author": "sulaimon-developer",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $80] Add unit tests for KvMailboxSyncPersistence",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/103",
-   "at": "2026-10-08T16:25:57Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "sodiqkareem018-maker",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $65] Add unit tests for handleMailboxSync in services/relay/mailbox-sync-transport.ts",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/102",
-   "at": "2026-10-08T16:25:55Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "snazzymillenia",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Sottara-Labs/sottara/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Sottara-Labs/sottara: [Bounty: $60] Add unit tests for the useSnooze hook",
-   "url": "https://github.com/Sottara-Labs/sottara/issues/101",
-   "at": "2026-10-08T16:25:53Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "sam-jegs",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-contracts: [Bounty: $65] Add a cost-budget regression test that `get_progress_history` writes no TTL",
-   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/106",
-   "at": "2026-10-08T16:25:51Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "olaide2001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-contracts: [Bounty: $45] Add tests for `scripts/calibrate-budgets.py`",
-   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/105",
-   "at": "2026-10-08T16:25:49Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 45,
-    "author": "meek-codex",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-contracts: [Bounty: $65] Add tests for `scripts/check-migration-numbering.sh`",
-   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/104",
-   "at": "2026-10-08T16:25:48Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "itzkingaddie",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-contracts: [Bounty: $70] Add tests for the tier-table parser in `scripts/check-cross-doc-consistency.sh`",
-   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/103",
-   "at": "2026-10-08T16:25:46Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 70,
-    "author": "hardeyshorlar12",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-contracts: [Bounty: $95] Add regression tests for `scripts/check-storage-layout-compat.sh` using `scripts/fixtures`",
-   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/102",
-   "at": "2026-10-08T16:25:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 95,
-    "author": "devNuel",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-contracts/issues/101",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-contracts: [Bounty: $70] Add tests for the `chaos-tests` fixture builders in `fixtures.rs`",
-   "url": "https://github.com/Signpost-Labs/signpost-contracts/issues/101",
-   "at": "2026-10-08T16:25:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "damilarematin-sketch",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/120",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $95] Route the `postgres-driver.ts` console calls through the logger",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/120",
-   "at": "2026-10-08T16:25:41Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 95,
-    "author": "marvelous1805",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/119",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $90] Deduplicate the raw-event mapping across the indexer services",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/119",
-   "at": "2026-10-08T16:25:39Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "isaac4real-art",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/118",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $85] Remove the duplicate `convertPlaceholders` translator in `postgres-driver.ts`",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/118",
-   "at": "2026-10-08T16:25:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "horrmorr",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/117",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $70] Stop `dataExportController` returning a placeholder job id",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/117",
-   "at": "2026-10-08T16:25:36Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "emmixeryng",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/116",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $65] Reconcile the inert `MILESTONE_RATE_*` variables with the code",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/116",
-   "at": "2026-10-08T16:25:34Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "alimillz30",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/115",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $60] Bound the growth of `InMemoryRateLimitStore`",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/115",
-   "at": "2026-10-08T16:25:32Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Xhaka00",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/114",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $65] Add a CI step that fails on `.env.example` drift",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/114",
-   "at": "2026-10-08T16:25:31Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Vraey-bit",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/113",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $60] Guard the Codecov upload when `CODECOV_TOKEN` is unset",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/113",
-   "at": "2026-10-08T16:25:29Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Sophtassilk",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Signpost-Labs/signpost-api/issues/112",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Signpost-Labs/signpost-api: [Bounty: $75] Add `timeout-minutes` to the `docker` job in `ci.yml`",
-   "url": "https://github.com/Signpost-Labs/signpost-api/issues/112",
-   "at": "2026-10-08T16:25:28Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 75,
-    "author": "Sheriff258",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $80] Fix the network-to-explorer mapping in the PDF export",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/110",
-   "at": "2026-10-08T16:25:26Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "comrade10-coder",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $90] Fix the accent colour in the exported transaction PDF",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/109",
-   "at": "2026-10-08T16:25:24Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "ayoalade1709-gif",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $80] Fix the bare `?` and draft desync in `useOfferFilters`",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/108",
-   "at": "2026-10-08T16:25:22Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "alongemahfuz4-eng",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $45] Add `concurrency` cancellation to the workflow",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/107",
-   "at": "2026-10-08T16:25:21Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "adewalere-ctrl",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $40] Add `timeout-minutes` to every job in `ci-cd.yml`",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/106",
-   "at": "2026-10-08T16:25:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "abdul-tech-dev",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $45] Pin every GitHub Action in `ci-cd.yml` to a commit SHA",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/105",
-   "at": "2026-10-08T16:25:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "WALEY-OPS",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $40] Add least-privilege `permissions` to the `test` and `build` jobs",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/104",
-   "at": "2026-10-08T16:25:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "Victoro001-tech",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $80] Add a Vitest coverage provider and thresholds so CI can gate coverage",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/103",
-   "at": "2026-10-08T16:25:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "Timmmytunner",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-app/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-app: [Bounty: $60] Add tests for the `ProfileTab` alias availability flow",
-   "url": "https://github.com/Settla-Labs/settla-app/issues/102",
-   "at": "2026-10-08T16:25:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Sky4561",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-api/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-api: [Bounty: $40] Add a unit test for OrderCron.expireOrders error handling",
-   "url": "https://github.com/Settla-Labs/settla-api/issues/106",
-   "at": "2026-10-08T16:25:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "Omoniyi6396",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-api/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-api: [Bounty: $90] Add unit tests for OrderService.expireOrders escrow protection",
-   "url": "https://github.com/Settla-Labs/settla-api/issues/105",
-   "at": "2026-10-08T16:25:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "Muhd010",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-api/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-api: [Bounty: $50] Add unit tests for SendService.resolveRecipient alias resolution",
-   "url": "https://github.com/Settla-Labs/settla-api/issues/104",
-   "at": "2026-10-08T16:25:05Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 50,
-    "author": "Luna-netty",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-api/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-api: [Bounty: $50] Add unit tests for the stroop conversion helpers in send.service.ts",
-   "url": "https://github.com/Settla-Labs/settla-api/issues/103",
-   "at": "2026-10-08T16:25:04Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 50,
-    "author": "KunmiWrites-bit",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Settla-Labs/settla-api/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Settla-Labs/settla-api: [Bounty: $75] Add unit tests for SendService.prepare fee and self-send handling",
-   "url": "https://github.com/Settla-Labs/settla-api/issues/102",
-   "at": "2026-10-08T16:25:02Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "Ishola001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $70] Document the withdraw_fees, cancel_market, and cancel_refund methods the smoke test exercises",
-   "url": "https://github.com/Presago-Labs/presago/issues/110",
-   "at": "2026-10-08T16:25:00Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 70,
-    "author": "Hu-ter",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $65] Reconcile the mainnet and testnet contract tables in docs/CONTRACT_CALLS.md and README.md",
-   "url": "https://github.com/Presago-Labs/presago/issues/109",
-   "at": "2026-10-08T16:24:58Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 65,
-    "author": "Horpeyehmi",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $70] Document the seven scripts/ entry points in README.md",
-   "url": "https://github.com/Presago-Labs/presago/issues/108",
-   "at": "2026-10-08T16:24:57Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 70,
-    "author": "Halimatyemisi",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $90] Replace the hex digests in frontend/vendor/integrity.json with valid base64 SRI values",
-   "url": "https://github.com/Presago-Labs/presago/issues/107",
-   "at": "2026-10-08T16:24:55Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 90,
-    "author": "Gentle842",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $75] Verify the hardcoded testnet XLM SAC in scripts/deploy-testnet.sh",
-   "url": "https://github.com/Presago-Labs/presago/issues/106",
-   "at": "2026-10-08T16:24:53Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 75,
-    "author": "Emmajay12",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $80] Assert the accumulated fee in smoke-test step 5 instead of printing it",
-   "url": "https://github.com/Presago-Labs/presago/issues/105",
-   "at": "2026-10-08T16:24:52Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 80,
-    "author": "Chummy-debug",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $45] Fix formatLeaderboardTimestamp discarding the valid epoch timestamp 0",
-   "url": "https://github.com/Presago-Labs/presago/issues/104",
-   "at": "2026-10-08T16:24:50Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 45,
-    "author": "BigHost3",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $70] Strip whitespace from the installed wasm hash in upgrade-gas-reduction.sh",
-   "url": "https://github.com/Presago-Labs/presago/issues/103",
-   "at": "2026-10-08T16:24:49Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 70,
-    "author": "Babalola29",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Presago-Labs/presago/issues/102",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Presago-Labs/presago: [Bounty: $65] Fix the testnet branch of upgrade-gas-reduction.sh never validating LEADERBOARD_ID",
-   "url": "https://github.com/Presago-Labs/presago/issues/102",
-   "at": "2026-10-08T16:24:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": 65,
-    "author": "Ayomide3271",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $90] Bound the `withdraw` transfer by `remaining_balance`",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/110",
-   "at": "2026-10-08T16:24:45Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 90,
-    "author": "Horlars105",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $70] Validate `token_addr != env.current_contract_address()` in `create_stream`",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/109",
-   "at": "2026-10-08T16:24:43Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Genesis000001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $55] Document and guard the zero `rate_per_second` when the deposit is under the duration",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/108",
-   "at": "2026-10-08T16:24:42Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "FreshTVMax",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $45] Add `concurrency` cancellation to the CI workflow",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/107",
-   "at": "2026-10-08T16:24:40Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "Chekuyermu",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $50] Pin GitHub Actions to commit SHAs in the CI workflow",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/106",
-   "at": "2026-10-08T16:24:38Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 50,
-    "author": "Ceepr1an",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Perenna-Labs/perenna-contracts/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Perenna-Labs/perenna-contracts: [Bounty: $40] Add least-privilege `permissions` to the CI workflow",
-   "url": "https://github.com/Perenna-Labs/perenna-contracts/issues/105",
-   "at": "2026-10-08T16:24:37Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 40,
-    "author": "Bossjhay813",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59894",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59894 [aw] Matt Pocock Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59894",
-   "at": "2026-10-08T16:23:19Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59892",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59892 [aw] Tenstorrent Skills Reviewer failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59892",
-   "at": "2026-10-08T16:22:43Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59891",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59891 Investigate using narrow-row pack-untilize on Quasar",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59891",
-   "at": "2026-10-08T16:14:49Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/commit/0d8d07ef6128581c148f6ef8a4d562a83aff3bd3",
    "source": "tenstorrent",
    "kind": "tt_kernel_commit",
@@ -1783,759 +3324,6 @@
     ],
     "added": [],
     "author": "nstojicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59886",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59886 [aw] `/test` \u2014 CI pipeline selector for tt-metal failed",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59886",
-   "at": "2026-10-08T15:28:28Z",
-   "extra": {
-    "author": "app/github-actions",
-    "labels": [
-     "agentic-workflows"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/5e76c252b2ebd7f3a8802f867cd87411f1268d85",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] softmax: accumulate the SUM reduce in fp32 regardless of input dtype (#53643)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/5e76c252b2ebd7f3a8802f867cd87411f1268d85",
-   "at": "2026-10-08T15:23:22Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/softmax/device/softmax_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/softmax/device/softmax_program_factory_attention_optimized.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/softmax/docs/Softmax.md"
-    ],
-    "added": [],
-    "author": "kinginu"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/b06146bfb0cb217fd004ccabb42f56315f3edfe9",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Cleanup] LLK pack: drop dead channel-1 dest counter updates (#59512)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/b06146bfb0cb217fd004ccabb42f56315f3edfe9",
-   "at": "2026-10-08T15:15:00Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/experimental/sdpa_weighted_reduce.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cpack_common.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_pack.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_pack.h"
-    ],
-    "added": [],
-    "author": "lpremovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59874",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59874 API for >, <= mask generation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59874",
-   "at": "2026-10-08T14:50:38Z",
-   "extra": {
-    "author": "nathan-TT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/236f9c58a1305bcaaa25b5a5290ce2c0fcdf2e4f",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] BH LLK: set_packer_strides owns packer ch1 Y stride; drop no-op fast-(un)tilize uninit writes (#59486)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/236f9c58a1305bcaaa25b5a5290ce2c0fcdf2e4f",
-   "at": "2026-10-08T14:41:51Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/experimental/llk_pack_fast_untilize_api.h",
-     "tt_metal/hw/inc/api/compute/experimental/fast_untilize.h",
-     "tt_metal/tt-llk/.claude/references/common-errors.md",
-     "tt_metal/tt-llk/tests/sources/fast_untilize_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/common/inc/cpack_common.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_fast_tilize.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_math_fast_untilize.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/experimental/llk_pack_fast_untilize.h"
-    ],
-    "added": [],
-    "author": "lpremovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59857",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59857 Heavyweight golden: inheritance vs. composition for per-architecture variation",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59857",
-   "at": "2026-10-08T14:21:58Z",
-   "extra": {
-    "author": "uvelimirovicTT",
-    "labels": [
-     "feature"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/5171fe75f476164e3768a365d58e69e9acdf6a8d",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Remove direct load/store builtin use (#59472)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/5171fe75f476164e3768a365d58e69e9acdf6a8d",
-   "at": "2026-10-08T14:07:46Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_typecast.h"
-    ],
-    "added": [],
-    "author": "nathan-TT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59851",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59851 [gemma4_d_p] Find the smallest chunk size with high matmul utilization",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59851",
-   "at": "2026-10-08T13:10:08Z",
-   "extra": {
-    "author": "svuckovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59849",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59849 [ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59849",
-   "at": "2026-10-08T12:55:37Z",
-   "extra": {
-    "author": "warneat",
-    "labels": [
-     "bug",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59848",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59848 [ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59848",
-   "at": "2026-10-08T12:53:29Z",
-   "extra": {
-    "author": "warneat",
-    "labels": [
-     "bug",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59847",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59847 [ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59847",
-   "at": "2026-10-08T12:50:51Z",
-   "extra": {
-    "author": "warneat",
-    "labels": [
-     "bug",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59846",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59846 [gemma4_d_p] Sweep SDPA util% across small chunk sizes",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59846",
-   "at": "2026-10-08T12:45:20Z",
-   "extra": {
-    "author": "svuckovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59844",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59844 [sfpi-gcc] Make sure enough cycles pass between a NOC write-flush barrier and the next L1 store (WH/BH source-buffer reuse race)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59844",
-   "at": "2026-10-08T12:41:09Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "sfpi"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59843",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59843 [LLK][Perf Infra] Bugs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59843",
-   "at": "2026-10-08T12:40:25Z",
-   "extra": {
-    "author": "skrsmanovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59842",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59842 [LLK][Perf Infra] Improvements/Features",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59842",
-   "at": "2026-10-08T12:37:18Z",
-   "extra": {
-    "author": "skrsmanovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59840",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59840 [LLK][Perf Infra] CI Gates",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59840",
-   "at": "2026-10-08T12:28:03Z",
-   "extra": {
-    "author": "skrsmanovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59839",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59839 [LLK][Perf Infra] Reliability",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59839",
-   "at": "2026-10-08T12:26:10Z",
-   "extra": {
-    "author": "skrsmanovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59837",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59837 [LLK][Perf Infra] Stability",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59837",
-   "at": "2026-10-08T12:24:44Z",
-   "extra": {
-    "author": "skrsmanovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/0efb8a61be8d590b117aed6228b2fcde7f67ac5c",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][BH+WH] Fix FP32 dest-acc handshake ordering: drain before release (#55807)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/0efb8a61be8d590b117aed6228b2fcde7f67ac5c",
-   "at": "2026-10-08T12:23:19Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/compute_kernel_hw_startup.h",
-     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_cfg_occupancy.py",
-     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_release_order.py",
-     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_cfg_occupancy_test.cpp",
-     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_release_order_test.cpp",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_fp32_dest_acc.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_fp32_dest_acc.h"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_cfg_occupancy.py",
-     "tt_metal/tt-llk/tests/python_tests/test_fp32_dest_acc_release_order.py",
-     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_cfg_occupancy_test.cpp",
-     "tt_metal/tt-llk/tests/sources/fp32_dest_acc_release_order_test.cpp"
-    ],
-    "author": "amahmudTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59836",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59836 [Quasar] Compiler must insert spacing after RoCC address-generator instructions",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59836",
-   "at": "2026-10-08T12:18:06Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "data_movement",
-     "sfpi",
-     "Quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59831",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59831 LLK: cross-arch BH/QSR sweep comparer and perf accounting",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59831",
-   "at": "2026-10-08T12:06:01Z",
-   "extra": {
-    "author": "ndivnicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59829",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59829 layer_norm / rms_norm (sharded): residual_input_tensor with a different dtype than the input gives wrong results",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59829",
-   "at": "2026-10-08T11:58:27Z",
-   "extra": {
-    "author": "warneat",
-    "labels": [
-     "bug",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59828",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59828 matmul: fp32 accumulation error grows with K in the reuse, DRAM-sharded and batched DRAM-sharded factories (partials reloaded through SrcA)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59828",
-   "at": "2026-10-08T11:58:15Z",
-   "extra": {
-    "author": "warneat",
-    "labels": [
-     "bug",
-     "op_cat: mm",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/2c6d4cebdfebd40bc5326212c0a1a0fe39bccc4b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[fuser] fix Quasar fuser fidelity validation and unpacker configuration (#59820)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/2c6d4cebdfebd40bc5326212c0a1a0fe39bccc4b",
-   "at": "2026-10-08T11:44:47Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/python_tests/fuser/blackhole/unpacker/common.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/config_parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/common.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/unpacker/matmul.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_1x1.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_bias.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_bn.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_pack_relu.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_residual.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_silu.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/conv_two_stage.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_elwmul.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_matmul.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_column.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_row.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_row_to_tile.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/fpu_reduce_scalar.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_chunked_receiver.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_sharded_v2.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_sharded_v2_receiver.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/groupnorm_tiled_sender.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/hifi_elwmul_overwrite.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/layernorm_sharded.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/layernorm_sharded_two_stage.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_bias_relu.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_bn_relu.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_bottleneck.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_dest_acc.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_matmul_packer.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/conv_residual_relu.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/eltwise_broadcast.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/fpu_matmul_32x16_16x32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/matmul_pack.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/maxpool_col_tilize.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/reduce_col_tilize.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sdpa_inner_loop.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/wormhole/unpacker/common.py"
-    ],
-    "added": [],
-    "author": "markoradosavljevicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59825",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59825 moreh_layer_norm_backward / moreh_group_norm_backward: dgamma/dbeta accumulate through bf16 buffers and saturate at ~256 (2x wrong gamma/beta gradients on ordinary training shapes)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59825",
-   "at": "2026-10-08T11:16:12Z",
-   "extra": {
-    "author": "archiforge",
-    "labels": [
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59824",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59824 ttnn.update_cache silently writes out-of-bounds pages past the cache buffer when num_users > 32 and not a multiple of 32 (e.g. 48)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59824",
-   "at": "2026-10-08T11:16:00Z",
-   "extra": {
-    "author": "archiforge",
-    "labels": [
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59823",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59823 tt-llk: test the K=1024 column rebuild of topk_xl (_topk_xl_rebuild_columns_)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59823",
-   "at": "2026-10-08T10:25:38Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59821",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59821 LLK: run the hardware free perf counter tests outside the PR gate smoke jobs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59821",
-   "at": "2026-10-08T09:46:50Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59818",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59818 [ttnn/softmax]: sharded softmax lets tile-padding columns into the row sum when the last dimension is not a multiple of 32 (rows sum to ~0.6-0.8)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59818",
-   "at": "2026-10-08T09:16:00Z",
-   "extra": {
-    "author": "roygindi2-design",
-    "labels": [
-     "bug",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59817",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59817 [Quasar] Remove unneeded post-SFPSWAP NOPs and wrong \"SFPSWAP\u2192SFPSTORE stall\" comments in SFPU kernels",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59817",
-   "at": "2026-10-08T09:03:11Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/9ad6239dc29721204d96afa133057ef6680f66df",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Port gelu_bw onto the shared unary-backward device op (#58352)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/9ad6239dc29721204d96afa133057ef6680f66df",
-   "at": "2026-10-08T08:42:32Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/CMakeLists.txt",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/eltwise_bw_gelu_poly.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/eltwise_bw_gelu_tanh.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/eltwise_bw_gelu_tanh_fp32.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/eltwise_bw_sigmoid.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/eltwise_bw_tanh.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/operand_reconfig.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_op_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/unary_backward_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/gelu_bw/device/gelu_bw_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/gelu_bw/device/gelu_bw_device_operation.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/gelu_bw/device/gelu_bw_device_operation_types.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/gelu_bw/device/gelu_bw_program_factory.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/gelu_bw/device/gelu_bw_program_factory.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/sources.cmake",
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/unary_backward.cpp"
-    ],
-    "added": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary_backward/device/kernels/compute/operand_reconfig.hpp"
-    ],
-    "author": "Aswinmcw"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59815",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59815 blackhole llk perf: untilize and pack_untilize",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59815",
-   "at": "2026-10-08T08:37:11Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59814",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59814 blackhole llk perf: unary datacopy",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59814",
-   "at": "2026-10-08T08:37:08Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59813",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59813 blackhole llk perf: transpose",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59813",
-   "at": "2026-10-08T08:37:06Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59812",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59812 blackhole llk perf: tilize",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59812",
-   "at": "2026-10-08T08:37:03Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59811",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59811 blackhole llk perf: reduce",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59811",
-   "at": "2026-10-08T08:37:00Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59810",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59810 blackhole llk perf: pack",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59810",
-   "at": "2026-10-08T08:36:57Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59809",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59809 blackhole llk perf: matmul",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59809",
-   "at": "2026-10-08T08:36:55Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59808",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59808 blackhole llk perf: experimental rmsnorm, scalar reduce, MoE gates, hadamard, sinkhorn, rope and others",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59808",
-   "at": "2026-10-08T08:36:52Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59807",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59807 blackhole llk perf: experimental matmuls",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59807",
-   "at": "2026-10-08T08:36:49Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59806",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59806 blackhole llk perf: experimental",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59806",
-   "at": "2026-10-08T08:36:46Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59805",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59805 blackhole llk perf: eltwise binary",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59805",
-   "at": "2026-10-08T08:36:44Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59804",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59804 blackhole llk perf: SFPU unary math",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59804",
-   "at": "2026-10-08T08:36:41Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59803",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59803 blackhole llk perf: SFPU reduce",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59803",
-   "at": "2026-10-08T08:36:38Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59802",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59802 blackhole llk perf: SFPU integer ops, comparisons, typecast, quantization",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59802",
-   "at": "2026-10-08T08:36:35Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59801",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59801 blackhole llk perf: SFPU fill, mask, rand, dropout, copy_dest_values, activation extras",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59801",
-   "at": "2026-10-08T08:36:33Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59800",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59800 blackhole llk perf: SFPU binary, ternary and scalar binops",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59800",
-   "at": "2026-10-08T08:36:30Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59799",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59799 blackhole llk perf: SFPU Welford, EMA, cumsum",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59799",
-   "at": "2026-10-08T08:36:27Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59798",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59798 blackhole llk perf: SFPU TopK",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59798",
-   "at": "2026-10-08T08:36:24Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/3a5ac26525d114d6d7e3ebc9d066105a89e05fce",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[LLK][Feature] Implement rand for Quasar (#59437)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/3a5ac26525d114d6d7e3ebc9d066105a89e05fce",
-   "at": "2026-10-08T08:32:20Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rand.h",
-     "tt_metal/tt-llk/tests/helpers/include/sfpu_operations_quasar.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/quasar/parser.py",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_rand_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_rand_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/helpers/golden_generators.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/llk_params.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/sfpu_dispatch_constants.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_rand_quasar.py",
-     "tt_metal/tt-llk/tt_llk_quasar/llk_lib/llk_defs.h"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_rand.h",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_rand_dest16.yaml",
-     "tt_metal/tt-llk/tests/python_tests/fuser/tests/quasar/sfpu_rand_dest32.yaml",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_rand_quasar.py"
-    ],
-    "author": "nstamatovicTT"
    }
   },
   {
@@ -2578,29 +3366,13 @@
    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1836",
    "at": "2026-10-08T01:05:18Z",
    "extra": {
-    "comments": 4,
+    "comments": 19,
     "amount_usd": 3000,
     "author": "zhangjiayang6835-cyber",
     "labels": [
      "bounty",
      "real"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/55105",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#55105 [Bounty $1,500] ttnn.polygamma returns exactly 0 for n >= 7 over a wide band of ordinary positive x, where the true value is a normal fp32 (n! scale applied after accumulation)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/55105",
-   "at": "2026-10-07T20:05:29Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "singhharsh1708",
-    "assignees": [
-     "singhharsh1708"
-    ],
-    "created": "2026-09-01T20:58:07Z"
    }
   }
  ],
