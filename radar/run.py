@@ -94,8 +94,8 @@ def main(argv):
     for e in events:
         totals[e["kind"]] = totals.get(e["kind"], 0) + 1
     digest = render(now, new_events, pr_changes, errors, totals)
-    print(digest)
     if dry:
+        print(digest)
         return 0
     STATE.parent.mkdir(exist_ok=True)
     DIGESTS.mkdir(exist_ok=True)
@@ -106,7 +106,7 @@ def main(argv):
     (ROOT / "state" / "inbox.md").write_text(ledger.render_inbox(book))
     if advanced:
         digest += "\n## Ledger advanced\n\n" + "\n".join(f"- {rid}" for rid in advanced) + "\n"
-        print(digest.split("## Ledger advanced")[1])
+    print(digest)
     SEEN.write_text(json.dumps(sorted(seen | {e["id"] for e in events})[-5000:]))
     if new_events or pr_changes:
         path = DIGESTS / f"{now[:10]}.md"
