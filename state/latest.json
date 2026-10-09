@@ -1,6 +1,396 @@
 {
- "generated_at": "2026-10-08T21:47:46Z",
+ "generated_at": "2026-10-09T01:42:56Z",
  "events": [
+  {
+   "id": "https://github.com/OpenChatGit/GladiatorSociety/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OpenChatGit/GladiatorSociety: Persean Champion bounty is rejected because eagle_Attack does not exist",
+   "url": "https://github.com/OpenChatGit/GladiatorSociety/issues/6",
+   "at": "2026-10-09T01:27:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ktastic7",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/anooeg100-gif/digital-store/issues/1",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "anooeg100-gif/digital-store: [Bounty ] Fix typo in README",
+   "url": "https://github.com/anooeg100-gif/digital-store/issues/1",
+   "at": "2026-10-09T00:51:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "anooeg100-gif",
+    "labels": [
+     "good first issue"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/8",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR other bounty \u2014 submission routing and isolation checks",
+   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/8",
+   "at": "2026-10-09T00:46:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dingyifeng123456-spec",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/7",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR race submit \u2014 single-entry append and cross-bounty control",
+   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/7",
+   "at": "2026-10-09T00:46:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dingyifeng123456-spec",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: MA test \u2014 second-submitter preservation and bounty-isolation smoke test",
+   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/6",
+   "at": "2026-10-09T00:43:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dingyifeng123456-spec",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR test bounty \u2014 signed submission lifecycle smoke test",
+   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/5",
+   "at": "2026-10-09T00:35:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "dingyifeng123456-spec",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/ankittiwari-04/open-bounty/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ankittiwari-04/open-bounty: Demo Bounty",
+   "url": "https://github.com/ankittiwari-04/open-bounty/issues/5",
+   "at": "2026-10-09T00:27:16Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ankittiwari-04",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/matiaszanolli/ByroRedux/issues/5405",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "matiaszanolli/ByroRedux: SCR-D5-2026-10-08-03: `build_story_manager_tree` follows a single `SNAM` chain per sibling group, so 41 Skyrim quest nodes on detached chain segments are never evaluated. Among them are the Companions radiant givers and five bounty holds",
+   "url": "https://github.com/matiaszanolli/ByroRedux/issues/5405",
+   "at": "2026-10-09T00:27:09Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "matiaszanolli",
+    "labels": [
+     "bug",
+     "medium",
+     "scripting",
+     "quests",
+     "game:skyrim"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/c0b2affd083a216c04097a6e2b1d7201137319c4",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "ttnn.sampling: 16-bit random threshold (tail tokens were never drawn) (#59759)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/c0b2affd083a216c04097a6e2b1d7201137319c4",
+   "at": "2026-10-09T00:24:06Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/compute/sampling.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/dataflow/writer_interleaved.cpp"
+    ],
+    "added": [],
+    "author": "arginugaTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/b1be0458c33d79416aa866e508f3292598681d27",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Cleanup] Run Misc Include Cleaner on Metal APIs [skip ci] (#59418)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/b1be0458c33d79416aa866e508f3292598681d27",
+   "at": "2026-10-09T00:02:14Z",
+   "extra": {
+    "files": [
+     "ttnn/cpp/ttnn/operations/eltwise/binary/common/binary_op_dtype_policy.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/binary_ng_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/ternary/device/ternary_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.cpp",
+     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/batch_norm/device/batch_norm_utils.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/groupnorm_mcast_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/groupnorm_no_mcast_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/groupnorm/device/groupnorm_sharded_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/layernorm_device_operation.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/layernorm_op_multi_core.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/sharded_layernorm_factory_helpers.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_post_all_gather_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/layernorm_distributed/device/layernorm_post_all_gather_welford_program_factory.cpp",
+     "ttnn/cpp/ttnn/operations/normalization/shard_spec_validation.cpp",
+     "ttnn/cpp/ttnn/operations/reduction/argmax/device/argmax_multi_core_program_factory.cpp"
+    ],
+    "added": [],
+    "author": "blozano-tt"
+   }
+  },
+  {
+   "id": "https://github.com/scapesnovel/AutoCash/issues/44",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "scapesnovel/AutoCash: Test Opire Bounty Integration",
+   "url": "https://github.com/scapesnovel/AutoCash/issues/44",
+   "at": "2026-10-08T23:56:17Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "hands"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/93",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-08: 0 new, 0 resumed, 3 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/93",
+   "at": "2026-10-08T23:32:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/OpenChatGit/GladiatorSociety/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "OpenChatGit/GladiatorSociety: Some bounty missions are missing difficulty labels",
+   "url": "https://github.com/OpenChatGit/GladiatorSociety/issues/4",
+   "at": "2026-10-08T23:28:37Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "ktastic7",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59932",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59932 jit build: trisck.cc reads the debug headers before a compute kernel's defines, so FORCE_WATCHER_OFF and LIGHTWEIGHT_KERNEL_ASSERTS in its defines map do nothing and the compute kernel sentinel test cannot fail through its asserts",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59932",
+   "at": "2026-10-08T22:17:49Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "bug",
+     "blackhole",
+     "wormhole",
+     "runtime",
+     "Identified By: LLK",
+     "test"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59931",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59931 jit build: a Metal 2.0 compute kernel reads the compute API and LLK headers before its defines, so a header-level opt-in define from its factory or its source does nothing",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59931",
+   "at": "2026-10-08T22:17:48Z",
+   "extra": {
+    "author": "mvlahovicTT",
+    "labels": [
+     "bug",
+     "LLK",
+     "blackhole",
+     "wormhole",
+     "runtime",
+     "Identified By: LLK",
+     "llk:wormhole",
+     "llk:blackhole"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/StellarQuorum/StellarQuorum/issues/334",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "StellarQuorum/StellarQuorum: security: document a bug bounty program and triage process",
+   "url": "https://github.com/StellarQuorum/StellarQuorum/issues/334",
+   "at": "2026-10-08T21:49:04Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "sanmipaul",
+    "labels": [
+     "documentation",
+     "security",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/59930",
+   "source": "tenstorrent",
+   "kind": "tt_issue",
+   "title": "tt-metal#59930 [ttnn]: ttnn.logit (float32) loses up to 8,767 ULP near x = 0.5",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/59930",
+   "at": "2026-10-08T21:48:59Z",
+   "extra": {
+    "author": "ilyas-mallah",
+    "labels": [
+     "bug",
+     "community"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/0f47adcac922d54b1d125577b80cec1630cf5d31",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "perf counters: Quasar on the shared tt-llk counter infrastructure (#56322)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/0f47adcac922d54b1d125577b80cec1630cf5d31",
+   "at": "2026-10-08T21:45:48Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/docs/performance_counters/hardware_reference.md",
+     "tt_metal/tt-llk/docs/performance_counters/performance_counters.md",
+     "tt_metal/tt-llk/tests/helpers/include/barrier.h",
+     "tt_metal/tt-llk/tests/helpers/include/counters.h",
+     "tt_metal/tt-llk/tests/helpers/include/perf.h",
+     "tt_metal/tt-llk/tests/helpers/include/profiler.h",
+     "tt_metal/tt-llk/tests/helpers/include/sfpu_stub.h",
+     "tt_metal/tt-llk/tests/helpers/src/trisc.cpp",
+     "tt_metal/tt-llk/tests/python_tests/helpers/counters.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/llk_pytest_plugin.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/metrics.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/perf/core.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/perf/wide_schema_quasar.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py",
+     "tt_metal/tt-llk/tests/python_tests/test_perf_package.py",
+     "tt_metal/tt-llk/tests/python_tests/test_perf_report_hw_free.py",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_broadcast_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_reuse_dest_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_sfpu_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_binary_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_broadcast_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_datacopy_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/eltwise_unary_sfpu_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/matmul_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_l1_acc_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/pack_untilize_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/reduce_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_exp_parallel_matmul_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/sfpu_where_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/transpose_dest_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/unpack_reduce_col_tilizeA_strided_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/unpack_tilize_quasar_test.cpp",
+     "tt_metal/tt-llk/tests/sources/quasar/unpack_unary_operand_quasar_test.cpp",
+     "tt_metal/tt-llk/tools/include/perf_counters/README.md",
+     "tt_metal/tt-llk/tools/include/perf_counters/hw.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/inventory.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/quasar.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/registers.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/types.h"
+    ],
+    "added": [
+     "tt_metal/tt-llk/tools/include/perf_counters/quasar.h"
+    ],
+    "author": "mvlahovicTT"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/09f4d9b412d74fe4e571ea26a0cc6f4c0ad8cbd4",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "perf counters: move the counter infrastructure into tt-llk (#56320)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/09f4d9b412d74fe4e571ea26a0cc6f4c0ad8cbd4",
+   "at": "2026-10-08T21:45:46Z",
+   "extra": {
+    "files": [
+     "tt_metal/tt-llk/docs/performance_counters/hardware_reference.md",
+     "tt_metal/tt-llk/docs/performance_counters/performance_counters.md",
+     "tt_metal/tt-llk/tests/helpers/include/counters.h",
+     "tt_metal/tt-llk/tests/python_tests/helpers/counters.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/llk_pytest_plugin.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/metrics.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/perf/schema.py",
+     "tt_metal/tt-llk/tests/python_tests/helpers/test_config.py",
+     "tt_metal/tt-llk/tests/python_tests/test_perf_header_gate.py",
+     "tt_metal/tt-llk/tests/python_tests/test_perf_package.py",
+     "tt_metal/tt-llk/tests/python_tests/test_perf_report_hw_free.py",
+     "tt_metal/tt-llk/tools/include/perf_counters/README.md",
+     "tt_metal/tt-llk/tools/include/perf_counters/blackhole.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/hw.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/inventory.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/registers.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/types.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/wormhole.h",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/README.md",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/__init__.py",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/headers.py",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/metrics.py"
+    ],
+    "added": [
+     "tt_metal/tt-llk/docs/performance_counters/hardware_reference.md",
+     "tt_metal/tt-llk/tests/python_tests/test_perf_package.py",
+     "tt_metal/tt-llk/tools/include/perf_counters/README.md",
+     "tt_metal/tt-llk/tools/include/perf_counters/hw.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/inventory.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/registers.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/types.h",
+     "tt_metal/tt-llk/tools/include/perf_counters/wormhole.h",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/README.md",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/__init__.py",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/headers.py",
+     "tt_metal/tt-llk/tools/python/tt_llk_perf/metrics.py"
+    ],
+    "author": "mvlahovicTT"
+   }
+  },
   {
    "id": "https://github.com/dannyheskett/openbounty/issues/228",
    "source": "github_search",
@@ -62,20 +452,6 @@
    }
   },
   {
-   "id": "https://github.com/mitangy/optcg-deck-planner/issues/431",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "mitangy/optcg-deck-planner: duel-web: fuller landing page (deck hero, two-column desktop, your record, top bounties, live counts)",
-   "url": "https://github.com/mitangy/optcg-deck-planner/issues/431",
-   "at": "2026-10-08T20:20:29Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "mitangy",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/59925",
    "source": "tenstorrent",
    "kind": "tt_issue",
@@ -126,7 +502,7 @@
    "url": "https://github.com/BasedHardware/omi/issues/20991",
    "at": "2026-10-08T19:47:22Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": 25,
     "author": "Longo125",
     "labels": []
@@ -401,7 +777,7 @@
    "url": "https://github.com/Sounding-Labs/sounding/issues/107",
    "at": "2026-10-08T16:26:16Z",
    "extra": {
-    "comments": 0,
+    "comments": 2,
     "amount_usd": 50,
     "author": "ridwanraji1290-ai",
     "labels": []
@@ -443,7 +819,7 @@
    "url": "https://github.com/Sounding-Labs/sounding/issues/104",
    "at": "2026-10-08T16:26:11Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 65,
     "author": "princesslux",
     "labels": []
@@ -457,7 +833,7 @@
    "url": "https://github.com/Sounding-Labs/sounding/issues/103",
    "at": "2026-10-08T16:26:09Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 80,
     "author": "oyeyemipamilerin6-collab",
     "labels": []
@@ -1045,7 +1421,7 @@
    "url": "https://github.com/Presago-Labs/presago/issues/108",
    "at": "2026-10-08T16:24:57Z",
    "extra": {
-    "comments": 1,
+    "comments": 2,
     "amount_usd": 70,
     "author": "Halimatyemisi",
     "labels": []
@@ -1356,188 +1732,6 @@
     "comments": 0,
     "amount_usd": 60,
     "author": "WALEY-OPS",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $65] Document the silent quota failure in the architecture state notes",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/110",
-   "at": "2026-10-08T16:24:19Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Victoro001-tech",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $45] Fix the stale issue-number range in `docs/architecture.md`",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/109",
-   "at": "2026-10-08T16:24:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 45,
-    "author": "Xhaka00",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $65] Preserve the Explore query when switching tabs",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/108",
-   "at": "2026-10-08T16:24:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "meek-codex",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $75] Sync the Explore search box with the `?q=` URL parameter",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/107",
-   "at": "2026-10-08T16:24:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "emmixeryng",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $70] Add a CI check that `engines`, `.nvmrc` and `setup-node` agree",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/106",
-   "at": "2026-10-08T16:24:12Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 70,
-    "author": "Luna-netty",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/105",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $85] Add a secret-scanning job to `ci.yml`",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/105",
-   "at": "2026-10-08T16:24:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "KunmiWrites-bit",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/104",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $65] Add a `merge_group` trigger to `ci.yml`",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/104",
-   "at": "2026-10-08T16:24:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 65,
-    "author": "Adunola022",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Escaro-Labs/escaro/issues/103",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Escaro-Labs/escaro: [Bounty: $55] Upload the built escrow wasm as a CI artifact",
-   "url": "https://github.com/Escaro-Labs/escaro/issues/103",
-   "at": "2026-10-08T16:24:07Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 55,
-    "author": "Xhaka00",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Custos-Labs/custos/issues/110",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Custos-Labs/custos: [Bounty: $80] Return typed errors from `VerifyTotpChallenge`",
-   "url": "https://github.com/Custos-Labs/custos/issues/110",
-   "at": "2026-10-08T16:24:03Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 80,
-    "author": "KunmiWrites-bit",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Custos-Labs/custos/issues/109",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Custos-Labs/custos: [Bounty: $75] Wire an `mfaChecker` into the login flow",
-   "url": "https://github.com/Custos-Labs/custos/issues/109",
-   "at": "2026-10-08T16:24:01Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "WALEY-OPS",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Custos-Labs/custos/issues/108",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Custos-Labs/custos: [Bounty: $85] Honour the `disabled` enforcement level in the challenge path",
-   "url": "https://github.com/Custos-Labs/custos/issues/108",
-   "at": "2026-10-08T16:24:00Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 85,
-    "author": "meek-codex",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Custos-Labs/custos/issues/107",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Custos-Labs/custos: [Bounty: $75] Pin third-party GitHub Actions to commit SHAs",
-   "url": "https://github.com/Custos-Labs/custos/issues/107",
-   "at": "2026-10-08T16:23:58Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 75,
-    "author": "emmixeryng",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/Custos-Labs/custos/issues/106",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "Custos-Labs/custos: [Bounty: $60] Add least-privilege `permissions:` to `ci.yml`",
-   "url": "https://github.com/Custos-Labs/custos/issues/106",
-   "at": "2026-10-08T16:23:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": 60,
-    "author": "Victoro001-tech",
     "labels": []
    }
   },
@@ -2546,20 +2740,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59758",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59758 [CI Failure] vLLM Model Tests - Llama-3.1-8B-Instruct DP=4 [wh_galaxy_perf]: device hang in fetch queue wait",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59758",
-   "at": "2026-10-08T01:23:05Z",
-   "extra": {
-    "author": "ttmchiou",
-    "labels": [
-     "ci-bug"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1836",
    "source": "github_search",
    "kind": "bounty_issue",
@@ -2573,95 +2753,6 @@
     "labels": [
      "bounty",
      "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59755",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59755 [tt-train] Add optimizer states topology tests with 2-chip Blackhole runs to CI",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59755",
-   "at": "2026-10-08T00:43:47Z",
-   "extra": {
-    "author": "awliu-TT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59752",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59752 blackhole llk pack untilize: narrow_row rows wider than 16 datums, or whose byte size is not a multiple of 16, are written wrong",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59752",
-   "at": "2026-10-08T00:06:39Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: TM",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59747",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59747 blackhole llk reduce: a REDUCE_SCALAR max into a DST tile copied back from L1 returns 0 when every input is negative",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59747",
-   "at": "2026-10-07T23:30:04Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59738",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59738 moe_compute FullCcl leaves its barrier semaphores in general L1",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59738",
-   "at": "2026-10-07T22:56:11Z",
-   "extra": {
-    "author": "sjettTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59735",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#59735 [CI cleanup] Delete unused .github/actions/run-multi-process-tests composite action",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59735",
-   "at": "2026-10-07T22:02:06Z",
-   "extra": {
-    "author": "jhaiTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/59732",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "tenstorrent/tt-metal: [Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
-   "at": "2026-10-07T21:34:17Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": 3000,
-    "author": "jberkowitzTT",
-    "labels": [
-     "bounty",
-     "bounty_difficulty/medium"
     ]
    }
   },
@@ -2682,86 +2773,6 @@
    }
   },
   {
-   "id": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/3",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "Element-Ventures-Canada-Ltd/openchokepoint: [Priority] Open call: digital-thread and critical-items register schema for rocket turbopump supply chains",
-   "url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/3",
-   "at": "2026-10-07T18:03:49Z",
-   "extra": {
-    "comments": 8,
-    "amount_usd": null,
-    "author": "TLS-sys",
-    "labels": [
-     "schema",
-     "bounty",
-     "priority: high",
-     "bounty:major"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1255",
-   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1286",
-   "at": "2026-10-07T14:56:42Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "SPLURT-Station-Bot",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1285",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "SPLURT-Station/S.P.L.U.R.T-tg: [BOUNTY] Suggestion #1258",
-   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1285",
-   "at": "2026-10-07T14:55:23Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "SPLURT-Station-Bot",
-    "labels": [
-     "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1828",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "zhangjiayang6835-cyber/bounty-plaza: [Bounty] \ud83d\udcb0 Donate $10-$100 USDT/USDC \u2014 Support VeloDAG Core Rust Dev",
-   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1828",
-   "at": "2026-10-07T08:52:34Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": 100,
-    "author": "zhangjiayang6835-cyber",
-    "labels": [
-     "bounty",
-     "real"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/BasedHardware/omi/issues/20897",
-   "source": "omi",
-   "kind": "omi_proposal",
-   "title": "omi#20897 Bounty Proposal: Conversations Router Calendar Event Exception Sanitization ($50 USD)",
-   "url": "https://github.com/BasedHardware/omi/issues/20897",
-   "at": "2026-10-07T08:00:36Z",
-   "extra": {
-    "state": "open",
-    "author": "dogecon6-wq"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58228",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2775,501 +2786,6 @@
      "jasondavies"
     ],
     "created": "2026-09-28T21:27:15Z"
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/349",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Add a bounded offline prompt-optimization pilot with held-out evaluation",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/349",
-   "at": "2026-10-07T03:32:29Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "track:reusability",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/348",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify owner-scoped semantic memory retrieval and reranking",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/348",
-   "at": "2026-10-07T03:32:25Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "track:reusability",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/347",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Preserve Gemini tool-continuation metadata through streamed responses",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/347",
-   "at": "2026-10-07T03:30:26Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "bug",
-     "bounty",
-     "points:100",
-     "track:interoperability",
-     "track:security",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/346",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Preserve layout and source locations when parsing owned PDF/DOCX attachments",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/346",
-   "at": "2026-10-07T03:30:22Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/337",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify a fail-closed Linux subprocess profile using sandbox-runtime",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/337",
-   "at": "2026-10-07T02:48:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/338",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Replay bounded multi-turn escalation and recovery through real dispatch gates",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/338",
-   "at": "2026-10-07T02:48:47Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/335",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Load full authorized skill revisions on demand without digest truncation",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/335",
-   "at": "2026-10-07T02:48:46Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/336",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Pilot source-span validated extraction from clinical notes",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/336",
-   "at": "2026-10-07T02:48:46Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/334",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Import instructions-only Agent Skills into the governed owner catalog",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/334",
-   "at": "2026-10-07T02:48:45Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:interoperability",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/333",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify opt-in caching of approved non-PHI Claude prompt prefixes",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/333",
-   "at": "2026-10-07T02:48:44Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "track:reusability",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/331",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify a native Claude Messages adapter through existing provider routing",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/331",
-   "at": "2026-10-07T02:48:44Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:interoperability",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/325",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Add an isolated report-only Codex Security review workflow",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/325",
-   "at": "2026-10-07T02:27:20Z",
-   "extra": {
-    "comments": 2,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/326",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify an OpenAI-only Responses adapter through existing provider routing",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/326",
-   "at": "2026-10-07T02:27:20Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:interoperability",
-     "track:reusability",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/324",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Evaluate contextual secret patterns without importing the Guardrails runtime",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/324",
-   "at": "2026-10-07T02:27:19Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/323",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify the OpenAI MCP tunnel against Astral authentication and discovery",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/323",
-   "at": "2026-10-07T02:27:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:interoperability",
-     "track:security",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/322",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Serve owner-authorized MCP resources for an optional ChatGPT Work panel",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/322",
-   "at": "2026-10-07T02:27:18Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:interoperability",
-     "track:security",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/321",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify an isolated OpenAI Agents SDK consumer of Astral Work",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/321",
-   "at": "2026-10-07T02:27:17Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:interoperability",
-     "track:security",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/319",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Pilot Fence egress hardening in one compatible Ubuntu CI job",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/319",
-   "at": "2026-10-07T02:27:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/320",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Add instruction, abstention and truthful-completion diagnostic fixtures",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/320",
-   "at": "2026-10-07T02:27:16Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/318",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Qualify local contextual privacy filtering for free-form tool text",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/318",
-   "at": "2026-10-07T02:27:15Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/316",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Add qualified provider-aware context token accounting",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/316",
-   "at": "2026-10-07T02:27:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralDeep/issues/317",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralDeep: Add a bounded clinical answer diagnostic using HealthBench references",
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/317",
-   "at": "2026-10-07T02:27:14Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:200",
-     "track:security",
-     "track:reusability",
-     "priority:P2"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/AstralDeep/AstralProjection/issues/55",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "AstralDeep/AstralProjection: Render a bounded ChatGPT MCP status and artifact panel",
-   "url": "https://github.com/AstralDeep/AstralProjection/issues/55",
-   "at": "2026-10-07T02:26:46Z",
-   "extra": {
-    "comments": 1,
-    "amount_usd": null,
-    "author": "armstrongsam25",
-    "labels": [
-     "enhancement",
-     "bounty",
-     "points:100",
-     "track:interoperability",
-     "track:reusability",
-     "priority:P3"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/58227",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#58227 [Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/58227",
-   "at": "2026-10-06T22:44:49Z",
-   "extra": {
-    "state": "CLOSED",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "jasondavies"
-    ],
-    "created": "2026-09-28T21:27:00Z"
    }
   },
   {
