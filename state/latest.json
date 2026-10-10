@@ -1,6 +1,83 @@
 {
- "generated_at": "2026-10-10T12:51:09Z",
+ "generated_at": "2026-10-10T17:37:27Z",
  "events": [
+  {
+   "id": "https://github.com/rikardoricz/DamPac/issues/95",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "rikardoricz/DamPac: Decyzja moderatora z bounty: jeden zapis w API po jednej transakcji (bez cz\u0119\u015bciowego stanu)",
+   "url": "https://github.com/rikardoricz/DamPac/issues/95",
+   "at": "2026-10-10T16:13:55Z",
+   "extra": {
+    "comments": 1,
+    "amount_usd": null,
+    "author": "adrianskrzypnik",
+    "labels": [
+     "area:web",
+     "P1"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Hirokimm/ai-tool-lab/issues/15",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Hirokimm/ai-tool-lab: Automation Pilot \u2014 Buyer Referral Bounty (success-only)",
+   "url": "https://github.com/Hirokimm/ai-tool-lab/issues/15",
+   "at": "2026-10-10T16:05:34Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Hirokimm",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/ilbotscomodo/superteam-earn-agent/issues/2",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ilbotscomodo/superteam-earn-agent: SolProof: convert prototype into first paid client / eligible bounty",
+   "url": "https://github.com/ilbotscomodo/superteam-earn-agent/issues/2",
+   "at": "2026-10-10T16:00:28Z",
+   "extra": {
+    "comments": 2,
+    "amount_usd": null,
+    "author": "ilbotscomodo",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/36035",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "ValveSoftware/Dota2-Gameplay: [Bounty Hunter] Ability effect \"Verminator - Weapon\"/\"Tines of Tybara\".",
+   "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/36035",
+   "at": "2026-10-10T14:18:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Astiberon",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/rikardoricz/DamPac/issues/54",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "rikardoricz/DamPac: Integracja web B6: escrow bounty on-chain (wp\u0142ata, blokada, wyp\u0142ata, zwrot)",
+   "url": "https://github.com/rikardoricz/DamPac/issues/54",
+   "at": "2026-10-10T13:49:42Z",
+   "extra": {
+    "comments": 3,
+    "amount_usd": null,
+    "author": "adrianskrzypnik",
+    "labels": [
+     "area:web",
+     "area:solana",
+     "P0"
+    ]
+   }
+  },
   {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/101",
    "source": "github_search",
@@ -57,7 +134,7 @@
    "url": "https://github.com/Hirokimm/ai-tool-lab/issues/6",
    "at": "2026-10-10T11:01:37Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "Hirokimm",
     "labels": []
@@ -201,7 +278,7 @@
    "url": "https://github.com/matocard/matocard/issues/104",
    "at": "2026-10-10T05:40:51Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "yeheskieltame",
     "labels": []
@@ -215,7 +292,7 @@
    "url": "https://github.com/matocard/matocard/issues/103",
    "at": "2026-10-10T05:40:17Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": null,
     "author": "yeheskieltame",
     "labels": []
@@ -507,83 +584,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/682f146cbf62a64659a464898fc25e6bef1f7760",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] layer_norm/rms_norm (sharded): declare the residual buffer with the residual's dtype (#59835)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/682f146cbf62a64659a464898fc25e6bef1f7760",
-   "at": "2026-10-09T16:57:12Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/layernorm_op_multi_core_sharded.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/sharded_layernorm_factory_helpers.cpp",
-     "ttnn/cpp/ttnn/operations/normalization/layernorm/device/sharded_layernorm_factory_helpers.hpp"
-    ],
-    "added": [],
-    "author": "warneat"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/453ee7bdfa7f9055e24abba5d81f47f8dbe7dc6d",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Cleanup] Silence LLK FD compiler warnings (#60095)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/453ee7bdfa7f9055e24abba5d81f47f8dbe7dc6d",
-   "at": "2026-10-09T16:39:47Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/inc/api/compute/experimental/2_0/custom_mm.h",
-     "tt_metal/hw/inc/api/compute/experimental/2_0/hw_startup.h"
-    ],
-    "added": [],
-    "author": "ndivnicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/9053e28ee197cf0bdeadb07e909ca662a933ea5e",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix] Quasar Int32 -> Float16_b typecast reads Dest as sign-magnitude (#59967)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/9053e28ee197cf0bdeadb07e909ca662a933ea5e",
-   "at": "2026-10-09T16:20:54Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_typecast.h"
-    ],
-    "added": [],
-    "author": "pkennedyTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60134",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60134 [Blaze CI] Gemma4 KV accuracy 256k@8k fails on every branch: layer_15 gate_proj in the shared 8x4 weight cache was overwritten with zeros",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60134",
-   "at": "2026-10-09T16:20:12Z",
-   "extra": {
-    "author": "kmabeeTT",
-    "labels": [
-     "ci-bug",
-     "model: gemma-4"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60132",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60132 [Quasar] Make gpt-oss ops and model pass end to end on quasar emulator",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60132",
-   "at": "2026-10-09T16:00:52Z",
-   "extra": {
-    "author": "bbradelTT",
-    "labels": [
-     "op_cat: mm"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/55105",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -600,310 +600,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60119",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60119 blackhole llk sdpa custom matmul: a one-column call that reads the weights transposed reads the wrong weight tile from the second k step on",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60119",
-   "at": "2026-10-09T15:33:54Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:blackhole"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60118",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60118 blackhole llk sdpa custom matmul: no perf test covers sdpa_custom_mm or its reuse form",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60118",
-   "at": "2026-10-09T15:33:48Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60117",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60117 blackhole llk compressed custom matmul: no perf test covers compressed_custom_mm or face_compressed_mm",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60117",
-   "at": "2026-10-09T15:33:43Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60116",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60116 blackhole llk sdpa: FlashMLA decode and the SDPA micro op release the exponentials to the P V matmul once per k tile, a math pipe drain per k tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60116",
-   "at": "2026-10-09T15:33:38Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "op_cat: SDPA",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60115",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60115 blackhole llk compressed custom matmul: a call ends with a second poll of the context semaphore, so the RISC cannot prepare the next call while the unpacker drains",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60115",
-   "at": "2026-10-09T15:33:32Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60114",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60114 blackhole llk sdpa custom matmul: a reuse-form call ends with a second poll of the context semaphore, so the RISC cannot prepare the next call while the unpacker drains",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60114",
-   "at": "2026-10-09T15:33:27Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: mm",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60113",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60113 blackhole llk perf: sub and mul bcast cols custom",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60113",
-   "at": "2026-10-09T15:33:23Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60112",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60112 blackhole llk perf: sdpa_weighted_reduce",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60112",
-   "at": "2026-10-09T15:33:18Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60111",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60111 blackhole llk perf: sdpa",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60111",
-   "at": "2026-10-09T15:33:13Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60110",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60110 blackhole llk perf: sdpa_custom_mm and its reuse form",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60110",
-   "at": "2026-10-09T15:33:09Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60109",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60109 blackhole llk perf: compressed_custom_mm and face_compressed_mm",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60109",
-   "at": "2026-10-09T15:33:04Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60108",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60108 blackhole llk perf: custom_mm",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60108",
-   "at": "2026-10-09T15:33:00Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60102",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60102 blackhole llk compute_semaphore: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60102",
-   "at": "2026-10-09T15:19:59Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60101",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60101 blackhole llk tile_move_copy_custom: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60101",
-   "at": "2026-10-09T15:19:54Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60100",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60100 blackhole llk custom_pack_untilize: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60100",
-   "at": "2026-10-09T15:19:49Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60098",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60098 blackhole llk sinkhorn_4x4: no perf module exists in the tt-llk harness, so the perf warehouse has no baseline for it",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60098",
-   "at": "2026-10-09T15:19:44Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60094",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60094 blackhole llk rope: a decode call pays 15 to 19 cycles of setup, a math-thread drain and a counter reset, before its first row",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60094",
-   "at": "2026-10-09T15:17:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60093",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60093 blackhole llk perf: hw_cleanup",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60093",
-   "at": "2026-10-09T15:17:45Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60092",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60092 blackhole llk perf: moe_gate",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60092",
-   "at": "2026-10-09T15:17:40Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/SecOpsNews/news/issues/74931",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -916,810 +612,6 @@
     "author": "github-actions[bot]",
     "labels": [
      "GrahamCluley"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60091",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60091 blackhole llk perf: csa_index_remap",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60091",
-   "at": "2026-10-09T15:17:34Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60090",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60090 blackhole llk perf: rope",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60090",
-   "at": "2026-10-09T15:17:30Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60089",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60089 blackhole llk perf: add_rsqrt",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60089",
-   "at": "2026-10-09T15:17:24Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60088",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60088 blackhole llk perf: sinkhorn",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60088",
-   "at": "2026-10-09T15:17:17Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60087",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60087 blackhole llk perf: compute_semaphore",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60087",
-   "at": "2026-10-09T15:17:12Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60086",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60086 blackhole llk perf: tile_move_copy_custom",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60086",
-   "at": "2026-10-09T15:17:07Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60085",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60085 blackhole llk perf: custom_pack_untilize",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60085",
-   "at": "2026-10-09T15:17:02Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60084",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60084 blackhole llk perf: pack_block",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60084",
-   "at": "2026-10-09T15:16:56Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60083",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60083 blackhole llk perf: hadamard",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60083",
-   "at": "2026-10-09T15:16:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60082",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60082 blackhole llk perf: eltwise_mul_scalar",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60082",
-   "at": "2026-10-09T15:16:46Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60081",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60081 blackhole llk perf: mul_reduce_scalar",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60081",
-   "at": "2026-10-09T15:16:40Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60080",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60080 blackhole llk perf: rmsnorm",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60080",
-   "at": "2026-10-09T15:16:35Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60079",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60079 blackhole llk perf: sampling",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60079",
-   "at": "2026-10-09T15:16:30Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60077",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60077 [Docs] INSTALLING.md: dead TT-NN examples link and misspelled CMAKE_BUILD_TYPE",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60077",
-   "at": "2026-10-09T15:15:19Z",
-   "extra": {
-    "author": "saqibkh",
-    "labels": [
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60070",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60070 moreh_sum_backward reads past the end of need_bcast_dim",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60070",
-   "at": "2026-10-09T15:10:32Z",
-   "extra": {
-    "author": "mcw-anasuya",
-    "labels": [
-     "moreh",
-     "MCW"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/116142d300ee9804bff35119cab060cdc2f58d21",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "feat: switch LLK tests from exalens to umd server (#59989)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/116142d300ee9804bff35119cab060cdc2f58d21",
-   "at": "2026-10-09T15:00:21Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/.claude/agents/llk-test-runner.md",
-     "tt_metal/tt-llk/.claude/scripts/run_test.sh",
-     "tt_metal/tt-llk/.claude/skills/quasar-test-coverage/SKILL.md",
-     "tt_metal/tt-llk/.claude/skills/run-test/SKILL.md",
-     "tt_metal/tt-llk/.cursor/agents/llk-test-runner.md",
-     "tt_metal/tt-llk/.cursor/rules/run-test.mdc",
-     "tt_metal/tt-llk/.cursor/scripts/run_test.sh",
-     "tt_metal/tt-llk/tests/python_tests/helpers/llk_pytest_plugin.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/sim_host.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/simulation_server.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/target_config.py",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/README.md",
-     "tt_metal/tt-llk/tests/python_tests/ttnop/scripts/env.sh",
-     "tt_metal/tt-llk/tests/run_quasar_regression.sh"
-    ],
-    "added": [
-     "tt_metal/tt-llk/tests/python_tests/helpers/sim_host.py"
-    ],
-    "author": "fvranicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60067",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60067 blackhole llk sfpu situ_glu: no tt-llk perf row on blackhole",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60067",
-   "at": "2026-10-09T14:52:32Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60066",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60066 blackhole llk sfpu softcap: the fused softcap op has no tt-llk perf row",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60066",
-   "at": "2026-10-09T14:52:27Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60065",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60065 blackhole llk sfpu reshuffle_rows: no tt-llk perf row and no tt-llk functional test",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60065",
-   "at": "2026-10-09T14:52:22Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60064",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60064 blackhole llk sfpu copy_dest_values: no tt-llk perf row on blackhole",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60064",
-   "at": "2026-10-09T14:52:16Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60063",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60063 blackhole llk sfpu mask: no tt-llk perf row, and the one mask test drives the body through an adapter that drops the mask index, so the ignored index of #58771 has no failing test",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60063",
-   "at": "2026-10-09T14:52:11Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60062",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60062 blackhole llk sfpu clamped_silu_glu: 1,666 cycles per output tile on the math thread, 2,115 with a 32-bit dest, and no pack-thread form",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60062",
-   "at": "2026-10-09T14:52:05Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60061",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60061 blackhole llk sfpu clamped_silu_glu: no tt-llk perf row on blackhole",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60061",
-   "at": "2026-10-09T14:52:00Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60060",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60060 blackhole llk sfpu softsign: in the compute api form the accurate softsign keeps its 12-instruction row rolled and costs 17 cycles per tile more than one 32-vector call, while the approximate softsign unrolls there and gains 20",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60060",
-   "at": "2026-10-09T14:51:54Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60059",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60059 blackhole llk sfpu softshrink: in the compute api form the 12-instruction softshrink row stays rolled at 8 iterations and costs 12 cycles per tile more than one 32-vector call",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60059",
-   "at": "2026-10-09T14:51:48Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60058",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60058 blackhole llk sfpu dropout: the seed write in dropout_kernel_init waits 600 sfpu nops in a risc loop, about 1,820 cycles per init, 4.1 times a dropout tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60058",
-   "at": "2026-10-09T14:51:42Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60057",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60057 blackhole llk sfpu dropout: no tt-llk perf row, and no test runs dropout after an eltwise binary init, so the address-mode hazard of #58770 has no failing test",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60057",
-   "at": "2026-10-09T14:51:37Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60056",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60056 blackhole llk sfpu dropout: the dropout row loop is rolled by declaration and idles 113.4 cycles per tile for 272 sfpu issues in the compute api form",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60056",
-   "at": "2026-10-09T14:51:30Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: eltwise",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60055",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60055 blackhole llk perf: SFPU clamped_silu_glu",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60055",
-   "at": "2026-10-09T14:51:25Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60054",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60054 blackhole llk perf: SFPU situ_glu",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60054",
-   "at": "2026-10-09T14:51:20Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60053",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60053 blackhole llk perf: SFPU softcap",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60053",
-   "at": "2026-10-09T14:51:15Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60052",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60052 blackhole llk perf: SFPU softshrink",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60052",
-   "at": "2026-10-09T14:51:11Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60051",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60051 blackhole llk perf: SFPU softsign",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60051",
-   "at": "2026-10-09T14:51:06Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60050",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60050 blackhole llk perf: SFPU identity",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60050",
-   "at": "2026-10-09T14:51:01Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60049",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60049 blackhole llk perf: SFPU copy_dest_values",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60049",
-   "at": "2026-10-09T14:50:56Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60048",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60048 blackhole llk perf: SFPU reshuffle_rows",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60048",
-   "at": "2026-10-09T14:50:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60047",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60047 blackhole llk perf: SFPU mask",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60047",
-   "at": "2026-10-09T14:50:46Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60046",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60046 blackhole llk perf: SFPU dropout",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60046",
-   "at": "2026-10-09T14:50:42Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60045",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60045 blackhole llk perf: SFPU rand",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60045",
-   "at": "2026-10-09T14:50:37Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60044",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60044 blackhole llk perf: SFPU quantization",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60044",
-   "at": "2026-10-09T14:44:28Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60043",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60043 blackhole llk perf: SFPU typecast",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60043",
-   "at": "2026-10-09T14:44:23Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60042",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60042 blackhole llk perf: SFPU comparisons",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60042",
-   "at": "2026-10-09T14:44:17Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60041",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60041 blackhole llk sfpu ternary: perf_sfpu_ternary.py has no where row, so no perf module times the body ttnn.where runs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60041",
-   "at": "2026-10-09T14:42:56Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60040",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60040 blackhole llk sfpu integer: the perf sweep's int32 add and sub rows run the sign-magnitude arm, 394.2 cycles per tile against 178.7 for the body add_int_tile dispatches",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60040",
-   "at": "2026-10-09T14:42:51Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "perf",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60039",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60039 blackhole llk perf: SFPU integer",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60039",
-   "at": "2026-10-09T14:42:47Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60038",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60038 blackhole llk perf: SFPU ternary",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60038",
-   "at": "2026-10-09T14:42:42Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60037",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60037 blackhole llk perf: SFPU binary",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60037",
-   "at": "2026-10-09T14:42:37Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/2c1e1ebdd638886821f35113a5fd0d6335d71608",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Bug fix][LLK] Check the unpacker that _llk_unpack_A_ actually reads through (#59921)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/2c1e1ebdd638886821f35113a5fd0d6335d71608",
-   "at": "2026-10-09T14:39:38Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/blackhole/metal/llk_api/llk_unpack_A_api.h",
-     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_api/llk_unpack_A_api.h",
-     "tt_metal/tt-llk/tt_llk_blackhole/llk_lib/llk_unpack_A.h",
-     "tt_metal/tt-llk/tt_llk_wormhole_b0/llk_lib/llk_unpack_A.h"
-    ],
-    "added": [],
-    "author": "halghTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60036",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60036 blackhole llk sfpu welford: welford has no tt-llk functional or perf test on any architecture, and wired out of tree its update passes 8 of 8 and measures 391.5 cycles per tile with a table and 7588.9 without",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60036",
-   "at": "2026-10-09T14:39:24Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "llk:test-infra",
-     "llk:blackhole",
-     "llk:performance-tests"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60035",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60035 blackhole llk layernorm: the welford pre-allgather kernels re-run the welford init after every float32 tile at 27.0 cycles, spill the welford state around every fused pre-add block at 22.9 plus two packs and two copies, and feed float32 at 126 cycles per tile",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60035",
-   "at": "2026-10-09T14:39:18Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": [
-     "LLK",
-     "blackhole",
-     "op_cat: reduces",
-     "op_cat: fused",
-     "perf",
-     "llk:blackhole",
-     "llk:performance"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60034",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60034 blackhole llk perf: SFPU cumsum",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60034",
-   "at": "2026-10-09T14:39:13Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60033",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60033 blackhole llk perf: layernorm (Welford pre-allgather)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60033",
-   "at": "2026-10-09T14:39:07Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60032",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60032 blackhole llk perf: SFPU Welford",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60032",
-   "at": "2026-10-09T14:39:02Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60031",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60031 blackhole llk perf: SFPU EMA",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60031",
-   "at": "2026-10-09T14:38:48Z",
-   "extra": {
-    "author": "mvlahovicTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60029",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60029 [MoE prefill] Derive dispatch capacity from top-k; K3 overflow sums uninitialized slots into MoE output",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60029",
-   "at": "2026-10-09T14:24:02Z",
-   "extra": {
-    "author": "pavlejosipovic",
-    "labels": [
-     "bug"
     ]
    }
   },
@@ -1742,36 +634,6 @@
      "urgent",
      "follow-up"
     ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60027",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60027 Quasar: ttnn ops hang on craq-sim and the emulator after #57646 (DFB drain in DataflowBuffer destructor)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60027",
-   "at": "2026-10-09T14:14:08Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "op_cat: mm",
-     "Quasar"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/8168ca164457f458c6c42be0a2229b675f2eb37b",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Quasar] clear dvalid wait masks at kernel boot (#59976)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/8168ca164457f458c6c42be0a2229b675f2eb37b",
-   "at": "2026-10-09T14:13:27Z",
-   "extra": {
-    "files": [
-     "tt_metal/tt-llk/tests/helpers/include/boot.h"
-    ],
-    "added": [],
-    "author": "markoradosavljevicTT"
    }
   },
   {
@@ -1803,221 +665,6 @@
     "author": "SPLURT-Station-Bot",
     "labels": [
      "bounty"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60025",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60025 test_gated_deltanet_chunked_ttnn runs out of L1 on WH",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60025",
-   "at": "2026-10-09T14:02:22Z",
-   "extra": {
-    "author": "edwinleeTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60023",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60023 ttnn.pow / ttnn.rpow: +inf base is decoded as 2^128 (pow(inf, 0.5) = 1.8e19, pow(inf, -0.5) = 5.4e-20); pow(-inf, non-integer p) returns NaN",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60023",
-   "at": "2026-10-09T13:39:25Z",
-   "extra": {
-    "author": "jpeseWang",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60021",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60021 [LLK AI codegen] Solve all Opus-solved issues with in-house K3/GLM",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60021",
-   "at": "2026-10-09T13:36:34Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60020",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60020 [LLK AI codegen] Issue solver with open-source models (K3/GLM)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60020",
-   "at": "2026-10-09T13:36:33Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60019",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60019 [LLK AI codegen] Review 100% of medium-complexity PRs with the AI reviewer only",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60019",
-   "at": "2026-10-09T13:36:28Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60018",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60018 [LLK AI codegen] 80% of PRs reviewed by the AI reviewer only",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60018",
-   "at": "2026-10-09T13:36:27Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60017",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60017 [LLK AI codegen] Reach 80% AI-completed issues on BH/WH",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60017",
-   "at": "2026-10-09T13:36:22Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60016",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60016 [LLK AI codegen] Human fully out of the loop for 80% of BH/WH issues (autofix)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60016",
-   "at": "2026-10-09T13:36:21Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60015",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60015 [LLK AI codegen] Generate all Blaze fused LLK operations for Quasar (21/21)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60015",
-   "at": "2026-10-09T13:36:16Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "Quasar",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60014",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60014 [LLK AI codegen] Human out of the loop generating complex fused LLK operations",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60014",
-   "at": "2026-10-09T13:36:15Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "Quasar",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60013",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60013 [LLK AI codegen] Generate the remaining Quasar SFPU kernels (118/118)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60013",
-   "at": "2026-10-09T13:36:11Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "Quasar",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60012",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60012 [LLK AI codegen] Human out of the loop generating simple LLKs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60012",
-   "at": "2026-10-09T13:36:09Z",
-   "extra": {
-    "author": "vvukomanovicTT",
-    "labels": [
-     "LLK",
-     "Quasar",
-     "llk-ai-codegen"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60010",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60010 ttnn.logaddexp2 (FLOAT32): forming `2^-|a-b|` as `exp(|a-b| * -ln2)` costs up to 69 ULP. The base-2 argument is rounded before the exponential.",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60010",
-   "at": "2026-10-09T13:31:34Z",
-   "extra": {
-    "author": "jpeseWang",
-    "labels": [
-     "bug",
-     "op_cat: eltwise",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60008",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60008 [LLK][Wormhole] reduce with Float16 input and Float32 output returns wrong values for every MAX reduce and for Scalar Sum/Average",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60008",
-   "at": "2026-10-09T13:27:44Z",
-   "extra": {
-    "author": "ldjurovicTT",
-    "labels": [
-     "bug",
-     "LLK",
-     "wormhole",
-     "Identified By: LLK"
     ]
    }
   },
@@ -2283,7 +930,7 @@
    "url": "https://github.com/SUSU-LABS/susu-web/issues/42",
    "at": "2026-10-09T09:04:14Z",
    "extra": {
-    "comments": 5,
+    "comments": 6,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2651,7 +1298,7 @@
    "url": "https://github.com/Movalabs-crew/mova-store/issues/967",
    "at": "2026-10-09T04:50:20Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": 1190,
     "author": "woahwhattheheck",
     "labels": []
@@ -2769,26 +1416,6 @@
     "amount_usd": null,
     "author": "dingyifeng123456-spec",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/matiaszanolli/ByroRedux/issues/5405",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "matiaszanolli/ByroRedux: SCR-D5-2026-10-08-03: `build_story_manager_tree` follows a single `SNAM` chain per sibling group, so 41 Skyrim quest nodes on detached chain segments are never evaluated. Among them are the Companions radiant givers and five bounty holds",
-   "url": "https://github.com/matiaszanolli/ByroRedux/issues/5405",
-   "at": "2026-10-09T00:27:09Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "matiaszanolli",
-    "labels": [
-     "bug",
-     "medium",
-     "scripting",
-     "quests",
-     "game:skyrim"
-    ]
    }
   }
  ],
