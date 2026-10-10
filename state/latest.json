@@ -1,21 +1,125 @@
 {
- "generated_at": "2026-10-10T17:37:27Z",
+ "generated_at": "2026-10-10T21:06:46Z",
  "events": [
   {
-   "id": "https://github.com/rikardoricz/DamPac/issues/95",
+   "id": "https://github.com/chatmcp/mcpso/issues/5093",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
-   "title": "rikardoricz/DamPac: Decyzja moderatora z bounty: jeden zapis w API po jednej transakcji (bez cz\u0119\u015bciowego stanu)",
-   "url": "https://github.com/rikardoricz/DamPac/issues/95",
-   "at": "2026-10-10T16:13:55Z",
+   "title": "chatmcp/mcpso: Submit MCP Server: DataBazaar \u2014 dataset discovery, retrieval, listings and bounties",
+   "url": "https://github.com/chatmcp/mcpso/issues/5093",
+   "at": "2026-10-10T20:39:13Z",
    "extra": {
-    "comments": 1,
+    "comments": 0,
     "amount_usd": null,
-    "author": "adrianskrzypnik",
+    "author": "shagarwal",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/11",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "09sd-org/gh-bounty-org-issue-field-lab-20261008: GH_BOUNTY_OWNER_ISSUE_POSTWRITE_CONTROL_1010",
+   "url": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/11",
+   "at": "2026-10-10T20:31:40Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "09sd",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/10",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "09sd-org/gh-bounty-org-issue-field-lab-20261008: GH_BOUNTY_REST_CREATE_FIELD_POC_1010",
+   "url": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/10",
+   "at": "2026-10-10T20:30:45Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "miknutty2",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/CodebuffAI/freebuff/issues/1500",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "CodebuffAI/freebuff: the Devin subreddit is for peope named Devin, not for the Devin agent. (This is on the bounty page for freebuff.)",
+   "url": "https://github.com/CodebuffAI/freebuff/issues/1500",
+   "at": "2026-10-10T20:30:00Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "skamansam",
     "labels": [
-     "area:web",
-     "P1"
+     "type:bug"
     ]
+   }
+  },
+  {
+   "id": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/9",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "09sd-org/gh-bounty-org-issue-field-lab-20261008: GH_BOUNTY_ACTOR_POLICY_FIELD_CREATE_20261010",
+   "url": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/9",
+   "at": "2026-10-10T20:26:29Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "miknutty2",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/accensa/accensa-contracts/issues/612",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "accensa/accensa-contracts: test: assert watchtower bounty events and bounty key lifecycle",
+   "url": "https://github.com/accensa/accensa-contracts/issues/612",
+   "at": "2026-10-10T19:54:44Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "mallison031",
+    "labels": [
+     "area: contracts",
+     "testing",
+     "observability",
+     "rust"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/wanteddeadordead/wanted-dead-or-dead/issues/152",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "wanteddeadordead/wanted-dead-or-dead: add bounty to player profile on website and shortcut to open settings",
+   "url": "https://github.com/wanteddeadordead/wanted-dead-or-dead/issues/152",
+   "at": "2026-10-10T18:44:01Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "grand-lotus-iroh",
+    "labels": [
+     "enhancement"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/Presago-Labs/presago/issues/158",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Presago-Labs/presago: Bounty Payment Status Request \u2014 7 Merged PRs ($535) \u2014 @penielgold-hub",
+   "url": "https://github.com/Presago-Labs/presago/issues/158",
+   "at": "2026-10-10T18:20:10Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 535,
+    "author": "penielgold-hub",
+    "labels": []
    }
   },
   {
@@ -68,7 +172,7 @@
    "url": "https://github.com/rikardoricz/DamPac/issues/54",
    "at": "2026-10-10T13:49:42Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": null,
     "author": "adrianskrzypnik",
     "labels": [
@@ -264,7 +368,7 @@
    "url": "https://github.com/Movalabs-crew/mova-store/issues/970",
    "at": "2026-10-10T05:42:32Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 1295,
     "author": "iprasen",
     "labels": []
@@ -382,48 +486,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60186",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60186 BFP8 Matmul",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60186",
-   "at": "2026-10-09T20:55:10Z",
-   "extra": {
-    "author": "rouzbehTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60181",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60181 [Bug] all_gather_minimal_matmul_async (+ quasar matmul mcast_1d): validation admits subblocks the kernel can't hold with dst_full_sync_en (siblings of #60170)",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60181",
-   "at": "2026-10-09T20:35:42Z",
-   "extra": {
-    "author": "Adraca",
-    "labels": [
-     "op_cat: mm",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60178",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60178 kernel_lib (ckl::) helpers: take the caller's DataflowBuffer by reference, not a DFB id",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60178",
-   "at": "2026-10-09T19:45:06Z",
-   "extra": {
-    "author": "gajanan-choudhary",
-    "labels": [
-     "bug",
-     "Quasar"
-    ]
-   }
-  },
-  {
    "id": "https://github.com/multipilled/skyrim-alife/issues/6",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -440,51 +502,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60170",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60170 [Bug] minimal_matmul: with dst_full_sync_en, validation admits subblocks the compute kernel computes wrong",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60170",
-   "at": "2026-10-09T19:06:17Z",
-   "extra": {
-    "author": "abhiavi",
-    "labels": [
-     "op_cat: mm",
-     "community"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/bad2b9d0b79d4a3699eea7d6125f419c5daab11d",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "[Metal 2.0] eltwise/unary pre-port changes (#59461)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/bad2b9d0b79d4a3699eea7d6125f419c5daab11d",
-   "at": "2026-10-09T19:01:30Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/common/unary_utils.hpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_device_operation.cpp",
-     "ttnn/cpp/ttnn/operations/eltwise/unary/device/unary_program_factory.cpp"
-    ],
-    "added": [],
-    "author": "mcw-anasuya"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60164",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60164 Port `test_sem_scope.cpp` to the Metal 2.0 integration tests once Quasar is ported",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60164",
-   "at": "2026-10-09T18:56:40Z",
-   "extra": {
-    "author": "nmohammedTT",
-    "labels": []
-   }
-  },
-  {
    "id": "https://github.com/verdikta/verdikta-applications/issues/71",
    "source": "github_search",
    "kind": "bounty_issue_unpriced",
@@ -496,73 +513,6 @@
     "amount_usd": null,
     "author": "drdz23",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/d67f10177505d62956e3548776b77a8dac41a2a5",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "Sfpi unified api (#57605)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/d67f10177505d62956e3548776b77a8dac41a2a5",
-   "at": "2026-10-09T18:46:13Z",
-   "extra": {
-    "files": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_add.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_binary.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_conversions.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_exp.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_square.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_srcs.h",
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_where.h",
-     "tt_metal/tt-llk/tests/python_tests/helpers/llk_params.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/test_schemas.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/perf/wide_schema_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/helpers/test_variant_parameters.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_sfpu_add_parallel_matmul_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_sfpu_exp_parallel_matmul_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_add_parallel_matmul_quasar.py",
-     "tt_metal/tt-llk/tests/python_tests/quasar/test_sfpu_exp_parallel_matmul_quasar.py",
-     "tt_metal/tt-llk/tests/sources/quasar/isolate_sfpu_square_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_add_parallel_matmul_quasar_test.cpp",
-     "tt_metal/tt-llk/tests/sources/quasar/sfpu_exp_parallel_matmul_quasar_test.cpp",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_exp.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_operand.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu_reg.h"
-    ],
-    "added": [
-     "tt_metal/hw/ckernels/quasar/metal/llk_api/llk_sfpu/ckernel_sfpu_srcs.h",
-     "tt_metal/tt-llk/tests/python_tests/quasar/perf_sfpu_add_parallel_matmul_quasar.py",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu/ckernel_sfpu_operand.h",
-     "tt_metal/tt-llk/tt_llk_quasar/common/inc/sfpu_reg.h"
-    ],
-    "author": "vkrsmanovicTT"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60155",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60155 [gemma4_d_p] Small-op overhead in prefill layers: column gather, per-layer tilize, attention all-gather",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60155",
-   "at": "2026-10-09T18:38:44Z",
-   "extra": {
-    "author": "mmanzoorTT",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/60153",
-   "source": "tenstorrent",
-   "kind": "tt_issue",
-   "title": "tt-metal#60153 [Blackhole][LLK] Benchmark block_max8 compaction and masking optimizations",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/60153",
-   "at": "2026-10-09T18:29:27Z",
-   "extra": {
-    "author": "atatuzunerTT",
-    "labels": [
-     "LLK",
-     "perf"
-    ]
    }
   },
   {
@@ -607,10 +557,11 @@
    "url": "https://github.com/SecOpsNews/news/issues/74931",
    "at": "2026-10-09T15:17:34Z",
    "extra": {
-    "comments": 0,
+    "comments": 1,
     "amount_usd": 10,
     "author": "github-actions[bot]",
     "labels": [
+     "Stale",
      "GrahamCluley"
     ]
    }
@@ -660,7 +611,7 @@
    "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1291",
    "at": "2026-10-09T14:07:34Z",
    "extra": {
-    "comments": 8,
+    "comments": 10,
     "amount_usd": null,
     "author": "SPLURT-Station-Bot",
     "labels": [
@@ -706,7 +657,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/44",
    "at": "2026-10-09T09:06:07Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 80,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -720,7 +671,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/41",
    "at": "2026-10-09T09:05:54Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -734,7 +685,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/40",
    "at": "2026-10-09T09:05:51Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 40,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -748,7 +699,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/39",
    "at": "2026-10-09T09:05:47Z",
    "extra": {
-    "comments": 3,
+    "comments": 5,
     "amount_usd": 50,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -762,7 +713,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/38",
    "at": "2026-10-09T09:05:44Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": 50,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -776,7 +727,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/36",
    "at": "2026-10-09T09:05:35Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 50,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -790,7 +741,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/35",
    "at": "2026-10-09T09:05:17Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 50,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -804,7 +755,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/34",
    "at": "2026-10-09T09:05:13Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 80,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -818,7 +769,7 @@
    "url": "https://github.com/SUSU-LABS/susu-contracts/issues/33",
    "at": "2026-10-09T09:05:06Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 110,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -972,7 +923,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/49",
    "at": "2026-10-09T09:04:03Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -986,7 +937,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/48",
    "at": "2026-10-09T09:04:01Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1000,7 +951,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/47",
    "at": "2026-10-09T09:03:58Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 60,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1014,7 +965,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/46",
    "at": "2026-10-09T09:03:55Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": 40,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1028,7 +979,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/45",
    "at": "2026-10-09T09:03:49Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1056,7 +1007,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/42",
    "at": "2026-10-09T09:03:36Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": 60,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1070,7 +1021,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/40",
    "at": "2026-10-09T09:03:31Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1084,7 +1035,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/38",
    "at": "2026-10-09T09:03:24Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1112,7 +1063,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/36",
    "at": "2026-10-09T09:03:18Z",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1126,7 +1077,7 @@
    "url": "https://github.com/SUSU-LABS/susu-api/issues/63",
    "at": "2026-10-09T09:03:04Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 80,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1140,7 +1091,7 @@
    "url": "https://github.com/SUSU-LABS/susu-api/issues/62",
    "at": "2026-10-09T09:02:48Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1154,7 +1105,7 @@
    "url": "https://github.com/SUSU-LABS/susu-api/issues/61",
    "at": "2026-10-09T09:02:44Z",
    "extra": {
-    "comments": 5,
+    "comments": 7,
     "amount_usd": 60,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1168,7 +1119,7 @@
    "url": "https://github.com/SUSU-LABS/susu-api/issues/59",
    "at": "2026-10-09T09:00:23Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1182,7 +1133,7 @@
    "url": "https://github.com/SUSU-LABS/susu-api/issues/58",
    "at": "2026-10-09T09:00:15Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 60,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1196,7 +1147,7 @@
    "url": "https://github.com/SUSU-LABS/susu-api/issues/57",
    "at": "2026-10-09T09:00:06Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -1315,106 +1266,6 @@
     "comments": 0,
     "amount_usd": 90,
     "author": "woahwhattheheck",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/liren001/eth-legion-nexus/issues/4",
-   "source": "github_search",
-   "kind": "bounty_issue",
-   "title": "liren001/eth-legion-nexus: [BOUNTY-002] $150 Synthetic Sequential Structure Hunt \u2014 no real-world data, structure is real",
-   "url": "https://github.com/liren001/eth-legion-nexus/issues/4",
-   "at": "2026-10-09T01:44:45Z",
-   "extra": {
-    "comments": 74,
-    "amount_usd": 150,
-    "author": "liren001",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/OpenChatGit/GladiatorSociety/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "OpenChatGit/GladiatorSociety: Persean Champion bounty is rejected because eagle_Attack does not exist",
-   "url": "https://github.com/OpenChatGit/GladiatorSociety/issues/6",
-   "at": "2026-10-09T01:27:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "ktastic7",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/anooeg100-gif/digital-store/issues/1",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "anooeg100-gif/digital-store: [Bounty ] Fix typo in README",
-   "url": "https://github.com/anooeg100-gif/digital-store/issues/1",
-   "at": "2026-10-09T00:51:02Z",
-   "extra": {
-    "comments": 3,
-    "amount_usd": null,
-    "author": "anooeg100-gif",
-    "labels": [
-     "good first issue"
-    ]
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/8",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR other bounty \u2014 submission routing and isolation checks",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/8",
-   "at": "2026-10-09T00:46:10Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/7",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR race submit \u2014 single-entry append and cross-bounty control",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/7",
-   "at": "2026-10-09T00:46:08Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/6",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: MA test \u2014 second-submitter preservation and bounty-isolation smoke test",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/6",
-   "at": "2026-10-09T00:43:04Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
-    "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/5",
-   "source": "github_search",
-   "kind": "bounty_issue_unpriced",
-   "title": "dingyifeng123456-spec/vibewatch-monitoring-log: BLR test bounty \u2014 signed submission lifecycle smoke test",
-   "url": "https://github.com/dingyifeng123456-spec/vibewatch-monitoring-log/issues/5",
-   "at": "2026-10-09T00:35:56Z",
-   "extra": {
-    "comments": 0,
-    "amount_usd": null,
-    "author": "dingyifeng123456-spec",
     "labels": []
    }
   }
