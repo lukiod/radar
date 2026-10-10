@@ -1,6 +1,175 @@
 {
- "generated_at": "2026-10-10T00:11:48Z",
+ "generated_at": "2026-10-10T06:11:12Z",
  "events": [
+  {
+   "id": "https://github.com/abdulsalam-create/bounty-watch/issues/99",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "abdulsalam-create/bounty-watch: bounty-watch 2026-10-10: 0 new, 0 resumed, 2 watchlist changes",
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/99",
+   "at": "2026-10-10T05:57:46Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "github-actions[bot]",
+    "labels": [
+     "bounty-watch"
+    ]
+   }
+  },
+  {
+   "id": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/6",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "09sd-org/gh-bounty-org-issue-field-lab-20261008: GH_BOUNTY_OUTSIDER_CREATE_FIELD_TEST_20261010",
+   "url": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/6",
+   "at": "2026-10-10T05:53:56Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "miknutty2",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/5",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "09sd-org/gh-bounty-org-issue-field-lab-20261008: GH_BOUNTY_OWNER_CREATE_FIELD_CONTROL_20261010",
+   "url": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/5",
+   "at": "2026-10-10T05:53:28Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "09sd",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/4",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "09sd-org/gh-bounty-org-issue-field-lab-20261008: GH_BOUNTY_CREATE_FIELD_SCHEMA_20261010",
+   "url": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/4",
+   "at": "2026-10-10T05:52:02Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "miknutty2",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/3",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "09sd-org/gh-bounty-org-issue-field-lab-20261008: GH_BOUNTY_CREATE_FIELD_BASELINE_20261010",
+   "url": "https://github.com/09sd-org/gh-bounty-org-issue-field-lab-20261008/issues/3",
+   "at": "2026-10-10T05:51:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "miknutty2",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/Movalabs-crew/mova-store/issues/970",
+   "source": "github_search",
+   "kind": "bounty_issue",
+   "title": "Movalabs-crew/mova-store: Resolve the $1,295 advertised-bounty claim for 16 merged contributions",
+   "url": "https://github.com/Movalabs-crew/mova-store/issues/970",
+   "at": "2026-10-10T05:42:32Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": 1295,
+    "author": "iprasen",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/matocard/matocard/issues/104",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "matocard/matocard: app: passkey onboarding with Mera (required for the Agora bounty)",
+   "url": "https://github.com/matocard/matocard/issues/104",
+   "at": "2026-10-10T05:40:51Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "yeheskieltame",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/matocard/matocard/issues/103",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "matocard/matocard: envio bounty: demo video (\u2264 2 min) and the description",
+   "url": "https://github.com/matocard/matocard/issues/103",
+   "at": "2026-10-10T05:40:17Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "yeheskieltame",
+    "labels": []
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/issues/49307",
+   "source": "tenstorrent",
+   "kind": "tt_bounty",
+   "title": "tenstorrent/tt-metal#49307 [Bounty $2500] Command-R bringup using TTNN APIs",
+   "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
+   "at": "2026-10-10T05:27:05Z",
+   "extra": {
+    "state": "OPEN",
+    "author": "morhimanshu",
+    "assignees": [
+     "morhimanshu"
+    ],
+    "created": "2026-07-07T21:46:56Z"
+   }
+  },
+  {
+   "id": "https://github.com/tenstorrent/tt-metal/commit/27cad27903e683669543cda20980a76696c2fceb",
+   "source": "tenstorrent",
+   "kind": "tt_kernel_commit",
+   "title": "[Cleanup] Drop bare tt_metal from the JIT include path list (#60172)",
+   "url": "https://github.com/tenstorrent/tt-metal/commit/27cad27903e683669543cda20980a76696c2fceb",
+   "at": "2026-10-10T01:51:42Z",
+   "extra": {
+    "files": [
+     "tt_metal/hw/ckernels/blackhole/metal/llk_io/llk_io_pack.h",
+     "tt_metal/hw/ckernels/blackhole/metal/llk_io/llk_io_unpack.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_io/llk_io_pack.h",
+     "tt_metal/hw/ckernels/quasar/metal/llk_io/llk_io_unpack.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_io/llk_io_pack.h",
+     "tt_metal/hw/ckernels/wormhole_b0/metal/llk_io/llk_io_unpack.h",
+     "tt_metal/hw/inc/api/compute/experimental/semaphore.h",
+     "tt_metal/tt-llk/docs/performance_counters/hardware_reference.md",
+     "tt_metal/tt-llk/tools/include/perf_counters/README.md"
+    ],
+    "added": [],
+    "author": "blozano-tt"
+   }
+  },
+  {
+   "id": "https://github.com/Veyal/interseptor/issues/110",
+   "source": "github_search",
+   "kind": "bounty_issue_unpriced",
+   "title": "Veyal/interseptor: feat(reporting): Add white-label PDF export, Bug bounty & Jira templates, and 1-click PoC retesting",
+   "url": "https://github.com/Veyal/interseptor/issues/110",
+   "at": "2026-10-10T01:10:08Z",
+   "extra": {
+    "comments": 0,
+    "amount_usd": null,
+    "author": "Veyal",
+    "labels": [
+     "enhancement"
+    ]
+   }
+  },
   {
    "id": "https://github.com/abdulsalam-create/bounty-watch/issues/98",
    "source": "github_search",
@@ -27,22 +196,6 @@
    "extra": {
     "author": "jashansinghTT",
     "labels": []
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/49307",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#49307 [Bounty $2500] Command-R bringup using TTNN APIs",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
-   "at": "2026-10-09T22:02:52Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "morhimanshu",
-    "assignees": [
-     "morhimanshu"
-    ],
-    "created": "2026-07-07T21:46:56Z"
    }
   },
   {
@@ -237,7 +390,7 @@
    "url": "https://github.com/faizal97/realm-of-loner/issues/184",
    "at": "2026-10-09T18:13:22Z",
    "extra": {
-    "comments": 0,
+    "comments": 4,
     "amount_usd": null,
     "author": "faizal97",
     "labels": [
@@ -1904,7 +2057,7 @@
     "author": "faizal97",
     "labels": [
      "improvement",
-     "status: ready",
+     "status: in progress",
      "needs: developer"
     ]
    }
@@ -2225,7 +2378,7 @@
    "url": "https://github.com/SUSU-LABS/susu-web/issues/46",
    "at": "2026-10-09T09:04:27Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2309,7 +2462,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/49",
    "at": "2026-10-09T09:04:03Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2337,7 +2490,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/47",
    "at": "2026-10-09T09:03:58Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 60,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2351,7 +2504,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/46",
    "at": "2026-10-09T09:03:55Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 40,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2365,7 +2518,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/45",
    "at": "2026-10-09T09:03:49Z",
    "extra": {
-    "comments": 2,
+    "comments": 3,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2449,7 +2602,7 @@
    "url": "https://github.com/SUSU-LABS/susu-indexer/issues/36",
    "at": "2026-10-09T09:03:18Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 70,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2491,7 +2644,7 @@
    "url": "https://github.com/SUSU-LABS/susu-api/issues/61",
    "at": "2026-10-09T09:02:44Z",
    "extra": {
-    "comments": 3,
+    "comments": 5,
     "amount_usd": 60,
     "author": "GEEKYFOCUS",
     "labels": []
@@ -2650,7 +2803,7 @@
    "url": "https://github.com/Movalabs-crew/mova-store/issues/967",
    "at": "2026-10-09T04:50:20Z",
    "extra": {
-    "comments": 3,
+    "comments": 4,
     "amount_usd": 1190,
     "author": "woahwhattheheck",
     "labels": []
@@ -2678,7 +2831,7 @@
    "url": "https://github.com/liren001/eth-legion-nexus/issues/4",
    "at": "2026-10-09T01:44:45Z",
    "extra": {
-    "comments": 66,
+    "comments": 68,
     "amount_usd": 150,
     "author": "liren001",
     "labels": []
@@ -2706,7 +2859,7 @@
    "url": "https://github.com/anooeg100-gif/digital-store/issues/1",
    "at": "2026-10-09T00:51:02Z",
    "extra": {
-    "comments": 1,
+    "comments": 3,
     "amount_usd": null,
     "author": "anooeg100-gif",
     "labels": [
@@ -2805,22 +2958,6 @@
    }
   },
   {
-   "id": "https://github.com/tenstorrent/tt-metal/commit/c0b2affd083a216c04097a6e2b1d7201137319c4",
-   "source": "tenstorrent",
-   "kind": "tt_kernel_commit",
-   "title": "ttnn.sampling: 16-bit random threshold (tail tokens were never drawn) (#59759)",
-   "url": "https://github.com/tenstorrent/tt-metal/commit/c0b2affd083a216c04097a6e2b1d7201137319c4",
-   "at": "2026-10-09T00:24:06Z",
-   "extra": {
-    "files": [
-     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/compute/sampling.cpp",
-     "ttnn/cpp/ttnn/operations/reduction/sampling/device/kernels/dataflow/writer_interleaved.cpp"
-    ],
-    "added": [],
-    "author": "arginugaTT"
-   }
-  },
-  {
    "id": "https://github.com/tenstorrent/tt-metal/issues/58986",
    "source": "tenstorrent",
    "kind": "tt_bounty",
@@ -2834,22 +2971,6 @@
      "bvdyvncqr5-commits"
     ],
     "created": "2026-10-02T14:34:03Z"
-   }
-  },
-  {
-   "id": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "source": "tenstorrent",
-   "kind": "tt_bounty",
-   "title": "tenstorrent/tt-metal#56908 [Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-   "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
-   "at": "2026-10-08T03:27:10Z",
-   "extra": {
-    "state": "OPEN",
-    "author": "jberkowitzTT",
-    "assignees": [
-     "Adraca"
-    ],
-    "created": "2026-09-17T19:27:38Z"
    }
   }
  ],
